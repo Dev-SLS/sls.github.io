@@ -1,0 +1,1603 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Class NoteKeyRealmObject | SLS Documentation </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Class NoteKeyRealmObject | SLS Documentation ">
+      
+      
+      <link rel="icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="../">
+      
+      
+      
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../logo.svg" alt="SLS Documentation">
+            SLS Documentation
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="SLS.Common.DTO.RealmObjects.Dispatch.NoteKeyRealmObject">
+
+
+
+  <h1 id="SLS_Common_DTO_RealmObjects_Dispatch_NoteKeyRealmObject" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.NoteKeyRealmObject" class="text-break">
+Class NoteKeyRealmObject  
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="SLS.html">SLS</a>.<a class="xref" href="SLS.Common.html">Common</a>.<a class="xref" href="SLS.Common.DTO.html">DTO</a>.<a class="xref" href="SLS.Common.DTO.RealmObjects.html">RealmObjects</a>.<a class="xref" href="SLS.Common.DTO.RealmObjects.Dispatch.html">Dispatch</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>SLS.Common.DTO.RealmObjects.dll</dd></dl>
+  </div>
+
+  <div class="markdown summary"></div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Generated]
+[Woven(typeof(NoteKeyRealmObject.NoteKeyRealmObjectObjectHelper))]
+[Preserve(AllMembers = true)]
+public class NoteKeyRealmObject : IRealmObject, IRealmObjectBase, INotifyPropertyChanged, IReflectableType</code></pre>
+  </div>
+
+
+
+
+  <dl class="typelist inheritance">
+    <dt>Inheritance</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+      <div><span class="xref">NoteKeyRealmObject</span></div>
+    </dd>
+  </dl>
+
+  <dl class="typelist implements">
+    <dt>Implements</dt>
+    <dd>
+      <div><a class="xref" href="https://github.com/realm/realm-dotnet/blob/Dev/Realm/Realm/DatabaseTypes/IRealmObjectBase.cs">IRealmObject</a></div>
+      <div><a class="xref" href="https://github.com/realm/realm-dotnet/blob/Dev/Realm/Realm/DatabaseTypes/IRealmObjectBase.cs">IRealmObjectBase</a></div>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.componentmodel.inotifypropertychanged">INotifyPropertyChanged</a></div>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.reflection.ireflectabletype">IReflectableType</a></div>
+    </dd>
+  </dl>
+
+
+  <dl class="typelist inheritedMembers">
+    <dt>Inherited Members</dt>
+    <dd>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">object.Equals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gettype">object.GetType()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone">object.MemberwiseClone()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals">object.ReferenceEquals(object, object)</a>
+    </div>
+  </dd></dl>
+
+
+
+
+
+
+  <h2 class="section" id="fields">Fields
+</h2>
+
+
+
+  <h3 id="SLS_Common_DTO_RealmObjects_Dispatch_NoteKeyRealmObject_RealmSchema" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.NoteKeyRealmObject.RealmSchema">
+  RealmSchema
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Defines the schema for the <a class="xref" href="SLS.Common.DTO.RealmObjects.Dispatch.NoteKeyRealmObject.html">NoteKeyRealmObject</a> class.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obfuscation]
+public static ObjectSchema RealmSchema</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://github.com/realm/realm-dotnet/blob/Dev/Realm/Realm/Schema/ObjectSchema.cs">ObjectSchema</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="properties">Properties
+</h2>
+
+
+  <a id="SLS_Common_DTO_RealmObjects_Dispatch_NoteKeyRealmObject_Accout_" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.NoteKeyRealmObject.Accout*"></a>
+
+  <h3 id="SLS_Common_DTO_RealmObjects_Dispatch_NoteKeyRealmObject_Accout" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.NoteKeyRealmObject.Accout">
+  Accout
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO.RealmObjects/Dispatch/NoteKeyRealmObject.cs/#L54"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool? Accout { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_RealmObjects_Dispatch_NoteKeyRealmObject_BacklinksCount_" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.NoteKeyRealmObject.BacklinksCount*"></a>
+
+  <h3 id="SLS_Common_DTO_RealmObjects_Dispatch_NoteKeyRealmObject_BacklinksCount" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.NoteKeyRealmObject.BacklinksCount">
+  BacklinksCount
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Gets the number of objects referring to this one via either a to-one or to-many relationship.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[IgnoreDataMember]
+public int BacklinksCount { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd><p>The number of objects referring to this one.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_RealmObjects_Dispatch_NoteKeyRealmObject_Category_" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.NoteKeyRealmObject.Category*"></a>
+
+  <h3 id="SLS_Common_DTO_RealmObjects_Dispatch_NoteKeyRealmObject_Category" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.NoteKeyRealmObject.Category">
+  Category
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO.RealmObjects/Dispatch/NoteKeyRealmObject.cs/#L48"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string? Category { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_RealmObjects_Dispatch_NoteKeyRealmObject_Credit_" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.NoteKeyRealmObject.Credit*"></a>
+
+  <h3 id="SLS_Common_DTO_RealmObjects_Dispatch_NoteKeyRealmObject_Credit" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.NoteKeyRealmObject.Credit">
+  Credit
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO.RealmObjects/Dispatch/NoteKeyRealmObject.cs/#L53"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool? Credit { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_RealmObjects_Dispatch_NoteKeyRealmObject_DataType_" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.NoteKeyRealmObject.DataType*"></a>
+
+  <h3 id="SLS_Common_DTO_RealmObjects_Dispatch_NoteKeyRealmObject_DataType" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.NoteKeyRealmObject.DataType">
+  DataType
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO.RealmObjects/Dispatch/NoteKeyRealmObject.cs/#L45"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int? DataType { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_RealmObjects_Dispatch_NoteKeyRealmObject_Description_" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.NoteKeyRealmObject.Description*"></a>
+
+  <h3 id="SLS_Common_DTO_RealmObjects_Dispatch_NoteKeyRealmObject_Description" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.NoteKeyRealmObject.Description">
+  Description
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO.RealmObjects/Dispatch/NoteKeyRealmObject.cs/#L43"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string? Description { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_RealmObjects_Dispatch_NoteKeyRealmObject_Disposition_" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.NoteKeyRealmObject.Disposition*"></a>
+
+  <h3 id="SLS_Common_DTO_RealmObjects_Dispatch_NoteKeyRealmObject_Disposition" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.NoteKeyRealmObject.Disposition">
+  Disposition
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO.RealmObjects/Dispatch/NoteKeyRealmObject.cs/#L55"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool? Disposition { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_RealmObjects_Dispatch_NoteKeyRealmObject_DynamicApi_" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.NoteKeyRealmObject.DynamicApi*"></a>
+
+  <h3 id="SLS_Common_DTO_RealmObjects_Dispatch_NoteKeyRealmObject_DynamicApi" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.NoteKeyRealmObject.DynamicApi">
+  DynamicApi
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Gets an object encompassing the dynamic API for this Realm object instance.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[IgnoreDataMember]
+public DynamicObjectApi DynamicApi { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://github.com/realm/realm-dotnet/blob/Dev/Realm/Realm/Dynamic/DynamicObjectApi.cs">DynamicObjectApi</a></dt>
+    <dd><p>A <span class="xref">Realms.Dynamic</span> instance that wraps this Realm object.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_RealmObjects_Dispatch_NoteKeyRealmObject_ExecutePrograms_" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.NoteKeyRealmObject.ExecutePrograms*"></a>
+
+  <h3 id="SLS_Common_DTO_RealmObjects_Dispatch_NoteKeyRealmObject_ExecutePrograms" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.NoteKeyRealmObject.ExecutePrograms">
+  ExecutePrograms
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO.RealmObjects/Dispatch/NoteKeyRealmObject.cs/#L64"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool? ExecutePrograms { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_RealmObjects_Dispatch_NoteKeyRealmObject_FreightList_" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.NoteKeyRealmObject.FreightList*"></a>
+
+  <h3 id="SLS_Common_DTO_RealmObjects_Dispatch_NoteKeyRealmObject_FreightList" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.NoteKeyRealmObject.FreightList">
+  FreightList
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO.RealmObjects/Dispatch/NoteKeyRealmObject.cs/#L51"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool? FreightList { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_RealmObjects_Dispatch_NoteKeyRealmObject_Id_" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.NoteKeyRealmObject.Id*"></a>
+
+  <h3 id="SLS_Common_DTO_RealmObjects_Dispatch_NoteKeyRealmObject_Id" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.NoteKeyRealmObject.Id">
+  Id
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO.RealmObjects/Dispatch/NoteKeyRealmObject.cs/#L29"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[PrimaryKey]
+public long Id { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_RealmObjects_Dispatch_NoteKeyRealmObject_Invoice_" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.NoteKeyRealmObject.Invoice*"></a>
+
+  <h3 id="SLS_Common_DTO_RealmObjects_Dispatch_NoteKeyRealmObject_Invoice" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.NoteKeyRealmObject.Invoice">
+  Invoice
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO.RealmObjects/Dispatch/NoteKeyRealmObject.cs/#L52"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool? Invoice { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_RealmObjects_Dispatch_NoteKeyRealmObject_IsActive_" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.NoteKeyRealmObject.IsActive*"></a>
+
+  <h3 id="SLS_Common_DTO_RealmObjects_Dispatch_NoteKeyRealmObject_IsActive" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.NoteKeyRealmObject.IsActive">
+  IsActive
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO.RealmObjects/Dispatch/NoteKeyRealmObject.cs/#L57"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool? IsActive { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_RealmObjects_Dispatch_NoteKeyRealmObject_IsActiveForApp_" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.NoteKeyRealmObject.IsActiveForApp*"></a>
+
+  <h3 id="SLS_Common_DTO_RealmObjects_Dispatch_NoteKeyRealmObject_IsActiveForApp" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.NoteKeyRealmObject.IsActiveForApp">
+  IsActiveForApp
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO.RealmObjects/Dispatch/NoteKeyRealmObject.cs/#L62"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool? IsActiveForApp { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_RealmObjects_Dispatch_NoteKeyRealmObject_IsDeliveryDate_" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.NoteKeyRealmObject.IsDeliveryDate*"></a>
+
+  <h3 id="SLS_Common_DTO_RealmObjects_Dispatch_NoteKeyRealmObject_IsDeliveryDate" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.NoteKeyRealmObject.IsDeliveryDate">
+  IsDeliveryDate
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO.RealmObjects/Dispatch/NoteKeyRealmObject.cs/#L46"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool? IsDeliveryDate { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_RealmObjects_Dispatch_NoteKeyRealmObject_IsDespatchAdvice_" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.NoteKeyRealmObject.IsDespatchAdvice*"></a>
+
+  <h3 id="SLS_Common_DTO_RealmObjects_Dispatch_NoteKeyRealmObject_IsDespatchAdvice" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.NoteKeyRealmObject.IsDespatchAdvice">
+  IsDespatchAdvice
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO.RealmObjects/Dispatch/NoteKeyRealmObject.cs/#L60"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool? IsDespatchAdvice { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_RealmObjects_Dispatch_NoteKeyRealmObject_IsDespatchAdvicePickUp_" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.NoteKeyRealmObject.IsDespatchAdvicePickUp*"></a>
+
+  <h3 id="SLS_Common_DTO_RealmObjects_Dispatch_NoteKeyRealmObject_IsDespatchAdvicePickUp" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.NoteKeyRealmObject.IsDespatchAdvicePickUp">
+  IsDespatchAdvicePickUp
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO.RealmObjects/Dispatch/NoteKeyRealmObject.cs/#L61"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool? IsDespatchAdvicePickUp { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_RealmObjects_Dispatch_NoteKeyRealmObject_IsFrozen_" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.NoteKeyRealmObject.IsFrozen*"></a>
+
+  <h3 id="SLS_Common_DTO_RealmObjects_Dispatch_NoteKeyRealmObject_IsFrozen" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.NoteKeyRealmObject.IsFrozen">
+  IsFrozen
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Gets a value indicating whether this object is frozen. Frozen objects are immutable
+and will not update when writes are made to the Realm. Unlike live objects, frozen
+objects can be used across threads.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[IgnoreDataMember]
+public bool IsFrozen { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd><p><code>true</code> if the object is frozen and immutable; <code>false</code> otherwise.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+  <dl class="typelist seealso">
+    <dt>See Also</dt>
+    <dd>
+    <div><span class="xref">Freeze</span>&lt;T&gt;(T)</div>
+    </dd>
+  </dl>
+
+
+  <a id="SLS_Common_DTO_RealmObjects_Dispatch_NoteKeyRealmObject_IsHazardNote_" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.NoteKeyRealmObject.IsHazardNote*"></a>
+
+  <h3 id="SLS_Common_DTO_RealmObjects_Dispatch_NoteKeyRealmObject_IsHazardNote" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.NoteKeyRealmObject.IsHazardNote">
+  IsHazardNote
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO.RealmObjects/Dispatch/NoteKeyRealmObject.cs/#L56"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool? IsHazardNote { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_RealmObjects_Dispatch_NoteKeyRealmObject_IsManaged_" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.NoteKeyRealmObject.IsManaged*"></a>
+
+  <h3 id="SLS_Common_DTO_RealmObjects_Dispatch_NoteKeyRealmObject_IsManaged" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.NoteKeyRealmObject.IsManaged">
+  IsManaged
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Gets a value indicating whether the object has been associated with a Realm, either at creation or via
+<a class="xref" href="https://github.com/realm/realm-dotnet/blob/Dev/Realm/Realm/Realm.cs">Add&lt;T&gt;(T, bool)</a>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[IgnoreDataMember]
+public bool IsManaged { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd><p><code>true</code> if object belongs to a Realm; <code>false</code> if standalone.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_RealmObjects_Dispatch_NoteKeyRealmObject_IsReference_" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.NoteKeyRealmObject.IsReference*"></a>
+
+  <h3 id="SLS_Common_DTO_RealmObjects_Dispatch_NoteKeyRealmObject_IsReference" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.NoteKeyRealmObject.IsReference">
+  IsReference
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO.RealmObjects/Dispatch/NoteKeyRealmObject.cs/#L66"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool? IsReference { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_RealmObjects_Dispatch_NoteKeyRealmObject_IsTelematicOrderSupplement_" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.NoteKeyRealmObject.IsTelematicOrderSupplement*"></a>
+
+  <h3 id="SLS_Common_DTO_RealmObjects_Dispatch_NoteKeyRealmObject_IsTelematicOrderSupplement" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.NoteKeyRealmObject.IsTelematicOrderSupplement">
+  IsTelematicOrderSupplement
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO.RealmObjects/Dispatch/NoteKeyRealmObject.cs/#L47"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool? IsTelematicOrderSupplement { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_RealmObjects_Dispatch_NoteKeyRealmObject_IsValid_" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.NoteKeyRealmObject.IsValid*"></a>
+
+  <h3 id="SLS_Common_DTO_RealmObjects_Dispatch_NoteKeyRealmObject_IsValid" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.NoteKeyRealmObject.IsValid">
+  IsValid
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Gets a value indicating whether this object is managed and represents a row in the database.
+If a managed object has been removed from the Realm, it is no longer valid and accessing properties on it
+will throw an exception.
+Unmanaged objects are always considered valid.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[IgnoreDataMember]
+public bool IsValid { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd><p><code>true</code> if managed and part of the Realm or unmanaged; <code>false</code> if managed but deleted.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_RealmObjects_Dispatch_NoteKeyRealmObject_Key_" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.NoteKeyRealmObject.Key*"></a>
+
+  <h3 id="SLS_Common_DTO_RealmObjects_Dispatch_NoteKeyRealmObject_Key" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.NoteKeyRealmObject.Key">
+  Key
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO.RealmObjects/Dispatch/NoteKeyRealmObject.cs/#L42"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string? Key { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_RealmObjects_Dispatch_NoteKeyRealmObject_MaxLength_" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.NoteKeyRealmObject.MaxLength*"></a>
+
+  <h3 id="SLS_Common_DTO_RealmObjects_Dispatch_NoteKeyRealmObject_MaxLength" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.NoteKeyRealmObject.MaxLength">
+  MaxLength
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO.RealmObjects/Dispatch/NoteKeyRealmObject.cs/#L44"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int? MaxLength { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_RealmObjects_Dispatch_NoteKeyRealmObject_Note_Key_" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.NoteKeyRealmObject.Note_Key*"></a>
+
+  <h3 id="SLS_Common_DTO_RealmObjects_Dispatch_NoteKeyRealmObject_Note_Key" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.NoteKeyRealmObject.Note_Key">
+  Note_Key
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO.RealmObjects/Dispatch/NoteKeyRealmObject.cs/#L76"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Backlink(&quot;Key&quot;)]
+public IQueryable&lt;NoteRealmObject&gt; Note_Key { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.linq.iqueryable-1">IQueryable</a>&lt;<a class="xref" href="SLS.Common.DTO.RealmObjects.Dispatch.NoteRealmObject.html">NoteRealmObject</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_RealmObjects_Dispatch_NoteKeyRealmObject_ObjectSchema_" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.NoteKeyRealmObject.ObjectSchema*"></a>
+
+  <h3 id="SLS_Common_DTO_RealmObjects_Dispatch_NoteKeyRealmObject_ObjectSchema" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.NoteKeyRealmObject.ObjectSchema">
+  ObjectSchema
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Gets the <a class="xref" href="https://github.com/realm/realm-dotnet/blob/Dev/Realm/Realm/Schema/ObjectSchema.cs">ObjectSchema</a> instance that describes how the <a class="xref" href="https://github.com/realm/realm-dotnet/blob/Dev/Realm/Realm/DatabaseTypes/IRealmObjectBase.cs">Realm</a> this object belongs to sees it.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[IgnoreDataMember]
+public ObjectSchema ObjectSchema { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://github.com/realm/realm-dotnet/blob/Dev/Realm/Realm/Schema/ObjectSchema.cs">ObjectSchema</a></dt>
+    <dd><p>A collection of properties describing the underlying schema of this object.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_RealmObjects_Dispatch_NoteKeyRealmObject_PrintShippingOrder_" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.NoteKeyRealmObject.PrintShippingOrder*"></a>
+
+  <h3 id="SLS_Common_DTO_RealmObjects_Dispatch_NoteKeyRealmObject_PrintShippingOrder" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.NoteKeyRealmObject.PrintShippingOrder">
+  PrintShippingOrder
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO.RealmObjects/Dispatch/NoteKeyRealmObject.cs/#L49"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool? PrintShippingOrder { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_RealmObjects_Dispatch_NoteKeyRealmObject_Realm_" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.NoteKeyRealmObject.Realm*"></a>
+
+  <h3 id="SLS_Common_DTO_RealmObjects_Dispatch_NoteKeyRealmObject_Realm" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.NoteKeyRealmObject.Realm">
+  Realm
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Gets the <a class="xref" href="https://github.com/realm/realm-dotnet/blob/Dev/Realm/Realm/DatabaseTypes/IRealmObjectBase.cs">Realm</a> instance this object belongs to, or <code>null</code> if it is unmanaged.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[IgnoreDataMember]
+public Realm? Realm { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://github.com/realm/realm-dotnet/blob/Dev/Realm/Realm/Realm.cs">Realm</a></dt>
+    <dd><p>The <a class="xref" href="https://github.com/realm/realm-dotnet/blob/Dev/Realm/Realm/DatabaseTypes/IRealmObjectBase.cs">Realm</a> instance this object belongs to.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_RealmObjects_Dispatch_NoteKeyRealmObject_ShortText_" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.NoteKeyRealmObject.ShortText*"></a>
+
+  <h3 id="SLS_Common_DTO_RealmObjects_Dispatch_NoteKeyRealmObject_ShortText" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.NoteKeyRealmObject.ShortText">
+  ShortText
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO.RealmObjects/Dispatch/NoteKeyRealmObject.cs/#L63"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string? ShortText { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_RealmObjects_Dispatch_NoteKeyRealmObject_ShowInWeb_" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.NoteKeyRealmObject.ShowInWeb*"></a>
+
+  <h3 id="SLS_Common_DTO_RealmObjects_Dispatch_NoteKeyRealmObject_ShowInWeb" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.NoteKeyRealmObject.ShowInWeb">
+  ShowInWeb
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO.RealmObjects/Dispatch/NoteKeyRealmObject.cs/#L65"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool? ShowInWeb { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_RealmObjects_Dispatch_NoteKeyRealmObject_TransferOrder_" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.NoteKeyRealmObject.TransferOrder*"></a>
+
+  <h3 id="SLS_Common_DTO_RealmObjects_Dispatch_NoteKeyRealmObject_TransferOrder" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.NoteKeyRealmObject.TransferOrder">
+  TransferOrder
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO.RealmObjects/Dispatch/NoteKeyRealmObject.cs/#L50"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool? TransferOrder { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_RealmObjects_Dispatch_NoteKeyRealmObject_UsedForBusinessTypeIDs_" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.NoteKeyRealmObject.UsedForBusinessTypeIDs*"></a>
+
+  <h3 id="SLS_Common_DTO_RealmObjects_Dispatch_NoteKeyRealmObject_UsedForBusinessTypeIDs" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.NoteKeyRealmObject.UsedForBusinessTypeIDs">
+  UsedForBusinessTypeIDs
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO.RealmObjects/Dispatch/NoteKeyRealmObject.cs/#L58"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string? UsedForBusinessTypeIDs { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_RealmObjects_Dispatch_NoteKeyRealmObject_UsedForBusinessTypesOrderTypes_" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.NoteKeyRealmObject.UsedForBusinessTypesOrderTypes*"></a>
+
+  <h3 id="SLS_Common_DTO_RealmObjects_Dispatch_NoteKeyRealmObject_UsedForBusinessTypesOrderTypes" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.NoteKeyRealmObject.UsedForBusinessTypesOrderTypes">
+  UsedForBusinessTypesOrderTypes
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO.RealmObjects/Dispatch/NoteKeyRealmObject.cs/#L59"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string? UsedForBusinessTypesOrderTypes { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_RealmObjects_Dispatch_NoteKeyRealmObject_Version_" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.NoteKeyRealmObject.Version*"></a>
+
+  <h3 id="SLS_Common_DTO_RealmObjects_Dispatch_NoteKeyRealmObject_Version" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.NoteKeyRealmObject.Version">
+  Version
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO.RealmObjects/Dispatch/NoteKeyRealmObject.cs/#L31"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public long Version { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h2 class="section" id="methods">Methods
+</h2>
+
+
+  <a id="SLS_Common_DTO_RealmObjects_Dispatch_NoteKeyRealmObject_Equals_" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.NoteKeyRealmObject.Equals*"></a>
+
+  <h3 id="SLS_Common_DTO_RealmObjects_Dispatch_NoteKeyRealmObject_Equals_System_Object_" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.NoteKeyRealmObject.Equals(System.Object)">
+  Equals(object?)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Determines whether the specified object is equal to the current object.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override bool Equals(object? obj)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>obj</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></dt>
+    <dd><p>The object to compare with the current object.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd><p><a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">true</a> if the specified object  is equal to the current object; otherwise, <a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">false</a>.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_RealmObjects_Dispatch_NoteKeyRealmObject_GetHashCode_" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.NoteKeyRealmObject.GetHashCode*"></a>
+
+  <h3 id="SLS_Common_DTO_RealmObjects_Dispatch_NoteKeyRealmObject_GetHashCode" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.NoteKeyRealmObject.GetHashCode">
+  GetHashCode()
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Serves as the default hash function.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override int GetHashCode()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd><p>A hash code for the current object.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_RealmObjects_Dispatch_NoteKeyRealmObject_ToString_" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.NoteKeyRealmObject.ToString*"></a>
+
+  <h3 id="SLS_Common_DTO_RealmObjects_Dispatch_NoteKeyRealmObject_ToString" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.NoteKeyRealmObject.ToString">
+  ToString()
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Returns a string that represents the current object.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override string? ToString()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>A string that represents the current object.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="events">Events
+</h2>
+
+
+
+  <h3 id="SLS_Common_DTO_RealmObjects_Dispatch_NoteKeyRealmObject_PropertyChanged" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.NoteKeyRealmObject.PropertyChanged">
+  PropertyChanged
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Occurs when a property value changes.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public event PropertyChangedEventHandler? PropertyChanged</code></pre>
+  </div>
+
+
+
+
+
+
+  <h4 class="section">Event Type</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.componentmodel.propertychangedeventhandler">PropertyChangedEventHandler</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+  <h2 class="section" id="operators">Operators
+</h2>
+
+
+  <a id="SLS_Common_DTO_RealmObjects_Dispatch_NoteKeyRealmObject_op_Explicit_" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.NoteKeyRealmObject.op_Explicit*"></a>
+
+  <h3 id="SLS_Common_DTO_RealmObjects_Dispatch_NoteKeyRealmObject_op_Explicit_Realms_RealmValue__SLS_Common_DTO_RealmObjects_Dispatch_NoteKeyRealmObject" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.NoteKeyRealmObject.op_Explicit(Realms.RealmValue)~SLS.Common.DTO.RealmObjects.Dispatch.NoteKeyRealmObject">
+  explicit operator NoteKeyRealmObject?(RealmValue)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Converts a <a class="xref" href="https://github.com/realm/realm-dotnet/blob/Dev/Realm/Realm/DatabaseTypes/RealmValue.cs">RealmValue</a> to <a class="xref" href="SLS.Common.DTO.RealmObjects.Dispatch.NoteKeyRealmObject.html">NoteKeyRealmObject</a>. Equivalent to <a class="xref" href="https://github.com/realm/realm-dotnet/blob/Dev/Realm/Realm/DatabaseTypes/RealmValue.cs">AsNullableRealmObject&lt;T&gt;()</a>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static explicit operator NoteKeyRealmObject?(RealmValue val)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>val</code> <a class="xref" href="https://github.com/realm/realm-dotnet/blob/Dev/Realm/Realm/DatabaseTypes/RealmValue.cs">RealmValue</a></dt>
+    <dd><p>The <a class="xref" href="https://github.com/realm/realm-dotnet/blob/Dev/Realm/Realm/DatabaseTypes/RealmValue.cs">RealmValue</a> to convert.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="SLS.Common.DTO.RealmObjects.Dispatch.NoteKeyRealmObject.html">NoteKeyRealmObject</a></dt>
+    <dd><p>The <a class="xref" href="SLS.Common.DTO.RealmObjects.Dispatch.NoteKeyRealmObject.html">NoteKeyRealmObject</a> stored in the <a class="xref" href="https://github.com/realm/realm-dotnet/blob/Dev/Realm/Realm/DatabaseTypes/RealmValue.cs">RealmValue</a>.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_RealmObjects_Dispatch_NoteKeyRealmObject_op_Implicit_" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.NoteKeyRealmObject.op_Implicit*"></a>
+
+  <h3 id="SLS_Common_DTO_RealmObjects_Dispatch_NoteKeyRealmObject_op_Implicit_SLS_Common_DTO_RealmObjects_Dispatch_NoteKeyRealmObject__Realms_QueryArgument" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.NoteKeyRealmObject.op_Implicit(SLS.Common.DTO.RealmObjects.Dispatch.NoteKeyRealmObject)~Realms.QueryArgument">
+  implicit operator QueryArgument(NoteKeyRealmObject?)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Implicitly constructs a <a class="xref" href="https://github.com/realm/realm-dotnet/blob/Dev/Realm/Realm/DatabaseTypes/QueryArgument.cs">QueryArgument</a> from <a class="xref" href="SLS.Common.DTO.RealmObjects.Dispatch.NoteKeyRealmObject.html">NoteKeyRealmObject</a>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static implicit operator QueryArgument(NoteKeyRealmObject? val)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>val</code> <a class="xref" href="SLS.Common.DTO.RealmObjects.Dispatch.NoteKeyRealmObject.html">NoteKeyRealmObject</a></dt>
+    <dd><p>The value to store in the <a class="xref" href="https://github.com/realm/realm-dotnet/blob/Dev/Realm/Realm/DatabaseTypes/QueryArgument.cs">QueryArgument</a>.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://github.com/realm/realm-dotnet/blob/Dev/Realm/Realm/DatabaseTypes/QueryArgument.cs">QueryArgument</a></dt>
+    <dd><p>A <a class="xref" href="https://github.com/realm/realm-dotnet/blob/Dev/Realm/Realm/DatabaseTypes/QueryArgument.cs">QueryArgument</a> containing the supplied <code class="paramref">val</code>.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_RealmObjects_Dispatch_NoteKeyRealmObject_op_Implicit_" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.NoteKeyRealmObject.op_Implicit*"></a>
+
+  <h3 id="SLS_Common_DTO_RealmObjects_Dispatch_NoteKeyRealmObject_op_Implicit_SLS_Common_DTO_RealmObjects_Dispatch_NoteKeyRealmObject__Realms_RealmValue" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.NoteKeyRealmObject.op_Implicit(SLS.Common.DTO.RealmObjects.Dispatch.NoteKeyRealmObject)~Realms.RealmValue">
+  implicit operator RealmValue(NoteKeyRealmObject?)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Implicitly constructs a <a class="xref" href="https://github.com/realm/realm-dotnet/blob/Dev/Realm/Realm/DatabaseTypes/RealmValue.cs">RealmValue</a> from <a class="xref" href="SLS.Common.DTO.RealmObjects.Dispatch.NoteKeyRealmObject.html">NoteKeyRealmObject</a>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static implicit operator RealmValue(NoteKeyRealmObject? val)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>val</code> <a class="xref" href="SLS.Common.DTO.RealmObjects.Dispatch.NoteKeyRealmObject.html">NoteKeyRealmObject</a></dt>
+    <dd><p>The value to store in the <a class="xref" href="https://github.com/realm/realm-dotnet/blob/Dev/Realm/Realm/DatabaseTypes/RealmValue.cs">RealmValue</a>.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://github.com/realm/realm-dotnet/blob/Dev/Realm/Realm/DatabaseTypes/RealmValue.cs">RealmValue</a></dt>
+    <dd><p>A <a class="xref" href="https://github.com/realm/realm-dotnet/blob/Dev/Realm/Realm/DatabaseTypes/RealmValue.cs">RealmValue</a> containing the supplied <code class="paramref">val</code>.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+</article>
+
+        <div class="contribution d-print-none">
+        </div>
+
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,971 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Class WarehouseZoneRulesDTO | SLS Documentation </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Class WarehouseZoneRulesDTO | SLS Documentation ">
+      
+      
+      <link rel="icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="../">
+      
+      
+      <meta name="docfx:docurl" content="https://github.com/Dev-SLS/dev/new/Dev/apiSpec/new?filename=SLS_Common_DTO_WareHouse_WarehouseZoneRulesDTO.md&amp;value=---%0Auid%3A%20SLS.Common.DTO.WareHouse.WarehouseZoneRulesDTO%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../logo.svg" alt="SLS Documentation">
+            SLS Documentation
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="SLS.Common.DTO.WareHouse.WarehouseZoneRulesDTO">
+
+
+
+  <h1 id="SLS_Common_DTO_WareHouse_WarehouseZoneRulesDTO" data-uid="SLS.Common.DTO.WareHouse.WarehouseZoneRulesDTO" class="text-break">
+Class WarehouseZoneRulesDTO  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/WareHouse/WarehouseZoneRulesDTO.cs/#L28"><i class="bi bi-code-slash"></i></a>
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="SLS.html">SLS</a>.<a class="xref" href="SLS.Common.html">Common</a>.<a class="xref" href="SLS.Common.DTO.html">DTO</a>.<a class="xref" href="SLS.Common.DTO.WareHouse.html">WareHouse</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>SLS.Common.DTO.dll</dd></dl>
+  </div>
+
+  <div class="markdown summary"></div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Serializable]
+[DataContract(IsReference = true)]
+public class WarehouseZoneRulesDTO : IBusinessDTO, IDTO</code></pre>
+  </div>
+
+
+
+
+  <dl class="typelist inheritance">
+    <dt>Inheritance</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+      <div><span class="xref">WarehouseZoneRulesDTO</span></div>
+    </dd>
+  </dl>
+
+  <dl class="typelist implements">
+    <dt>Implements</dt>
+    <dd>
+      <div><a class="xref" href="SLS.Common.Interfaces.IBusinessDTO.html">IBusinessDTO</a></div>
+      <div><a class="xref" href="SLS.Common.Interfaces.IDTO.html">IDTO</a></div>
+    </dd>
+  </dl>
+
+
+  <dl class="typelist inheritedMembers">
+    <dt>Inherited Members</dt>
+    <dd>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)">object.Equals(object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">object.Equals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gethashcode">object.GetHashCode()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gettype">object.GetType()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone">object.MemberwiseClone()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals">object.ReferenceEquals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.tostring">object.ToString()</a>
+    </div>
+  </dd></dl>
+
+
+
+
+
+
+  <h2 class="section" id="properties">Properties
+</h2>
+
+
+  <a id="SLS_Common_DTO_WareHouse_WarehouseZoneRulesDTO_AttributeName_" data-uid="SLS.Common.DTO.WareHouse.WarehouseZoneRulesDTO.AttributeName*"></a>
+
+  <h3 id="SLS_Common_DTO_WareHouse_WarehouseZoneRulesDTO_AttributeName" data-uid="SLS.Common.DTO.WareHouse.WarehouseZoneRulesDTO.AttributeName">
+  AttributeName
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/WareHouse/WarehouseZoneRulesDTO.cs/#L61"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;AttributeName&quot;)]
+public virtual string AttributeName { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_WareHouse_WarehouseZoneRulesDTO_Company_ID_" data-uid="SLS.Common.DTO.WareHouse.WarehouseZoneRulesDTO.Company_ID*"></a>
+
+  <h3 id="SLS_Common_DTO_WareHouse_WarehouseZoneRulesDTO_Company_ID" data-uid="SLS.Common.DTO.WareHouse.WarehouseZoneRulesDTO.Company_ID">
+  Company_ID
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/WareHouse/WarehouseZoneRulesDTO.cs/#L41"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public long? Company_ID { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_WareHouse_WarehouseZoneRulesDTO_Department_ID_" data-uid="SLS.Common.DTO.WareHouse.WarehouseZoneRulesDTO.Department_ID*"></a>
+
+  <h3 id="SLS_Common_DTO_WareHouse_WarehouseZoneRulesDTO_Department_ID" data-uid="SLS.Common.DTO.WareHouse.WarehouseZoneRulesDTO.Department_ID">
+  Department_ID
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/WareHouse/WarehouseZoneRulesDTO.cs/#L43"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public long? Department_ID { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_WareHouse_WarehouseZoneRulesDTO_Division_ID_" data-uid="SLS.Common.DTO.WareHouse.WarehouseZoneRulesDTO.Division_ID*"></a>
+
+  <h3 id="SLS_Common_DTO_WareHouse_WarehouseZoneRulesDTO_Division_ID" data-uid="SLS.Common.DTO.WareHouse.WarehouseZoneRulesDTO.Division_ID">
+  Division_ID
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/WareHouse/WarehouseZoneRulesDTO.cs/#L45"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public long? Division_ID { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_WareHouse_WarehouseZoneRulesDTO_FiscalYear_ID_" data-uid="SLS.Common.DTO.WareHouse.WarehouseZoneRulesDTO.FiscalYear_ID*"></a>
+
+  <h3 id="SLS_Common_DTO_WareHouse_WarehouseZoneRulesDTO_FiscalYear_ID" data-uid="SLS.Common.DTO.WareHouse.WarehouseZoneRulesDTO.FiscalYear_ID">
+  FiscalYear_ID
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/WareHouse/WarehouseZoneRulesDTO.cs/#L44"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public long? FiscalYear_ID { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_WareHouse_WarehouseZoneRulesDTO_Id_" data-uid="SLS.Common.DTO.WareHouse.WarehouseZoneRulesDTO.Id*"></a>
+
+  <h3 id="SLS_Common_DTO_WareHouse_WarehouseZoneRulesDTO_Id" data-uid="SLS.Common.DTO.WareHouse.WarehouseZoneRulesDTO.Id">
+  Id
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/WareHouse/WarehouseZoneRulesDTO.cs/#L34"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;ID&quot;)]
+public long Id { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_WareHouse_WarehouseZoneRulesDTO_Message_" data-uid="SLS.Common.DTO.WareHouse.WarehouseZoneRulesDTO.Message*"></a>
+
+  <h3 id="SLS_Common_DTO_WareHouse_WarehouseZoneRulesDTO_Message" data-uid="SLS.Common.DTO.WareHouse.WarehouseZoneRulesDTO.Message">
+  Message
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/WareHouse/WarehouseZoneRulesDTO.cs/#L69"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;Message&quot;)]
+public virtual string? Message { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_WareHouse_WarehouseZoneRulesDTO_OptionalBool1_" data-uid="SLS.Common.DTO.WareHouse.WarehouseZoneRulesDTO.OptionalBool1*"></a>
+
+  <h3 id="SLS_Common_DTO_WareHouse_WarehouseZoneRulesDTO_OptionalBool1" data-uid="SLS.Common.DTO.WareHouse.WarehouseZoneRulesDTO.OptionalBool1">
+  OptionalBool1
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/WareHouse/WarehouseZoneRulesDTO.cs/#L105"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;OptionalBool1&quot;)]
+public virtual bool? OptionalBool1 { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_WareHouse_WarehouseZoneRulesDTO_OptionalBool2_" data-uid="SLS.Common.DTO.WareHouse.WarehouseZoneRulesDTO.OptionalBool2*"></a>
+
+  <h3 id="SLS_Common_DTO_WareHouse_WarehouseZoneRulesDTO_OptionalBool2" data-uid="SLS.Common.DTO.WareHouse.WarehouseZoneRulesDTO.OptionalBool2">
+  OptionalBool2
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/WareHouse/WarehouseZoneRulesDTO.cs/#L109"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;OptionalBool2&quot;)]
+public virtual bool? OptionalBool2 { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_WareHouse_WarehouseZoneRulesDTO_OptionalBool3_" data-uid="SLS.Common.DTO.WareHouse.WarehouseZoneRulesDTO.OptionalBool3*"></a>
+
+  <h3 id="SLS_Common_DTO_WareHouse_WarehouseZoneRulesDTO_OptionalBool3" data-uid="SLS.Common.DTO.WareHouse.WarehouseZoneRulesDTO.OptionalBool3">
+  OptionalBool3
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/WareHouse/WarehouseZoneRulesDTO.cs/#L113"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;OptionalBool3&quot;)]
+public virtual bool? OptionalBool3 { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_WareHouse_WarehouseZoneRulesDTO_OptionalNum1_" data-uid="SLS.Common.DTO.WareHouse.WarehouseZoneRulesDTO.OptionalNum1*"></a>
+
+  <h3 id="SLS_Common_DTO_WareHouse_WarehouseZoneRulesDTO_OptionalNum1" data-uid="SLS.Common.DTO.WareHouse.WarehouseZoneRulesDTO.OptionalNum1">
+  OptionalNum1
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/WareHouse/WarehouseZoneRulesDTO.cs/#L93"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;OptionalNum1&quot;)]
+public virtual double? OptionalNum1 { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_WareHouse_WarehouseZoneRulesDTO_OptionalNum2_" data-uid="SLS.Common.DTO.WareHouse.WarehouseZoneRulesDTO.OptionalNum2*"></a>
+
+  <h3 id="SLS_Common_DTO_WareHouse_WarehouseZoneRulesDTO_OptionalNum2" data-uid="SLS.Common.DTO.WareHouse.WarehouseZoneRulesDTO.OptionalNum2">
+  OptionalNum2
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/WareHouse/WarehouseZoneRulesDTO.cs/#L97"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;OptionalNum2&quot;)]
+public virtual double? OptionalNum2 { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_WareHouse_WarehouseZoneRulesDTO_OptionalNum3_" data-uid="SLS.Common.DTO.WareHouse.WarehouseZoneRulesDTO.OptionalNum3*"></a>
+
+  <h3 id="SLS_Common_DTO_WareHouse_WarehouseZoneRulesDTO_OptionalNum3" data-uid="SLS.Common.DTO.WareHouse.WarehouseZoneRulesDTO.OptionalNum3">
+  OptionalNum3
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/WareHouse/WarehouseZoneRulesDTO.cs/#L101"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;OptionalNum3&quot;)]
+public virtual double? OptionalNum3 { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_WareHouse_WarehouseZoneRulesDTO_OptionalString1_" data-uid="SLS.Common.DTO.WareHouse.WarehouseZoneRulesDTO.OptionalString1*"></a>
+
+  <h3 id="SLS_Common_DTO_WareHouse_WarehouseZoneRulesDTO_OptionalString1" data-uid="SLS.Common.DTO.WareHouse.WarehouseZoneRulesDTO.OptionalString1">
+  OptionalString1
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/WareHouse/WarehouseZoneRulesDTO.cs/#L81"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;OptionalString1&quot;)]
+public virtual string? OptionalString1 { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_WareHouse_WarehouseZoneRulesDTO_OptionalString2_" data-uid="SLS.Common.DTO.WareHouse.WarehouseZoneRulesDTO.OptionalString2*"></a>
+
+  <h3 id="SLS_Common_DTO_WareHouse_WarehouseZoneRulesDTO_OptionalString2" data-uid="SLS.Common.DTO.WareHouse.WarehouseZoneRulesDTO.OptionalString2">
+  OptionalString2
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/WareHouse/WarehouseZoneRulesDTO.cs/#L85"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;OptionalString2&quot;)]
+public virtual string? OptionalString2 { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_WareHouse_WarehouseZoneRulesDTO_OptionalString3_" data-uid="SLS.Common.DTO.WareHouse.WarehouseZoneRulesDTO.OptionalString3*"></a>
+
+  <h3 id="SLS_Common_DTO_WareHouse_WarehouseZoneRulesDTO_OptionalString3" data-uid="SLS.Common.DTO.WareHouse.WarehouseZoneRulesDTO.OptionalString3">
+  OptionalString3
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/WareHouse/WarehouseZoneRulesDTO.cs/#L89"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;OptionalString3&quot;)]
+public virtual string? OptionalString3 { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_WareHouse_WarehouseZoneRulesDTO_RaiseError_" data-uid="SLS.Common.DTO.WareHouse.WarehouseZoneRulesDTO.RaiseError*"></a>
+
+  <h3 id="SLS_Common_DTO_WareHouse_WarehouseZoneRulesDTO_RaiseError" data-uid="SLS.Common.DTO.WareHouse.WarehouseZoneRulesDTO.RaiseError">
+  RaiseError
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/WareHouse/WarehouseZoneRulesDTO.cs/#L73"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;RaiseError&quot;)]
+public virtual bool? RaiseError { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_WareHouse_WarehouseZoneRulesDTO_SQLExpression_" data-uid="SLS.Common.DTO.WareHouse.WarehouseZoneRulesDTO.SQLExpression*"></a>
+
+  <h3 id="SLS_Common_DTO_WareHouse_WarehouseZoneRulesDTO_SQLExpression" data-uid="SLS.Common.DTO.WareHouse.WarehouseZoneRulesDTO.SQLExpression">
+  SQLExpression
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/WareHouse/WarehouseZoneRulesDTO.cs/#L65"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;SQLExpression&quot;)]
+public virtual string? SQLExpression { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_WareHouse_WarehouseZoneRulesDTO_Subsidiary_ID_" data-uid="SLS.Common.DTO.WareHouse.WarehouseZoneRulesDTO.Subsidiary_ID*"></a>
+
+  <h3 id="SLS_Common_DTO_WareHouse_WarehouseZoneRulesDTO_Subsidiary_ID" data-uid="SLS.Common.DTO.WareHouse.WarehouseZoneRulesDTO.Subsidiary_ID">
+  Subsidiary_ID
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/WareHouse/WarehouseZoneRulesDTO.cs/#L42"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public long? Subsidiary_ID { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_WareHouse_WarehouseZoneRulesDTO_User_ID_" data-uid="SLS.Common.DTO.WareHouse.WarehouseZoneRulesDTO.User_ID*"></a>
+
+  <h3 id="SLS_Common_DTO_WareHouse_WarehouseZoneRulesDTO_User_ID" data-uid="SLS.Common.DTO.WareHouse.WarehouseZoneRulesDTO.User_ID">
+  User_ID
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/WareHouse/WarehouseZoneRulesDTO.cs/#L46"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public long? User_ID { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_WareHouse_WarehouseZoneRulesDTO_Version_" data-uid="SLS.Common.DTO.WareHouse.WarehouseZoneRulesDTO.Version*"></a>
+
+  <h3 id="SLS_Common_DTO_WareHouse_WarehouseZoneRulesDTO_Version" data-uid="SLS.Common.DTO.WareHouse.WarehouseZoneRulesDTO.Version">
+  Version
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/WareHouse/WarehouseZoneRulesDTO.cs/#L38"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;Version&quot;)]
+public long Version { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_WareHouse_WarehouseZoneRulesDTO_WarehouseZone_" data-uid="SLS.Common.DTO.WareHouse.WarehouseZoneRulesDTO.WarehouseZone*"></a>
+
+  <h3 id="SLS_Common_DTO_WareHouse_WarehouseZoneRulesDTO_WarehouseZone" data-uid="SLS.Common.DTO.WareHouse.WarehouseZoneRulesDTO.WarehouseZone">
+  WarehouseZone
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/WareHouse/WarehouseZoneRulesDTO.cs/#L121"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[ForeignKey(&quot;WarehouseZoneCollection&quot;)]
+[InverseProperty(&quot;WarehouseZoneRules_WarehouseZone&quot;)]
+[JsonIgnore]
+public virtual WarehouseZoneDTO? WarehouseZone { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="SLS.Common.DTO.WareHouse.WarehouseZoneDTO.html">WarehouseZoneDTO</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_WareHouse_WarehouseZoneRulesDTO_WarehouseZoneID_" data-uid="SLS.Common.DTO.WareHouse.WarehouseZoneRulesDTO.WarehouseZoneID*"></a>
+
+  <h3 id="SLS_Common_DTO_WareHouse_WarehouseZoneRulesDTO_WarehouseZoneID" data-uid="SLS.Common.DTO.WareHouse.WarehouseZoneRulesDTO.WarehouseZoneID">
+  WarehouseZoneID
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/WareHouse/WarehouseZoneRulesDTO.cs/#L52"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;WarehouseZoneCollection&quot;)]
+[ForeignKey(&quot;WarehouseZoneCollection&quot;)]
+public virtual long WarehouseZoneID { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_WareHouse_WarehouseZoneRulesDTO_WorfklowName_" data-uid="SLS.Common.DTO.WareHouse.WarehouseZoneRulesDTO.WorfklowName*"></a>
+
+  <h3 id="SLS_Common_DTO_WareHouse_WarehouseZoneRulesDTO_WorfklowName" data-uid="SLS.Common.DTO.WareHouse.WarehouseZoneRulesDTO.WorfklowName">
+  WorfklowName
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/WareHouse/WarehouseZoneRulesDTO.cs/#L77"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;WorfklowName&quot;)]
+public virtual string? WorfklowName { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+</article>
+
+        <div class="contribution d-print-none">
+          <a href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/WareHouse/WarehouseZoneRulesDTO.cs/#L28" class="edit-link">Edit this page</a>
+        </div>
+
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

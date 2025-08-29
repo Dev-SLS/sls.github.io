@@ -1,0 +1,1038 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Class ArticleGroupDTO | SLS Documentation </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Class ArticleGroupDTO | SLS Documentation ">
+      
+      
+      <link rel="icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="../">
+      
+      
+      <meta name="docfx:docurl" content="https://github.com/Dev-SLS/dev/new/Dev/apiSpec/new?filename=SLS_Common_DTO_MasterData_Article_ArticleGroupDTO.md&amp;value=---%0Auid%3A%20SLS.Common.DTO.MasterData.Article.ArticleGroupDTO%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../logo.svg" alt="SLS Documentation">
+            SLS Documentation
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="SLS.Common.DTO.MasterData.Article.ArticleGroupDTO">
+
+
+
+  <h1 id="SLS_Common_DTO_MasterData_Article_ArticleGroupDTO" data-uid="SLS.Common.DTO.MasterData.Article.ArticleGroupDTO" class="text-break">
+Class ArticleGroupDTO  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/MasterData/Article/ArticleGroupDTO.cs/#L28"><i class="bi bi-code-slash"></i></a>
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="SLS.html">SLS</a>.<a class="xref" href="SLS.Common.html">Common</a>.<a class="xref" href="SLS.Common.DTO.html">DTO</a>.<a class="xref" href="SLS.Common.DTO.MasterData.html">MasterData</a>.<a class="xref" href="SLS.Common.DTO.MasterData.Article.html">Article</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>SLS.Common.DTO.dll</dd></dl>
+  </div>
+
+  <div class="markdown summary"></div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Serializable]
+[DataContract(IsReference = true)]
+public class ArticleGroupDTO : IBusinessDTO, IDTO</code></pre>
+  </div>
+
+
+
+
+  <dl class="typelist inheritance">
+    <dt>Inheritance</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+      <div><span class="xref">ArticleGroupDTO</span></div>
+    </dd>
+  </dl>
+
+  <dl class="typelist implements">
+    <dt>Implements</dt>
+    <dd>
+      <div><a class="xref" href="SLS.Common.Interfaces.IBusinessDTO.html">IBusinessDTO</a></div>
+      <div><a class="xref" href="SLS.Common.Interfaces.IDTO.html">IDTO</a></div>
+    </dd>
+  </dl>
+
+
+  <dl class="typelist inheritedMembers">
+    <dt>Inherited Members</dt>
+    <dd>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)">object.Equals(object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">object.Equals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gethashcode">object.GetHashCode()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gettype">object.GetType()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone">object.MemberwiseClone()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals">object.ReferenceEquals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.tostring">object.ToString()</a>
+    </div>
+  </dd></dl>
+
+
+
+
+
+
+  <h2 class="section" id="properties">Properties
+</h2>
+
+
+  <a id="SLS_Common_DTO_MasterData_Article_ArticleGroupDTO_ArticleTypes_ArticleGroup_" data-uid="SLS.Common.DTO.MasterData.Article.ArticleGroupDTO.ArticleTypes_ArticleGroup*"></a>
+
+  <h3 id="SLS_Common_DTO_MasterData_Article_ArticleGroupDTO_ArticleTypes_ArticleGroup" data-uid="SLS.Common.DTO.MasterData.Article.ArticleGroupDTO.ArticleTypes_ArticleGroup">
+  ArticleTypes_ArticleGroup
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/MasterData/Article/ArticleGroupDTO.cs/#L134"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;ArticleGroupCollection&quot;)]
+[JsonIgnore]
+public virtual List&lt;ArticleTypeDTO&gt;? ArticleTypes_ArticleGroup { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<a class="xref" href="SLS.Common.DTO.MasterData.Article.ArticleTypeDTO.html">ArticleTypeDTO</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_MasterData_Article_ArticleGroupDTO_Company_ID_" data-uid="SLS.Common.DTO.MasterData.Article.ArticleGroupDTO.Company_ID*"></a>
+
+  <h3 id="SLS_Common_DTO_MasterData_Article_ArticleGroupDTO_Company_ID" data-uid="SLS.Common.DTO.MasterData.Article.ArticleGroupDTO.Company_ID">
+  Company_ID
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/MasterData/Article/ArticleGroupDTO.cs/#L41"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public long? Company_ID { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_MasterData_Article_ArticleGroupDTO_Department_ID_" data-uid="SLS.Common.DTO.MasterData.Article.ArticleGroupDTO.Department_ID*"></a>
+
+  <h3 id="SLS_Common_DTO_MasterData_Article_ArticleGroupDTO_Department_ID" data-uid="SLS.Common.DTO.MasterData.Article.ArticleGroupDTO.Department_ID">
+  Department_ID
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/MasterData/Article/ArticleGroupDTO.cs/#L43"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public long? Department_ID { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_MasterData_Article_ArticleGroupDTO_Description_" data-uid="SLS.Common.DTO.MasterData.Article.ArticleGroupDTO.Description*"></a>
+
+  <h3 id="SLS_Common_DTO_MasterData_Article_ArticleGroupDTO_Description" data-uid="SLS.Common.DTO.MasterData.Article.ArticleGroupDTO.Description">
+  Description
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/MasterData/Article/ArticleGroupDTO.cs/#L60"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;Description&quot;)]
+public virtual string? Description { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_MasterData_Article_ArticleGroupDTO_Division_ID_" data-uid="SLS.Common.DTO.MasterData.Article.ArticleGroupDTO.Division_ID*"></a>
+
+  <h3 id="SLS_Common_DTO_MasterData_Article_ArticleGroupDTO_Division_ID" data-uid="SLS.Common.DTO.MasterData.Article.ArticleGroupDTO.Division_ID">
+  Division_ID
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/MasterData/Article/ArticleGroupDTO.cs/#L45"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public long? Division_ID { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_MasterData_Article_ArticleGroupDTO_ExternalName_" data-uid="SLS.Common.DTO.MasterData.Article.ArticleGroupDTO.ExternalName*"></a>
+
+  <h3 id="SLS_Common_DTO_MasterData_Article_ArticleGroupDTO_ExternalName" data-uid="SLS.Common.DTO.MasterData.Article.ArticleGroupDTO.ExternalName">
+  ExternalName
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/MasterData/Article/ArticleGroupDTO.cs/#L64"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;ExternalName&quot;)]
+public virtual string? ExternalName { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_MasterData_Article_ArticleGroupDTO_FiscalYear_ID_" data-uid="SLS.Common.DTO.MasterData.Article.ArticleGroupDTO.FiscalYear_ID*"></a>
+
+  <h3 id="SLS_Common_DTO_MasterData_Article_ArticleGroupDTO_FiscalYear_ID" data-uid="SLS.Common.DTO.MasterData.Article.ArticleGroupDTO.FiscalYear_ID">
+  FiscalYear_ID
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/MasterData/Article/ArticleGroupDTO.cs/#L44"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public long? FiscalYear_ID { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_MasterData_Article_ArticleGroupDTO_Id_" data-uid="SLS.Common.DTO.MasterData.Article.ArticleGroupDTO.Id*"></a>
+
+  <h3 id="SLS_Common_DTO_MasterData_Article_ArticleGroupDTO_Id" data-uid="SLS.Common.DTO.MasterData.Article.ArticleGroupDTO.Id">
+  Id
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/MasterData/Article/ArticleGroupDTO.cs/#L34"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;ID&quot;)]
+public long Id { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_MasterData_Article_ArticleGroupDTO_IsProductionMaterial_" data-uid="SLS.Common.DTO.MasterData.Article.ArticleGroupDTO.IsProductionMaterial*"></a>
+
+  <h3 id="SLS_Common_DTO_MasterData_Article_ArticleGroupDTO_IsProductionMaterial" data-uid="SLS.Common.DTO.MasterData.Article.ArticleGroupDTO.IsProductionMaterial">
+  IsProductionMaterial
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/MasterData/Article/ArticleGroupDTO.cs/#L104"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;IsProductionMaterial&quot;)]
+public virtual bool? IsProductionMaterial { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_MasterData_Article_ArticleGroupDTO_MinimumFreightWeight_LoadingEquipmentGroup_" data-uid="SLS.Common.DTO.MasterData.Article.ArticleGroupDTO.MinimumFreightWeight_LoadingEquipmentGroup*"></a>
+
+  <h3 id="SLS_Common_DTO_MasterData_Article_ArticleGroupDTO_MinimumFreightWeight_LoadingEquipmentGroup" data-uid="SLS.Common.DTO.MasterData.Article.ArticleGroupDTO.MinimumFreightWeight_LoadingEquipmentGroup">
+  MinimumFreightWeight_LoadingEquipmentGroup
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/MasterData/Article/ArticleGroupDTO.cs/#L129"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;LoadingEquipmentGroupCollection&quot;)]
+[JsonIgnore]
+public virtual List&lt;MinimumFreightWeightDTO&gt;? MinimumFreightWeight_LoadingEquipmentGroup { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<a class="xref" href="SLS.Common.DTO.MasterData.MinimumFreightWeightDTO.html">MinimumFreightWeightDTO</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_MasterData_Article_ArticleGroupDTO_Name_" data-uid="SLS.Common.DTO.MasterData.Article.ArticleGroupDTO.Name*"></a>
+
+  <h3 id="SLS_Common_DTO_MasterData_Article_ArticleGroupDTO_Name" data-uid="SLS.Common.DTO.MasterData.Article.ArticleGroupDTO.Name">
+  Name
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/MasterData/Article/ArticleGroupDTO.cs/#L56"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;Name&quot;)]
+public virtual string Name { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_MasterData_Article_ArticleGroupDTO_OptionalFieldGroups_" data-uid="SLS.Common.DTO.MasterData.Article.ArticleGroupDTO.OptionalFieldGroups*"></a>
+
+  <h3 id="SLS_Common_DTO_MasterData_Article_ArticleGroupDTO_OptionalFieldGroups" data-uid="SLS.Common.DTO.MasterData.Article.ArticleGroupDTO.OptionalFieldGroups">
+  OptionalFieldGroups
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/MasterData/Article/ArticleGroupDTO.cs/#L112"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;OptionalFieldGroups&quot;)]
+public virtual string? OptionalFieldGroups { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_MasterData_Article_ArticleGroupDTO_Optional_Boolean1_" data-uid="SLS.Common.DTO.MasterData.Article.ArticleGroupDTO.Optional_Boolean1*"></a>
+
+  <h3 id="SLS_Common_DTO_MasterData_Article_ArticleGroupDTO_Optional_Boolean1" data-uid="SLS.Common.DTO.MasterData.Article.ArticleGroupDTO.Optional_Boolean1">
+  Optional_Boolean1
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/MasterData/Article/ArticleGroupDTO.cs/#L92"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;Optional_Boolean1&quot;)]
+public virtual bool? Optional_Boolean1 { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_MasterData_Article_ArticleGroupDTO_Optional_Boolean2_" data-uid="SLS.Common.DTO.MasterData.Article.ArticleGroupDTO.Optional_Boolean2*"></a>
+
+  <h3 id="SLS_Common_DTO_MasterData_Article_ArticleGroupDTO_Optional_Boolean2" data-uid="SLS.Common.DTO.MasterData.Article.ArticleGroupDTO.Optional_Boolean2">
+  Optional_Boolean2
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/MasterData/Article/ArticleGroupDTO.cs/#L96"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;Optional_Boolean2&quot;)]
+public virtual bool? Optional_Boolean2 { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_MasterData_Article_ArticleGroupDTO_Optional_Boolean3_" data-uid="SLS.Common.DTO.MasterData.Article.ArticleGroupDTO.Optional_Boolean3*"></a>
+
+  <h3 id="SLS_Common_DTO_MasterData_Article_ArticleGroupDTO_Optional_Boolean3" data-uid="SLS.Common.DTO.MasterData.Article.ArticleGroupDTO.Optional_Boolean3">
+  Optional_Boolean3
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/MasterData/Article/ArticleGroupDTO.cs/#L100"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;Optional_Boolean3&quot;)]
+public virtual bool? Optional_Boolean3 { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_MasterData_Article_ArticleGroupDTO_Optional_Number1_" data-uid="SLS.Common.DTO.MasterData.Article.ArticleGroupDTO.Optional_Number1*"></a>
+
+  <h3 id="SLS_Common_DTO_MasterData_Article_ArticleGroupDTO_Optional_Number1" data-uid="SLS.Common.DTO.MasterData.Article.ArticleGroupDTO.Optional_Number1">
+  Optional_Number1
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/MasterData/Article/ArticleGroupDTO.cs/#L80"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;Optional_Number1&quot;)]
+public virtual double? Optional_Number1 { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_MasterData_Article_ArticleGroupDTO_Optional_Number2_" data-uid="SLS.Common.DTO.MasterData.Article.ArticleGroupDTO.Optional_Number2*"></a>
+
+  <h3 id="SLS_Common_DTO_MasterData_Article_ArticleGroupDTO_Optional_Number2" data-uid="SLS.Common.DTO.MasterData.Article.ArticleGroupDTO.Optional_Number2">
+  Optional_Number2
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/MasterData/Article/ArticleGroupDTO.cs/#L84"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;Optional_Number2&quot;)]
+public virtual double? Optional_Number2 { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_MasterData_Article_ArticleGroupDTO_Optional_Number3_" data-uid="SLS.Common.DTO.MasterData.Article.ArticleGroupDTO.Optional_Number3*"></a>
+
+  <h3 id="SLS_Common_DTO_MasterData_Article_ArticleGroupDTO_Optional_Number3" data-uid="SLS.Common.DTO.MasterData.Article.ArticleGroupDTO.Optional_Number3">
+  Optional_Number3
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/MasterData/Article/ArticleGroupDTO.cs/#L88"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;Optional_Number3&quot;)]
+public virtual double? Optional_Number3 { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_MasterData_Article_ArticleGroupDTO_Optional_String1_" data-uid="SLS.Common.DTO.MasterData.Article.ArticleGroupDTO.Optional_String1*"></a>
+
+  <h3 id="SLS_Common_DTO_MasterData_Article_ArticleGroupDTO_Optional_String1" data-uid="SLS.Common.DTO.MasterData.Article.ArticleGroupDTO.Optional_String1">
+  Optional_String1
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/MasterData/Article/ArticleGroupDTO.cs/#L68"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;Optional_String1&quot;)]
+public virtual string? Optional_String1 { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_MasterData_Article_ArticleGroupDTO_Optional_String2_" data-uid="SLS.Common.DTO.MasterData.Article.ArticleGroupDTO.Optional_String2*"></a>
+
+  <h3 id="SLS_Common_DTO_MasterData_Article_ArticleGroupDTO_Optional_String2" data-uid="SLS.Common.DTO.MasterData.Article.ArticleGroupDTO.Optional_String2">
+  Optional_String2
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/MasterData/Article/ArticleGroupDTO.cs/#L72"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;Optional_String2&quot;)]
+public virtual string? Optional_String2 { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_MasterData_Article_ArticleGroupDTO_Optional_String3_" data-uid="SLS.Common.DTO.MasterData.Article.ArticleGroupDTO.Optional_String3*"></a>
+
+  <h3 id="SLS_Common_DTO_MasterData_Article_ArticleGroupDTO_Optional_String3" data-uid="SLS.Common.DTO.MasterData.Article.ArticleGroupDTO.Optional_String3">
+  Optional_String3
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/MasterData/Article/ArticleGroupDTO.cs/#L76"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;Optional_String3&quot;)]
+public virtual string? Optional_String3 { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_MasterData_Article_ArticleGroupDTO_PickingCompairAttributes_ArticleGroup_" data-uid="SLS.Common.DTO.MasterData.Article.ArticleGroupDTO.PickingCompairAttributes_ArticleGroup*"></a>
+
+  <h3 id="SLS_Common_DTO_MasterData_Article_ArticleGroupDTO_PickingCompairAttributes_ArticleGroup" data-uid="SLS.Common.DTO.MasterData.Article.ArticleGroupDTO.PickingCompairAttributes_ArticleGroup">
+  PickingCompairAttributes_ArticleGroup
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/MasterData/Article/ArticleGroupDTO.cs/#L124"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;ArticleGroupCollection&quot;)]
+[JsonIgnore]
+public virtual List&lt;PickingCompairAttributesDTO&gt;? PickingCompairAttributes_ArticleGroup { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<a class="xref" href="SLS.Common.DTO.WareHouse.PickingCompairAttributesDTO.html">PickingCompairAttributesDTO</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_MasterData_Article_ArticleGroupDTO_RelocateInProductionOrder_" data-uid="SLS.Common.DTO.MasterData.Article.ArticleGroupDTO.RelocateInProductionOrder*"></a>
+
+  <h3 id="SLS_Common_DTO_MasterData_Article_ArticleGroupDTO_RelocateInProductionOrder" data-uid="SLS.Common.DTO.MasterData.Article.ArticleGroupDTO.RelocateInProductionOrder">
+  RelocateInProductionOrder
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/MasterData/Article/ArticleGroupDTO.cs/#L108"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;RelocateInProductionOrder&quot;)]
+public virtual bool? RelocateInProductionOrder { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_MasterData_Article_ArticleGroupDTO_Subsidiary_ID_" data-uid="SLS.Common.DTO.MasterData.Article.ArticleGroupDTO.Subsidiary_ID*"></a>
+
+  <h3 id="SLS_Common_DTO_MasterData_Article_ArticleGroupDTO_Subsidiary_ID" data-uid="SLS.Common.DTO.MasterData.Article.ArticleGroupDTO.Subsidiary_ID">
+  Subsidiary_ID
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/MasterData/Article/ArticleGroupDTO.cs/#L42"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public long? Subsidiary_ID { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_MasterData_Article_ArticleGroupDTO_User_ID_" data-uid="SLS.Common.DTO.MasterData.Article.ArticleGroupDTO.User_ID*"></a>
+
+  <h3 id="SLS_Common_DTO_MasterData_Article_ArticleGroupDTO_User_ID" data-uid="SLS.Common.DTO.MasterData.Article.ArticleGroupDTO.User_ID">
+  User_ID
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/MasterData/Article/ArticleGroupDTO.cs/#L46"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public long? User_ID { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_MasterData_Article_ArticleGroupDTO_Version_" data-uid="SLS.Common.DTO.MasterData.Article.ArticleGroupDTO.Version*"></a>
+
+  <h3 id="SLS_Common_DTO_MasterData_Article_ArticleGroupDTO_Version" data-uid="SLS.Common.DTO.MasterData.Article.ArticleGroupDTO.Version">
+  Version
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/MasterData/Article/ArticleGroupDTO.cs/#L38"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;Version&quot;)]
+public long Version { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+</article>
+
+        <div class="contribution d-print-none">
+          <a href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/MasterData/Article/ArticleGroupDTO.cs/#L28" class="edit-link">Edit this page</a>
+        </div>
+
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

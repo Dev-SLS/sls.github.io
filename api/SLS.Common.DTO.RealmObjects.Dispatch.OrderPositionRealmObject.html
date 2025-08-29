@@ -1,0 +1,3838 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Class OrderPositionRealmObject | SLS Documentation </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Class OrderPositionRealmObject | SLS Documentation ">
+      
+      
+      <link rel="icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="../">
+      
+      
+      
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../logo.svg" alt="SLS Documentation">
+            SLS Documentation
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="SLS.Common.DTO.RealmObjects.Dispatch.OrderPositionRealmObject">
+
+
+
+  <h1 id="SLS_Common_DTO_RealmObjects_Dispatch_OrderPositionRealmObject" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.OrderPositionRealmObject" class="text-break">
+Class OrderPositionRealmObject  
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="SLS.html">SLS</a>.<a class="xref" href="SLS.Common.html">Common</a>.<a class="xref" href="SLS.Common.DTO.html">DTO</a>.<a class="xref" href="SLS.Common.DTO.RealmObjects.html">RealmObjects</a>.<a class="xref" href="SLS.Common.DTO.RealmObjects.Dispatch.html">Dispatch</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>SLS.Common.DTO.RealmObjects.dll</dd></dl>
+  </div>
+
+  <div class="markdown summary"></div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Generated]
+[Woven(typeof(OrderPositionRealmObject.OrderPositionRealmObjectObjectHelper))]
+[Preserve(AllMembers = true)]
+public class OrderPositionRealmObject : IRealmObject, IRealmObjectBase, INotifyPropertyChanged, IReflectableType</code></pre>
+  </div>
+
+
+
+
+  <dl class="typelist inheritance">
+    <dt>Inheritance</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+      <div><span class="xref">OrderPositionRealmObject</span></div>
+    </dd>
+  </dl>
+
+  <dl class="typelist implements">
+    <dt>Implements</dt>
+    <dd>
+      <div><a class="xref" href="https://github.com/realm/realm-dotnet/blob/Dev/Realm/Realm/DatabaseTypes/IRealmObjectBase.cs">IRealmObject</a></div>
+      <div><a class="xref" href="https://github.com/realm/realm-dotnet/blob/Dev/Realm/Realm/DatabaseTypes/IRealmObjectBase.cs">IRealmObjectBase</a></div>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.componentmodel.inotifypropertychanged">INotifyPropertyChanged</a></div>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.reflection.ireflectabletype">IReflectableType</a></div>
+    </dd>
+  </dl>
+
+
+  <dl class="typelist inheritedMembers">
+    <dt>Inherited Members</dt>
+    <dd>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">object.Equals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gettype">object.GetType()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone">object.MemberwiseClone()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals">object.ReferenceEquals(object, object)</a>
+    </div>
+  </dd></dl>
+
+
+
+
+
+
+  <h2 class="section" id="fields">Fields
+</h2>
+
+
+
+  <h3 id="SLS_Common_DTO_RealmObjects_Dispatch_OrderPositionRealmObject_RealmSchema" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.OrderPositionRealmObject.RealmSchema">
+  RealmSchema
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Defines the schema for the <a class="xref" href="SLS.Common.DTO.RealmObjects.Dispatch.OrderPositionRealmObject.html">OrderPositionRealmObject</a> class.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obfuscation]
+public static ObjectSchema RealmSchema</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://github.com/realm/realm-dotnet/blob/Dev/Realm/Realm/Schema/ObjectSchema.cs">ObjectSchema</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="properties">Properties
+</h2>
+
+
+  <a id="SLS_Common_DTO_RealmObjects_Dispatch_OrderPositionRealmObject_Article_" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.OrderPositionRealmObject.Article*"></a>
+
+  <h3 id="SLS_Common_DTO_RealmObjects_Dispatch_OrderPositionRealmObject_Article" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.OrderPositionRealmObject.Article">
+  Article
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO.RealmObjects/Dispatch/OrderPositionRealmObject.cs/#L138"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ArticleTypeRealmObject? Article { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="SLS.Common.DTO.RealmObjects.MasterData.Article.ArticleTypeRealmObject.html">ArticleTypeRealmObject</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_RealmObjects_Dispatch_OrderPositionRealmObject_ArticleID_" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.OrderPositionRealmObject.ArticleID*"></a>
+
+  <h3 id="SLS_Common_DTO_RealmObjects_Dispatch_OrderPositionRealmObject_ArticleID" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.OrderPositionRealmObject.ArticleID">
+  ArticleID
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO.RealmObjects/Dispatch/OrderPositionRealmObject.cs/#L46"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual long ArticleID { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_RealmObjects_Dispatch_OrderPositionRealmObject_ArticleName_" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.OrderPositionRealmObject.ArticleName*"></a>
+
+  <h3 id="SLS_Common_DTO_RealmObjects_Dispatch_OrderPositionRealmObject_ArticleName" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.OrderPositionRealmObject.ArticleName">
+  ArticleName
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO.RealmObjects/Dispatch/OrderPositionRealmObject.cs/#L65"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string? ArticleName { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_RealmObjects_Dispatch_OrderPositionRealmObject_ArticlePackingStructureID_" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.OrderPositionRealmObject.ArticlePackingStructureID*"></a>
+
+  <h3 id="SLS_Common_DTO_RealmObjects_Dispatch_OrderPositionRealmObject_ArticlePackingStructureID" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.OrderPositionRealmObject.ArticlePackingStructureID">
+  ArticlePackingStructureID
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO.RealmObjects/Dispatch/OrderPositionRealmObject.cs/#L47"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual long? ArticlePackingStructureID { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_RealmObjects_Dispatch_OrderPositionRealmObject_ArticlePackingStructureQty_" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.OrderPositionRealmObject.ArticlePackingStructureQty*"></a>
+
+  <h3 id="SLS_Common_DTO_RealmObjects_Dispatch_OrderPositionRealmObject_ArticlePackingStructureQty" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.OrderPositionRealmObject.ArticlePackingStructureQty">
+  ArticlePackingStructureQty
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO.RealmObjects/Dispatch/OrderPositionRealmObject.cs/#L70"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public long? ArticlePackingStructureQty { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_RealmObjects_Dispatch_OrderPositionRealmObject_ArticleQuantityInBaseUnit_" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.OrderPositionRealmObject.ArticleQuantityInBaseUnit*"></a>
+
+  <h3 id="SLS_Common_DTO_RealmObjects_Dispatch_OrderPositionRealmObject_ArticleQuantityInBaseUnit" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.OrderPositionRealmObject.ArticleQuantityInBaseUnit">
+  ArticleQuantityInBaseUnit
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO.RealmObjects/Dispatch/OrderPositionRealmObject.cs/#L69"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public long? ArticleQuantityInBaseUnit { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_RealmObjects_Dispatch_OrderPositionRealmObject_BacklinksCount_" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.OrderPositionRealmObject.BacklinksCount*"></a>
+
+  <h3 id="SLS_Common_DTO_RealmObjects_Dispatch_OrderPositionRealmObject_BacklinksCount" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.OrderPositionRealmObject.BacklinksCount">
+  BacklinksCount
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Gets the number of objects referring to this one via either a to-one or to-many relationship.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[IgnoreDataMember]
+public int BacklinksCount { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd><p>The number of objects referring to this one.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_RealmObjects_Dispatch_OrderPositionRealmObject_Company_ID_" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.OrderPositionRealmObject.Company_ID*"></a>
+
+  <h3 id="SLS_Common_DTO_RealmObjects_Dispatch_OrderPositionRealmObject_Company_ID" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.OrderPositionRealmObject.Company_ID">
+  Company_ID
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO.RealmObjects/Dispatch/OrderPositionRealmObject.cs/#L32"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public long? Company_ID { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_RealmObjects_Dispatch_OrderPositionRealmObject_CreateSeparateHU_" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.OrderPositionRealmObject.CreateSeparateHU*"></a>
+
+  <h3 id="SLS_Common_DTO_RealmObjects_Dispatch_OrderPositionRealmObject_CreateSeparateHU" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.OrderPositionRealmObject.CreateSeparateHU">
+  CreateSeparateHU
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO.RealmObjects/Dispatch/OrderPositionRealmObject.cs/#L126"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool? CreateSeparateHU { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_RealmObjects_Dispatch_OrderPositionRealmObject_CurrencyID_" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.OrderPositionRealmObject.CurrencyID*"></a>
+
+  <h3 id="SLS_Common_DTO_RealmObjects_Dispatch_OrderPositionRealmObject_CurrencyID" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.OrderPositionRealmObject.CurrencyID">
+  CurrencyID
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO.RealmObjects/Dispatch/OrderPositionRealmObject.cs/#L44"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual long? CurrencyID { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_RealmObjects_Dispatch_OrderPositionRealmObject_DeliveryNote_" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.OrderPositionRealmObject.DeliveryNote*"></a>
+
+  <h3 id="SLS_Common_DTO_RealmObjects_Dispatch_OrderPositionRealmObject_DeliveryNote" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.OrderPositionRealmObject.DeliveryNote">
+  DeliveryNote
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO.RealmObjects/Dispatch/OrderPositionRealmObject.cs/#L110"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string? DeliveryNote { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_RealmObjects_Dispatch_OrderPositionRealmObject_Department_ID_" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.OrderPositionRealmObject.Department_ID*"></a>
+
+  <h3 id="SLS_Common_DTO_RealmObjects_Dispatch_OrderPositionRealmObject_Department_ID" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.OrderPositionRealmObject.Department_ID">
+  Department_ID
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO.RealmObjects/Dispatch/OrderPositionRealmObject.cs/#L34"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public long? Department_ID { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_RealmObjects_Dispatch_OrderPositionRealmObject_DispoStoringPlaces_" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.OrderPositionRealmObject.DispoStoringPlaces*"></a>
+
+  <h3 id="SLS_Common_DTO_RealmObjects_Dispatch_OrderPositionRealmObject_DispoStoringPlaces" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.OrderPositionRealmObject.DispoStoringPlaces">
+  DispoStoringPlaces
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO.RealmObjects/Dispatch/OrderPositionRealmObject.cs/#L82"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public double? DispoStoringPlaces { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_RealmObjects_Dispatch_OrderPositionRealmObject_Division_ID_" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.OrderPositionRealmObject.Division_ID*"></a>
+
+  <h3 id="SLS_Common_DTO_RealmObjects_Dispatch_OrderPositionRealmObject_Division_ID" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.OrderPositionRealmObject.Division_ID">
+  Division_ID
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO.RealmObjects/Dispatch/OrderPositionRealmObject.cs/#L36"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public long? Division_ID { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_RealmObjects_Dispatch_OrderPositionRealmObject_DynamicApi_" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.OrderPositionRealmObject.DynamicApi*"></a>
+
+  <h3 id="SLS_Common_DTO_RealmObjects_Dispatch_OrderPositionRealmObject_DynamicApi" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.OrderPositionRealmObject.DynamicApi">
+  DynamicApi
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Gets an object encompassing the dynamic API for this Realm object instance.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[IgnoreDataMember]
+public DynamicObjectApi DynamicApi { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://github.com/realm/realm-dotnet/blob/Dev/Realm/Realm/Dynamic/DynamicObjectApi.cs">DynamicObjectApi</a></dt>
+    <dd><p>A <span class="xref">Realms.Dynamic</span> instance that wraps this Realm object.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_RealmObjects_Dispatch_OrderPositionRealmObject_FiscalYear_ID_" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.OrderPositionRealmObject.FiscalYear_ID*"></a>
+
+  <h3 id="SLS_Common_DTO_RealmObjects_Dispatch_OrderPositionRealmObject_FiscalYear_ID" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.OrderPositionRealmObject.FiscalYear_ID">
+  FiscalYear_ID
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO.RealmObjects/Dispatch/OrderPositionRealmObject.cs/#L35"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public long? FiscalYear_ID { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_RealmObjects_Dispatch_OrderPositionRealmObject_HandlingUnits_OrderPosition_" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.OrderPositionRealmObject.HandlingUnits_OrderPosition*"></a>
+
+  <h3 id="SLS_Common_DTO_RealmObjects_Dispatch_OrderPositionRealmObject_HandlingUnits_OrderPosition" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.OrderPositionRealmObject.HandlingUnits_OrderPosition">
+  HandlingUnits_OrderPosition
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO.RealmObjects/Dispatch/OrderPositionRealmObject.cs/#L159"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Backlink(&quot;OrderPosition&quot;)]
+public IQueryable&lt;HandlingUnitRealmObject&gt; HandlingUnits_OrderPosition { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.linq.iqueryable-1">IQueryable</a>&lt;<a class="xref" href="SLS.Common.DTO.RealmObjects.Dispatch.HandlingUnitRealmObject.html">HandlingUnitRealmObject</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_RealmObjects_Dispatch_OrderPositionRealmObject_HazardClass_" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.OrderPositionRealmObject.HazardClass*"></a>
+
+  <h3 id="SLS_Common_DTO_RealmObjects_Dispatch_OrderPositionRealmObject_HazardClass" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.OrderPositionRealmObject.HazardClass">
+  HazardClass
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO.RealmObjects/Dispatch/OrderPositionRealmObject.cs/#L96"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int? HazardClass { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_RealmObjects_Dispatch_OrderPositionRealmObject_HazardClass2_" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.OrderPositionRealmObject.HazardClass2*"></a>
+
+  <h3 id="SLS_Common_DTO_RealmObjects_Dispatch_OrderPositionRealmObject_HazardClass2" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.OrderPositionRealmObject.HazardClass2">
+  HazardClass2
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO.RealmObjects/Dispatch/OrderPositionRealmObject.cs/#L98"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int? HazardClass2 { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_RealmObjects_Dispatch_OrderPositionRealmObject_HazardClass3_" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.OrderPositionRealmObject.HazardClass3*"></a>
+
+  <h3 id="SLS_Common_DTO_RealmObjects_Dispatch_OrderPositionRealmObject_HazardClass3" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.OrderPositionRealmObject.HazardClass3">
+  HazardClass3
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO.RealmObjects/Dispatch/OrderPositionRealmObject.cs/#L100"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int? HazardClass3 { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_RealmObjects_Dispatch_OrderPositionRealmObject_HazardClass4_" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.OrderPositionRealmObject.HazardClass4*"></a>
+
+  <h3 id="SLS_Common_DTO_RealmObjects_Dispatch_OrderPositionRealmObject_HazardClass4" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.OrderPositionRealmObject.HazardClass4">
+  HazardClass4
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO.RealmObjects/Dispatch/OrderPositionRealmObject.cs/#L102"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int? HazardClass4 { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_RealmObjects_Dispatch_OrderPositionRealmObject_HazardDesc_" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.OrderPositionRealmObject.HazardDesc*"></a>
+
+  <h3 id="SLS_Common_DTO_RealmObjects_Dispatch_OrderPositionRealmObject_HazardDesc" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.OrderPositionRealmObject.HazardDesc">
+  HazardDesc
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO.RealmObjects/Dispatch/OrderPositionRealmObject.cs/#L94"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string? HazardDesc { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_RealmObjects_Dispatch_OrderPositionRealmObject_HazardInfo_" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.OrderPositionRealmObject.HazardInfo*"></a>
+
+  <h3 id="SLS_Common_DTO_RealmObjects_Dispatch_OrderPositionRealmObject_HazardInfo" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.OrderPositionRealmObject.HazardInfo">
+  HazardInfo
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO.RealmObjects/Dispatch/OrderPositionRealmObject.cs/#L105"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string? HazardInfo { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_RealmObjects_Dispatch_OrderPositionRealmObject_HazardLimitedQuantity_" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.OrderPositionRealmObject.HazardLimitedQuantity*"></a>
+
+  <h3 id="SLS_Common_DTO_RealmObjects_Dispatch_OrderPositionRealmObject_HazardLimitedQuantity" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.OrderPositionRealmObject.HazardLimitedQuantity">
+  HazardLimitedQuantity
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO.RealmObjects/Dispatch/OrderPositionRealmObject.cs/#L115"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool? HazardLimitedQuantity { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_RealmObjects_Dispatch_OrderPositionRealmObject_HazardPackGroup_" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.OrderPositionRealmObject.HazardPackGroup*"></a>
+
+  <h3 id="SLS_Common_DTO_RealmObjects_Dispatch_OrderPositionRealmObject_HazardPackGroup" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.OrderPositionRealmObject.HazardPackGroup">
+  HazardPackGroup
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO.RealmObjects/Dispatch/OrderPositionRealmObject.cs/#L104"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string? HazardPackGroup { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_RealmObjects_Dispatch_OrderPositionRealmObject_HazardPackaging_" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.OrderPositionRealmObject.HazardPackaging*"></a>
+
+  <h3 id="SLS_Common_DTO_RealmObjects_Dispatch_OrderPositionRealmObject_HazardPackaging" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.OrderPositionRealmObject.HazardPackaging">
+  HazardPackaging
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO.RealmObjects/Dispatch/OrderPositionRealmObject.cs/#L117"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string? HazardPackaging { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_RealmObjects_Dispatch_OrderPositionRealmObject_HazardPoints_" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.OrderPositionRealmObject.HazardPoints*"></a>
+
+  <h3 id="SLS_Common_DTO_RealmObjects_Dispatch_OrderPositionRealmObject_HazardPoints" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.OrderPositionRealmObject.HazardPoints">
+  HazardPoints
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO.RealmObjects/Dispatch/OrderPositionRealmObject.cs/#L93"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int? HazardPoints { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_RealmObjects_Dispatch_OrderPositionRealmObject_HazardQuantity_" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.OrderPositionRealmObject.HazardQuantity*"></a>
+
+  <h3 id="SLS_Common_DTO_RealmObjects_Dispatch_OrderPositionRealmObject_HazardQuantity" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.OrderPositionRealmObject.HazardQuantity">
+  HazardQuantity
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO.RealmObjects/Dispatch/OrderPositionRealmObject.cs/#L114"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public double? HazardQuantity { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_RealmObjects_Dispatch_OrderPositionRealmObject_HazardSubClass_" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.OrderPositionRealmObject.HazardSubClass*"></a>
+
+  <h3 id="SLS_Common_DTO_RealmObjects_Dispatch_OrderPositionRealmObject_HazardSubClass" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.OrderPositionRealmObject.HazardSubClass">
+  HazardSubClass
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO.RealmObjects/Dispatch/OrderPositionRealmObject.cs/#L97"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int? HazardSubClass { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_RealmObjects_Dispatch_OrderPositionRealmObject_HazardSubClass2_" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.OrderPositionRealmObject.HazardSubClass2*"></a>
+
+  <h3 id="SLS_Common_DTO_RealmObjects_Dispatch_OrderPositionRealmObject_HazardSubClass2" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.OrderPositionRealmObject.HazardSubClass2">
+  HazardSubClass2
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO.RealmObjects/Dispatch/OrderPositionRealmObject.cs/#L99"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int? HazardSubClass2 { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_RealmObjects_Dispatch_OrderPositionRealmObject_HazardSubClass3_" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.OrderPositionRealmObject.HazardSubClass3*"></a>
+
+  <h3 id="SLS_Common_DTO_RealmObjects_Dispatch_OrderPositionRealmObject_HazardSubClass3" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.OrderPositionRealmObject.HazardSubClass3">
+  HazardSubClass3
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO.RealmObjects/Dispatch/OrderPositionRealmObject.cs/#L101"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int? HazardSubClass3 { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_RealmObjects_Dispatch_OrderPositionRealmObject_HazardSubClass4_" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.OrderPositionRealmObject.HazardSubClass4*"></a>
+
+  <h3 id="SLS_Common_DTO_RealmObjects_Dispatch_OrderPositionRealmObject_HazardSubClass4" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.OrderPositionRealmObject.HazardSubClass4">
+  HazardSubClass4
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO.RealmObjects/Dispatch/OrderPositionRealmObject.cs/#L103"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int? HazardSubClass4 { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_RealmObjects_Dispatch_OrderPositionRealmObject_HazardUnNr_" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.OrderPositionRealmObject.HazardUnNr*"></a>
+
+  <h3 id="SLS_Common_DTO_RealmObjects_Dispatch_OrderPositionRealmObject_HazardUnNr" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.OrderPositionRealmObject.HazardUnNr">
+  HazardUnNr
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO.RealmObjects/Dispatch/OrderPositionRealmObject.cs/#L95"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string? HazardUnNr { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_RealmObjects_Dispatch_OrderPositionRealmObject_HazardUnit_" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.OrderPositionRealmObject.HazardUnit*"></a>
+
+  <h3 id="SLS_Common_DTO_RealmObjects_Dispatch_OrderPositionRealmObject_HazardUnit" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.OrderPositionRealmObject.HazardUnit">
+  HazardUnit
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO.RealmObjects/Dispatch/OrderPositionRealmObject.cs/#L113"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string? HazardUnit { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_RealmObjects_Dispatch_OrderPositionRealmObject_Height_" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.OrderPositionRealmObject.Height*"></a>
+
+  <h3 id="SLS_Common_DTO_RealmObjects_Dispatch_OrderPositionRealmObject_Height" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.OrderPositionRealmObject.Height">
+  Height
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO.RealmObjects/Dispatch/OrderPositionRealmObject.cs/#L109"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public double? Height { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_RealmObjects_Dispatch_OrderPositionRealmObject_HomeValue_" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.OrderPositionRealmObject.HomeValue*"></a>
+
+  <h3 id="SLS_Common_DTO_RealmObjects_Dispatch_OrderPositionRealmObject_HomeValue" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.OrderPositionRealmObject.HomeValue">
+  HomeValue
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO.RealmObjects/Dispatch/OrderPositionRealmObject.cs/#L106"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public double? HomeValue { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_RealmObjects_Dispatch_OrderPositionRealmObject_Id_" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.OrderPositionRealmObject.Id*"></a>
+
+  <h3 id="SLS_Common_DTO_RealmObjects_Dispatch_OrderPositionRealmObject_Id" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.OrderPositionRealmObject.Id">
+  Id
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO.RealmObjects/Dispatch/OrderPositionRealmObject.cs/#L29"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[PrimaryKey]
+public long Id { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_RealmObjects_Dispatch_OrderPositionRealmObject_IsCancelled_" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.OrderPositionRealmObject.IsCancelled*"></a>
+
+  <h3 id="SLS_Common_DTO_RealmObjects_Dispatch_OrderPositionRealmObject_IsCancelled" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.OrderPositionRealmObject.IsCancelled">
+  IsCancelled
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO.RealmObjects/Dispatch/OrderPositionRealmObject.cs/#L124"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool? IsCancelled { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_RealmObjects_Dispatch_OrderPositionRealmObject_IsFrozen_" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.OrderPositionRealmObject.IsFrozen*"></a>
+
+  <h3 id="SLS_Common_DTO_RealmObjects_Dispatch_OrderPositionRealmObject_IsFrozen" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.OrderPositionRealmObject.IsFrozen">
+  IsFrozen
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Gets a value indicating whether this object is frozen. Frozen objects are immutable
+and will not update when writes are made to the Realm. Unlike live objects, frozen
+objects can be used across threads.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[IgnoreDataMember]
+public bool IsFrozen { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd><p><code>true</code> if the object is frozen and immutable; <code>false</code> otherwise.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+  <dl class="typelist seealso">
+    <dt>See Also</dt>
+    <dd>
+    <div><span class="xref">Freeze</span>&lt;T&gt;(T)</div>
+    </dd>
+  </dl>
+
+
+  <a id="SLS_Common_DTO_RealmObjects_Dispatch_OrderPositionRealmObject_IsLoadingEquipment_" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.OrderPositionRealmObject.IsLoadingEquipment*"></a>
+
+  <h3 id="SLS_Common_DTO_RealmObjects_Dispatch_OrderPositionRealmObject_IsLoadingEquipment" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.OrderPositionRealmObject.IsLoadingEquipment">
+  IsLoadingEquipment
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO.RealmObjects/Dispatch/OrderPositionRealmObject.cs/#L116"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool? IsLoadingEquipment { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_RealmObjects_Dispatch_OrderPositionRealmObject_IsManaged_" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.OrderPositionRealmObject.IsManaged*"></a>
+
+  <h3 id="SLS_Common_DTO_RealmObjects_Dispatch_OrderPositionRealmObject_IsManaged" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.OrderPositionRealmObject.IsManaged">
+  IsManaged
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Gets a value indicating whether the object has been associated with a Realm, either at creation or via
+<a class="xref" href="https://github.com/realm/realm-dotnet/blob/Dev/Realm/Realm/Realm.cs">Add&lt;T&gt;(T, bool)</a>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[IgnoreDataMember]
+public bool IsManaged { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd><p><code>true</code> if object belongs to a Realm; <code>false</code> if standalone.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_RealmObjects_Dispatch_OrderPositionRealmObject_IsValid_" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.OrderPositionRealmObject.IsValid*"></a>
+
+  <h3 id="SLS_Common_DTO_RealmObjects_Dispatch_OrderPositionRealmObject_IsValid" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.OrderPositionRealmObject.IsValid">
+  IsValid
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Gets a value indicating whether this object is managed and represents a row in the database.
+If a managed object has been removed from the Realm, it is no longer valid and accessing properties on it
+will throw an exception.
+Unmanaged objects are always considered valid.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[IgnoreDataMember]
+public bool IsValid { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd><p><code>true</code> if managed and part of the Realm or unmanaged; <code>false</code> if managed but deleted.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_RealmObjects_Dispatch_OrderPositionRealmObject_Ist_ArticlePackingStructureID_" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.OrderPositionRealmObject.Ist_ArticlePackingStructureID*"></a>
+
+  <h3 id="SLS_Common_DTO_RealmObjects_Dispatch_OrderPositionRealmObject_Ist_ArticlePackingStructureID" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.OrderPositionRealmObject.Ist_ArticlePackingStructureID">
+  Ist_ArticlePackingStructureID
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO.RealmObjects/Dispatch/OrderPositionRealmObject.cs/#L43"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual long? Ist_ArticlePackingStructureID { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_RealmObjects_Dispatch_OrderPositionRealmObject_Ist_ArticlePackingStructureQty_" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.OrderPositionRealmObject.Ist_ArticlePackingStructureQty*"></a>
+
+  <h3 id="SLS_Common_DTO_RealmObjects_Dispatch_OrderPositionRealmObject_Ist_ArticlePackingStructureQty" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.OrderPositionRealmObject.Ist_ArticlePackingStructureQty">
+  Ist_ArticlePackingStructureQty
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO.RealmObjects/Dispatch/OrderPositionRealmObject.cs/#L57"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public long? Ist_ArticlePackingStructureQty { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_RealmObjects_Dispatch_OrderPositionRealmObject_Ist_ArticleQuantityInBaseUnit_" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.OrderPositionRealmObject.Ist_ArticleQuantityInBaseUnit*"></a>
+
+  <h3 id="SLS_Common_DTO_RealmObjects_Dispatch_OrderPositionRealmObject_Ist_ArticleQuantityInBaseUnit" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.OrderPositionRealmObject.Ist_ArticleQuantityInBaseUnit">
+  Ist_ArticleQuantityInBaseUnit
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO.RealmObjects/Dispatch/OrderPositionRealmObject.cs/#L56"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public long? Ist_ArticleQuantityInBaseUnit { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_RealmObjects_Dispatch_OrderPositionRealmObject_Ist_DispoStoringPlaces_" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.OrderPositionRealmObject.Ist_DispoStoringPlaces*"></a>
+
+  <h3 id="SLS_Common_DTO_RealmObjects_Dispatch_OrderPositionRealmObject_Ist_DispoStoringPlaces" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.OrderPositionRealmObject.Ist_DispoStoringPlaces">
+  Ist_DispoStoringPlaces
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO.RealmObjects/Dispatch/OrderPositionRealmObject.cs/#L68"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public double? Ist_DispoStoringPlaces { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_RealmObjects_Dispatch_OrderPositionRealmObject_Ist_Height_" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.OrderPositionRealmObject.Ist_Height*"></a>
+
+  <h3 id="SLS_Common_DTO_RealmObjects_Dispatch_OrderPositionRealmObject_Ist_Height" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.OrderPositionRealmObject.Ist_Height">
+  Ist_Height
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO.RealmObjects/Dispatch/OrderPositionRealmObject.cs/#L122"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public double? Ist_Height { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_RealmObjects_Dispatch_OrderPositionRealmObject_Ist_Length_" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.OrderPositionRealmObject.Ist_Length*"></a>
+
+  <h3 id="SLS_Common_DTO_RealmObjects_Dispatch_OrderPositionRealmObject_Ist_Length" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.OrderPositionRealmObject.Ist_Length">
+  Ist_Length
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO.RealmObjects/Dispatch/OrderPositionRealmObject.cs/#L120"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public double? Ist_Length { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_RealmObjects_Dispatch_OrderPositionRealmObject_Ist_LoadingEquipmentQuantity_" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.OrderPositionRealmObject.Ist_LoadingEquipmentQuantity*"></a>
+
+  <h3 id="SLS_Common_DTO_RealmObjects_Dispatch_OrderPositionRealmObject_Ist_LoadingEquipmentQuantity" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.OrderPositionRealmObject.Ist_LoadingEquipmentQuantity">
+  Ist_LoadingEquipmentQuantity
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO.RealmObjects/Dispatch/OrderPositionRealmObject.cs/#L81"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public long? Ist_LoadingEquipmentQuantity { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_RealmObjects_Dispatch_OrderPositionRealmObject_Ist_LoadingMeter_" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.OrderPositionRealmObject.Ist_LoadingMeter*"></a>
+
+  <h3 id="SLS_Common_DTO_RealmObjects_Dispatch_OrderPositionRealmObject_Ist_LoadingMeter" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.OrderPositionRealmObject.Ist_LoadingMeter">
+  Ist_LoadingMeter
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO.RealmObjects/Dispatch/OrderPositionRealmObject.cs/#L60"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public double? Ist_LoadingMeter { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_RealmObjects_Dispatch_OrderPositionRealmObject_Ist_PackagingQuantity_" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.OrderPositionRealmObject.Ist_PackagingQuantity*"></a>
+
+  <h3 id="SLS_Common_DTO_RealmObjects_Dispatch_OrderPositionRealmObject_Ist_PackagingQuantity" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.OrderPositionRealmObject.Ist_PackagingQuantity">
+  Ist_PackagingQuantity
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO.RealmObjects/Dispatch/OrderPositionRealmObject.cs/#L129"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public long? Ist_PackagingQuantity { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_RealmObjects_Dispatch_OrderPositionRealmObject_Ist_SquareMeters_" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.OrderPositionRealmObject.Ist_SquareMeters*"></a>
+
+  <h3 id="SLS_Common_DTO_RealmObjects_Dispatch_OrderPositionRealmObject_Ist_SquareMeters" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.OrderPositionRealmObject.Ist_SquareMeters">
+  Ist_SquareMeters
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO.RealmObjects/Dispatch/OrderPositionRealmObject.cs/#L128"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public double? Ist_SquareMeters { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_RealmObjects_Dispatch_OrderPositionRealmObject_Ist_Volume_" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.OrderPositionRealmObject.Ist_Volume*"></a>
+
+  <h3 id="SLS_Common_DTO_RealmObjects_Dispatch_OrderPositionRealmObject_Ist_Volume" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.OrderPositionRealmObject.Ist_Volume">
+  Ist_Volume
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO.RealmObjects/Dispatch/OrderPositionRealmObject.cs/#L61"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public double? Ist_Volume { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_RealmObjects_Dispatch_OrderPositionRealmObject_Ist_WeightFreight_" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.OrderPositionRealmObject.Ist_WeightFreight*"></a>
+
+  <h3 id="SLS_Common_DTO_RealmObjects_Dispatch_OrderPositionRealmObject_Ist_WeightFreight" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.OrderPositionRealmObject.Ist_WeightFreight">
+  Ist_WeightFreight
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO.RealmObjects/Dispatch/OrderPositionRealmObject.cs/#L59"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public double? Ist_WeightFreight { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_RealmObjects_Dispatch_OrderPositionRealmObject_Ist_WeightGross_" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.OrderPositionRealmObject.Ist_WeightGross*"></a>
+
+  <h3 id="SLS_Common_DTO_RealmObjects_Dispatch_OrderPositionRealmObject_Ist_WeightGross" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.OrderPositionRealmObject.Ist_WeightGross">
+  Ist_WeightGross
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO.RealmObjects/Dispatch/OrderPositionRealmObject.cs/#L119"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public double? Ist_WeightGross { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_RealmObjects_Dispatch_OrderPositionRealmObject_Ist_WeightNet_" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.OrderPositionRealmObject.Ist_WeightNet*"></a>
+
+  <h3 id="SLS_Common_DTO_RealmObjects_Dispatch_OrderPositionRealmObject_Ist_WeightNet" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.OrderPositionRealmObject.Ist_WeightNet">
+  Ist_WeightNet
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO.RealmObjects/Dispatch/OrderPositionRealmObject.cs/#L118"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public double? Ist_WeightNet { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_RealmObjects_Dispatch_OrderPositionRealmObject_Ist_Width_" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.OrderPositionRealmObject.Ist_Width*"></a>
+
+  <h3 id="SLS_Common_DTO_RealmObjects_Dispatch_OrderPositionRealmObject_Ist_Width" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.OrderPositionRealmObject.Ist_Width">
+  Ist_Width
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO.RealmObjects/Dispatch/OrderPositionRealmObject.cs/#L121"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public double? Ist_Width { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_RealmObjects_Dispatch_OrderPositionRealmObject_Length_" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.OrderPositionRealmObject.Length*"></a>
+
+  <h3 id="SLS_Common_DTO_RealmObjects_Dispatch_OrderPositionRealmObject_Length" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.OrderPositionRealmObject.Length">
+  Length
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO.RealmObjects/Dispatch/OrderPositionRealmObject.cs/#L107"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public double? Length { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_RealmObjects_Dispatch_OrderPositionRealmObject_LoadingEquipment_" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.OrderPositionRealmObject.LoadingEquipment*"></a>
+
+  <h3 id="SLS_Common_DTO_RealmObjects_Dispatch_OrderPositionRealmObject_LoadingEquipment" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.OrderPositionRealmObject.LoadingEquipment">
+  LoadingEquipment
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO.RealmObjects/Dispatch/OrderPositionRealmObject.cs/#L140"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ArticleTypeRealmObject? LoadingEquipment { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="SLS.Common.DTO.RealmObjects.MasterData.Article.ArticleTypeRealmObject.html">ArticleTypeRealmObject</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_RealmObjects_Dispatch_OrderPositionRealmObject_LoadingEquipmentID_" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.OrderPositionRealmObject.LoadingEquipmentID*"></a>
+
+  <h3 id="SLS_Common_DTO_RealmObjects_Dispatch_OrderPositionRealmObject_LoadingEquipmentID" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.OrderPositionRealmObject.LoadingEquipmentID">
+  LoadingEquipmentID
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO.RealmObjects/Dispatch/OrderPositionRealmObject.cs/#L48"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual long? LoadingEquipmentID { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_RealmObjects_Dispatch_OrderPositionRealmObject_LoadingEquipmentName_" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.OrderPositionRealmObject.LoadingEquipmentName*"></a>
+
+  <h3 id="SLS_Common_DTO_RealmObjects_Dispatch_OrderPositionRealmObject_LoadingEquipmentName" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.OrderPositionRealmObject.LoadingEquipmentName">
+  LoadingEquipmentName
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO.RealmObjects/Dispatch/OrderPositionRealmObject.cs/#L66"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string? LoadingEquipmentName { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_RealmObjects_Dispatch_OrderPositionRealmObject_LoadingEquipmentQuantity_" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.OrderPositionRealmObject.LoadingEquipmentQuantity*"></a>
+
+  <h3 id="SLS_Common_DTO_RealmObjects_Dispatch_OrderPositionRealmObject_LoadingEquipmentQuantity" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.OrderPositionRealmObject.LoadingEquipmentQuantity">
+  LoadingEquipmentQuantity
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO.RealmObjects/Dispatch/OrderPositionRealmObject.cs/#L67"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public long? LoadingEquipmentQuantity { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_RealmObjects_Dispatch_OrderPositionRealmObject_LoadingMeter_" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.OrderPositionRealmObject.LoadingMeter*"></a>
+
+  <h3 id="SLS_Common_DTO_RealmObjects_Dispatch_OrderPositionRealmObject_LoadingMeter" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.OrderPositionRealmObject.LoadingMeter">
+  LoadingMeter
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO.RealmObjects/Dispatch/OrderPositionRealmObject.cs/#L73"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public double? LoadingMeter { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_RealmObjects_Dispatch_OrderPositionRealmObject_NoteNumber_" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.OrderPositionRealmObject.NoteNumber*"></a>
+
+  <h3 id="SLS_Common_DTO_RealmObjects_Dispatch_OrderPositionRealmObject_NoteNumber" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.OrderPositionRealmObject.NoteNumber">
+  NoteNumber
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO.RealmObjects/Dispatch/OrderPositionRealmObject.cs/#L111"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string? NoteNumber { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_RealmObjects_Dispatch_OrderPositionRealmObject_Notes_" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.OrderPositionRealmObject.Notes*"></a>
+
+  <h3 id="SLS_Common_DTO_RealmObjects_Dispatch_OrderPositionRealmObject_Notes" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.OrderPositionRealmObject.Notes">
+  Notes
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO.RealmObjects/Dispatch/OrderPositionRealmObject.cs/#L63"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string? Notes { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_RealmObjects_Dispatch_OrderPositionRealmObject_ObjectSchema_" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.OrderPositionRealmObject.ObjectSchema*"></a>
+
+  <h3 id="SLS_Common_DTO_RealmObjects_Dispatch_OrderPositionRealmObject_ObjectSchema" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.OrderPositionRealmObject.ObjectSchema">
+  ObjectSchema
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Gets the <a class="xref" href="https://github.com/realm/realm-dotnet/blob/Dev/Realm/Realm/Schema/ObjectSchema.cs">ObjectSchema</a> instance that describes how the <a class="xref" href="https://github.com/realm/realm-dotnet/blob/Dev/Realm/Realm/DatabaseTypes/IRealmObjectBase.cs">Realm</a> this object belongs to sees it.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[IgnoreDataMember]
+public ObjectSchema ObjectSchema { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://github.com/realm/realm-dotnet/blob/Dev/Realm/Realm/Schema/ObjectSchema.cs">ObjectSchema</a></dt>
+    <dd><p>A collection of properties describing the underlying schema of this object.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_RealmObjects_Dispatch_OrderPositionRealmObject_Optional_1_" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.OrderPositionRealmObject.Optional_1*"></a>
+
+  <h3 id="SLS_Common_DTO_RealmObjects_Dispatch_OrderPositionRealmObject_Optional_1" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.OrderPositionRealmObject.Optional_1">
+  Optional_1
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO.RealmObjects/Dispatch/OrderPositionRealmObject.cs/#L77"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string? Optional_1 { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_RealmObjects_Dispatch_OrderPositionRealmObject_Optional_10_" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.OrderPositionRealmObject.Optional_10*"></a>
+
+  <h3 id="SLS_Common_DTO_RealmObjects_Dispatch_OrderPositionRealmObject_Optional_10" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.OrderPositionRealmObject.Optional_10">
+  Optional_10
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO.RealmObjects/Dispatch/OrderPositionRealmObject.cs/#L87"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string? Optional_10 { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_RealmObjects_Dispatch_OrderPositionRealmObject_Optional_11_Numeric_" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.OrderPositionRealmObject.Optional_11_Numeric*"></a>
+
+  <h3 id="SLS_Common_DTO_RealmObjects_Dispatch_OrderPositionRealmObject_Optional_11_Numeric" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.OrderPositionRealmObject.Optional_11_Numeric">
+  Optional_11_Numeric
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO.RealmObjects/Dispatch/OrderPositionRealmObject.cs/#L92"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int? Optional_11_Numeric { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_RealmObjects_Dispatch_OrderPositionRealmObject_Optional_12_Numeric_" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.OrderPositionRealmObject.Optional_12_Numeric*"></a>
+
+  <h3 id="SLS_Common_DTO_RealmObjects_Dispatch_OrderPositionRealmObject_Optional_12_Numeric" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.OrderPositionRealmObject.Optional_12_Numeric">
+  Optional_12_Numeric
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO.RealmObjects/Dispatch/OrderPositionRealmObject.cs/#L89"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int? Optional_12_Numeric { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_RealmObjects_Dispatch_OrderPositionRealmObject_Optional_13_Numeric_" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.OrderPositionRealmObject.Optional_13_Numeric*"></a>
+
+  <h3 id="SLS_Common_DTO_RealmObjects_Dispatch_OrderPositionRealmObject_Optional_13_Numeric" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.OrderPositionRealmObject.Optional_13_Numeric">
+  Optional_13_Numeric
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO.RealmObjects/Dispatch/OrderPositionRealmObject.cs/#L90"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int? Optional_13_Numeric { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_RealmObjects_Dispatch_OrderPositionRealmObject_Optional_14_Numeric_" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.OrderPositionRealmObject.Optional_14_Numeric*"></a>
+
+  <h3 id="SLS_Common_DTO_RealmObjects_Dispatch_OrderPositionRealmObject_Optional_14_Numeric" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.OrderPositionRealmObject.Optional_14_Numeric">
+  Optional_14_Numeric
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO.RealmObjects/Dispatch/OrderPositionRealmObject.cs/#L91"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public double? Optional_14_Numeric { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_RealmObjects_Dispatch_OrderPositionRealmObject_Optional_15_Numeric_" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.OrderPositionRealmObject.Optional_15_Numeric*"></a>
+
+  <h3 id="SLS_Common_DTO_RealmObjects_Dispatch_OrderPositionRealmObject_Optional_15_Numeric" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.OrderPositionRealmObject.Optional_15_Numeric">
+  Optional_15_Numeric
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO.RealmObjects/Dispatch/OrderPositionRealmObject.cs/#L88"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public double? Optional_15_Numeric { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_RealmObjects_Dispatch_OrderPositionRealmObject_Optional_2_" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.OrderPositionRealmObject.Optional_2*"></a>
+
+  <h3 id="SLS_Common_DTO_RealmObjects_Dispatch_OrderPositionRealmObject_Optional_2" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.OrderPositionRealmObject.Optional_2">
+  Optional_2
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO.RealmObjects/Dispatch/OrderPositionRealmObject.cs/#L78"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string? Optional_2 { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_RealmObjects_Dispatch_OrderPositionRealmObject_Optional_3_" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.OrderPositionRealmObject.Optional_3*"></a>
+
+  <h3 id="SLS_Common_DTO_RealmObjects_Dispatch_OrderPositionRealmObject_Optional_3" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.OrderPositionRealmObject.Optional_3">
+  Optional_3
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO.RealmObjects/Dispatch/OrderPositionRealmObject.cs/#L64"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string? Optional_3 { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_RealmObjects_Dispatch_OrderPositionRealmObject_Optional_4_" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.OrderPositionRealmObject.Optional_4*"></a>
+
+  <h3 id="SLS_Common_DTO_RealmObjects_Dispatch_OrderPositionRealmObject_Optional_4" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.OrderPositionRealmObject.Optional_4">
+  Optional_4
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO.RealmObjects/Dispatch/OrderPositionRealmObject.cs/#L79"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string? Optional_4 { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_RealmObjects_Dispatch_OrderPositionRealmObject_Optional_5_" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.OrderPositionRealmObject.Optional_5*"></a>
+
+  <h3 id="SLS_Common_DTO_RealmObjects_Dispatch_OrderPositionRealmObject_Optional_5" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.OrderPositionRealmObject.Optional_5">
+  Optional_5
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO.RealmObjects/Dispatch/OrderPositionRealmObject.cs/#L80"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string? Optional_5 { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_RealmObjects_Dispatch_OrderPositionRealmObject_Optional_6_" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.OrderPositionRealmObject.Optional_6*"></a>
+
+  <h3 id="SLS_Common_DTO_RealmObjects_Dispatch_OrderPositionRealmObject_Optional_6" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.OrderPositionRealmObject.Optional_6">
+  Optional_6
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO.RealmObjects/Dispatch/OrderPositionRealmObject.cs/#L83"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string? Optional_6 { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_RealmObjects_Dispatch_OrderPositionRealmObject_Optional_7_" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.OrderPositionRealmObject.Optional_7*"></a>
+
+  <h3 id="SLS_Common_DTO_RealmObjects_Dispatch_OrderPositionRealmObject_Optional_7" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.OrderPositionRealmObject.Optional_7">
+  Optional_7
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO.RealmObjects/Dispatch/OrderPositionRealmObject.cs/#L84"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string? Optional_7 { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_RealmObjects_Dispatch_OrderPositionRealmObject_Optional_8_" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.OrderPositionRealmObject.Optional_8*"></a>
+
+  <h3 id="SLS_Common_DTO_RealmObjects_Dispatch_OrderPositionRealmObject_Optional_8" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.OrderPositionRealmObject.Optional_8">
+  Optional_8
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO.RealmObjects/Dispatch/OrderPositionRealmObject.cs/#L85"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string? Optional_8 { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_RealmObjects_Dispatch_OrderPositionRealmObject_Optional_9_" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.OrderPositionRealmObject.Optional_9*"></a>
+
+  <h3 id="SLS_Common_DTO_RealmObjects_Dispatch_OrderPositionRealmObject_Optional_9" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.OrderPositionRealmObject.Optional_9">
+  Optional_9
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO.RealmObjects/Dispatch/OrderPositionRealmObject.cs/#L86"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string? Optional_9 { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_RealmObjects_Dispatch_OrderPositionRealmObject_Order_" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.OrderPositionRealmObject.Order*"></a>
+
+  <h3 id="SLS_Common_DTO_RealmObjects_Dispatch_OrderPositionRealmObject_Order" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.OrderPositionRealmObject.Order">
+  Order
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO.RealmObjects/Dispatch/OrderPositionRealmObject.cs/#L136"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public OrderRealmObject? Order { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="SLS.Common.DTO.RealmObjects.Dispatch.OrderRealmObject.html">OrderRealmObject</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_RealmObjects_Dispatch_OrderPositionRealmObject_OrderDangerousGoodInfo_OrderPosition_" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.OrderPositionRealmObject.OrderDangerousGoodInfo_OrderPosition*"></a>
+
+  <h3 id="SLS_Common_DTO_RealmObjects_Dispatch_OrderPositionRealmObject_OrderDangerousGoodInfo_OrderPosition" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.OrderPositionRealmObject.OrderDangerousGoodInfo_OrderPosition">
+  OrderDangerousGoodInfo_OrderPosition
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO.RealmObjects/Dispatch/OrderPositionRealmObject.cs/#L156"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Backlink(&quot;OrderPosition&quot;)]
+public IQueryable&lt;OrderDangerousGoodInfoRealmObject&gt; OrderDangerousGoodInfo_OrderPosition { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.linq.iqueryable-1">IQueryable</a>&lt;<a class="xref" href="SLS.Common.DTO.RealmObjects.Dispatch.OrderDangerousGoodInfoRealmObject.html">OrderDangerousGoodInfoRealmObject</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_RealmObjects_Dispatch_OrderPositionRealmObject_OrderID_" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.OrderPositionRealmObject.OrderID*"></a>
+
+  <h3 id="SLS_Common_DTO_RealmObjects_Dispatch_OrderPositionRealmObject_OrderID" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.OrderPositionRealmObject.OrderID">
+  OrderID
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO.RealmObjects/Dispatch/OrderPositionRealmObject.cs/#L45"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual long? OrderID { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_RealmObjects_Dispatch_OrderPositionRealmObject_OrderItems_OrderPosition_" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.OrderPositionRealmObject.OrderItems_OrderPosition*"></a>
+
+  <h3 id="SLS_Common_DTO_RealmObjects_Dispatch_OrderPositionRealmObject_OrderItems_OrderPosition" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.OrderPositionRealmObject.OrderItems_OrderPosition">
+  OrderItems_OrderPosition
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO.RealmObjects/Dispatch/OrderPositionRealmObject.cs/#L153"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Backlink(&quot;OrderPosition&quot;)]
+public IQueryable&lt;OrderItemRealmObject&gt; OrderItems_OrderPosition { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.linq.iqueryable-1">IQueryable</a>&lt;<a class="xref" href="SLS.Common.DTO.RealmObjects.Dispatch.OrderItemRealmObject.html">OrderItemRealmObject</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_RealmObjects_Dispatch_OrderPositionRealmObject_OrderPositions_RelatedOrderPositio_" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.OrderPositionRealmObject.OrderPositions_RelatedOrderPositio*"></a>
+
+  <h3 id="SLS_Common_DTO_RealmObjects_Dispatch_OrderPositionRealmObject_OrderPositions_RelatedOrderPositio" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.OrderPositionRealmObject.OrderPositions_RelatedOrderPositio">
+  OrderPositions_RelatedOrderPositio
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO.RealmObjects/Dispatch/OrderPositionRealmObject.cs/#L150"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Backlink(&quot;RelatedOrderPositio&quot;)]
+public IQueryable&lt;OrderPositionRealmObject&gt; OrderPositions_RelatedOrderPositio { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.linq.iqueryable-1">IQueryable</a>&lt;<a class="xref" href="SLS.Common.DTO.RealmObjects.Dispatch.OrderPositionRealmObject.html">OrderPositionRealmObject</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_RealmObjects_Dispatch_OrderPositionRealmObject_OriginalPositionInfo_" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.OrderPositionRealmObject.OriginalPositionInfo*"></a>
+
+  <h3 id="SLS_Common_DTO_RealmObjects_Dispatch_OrderPositionRealmObject_OriginalPositionInfo" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.OrderPositionRealmObject.OriginalPositionInfo">
+  OriginalPositionInfo
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO.RealmObjects/Dispatch/OrderPositionRealmObject.cs/#L125"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string? OriginalPositionInfo { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_RealmObjects_Dispatch_OrderPositionRealmObject_Packaging_" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.OrderPositionRealmObject.Packaging*"></a>
+
+  <h3 id="SLS_Common_DTO_RealmObjects_Dispatch_OrderPositionRealmObject_Packaging" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.OrderPositionRealmObject.Packaging">
+  Packaging
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO.RealmObjects/Dispatch/OrderPositionRealmObject.cs/#L142"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ArticleTypeRealmObject? Packaging { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="SLS.Common.DTO.RealmObjects.MasterData.Article.ArticleTypeRealmObject.html">ArticleTypeRealmObject</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_RealmObjects_Dispatch_OrderPositionRealmObject_PackagingID_" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.OrderPositionRealmObject.PackagingID*"></a>
+
+  <h3 id="SLS_Common_DTO_RealmObjects_Dispatch_OrderPositionRealmObject_PackagingID" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.OrderPositionRealmObject.PackagingID">
+  PackagingID
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO.RealmObjects/Dispatch/OrderPositionRealmObject.cs/#L49"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual long? PackagingID { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_RealmObjects_Dispatch_OrderPositionRealmObject_PackagingQuantity_" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.OrderPositionRealmObject.PackagingQuantity*"></a>
+
+  <h3 id="SLS_Common_DTO_RealmObjects_Dispatch_OrderPositionRealmObject_PackagingQuantity" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.OrderPositionRealmObject.PackagingQuantity">
+  PackagingQuantity
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO.RealmObjects/Dispatch/OrderPositionRealmObject.cs/#L112"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public long? PackagingQuantity { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_RealmObjects_Dispatch_OrderPositionRealmObject_Position_" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.OrderPositionRealmObject.Position*"></a>
+
+  <h3 id="SLS_Common_DTO_RealmObjects_Dispatch_OrderPositionRealmObject_Position" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.OrderPositionRealmObject.Position">
+  Position
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO.RealmObjects/Dispatch/OrderPositionRealmObject.cs/#L76"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int? Position { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_RealmObjects_Dispatch_OrderPositionRealmObject_Realm_" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.OrderPositionRealmObject.Realm*"></a>
+
+  <h3 id="SLS_Common_DTO_RealmObjects_Dispatch_OrderPositionRealmObject_Realm" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.OrderPositionRealmObject.Realm">
+  Realm
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Gets the <a class="xref" href="https://github.com/realm/realm-dotnet/blob/Dev/Realm/Realm/DatabaseTypes/IRealmObjectBase.cs">Realm</a> instance this object belongs to, or <code>null</code> if it is unmanaged.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[IgnoreDataMember]
+public Realm? Realm { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://github.com/realm/realm-dotnet/blob/Dev/Realm/Realm/Realm.cs">Realm</a></dt>
+    <dd><p>The <a class="xref" href="https://github.com/realm/realm-dotnet/blob/Dev/Realm/Realm/DatabaseTypes/IRealmObjectBase.cs">Realm</a> instance this object belongs to.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_RealmObjects_Dispatch_OrderPositionRealmObject_RelatedOrderPositio_" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.OrderPositionRealmObject.RelatedOrderPositio*"></a>
+
+  <h3 id="SLS_Common_DTO_RealmObjects_Dispatch_OrderPositionRealmObject_RelatedOrderPositio" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.OrderPositionRealmObject.RelatedOrderPositio">
+  RelatedOrderPositio
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO.RealmObjects/Dispatch/OrderPositionRealmObject.cs/#L144"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public OrderPositionRealmObject? RelatedOrderPositio { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="SLS.Common.DTO.RealmObjects.Dispatch.OrderPositionRealmObject.html">OrderPositionRealmObject</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_RealmObjects_Dispatch_OrderPositionRealmObject_RelatedOrderPositioID_" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.OrderPositionRealmObject.RelatedOrderPositioID*"></a>
+
+  <h3 id="SLS_Common_DTO_RealmObjects_Dispatch_OrderPositionRealmObject_RelatedOrderPositioID" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.OrderPositionRealmObject.RelatedOrderPositioID">
+  RelatedOrderPositioID
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO.RealmObjects/Dispatch/OrderPositionRealmObject.cs/#L50"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual long? RelatedOrderPositioID { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_RealmObjects_Dispatch_OrderPositionRealmObject_ReturnOrderPositionID_" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.OrderPositionRealmObject.ReturnOrderPositionID*"></a>
+
+  <h3 id="SLS_Common_DTO_RealmObjects_Dispatch_OrderPositionRealmObject_ReturnOrderPositionID" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.OrderPositionRealmObject.ReturnOrderPositionID">
+  ReturnOrderPositionID
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO.RealmObjects/Dispatch/OrderPositionRealmObject.cs/#L123"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public long? ReturnOrderPositionID { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_RealmObjects_Dispatch_OrderPositionRealmObject_SquareMeters_" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.OrderPositionRealmObject.SquareMeters*"></a>
+
+  <h3 id="SLS_Common_DTO_RealmObjects_Dispatch_OrderPositionRealmObject_SquareMeters" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.OrderPositionRealmObject.SquareMeters">
+  SquareMeters
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO.RealmObjects/Dispatch/OrderPositionRealmObject.cs/#L127"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public double? SquareMeters { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_RealmObjects_Dispatch_OrderPositionRealmObject_StackFactor_" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.OrderPositionRealmObject.StackFactor*"></a>
+
+  <h3 id="SLS_Common_DTO_RealmObjects_Dispatch_OrderPositionRealmObject_StackFactor" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.OrderPositionRealmObject.StackFactor">
+  StackFactor
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO.RealmObjects/Dispatch/OrderPositionRealmObject.cs/#L130"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public long? StackFactor { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_RealmObjects_Dispatch_OrderPositionRealmObject_Subsidiary_ID_" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.OrderPositionRealmObject.Subsidiary_ID*"></a>
+
+  <h3 id="SLS_Common_DTO_RealmObjects_Dispatch_OrderPositionRealmObject_Subsidiary_ID" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.OrderPositionRealmObject.Subsidiary_ID">
+  Subsidiary_ID
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO.RealmObjects/Dispatch/OrderPositionRealmObject.cs/#L33"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public long? Subsidiary_ID { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_RealmObjects_Dispatch_OrderPositionRealmObject_Tag_" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.OrderPositionRealmObject.Tag*"></a>
+
+  <h3 id="SLS_Common_DTO_RealmObjects_Dispatch_OrderPositionRealmObject_Tag" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.OrderPositionRealmObject.Tag">
+  Tag
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO.RealmObjects/Dispatch/OrderPositionRealmObject.cs/#L75"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string? Tag { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_RealmObjects_Dispatch_OrderPositionRealmObject_User_ID_" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.OrderPositionRealmObject.User_ID*"></a>
+
+  <h3 id="SLS_Common_DTO_RealmObjects_Dispatch_OrderPositionRealmObject_User_ID" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.OrderPositionRealmObject.User_ID">
+  User_ID
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO.RealmObjects/Dispatch/OrderPositionRealmObject.cs/#L37"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public long? User_ID { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_RealmObjects_Dispatch_OrderPositionRealmObject_Value_" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.OrderPositionRealmObject.Value*"></a>
+
+  <h3 id="SLS_Common_DTO_RealmObjects_Dispatch_OrderPositionRealmObject_Value" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.OrderPositionRealmObject.Value">
+  Value
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO.RealmObjects/Dispatch/OrderPositionRealmObject.cs/#L62"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public double? Value { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_RealmObjects_Dispatch_OrderPositionRealmObject_Version_" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.OrderPositionRealmObject.Version*"></a>
+
+  <h3 id="SLS_Common_DTO_RealmObjects_Dispatch_OrderPositionRealmObject_Version" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.OrderPositionRealmObject.Version">
+  Version
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO.RealmObjects/Dispatch/OrderPositionRealmObject.cs/#L31"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public long Version { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_RealmObjects_Dispatch_OrderPositionRealmObject_Volume_" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.OrderPositionRealmObject.Volume*"></a>
+
+  <h3 id="SLS_Common_DTO_RealmObjects_Dispatch_OrderPositionRealmObject_Volume" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.OrderPositionRealmObject.Volume">
+  Volume
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO.RealmObjects/Dispatch/OrderPositionRealmObject.cs/#L74"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public double? Volume { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_RealmObjects_Dispatch_OrderPositionRealmObject_WeightFreight_" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.OrderPositionRealmObject.WeightFreight*"></a>
+
+  <h3 id="SLS_Common_DTO_RealmObjects_Dispatch_OrderPositionRealmObject_WeightFreight" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.OrderPositionRealmObject.WeightFreight">
+  WeightFreight
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO.RealmObjects/Dispatch/OrderPositionRealmObject.cs/#L72"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public double? WeightFreight { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_RealmObjects_Dispatch_OrderPositionRealmObject_WeightGross_" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.OrderPositionRealmObject.WeightGross*"></a>
+
+  <h3 id="SLS_Common_DTO_RealmObjects_Dispatch_OrderPositionRealmObject_WeightGross" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.OrderPositionRealmObject.WeightGross">
+  WeightGross
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO.RealmObjects/Dispatch/OrderPositionRealmObject.cs/#L71"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public double? WeightGross { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_RealmObjects_Dispatch_OrderPositionRealmObject_WeightNet_" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.OrderPositionRealmObject.WeightNet*"></a>
+
+  <h3 id="SLS_Common_DTO_RealmObjects_Dispatch_OrderPositionRealmObject_WeightNet" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.OrderPositionRealmObject.WeightNet">
+  WeightNet
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO.RealmObjects/Dispatch/OrderPositionRealmObject.cs/#L58"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public double? WeightNet { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_RealmObjects_Dispatch_OrderPositionRealmObject_Width_" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.OrderPositionRealmObject.Width*"></a>
+
+  <h3 id="SLS_Common_DTO_RealmObjects_Dispatch_OrderPositionRealmObject_Width" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.OrderPositionRealmObject.Width">
+  Width
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO.RealmObjects/Dispatch/OrderPositionRealmObject.cs/#L108"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public double? Width { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h2 class="section" id="methods">Methods
+</h2>
+
+
+  <a id="SLS_Common_DTO_RealmObjects_Dispatch_OrderPositionRealmObject_Equals_" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.OrderPositionRealmObject.Equals*"></a>
+
+  <h3 id="SLS_Common_DTO_RealmObjects_Dispatch_OrderPositionRealmObject_Equals_System_Object_" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.OrderPositionRealmObject.Equals(System.Object)">
+  Equals(object?)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Determines whether the specified object is equal to the current object.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override bool Equals(object? obj)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>obj</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></dt>
+    <dd><p>The object to compare with the current object.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd><p><a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">true</a> if the specified object  is equal to the current object; otherwise, <a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">false</a>.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_RealmObjects_Dispatch_OrderPositionRealmObject_GetHashCode_" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.OrderPositionRealmObject.GetHashCode*"></a>
+
+  <h3 id="SLS_Common_DTO_RealmObjects_Dispatch_OrderPositionRealmObject_GetHashCode" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.OrderPositionRealmObject.GetHashCode">
+  GetHashCode()
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Serves as the default hash function.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override int GetHashCode()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd><p>A hash code for the current object.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_RealmObjects_Dispatch_OrderPositionRealmObject_ToString_" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.OrderPositionRealmObject.ToString*"></a>
+
+  <h3 id="SLS_Common_DTO_RealmObjects_Dispatch_OrderPositionRealmObject_ToString" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.OrderPositionRealmObject.ToString">
+  ToString()
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Returns a string that represents the current object.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override string? ToString()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>A string that represents the current object.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="events">Events
+</h2>
+
+
+
+  <h3 id="SLS_Common_DTO_RealmObjects_Dispatch_OrderPositionRealmObject_PropertyChanged" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.OrderPositionRealmObject.PropertyChanged">
+  PropertyChanged
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Occurs when a property value changes.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public event PropertyChangedEventHandler? PropertyChanged</code></pre>
+  </div>
+
+
+
+
+
+
+  <h4 class="section">Event Type</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.componentmodel.propertychangedeventhandler">PropertyChangedEventHandler</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+  <h2 class="section" id="operators">Operators
+</h2>
+
+
+  <a id="SLS_Common_DTO_RealmObjects_Dispatch_OrderPositionRealmObject_op_Explicit_" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.OrderPositionRealmObject.op_Explicit*"></a>
+
+  <h3 id="SLS_Common_DTO_RealmObjects_Dispatch_OrderPositionRealmObject_op_Explicit_Realms_RealmValue__SLS_Common_DTO_RealmObjects_Dispatch_OrderPositionRealmObject" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.OrderPositionRealmObject.op_Explicit(Realms.RealmValue)~SLS.Common.DTO.RealmObjects.Dispatch.OrderPositionRealmObject">
+  explicit operator OrderPositionRealmObject?(RealmValue)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Converts a <a class="xref" href="https://github.com/realm/realm-dotnet/blob/Dev/Realm/Realm/DatabaseTypes/RealmValue.cs">RealmValue</a> to <a class="xref" href="SLS.Common.DTO.RealmObjects.Dispatch.OrderPositionRealmObject.html">OrderPositionRealmObject</a>. Equivalent to <a class="xref" href="https://github.com/realm/realm-dotnet/blob/Dev/Realm/Realm/DatabaseTypes/RealmValue.cs">AsNullableRealmObject&lt;T&gt;()</a>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static explicit operator OrderPositionRealmObject?(RealmValue val)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>val</code> <a class="xref" href="https://github.com/realm/realm-dotnet/blob/Dev/Realm/Realm/DatabaseTypes/RealmValue.cs">RealmValue</a></dt>
+    <dd><p>The <a class="xref" href="https://github.com/realm/realm-dotnet/blob/Dev/Realm/Realm/DatabaseTypes/RealmValue.cs">RealmValue</a> to convert.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="SLS.Common.DTO.RealmObjects.Dispatch.OrderPositionRealmObject.html">OrderPositionRealmObject</a></dt>
+    <dd><p>The <a class="xref" href="SLS.Common.DTO.RealmObjects.Dispatch.OrderPositionRealmObject.html">OrderPositionRealmObject</a> stored in the <a class="xref" href="https://github.com/realm/realm-dotnet/blob/Dev/Realm/Realm/DatabaseTypes/RealmValue.cs">RealmValue</a>.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_RealmObjects_Dispatch_OrderPositionRealmObject_op_Implicit_" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.OrderPositionRealmObject.op_Implicit*"></a>
+
+  <h3 id="SLS_Common_DTO_RealmObjects_Dispatch_OrderPositionRealmObject_op_Implicit_SLS_Common_DTO_RealmObjects_Dispatch_OrderPositionRealmObject__Realms_QueryArgument" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.OrderPositionRealmObject.op_Implicit(SLS.Common.DTO.RealmObjects.Dispatch.OrderPositionRealmObject)~Realms.QueryArgument">
+  implicit operator QueryArgument(OrderPositionRealmObject?)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Implicitly constructs a <a class="xref" href="https://github.com/realm/realm-dotnet/blob/Dev/Realm/Realm/DatabaseTypes/QueryArgument.cs">QueryArgument</a> from <a class="xref" href="SLS.Common.DTO.RealmObjects.Dispatch.OrderPositionRealmObject.html">OrderPositionRealmObject</a>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static implicit operator QueryArgument(OrderPositionRealmObject? val)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>val</code> <a class="xref" href="SLS.Common.DTO.RealmObjects.Dispatch.OrderPositionRealmObject.html">OrderPositionRealmObject</a></dt>
+    <dd><p>The value to store in the <a class="xref" href="https://github.com/realm/realm-dotnet/blob/Dev/Realm/Realm/DatabaseTypes/QueryArgument.cs">QueryArgument</a>.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://github.com/realm/realm-dotnet/blob/Dev/Realm/Realm/DatabaseTypes/QueryArgument.cs">QueryArgument</a></dt>
+    <dd><p>A <a class="xref" href="https://github.com/realm/realm-dotnet/blob/Dev/Realm/Realm/DatabaseTypes/QueryArgument.cs">QueryArgument</a> containing the supplied <code class="paramref">val</code>.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_RealmObjects_Dispatch_OrderPositionRealmObject_op_Implicit_" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.OrderPositionRealmObject.op_Implicit*"></a>
+
+  <h3 id="SLS_Common_DTO_RealmObjects_Dispatch_OrderPositionRealmObject_op_Implicit_SLS_Common_DTO_RealmObjects_Dispatch_OrderPositionRealmObject__Realms_RealmValue" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.OrderPositionRealmObject.op_Implicit(SLS.Common.DTO.RealmObjects.Dispatch.OrderPositionRealmObject)~Realms.RealmValue">
+  implicit operator RealmValue(OrderPositionRealmObject?)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Implicitly constructs a <a class="xref" href="https://github.com/realm/realm-dotnet/blob/Dev/Realm/Realm/DatabaseTypes/RealmValue.cs">RealmValue</a> from <a class="xref" href="SLS.Common.DTO.RealmObjects.Dispatch.OrderPositionRealmObject.html">OrderPositionRealmObject</a>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static implicit operator RealmValue(OrderPositionRealmObject? val)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>val</code> <a class="xref" href="SLS.Common.DTO.RealmObjects.Dispatch.OrderPositionRealmObject.html">OrderPositionRealmObject</a></dt>
+    <dd><p>The value to store in the <a class="xref" href="https://github.com/realm/realm-dotnet/blob/Dev/Realm/Realm/DatabaseTypes/RealmValue.cs">RealmValue</a>.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://github.com/realm/realm-dotnet/blob/Dev/Realm/Realm/DatabaseTypes/RealmValue.cs">RealmValue</a></dt>
+    <dd><p>A <a class="xref" href="https://github.com/realm/realm-dotnet/blob/Dev/Realm/Realm/DatabaseTypes/RealmValue.cs">RealmValue</a> containing the supplied <code class="paramref">val</code>.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+</article>
+
+        <div class="contribution d-print-none">
+        </div>
+
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

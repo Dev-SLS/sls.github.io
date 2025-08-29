@@ -1,0 +1,1276 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Class CompanyContactPersonDTO | SLS Documentation </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Class CompanyContactPersonDTO | SLS Documentation ">
+      
+      
+      <link rel="icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="../">
+      
+      
+      <meta name="docfx:docurl" content="https://github.com/Dev-SLS/dev/new/Dev/apiSpec/new?filename=SLS_Common_DTO_MasterData_CompanyContactPersonDTO.md&amp;value=---%0Auid%3A%20SLS.Common.DTO.MasterData.CompanyContactPersonDTO%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../logo.svg" alt="SLS Documentation">
+            SLS Documentation
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="SLS.Common.DTO.MasterData.CompanyContactPersonDTO">
+
+
+
+  <h1 id="SLS_Common_DTO_MasterData_CompanyContactPersonDTO" data-uid="SLS.Common.DTO.MasterData.CompanyContactPersonDTO" class="text-break">
+Class CompanyContactPersonDTO  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/MasterData/CompanyContactPersonDTO.cs/#L28"><i class="bi bi-code-slash"></i></a>
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="SLS.html">SLS</a>.<a class="xref" href="SLS.Common.html">Common</a>.<a class="xref" href="SLS.Common.DTO.html">DTO</a>.<a class="xref" href="SLS.Common.DTO.MasterData.html">MasterData</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>SLS.Common.DTO.dll</dd></dl>
+  </div>
+
+  <div class="markdown summary"></div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Serializable]
+[DataContract(IsReference = true)]
+public class CompanyContactPersonDTO : IBusinessDTO, IDTO</code></pre>
+  </div>
+
+
+
+
+  <dl class="typelist inheritance">
+    <dt>Inheritance</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+      <div><span class="xref">CompanyContactPersonDTO</span></div>
+    </dd>
+  </dl>
+
+  <dl class="typelist implements">
+    <dt>Implements</dt>
+    <dd>
+      <div><a class="xref" href="SLS.Common.Interfaces.IBusinessDTO.html">IBusinessDTO</a></div>
+      <div><a class="xref" href="SLS.Common.Interfaces.IDTO.html">IDTO</a></div>
+    </dd>
+  </dl>
+
+
+  <dl class="typelist inheritedMembers">
+    <dt>Inherited Members</dt>
+    <dd>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)">object.Equals(object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">object.Equals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gethashcode">object.GetHashCode()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gettype">object.GetType()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone">object.MemberwiseClone()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals">object.ReferenceEquals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.tostring">object.ToString()</a>
+    </div>
+  </dd></dl>
+
+
+
+
+
+
+  <h2 class="section" id="properties">Properties
+</h2>
+
+
+  <a id="SLS_Common_DTO_MasterData_CompanyContactPersonDTO_Address_" data-uid="SLS.Common.DTO.MasterData.CompanyContactPersonDTO.Address*"></a>
+
+  <h3 id="SLS_Common_DTO_MasterData_CompanyContactPersonDTO_Address" data-uid="SLS.Common.DTO.MasterData.CompanyContactPersonDTO.Address">
+  Address
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/MasterData/CompanyContactPersonDTO.cs/#L130"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[ForeignKey(&quot;AddressCollection&quot;)]
+[InverseProperty(&quot;CompanyContactPersons_Address&quot;)]
+public virtual AddressCompanyDTO? Address { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="SLS.Common.DTO.MasterData.AddressCompanyDTO.html">AddressCompanyDTO</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_MasterData_CompanyContactPersonDTO_AddressCompanyVoucherIntSet_EmailReceiver_" data-uid="SLS.Common.DTO.MasterData.CompanyContactPersonDTO.AddressCompanyVoucherIntSet_EmailReceiver*"></a>
+
+  <h3 id="SLS_Common_DTO_MasterData_CompanyContactPersonDTO_AddressCompanyVoucherIntSet_EmailReceiver" data-uid="SLS.Common.DTO.MasterData.CompanyContactPersonDTO.AddressCompanyVoucherIntSet_EmailReceiver">
+  AddressCompanyVoucherIntSet_EmailReceiver
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/MasterData/CompanyContactPersonDTO.cs/#L164"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;EmailReceiverCollection&quot;)]
+[JsonIgnore]
+public virtual List&lt;AddressCompanyVoucherIntSetDTO&gt;? AddressCompanyVoucherIntSet_EmailReceiver { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<a class="xref" href="SLS.Common.DTO.MasterData.AddressCompanyVoucherIntSetDTO.html">AddressCompanyVoucherIntSetDTO</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_MasterData_CompanyContactPersonDTO_AddressCompanyVoucherIntSet_EmailReceiverCC_" data-uid="SLS.Common.DTO.MasterData.CompanyContactPersonDTO.AddressCompanyVoucherIntSet_EmailReceiverCC*"></a>
+
+  <h3 id="SLS_Common_DTO_MasterData_CompanyContactPersonDTO_AddressCompanyVoucherIntSet_EmailReceiverCC" data-uid="SLS.Common.DTO.MasterData.CompanyContactPersonDTO.AddressCompanyVoucherIntSet_EmailReceiverCC">
+  AddressCompanyVoucherIntSet_EmailReceiverCC
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/MasterData/CompanyContactPersonDTO.cs/#L169"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;EmailReceiverCCCollection&quot;)]
+[JsonIgnore]
+public virtual List&lt;AddressCompanyVoucherIntSetDTO&gt;? AddressCompanyVoucherIntSet_EmailReceiverCC { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<a class="xref" href="SLS.Common.DTO.MasterData.AddressCompanyVoucherIntSetDTO.html">AddressCompanyVoucherIntSetDTO</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_MasterData_CompanyContactPersonDTO_AddressID_" data-uid="SLS.Common.DTO.MasterData.CompanyContactPersonDTO.AddressID*"></a>
+
+  <h3 id="SLS_Common_DTO_MasterData_CompanyContactPersonDTO_AddressID" data-uid="SLS.Common.DTO.MasterData.CompanyContactPersonDTO.AddressID">
+  AddressID
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/MasterData/CompanyContactPersonDTO.cs/#L62"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;AddressCollection&quot;)]
+[ForeignKey(&quot;AddressCollection&quot;)]
+public virtual long AddressID { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_MasterData_CompanyContactPersonDTO_Company_ID_" data-uid="SLS.Common.DTO.MasterData.CompanyContactPersonDTO.Company_ID*"></a>
+
+  <h3 id="SLS_Common_DTO_MasterData_CompanyContactPersonDTO_Company_ID" data-uid="SLS.Common.DTO.MasterData.CompanyContactPersonDTO.Company_ID">
+  Company_ID
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/MasterData/CompanyContactPersonDTO.cs/#L41"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public long? Company_ID { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_MasterData_CompanyContactPersonDTO_Department_ID_" data-uid="SLS.Common.DTO.MasterData.CompanyContactPersonDTO.Department_ID*"></a>
+
+  <h3 id="SLS_Common_DTO_MasterData_CompanyContactPersonDTO_Department_ID" data-uid="SLS.Common.DTO.MasterData.CompanyContactPersonDTO.Department_ID">
+  Department_ID
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/MasterData/CompanyContactPersonDTO.cs/#L43"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public long? Department_ID { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_MasterData_CompanyContactPersonDTO_Division_ID_" data-uid="SLS.Common.DTO.MasterData.CompanyContactPersonDTO.Division_ID*"></a>
+
+  <h3 id="SLS_Common_DTO_MasterData_CompanyContactPersonDTO_Division_ID" data-uid="SLS.Common.DTO.MasterData.CompanyContactPersonDTO.Division_ID">
+  Division_ID
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/MasterData/CompanyContactPersonDTO.cs/#L45"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public long? Division_ID { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_MasterData_CompanyContactPersonDTO_EmailBusiness_" data-uid="SLS.Common.DTO.MasterData.CompanyContactPersonDTO.EmailBusiness*"></a>
+
+  <h3 id="SLS_Common_DTO_MasterData_CompanyContactPersonDTO_EmailBusiness" data-uid="SLS.Common.DTO.MasterData.CompanyContactPersonDTO.EmailBusiness">
+  EmailBusiness
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/MasterData/CompanyContactPersonDTO.cs/#L100"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;EmailBusiness&quot;)]
+public virtual string? EmailBusiness { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_MasterData_CompanyContactPersonDTO_EmailPrivate_" data-uid="SLS.Common.DTO.MasterData.CompanyContactPersonDTO.EmailPrivate*"></a>
+
+  <h3 id="SLS_Common_DTO_MasterData_CompanyContactPersonDTO_EmailPrivate" data-uid="SLS.Common.DTO.MasterData.CompanyContactPersonDTO.EmailPrivate">
+  EmailPrivate
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/MasterData/CompanyContactPersonDTO.cs/#L96"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;EmailPrivate&quot;)]
+public virtual string? EmailPrivate { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_MasterData_CompanyContactPersonDTO_EntryCommunicationDetail_ContactPerson_" data-uid="SLS.Common.DTO.MasterData.CompanyContactPersonDTO.EntryCommunicationDetail_ContactPerson*"></a>
+
+  <h3 id="SLS_Common_DTO_MasterData_CompanyContactPersonDTO_EntryCommunicationDetail_ContactPerson" data-uid="SLS.Common.DTO.MasterData.CompanyContactPersonDTO.EntryCommunicationDetail_ContactPerson">
+  EntryCommunicationDetail_ContactPerson
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/MasterData/CompanyContactPersonDTO.cs/#L174"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;ContactPersonCollection&quot;)]
+public virtual List&lt;EntryCommunicationDetailDTO&gt;? EntryCommunicationDetail_ContactPerson { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<a class="xref" href="SLS.Common.DTO.Dispatch.EntryCommunicationDetailDTO.html">EntryCommunicationDetailDTO</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_MasterData_CompanyContactPersonDTO_FaxNumber_" data-uid="SLS.Common.DTO.MasterData.CompanyContactPersonDTO.FaxNumber*"></a>
+
+  <h3 id="SLS_Common_DTO_MasterData_CompanyContactPersonDTO_FaxNumber" data-uid="SLS.Common.DTO.MasterData.CompanyContactPersonDTO.FaxNumber">
+  FaxNumber
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/MasterData/CompanyContactPersonDTO.cs/#L104"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;FaxNumber&quot;)]
+public virtual string? FaxNumber { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_MasterData_CompanyContactPersonDTO_FirstName_" data-uid="SLS.Common.DTO.MasterData.CompanyContactPersonDTO.FirstName*"></a>
+
+  <h3 id="SLS_Common_DTO_MasterData_CompanyContactPersonDTO_FirstName" data-uid="SLS.Common.DTO.MasterData.CompanyContactPersonDTO.FirstName">
+  FirstName
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/MasterData/CompanyContactPersonDTO.cs/#L80"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;FirstName&quot;)]
+public virtual string? FirstName { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_MasterData_CompanyContactPersonDTO_FiscalYear_ID_" data-uid="SLS.Common.DTO.MasterData.CompanyContactPersonDTO.FiscalYear_ID*"></a>
+
+  <h3 id="SLS_Common_DTO_MasterData_CompanyContactPersonDTO_FiscalYear_ID" data-uid="SLS.Common.DTO.MasterData.CompanyContactPersonDTO.FiscalYear_ID">
+  FiscalYear_ID
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/MasterData/CompanyContactPersonDTO.cs/#L44"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public long? FiscalYear_ID { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_MasterData_CompanyContactPersonDTO_GoodsInOrder_WarehouseClientPerson_" data-uid="SLS.Common.DTO.MasterData.CompanyContactPersonDTO.GoodsInOrder_WarehouseClientPerson*"></a>
+
+  <h3 id="SLS_Common_DTO_MasterData_CompanyContactPersonDTO_GoodsInOrder_WarehouseClientPerson" data-uid="SLS.Common.DTO.MasterData.CompanyContactPersonDTO.GoodsInOrder_WarehouseClientPerson">
+  GoodsInOrder_WarehouseClientPerson
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/MasterData/CompanyContactPersonDTO.cs/#L159"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;WarehouseClientPersonCollection&quot;)]
+[JsonIgnore]
+public virtual List&lt;GoodsInOrderDTO&gt;? GoodsInOrder_WarehouseClientPerson { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<a class="xref" href="SLS.Common.DTO.WareHouse.GoodsInOrderDTO.html">GoodsInOrderDTO</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_MasterData_CompanyContactPersonDTO_GoodsOutOrder_WarehouseClientPerson_" data-uid="SLS.Common.DTO.MasterData.CompanyContactPersonDTO.GoodsOutOrder_WarehouseClientPerson*"></a>
+
+  <h3 id="SLS_Common_DTO_MasterData_CompanyContactPersonDTO_GoodsOutOrder_WarehouseClientPerson" data-uid="SLS.Common.DTO.MasterData.CompanyContactPersonDTO.GoodsOutOrder_WarehouseClientPerson">
+  GoodsOutOrder_WarehouseClientPerson
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/MasterData/CompanyContactPersonDTO.cs/#L154"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;WarehouseClientPersonCollection&quot;)]
+[JsonIgnore]
+public virtual List&lt;GoodsOutOrderDTO&gt;? GoodsOutOrder_WarehouseClientPerson { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<a class="xref" href="SLS.Common.DTO.WareHouse.GoodsOutOrderDTO.html">GoodsOutOrderDTO</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_MasterData_CompanyContactPersonDTO_GoodsRelocateOrder_WarehouseClientPerson_" data-uid="SLS.Common.DTO.MasterData.CompanyContactPersonDTO.GoodsRelocateOrder_WarehouseClientPerson*"></a>
+
+  <h3 id="SLS_Common_DTO_MasterData_CompanyContactPersonDTO_GoodsRelocateOrder_WarehouseClientPerson" data-uid="SLS.Common.DTO.MasterData.CompanyContactPersonDTO.GoodsRelocateOrder_WarehouseClientPerson">
+  GoodsRelocateOrder_WarehouseClientPerson
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/MasterData/CompanyContactPersonDTO.cs/#L149"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;WarehouseClientPersonCollection&quot;)]
+[JsonIgnore]
+public virtual List&lt;GoodsRelocateOrderDTO&gt;? GoodsRelocateOrder_WarehouseClientPerson { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<a class="xref" href="SLS.Common.DTO.WareHouse.GoodsRelocateOrderDTO.html">GoodsRelocateOrderDTO</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_MasterData_CompanyContactPersonDTO_Id_" data-uid="SLS.Common.DTO.MasterData.CompanyContactPersonDTO.Id*"></a>
+
+  <h3 id="SLS_Common_DTO_MasterData_CompanyContactPersonDTO_Id" data-uid="SLS.Common.DTO.MasterData.CompanyContactPersonDTO.Id">
+  Id
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/MasterData/CompanyContactPersonDTO.cs/#L34"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;ID&quot;)]
+public long Id { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_MasterData_CompanyContactPersonDTO_JobPosition_" data-uid="SLS.Common.DTO.MasterData.CompanyContactPersonDTO.JobPosition*"></a>
+
+  <h3 id="SLS_Common_DTO_MasterData_CompanyContactPersonDTO_JobPosition" data-uid="SLS.Common.DTO.MasterData.CompanyContactPersonDTO.JobPosition">
+  JobPosition
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/MasterData/CompanyContactPersonDTO.cs/#L135"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[ForeignKey(&quot;JobPositionCollection&quot;)]
+[InverseProperty(&quot;CompanyContactPersons_JobPosition&quot;)]
+public virtual JobPositionDTO? JobPosition { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="SLS.Common.DTO.MasterData.JobPositionDTO.html">JobPositionDTO</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_MasterData_CompanyContactPersonDTO_JobPositionID_" data-uid="SLS.Common.DTO.MasterData.CompanyContactPersonDTO.JobPositionID*"></a>
+
+  <h3 id="SLS_Common_DTO_MasterData_CompanyContactPersonDTO_JobPositionID" data-uid="SLS.Common.DTO.MasterData.CompanyContactPersonDTO.JobPositionID">
+  JobPositionID
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/MasterData/CompanyContactPersonDTO.cs/#L67"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;JobPositionCollection&quot;)]
+[ForeignKey(&quot;JobPositionCollection&quot;)]
+public virtual long? JobPositionID { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_MasterData_CompanyContactPersonDTO_Messages_RecipientContactPerson_" data-uid="SLS.Common.DTO.MasterData.CompanyContactPersonDTO.Messages_RecipientContactPerson*"></a>
+
+  <h3 id="SLS_Common_DTO_MasterData_CompanyContactPersonDTO_Messages_RecipientContactPerson" data-uid="SLS.Common.DTO.MasterData.CompanyContactPersonDTO.Messages_RecipientContactPerson">
+  Messages_RecipientContactPerson
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/MasterData/CompanyContactPersonDTO.cs/#L144"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;RecipientContactPersonCollection&quot;)]
+[JsonIgnore]
+public virtual List&lt;MessageDTO&gt;? Messages_RecipientContactPerson { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<a class="xref" href="SLS.Common.DTO.Telematics.MessageDTO.html">MessageDTO</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_MasterData_CompanyContactPersonDTO_NameAffix_" data-uid="SLS.Common.DTO.MasterData.CompanyContactPersonDTO.NameAffix*"></a>
+
+  <h3 id="SLS_Common_DTO_MasterData_CompanyContactPersonDTO_NameAffix" data-uid="SLS.Common.DTO.MasterData.CompanyContactPersonDTO.NameAffix">
+  NameAffix
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/MasterData/CompanyContactPersonDTO.cs/#L125"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[ForeignKey(&quot;NameAffixCollection&quot;)]
+[InverseProperty(&quot;CompanyContactPersons_NameAffix&quot;)]
+public virtual NameAffixDTO? NameAffix { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="SLS.Common.DTO.MasterData.NameAffixDTO.html">NameAffixDTO</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_MasterData_CompanyContactPersonDTO_NameAffixID_" data-uid="SLS.Common.DTO.MasterData.CompanyContactPersonDTO.NameAffixID*"></a>
+
+  <h3 id="SLS_Common_DTO_MasterData_CompanyContactPersonDTO_NameAffixID" data-uid="SLS.Common.DTO.MasterData.CompanyContactPersonDTO.NameAffixID">
+  NameAffixID
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/MasterData/CompanyContactPersonDTO.cs/#L57"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;NameAffixCollection&quot;)]
+[ForeignKey(&quot;NameAffixCollection&quot;)]
+public virtual long? NameAffixID { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_MasterData_CompanyContactPersonDTO_Notice_" data-uid="SLS.Common.DTO.MasterData.CompanyContactPersonDTO.Notice*"></a>
+
+  <h3 id="SLS_Common_DTO_MasterData_CompanyContactPersonDTO_Notice" data-uid="SLS.Common.DTO.MasterData.CompanyContactPersonDTO.Notice">
+  Notice
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/MasterData/CompanyContactPersonDTO.cs/#L112"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;Notice&quot;)]
+public virtual string? Notice { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_MasterData_CompanyContactPersonDTO_Occupation_" data-uid="SLS.Common.DTO.MasterData.CompanyContactPersonDTO.Occupation*"></a>
+
+  <h3 id="SLS_Common_DTO_MasterData_CompanyContactPersonDTO_Occupation" data-uid="SLS.Common.DTO.MasterData.CompanyContactPersonDTO.Occupation">
+  Occupation
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/MasterData/CompanyContactPersonDTO.cs/#L108"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;Occupation&quot;)]
+public virtual string? Occupation { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_MasterData_CompanyContactPersonDTO_Salutation_" data-uid="SLS.Common.DTO.MasterData.CompanyContactPersonDTO.Salutation*"></a>
+
+  <h3 id="SLS_Common_DTO_MasterData_CompanyContactPersonDTO_Salutation" data-uid="SLS.Common.DTO.MasterData.CompanyContactPersonDTO.Salutation">
+  Salutation
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/MasterData/CompanyContactPersonDTO.cs/#L120"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[ForeignKey(&quot;SalutationCollection&quot;)]
+[InverseProperty(&quot;CompanyContactPersons_Salutation&quot;)]
+public virtual SalutationDTO? Salutation { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="SLS.Common.DTO.MasterData.SalutationDTO.html">SalutationDTO</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_MasterData_CompanyContactPersonDTO_SalutationID_" data-uid="SLS.Common.DTO.MasterData.CompanyContactPersonDTO.SalutationID*"></a>
+
+  <h3 id="SLS_Common_DTO_MasterData_CompanyContactPersonDTO_SalutationID" data-uid="SLS.Common.DTO.MasterData.CompanyContactPersonDTO.SalutationID">
+  SalutationID
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/MasterData/CompanyContactPersonDTO.cs/#L52"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;SalutationCollection&quot;)]
+[ForeignKey(&quot;SalutationCollection&quot;)]
+public virtual long? SalutationID { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_MasterData_CompanyContactPersonDTO_Subsidiary_ID_" data-uid="SLS.Common.DTO.MasterData.CompanyContactPersonDTO.Subsidiary_ID*"></a>
+
+  <h3 id="SLS_Common_DTO_MasterData_CompanyContactPersonDTO_Subsidiary_ID" data-uid="SLS.Common.DTO.MasterData.CompanyContactPersonDTO.Subsidiary_ID">
+  Subsidiary_ID
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/MasterData/CompanyContactPersonDTO.cs/#L42"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public long? Subsidiary_ID { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_MasterData_CompanyContactPersonDTO_Surname_" data-uid="SLS.Common.DTO.MasterData.CompanyContactPersonDTO.Surname*"></a>
+
+  <h3 id="SLS_Common_DTO_MasterData_CompanyContactPersonDTO_Surname" data-uid="SLS.Common.DTO.MasterData.CompanyContactPersonDTO.Surname">
+  Surname
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/MasterData/CompanyContactPersonDTO.cs/#L76"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;Surname&quot;)]
+public virtual string Surname { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_MasterData_CompanyContactPersonDTO_TelefonBusiness_" data-uid="SLS.Common.DTO.MasterData.CompanyContactPersonDTO.TelefonBusiness*"></a>
+
+  <h3 id="SLS_Common_DTO_MasterData_CompanyContactPersonDTO_TelefonBusiness" data-uid="SLS.Common.DTO.MasterData.CompanyContactPersonDTO.TelefonBusiness">
+  TelefonBusiness
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/MasterData/CompanyContactPersonDTO.cs/#L88"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;TelefonBusiness&quot;)]
+public virtual string? TelefonBusiness { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_MasterData_CompanyContactPersonDTO_TelefonMobil_" data-uid="SLS.Common.DTO.MasterData.CompanyContactPersonDTO.TelefonMobil*"></a>
+
+  <h3 id="SLS_Common_DTO_MasterData_CompanyContactPersonDTO_TelefonMobil" data-uid="SLS.Common.DTO.MasterData.CompanyContactPersonDTO.TelefonMobil">
+  TelefonMobil
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/MasterData/CompanyContactPersonDTO.cs/#L92"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;TelefonMobil&quot;)]
+public virtual string? TelefonMobil { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_MasterData_CompanyContactPersonDTO_TelefonPrivate_" data-uid="SLS.Common.DTO.MasterData.CompanyContactPersonDTO.TelefonPrivate*"></a>
+
+  <h3 id="SLS_Common_DTO_MasterData_CompanyContactPersonDTO_TelefonPrivate" data-uid="SLS.Common.DTO.MasterData.CompanyContactPersonDTO.TelefonPrivate">
+  TelefonPrivate
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/MasterData/CompanyContactPersonDTO.cs/#L84"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;TelefonPrivate&quot;)]
+public virtual string? TelefonPrivate { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_MasterData_CompanyContactPersonDTO_User_ID_" data-uid="SLS.Common.DTO.MasterData.CompanyContactPersonDTO.User_ID*"></a>
+
+  <h3 id="SLS_Common_DTO_MasterData_CompanyContactPersonDTO_User_ID" data-uid="SLS.Common.DTO.MasterData.CompanyContactPersonDTO.User_ID">
+  User_ID
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/MasterData/CompanyContactPersonDTO.cs/#L46"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public long? User_ID { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_MasterData_CompanyContactPersonDTO_Version_" data-uid="SLS.Common.DTO.MasterData.CompanyContactPersonDTO.Version*"></a>
+
+  <h3 id="SLS_Common_DTO_MasterData_CompanyContactPersonDTO_Version" data-uid="SLS.Common.DTO.MasterData.CompanyContactPersonDTO.Version">
+  Version
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/MasterData/CompanyContactPersonDTO.cs/#L38"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;Version&quot;)]
+public long Version { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+</article>
+
+        <div class="contribution d-print-none">
+          <a href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/MasterData/CompanyContactPersonDTO.cs/#L28" class="edit-link">Edit this page</a>
+        </div>
+
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

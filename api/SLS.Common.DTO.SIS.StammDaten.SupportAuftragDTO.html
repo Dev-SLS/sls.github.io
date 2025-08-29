@@ -1,0 +1,2286 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Class SupportAuftragDTO | SLS Documentation </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Class SupportAuftragDTO | SLS Documentation ">
+      
+      
+      <link rel="icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="../">
+      
+      
+      <meta name="docfx:docurl" content="https://github.com/Dev-SLS/dev/new/Dev/apiSpec/new?filename=SLS_Common_DTO_SIS_StammDaten_SupportAuftragDTO.md&amp;value=---%0Auid%3A%20SLS.Common.DTO.SIS.StammDaten.SupportAuftragDTO%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../logo.svg" alt="SLS Documentation">
+            SLS Documentation
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="SLS.Common.DTO.SIS.StammDaten.SupportAuftragDTO">
+
+
+
+  <h1 id="SLS_Common_DTO_SIS_StammDaten_SupportAuftragDTO" data-uid="SLS.Common.DTO.SIS.StammDaten.SupportAuftragDTO" class="text-break">
+Class SupportAuftragDTO  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/SIS/StammDaten/SupportAuftragDTO.cs/#L30"><i class="bi bi-code-slash"></i></a>
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="SLS.html">SLS</a>.<a class="xref" href="SLS.Common.html">Common</a>.<a class="xref" href="SLS.Common.DTO.html">DTO</a>.<a class="xref" href="SLS.Common.DTO.SIS.html">SIS</a>.<a class="xref" href="SLS.Common.DTO.SIS.StammDaten.html">StammDaten</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>SLS.Common.DTO.dll</dd></dl>
+  </div>
+
+  <div class="markdown summary"></div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Serializable]
+[DataContract(IsReference = true)]
+public class SupportAuftragDTO : IDTO</code></pre>
+  </div>
+
+
+
+
+  <dl class="typelist inheritance">
+    <dt>Inheritance</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+      <div><span class="xref">SupportAuftragDTO</span></div>
+    </dd>
+  </dl>
+
+  <dl class="typelist implements">
+    <dt>Implements</dt>
+    <dd>
+      <div><a class="xref" href="SLS.Common.Interfaces.IDTO.html">IDTO</a></div>
+    </dd>
+  </dl>
+
+
+  <dl class="typelist inheritedMembers">
+    <dt>Inherited Members</dt>
+    <dd>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)">object.Equals(object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">object.Equals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gethashcode">object.GetHashCode()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gettype">object.GetType()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone">object.MemberwiseClone()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals">object.ReferenceEquals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.tostring">object.ToString()</a>
+    </div>
+  </dd></dl>
+
+
+
+
+
+
+  <h2 class="section" id="properties">Properties
+</h2>
+
+
+  <a id="SLS_Common_DTO_SIS_StammDaten_SupportAuftragDTO_Abgenommen_" data-uid="SLS.Common.DTO.SIS.StammDaten.SupportAuftragDTO.Abgenommen*"></a>
+
+  <h3 id="SLS_Common_DTO_SIS_StammDaten_SupportAuftragDTO_Abgenommen" data-uid="SLS.Common.DTO.SIS.StammDaten.SupportAuftragDTO.Abgenommen">
+  Abgenommen
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/SIS/StammDaten/SupportAuftragDTO.cs/#L222"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;Abgenommen&quot;)]
+public virtual DateTime? Abgenommen { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.datetime">DateTime</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_SIS_StammDaten_SupportAuftragDTO_Abgerechnet_" data-uid="SLS.Common.DTO.SIS.StammDaten.SupportAuftragDTO.Abgerechnet*"></a>
+
+  <h3 id="SLS_Common_DTO_SIS_StammDaten_SupportAuftragDTO_Abgerechnet" data-uid="SLS.Common.DTO.SIS.StammDaten.SupportAuftragDTO.Abgerechnet">
+  Abgerechnet
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/SIS/StammDaten/SupportAuftragDTO.cs/#L110"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;Abgerechnet&quot;)]
+public virtual bool? Abgerechnet { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_SIS_StammDaten_SupportAuftragDTO_Abrechungstext_" data-uid="SLS.Common.DTO.SIS.StammDaten.SupportAuftragDTO.Abrechungstext*"></a>
+
+  <h3 id="SLS_Common_DTO_SIS_StammDaten_SupportAuftragDTO_Abrechungstext" data-uid="SLS.Common.DTO.SIS.StammDaten.SupportAuftragDTO.Abrechungstext">
+  Abrechungstext
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/SIS/StammDaten/SupportAuftragDTO.cs/#L226"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;Abrechungstext&quot;)]
+public virtual string? Abrechungstext { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_SIS_StammDaten_SupportAuftragDTO_Ansprechpartner_" data-uid="SLS.Common.DTO.SIS.StammDaten.SupportAuftragDTO.Ansprechpartner*"></a>
+
+  <h3 id="SLS_Common_DTO_SIS_StammDaten_SupportAuftragDTO_Ansprechpartner" data-uid="SLS.Common.DTO.SIS.StammDaten.SupportAuftragDTO.Ansprechpartner">
+  Ansprechpartner
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/SIS/StammDaten/SupportAuftragDTO.cs/#L255"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[ForeignKey(&quot;AnsprechpartnerCollection&quot;)]
+[InverseProperty(&quot;SupportAuftraege_Ansprechpartner&quot;)]
+[JsonIgnore]
+public virtual AnsprechpartnerDTO? Ansprechpartner { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="SLS.Common.DTO.SIS.StammDaten.AnsprechpartnerDTO.html">AnsprechpartnerDTO</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_SIS_StammDaten_SupportAuftragDTO_AnsprechpartnerID_" data-uid="SLS.Common.DTO.SIS.StammDaten.SupportAuftragDTO.AnsprechpartnerID*"></a>
+
+  <h3 id="SLS_Common_DTO_SIS_StammDaten_SupportAuftragDTO_AnsprechpartnerID" data-uid="SLS.Common.DTO.SIS.StammDaten.SupportAuftragDTO.AnsprechpartnerID">
+  AnsprechpartnerID
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/SIS/StammDaten/SupportAuftragDTO.cs/#L51"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;AnsprechpartnerCollection&quot;)]
+[ForeignKey(&quot;AnsprechpartnerCollection&quot;)]
+public virtual long? AnsprechpartnerID { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_SIS_StammDaten_SupportAuftragDTO_Art_" data-uid="SLS.Common.DTO.SIS.StammDaten.SupportAuftragDTO.Art*"></a>
+
+  <h3 id="SLS_Common_DTO_SIS_StammDaten_SupportAuftragDTO_Art" data-uid="SLS.Common.DTO.SIS.StammDaten.SupportAuftragDTO.Art">
+  Art
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/SIS/StammDaten/SupportAuftragDTO.cs/#L275"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[ForeignKey(&quot;ArtCollection&quot;)]
+[InverseProperty(&quot;SupportAuftraege_Art&quot;)]
+[JsonIgnore]
+public virtual SupportAuftragArtDTO? Art { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="SLS.Common.DTO.SIS.StammDaten.SupportAuftragArtDTO.html">SupportAuftragArtDTO</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_SIS_StammDaten_SupportAuftragDTO_ArtID_" data-uid="SLS.Common.DTO.SIS.StammDaten.SupportAuftragDTO.ArtID*"></a>
+
+  <h3 id="SLS_Common_DTO_SIS_StammDaten_SupportAuftragDTO_ArtID" data-uid="SLS.Common.DTO.SIS.StammDaten.SupportAuftragDTO.ArtID">
+  ArtID
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/SIS/StammDaten/SupportAuftragDTO.cs/#L71"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;ArtCollection&quot;)]
+[ForeignKey(&quot;ArtCollection&quot;)]
+public virtual long? ArtID { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_SIS_StammDaten_SupportAuftragDTO_Bearbeiter_" data-uid="SLS.Common.DTO.SIS.StammDaten.SupportAuftragDTO.Bearbeiter*"></a>
+
+  <h3 id="SLS_Common_DTO_SIS_StammDaten_SupportAuftragDTO_Bearbeiter" data-uid="SLS.Common.DTO.SIS.StammDaten.SupportAuftragDTO.Bearbeiter">
+  Bearbeiter
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/SIS/StammDaten/SupportAuftragDTO.cs/#L102"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;Bearbeiter&quot;)]
+public virtual int? Bearbeiter { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_SIS_StammDaten_SupportAuftragDTO_Bearbeiter_2_" data-uid="SLS.Common.DTO.SIS.StammDaten.SupportAuftragDTO.Bearbeiter_2*"></a>
+
+  <h3 id="SLS_Common_DTO_SIS_StammDaten_SupportAuftragDTO_Bearbeiter_2" data-uid="SLS.Common.DTO.SIS.StammDaten.SupportAuftragDTO.Bearbeiter_2">
+  Bearbeiter_2
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/SIS/StammDaten/SupportAuftragDTO.cs/#L130"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;Bearbeiter_2&quot;)]
+public virtual long? Bearbeiter_2 { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_SIS_StammDaten_SupportAuftragDTO_Betrag_" data-uid="SLS.Common.DTO.SIS.StammDaten.SupportAuftragDTO.Betrag*"></a>
+
+  <h3 id="SLS_Common_DTO_SIS_StammDaten_SupportAuftragDTO_Betrag" data-uid="SLS.Common.DTO.SIS.StammDaten.SupportAuftragDTO.Betrag">
+  Betrag
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/SIS/StammDaten/SupportAuftragDTO.cs/#L114"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;Betrag&quot;)]
+public virtual double? Betrag { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_SIS_StammDaten_SupportAuftragDTO_Betreff_" data-uid="SLS.Common.DTO.SIS.StammDaten.SupportAuftragDTO.Betreff*"></a>
+
+  <h3 id="SLS_Common_DTO_SIS_StammDaten_SupportAuftragDTO_Betreff" data-uid="SLS.Common.DTO.SIS.StammDaten.SupportAuftragDTO.Betreff">
+  Betreff
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/SIS/StammDaten/SupportAuftragDTO.cs/#L218"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;Betreff&quot;)]
+public virtual string? Betreff { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_SIS_StammDaten_SupportAuftragDTO_Datum_" data-uid="SLS.Common.DTO.SIS.StammDaten.SupportAuftragDTO.Datum*"></a>
+
+  <h3 id="SLS_Common_DTO_SIS_StammDaten_SupportAuftragDTO_Datum" data-uid="SLS.Common.DTO.SIS.StammDaten.SupportAuftragDTO.Datum">
+  Datum
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/SIS/StammDaten/SupportAuftragDTO.cs/#L98"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;Datum&quot;)]
+public virtual DateTime? Datum { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.datetime">DateTime</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_SIS_StammDaten_SupportAuftragDTO_Details_" data-uid="SLS.Common.DTO.SIS.StammDaten.SupportAuftragDTO.Details*"></a>
+
+  <h3 id="SLS_Common_DTO_SIS_StammDaten_SupportAuftragDTO_Details" data-uid="SLS.Common.DTO.SIS.StammDaten.SupportAuftragDTO.Details">
+  Details
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/SIS/StammDaten/SupportAuftragDTO.cs/#L94"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;Details&quot;)]
+public virtual string? Details { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_SIS_StammDaten_SupportAuftragDTO_DetailsText_" data-uid="SLS.Common.DTO.SIS.StammDaten.SupportAuftragDTO.DetailsText*"></a>
+
+  <h3 id="SLS_Common_DTO_SIS_StammDaten_SupportAuftragDTO_DetailsText" data-uid="SLS.Common.DTO.SIS.StammDaten.SupportAuftragDTO.DetailsText">
+  DetailsText
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/SIS/StammDaten/SupportAuftragDTO.cs/#L242"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;DetailsText&quot;)]
+public virtual string? DetailsText { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_SIS_StammDaten_SupportAuftragDTO_DocuReq_" data-uid="SLS.Common.DTO.SIS.StammDaten.SupportAuftragDTO.DocuReq*"></a>
+
+  <h3 id="SLS_Common_DTO_SIS_StammDaten_SupportAuftragDTO_DocuReq" data-uid="SLS.Common.DTO.SIS.StammDaten.SupportAuftragDTO.DocuReq">
+  DocuReq
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/SIS/StammDaten/SupportAuftragDTO.cs/#L150"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;DocuReq&quot;)]
+public virtual bool? DocuReq { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_SIS_StammDaten_SupportAuftragDTO_Einheiten_" data-uid="SLS.Common.DTO.SIS.StammDaten.SupportAuftragDTO.Einheiten*"></a>
+
+  <h3 id="SLS_Common_DTO_SIS_StammDaten_SupportAuftragDTO_Einheiten" data-uid="SLS.Common.DTO.SIS.StammDaten.SupportAuftragDTO.Einheiten">
+  Einheiten
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/SIS/StammDaten/SupportAuftragDTO.cs/#L118"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;Einheiten&quot;)]
+public virtual long? Einheiten { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_SIS_StammDaten_SupportAuftragDTO_EmailID_" data-uid="SLS.Common.DTO.SIS.StammDaten.SupportAuftragDTO.EmailID*"></a>
+
+  <h3 id="SLS_Common_DTO_SIS_StammDaten_SupportAuftragDTO_EmailID" data-uid="SLS.Common.DTO.SIS.StammDaten.SupportAuftragDTO.EmailID">
+  EmailID
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/SIS/StammDaten/SupportAuftragDTO.cs/#L122"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;EmailID&quot;)]
+public virtual string? EmailID { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_SIS_StammDaten_SupportAuftragDTO_Erledigt_" data-uid="SLS.Common.DTO.SIS.StammDaten.SupportAuftragDTO.Erledigt*"></a>
+
+  <h3 id="SLS_Common_DTO_SIS_StammDaten_SupportAuftragDTO_Erledigt" data-uid="SLS.Common.DTO.SIS.StammDaten.SupportAuftragDTO.Erledigt">
+  Erledigt
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/SIS/StammDaten/SupportAuftragDTO.cs/#L106"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;Erledigt&quot;)]
+public virtual bool? Erledigt { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_SIS_StammDaten_SupportAuftragDTO_Faelligkeit_" data-uid="SLS.Common.DTO.SIS.StammDaten.SupportAuftragDTO.Faelligkeit*"></a>
+
+  <h3 id="SLS_Common_DTO_SIS_StammDaten_SupportAuftragDTO_Faelligkeit" data-uid="SLS.Common.DTO.SIS.StammDaten.SupportAuftragDTO.Faelligkeit">
+  Faelligkeit
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/SIS/StammDaten/SupportAuftragDTO.cs/#L142"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;Faelligkeit&quot;)]
+public virtual DateTime? Faelligkeit { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.datetime">DateTime</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_SIS_StammDaten_SupportAuftragDTO_FaelligkeitNextStep_" data-uid="SLS.Common.DTO.SIS.StammDaten.SupportAuftragDTO.FaelligkeitNextStep*"></a>
+
+  <h3 id="SLS_Common_DTO_SIS_StammDaten_SupportAuftragDTO_FaelligkeitNextStep" data-uid="SLS.Common.DTO.SIS.StammDaten.SupportAuftragDTO.FaelligkeitNextStep">
+  FaelligkeitNextStep
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/SIS/StammDaten/SupportAuftragDTO.cs/#L214"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;FaelligkeitNextStep&quot;)]
+public virtual DateTime? FaelligkeitNextStep { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.datetime">DateTime</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_SIS_StammDaten_SupportAuftragDTO_FaelligkeitTotal_" data-uid="SLS.Common.DTO.SIS.StammDaten.SupportAuftragDTO.FaelligkeitTotal*"></a>
+
+  <h3 id="SLS_Common_DTO_SIS_StammDaten_SupportAuftragDTO_FaelligkeitTotal" data-uid="SLS.Common.DTO.SIS.StammDaten.SupportAuftragDTO.FaelligkeitTotal">
+  FaelligkeitTotal
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/SIS/StammDaten/SupportAuftragDTO.cs/#L230"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;FaelligkeitTotal&quot;)]
+public virtual DateTime? FaelligkeitTotal { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.datetime">DateTime</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_SIS_StammDaten_SupportAuftragDTO_FreigegebenesZeitkontigent_" data-uid="SLS.Common.DTO.SIS.StammDaten.SupportAuftragDTO.FreigegebenesZeitkontigent*"></a>
+
+  <h3 id="SLS_Common_DTO_SIS_StammDaten_SupportAuftragDTO_FreigegebenesZeitkontigent" data-uid="SLS.Common.DTO.SIS.StammDaten.SupportAuftragDTO.FreigegebenesZeitkontigent">
+  FreigegebenesZeitkontigent
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/SIS/StammDaten/SupportAuftragDTO.cs/#L234"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;FreigegebenesZeitkontigent&quot;)]
+public virtual long? FreigegebenesZeitkontigent { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_SIS_StammDaten_SupportAuftragDTO_Id_" data-uid="SLS.Common.DTO.SIS.StammDaten.SupportAuftragDTO.Id*"></a>
+
+  <h3 id="SLS_Common_DTO_SIS_StammDaten_SupportAuftragDTO_Id" data-uid="SLS.Common.DTO.SIS.StammDaten.SupportAuftragDTO.Id">
+  Id
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/SIS/StammDaten/SupportAuftragDTO.cs/#L35"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;ID&quot;)]
+public long Id { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_SIS_StammDaten_SupportAuftragDTO_IsInternesTicket_" data-uid="SLS.Common.DTO.SIS.StammDaten.SupportAuftragDTO.IsInternesTicket*"></a>
+
+  <h3 id="SLS_Common_DTO_SIS_StammDaten_SupportAuftragDTO_IsInternesTicket" data-uid="SLS.Common.DTO.SIS.StammDaten.SupportAuftragDTO.IsInternesTicket">
+  IsInternesTicket
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/SIS/StammDaten/SupportAuftragDTO.cs/#L210"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;IsInternesTicket&quot;)]
+public virtual bool? IsInternesTicket { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_SIS_StammDaten_SupportAuftragDTO_KontaktSupportAuftrag_SupportAuftrag_" data-uid="SLS.Common.DTO.SIS.StammDaten.SupportAuftragDTO.KontaktSupportAuftrag_SupportAuftrag*"></a>
+
+  <h3 id="SLS_Common_DTO_SIS_StammDaten_SupportAuftragDTO_KontaktSupportAuftrag_SupportAuftrag" data-uid="SLS.Common.DTO.SIS.StammDaten.SupportAuftragDTO.KontaktSupportAuftrag_SupportAuftrag">
+  KontaktSupportAuftrag_SupportAuftrag
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/SIS/StammDaten/SupportAuftragDTO.cs/#L314"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;SupportAuftragCollection&quot;)]
+[JsonIgnore]
+public virtual List&lt;KontaktSupportAuftragDTO&gt;? KontaktSupportAuftrag_SupportAuftrag { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<a class="xref" href="SLS.Common.DTO.SIS.StammDaten.KontaktSupportAuftragDTO.html">KontaktSupportAuftragDTO</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_SIS_StammDaten_SupportAuftragDTO_Kostenpflichtig_" data-uid="SLS.Common.DTO.SIS.StammDaten.SupportAuftragDTO.Kostenpflichtig*"></a>
+
+  <h3 id="SLS_Common_DTO_SIS_StammDaten_SupportAuftragDTO_Kostenpflichtig" data-uid="SLS.Common.DTO.SIS.StammDaten.SupportAuftragDTO.Kostenpflichtig">
+  Kostenpflichtig
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/SIS/StammDaten/SupportAuftragDTO.cs/#L134"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;Kostenpflichtig&quot;)]
+public virtual bool? Kostenpflichtig { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_SIS_StammDaten_SupportAuftragDTO_Kunde_" data-uid="SLS.Common.DTO.SIS.StammDaten.SupportAuftragDTO.Kunde*"></a>
+
+  <h3 id="SLS_Common_DTO_SIS_StammDaten_SupportAuftragDTO_Kunde" data-uid="SLS.Common.DTO.SIS.StammDaten.SupportAuftragDTO.Kunde">
+  Kunde
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/SIS/StammDaten/SupportAuftragDTO.cs/#L250"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[ForeignKey(&quot;KundeCollection&quot;)]
+[InverseProperty(&quot;SupportAuftraege_Kunde&quot;)]
+[JsonIgnore]
+public virtual KundeDTO? Kunde { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="SLS.Common.DTO.SIS.StammDaten.KundeDTO.html">KundeDTO</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_SIS_StammDaten_SupportAuftragDTO_KundeID_" data-uid="SLS.Common.DTO.SIS.StammDaten.SupportAuftragDTO.KundeID*"></a>
+
+  <h3 id="SLS_Common_DTO_SIS_StammDaten_SupportAuftragDTO_KundeID" data-uid="SLS.Common.DTO.SIS.StammDaten.SupportAuftragDTO.KundeID">
+  KundeID
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/SIS/StammDaten/SupportAuftragDTO.cs/#L46"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;KundeCollection&quot;)]
+[ForeignKey(&quot;KundeCollection&quot;)]
+public virtual long KundeID { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_SIS_StammDaten_SupportAuftragDTO_LaufzeitInfo_" data-uid="SLS.Common.DTO.SIS.StammDaten.SupportAuftragDTO.LaufzeitInfo*"></a>
+
+  <h3 id="SLS_Common_DTO_SIS_StammDaten_SupportAuftragDTO_LaufzeitInfo" data-uid="SLS.Common.DTO.SIS.StammDaten.SupportAuftragDTO.LaufzeitInfo">
+  LaufzeitInfo
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/SIS/StammDaten/SupportAuftragDTO.cs/#L206"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;LaufzeitInfo&quot;)]
+public virtual string? LaufzeitInfo { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_SIS_StammDaten_SupportAuftragDTO_OptionalBoolean_1_" data-uid="SLS.Common.DTO.SIS.StammDaten.SupportAuftragDTO.OptionalBoolean_1*"></a>
+
+  <h3 id="SLS_Common_DTO_SIS_StammDaten_SupportAuftragDTO_OptionalBoolean_1" data-uid="SLS.Common.DTO.SIS.StammDaten.SupportAuftragDTO.OptionalBoolean_1">
+  OptionalBoolean_1
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/SIS/StammDaten/SupportAuftragDTO.cs/#L186"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;OptionalBoolean_1&quot;)]
+public virtual bool? OptionalBoolean_1 { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_SIS_StammDaten_SupportAuftragDTO_OptionalBoolean_2_" data-uid="SLS.Common.DTO.SIS.StammDaten.SupportAuftragDTO.OptionalBoolean_2*"></a>
+
+  <h3 id="SLS_Common_DTO_SIS_StammDaten_SupportAuftragDTO_OptionalBoolean_2" data-uid="SLS.Common.DTO.SIS.StammDaten.SupportAuftragDTO.OptionalBoolean_2">
+  OptionalBoolean_2
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/SIS/StammDaten/SupportAuftragDTO.cs/#L190"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;OptionalBoolean_2&quot;)]
+public virtual bool? OptionalBoolean_2 { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_SIS_StammDaten_SupportAuftragDTO_OptionalBoolean_3_" data-uid="SLS.Common.DTO.SIS.StammDaten.SupportAuftragDTO.OptionalBoolean_3*"></a>
+
+  <h3 id="SLS_Common_DTO_SIS_StammDaten_SupportAuftragDTO_OptionalBoolean_3" data-uid="SLS.Common.DTO.SIS.StammDaten.SupportAuftragDTO.OptionalBoolean_3">
+  OptionalBoolean_3
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/SIS/StammDaten/SupportAuftragDTO.cs/#L194"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;OptionalBoolean_3&quot;)]
+public virtual bool? OptionalBoolean_3 { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_SIS_StammDaten_SupportAuftragDTO_OptionalInt_1_" data-uid="SLS.Common.DTO.SIS.StammDaten.SupportAuftragDTO.OptionalInt_1*"></a>
+
+  <h3 id="SLS_Common_DTO_SIS_StammDaten_SupportAuftragDTO_OptionalInt_1" data-uid="SLS.Common.DTO.SIS.StammDaten.SupportAuftragDTO.OptionalInt_1">
+  OptionalInt_1
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/SIS/StammDaten/SupportAuftragDTO.cs/#L174"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;OptionalInt_1&quot;)]
+public virtual int? OptionalInt_1 { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_SIS_StammDaten_SupportAuftragDTO_OptionalInt_2_" data-uid="SLS.Common.DTO.SIS.StammDaten.SupportAuftragDTO.OptionalInt_2*"></a>
+
+  <h3 id="SLS_Common_DTO_SIS_StammDaten_SupportAuftragDTO_OptionalInt_2" data-uid="SLS.Common.DTO.SIS.StammDaten.SupportAuftragDTO.OptionalInt_2">
+  OptionalInt_2
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/SIS/StammDaten/SupportAuftragDTO.cs/#L178"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;OptionalInt_2&quot;)]
+public virtual int? OptionalInt_2 { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_SIS_StammDaten_SupportAuftragDTO_OptionalInt_3_" data-uid="SLS.Common.DTO.SIS.StammDaten.SupportAuftragDTO.OptionalInt_3*"></a>
+
+  <h3 id="SLS_Common_DTO_SIS_StammDaten_SupportAuftragDTO_OptionalInt_3" data-uid="SLS.Common.DTO.SIS.StammDaten.SupportAuftragDTO.OptionalInt_3">
+  OptionalInt_3
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/SIS/StammDaten/SupportAuftragDTO.cs/#L182"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;OptionalInt_3&quot;)]
+public virtual int? OptionalInt_3 { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_SIS_StammDaten_SupportAuftragDTO_OptionalString_1_" data-uid="SLS.Common.DTO.SIS.StammDaten.SupportAuftragDTO.OptionalString_1*"></a>
+
+  <h3 id="SLS_Common_DTO_SIS_StammDaten_SupportAuftragDTO_OptionalString_1" data-uid="SLS.Common.DTO.SIS.StammDaten.SupportAuftragDTO.OptionalString_1">
+  OptionalString_1
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/SIS/StammDaten/SupportAuftragDTO.cs/#L154"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;OptionalString_1&quot;)]
+public virtual string? OptionalString_1 { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_SIS_StammDaten_SupportAuftragDTO_OptionalString_2_" data-uid="SLS.Common.DTO.SIS.StammDaten.SupportAuftragDTO.OptionalString_2*"></a>
+
+  <h3 id="SLS_Common_DTO_SIS_StammDaten_SupportAuftragDTO_OptionalString_2" data-uid="SLS.Common.DTO.SIS.StammDaten.SupportAuftragDTO.OptionalString_2">
+  OptionalString_2
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/SIS/StammDaten/SupportAuftragDTO.cs/#L158"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;OptionalString_2&quot;)]
+public virtual string? OptionalString_2 { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_SIS_StammDaten_SupportAuftragDTO_OptionalString_3_" data-uid="SLS.Common.DTO.SIS.StammDaten.SupportAuftragDTO.OptionalString_3*"></a>
+
+  <h3 id="SLS_Common_DTO_SIS_StammDaten_SupportAuftragDTO_OptionalString_3" data-uid="SLS.Common.DTO.SIS.StammDaten.SupportAuftragDTO.OptionalString_3">
+  OptionalString_3
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/SIS/StammDaten/SupportAuftragDTO.cs/#L162"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;OptionalString_3&quot;)]
+public virtual string? OptionalString_3 { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_SIS_StammDaten_SupportAuftragDTO_OptionalString_4_" data-uid="SLS.Common.DTO.SIS.StammDaten.SupportAuftragDTO.OptionalString_4*"></a>
+
+  <h3 id="SLS_Common_DTO_SIS_StammDaten_SupportAuftragDTO_OptionalString_4" data-uid="SLS.Common.DTO.SIS.StammDaten.SupportAuftragDTO.OptionalString_4">
+  OptionalString_4
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/SIS/StammDaten/SupportAuftragDTO.cs/#L166"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;OptionalString_4&quot;)]
+public virtual string? OptionalString_4 { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_SIS_StammDaten_SupportAuftragDTO_OptionalString_5_" data-uid="SLS.Common.DTO.SIS.StammDaten.SupportAuftragDTO.OptionalString_5*"></a>
+
+  <h3 id="SLS_Common_DTO_SIS_StammDaten_SupportAuftragDTO_OptionalString_5" data-uid="SLS.Common.DTO.SIS.StammDaten.SupportAuftragDTO.OptionalString_5">
+  OptionalString_5
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/SIS/StammDaten/SupportAuftragDTO.cs/#L170"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;OptionalString_5&quot;)]
+public virtual string? OptionalString_5 { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_SIS_StammDaten_SupportAuftragDTO_Prioritaet_" data-uid="SLS.Common.DTO.SIS.StammDaten.SupportAuftragDTO.Prioritaet*"></a>
+
+  <h3 id="SLS_Common_DTO_SIS_StammDaten_SupportAuftragDTO_Prioritaet" data-uid="SLS.Common.DTO.SIS.StammDaten.SupportAuftragDTO.Prioritaet">
+  Prioritaet
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/SIS/StammDaten/SupportAuftragDTO.cs/#L265"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[ForeignKey(&quot;PrioritaetCollection&quot;)]
+[InverseProperty(&quot;SupportAuftraege_Prioritaet&quot;)]
+[JsonIgnore]
+public virtual SupportAuftragPrioritaetDTO? Prioritaet { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="SLS.Common.DTO.SIS.StammDaten.SupportAuftragPrioritaetDTO.html">SupportAuftragPrioritaetDTO</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_SIS_StammDaten_SupportAuftragDTO_PrioritaetID_" data-uid="SLS.Common.DTO.SIS.StammDaten.SupportAuftragDTO.PrioritaetID*"></a>
+
+  <h3 id="SLS_Common_DTO_SIS_StammDaten_SupportAuftragDTO_PrioritaetID" data-uid="SLS.Common.DTO.SIS.StammDaten.SupportAuftragDTO.PrioritaetID">
+  PrioritaetID
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/SIS/StammDaten/SupportAuftragDTO.cs/#L61"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;PrioritaetCollection&quot;)]
+[ForeignKey(&quot;PrioritaetCollection&quot;)]
+public virtual long? PrioritaetID { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_SIS_StammDaten_SupportAuftragDTO_Problembeschreibung_" data-uid="SLS.Common.DTO.SIS.StammDaten.SupportAuftragDTO.Problembeschreibung*"></a>
+
+  <h3 id="SLS_Common_DTO_SIS_StammDaten_SupportAuftragDTO_Problembeschreibung" data-uid="SLS.Common.DTO.SIS.StammDaten.SupportAuftragDTO.Problembeschreibung">
+  Problembeschreibung
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/SIS/StammDaten/SupportAuftragDTO.cs/#L138"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;Problembeschreibung&quot;)]
+public virtual string? Problembeschreibung { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_SIS_StammDaten_SupportAuftragDTO_ProblembeschreibungText_" data-uid="SLS.Common.DTO.SIS.StammDaten.SupportAuftragDTO.ProblembeschreibungText*"></a>
+
+  <h3 id="SLS_Common_DTO_SIS_StammDaten_SupportAuftragDTO_ProblembeschreibungText" data-uid="SLS.Common.DTO.SIS.StammDaten.SupportAuftragDTO.ProblembeschreibungText">
+  ProblembeschreibungText
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/SIS/StammDaten/SupportAuftragDTO.cs/#L146"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;ProblembeschreibungText&quot;)]
+public virtual string? ProblembeschreibungText { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_SIS_StammDaten_SupportAuftragDTO_Product_" data-uid="SLS.Common.DTO.SIS.StammDaten.SupportAuftragDTO.Product*"></a>
+
+  <h3 id="SLS_Common_DTO_SIS_StammDaten_SupportAuftragDTO_Product" data-uid="SLS.Common.DTO.SIS.StammDaten.SupportAuftragDTO.Product">
+  Product
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/SIS/StammDaten/SupportAuftragDTO.cs/#L270"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[ForeignKey(&quot;ProductCollection&quot;)]
+[InverseProperty(&quot;SupportAuftraege_Product&quot;)]
+[JsonIgnore]
+public virtual ProdukteDTO? Product { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="SLS.Common.DTO.SIS.StammDaten.ProdukteDTO.html">ProdukteDTO</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_SIS_StammDaten_SupportAuftragDTO_ProductID_" data-uid="SLS.Common.DTO.SIS.StammDaten.SupportAuftragDTO.ProductID*"></a>
+
+  <h3 id="SLS_Common_DTO_SIS_StammDaten_SupportAuftragDTO_ProductID" data-uid="SLS.Common.DTO.SIS.StammDaten.SupportAuftragDTO.ProductID">
+  ProductID
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/SIS/StammDaten/SupportAuftragDTO.cs/#L66"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;ProductCollection&quot;)]
+[ForeignKey(&quot;ProductCollection&quot;)]
+public virtual long? ProductID { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_SIS_StammDaten_SupportAuftragDTO_ProductSprintKey_" data-uid="SLS.Common.DTO.SIS.StammDaten.SupportAuftragDTO.ProductSprintKey*"></a>
+
+  <h3 id="SLS_Common_DTO_SIS_StammDaten_SupportAuftragDTO_ProductSprintKey" data-uid="SLS.Common.DTO.SIS.StammDaten.SupportAuftragDTO.ProductSprintKey">
+  ProductSprintKey
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/SIS/StammDaten/SupportAuftragDTO.cs/#L238"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;ProductSprintKey&quot;)]
+public virtual string? ProductSprintKey { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_SIS_StammDaten_SupportAuftragDTO_ProductVersion_" data-uid="SLS.Common.DTO.SIS.StammDaten.SupportAuftragDTO.ProductVersion*"></a>
+
+  <h3 id="SLS_Common_DTO_SIS_StammDaten_SupportAuftragDTO_ProductVersion" data-uid="SLS.Common.DTO.SIS.StammDaten.SupportAuftragDTO.ProductVersion">
+  ProductVersion
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/SIS/StammDaten/SupportAuftragDTO.cs/#L290"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[ForeignKey(&quot;ProductVersionCollection&quot;)]
+[InverseProperty(&quot;SupportAuftraege_ProductVersion&quot;)]
+[JsonIgnore]
+public virtual ProdukteVersionenDTO? ProductVersion { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="SLS.Common.DTO.SIS.StammDaten.ProdukteVersionenDTO.html">ProdukteVersionenDTO</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_SIS_StammDaten_SupportAuftragDTO_ProductVersionID_" data-uid="SLS.Common.DTO.SIS.StammDaten.SupportAuftragDTO.ProductVersionID*"></a>
+
+  <h3 id="SLS_Common_DTO_SIS_StammDaten_SupportAuftragDTO_ProductVersionID" data-uid="SLS.Common.DTO.SIS.StammDaten.SupportAuftragDTO.ProductVersionID">
+  ProductVersionID
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/SIS/StammDaten/SupportAuftragDTO.cs/#L86"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;ProductVersionCollection&quot;)]
+[ForeignKey(&quot;ProductVersionCollection&quot;)]
+public virtual long? ProductVersionID { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_SIS_StammDaten_SupportAuftragDTO_Standort_" data-uid="SLS.Common.DTO.SIS.StammDaten.SupportAuftragDTO.Standort*"></a>
+
+  <h3 id="SLS_Common_DTO_SIS_StammDaten_SupportAuftragDTO_Standort" data-uid="SLS.Common.DTO.SIS.StammDaten.SupportAuftragDTO.Standort">
+  Standort
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/SIS/StammDaten/SupportAuftragDTO.cs/#L285"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[ForeignKey(&quot;StandortCollection&quot;)]
+[InverseProperty(&quot;SupportAuftraege_Standort&quot;)]
+[JsonIgnore]
+public virtual StandortDTO? Standort { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="SLS.Common.DTO.SIS.StammDaten.StandortDTO.html">StandortDTO</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_SIS_StammDaten_SupportAuftragDTO_StandortID_" data-uid="SLS.Common.DTO.SIS.StammDaten.SupportAuftragDTO.StandortID*"></a>
+
+  <h3 id="SLS_Common_DTO_SIS_StammDaten_SupportAuftragDTO_StandortID" data-uid="SLS.Common.DTO.SIS.StammDaten.SupportAuftragDTO.StandortID">
+  StandortID
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/SIS/StammDaten/SupportAuftragDTO.cs/#L81"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;StandortCollection&quot;)]
+[ForeignKey(&quot;StandortCollection&quot;)]
+public virtual long? StandortID { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_SIS_StammDaten_SupportAuftragDTO_Status_" data-uid="SLS.Common.DTO.SIS.StammDaten.SupportAuftragDTO.Status*"></a>
+
+  <h3 id="SLS_Common_DTO_SIS_StammDaten_SupportAuftragDTO_Status" data-uid="SLS.Common.DTO.SIS.StammDaten.SupportAuftragDTO.Status">
+  Status
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/SIS/StammDaten/SupportAuftragDTO.cs/#L260"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[ForeignKey(&quot;StatusCollection&quot;)]
+[InverseProperty(&quot;SupportAuftraege_Status&quot;)]
+[JsonIgnore]
+public virtual SupportAuftragStatusDTO? Status { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="SLS.Common.DTO.SIS.StammDaten.SupportAuftragStatusDTO.html">SupportAuftragStatusDTO</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_SIS_StammDaten_SupportAuftragDTO_StatusID_" data-uid="SLS.Common.DTO.SIS.StammDaten.SupportAuftragDTO.StatusID*"></a>
+
+  <h3 id="SLS_Common_DTO_SIS_StammDaten_SupportAuftragDTO_StatusID" data-uid="SLS.Common.DTO.SIS.StammDaten.SupportAuftragDTO.StatusID">
+  StatusID
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/SIS/StammDaten/SupportAuftragDTO.cs/#L56"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;StatusCollection&quot;)]
+[ForeignKey(&quot;StatusCollection&quot;)]
+public virtual long? StatusID { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_SIS_StammDaten_SupportAuftragDTO_SupportAuftragChangeHistory_SupportAuftrag_" data-uid="SLS.Common.DTO.SIS.StammDaten.SupportAuftragDTO.SupportAuftragChangeHistory_SupportAuftrag*"></a>
+
+  <h3 id="SLS_Common_DTO_SIS_StammDaten_SupportAuftragDTO_SupportAuftragChangeHistory_SupportAuftrag" data-uid="SLS.Common.DTO.SIS.StammDaten.SupportAuftragDTO.SupportAuftragChangeHistory_SupportAuftrag">
+  SupportAuftragChangeHistory_SupportAuftrag
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/SIS/StammDaten/SupportAuftragDTO.cs/#L310"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;SupportAuftragCollection&quot;)]
+public virtual List&lt;SupportAuftragChangeHistoryDTO&gt;? SupportAuftragChangeHistory_SupportAuftrag { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<a class="xref" href="SLS.Common.DTO.SIS.StammDaten.SupportAuftragChangeHistoryDTO.html">SupportAuftragChangeHistoryDTO</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_SIS_StammDaten_SupportAuftragDTO_SupportAuftragDocumentation_SupportAuftrag_" data-uid="SLS.Common.DTO.SIS.StammDaten.SupportAuftragDTO.SupportAuftragDocumentation_SupportAuftrag*"></a>
+
+  <h3 id="SLS_Common_DTO_SIS_StammDaten_SupportAuftragDTO_SupportAuftragDocumentation_SupportAuftrag" data-uid="SLS.Common.DTO.SIS.StammDaten.SupportAuftragDTO.SupportAuftragDocumentation_SupportAuftrag">
+  SupportAuftragDocumentation_SupportAuftrag
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/SIS/StammDaten/SupportAuftragDTO.cs/#L306"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;SupportAuftragCollection&quot;)]
+public virtual List&lt;SupportAuftragDocumentationDTO&gt;? SupportAuftragDocumentation_SupportAuftrag { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<a class="xref" href="SLS.Common.DTO.SIS.StammDaten.SupportAuftragDocumentationDTO.html">SupportAuftragDocumentationDTO</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_SIS_StammDaten_SupportAuftragDTO_SupportAuftragReleaseNote_SupportAuftrag_" data-uid="SLS.Common.DTO.SIS.StammDaten.SupportAuftragDTO.SupportAuftragReleaseNote_SupportAuftrag*"></a>
+
+  <h3 id="SLS_Common_DTO_SIS_StammDaten_SupportAuftragDTO_SupportAuftragReleaseNote_SupportAuftrag" data-uid="SLS.Common.DTO.SIS.StammDaten.SupportAuftragDTO.SupportAuftragReleaseNote_SupportAuftrag">
+  SupportAuftragReleaseNote_SupportAuftrag
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/SIS/StammDaten/SupportAuftragDTO.cs/#L302"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;SupportAuftragCollection&quot;)]
+public virtual List&lt;SupportAuftragReleaseNoteDTO&gt;? SupportAuftragReleaseNote_SupportAuftrag { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<a class="xref" href="SLS.Common.DTO.SIS.StammDaten.SupportAuftragReleaseNoteDTO.html">SupportAuftragReleaseNoteDTO</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_SIS_StammDaten_SupportAuftragDTO_SupportByUser_" data-uid="SLS.Common.DTO.SIS.StammDaten.SupportAuftragDTO.SupportByUser*"></a>
+
+  <h3 id="SLS_Common_DTO_SIS_StammDaten_SupportAuftragDTO_SupportByUser" data-uid="SLS.Common.DTO.SIS.StammDaten.SupportAuftragDTO.SupportByUser">
+  SupportByUser
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/SIS/StammDaten/SupportAuftragDTO.cs/#L280"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[ForeignKey(&quot;SupportByUserCollection&quot;)]
+[InverseProperty(&quot;SupportAuftraege_SupportByUser&quot;)]
+[JsonIgnore]
+public virtual SLSUserDTO? SupportByUser { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="SLS.Common.DTO.UserManagement.SLSUserDTO.html">SLSUserDTO</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_SIS_StammDaten_SupportAuftragDTO_SupportByUserID_" data-uid="SLS.Common.DTO.SIS.StammDaten.SupportAuftragDTO.SupportByUserID*"></a>
+
+  <h3 id="SLS_Common_DTO_SIS_StammDaten_SupportAuftragDTO_SupportByUserID" data-uid="SLS.Common.DTO.SIS.StammDaten.SupportAuftragDTO.SupportByUserID">
+  SupportByUserID
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/SIS/StammDaten/SupportAuftragDTO.cs/#L76"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;SupportByUserCollection&quot;)]
+[ForeignKey(&quot;SupportByUserCollection&quot;)]
+public virtual long? SupportByUserID { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_SIS_StammDaten_SupportAuftragDTO_SupportLeistungenCollection_SupportAuftrag_" data-uid="SLS.Common.DTO.SIS.StammDaten.SupportAuftragDTO.SupportLeistungenCollection_SupportAuftrag*"></a>
+
+  <h3 id="SLS_Common_DTO_SIS_StammDaten_SupportAuftragDTO_SupportLeistungenCollection_SupportAuftrag" data-uid="SLS.Common.DTO.SIS.StammDaten.SupportAuftragDTO.SupportLeistungenCollection_SupportAuftrag">
+  SupportLeistungenCollection_SupportAuftrag
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/SIS/StammDaten/SupportAuftragDTO.cs/#L298"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;SupportAuftragCollection&quot;)]
+public virtual List&lt;SupportLeistungenDTO&gt;? SupportLeistungenCollection_SupportAuftrag { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<a class="xref" href="SLS.Common.DTO.SIS.StammDaten.SupportLeistungenDTO.html">SupportLeistungenDTO</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_SIS_StammDaten_SupportAuftragDTO_SupportVorbeitInfo_" data-uid="SLS.Common.DTO.SIS.StammDaten.SupportAuftragDTO.SupportVorbeitInfo*"></a>
+
+  <h3 id="SLS_Common_DTO_SIS_StammDaten_SupportAuftragDTO_SupportVorbeitInfo" data-uid="SLS.Common.DTO.SIS.StammDaten.SupportAuftragDTO.SupportVorbeitInfo">
+  SupportVorbeitInfo
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/SIS/StammDaten/SupportAuftragDTO.cs/#L202"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;SupportVorbeitInfo&quot;)]
+public virtual string? SupportVorbeitInfo { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_SIS_StammDaten_SupportAuftragDTO_SupportZeitVorarbeit_" data-uid="SLS.Common.DTO.SIS.StammDaten.SupportAuftragDTO.SupportZeitVorarbeit*"></a>
+
+  <h3 id="SLS_Common_DTO_SIS_StammDaten_SupportAuftragDTO_SupportZeitVorarbeit" data-uid="SLS.Common.DTO.SIS.StammDaten.SupportAuftragDTO.SupportZeitVorarbeit">
+  SupportZeitVorarbeit
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/SIS/StammDaten/SupportAuftragDTO.cs/#L198"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;SupportZeitVorarbeit&quot;)]
+public virtual int? SupportZeitVorarbeit { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_SIS_StammDaten_SupportAuftragDTO_Verantwortlich_" data-uid="SLS.Common.DTO.SIS.StammDaten.SupportAuftragDTO.Verantwortlich*"></a>
+
+  <h3 id="SLS_Common_DTO_SIS_StammDaten_SupportAuftragDTO_Verantwortlich" data-uid="SLS.Common.DTO.SIS.StammDaten.SupportAuftragDTO.Verantwortlich">
+  Verantwortlich
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/SIS/StammDaten/SupportAuftragDTO.cs/#L126"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;Verantwortlich&quot;)]
+public virtual long? Verantwortlich { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_SIS_StammDaten_SupportAuftragDTO_Version_" data-uid="SLS.Common.DTO.SIS.StammDaten.SupportAuftragDTO.Version*"></a>
+
+  <h3 id="SLS_Common_DTO_SIS_StammDaten_SupportAuftragDTO_Version" data-uid="SLS.Common.DTO.SIS.StammDaten.SupportAuftragDTO.Version">
+  Version
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/SIS/StammDaten/SupportAuftragDTO.cs/#L39"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;Version&quot;)]
+public long Version { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+</article>
+
+        <div class="contribution d-print-none">
+          <a href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/SIS/StammDaten/SupportAuftragDTO.cs/#L30" class="edit-link">Edit this page</a>
+        </div>
+
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

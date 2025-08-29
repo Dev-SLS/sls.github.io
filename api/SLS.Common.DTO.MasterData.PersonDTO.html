@@ -1,0 +1,4487 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Class PersonDTO | SLS Documentation </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Class PersonDTO | SLS Documentation ">
+      
+      
+      <link rel="icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="../">
+      
+      
+      <meta name="docfx:docurl" content="https://github.com/Dev-SLS/dev/new/Dev/apiSpec/new?filename=SLS_Common_DTO_MasterData_PersonDTO.md&amp;value=---%0Auid%3A%20SLS.Common.DTO.MasterData.PersonDTO%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../logo.svg" alt="SLS Documentation">
+            SLS Documentation
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="SLS.Common.DTO.MasterData.PersonDTO">
+
+
+
+  <h1 id="SLS_Common_DTO_MasterData_PersonDTO" data-uid="SLS.Common.DTO.MasterData.PersonDTO" class="text-break">
+Class PersonDTO  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/MasterData/PersonDTO.cs/#L28"><i class="bi bi-code-slash"></i></a>
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="SLS.html">SLS</a>.<a class="xref" href="SLS.Common.html">Common</a>.<a class="xref" href="SLS.Common.DTO.html">DTO</a>.<a class="xref" href="SLS.Common.DTO.MasterData.html">MasterData</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>SLS.Common.DTO.dll</dd></dl>
+  </div>
+
+  <div class="markdown summary"></div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Serializable]
+[DataContract(IsReference = true)]
+public class PersonDTO : IBusinessDTO, IDTO</code></pre>
+  </div>
+
+
+
+
+  <dl class="typelist inheritance">
+    <dt>Inheritance</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+      <div><span class="xref">PersonDTO</span></div>
+    </dd>
+  </dl>
+
+  <dl class="typelist implements">
+    <dt>Implements</dt>
+    <dd>
+      <div><a class="xref" href="SLS.Common.Interfaces.IBusinessDTO.html">IBusinessDTO</a></div>
+      <div><a class="xref" href="SLS.Common.Interfaces.IDTO.html">IDTO</a></div>
+    </dd>
+  </dl>
+
+
+  <dl class="typelist inheritedMembers">
+    <dt>Inherited Members</dt>
+    <dd>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)">object.Equals(object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">object.Equals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gethashcode">object.GetHashCode()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gettype">object.GetType()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone">object.MemberwiseClone()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals">object.ReferenceEquals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.tostring">object.ToString()</a>
+    </div>
+  </dd></dl>
+
+
+
+
+
+
+  <h2 class="section" id="properties">Properties
+</h2>
+
+
+  <a id="SLS_Common_DTO_MasterData_PersonDTO_AddressPersons_Person_" data-uid="SLS.Common.DTO.MasterData.PersonDTO.AddressPersons_Person*"></a>
+
+  <h3 id="SLS_Common_DTO_MasterData_PersonDTO_AddressPersons_Person" data-uid="SLS.Common.DTO.MasterData.PersonDTO.AddressPersons_Person">
+  AddressPersons_Person
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/MasterData/PersonDTO.cs/#L560"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;PersonCollection&quot;)]
+public virtual List&lt;AddressPersonDTO&gt;? AddressPersons_Person { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<a class="xref" href="SLS.Common.DTO.MasterData.AddressPersonDTO.html">AddressPersonDTO</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_MasterData_PersonDTO_AvailableDrivingTime_" data-uid="SLS.Common.DTO.MasterData.PersonDTO.AvailableDrivingTime*"></a>
+
+  <h3 id="SLS_Common_DTO_MasterData_PersonDTO_AvailableDrivingTime" data-uid="SLS.Common.DTO.MasterData.PersonDTO.AvailableDrivingTime">
+  AvailableDrivingTime
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/MasterData/PersonDTO.cs/#L449"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;AvailableDrivingTime&quot;)]
+public virtual double? AvailableDrivingTime { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_MasterData_PersonDTO_AvailableShiftTime_" data-uid="SLS.Common.DTO.MasterData.PersonDTO.AvailableShiftTime*"></a>
+
+  <h3 id="SLS_Common_DTO_MasterData_PersonDTO_AvailableShiftTime" data-uid="SLS.Common.DTO.MasterData.PersonDTO.AvailableShiftTime">
+  AvailableShiftTime
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/MasterData/PersonDTO.cs/#L457"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;AvailableShiftTime&quot;)]
+public virtual double? AvailableShiftTime { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_MasterData_PersonDTO_AvailableWorkingTime_" data-uid="SLS.Common.DTO.MasterData.PersonDTO.AvailableWorkingTime*"></a>
+
+  <h3 id="SLS_Common_DTO_MasterData_PersonDTO_AvailableWorkingTime" data-uid="SLS.Common.DTO.MasterData.PersonDTO.AvailableWorkingTime">
+  AvailableWorkingTime
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/MasterData/PersonDTO.cs/#L441"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;AvailableWorkingTime&quot;)]
+public virtual double? AvailableWorkingTime { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_MasterData_PersonDTO_BankingAccounts_Person_" data-uid="SLS.Common.DTO.MasterData.PersonDTO.BankingAccounts_Person*"></a>
+
+  <h3 id="SLS_Common_DTO_MasterData_PersonDTO_BankingAccounts_Person" data-uid="SLS.Common.DTO.MasterData.PersonDTO.BankingAccounts_Person">
+  BankingAccounts_Person
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/MasterData/PersonDTO.cs/#L565"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;PersonCollection&quot;)]
+public virtual List&lt;BankingAccountDTO&gt;? BankingAccounts_Person { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<a class="xref" href="SLS.Common.DTO.Financial.BankingAccountDTO.html">BankingAccountDTO</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_MasterData_PersonDTO_BirthCountry_" data-uid="SLS.Common.DTO.MasterData.PersonDTO.BirthCountry*"></a>
+
+  <h3 id="SLS_Common_DTO_MasterData_PersonDTO_BirthCountry" data-uid="SLS.Common.DTO.MasterData.PersonDTO.BirthCountry">
+  BirthCountry
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/MasterData/PersonDTO.cs/#L526"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[ForeignKey(&quot;BirthCountryCollection&quot;)]
+[InverseProperty(&quot;Persons_BirthCountry&quot;)]
+[JsonIgnore]
+public virtual CountryDTO? BirthCountry { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="SLS.Common.DTO.MasterData.CountryDTO.html">CountryDTO</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_MasterData_PersonDTO_BirthCountryID_" data-uid="SLS.Common.DTO.MasterData.PersonDTO.BirthCountryID*"></a>
+
+  <h3 id="SLS_Common_DTO_MasterData_PersonDTO_BirthCountryID" data-uid="SLS.Common.DTO.MasterData.PersonDTO.BirthCountryID">
+  BirthCountryID
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/MasterData/PersonDTO.cs/#L77"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;BirthCountryCollection&quot;)]
+[ForeignKey(&quot;BirthCountryCollection&quot;)]
+public virtual long? BirthCountryID { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_MasterData_PersonDTO_Birthday_" data-uid="SLS.Common.DTO.MasterData.PersonDTO.Birthday*"></a>
+
+  <h3 id="SLS_Common_DTO_MasterData_PersonDTO_Birthday" data-uid="SLS.Common.DTO.MasterData.PersonDTO.Birthday">
+  Birthday
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/MasterData/PersonDTO.cs/#L109"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;Birthday&quot;)]
+public virtual DateTime? Birthday { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.datetime">DateTime</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_MasterData_PersonDTO_Birthplace_" data-uid="SLS.Common.DTO.MasterData.PersonDTO.Birthplace*"></a>
+
+  <h3 id="SLS_Common_DTO_MasterData_PersonDTO_Birthplace" data-uid="SLS.Common.DTO.MasterData.PersonDTO.Birthplace">
+  Birthplace
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/MasterData/PersonDTO.cs/#L233"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;Birthplace&quot;)]
+public virtual string? Birthplace { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_MasterData_PersonDTO_BreakAfterwardsDrivingTimeIsElapsed_" data-uid="SLS.Common.DTO.MasterData.PersonDTO.BreakAfterwardsDrivingTimeIsElapsed*"></a>
+
+  <h3 id="SLS_Common_DTO_MasterData_PersonDTO_BreakAfterwardsDrivingTimeIsElapsed" data-uid="SLS.Common.DTO.MasterData.PersonDTO.BreakAfterwardsDrivingTimeIsElapsed">
+  BreakAfterwardsDrivingTimeIsElapsed
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/MasterData/PersonDTO.cs/#L453"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;BreakAfterwardsDrivingTimeIsElapsed&quot;)]
+public virtual double? BreakAfterwardsDrivingTimeIsElapsed { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_MasterData_PersonDTO_BreakAfterwardsShiftTimeIsElapsed_" data-uid="SLS.Common.DTO.MasterData.PersonDTO.BreakAfterwardsShiftTimeIsElapsed*"></a>
+
+  <h3 id="SLS_Common_DTO_MasterData_PersonDTO_BreakAfterwardsShiftTimeIsElapsed" data-uid="SLS.Common.DTO.MasterData.PersonDTO.BreakAfterwardsShiftTimeIsElapsed">
+  BreakAfterwardsShiftTimeIsElapsed
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/MasterData/PersonDTO.cs/#L461"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;BreakAfterwardsShiftTimeIsElapsed&quot;)]
+public virtual double? BreakAfterwardsShiftTimeIsElapsed { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_MasterData_PersonDTO_BreakAfterwardsWorkingTimeIsElapsed_" data-uid="SLS.Common.DTO.MasterData.PersonDTO.BreakAfterwardsWorkingTimeIsElapsed*"></a>
+
+  <h3 id="SLS_Common_DTO_MasterData_PersonDTO_BreakAfterwardsWorkingTimeIsElapsed" data-uid="SLS.Common.DTO.MasterData.PersonDTO.BreakAfterwardsWorkingTimeIsElapsed">
+  BreakAfterwardsWorkingTimeIsElapsed
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/MasterData/PersonDTO.cs/#L445"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;BreakAfterwardsWorkingTimeIsElapsed&quot;)]
+public virtual double? BreakAfterwardsWorkingTimeIsElapsed { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_MasterData_PersonDTO_Company_ID_" data-uid="SLS.Common.DTO.MasterData.PersonDTO.Company_ID*"></a>
+
+  <h3 id="SLS_Common_DTO_MasterData_PersonDTO_Company_ID" data-uid="SLS.Common.DTO.MasterData.PersonDTO.Company_ID">
+  Company_ID
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/MasterData/PersonDTO.cs/#L41"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public long? Company_ID { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_MasterData_PersonDTO_CurrentActivityID_" data-uid="SLS.Common.DTO.MasterData.PersonDTO.CurrentActivityID*"></a>
+
+  <h3 id="SLS_Common_DTO_MasterData_PersonDTO_CurrentActivityID" data-uid="SLS.Common.DTO.MasterData.PersonDTO.CurrentActivityID">
+  CurrentActivityID
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/MasterData/PersonDTO.cs/#L417"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;CurrentActivityID&quot;)]
+public virtual long CurrentActivityID { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_MasterData_PersonDTO_CurrentPositionLatitude_" data-uid="SLS.Common.DTO.MasterData.PersonDTO.CurrentPositionLatitude*"></a>
+
+  <h3 id="SLS_Common_DTO_MasterData_PersonDTO_CurrentPositionLatitude" data-uid="SLS.Common.DTO.MasterData.PersonDTO.CurrentPositionLatitude">
+  CurrentPositionLatitude
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/MasterData/PersonDTO.cs/#L245"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;CurrentPositionLatitude&quot;)]
+public virtual int? CurrentPositionLatitude { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_MasterData_PersonDTO_CurrentPositionLongitude_" data-uid="SLS.Common.DTO.MasterData.PersonDTO.CurrentPositionLongitude*"></a>
+
+  <h3 id="SLS_Common_DTO_MasterData_PersonDTO_CurrentPositionLongitude" data-uid="SLS.Common.DTO.MasterData.PersonDTO.CurrentPositionLongitude">
+  CurrentPositionLongitude
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/MasterData/PersonDTO.cs/#L249"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;CurrentPositionLongitude&quot;)]
+public virtual int? CurrentPositionLongitude { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_MasterData_PersonDTO_CurrentPositionText_" data-uid="SLS.Common.DTO.MasterData.PersonDTO.CurrentPositionText*"></a>
+
+  <h3 id="SLS_Common_DTO_MasterData_PersonDTO_CurrentPositionText" data-uid="SLS.Common.DTO.MasterData.PersonDTO.CurrentPositionText">
+  CurrentPositionText
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/MasterData/PersonDTO.cs/#L429"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;CurrentPositionText&quot;)]
+public virtual string? CurrentPositionText { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_MasterData_PersonDTO_CurrentPositionTimeStamp_" data-uid="SLS.Common.DTO.MasterData.PersonDTO.CurrentPositionTimeStamp*"></a>
+
+  <h3 id="SLS_Common_DTO_MasterData_PersonDTO_CurrentPositionTimeStamp" data-uid="SLS.Common.DTO.MasterData.PersonDTO.CurrentPositionTimeStamp">
+  CurrentPositionTimeStamp
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/MasterData/PersonDTO.cs/#L253"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;CurrentPositionTimeStamp&quot;)]
+public virtual DateTime? CurrentPositionTimeStamp { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.datetime">DateTime</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_MasterData_PersonDTO_CurrentRest_" data-uid="SLS.Common.DTO.MasterData.PersonDTO.CurrentRest*"></a>
+
+  <h3 id="SLS_Common_DTO_MasterData_PersonDTO_CurrentRest" data-uid="SLS.Common.DTO.MasterData.PersonDTO.CurrentRest">
+  CurrentRest
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/MasterData/PersonDTO.cs/#L433"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;CurrentRest&quot;)]
+public virtual double? CurrentRest { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_MasterData_PersonDTO_CurrentWeeklyAverage_" data-uid="SLS.Common.DTO.MasterData.PersonDTO.CurrentWeeklyAverage*"></a>
+
+  <h3 id="SLS_Common_DTO_MasterData_PersonDTO_CurrentWeeklyAverage" data-uid="SLS.Common.DTO.MasterData.PersonDTO.CurrentWeeklyAverage">
+  CurrentWeeklyAverage
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/MasterData/PersonDTO.cs/#L489"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;CurrentWeeklyAverage&quot;)]
+public virtual double? CurrentWeeklyAverage { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_MasterData_PersonDTO_CurrentWeeklyExtrapolation_" data-uid="SLS.Common.DTO.MasterData.PersonDTO.CurrentWeeklyExtrapolation*"></a>
+
+  <h3 id="SLS_Common_DTO_MasterData_PersonDTO_CurrentWeeklyExtrapolation" data-uid="SLS.Common.DTO.MasterData.PersonDTO.CurrentWeeklyExtrapolation">
+  CurrentWeeklyExtrapolation
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/MasterData/PersonDTO.cs/#L493"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;CurrentWeeklyExtrapolation&quot;)]
+public virtual double? CurrentWeeklyExtrapolation { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_MasterData_PersonDTO_CurrentWeeklySum_" data-uid="SLS.Common.DTO.MasterData.PersonDTO.CurrentWeeklySum*"></a>
+
+  <h3 id="SLS_Common_DTO_MasterData_PersonDTO_CurrentWeeklySum" data-uid="SLS.Common.DTO.MasterData.PersonDTO.CurrentWeeklySum">
+  CurrentWeeklySum
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/MasterData/PersonDTO.cs/#L485"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;CurrentWeeklySum&quot;)]
+public virtual double? CurrentWeeklySum { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_MasterData_PersonDTO_Department_ID_" data-uid="SLS.Common.DTO.MasterData.PersonDTO.Department_ID*"></a>
+
+  <h3 id="SLS_Common_DTO_MasterData_PersonDTO_Department_ID" data-uid="SLS.Common.DTO.MasterData.PersonDTO.Department_ID">
+  Department_ID
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/MasterData/PersonDTO.cs/#L43"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public long? Department_ID { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_MasterData_PersonDTO_DiversLicenceIssuedWhen_" data-uid="SLS.Common.DTO.MasterData.PersonDTO.DiversLicenceIssuedWhen*"></a>
+
+  <h3 id="SLS_Common_DTO_MasterData_PersonDTO_DiversLicenceIssuedWhen" data-uid="SLS.Common.DTO.MasterData.PersonDTO.DiversLicenceIssuedWhen">
+  DiversLicenceIssuedWhen
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/MasterData/PersonDTO.cs/#L173"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;DiversLicenceIssuedWhen&quot;)]
+public virtual DateTime? DiversLicenceIssuedWhen { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.datetime">DateTime</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_MasterData_PersonDTO_DiversLicenceIssuedWhere_" data-uid="SLS.Common.DTO.MasterData.PersonDTO.DiversLicenceIssuedWhere*"></a>
+
+  <h3 id="SLS_Common_DTO_MasterData_PersonDTO_DiversLicenceIssuedWhere" data-uid="SLS.Common.DTO.MasterData.PersonDTO.DiversLicenceIssuedWhere">
+  DiversLicenceIssuedWhere
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/MasterData/PersonDTO.cs/#L177"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;DiversLicenceIssuedWhere&quot;)]
+public virtual string? DiversLicenceIssuedWhere { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_MasterData_PersonDTO_DiversLicenceValidTill_" data-uid="SLS.Common.DTO.MasterData.PersonDTO.DiversLicenceValidTill*"></a>
+
+  <h3 id="SLS_Common_DTO_MasterData_PersonDTO_DiversLicenceValidTill" data-uid="SLS.Common.DTO.MasterData.PersonDTO.DiversLicenceValidTill">
+  DiversLicenceValidTill
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/MasterData/PersonDTO.cs/#L181"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;DiversLicenceValidTill&quot;)]
+public virtual DateTime? DiversLicenceValidTill { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.datetime">DateTime</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_MasterData_PersonDTO_Division_ID_" data-uid="SLS.Common.DTO.MasterData.PersonDTO.Division_ID*"></a>
+
+  <h3 id="SLS_Common_DTO_MasterData_PersonDTO_Division_ID" data-uid="SLS.Common.DTO.MasterData.PersonDTO.Division_ID">
+  Division_ID
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/MasterData/PersonDTO.cs/#L45"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public long? Division_ID { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_MasterData_PersonDTO_DriverCard_" data-uid="SLS.Common.DTO.MasterData.PersonDTO.DriverCard*"></a>
+
+  <h3 id="SLS_Common_DTO_MasterData_PersonDTO_DriverCard" data-uid="SLS.Common.DTO.MasterData.PersonDTO.DriverCard">
+  DriverCard
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/MasterData/PersonDTO.cs/#L149"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;DriverCard&quot;)]
+public virtual string? DriverCard { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_MasterData_PersonDTO_DriverCardValidTill_" data-uid="SLS.Common.DTO.MasterData.PersonDTO.DriverCardValidTill*"></a>
+
+  <h3 id="SLS_Common_DTO_MasterData_PersonDTO_DriverCardValidTill" data-uid="SLS.Common.DTO.MasterData.PersonDTO.DriverCardValidTill">
+  DriverCardValidTill
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/MasterData/PersonDTO.cs/#L153"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;DriverCardValidTill&quot;)]
+public virtual DateTime? DriverCardValidTill { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.datetime">DateTime</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_MasterData_PersonDTO_DriversLicenceClass_" data-uid="SLS.Common.DTO.MasterData.PersonDTO.DriversLicenceClass*"></a>
+
+  <h3 id="SLS_Common_DTO_MasterData_PersonDTO_DriversLicenceClass" data-uid="SLS.Common.DTO.MasterData.PersonDTO.DriversLicenceClass">
+  DriversLicenceClass
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/MasterData/PersonDTO.cs/#L165"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;DriversLicenceClass&quot;)]
+public virtual string? DriversLicenceClass { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_MasterData_PersonDTO_DriversLicenseNumber_" data-uid="SLS.Common.DTO.MasterData.PersonDTO.DriversLicenseNumber*"></a>
+
+  <h3 id="SLS_Common_DTO_MasterData_PersonDTO_DriversLicenseNumber" data-uid="SLS.Common.DTO.MasterData.PersonDTO.DriversLicenseNumber">
+  DriversLicenseNumber
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/MasterData/PersonDTO.cs/#L169"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;DriversLicenseNumber&quot;)]
+public virtual string? DriversLicenseNumber { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_MasterData_PersonDTO_DrivingHoursNeededWeeklyRestCompensation_" data-uid="SLS.Common.DTO.MasterData.PersonDTO.DrivingHoursNeededWeeklyRestCompensation*"></a>
+
+  <h3 id="SLS_Common_DTO_MasterData_PersonDTO_DrivingHoursNeededWeeklyRestCompensation" data-uid="SLS.Common.DTO.MasterData.PersonDTO.DrivingHoursNeededWeeklyRestCompensation">
+  DrivingHoursNeededWeeklyRestCompensation
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/MasterData/PersonDTO.cs/#L389"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;DrivingHoursNeededWeeklyRestCompensation&quot;)]
+public virtual double? DrivingHoursNeededWeeklyRestCompensation { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_MasterData_PersonDTO_DrivingHoursNextBreakLength_" data-uid="SLS.Common.DTO.MasterData.PersonDTO.DrivingHoursNextBreakLength*"></a>
+
+  <h3 id="SLS_Common_DTO_MasterData_PersonDTO_DrivingHoursNextBreakLength" data-uid="SLS.Common.DTO.MasterData.PersonDTO.DrivingHoursNextBreakLength">
+  DrivingHoursNextBreakLength
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/MasterData/PersonDTO.cs/#L373"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;DrivingHoursNextBreakLength&quot;)]
+public virtual double? DrivingHoursNextBreakLength { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_MasterData_PersonDTO_DrivingHoursNextWeeklyBreakLength_" data-uid="SLS.Common.DTO.MasterData.PersonDTO.DrivingHoursNextWeeklyBreakLength*"></a>
+
+  <h3 id="SLS_Common_DTO_MasterData_PersonDTO_DrivingHoursNextWeeklyBreakLength" data-uid="SLS.Common.DTO.MasterData.PersonDTO.DrivingHoursNextWeeklyBreakLength">
+  DrivingHoursNextWeeklyBreakLength
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/MasterData/PersonDTO.cs/#L381"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;DrivingHoursNextWeeklyBreakLength&quot;)]
+public virtual double? DrivingHoursNextWeeklyBreakLength { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_MasterData_PersonDTO_DrivingHoursRemaining2Weeks_" data-uid="SLS.Common.DTO.MasterData.PersonDTO.DrivingHoursRemaining2Weeks*"></a>
+
+  <h3 id="SLS_Common_DTO_MasterData_PersonDTO_DrivingHoursRemaining2Weeks" data-uid="SLS.Common.DTO.MasterData.PersonDTO.DrivingHoursRemaining2Weeks">
+  DrivingHoursRemaining2Weeks
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/MasterData/PersonDTO.cs/#L385"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;DrivingHoursRemaining2Weeks&quot;)]
+public virtual double? DrivingHoursRemaining2Weeks { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_MasterData_PersonDTO_DrivingHoursRemainingBeforeBreak_" data-uid="SLS.Common.DTO.MasterData.PersonDTO.DrivingHoursRemainingBeforeBreak*"></a>
+
+  <h3 id="SLS_Common_DTO_MasterData_PersonDTO_DrivingHoursRemainingBeforeBreak" data-uid="SLS.Common.DTO.MasterData.PersonDTO.DrivingHoursRemainingBeforeBreak">
+  DrivingHoursRemainingBeforeBreak
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/MasterData/PersonDTO.cs/#L369"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;DrivingHoursRemainingBeforeBreak&quot;)]
+public virtual double? DrivingHoursRemainingBeforeBreak { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_MasterData_PersonDTO_DrivingHoursRemainingDay_" data-uid="SLS.Common.DTO.MasterData.PersonDTO.DrivingHoursRemainingDay*"></a>
+
+  <h3 id="SLS_Common_DTO_MasterData_PersonDTO_DrivingHoursRemainingDay" data-uid="SLS.Common.DTO.MasterData.PersonDTO.DrivingHoursRemainingDay">
+  DrivingHoursRemainingDay
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/MasterData/PersonDTO.cs/#L365"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;DrivingHoursRemainingDay&quot;)]
+public virtual double? DrivingHoursRemainingDay { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_MasterData_PersonDTO_DrivingHoursRemainingWeek_" data-uid="SLS.Common.DTO.MasterData.PersonDTO.DrivingHoursRemainingWeek*"></a>
+
+  <h3 id="SLS_Common_DTO_MasterData_PersonDTO_DrivingHoursRemainingWeek" data-uid="SLS.Common.DTO.MasterData.PersonDTO.DrivingHoursRemainingWeek">
+  DrivingHoursRemainingWeek
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/MasterData/PersonDTO.cs/#L377"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;DrivingHoursRemainingWeek&quot;)]
+public virtual double? DrivingHoursRemainingWeek { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_MasterData_PersonDTO_EmailBusiness_" data-uid="SLS.Common.DTO.MasterData.PersonDTO.EmailBusiness*"></a>
+
+  <h3 id="SLS_Common_DTO_MasterData_PersonDTO_EmailBusiness" data-uid="SLS.Common.DTO.MasterData.PersonDTO.EmailBusiness">
+  EmailBusiness
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/MasterData/PersonDTO.cs/#L129"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;EmailBusiness&quot;)]
+public virtual string? EmailBusiness { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_MasterData_PersonDTO_EmailPrivate_" data-uid="SLS.Common.DTO.MasterData.PersonDTO.EmailPrivate*"></a>
+
+  <h3 id="SLS_Common_DTO_MasterData_PersonDTO_EmailPrivate" data-uid="SLS.Common.DTO.MasterData.PersonDTO.EmailPrivate">
+  EmailPrivate
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/MasterData/PersonDTO.cs/#L125"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;EmailPrivate&quot;)]
+public virtual string? EmailPrivate { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_MasterData_PersonDTO_EntryDate_" data-uid="SLS.Common.DTO.MasterData.PersonDTO.EntryDate*"></a>
+
+  <h3 id="SLS_Common_DTO_MasterData_PersonDTO_EntryDate" data-uid="SLS.Common.DTO.MasterData.PersonDTO.EntryDate">
+  EntryDate
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/MasterData/PersonDTO.cs/#L133"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;EntryDate&quot;)]
+public virtual DateTime? EntryDate { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.datetime">DateTime</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_MasterData_PersonDTO_ExtendedDailyDrivingTimes_" data-uid="SLS.Common.DTO.MasterData.PersonDTO.ExtendedDailyDrivingTimes*"></a>
+
+  <h3 id="SLS_Common_DTO_MasterData_PersonDTO_ExtendedDailyDrivingTimes" data-uid="SLS.Common.DTO.MasterData.PersonDTO.ExtendedDailyDrivingTimes">
+  ExtendedDailyDrivingTimes
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/MasterData/PersonDTO.cs/#L405"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;ExtendedDailyDrivingTimes&quot;)]
+public virtual int? ExtendedDailyDrivingTimes { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_MasterData_PersonDTO_ExternalDriverID_" data-uid="SLS.Common.DTO.MasterData.PersonDTO.ExternalDriverID*"></a>
+
+  <h3 id="SLS_Common_DTO_MasterData_PersonDTO_ExternalDriverID" data-uid="SLS.Common.DTO.MasterData.PersonDTO.ExternalDriverID">
+  ExternalDriverID
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/MasterData/PersonDTO.cs/#L205"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;ExternalDriverID&quot;)]
+public virtual string? ExternalDriverID { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_MasterData_PersonDTO_FamiliyStatus_" data-uid="SLS.Common.DTO.MasterData.PersonDTO.FamiliyStatus*"></a>
+
+  <h3 id="SLS_Common_DTO_MasterData_PersonDTO_FamiliyStatus" data-uid="SLS.Common.DTO.MasterData.PersonDTO.FamiliyStatus">
+  FamiliyStatus
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/MasterData/PersonDTO.cs/#L506"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[ForeignKey(&quot;FamiliyStatusCollection&quot;)]
+[InverseProperty(&quot;Persons_FamiliyStatus&quot;)]
+[JsonIgnore]
+public virtual FamilyStatusDTO? FamiliyStatus { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="SLS.Common.DTO.MasterData.FamilyStatusDTO.html">FamilyStatusDTO</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_MasterData_PersonDTO_FamiliyStatusID_" data-uid="SLS.Common.DTO.MasterData.PersonDTO.FamiliyStatusID*"></a>
+
+  <h3 id="SLS_Common_DTO_MasterData_PersonDTO_FamiliyStatusID" data-uid="SLS.Common.DTO.MasterData.PersonDTO.FamiliyStatusID">
+  FamiliyStatusID
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/MasterData/PersonDTO.cs/#L57"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;FamiliyStatusCollection&quot;)]
+[ForeignKey(&quot;FamiliyStatusCollection&quot;)]
+public virtual long? FamiliyStatusID { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_MasterData_PersonDTO_FaxNumber_" data-uid="SLS.Common.DTO.MasterData.PersonDTO.FaxNumber*"></a>
+
+  <h3 id="SLS_Common_DTO_MasterData_PersonDTO_FaxNumber" data-uid="SLS.Common.DTO.MasterData.PersonDTO.FaxNumber">
+  FaxNumber
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/MasterData/PersonDTO.cs/#L145"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;FaxNumber&quot;)]
+public virtual string? FaxNumber { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_MasterData_PersonDTO_FirstName_" data-uid="SLS.Common.DTO.MasterData.PersonDTO.FirstName*"></a>
+
+  <h3 id="SLS_Common_DTO_MasterData_PersonDTO_FirstName" data-uid="SLS.Common.DTO.MasterData.PersonDTO.FirstName">
+  FirstName
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/MasterData/PersonDTO.cs/#L105"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;FirstName&quot;)]
+public virtual string? FirstName { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_MasterData_PersonDTO_FiscalYear_ID_" data-uid="SLS.Common.DTO.MasterData.PersonDTO.FiscalYear_ID*"></a>
+
+  <h3 id="SLS_Common_DTO_MasterData_PersonDTO_FiscalYear_ID" data-uid="SLS.Common.DTO.MasterData.PersonDTO.FiscalYear_ID">
+  FiscalYear_ID
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/MasterData/PersonDTO.cs/#L44"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public long? FiscalYear_ID { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_MasterData_PersonDTO_Gender_" data-uid="SLS.Common.DTO.MasterData.PersonDTO.Gender*"></a>
+
+  <h3 id="SLS_Common_DTO_MasterData_PersonDTO_Gender" data-uid="SLS.Common.DTO.MasterData.PersonDTO.Gender">
+  Gender
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/MasterData/PersonDTO.cs/#L516"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[ForeignKey(&quot;GenderCollection&quot;)]
+[InverseProperty(&quot;Persons_Gender&quot;)]
+[JsonIgnore]
+public virtual GenderDTO? Gender { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="SLS.Common.DTO.MasterData.GenderDTO.html">GenderDTO</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_MasterData_PersonDTO_GenderID_" data-uid="SLS.Common.DTO.MasterData.PersonDTO.GenderID*"></a>
+
+  <h3 id="SLS_Common_DTO_MasterData_PersonDTO_GenderID" data-uid="SLS.Common.DTO.MasterData.PersonDTO.GenderID">
+  GenderID
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/MasterData/PersonDTO.cs/#L67"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;GenderCollection&quot;)]
+[ForeignKey(&quot;GenderCollection&quot;)]
+public virtual long? GenderID { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_MasterData_PersonDTO_HandlingUnits_ObsoletedBy_" data-uid="SLS.Common.DTO.MasterData.PersonDTO.HandlingUnits_ObsoletedBy*"></a>
+
+  <h3 id="SLS_Common_DTO_MasterData_PersonDTO_HandlingUnits_ObsoletedBy" data-uid="SLS.Common.DTO.MasterData.PersonDTO.HandlingUnits_ObsoletedBy">
+  HandlingUnits_ObsoletedBy
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/MasterData/PersonDTO.cs/#L570"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;ObsoletedByCollection&quot;)]
+[JsonIgnore]
+public virtual List&lt;HandlingUnitDTO&gt;? HandlingUnits_ObsoletedBy { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<a class="xref" href="SLS.Common.DTO.Dispatch.HandlingUnitDTO.html">HandlingUnitDTO</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_MasterData_PersonDTO_HazGoodsOrdinanceCertFrom_" data-uid="SLS.Common.DTO.MasterData.PersonDTO.HazGoodsOrdinanceCertFrom*"></a>
+
+  <h3 id="SLS_Common_DTO_MasterData_PersonDTO_HazGoodsOrdinanceCertFrom" data-uid="SLS.Common.DTO.MasterData.PersonDTO.HazGoodsOrdinanceCertFrom">
+  HazGoodsOrdinanceCertFrom
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/MasterData/PersonDTO.cs/#L157"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;HazGoodsOrdinanceCertFrom&quot;)]
+public virtual DateTime? HazGoodsOrdinanceCertFrom { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.datetime">DateTime</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_MasterData_PersonDTO_HazGoodsOrdinanceCertTill_" data-uid="SLS.Common.DTO.MasterData.PersonDTO.HazGoodsOrdinanceCertTill*"></a>
+
+  <h3 id="SLS_Common_DTO_MasterData_PersonDTO_HazGoodsOrdinanceCertTill" data-uid="SLS.Common.DTO.MasterData.PersonDTO.HazGoodsOrdinanceCertTill">
+  HazGoodsOrdinanceCertTill
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/MasterData/PersonDTO.cs/#L161"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;HazGoodsOrdinanceCertTill&quot;)]
+public virtual DateTime? HazGoodsOrdinanceCertTill { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.datetime">DateTime</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_MasterData_PersonDTO_Id_" data-uid="SLS.Common.DTO.MasterData.PersonDTO.Id*"></a>
+
+  <h3 id="SLS_Common_DTO_MasterData_PersonDTO_Id" data-uid="SLS.Common.DTO.MasterData.PersonDTO.Id">
+  Id
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/MasterData/PersonDTO.cs/#L34"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;ID&quot;)]
+public long Id { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_MasterData_PersonDTO_InHousePerNumber_" data-uid="SLS.Common.DTO.MasterData.PersonDTO.InHousePerNumber*"></a>
+
+  <h3 id="SLS_Common_DTO_MasterData_PersonDTO_InHousePerNumber" data-uid="SLS.Common.DTO.MasterData.PersonDTO.InHousePerNumber">
+  InHousePerNumber
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/MasterData/PersonDTO.cs/#L141"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;InHousePerNumber&quot;)]
+public virtual string? InHousePerNumber { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_MasterData_PersonDTO_JobDescription_" data-uid="SLS.Common.DTO.MasterData.PersonDTO.JobDescription*"></a>
+
+  <h3 id="SLS_Common_DTO_MasterData_PersonDTO_JobDescription" data-uid="SLS.Common.DTO.MasterData.PersonDTO.JobDescription">
+  JobDescription
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/MasterData/PersonDTO.cs/#L197"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;JobDescription&quot;)]
+public virtual string? JobDescription { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_MasterData_PersonDTO_JobDescriptionDetail_" data-uid="SLS.Common.DTO.MasterData.PersonDTO.JobDescriptionDetail*"></a>
+
+  <h3 id="SLS_Common_DTO_MasterData_PersonDTO_JobDescriptionDetail" data-uid="SLS.Common.DTO.MasterData.PersonDTO.JobDescriptionDetail">
+  JobDescriptionDetail
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/MasterData/PersonDTO.cs/#L201"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;JobDescriptionDetail&quot;)]
+public virtual string? JobDescriptionDetail { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_MasterData_PersonDTO_JobPosition_" data-uid="SLS.Common.DTO.MasterData.PersonDTO.JobPosition*"></a>
+
+  <h3 id="SLS_Common_DTO_MasterData_PersonDTO_JobPosition" data-uid="SLS.Common.DTO.MasterData.PersonDTO.JobPosition">
+  JobPosition
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/MasterData/PersonDTO.cs/#L531"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[ForeignKey(&quot;JobPositionCollection&quot;)]
+[InverseProperty(&quot;Persons_JobPosition&quot;)]
+[JsonIgnore]
+public virtual JobPositionDTO? JobPosition { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="SLS.Common.DTO.MasterData.JobPositionDTO.html">JobPositionDTO</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_MasterData_PersonDTO_JobPositionID_" data-uid="SLS.Common.DTO.MasterData.PersonDTO.JobPositionID*"></a>
+
+  <h3 id="SLS_Common_DTO_MasterData_PersonDTO_JobPositionID" data-uid="SLS.Common.DTO.MasterData.PersonDTO.JobPositionID">
+  JobPositionID
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/MasterData/PersonDTO.cs/#L82"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;JobPositionCollection&quot;)]
+[ForeignKey(&quot;JobPositionCollection&quot;)]
+public virtual long? JobPositionID { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_MasterData_PersonDTO_Languages_" data-uid="SLS.Common.DTO.MasterData.PersonDTO.Languages*"></a>
+
+  <h3 id="SLS_Common_DTO_MasterData_PersonDTO_Languages" data-uid="SLS.Common.DTO.MasterData.PersonDTO.Languages">
+  Languages
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/MasterData/PersonDTO.cs/#L341"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;Languages&quot;)]
+public virtual string? Languages { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_MasterData_PersonDTO_LastDailyRestEnd_" data-uid="SLS.Common.DTO.MasterData.PersonDTO.LastDailyRestEnd*"></a>
+
+  <h3 id="SLS_Common_DTO_MasterData_PersonDTO_LastDailyRestEnd" data-uid="SLS.Common.DTO.MasterData.PersonDTO.LastDailyRestEnd">
+  LastDailyRestEnd
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/MasterData/PersonDTO.cs/#L425"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;LastDailyRestEnd&quot;)]
+public virtual DateTime? LastDailyRestEnd { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.datetime">DateTime</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_MasterData_PersonDTO_LastDailyRestStart_" data-uid="SLS.Common.DTO.MasterData.PersonDTO.LastDailyRestStart*"></a>
+
+  <h3 id="SLS_Common_DTO_MasterData_PersonDTO_LastDailyRestStart" data-uid="SLS.Common.DTO.MasterData.PersonDTO.LastDailyRestStart">
+  LastDailyRestStart
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/MasterData/PersonDTO.cs/#L421"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;LastDailyRestStart&quot;)]
+public virtual DateTime? LastDailyRestStart { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.datetime">DateTime</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_MasterData_PersonDTO_LastEstimation_" data-uid="SLS.Common.DTO.MasterData.PersonDTO.LastEstimation*"></a>
+
+  <h3 id="SLS_Common_DTO_MasterData_PersonDTO_LastEstimation" data-uid="SLS.Common.DTO.MasterData.PersonDTO.LastEstimation">
+  LastEstimation
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/MasterData/PersonDTO.cs/#L465"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;LastEstimation&quot;)]
+public virtual DateTime? LastEstimation { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.datetime">DateTime</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_MasterData_PersonDTO_LastShortenedWeeklyRestEnd_" data-uid="SLS.Common.DTO.MasterData.PersonDTO.LastShortenedWeeklyRestEnd*"></a>
+
+  <h3 id="SLS_Common_DTO_MasterData_PersonDTO_LastShortenedWeeklyRestEnd" data-uid="SLS.Common.DTO.MasterData.PersonDTO.LastShortenedWeeklyRestEnd">
+  LastShortenedWeeklyRestEnd
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/MasterData/PersonDTO.cs/#L481"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;LastShortenedWeeklyRestEnd&quot;)]
+public virtual DateTime? LastShortenedWeeklyRestEnd { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.datetime">DateTime</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_MasterData_PersonDTO_LastShortenedWeeklyRestStart_" data-uid="SLS.Common.DTO.MasterData.PersonDTO.LastShortenedWeeklyRestStart*"></a>
+
+  <h3 id="SLS_Common_DTO_MasterData_PersonDTO_LastShortenedWeeklyRestStart" data-uid="SLS.Common.DTO.MasterData.PersonDTO.LastShortenedWeeklyRestStart">
+  LastShortenedWeeklyRestStart
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/MasterData/PersonDTO.cs/#L477"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;LastShortenedWeeklyRestStart&quot;)]
+public virtual DateTime? LastShortenedWeeklyRestStart { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.datetime">DateTime</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_MasterData_PersonDTO_LastTelemetryTimeStamp_" data-uid="SLS.Common.DTO.MasterData.PersonDTO.LastTelemetryTimeStamp*"></a>
+
+  <h3 id="SLS_Common_DTO_MasterData_PersonDTO_LastTelemetryTimeStamp" data-uid="SLS.Common.DTO.MasterData.PersonDTO.LastTelemetryTimeStamp">
+  LastTelemetryTimeStamp
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/MasterData/PersonDTO.cs/#L393"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;LastTelemetryTimeStamp&quot;)]
+public virtual DateTime? LastTelemetryTimeStamp { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.datetime">DateTime</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_MasterData_PersonDTO_LastWeeklyRestEnd_" data-uid="SLS.Common.DTO.MasterData.PersonDTO.LastWeeklyRestEnd*"></a>
+
+  <h3 id="SLS_Common_DTO_MasterData_PersonDTO_LastWeeklyRestEnd" data-uid="SLS.Common.DTO.MasterData.PersonDTO.LastWeeklyRestEnd">
+  LastWeeklyRestEnd
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/MasterData/PersonDTO.cs/#L473"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;LastWeeklyRestEnd&quot;)]
+public virtual DateTime? LastWeeklyRestEnd { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.datetime">DateTime</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_MasterData_PersonDTO_LastWeeklyRestStart_" data-uid="SLS.Common.DTO.MasterData.PersonDTO.LastWeeklyRestStart*"></a>
+
+  <h3 id="SLS_Common_DTO_MasterData_PersonDTO_LastWeeklyRestStart" data-uid="SLS.Common.DTO.MasterData.PersonDTO.LastWeeklyRestStart">
+  LastWeeklyRestStart
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/MasterData/PersonDTO.cs/#L469"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;LastWeeklyRestStart&quot;)]
+public virtual DateTime? LastWeeklyRestStart { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.datetime">DateTime</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_MasterData_PersonDTO_MaxReducedDailyRests_" data-uid="SLS.Common.DTO.MasterData.PersonDTO.MaxReducedDailyRests*"></a>
+
+  <h3 id="SLS_Common_DTO_MasterData_PersonDTO_MaxReducedDailyRests" data-uid="SLS.Common.DTO.MasterData.PersonDTO.MaxReducedDailyRests">
+  MaxReducedDailyRests
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/MasterData/PersonDTO.cs/#L401"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;MaxReducedDailyRests&quot;)]
+public virtual int? MaxReducedDailyRests { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_MasterData_PersonDTO_NameAffix_" data-uid="SLS.Common.DTO.MasterData.PersonDTO.NameAffix*"></a>
+
+  <h3 id="SLS_Common_DTO_MasterData_PersonDTO_NameAffix" data-uid="SLS.Common.DTO.MasterData.PersonDTO.NameAffix">
+  NameAffix
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/MasterData/PersonDTO.cs/#L511"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[ForeignKey(&quot;NameAffixCollection&quot;)]
+[InverseProperty(&quot;Persons_NameAffix&quot;)]
+[JsonIgnore]
+public virtual NameAffixDTO? NameAffix { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="SLS.Common.DTO.MasterData.NameAffixDTO.html">NameAffixDTO</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_MasterData_PersonDTO_NameAffixID_" data-uid="SLS.Common.DTO.MasterData.PersonDTO.NameAffixID*"></a>
+
+  <h3 id="SLS_Common_DTO_MasterData_PersonDTO_NameAffixID" data-uid="SLS.Common.DTO.MasterData.PersonDTO.NameAffixID">
+  NameAffixID
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/MasterData/PersonDTO.cs/#L62"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;NameAffixCollection&quot;)]
+[ForeignKey(&quot;NameAffixCollection&quot;)]
+public virtual long? NameAffixID { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_MasterData_PersonDTO_Nationality_" data-uid="SLS.Common.DTO.MasterData.PersonDTO.Nationality*"></a>
+
+  <h3 id="SLS_Common_DTO_MasterData_PersonDTO_Nationality" data-uid="SLS.Common.DTO.MasterData.PersonDTO.Nationality">
+  Nationality
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/MasterData/PersonDTO.cs/#L536"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[ForeignKey(&quot;NationalityCollection&quot;)]
+[InverseProperty(&quot;Persons_Nationality&quot;)]
+[JsonIgnore]
+public virtual CountryDTO? Nationality { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="SLS.Common.DTO.MasterData.CountryDTO.html">CountryDTO</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_MasterData_PersonDTO_NationalityID_" data-uid="SLS.Common.DTO.MasterData.PersonDTO.NationalityID*"></a>
+
+  <h3 id="SLS_Common_DTO_MasterData_PersonDTO_NationalityID" data-uid="SLS.Common.DTO.MasterData.PersonDTO.NationalityID">
+  NationalityID
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/MasterData/PersonDTO.cs/#L87"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;NationalityCollection&quot;)]
+[ForeignKey(&quot;NationalityCollection&quot;)]
+public virtual long? NationalityID { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_MasterData_PersonDTO_NeededRest_" data-uid="SLS.Common.DTO.MasterData.PersonDTO.NeededRest*"></a>
+
+  <h3 id="SLS_Common_DTO_MasterData_PersonDTO_NeededRest" data-uid="SLS.Common.DTO.MasterData.PersonDTO.NeededRest">
+  NeededRest
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/MasterData/PersonDTO.cs/#L437"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;NeededRest&quot;)]
+public virtual double? NeededRest { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_MasterData_PersonDTO_Notes_" data-uid="SLS.Common.DTO.MasterData.PersonDTO.Notes*"></a>
+
+  <h3 id="SLS_Common_DTO_MasterData_PersonDTO_Notes" data-uid="SLS.Common.DTO.MasterData.PersonDTO.Notes">
+  Notes
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/MasterData/PersonDTO.cs/#L193"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;Notes&quot;)]
+public virtual string? Notes { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_MasterData_PersonDTO_OptionalBool1_" data-uid="SLS.Common.DTO.MasterData.PersonDTO.OptionalBool1*"></a>
+
+  <h3 id="SLS_Common_DTO_MasterData_PersonDTO_OptionalBool1" data-uid="SLS.Common.DTO.MasterData.PersonDTO.OptionalBool1">
+  OptionalBool1
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/MasterData/PersonDTO.cs/#L317"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;OptionalBool1&quot;)]
+public virtual bool? OptionalBool1 { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_MasterData_PersonDTO_OptionalBool2_" data-uid="SLS.Common.DTO.MasterData.PersonDTO.OptionalBool2*"></a>
+
+  <h3 id="SLS_Common_DTO_MasterData_PersonDTO_OptionalBool2" data-uid="SLS.Common.DTO.MasterData.PersonDTO.OptionalBool2">
+  OptionalBool2
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/MasterData/PersonDTO.cs/#L321"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;OptionalBool2&quot;)]
+public virtual bool? OptionalBool2 { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_MasterData_PersonDTO_OptionalBool3_" data-uid="SLS.Common.DTO.MasterData.PersonDTO.OptionalBool3*"></a>
+
+  <h3 id="SLS_Common_DTO_MasterData_PersonDTO_OptionalBool3" data-uid="SLS.Common.DTO.MasterData.PersonDTO.OptionalBool3">
+  OptionalBool3
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/MasterData/PersonDTO.cs/#L325"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;OptionalBool3&quot;)]
+public virtual bool? OptionalBool3 { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_MasterData_PersonDTO_OptionalDate1_" data-uid="SLS.Common.DTO.MasterData.PersonDTO.OptionalDate1*"></a>
+
+  <h3 id="SLS_Common_DTO_MasterData_PersonDTO_OptionalDate1" data-uid="SLS.Common.DTO.MasterData.PersonDTO.OptionalDate1">
+  OptionalDate1
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/MasterData/PersonDTO.cs/#L277"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;OptionalDate1&quot;)]
+public virtual DateTime? OptionalDate1 { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.datetime">DateTime</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_MasterData_PersonDTO_OptionalDate2_" data-uid="SLS.Common.DTO.MasterData.PersonDTO.OptionalDate2*"></a>
+
+  <h3 id="SLS_Common_DTO_MasterData_PersonDTO_OptionalDate2" data-uid="SLS.Common.DTO.MasterData.PersonDTO.OptionalDate2">
+  OptionalDate2
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/MasterData/PersonDTO.cs/#L281"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;OptionalDate2&quot;)]
+public virtual DateTime? OptionalDate2 { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.datetime">DateTime</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_MasterData_PersonDTO_OptionalDate3_" data-uid="SLS.Common.DTO.MasterData.PersonDTO.OptionalDate3*"></a>
+
+  <h3 id="SLS_Common_DTO_MasterData_PersonDTO_OptionalDate3" data-uid="SLS.Common.DTO.MasterData.PersonDTO.OptionalDate3">
+  OptionalDate3
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/MasterData/PersonDTO.cs/#L285"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;OptionalDate3&quot;)]
+public virtual DateTime? OptionalDate3 { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.datetime">DateTime</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_MasterData_PersonDTO_OptionalDate4_" data-uid="SLS.Common.DTO.MasterData.PersonDTO.OptionalDate4*"></a>
+
+  <h3 id="SLS_Common_DTO_MasterData_PersonDTO_OptionalDate4" data-uid="SLS.Common.DTO.MasterData.PersonDTO.OptionalDate4">
+  OptionalDate4
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/MasterData/PersonDTO.cs/#L289"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;OptionalDate4&quot;)]
+public virtual DateTime? OptionalDate4 { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.datetime">DateTime</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_MasterData_PersonDTO_OptionalDate5_" data-uid="SLS.Common.DTO.MasterData.PersonDTO.OptionalDate5*"></a>
+
+  <h3 id="SLS_Common_DTO_MasterData_PersonDTO_OptionalDate5" data-uid="SLS.Common.DTO.MasterData.PersonDTO.OptionalDate5">
+  OptionalDate5
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/MasterData/PersonDTO.cs/#L293"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;OptionalDate5&quot;)]
+public virtual DateTime? OptionalDate5 { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.datetime">DateTime</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_MasterData_PersonDTO_OptionalFloat1_" data-uid="SLS.Common.DTO.MasterData.PersonDTO.OptionalFloat1*"></a>
+
+  <h3 id="SLS_Common_DTO_MasterData_PersonDTO_OptionalFloat1" data-uid="SLS.Common.DTO.MasterData.PersonDTO.OptionalFloat1">
+  OptionalFloat1
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/MasterData/PersonDTO.cs/#L329"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;OptionalFloat1&quot;)]
+public virtual double? OptionalFloat1 { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_MasterData_PersonDTO_OptionalFloat2_" data-uid="SLS.Common.DTO.MasterData.PersonDTO.OptionalFloat2*"></a>
+
+  <h3 id="SLS_Common_DTO_MasterData_PersonDTO_OptionalFloat2" data-uid="SLS.Common.DTO.MasterData.PersonDTO.OptionalFloat2">
+  OptionalFloat2
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/MasterData/PersonDTO.cs/#L333"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;OptionalFloat2&quot;)]
+public virtual double? OptionalFloat2 { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_MasterData_PersonDTO_OptionalFloat3_" data-uid="SLS.Common.DTO.MasterData.PersonDTO.OptionalFloat3*"></a>
+
+  <h3 id="SLS_Common_DTO_MasterData_PersonDTO_OptionalFloat3" data-uid="SLS.Common.DTO.MasterData.PersonDTO.OptionalFloat3">
+  OptionalFloat3
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/MasterData/PersonDTO.cs/#L337"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;OptionalFloat3&quot;)]
+public virtual double? OptionalFloat3 { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_MasterData_PersonDTO_OptionalNum1_" data-uid="SLS.Common.DTO.MasterData.PersonDTO.OptionalNum1*"></a>
+
+  <h3 id="SLS_Common_DTO_MasterData_PersonDTO_OptionalNum1" data-uid="SLS.Common.DTO.MasterData.PersonDTO.OptionalNum1">
+  OptionalNum1
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/MasterData/PersonDTO.cs/#L297"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;OptionalNum1&quot;)]
+public virtual long? OptionalNum1 { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_MasterData_PersonDTO_OptionalNum2_" data-uid="SLS.Common.DTO.MasterData.PersonDTO.OptionalNum2*"></a>
+
+  <h3 id="SLS_Common_DTO_MasterData_PersonDTO_OptionalNum2" data-uid="SLS.Common.DTO.MasterData.PersonDTO.OptionalNum2">
+  OptionalNum2
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/MasterData/PersonDTO.cs/#L301"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;OptionalNum2&quot;)]
+public virtual long? OptionalNum2 { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_MasterData_PersonDTO_OptionalNum3_" data-uid="SLS.Common.DTO.MasterData.PersonDTO.OptionalNum3*"></a>
+
+  <h3 id="SLS_Common_DTO_MasterData_PersonDTO_OptionalNum3" data-uid="SLS.Common.DTO.MasterData.PersonDTO.OptionalNum3">
+  OptionalNum3
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/MasterData/PersonDTO.cs/#L305"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;OptionalNum3&quot;)]
+public virtual long? OptionalNum3 { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_MasterData_PersonDTO_OptionalNum4_" data-uid="SLS.Common.DTO.MasterData.PersonDTO.OptionalNum4*"></a>
+
+  <h3 id="SLS_Common_DTO_MasterData_PersonDTO_OptionalNum4" data-uid="SLS.Common.DTO.MasterData.PersonDTO.OptionalNum4">
+  OptionalNum4
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/MasterData/PersonDTO.cs/#L309"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;OptionalNum4&quot;)]
+public virtual long? OptionalNum4 { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_MasterData_PersonDTO_OptionalNum5_" data-uid="SLS.Common.DTO.MasterData.PersonDTO.OptionalNum5*"></a>
+
+  <h3 id="SLS_Common_DTO_MasterData_PersonDTO_OptionalNum5" data-uid="SLS.Common.DTO.MasterData.PersonDTO.OptionalNum5">
+  OptionalNum5
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/MasterData/PersonDTO.cs/#L313"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;OptionalNum5&quot;)]
+public virtual long? OptionalNum5 { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_MasterData_PersonDTO_OptionalString1_" data-uid="SLS.Common.DTO.MasterData.PersonDTO.OptionalString1*"></a>
+
+  <h3 id="SLS_Common_DTO_MasterData_PersonDTO_OptionalString1" data-uid="SLS.Common.DTO.MasterData.PersonDTO.OptionalString1">
+  OptionalString1
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/MasterData/PersonDTO.cs/#L257"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;OptionalString1&quot;)]
+public virtual string? OptionalString1 { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_MasterData_PersonDTO_OptionalString2_" data-uid="SLS.Common.DTO.MasterData.PersonDTO.OptionalString2*"></a>
+
+  <h3 id="SLS_Common_DTO_MasterData_PersonDTO_OptionalString2" data-uid="SLS.Common.DTO.MasterData.PersonDTO.OptionalString2">
+  OptionalString2
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/MasterData/PersonDTO.cs/#L261"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;OptionalString2&quot;)]
+public virtual string? OptionalString2 { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_MasterData_PersonDTO_OptionalString3_" data-uid="SLS.Common.DTO.MasterData.PersonDTO.OptionalString3*"></a>
+
+  <h3 id="SLS_Common_DTO_MasterData_PersonDTO_OptionalString3" data-uid="SLS.Common.DTO.MasterData.PersonDTO.OptionalString3">
+  OptionalString3
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/MasterData/PersonDTO.cs/#L265"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;OptionalString3&quot;)]
+public virtual string? OptionalString3 { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_MasterData_PersonDTO_OptionalString4_" data-uid="SLS.Common.DTO.MasterData.PersonDTO.OptionalString4*"></a>
+
+  <h3 id="SLS_Common_DTO_MasterData_PersonDTO_OptionalString4" data-uid="SLS.Common.DTO.MasterData.PersonDTO.OptionalString4">
+  OptionalString4
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/MasterData/PersonDTO.cs/#L269"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;OptionalString4&quot;)]
+public virtual string? OptionalString4 { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_MasterData_PersonDTO_OptionalString5_" data-uid="SLS.Common.DTO.MasterData.PersonDTO.OptionalString5*"></a>
+
+  <h3 id="SLS_Common_DTO_MasterData_PersonDTO_OptionalString5" data-uid="SLS.Common.DTO.MasterData.PersonDTO.OptionalString5">
+  OptionalString5
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/MasterData/PersonDTO.cs/#L273"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;OptionalString5&quot;)]
+public virtual string? OptionalString5 { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_MasterData_PersonDTO_PersonGroup_" data-uid="SLS.Common.DTO.MasterData.PersonDTO.PersonGroup*"></a>
+
+  <h3 id="SLS_Common_DTO_MasterData_PersonDTO_PersonGroup" data-uid="SLS.Common.DTO.MasterData.PersonDTO.PersonGroup">
+  PersonGroup
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/MasterData/PersonDTO.cs/#L541"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[ForeignKey(&quot;PersonGroupCollection&quot;)]
+[InverseProperty(&quot;Persons_PersonGroup&quot;)]
+[JsonIgnore]
+public virtual PersonGroupDTO? PersonGroup { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="SLS.Common.DTO.MasterData.PersonGroupDTO.html">PersonGroupDTO</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_MasterData_PersonDTO_PersonGroupID_" data-uid="SLS.Common.DTO.MasterData.PersonDTO.PersonGroupID*"></a>
+
+  <h3 id="SLS_Common_DTO_MasterData_PersonDTO_PersonGroupID" data-uid="SLS.Common.DTO.MasterData.PersonDTO.PersonGroupID">
+  PersonGroupID
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/MasterData/PersonDTO.cs/#L92"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;PersonGroupCollection&quot;)]
+[ForeignKey(&quot;PersonGroupCollection&quot;)]
+public virtual long? PersonGroupID { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_MasterData_PersonDTO_PersonLanguages_Person_" data-uid="SLS.Common.DTO.MasterData.PersonDTO.PersonLanguages_Person*"></a>
+
+  <h3 id="SLS_Common_DTO_MasterData_PersonDTO_PersonLanguages_Person" data-uid="SLS.Common.DTO.MasterData.PersonDTO.PersonLanguages_Person">
+  PersonLanguages_Person
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/MasterData/PersonDTO.cs/#L555"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;PersonCollection&quot;)]
+public virtual List&lt;PersonLanguagesDTO&gt;? PersonLanguages_Person { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<a class="xref" href="SLS.Common.DTO.MasterData.PersonLanguagesDTO.html">PersonLanguagesDTO</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_MasterData_PersonDTO_PersonnelNumber_" data-uid="SLS.Common.DTO.MasterData.PersonDTO.PersonnelNumber*"></a>
+
+  <h3 id="SLS_Common_DTO_MasterData_PersonDTO_PersonnelNumber" data-uid="SLS.Common.DTO.MasterData.PersonDTO.PersonnelNumber">
+  PersonnelNumber
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/MasterData/PersonDTO.cs/#L185"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;PersonnelNumber&quot;)]
+public virtual string? PersonnelNumber { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_MasterData_PersonDTO_ReasonForSeparation_" data-uid="SLS.Common.DTO.MasterData.PersonDTO.ReasonForSeparation*"></a>
+
+  <h3 id="SLS_Common_DTO_MasterData_PersonDTO_ReasonForSeparation" data-uid="SLS.Common.DTO.MasterData.PersonDTO.ReasonForSeparation">
+  ReasonForSeparation
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/MasterData/PersonDTO.cs/#L189"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;ReasonForSeparation&quot;)]
+public virtual string? ReasonForSeparation { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_MasterData_PersonDTO_ReducedDailyRests_" data-uid="SLS.Common.DTO.MasterData.PersonDTO.ReducedDailyRests*"></a>
+
+  <h3 id="SLS_Common_DTO_MasterData_PersonDTO_ReducedDailyRests" data-uid="SLS.Common.DTO.MasterData.PersonDTO.ReducedDailyRests">
+  ReducedDailyRests
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/MasterData/PersonDTO.cs/#L397"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;ReducedDailyRests&quot;)]
+public virtual int? ReducedDailyRests { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_MasterData_PersonDTO_RemainingVacationDays_" data-uid="SLS.Common.DTO.MasterData.PersonDTO.RemainingVacationDays*"></a>
+
+  <h3 id="SLS_Common_DTO_MasterData_PersonDTO_RemainingVacationDays" data-uid="SLS.Common.DTO.MasterData.PersonDTO.RemainingVacationDays">
+  RemainingVacationDays
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/MasterData/PersonDTO.cs/#L241"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;RemainingVacationDays&quot;)]
+public virtual double? RemainingVacationDays { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_MasterData_PersonDTO_RemainingWorkHours2Weeks_" data-uid="SLS.Common.DTO.MasterData.PersonDTO.RemainingWorkHours2Weeks*"></a>
+
+  <h3 id="SLS_Common_DTO_MasterData_PersonDTO_RemainingWorkHours2Weeks" data-uid="SLS.Common.DTO.MasterData.PersonDTO.RemainingWorkHours2Weeks">
+  RemainingWorkHours2Weeks
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/MasterData/PersonDTO.cs/#L217"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;RemainingWorkHours2Weeks&quot;)]
+public virtual double? RemainingWorkHours2Weeks { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_MasterData_PersonDTO_RemainingWorkHours2Weeks_TS_" data-uid="SLS.Common.DTO.MasterData.PersonDTO.RemainingWorkHours2Weeks_TS*"></a>
+
+  <h3 id="SLS_Common_DTO_MasterData_PersonDTO_RemainingWorkHours2Weeks_TS" data-uid="SLS.Common.DTO.MasterData.PersonDTO.RemainingWorkHours2Weeks_TS">
+  RemainingWorkHours2Weeks_TS
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/MasterData/PersonDTO.cs/#L229"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;RemainingWorkHours2Weeks_TS&quot;)]
+public virtual DateTime? RemainingWorkHours2Weeks_TS { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.datetime">DateTime</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_MasterData_PersonDTO_RemainingWorkHoursDay_" data-uid="SLS.Common.DTO.MasterData.PersonDTO.RemainingWorkHoursDay*"></a>
+
+  <h3 id="SLS_Common_DTO_MasterData_PersonDTO_RemainingWorkHoursDay" data-uid="SLS.Common.DTO.MasterData.PersonDTO.RemainingWorkHoursDay">
+  RemainingWorkHoursDay
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/MasterData/PersonDTO.cs/#L209"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;RemainingWorkHoursDay&quot;)]
+public virtual double? RemainingWorkHoursDay { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_MasterData_PersonDTO_RemainingWorkHoursDay_TS_" data-uid="SLS.Common.DTO.MasterData.PersonDTO.RemainingWorkHoursDay_TS*"></a>
+
+  <h3 id="SLS_Common_DTO_MasterData_PersonDTO_RemainingWorkHoursDay_TS" data-uid="SLS.Common.DTO.MasterData.PersonDTO.RemainingWorkHoursDay_TS">
+  RemainingWorkHoursDay_TS
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/MasterData/PersonDTO.cs/#L221"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;RemainingWorkHoursDay_TS&quot;)]
+public virtual DateTime? RemainingWorkHoursDay_TS { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.datetime">DateTime</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_MasterData_PersonDTO_RemainingWorkHoursWeek_" data-uid="SLS.Common.DTO.MasterData.PersonDTO.RemainingWorkHoursWeek*"></a>
+
+  <h3 id="SLS_Common_DTO_MasterData_PersonDTO_RemainingWorkHoursWeek" data-uid="SLS.Common.DTO.MasterData.PersonDTO.RemainingWorkHoursWeek">
+  RemainingWorkHoursWeek
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/MasterData/PersonDTO.cs/#L213"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;RemainingWorkHoursWeek&quot;)]
+public virtual double? RemainingWorkHoursWeek { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_MasterData_PersonDTO_RemainingWorkHoursWeek_TS_" data-uid="SLS.Common.DTO.MasterData.PersonDTO.RemainingWorkHoursWeek_TS*"></a>
+
+  <h3 id="SLS_Common_DTO_MasterData_PersonDTO_RemainingWorkHoursWeek_TS" data-uid="SLS.Common.DTO.MasterData.PersonDTO.RemainingWorkHoursWeek_TS">
+  RemainingWorkHoursWeek_TS
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/MasterData/PersonDTO.cs/#L225"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;RemainingWorkHoursWeek_TS&quot;)]
+public virtual DateTime? RemainingWorkHoursWeek_TS { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.datetime">DateTime</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_MasterData_PersonDTO_Salutation_" data-uid="SLS.Common.DTO.MasterData.PersonDTO.Salutation*"></a>
+
+  <h3 id="SLS_Common_DTO_MasterData_PersonDTO_Salutation" data-uid="SLS.Common.DTO.MasterData.PersonDTO.Salutation">
+  Salutation
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/MasterData/PersonDTO.cs/#L501"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[ForeignKey(&quot;SalutationCollection&quot;)]
+[InverseProperty(&quot;Persons_Salutation&quot;)]
+[JsonIgnore]
+public virtual SalutationDTO? Salutation { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="SLS.Common.DTO.MasterData.SalutationDTO.html">SalutationDTO</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_MasterData_PersonDTO_SalutationID_" data-uid="SLS.Common.DTO.MasterData.PersonDTO.SalutationID*"></a>
+
+  <h3 id="SLS_Common_DTO_MasterData_PersonDTO_SalutationID" data-uid="SLS.Common.DTO.MasterData.PersonDTO.SalutationID">
+  SalutationID
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/MasterData/PersonDTO.cs/#L52"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;SalutationCollection&quot;)]
+[ForeignKey(&quot;SalutationCollection&quot;)]
+public virtual long? SalutationID { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_MasterData_PersonDTO_SeparationDate_" data-uid="SLS.Common.DTO.MasterData.PersonDTO.SeparationDate*"></a>
+
+  <h3 id="SLS_Common_DTO_MasterData_PersonDTO_SeparationDate" data-uid="SLS.Common.DTO.MasterData.PersonDTO.SeparationDate">
+  SeparationDate
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/MasterData/PersonDTO.cs/#L137"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;SeparationDate&quot;)]
+public virtual DateTime? SeparationDate { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.datetime">DateTime</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_MasterData_PersonDTO_ShiftBegin_" data-uid="SLS.Common.DTO.MasterData.PersonDTO.ShiftBegin*"></a>
+
+  <h3 id="SLS_Common_DTO_MasterData_PersonDTO_ShiftBegin" data-uid="SLS.Common.DTO.MasterData.PersonDTO.ShiftBegin">
+  ShiftBegin
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/MasterData/PersonDTO.cs/#L409"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;ShiftBegin&quot;)]
+public virtual DateTime? ShiftBegin { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.datetime">DateTime</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_MasterData_PersonDTO_ShiftEnd_" data-uid="SLS.Common.DTO.MasterData.PersonDTO.ShiftEnd*"></a>
+
+  <h3 id="SLS_Common_DTO_MasterData_PersonDTO_ShiftEnd" data-uid="SLS.Common.DTO.MasterData.PersonDTO.ShiftEnd">
+  ShiftEnd
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/MasterData/PersonDTO.cs/#L413"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;ShiftEnd&quot;)]
+public virtual DateTime? ShiftEnd { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.datetime">DateTime</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_MasterData_PersonDTO_ShiftHoursRemainingDay_" data-uid="SLS.Common.DTO.MasterData.PersonDTO.ShiftHoursRemainingDay*"></a>
+
+  <h3 id="SLS_Common_DTO_MasterData_PersonDTO_ShiftHoursRemainingDay" data-uid="SLS.Common.DTO.MasterData.PersonDTO.ShiftHoursRemainingDay">
+  ShiftHoursRemainingDay
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/MasterData/PersonDTO.cs/#L345"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;ShiftHoursRemainingDay&quot;)]
+public virtual double? ShiftHoursRemainingDay { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_MasterData_PersonDTO_ShiftHoursRemainingWeek_" data-uid="SLS.Common.DTO.MasterData.PersonDTO.ShiftHoursRemainingWeek*"></a>
+
+  <h3 id="SLS_Common_DTO_MasterData_PersonDTO_ShiftHoursRemainingWeek" data-uid="SLS.Common.DTO.MasterData.PersonDTO.ShiftHoursRemainingWeek">
+  ShiftHoursRemainingWeek
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/MasterData/PersonDTO.cs/#L349"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;ShiftHoursRemainingWeek&quot;)]
+public virtual double? ShiftHoursRemainingWeek { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_MasterData_PersonDTO_Subsidiary_ID_" data-uid="SLS.Common.DTO.MasterData.PersonDTO.Subsidiary_ID*"></a>
+
+  <h3 id="SLS_Common_DTO_MasterData_PersonDTO_Subsidiary_ID" data-uid="SLS.Common.DTO.MasterData.PersonDTO.Subsidiary_ID">
+  Subsidiary_ID
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/MasterData/PersonDTO.cs/#L42"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public long? Subsidiary_ID { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_MasterData_PersonDTO_Surname_" data-uid="SLS.Common.DTO.MasterData.PersonDTO.Surname*"></a>
+
+  <h3 id="SLS_Common_DTO_MasterData_PersonDTO_Surname" data-uid="SLS.Common.DTO.MasterData.PersonDTO.Surname">
+  Surname
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/MasterData/PersonDTO.cs/#L101"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;Surname&quot;)]
+public virtual string Surname { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_MasterData_PersonDTO_TelefonBusiness_" data-uid="SLS.Common.DTO.MasterData.PersonDTO.TelefonBusiness*"></a>
+
+  <h3 id="SLS_Common_DTO_MasterData_PersonDTO_TelefonBusiness" data-uid="SLS.Common.DTO.MasterData.PersonDTO.TelefonBusiness">
+  TelefonBusiness
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/MasterData/PersonDTO.cs/#L117"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;TelefonBusiness&quot;)]
+public virtual string? TelefonBusiness { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_MasterData_PersonDTO_TelefonMobil_" data-uid="SLS.Common.DTO.MasterData.PersonDTO.TelefonMobil*"></a>
+
+  <h3 id="SLS_Common_DTO_MasterData_PersonDTO_TelefonMobil" data-uid="SLS.Common.DTO.MasterData.PersonDTO.TelefonMobil">
+  TelefonMobil
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/MasterData/PersonDTO.cs/#L121"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;TelefonMobil&quot;)]
+public virtual string? TelefonMobil { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_MasterData_PersonDTO_TelefonPrivate_" data-uid="SLS.Common.DTO.MasterData.PersonDTO.TelefonPrivate*"></a>
+
+  <h3 id="SLS_Common_DTO_MasterData_PersonDTO_TelefonPrivate" data-uid="SLS.Common.DTO.MasterData.PersonDTO.TelefonPrivate">
+  TelefonPrivate
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/MasterData/PersonDTO.cs/#L113"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;TelefonPrivate&quot;)]
+public virtual string? TelefonPrivate { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_MasterData_PersonDTO_User_" data-uid="SLS.Common.DTO.MasterData.PersonDTO.User*"></a>
+
+  <h3 id="SLS_Common_DTO_MasterData_PersonDTO_User" data-uid="SLS.Common.DTO.MasterData.PersonDTO.User">
+  User
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/MasterData/PersonDTO.cs/#L521"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[ForeignKey(&quot;UserCollection&quot;)]
+[InverseProperty(&quot;Persons_User&quot;)]
+[JsonIgnore]
+public virtual SLSUserDTO? User { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="SLS.Common.DTO.UserManagement.SLSUserDTO.html">SLSUserDTO</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_MasterData_PersonDTO_UserID_" data-uid="SLS.Common.DTO.MasterData.PersonDTO.UserID*"></a>
+
+  <h3 id="SLS_Common_DTO_MasterData_PersonDTO_UserID" data-uid="SLS.Common.DTO.MasterData.PersonDTO.UserID">
+  UserID
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/MasterData/PersonDTO.cs/#L72"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;UserCollection&quot;)]
+[ForeignKey(&quot;UserCollection&quot;)]
+public virtual long? UserID { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_MasterData_PersonDTO_User_ID_" data-uid="SLS.Common.DTO.MasterData.PersonDTO.User_ID*"></a>
+
+  <h3 id="SLS_Common_DTO_MasterData_PersonDTO_User_ID" data-uid="SLS.Common.DTO.MasterData.PersonDTO.User_ID">
+  User_ID
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/MasterData/PersonDTO.cs/#L46"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public long? User_ID { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_MasterData_PersonDTO_VacationDaysPerYear_" data-uid="SLS.Common.DTO.MasterData.PersonDTO.VacationDaysPerYear*"></a>
+
+  <h3 id="SLS_Common_DTO_MasterData_PersonDTO_VacationDaysPerYear" data-uid="SLS.Common.DTO.MasterData.PersonDTO.VacationDaysPerYear">
+  VacationDaysPerYear
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/MasterData/PersonDTO.cs/#L237"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;VacationDaysPerYear&quot;)]
+public virtual double? VacationDaysPerYear { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_MasterData_PersonDTO_VehiclePositions_Person_" data-uid="SLS.Common.DTO.MasterData.PersonDTO.VehiclePositions_Person*"></a>
+
+  <h3 id="SLS_Common_DTO_MasterData_PersonDTO_VehiclePositions_Person" data-uid="SLS.Common.DTO.MasterData.PersonDTO.VehiclePositions_Person">
+  VehiclePositions_Person
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/MasterData/PersonDTO.cs/#L550"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;PersonCollection&quot;)]
+[JsonIgnore]
+public virtual List&lt;VehiclePositionDTO&gt;? VehiclePositions_Person { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<a class="xref" href="SLS.Common.DTO.Telematics.VehiclePositionDTO.html">VehiclePositionDTO</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_MasterData_PersonDTO_Version_" data-uid="SLS.Common.DTO.MasterData.PersonDTO.Version*"></a>
+
+  <h3 id="SLS_Common_DTO_MasterData_PersonDTO_Version" data-uid="SLS.Common.DTO.MasterData.PersonDTO.Version">
+  Version
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/MasterData/PersonDTO.cs/#L38"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;Version&quot;)]
+public long Version { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_MasterData_PersonDTO_WorkHoursNextBreakLength_" data-uid="SLS.Common.DTO.MasterData.PersonDTO.WorkHoursNextBreakLength*"></a>
+
+  <h3 id="SLS_Common_DTO_MasterData_PersonDTO_WorkHoursNextBreakLength" data-uid="SLS.Common.DTO.MasterData.PersonDTO.WorkHoursNextBreakLength">
+  WorkHoursNextBreakLength
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/MasterData/PersonDTO.cs/#L361"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;WorkHoursNextBreakLength&quot;)]
+public virtual double? WorkHoursNextBreakLength { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_MasterData_PersonDTO_WorkHoursRemainingBeforeBreak_" data-uid="SLS.Common.DTO.MasterData.PersonDTO.WorkHoursRemainingBeforeBreak*"></a>
+
+  <h3 id="SLS_Common_DTO_MasterData_PersonDTO_WorkHoursRemainingBeforeBreak" data-uid="SLS.Common.DTO.MasterData.PersonDTO.WorkHoursRemainingBeforeBreak">
+  WorkHoursRemainingBeforeBreak
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/MasterData/PersonDTO.cs/#L357"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;WorkHoursRemainingBeforeBreak&quot;)]
+public virtual double? WorkHoursRemainingBeforeBreak { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_MasterData_PersonDTO_WorkHoursRemainingDay_" data-uid="SLS.Common.DTO.MasterData.PersonDTO.WorkHoursRemainingDay*"></a>
+
+  <h3 id="SLS_Common_DTO_MasterData_PersonDTO_WorkHoursRemainingDay" data-uid="SLS.Common.DTO.MasterData.PersonDTO.WorkHoursRemainingDay">
+  WorkHoursRemainingDay
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/MasterData/PersonDTO.cs/#L353"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;WorkHoursRemainingDay&quot;)]
+public virtual double? WorkHoursRemainingDay { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+</article>
+
+        <div class="contribution d-print-none">
+          <a href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/MasterData/PersonDTO.cs/#L28" class="edit-link">Edit this page</a>
+        </div>
+
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

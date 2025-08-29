@@ -1,0 +1,1046 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Class ZusammenladungDTO | SLS Documentation </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Class ZusammenladungDTO | SLS Documentation ">
+      
+      
+      <link rel="icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="../">
+      
+      
+      <meta name="docfx:docurl" content="https://github.com/Dev-SLS/dev/new/Dev/apiSpec/new?filename=SLS_Common_DTO_ADR_ZusammenladungDTO.md&amp;value=---%0Auid%3A%20SLS.Common.DTO.ADR.ZusammenladungDTO%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../logo.svg" alt="SLS Documentation">
+            SLS Documentation
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="SLS.Common.DTO.ADR.ZusammenladungDTO">
+
+
+
+  <h1 id="SLS_Common_DTO_ADR_ZusammenladungDTO" data-uid="SLS.Common.DTO.ADR.ZusammenladungDTO" class="text-break">
+Class ZusammenladungDTO  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/ADR/ZusammenladungDTO.cs/#L28"><i class="bi bi-code-slash"></i></a>
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="SLS.html">SLS</a>.<a class="xref" href="SLS.Common.html">Common</a>.<a class="xref" href="SLS.Common.DTO.html">DTO</a>.<a class="xref" href="SLS.Common.DTO.ADR.html">ADR</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>SLS.Common.DTO.dll</dd></dl>
+  </div>
+
+  <div class="markdown summary"></div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Serializable]
+[DataContract(IsReference = true)]
+public class ZusammenladungDTO : IDTO</code></pre>
+  </div>
+
+
+
+
+  <dl class="typelist inheritance">
+    <dt>Inheritance</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+      <div><span class="xref">ZusammenladungDTO</span></div>
+    </dd>
+  </dl>
+
+  <dl class="typelist implements">
+    <dt>Implements</dt>
+    <dd>
+      <div><a class="xref" href="SLS.Common.Interfaces.IDTO.html">IDTO</a></div>
+    </dd>
+  </dl>
+
+
+  <dl class="typelist inheritedMembers">
+    <dt>Inherited Members</dt>
+    <dd>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)">object.Equals(object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">object.Equals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gethashcode">object.GetHashCode()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gettype">object.GetType()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone">object.MemberwiseClone()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals">object.ReferenceEquals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.tostring">object.ToString()</a>
+    </div>
+  </dd></dl>
+
+
+
+
+
+
+  <h2 class="section" id="properties">Properties
+</h2>
+
+
+  <a id="SLS_Common_DTO_ADR_ZusammenladungDTO_DataProvider_" data-uid="SLS.Common.DTO.ADR.ZusammenladungDTO.DataProvider*"></a>
+
+  <h3 id="SLS_Common_DTO_ADR_ZusammenladungDTO_DataProvider" data-uid="SLS.Common.DTO.ADR.ZusammenladungDTO.DataProvider">
+  DataProvider
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/ADR/ZusammenladungDTO.cs/#L142"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;DataProvider&quot;)]
+public virtual string DataProvider { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_ADR_ZusammenladungDTO_GEFAHRZETTEL1_" data-uid="SLS.Common.DTO.ADR.ZusammenladungDTO.GEFAHRZETTEL1*"></a>
+
+  <h3 id="SLS_Common_DTO_ADR_ZusammenladungDTO_GEFAHRZETTEL1" data-uid="SLS.Common.DTO.ADR.ZusammenladungDTO.GEFAHRZETTEL1">
+  GEFAHRZETTEL1
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/ADR/ZusammenladungDTO.cs/#L50"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;GEFAHRZETTEL1&quot;)]
+public virtual string GEFAHRZETTEL1 { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_ADR_ZusammenladungDTO_GEFAHRZETTEL2_" data-uid="SLS.Common.DTO.ADR.ZusammenladungDTO.GEFAHRZETTEL2*"></a>
+
+  <h3 id="SLS_Common_DTO_ADR_ZusammenladungDTO_GEFAHRZETTEL2" data-uid="SLS.Common.DTO.ADR.ZusammenladungDTO.GEFAHRZETTEL2">
+  GEFAHRZETTEL2
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/ADR/ZusammenladungDTO.cs/#L54"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;GEFAHRZETTEL2&quot;)]
+public virtual string? GEFAHRZETTEL2 { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_ADR_ZusammenladungDTO_Id_" data-uid="SLS.Common.DTO.ADR.ZusammenladungDTO.Id*"></a>
+
+  <h3 id="SLS_Common_DTO_ADR_ZusammenladungDTO_Id" data-uid="SLS.Common.DTO.ADR.ZusammenladungDTO.Id">
+  Id
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/ADR/ZusammenladungDTO.cs/#L34"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;ID&quot;)]
+public long Id { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_ADR_ZusammenladungDTO_MUSTER_1_" data-uid="SLS.Common.DTO.ADR.ZusammenladungDTO.MUSTER_1*"></a>
+
+  <h3 id="SLS_Common_DTO_ADR_ZusammenladungDTO_MUSTER_1" data-uid="SLS.Common.DTO.ADR.ZusammenladungDTO.MUSTER_1">
+  MUSTER_1
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/ADR/ZusammenladungDTO.cs/#L58"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;MUSTER_1&quot;)]
+public virtual string? MUSTER_1 { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_ADR_ZusammenladungDTO_MUSTER_14_" data-uid="SLS.Common.DTO.ADR.ZusammenladungDTO.MUSTER_14*"></a>
+
+  <h3 id="SLS_Common_DTO_ADR_ZusammenladungDTO_MUSTER_14" data-uid="SLS.Common.DTO.ADR.ZusammenladungDTO.MUSTER_14">
+  MUSTER_14
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/ADR/ZusammenladungDTO.cs/#L62"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;MUSTER_14&quot;)]
+public virtual string? MUSTER_14 { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_ADR_ZusammenladungDTO_MUSTER_15_" data-uid="SLS.Common.DTO.ADR.ZusammenladungDTO.MUSTER_15*"></a>
+
+  <h3 id="SLS_Common_DTO_ADR_ZusammenladungDTO_MUSTER_15" data-uid="SLS.Common.DTO.ADR.ZusammenladungDTO.MUSTER_15">
+  MUSTER_15
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/ADR/ZusammenladungDTO.cs/#L66"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;MUSTER_15&quot;)]
+public virtual string? MUSTER_15 { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_ADR_ZusammenladungDTO_MUSTER_16_" data-uid="SLS.Common.DTO.ADR.ZusammenladungDTO.MUSTER_16*"></a>
+
+  <h3 id="SLS_Common_DTO_ADR_ZusammenladungDTO_MUSTER_16" data-uid="SLS.Common.DTO.ADR.ZusammenladungDTO.MUSTER_16">
+  MUSTER_16
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/ADR/ZusammenladungDTO.cs/#L70"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;MUSTER_16&quot;)]
+public virtual string? MUSTER_16 { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_ADR_ZusammenladungDTO_MUSTER_21_" data-uid="SLS.Common.DTO.ADR.ZusammenladungDTO.MUSTER_21*"></a>
+
+  <h3 id="SLS_Common_DTO_ADR_ZusammenladungDTO_MUSTER_21" data-uid="SLS.Common.DTO.ADR.ZusammenladungDTO.MUSTER_21">
+  MUSTER_21
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/ADR/ZusammenladungDTO.cs/#L74"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;MUSTER_21&quot;)]
+public virtual string? MUSTER_21 { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_ADR_ZusammenladungDTO_MUSTER_22_" data-uid="SLS.Common.DTO.ADR.ZusammenladungDTO.MUSTER_22*"></a>
+
+  <h3 id="SLS_Common_DTO_ADR_ZusammenladungDTO_MUSTER_22" data-uid="SLS.Common.DTO.ADR.ZusammenladungDTO.MUSTER_22">
+  MUSTER_22
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/ADR/ZusammenladungDTO.cs/#L78"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;MUSTER_22&quot;)]
+public virtual string? MUSTER_22 { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_ADR_ZusammenladungDTO_MUSTER_23_" data-uid="SLS.Common.DTO.ADR.ZusammenladungDTO.MUSTER_23*"></a>
+
+  <h3 id="SLS_Common_DTO_ADR_ZusammenladungDTO_MUSTER_23" data-uid="SLS.Common.DTO.ADR.ZusammenladungDTO.MUSTER_23">
+  MUSTER_23
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/ADR/ZusammenladungDTO.cs/#L82"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;MUSTER_23&quot;)]
+public virtual string? MUSTER_23 { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_ADR_ZusammenladungDTO_MUSTER_3_" data-uid="SLS.Common.DTO.ADR.ZusammenladungDTO.MUSTER_3*"></a>
+
+  <h3 id="SLS_Common_DTO_ADR_ZusammenladungDTO_MUSTER_3" data-uid="SLS.Common.DTO.ADR.ZusammenladungDTO.MUSTER_3">
+  MUSTER_3
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/ADR/ZusammenladungDTO.cs/#L86"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;MUSTER_3&quot;)]
+public virtual string? MUSTER_3 { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_ADR_ZusammenladungDTO_MUSTER_41_" data-uid="SLS.Common.DTO.ADR.ZusammenladungDTO.MUSTER_41*"></a>
+
+  <h3 id="SLS_Common_DTO_ADR_ZusammenladungDTO_MUSTER_41" data-uid="SLS.Common.DTO.ADR.ZusammenladungDTO.MUSTER_41">
+  MUSTER_41
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/ADR/ZusammenladungDTO.cs/#L90"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;MUSTER_41&quot;)]
+public virtual string? MUSTER_41 { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_ADR_ZusammenladungDTO_MUSTER_41_1_" data-uid="SLS.Common.DTO.ADR.ZusammenladungDTO.MUSTER_41_1*"></a>
+
+  <h3 id="SLS_Common_DTO_ADR_ZusammenladungDTO_MUSTER_41_1" data-uid="SLS.Common.DTO.ADR.ZusammenladungDTO.MUSTER_41_1">
+  MUSTER_41_1
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/ADR/ZusammenladungDTO.cs/#L94"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;MUSTER_41_1&quot;)]
+public virtual string? MUSTER_41_1 { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_ADR_ZusammenladungDTO_MUSTER_42_" data-uid="SLS.Common.DTO.ADR.ZusammenladungDTO.MUSTER_42*"></a>
+
+  <h3 id="SLS_Common_DTO_ADR_ZusammenladungDTO_MUSTER_42" data-uid="SLS.Common.DTO.ADR.ZusammenladungDTO.MUSTER_42">
+  MUSTER_42
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/ADR/ZusammenladungDTO.cs/#L98"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;MUSTER_42&quot;)]
+public virtual string? MUSTER_42 { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_ADR_ZusammenladungDTO_MUSTER_43_" data-uid="SLS.Common.DTO.ADR.ZusammenladungDTO.MUSTER_43*"></a>
+
+  <h3 id="SLS_Common_DTO_ADR_ZusammenladungDTO_MUSTER_43" data-uid="SLS.Common.DTO.ADR.ZusammenladungDTO.MUSTER_43">
+  MUSTER_43
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/ADR/ZusammenladungDTO.cs/#L102"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;MUSTER_43&quot;)]
+public virtual string? MUSTER_43 { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_ADR_ZusammenladungDTO_MUSTER_51_" data-uid="SLS.Common.DTO.ADR.ZusammenladungDTO.MUSTER_51*"></a>
+
+  <h3 id="SLS_Common_DTO_ADR_ZusammenladungDTO_MUSTER_51" data-uid="SLS.Common.DTO.ADR.ZusammenladungDTO.MUSTER_51">
+  MUSTER_51
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/ADR/ZusammenladungDTO.cs/#L106"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;MUSTER_51&quot;)]
+public virtual string? MUSTER_51 { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_ADR_ZusammenladungDTO_MUSTER_52_" data-uid="SLS.Common.DTO.ADR.ZusammenladungDTO.MUSTER_52*"></a>
+
+  <h3 id="SLS_Common_DTO_ADR_ZusammenladungDTO_MUSTER_52" data-uid="SLS.Common.DTO.ADR.ZusammenladungDTO.MUSTER_52">
+  MUSTER_52
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/ADR/ZusammenladungDTO.cs/#L110"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;MUSTER_52&quot;)]
+public virtual string? MUSTER_52 { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_ADR_ZusammenladungDTO_MUSTER_52_1_" data-uid="SLS.Common.DTO.ADR.ZusammenladungDTO.MUSTER_52_1*"></a>
+
+  <h3 id="SLS_Common_DTO_ADR_ZusammenladungDTO_MUSTER_52_1" data-uid="SLS.Common.DTO.ADR.ZusammenladungDTO.MUSTER_52_1">
+  MUSTER_52_1
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/ADR/ZusammenladungDTO.cs/#L114"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;MUSTER_52_1&quot;)]
+public virtual string? MUSTER_52_1 { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_ADR_ZusammenladungDTO_MUSTER_61_" data-uid="SLS.Common.DTO.ADR.ZusammenladungDTO.MUSTER_61*"></a>
+
+  <h3 id="SLS_Common_DTO_ADR_ZusammenladungDTO_MUSTER_61" data-uid="SLS.Common.DTO.ADR.ZusammenladungDTO.MUSTER_61">
+  MUSTER_61
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/ADR/ZusammenladungDTO.cs/#L118"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;MUSTER_61&quot;)]
+public virtual string? MUSTER_61 { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_ADR_ZusammenladungDTO_MUSTER_62_" data-uid="SLS.Common.DTO.ADR.ZusammenladungDTO.MUSTER_62*"></a>
+
+  <h3 id="SLS_Common_DTO_ADR_ZusammenladungDTO_MUSTER_62" data-uid="SLS.Common.DTO.ADR.ZusammenladungDTO.MUSTER_62">
+  MUSTER_62
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/ADR/ZusammenladungDTO.cs/#L122"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;MUSTER_62&quot;)]
+public virtual string? MUSTER_62 { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_ADR_ZusammenladungDTO_MUSTER_7_" data-uid="SLS.Common.DTO.ADR.ZusammenladungDTO.MUSTER_7*"></a>
+
+  <h3 id="SLS_Common_DTO_ADR_ZusammenladungDTO_MUSTER_7" data-uid="SLS.Common.DTO.ADR.ZusammenladungDTO.MUSTER_7">
+  MUSTER_7
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/ADR/ZusammenladungDTO.cs/#L126"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;MUSTER_7&quot;)]
+public virtual string? MUSTER_7 { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_ADR_ZusammenladungDTO_MUSTER_8_" data-uid="SLS.Common.DTO.ADR.ZusammenladungDTO.MUSTER_8*"></a>
+
+  <h3 id="SLS_Common_DTO_ADR_ZusammenladungDTO_MUSTER_8" data-uid="SLS.Common.DTO.ADR.ZusammenladungDTO.MUSTER_8">
+  MUSTER_8
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/ADR/ZusammenladungDTO.cs/#L130"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;MUSTER_8&quot;)]
+public virtual string? MUSTER_8 { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_ADR_ZusammenladungDTO_MUSTER_9_" data-uid="SLS.Common.DTO.ADR.ZusammenladungDTO.MUSTER_9*"></a>
+
+  <h3 id="SLS_Common_DTO_ADR_ZusammenladungDTO_MUSTER_9" data-uid="SLS.Common.DTO.ADR.ZusammenladungDTO.MUSTER_9">
+  MUSTER_9
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/ADR/ZusammenladungDTO.cs/#L134"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;MUSTER_9&quot;)]
+public virtual string? MUSTER_9 { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_ADR_ZusammenladungDTO_MUSTER_9A_" data-uid="SLS.Common.DTO.ADR.ZusammenladungDTO.MUSTER_9A*"></a>
+
+  <h3 id="SLS_Common_DTO_ADR_ZusammenladungDTO_MUSTER_9A" data-uid="SLS.Common.DTO.ADR.ZusammenladungDTO.MUSTER_9A">
+  MUSTER_9A
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/ADR/ZusammenladungDTO.cs/#L138"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;MUSTER_9A&quot;)]
+public virtual string? MUSTER_9A { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_ADR_ZusammenladungDTO_Version_" data-uid="SLS.Common.DTO.ADR.ZusammenladungDTO.Version*"></a>
+
+  <h3 id="SLS_Common_DTO_ADR_ZusammenladungDTO_Version" data-uid="SLS.Common.DTO.ADR.ZusammenladungDTO.Version">
+  Version
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/ADR/ZusammenladungDTO.cs/#L38"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;Version&quot;)]
+public long Version { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+</article>
+
+        <div class="contribution d-print-none">
+          <a href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/ADR/ZusammenladungDTO.cs/#L28" class="edit-link">Edit this page</a>
+        </div>
+
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

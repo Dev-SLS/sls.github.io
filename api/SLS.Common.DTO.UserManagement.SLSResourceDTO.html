@@ -1,0 +1,1194 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Class SLSResourceDTO | SLS Documentation </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Class SLSResourceDTO | SLS Documentation ">
+      
+      
+      <link rel="icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="../">
+      
+      
+      <meta name="docfx:docurl" content="https://github.com/Dev-SLS/dev/new/Dev/apiSpec/new?filename=SLS_Common_DTO_UserManagement_SLSResourceDTO.md&amp;value=---%0Auid%3A%20SLS.Common.DTO.UserManagement.SLSResourceDTO%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../logo.svg" alt="SLS Documentation">
+            SLS Documentation
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="SLS.Common.DTO.UserManagement.SLSResourceDTO">
+
+
+
+  <h1 id="SLS_Common_DTO_UserManagement_SLSResourceDTO" data-uid="SLS.Common.DTO.UserManagement.SLSResourceDTO" class="text-break">
+Class SLSResourceDTO  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/UserManagement/SLSResourceDTO.cs/#L28"><i class="bi bi-code-slash"></i></a>
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="SLS.html">SLS</a>.<a class="xref" href="SLS.Common.html">Common</a>.<a class="xref" href="SLS.Common.DTO.html">DTO</a>.<a class="xref" href="SLS.Common.DTO.UserManagement.html">UserManagement</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>SLS.Common.DTO.dll</dd></dl>
+  </div>
+
+  <div class="markdown summary"></div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Serializable]
+[DataContract(IsReference = true)]
+public class SLSResourceDTO : IDTO</code></pre>
+  </div>
+
+
+
+
+  <dl class="typelist inheritance">
+    <dt>Inheritance</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+      <div><span class="xref">SLSResourceDTO</span></div>
+    </dd>
+  </dl>
+
+  <dl class="typelist implements">
+    <dt>Implements</dt>
+    <dd>
+      <div><a class="xref" href="SLS.Common.Interfaces.IDTO.html">IDTO</a></div>
+    </dd>
+  </dl>
+
+
+  <dl class="typelist inheritedMembers">
+    <dt>Inherited Members</dt>
+    <dd>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)">object.Equals(object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">object.Equals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gethashcode">object.GetHashCode()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gettype">object.GetType()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone">object.MemberwiseClone()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals">object.ReferenceEquals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.tostring">object.ToString()</a>
+    </div>
+  </dd></dl>
+
+
+
+
+
+
+  <h2 class="section" id="properties">Properties
+</h2>
+
+
+  <a id="SLS_Common_DTO_UserManagement_SLSResourceDTO_AdminOnly_" data-uid="SLS.Common.DTO.UserManagement.SLSResourceDTO.AdminOnly*"></a>
+
+  <h3 id="SLS_Common_DTO_UserManagement_SLSResourceDTO_AdminOnly" data-uid="SLS.Common.DTO.UserManagement.SLSResourceDTO.AdminOnly">
+  AdminOnly
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/UserManagement/SLSResourceDTO.cs/#L90"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;AdminOnly&quot;)]
+public virtual bool AdminOnly { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_UserManagement_SLSResourceDTO_Application_" data-uid="SLS.Common.DTO.UserManagement.SLSResourceDTO.Application*"></a>
+
+  <h3 id="SLS_Common_DTO_UserManagement_SLSResourceDTO_Application" data-uid="SLS.Common.DTO.UserManagement.SLSResourceDTO.Application">
+  Application
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/UserManagement/SLSResourceDTO.cs/#L98"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;Application&quot;)]
+public virtual string Application { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_UserManagement_SLSResourceDTO_BusinessType_" data-uid="SLS.Common.DTO.UserManagement.SLSResourceDTO.BusinessType*"></a>
+
+  <h3 id="SLS_Common_DTO_UserManagement_SLSResourceDTO_BusinessType" data-uid="SLS.Common.DTO.UserManagement.SLSResourceDTO.BusinessType">
+  BusinessType
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/UserManagement/SLSResourceDTO.cs/#L133"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[ForeignKey(&quot;BusinessTypeCollection&quot;)]
+[InverseProperty(&quot;SLSResources_BusinessType&quot;)]
+[JsonIgnore]
+public virtual BusinessTypeDTO? BusinessType { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="SLS.Common.DTO._System_.BusinessTypeDTO.html">BusinessTypeDTO</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_UserManagement_SLSResourceDTO_BusinessTypeID_" data-uid="SLS.Common.DTO.UserManagement.SLSResourceDTO.BusinessTypeID*"></a>
+
+  <h3 id="SLS_Common_DTO_UserManagement_SLSResourceDTO_BusinessTypeID" data-uid="SLS.Common.DTO.UserManagement.SLSResourceDTO.BusinessTypeID">
+  BusinessTypeID
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/UserManagement/SLSResourceDTO.cs/#L61"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;BusinessTypeCollection&quot;)]
+[ForeignKey(&quot;BusinessTypeCollection&quot;)]
+public virtual long? BusinessTypeID { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_UserManagement_SLSResourceDTO_Context_" data-uid="SLS.Common.DTO.UserManagement.SLSResourceDTO.Context*"></a>
+
+  <h3 id="SLS_Common_DTO_UserManagement_SLSResourceDTO_Context" data-uid="SLS.Common.DTO.UserManagement.SLSResourceDTO.Context">
+  Context
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/UserManagement/SLSResourceDTO.cs/#L106"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;Context&quot;)]
+public virtual string Context { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_UserManagement_SLSResourceDTO_CurrentResourceInfo_SLSResource_" data-uid="SLS.Common.DTO.UserManagement.SLSResourceDTO.CurrentResourceInfo_SLSResource*"></a>
+
+  <h3 id="SLS_Common_DTO_UserManagement_SLSResourceDTO_CurrentResourceInfo_SLSResource" data-uid="SLS.Common.DTO.UserManagement.SLSResourceDTO.CurrentResourceInfo_SLSResource">
+  CurrentResourceInfo_SLSResource
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/UserManagement/SLSResourceDTO.cs/#L182"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;SLSResourceCollection&quot;)]
+[JsonIgnore]
+public virtual List&lt;CurrentResourceInfoDTO&gt;? CurrentResourceInfo_SLSResource { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<a class="xref" href="SLS.Common.DTO.UserManagement.CurrentResourceInfoDTO.html">CurrentResourceInfoDTO</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_UserManagement_SLSResourceDTO_Data_" data-uid="SLS.Common.DTO.UserManagement.SLSResourceDTO.Data*"></a>
+
+  <h3 id="SLS_Common_DTO_UserManagement_SLSResourceDTO_Data" data-uid="SLS.Common.DTO.UserManagement.SLSResourceDTO.Data">
+  Data
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/UserManagement/SLSResourceDTO.cs/#L78"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;Data&quot;)]
+public virtual string Data { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_UserManagement_SLSResourceDTO_DataSource_" data-uid="SLS.Common.DTO.UserManagement.SLSResourceDTO.DataSource*"></a>
+
+  <h3 id="SLS_Common_DTO_UserManagement_SLSResourceDTO_DataSource" data-uid="SLS.Common.DTO.UserManagement.SLSResourceDTO.DataSource">
+  DataSource
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/UserManagement/SLSResourceDTO.cs/#L74"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;DataSource&quot;)]
+public virtual string DataSource { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_UserManagement_SLSResourceDTO_Id_" data-uid="SLS.Common.DTO.UserManagement.SLSResourceDTO.Id*"></a>
+
+  <h3 id="SLS_Common_DTO_UserManagement_SLSResourceDTO_Id" data-uid="SLS.Common.DTO.UserManagement.SLSResourceDTO.Id">
+  Id
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/UserManagement/SLSResourceDTO.cs/#L34"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;ID&quot;)]
+public long Id { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_UserManagement_SLSResourceDTO_IsGlobal_" data-uid="SLS.Common.DTO.UserManagement.SLSResourceDTO.IsGlobal*"></a>
+
+  <h3 id="SLS_Common_DTO_UserManagement_SLSResourceDTO_IsGlobal" data-uid="SLS.Common.DTO.UserManagement.SLSResourceDTO.IsGlobal">
+  IsGlobal
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/UserManagement/SLSResourceDTO.cs/#L82"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;IsGlobal&quot;)]
+public virtual bool IsGlobal { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_UserManagement_SLSResourceDTO_IsPublished_" data-uid="SLS.Common.DTO.UserManagement.SLSResourceDTO.IsPublished*"></a>
+
+  <h3 id="SLS_Common_DTO_UserManagement_SLSResourceDTO_IsPublished" data-uid="SLS.Common.DTO.UserManagement.SLSResourceDTO.IsPublished">
+  IsPublished
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/UserManagement/SLSResourceDTO.cs/#L86"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;IsPublished&quot;)]
+public virtual bool IsPublished { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_UserManagement_SLSResourceDTO_LastChange_" data-uid="SLS.Common.DTO.UserManagement.SLSResourceDTO.LastChange*"></a>
+
+  <h3 id="SLS_Common_DTO_UserManagement_SLSResourceDTO_LastChange" data-uid="SLS.Common.DTO.UserManagement.SLSResourceDTO.LastChange">
+  LastChange
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/UserManagement/SLSResourceDTO.cs/#L102"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;LastChange&quot;)]
+public virtual DateTime? LastChange { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.datetime">DateTime</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_UserManagement_SLSResourceDTO_LastChangedBy_" data-uid="SLS.Common.DTO.UserManagement.SLSResourceDTO.LastChangedBy*"></a>
+
+  <h3 id="SLS_Common_DTO_UserManagement_SLSResourceDTO_LastChangedBy" data-uid="SLS.Common.DTO.UserManagement.SLSResourceDTO.LastChangedBy">
+  LastChangedBy
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/UserManagement/SLSResourceDTO.cs/#L123"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[ForeignKey(&quot;LastChangedByCollection&quot;)]
+[InverseProperty(&quot;SLSResources_LastChangedBy&quot;)]
+[JsonIgnore]
+public virtual SLSUserDTO? LastChangedBy { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="SLS.Common.DTO.UserManagement.SLSUserDTO.html">SLSUserDTO</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_UserManagement_SLSResourceDTO_LastChangedByID_" data-uid="SLS.Common.DTO.UserManagement.SLSResourceDTO.LastChangedByID*"></a>
+
+  <h3 id="SLS_Common_DTO_UserManagement_SLSResourceDTO_LastChangedByID" data-uid="SLS.Common.DTO.UserManagement.SLSResourceDTO.LastChangedByID">
+  LastChangedByID
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/UserManagement/SLSResourceDTO.cs/#L51"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;LastChangedByCollection&quot;)]
+[ForeignKey(&quot;LastChangedByCollection&quot;)]
+public virtual long? LastChangedByID { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_UserManagement_SLSResourceDTO_Name_" data-uid="SLS.Common.DTO.UserManagement.SLSResourceDTO.Name*"></a>
+
+  <h3 id="SLS_Common_DTO_UserManagement_SLSResourceDTO_Name" data-uid="SLS.Common.DTO.UserManagement.SLSResourceDTO.Name">
+  Name
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/UserManagement/SLSResourceDTO.cs/#L70"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;Name&quot;)]
+public virtual string Name { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_UserManagement_SLSResourceDTO_Notes_" data-uid="SLS.Common.DTO.UserManagement.SLSResourceDTO.Notes*"></a>
+
+  <h3 id="SLS_Common_DTO_UserManagement_SLSResourceDTO_Notes" data-uid="SLS.Common.DTO.UserManagement.SLSResourceDTO.Notes">
+  Notes
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/UserManagement/SLSResourceDTO.cs/#L94"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;Notes&quot;)]
+public virtual string Notes { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_UserManagement_SLSResourceDTO_Owner_" data-uid="SLS.Common.DTO.UserManagement.SLSResourceDTO.Owner*"></a>
+
+  <h3 id="SLS_Common_DTO_UserManagement_SLSResourceDTO_Owner" data-uid="SLS.Common.DTO.UserManagement.SLSResourceDTO.Owner">
+  Owner
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/UserManagement/SLSResourceDTO.cs/#L128"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[ForeignKey(&quot;OwnerCollection&quot;)]
+[InverseProperty(&quot;SLSResources_Owner&quot;)]
+[JsonIgnore]
+public virtual SLSUserDTO? Owner { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="SLS.Common.DTO.UserManagement.SLSUserDTO.html">SLSUserDTO</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_UserManagement_SLSResourceDTO_OwnerID_" data-uid="SLS.Common.DTO.UserManagement.SLSResourceDTO.OwnerID*"></a>
+
+  <h3 id="SLS_Common_DTO_UserManagement_SLSResourceDTO_OwnerID" data-uid="SLS.Common.DTO.UserManagement.SLSResourceDTO.OwnerID">
+  OwnerID
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/UserManagement/SLSResourceDTO.cs/#L56"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;OwnerCollection&quot;)]
+[ForeignKey(&quot;OwnerCollection&quot;)]
+public virtual long? OwnerID { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_UserManagement_SLSResourceDTO_ReportJob_Configuration_" data-uid="SLS.Common.DTO.UserManagement.SLSResourceDTO.ReportJob_Configuration*"></a>
+
+  <h3 id="SLS_Common_DTO_UserManagement_SLSResourceDTO_ReportJob_Configuration" data-uid="SLS.Common.DTO.UserManagement.SLSResourceDTO.ReportJob_Configuration">
+  ReportJob_Configuration
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/UserManagement/SLSResourceDTO.cs/#L177"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;ConfigurationCollection&quot;)]
+[JsonIgnore]
+public virtual List&lt;ReportJobDTO&gt;? ReportJob_Configuration { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<a class="xref" href="SLS.Common.DTO.UserManagement.ReportJobDTO.html">ReportJobDTO</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_UserManagement_SLSResourceDTO_SLSResourceCompany_SLSResource_" data-uid="SLS.Common.DTO.UserManagement.SLSResourceDTO.SLSResourceCompany_SLSResource*"></a>
+
+  <h3 id="SLS_Common_DTO_UserManagement_SLSResourceDTO_SLSResourceCompany_SLSResource" data-uid="SLS.Common.DTO.UserManagement.SLSResourceDTO.SLSResourceCompany_SLSResource">
+  SLSResourceCompany_SLSResource
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/UserManagement/SLSResourceDTO.cs/#L172"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;SLSResourceCollection&quot;)]
+[JsonIgnore]
+public virtual List&lt;SLSResourceCompanyDTO&gt;? SLSResourceCompany_SLSResource { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<a class="xref" href="SLS.Common.DTO.UserManagement.SLSResourceCompanyDTO.html">SLSResourceCompanyDTO</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_UserManagement_SLSResourceDTO_SLSResourceDepartment_SLSResource_" data-uid="SLS.Common.DTO.UserManagement.SLSResourceDTO.SLSResourceDepartment_SLSResource*"></a>
+
+  <h3 id="SLS_Common_DTO_UserManagement_SLSResourceDTO_SLSResourceDepartment_SLSResource" data-uid="SLS.Common.DTO.UserManagement.SLSResourceDTO.SLSResourceDepartment_SLSResource">
+  SLSResourceDepartment_SLSResource
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/UserManagement/SLSResourceDTO.cs/#L167"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;SLSResourceCollection&quot;)]
+[JsonIgnore]
+public virtual List&lt;SLSResourceDepartmentDTO&gt;? SLSResourceDepartment_SLSResource { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<a class="xref" href="SLS.Common.DTO.UserManagement.SLSResourceDepartmentDTO.html">SLSResourceDepartmentDTO</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_UserManagement_SLSResourceDTO_SLSResourceDetail_SLSResource_" data-uid="SLS.Common.DTO.UserManagement.SLSResourceDTO.SLSResourceDetail_SLSResource*"></a>
+
+  <h3 id="SLS_Common_DTO_UserManagement_SLSResourceDTO_SLSResourceDetail_SLSResource" data-uid="SLS.Common.DTO.UserManagement.SLSResourceDTO.SLSResourceDetail_SLSResource">
+  SLSResourceDetail_SLSResource
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/UserManagement/SLSResourceDTO.cs/#L162"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;SLSResourceCollection&quot;)]
+public virtual List&lt;SLSResourceDetailDTO&gt;? SLSResourceDetail_SLSResource { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<a class="xref" href="SLS.Common.DTO.UserManagement.SLSResourceDetailDTO.html">SLSResourceDetailDTO</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_UserManagement_SLSResourceDTO_SLSResourceDivision_SLSResource_" data-uid="SLS.Common.DTO.UserManagement.SLSResourceDTO.SLSResourceDivision_SLSResource*"></a>
+
+  <h3 id="SLS_Common_DTO_UserManagement_SLSResourceDTO_SLSResourceDivision_SLSResource" data-uid="SLS.Common.DTO.UserManagement.SLSResourceDTO.SLSResourceDivision_SLSResource">
+  SLSResourceDivision_SLSResource
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/UserManagement/SLSResourceDTO.cs/#L157"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;SLSResourceCollection&quot;)]
+[JsonIgnore]
+public virtual List&lt;SLSResourceDivisionDTO&gt;? SLSResourceDivision_SLSResource { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<a class="xref" href="SLS.Common.DTO.UserManagement.SLSResourceDivisionDTO.html">SLSResourceDivisionDTO</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_UserManagement_SLSResourceDTO_SLSResourceRole_SLSResource_" data-uid="SLS.Common.DTO.UserManagement.SLSResourceDTO.SLSResourceRole_SLSResource*"></a>
+
+  <h3 id="SLS_Common_DTO_UserManagement_SLSResourceDTO_SLSResourceRole_SLSResource" data-uid="SLS.Common.DTO.UserManagement.SLSResourceDTO.SLSResourceRole_SLSResource">
+  SLSResourceRole_SLSResource
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/UserManagement/SLSResourceDTO.cs/#L152"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;SLSResourceCollection&quot;)]
+[JsonIgnore]
+public virtual List&lt;SLSResourceRoleDTO&gt;? SLSResourceRole_SLSResource { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<a class="xref" href="SLS.Common.DTO.UserManagement.SLSResourceRoleDTO.html">SLSResourceRoleDTO</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_UserManagement_SLSResourceDTO_SLSResourceSubsidiary_SLSResource_" data-uid="SLS.Common.DTO.UserManagement.SLSResourceDTO.SLSResourceSubsidiary_SLSResource*"></a>
+
+  <h3 id="SLS_Common_DTO_UserManagement_SLSResourceDTO_SLSResourceSubsidiary_SLSResource" data-uid="SLS.Common.DTO.UserManagement.SLSResourceDTO.SLSResourceSubsidiary_SLSResource">
+  SLSResourceSubsidiary_SLSResource
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/UserManagement/SLSResourceDTO.cs/#L147"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;SLSResourceCollection&quot;)]
+[JsonIgnore]
+public virtual List&lt;SLSResourceSubsidiaryDTO&gt;? SLSResourceSubsidiary_SLSResource { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<a class="xref" href="SLS.Common.DTO.UserManagement.SLSResourceSubsidiaryDTO.html">SLSResourceSubsidiaryDTO</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_UserManagement_SLSResourceDTO_SLSResourceType_" data-uid="SLS.Common.DTO.UserManagement.SLSResourceDTO.SLSResourceType*"></a>
+
+  <h3 id="SLS_Common_DTO_UserManagement_SLSResourceDTO_SLSResourceType" data-uid="SLS.Common.DTO.UserManagement.SLSResourceDTO.SLSResourceType">
+  SLSResourceType
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/UserManagement/SLSResourceDTO.cs/#L118"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[ForeignKey(&quot;SLSResourceTypeCollection&quot;)]
+[InverseProperty(&quot;SLSResources_SLSResourceType&quot;)]
+[JsonIgnore]
+public virtual SLSResourceTypeDTO? SLSResourceType { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="SLS.Common.DTO.UserManagement.SLSResourceTypeDTO.html">SLSResourceTypeDTO</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_UserManagement_SLSResourceDTO_SLSResourceTypeID_" data-uid="SLS.Common.DTO.UserManagement.SLSResourceDTO.SLSResourceTypeID*"></a>
+
+  <h3 id="SLS_Common_DTO_UserManagement_SLSResourceDTO_SLSResourceTypeID" data-uid="SLS.Common.DTO.UserManagement.SLSResourceDTO.SLSResourceTypeID">
+  SLSResourceTypeID
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/UserManagement/SLSResourceDTO.cs/#L46"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;SLSResourceTypeCollection&quot;)]
+[ForeignKey(&quot;SLSResourceTypeCollection&quot;)]
+public virtual long SLSResourceTypeID { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_UserManagement_SLSResourceDTO_SLSResourceUser_SLSResource_" data-uid="SLS.Common.DTO.UserManagement.SLSResourceDTO.SLSResourceUser_SLSResource*"></a>
+
+  <h3 id="SLS_Common_DTO_UserManagement_SLSResourceDTO_SLSResourceUser_SLSResource" data-uid="SLS.Common.DTO.UserManagement.SLSResourceDTO.SLSResourceUser_SLSResource">
+  SLSResourceUser_SLSResource
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/UserManagement/SLSResourceDTO.cs/#L142"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;SLSResourceCollection&quot;)]
+[JsonIgnore]
+public virtual List&lt;SLSResourceUserDTO&gt;? SLSResourceUser_SLSResource { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<a class="xref" href="SLS.Common.DTO.UserManagement.SLSResourceUserDTO.html">SLSResourceUserDTO</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_UserManagement_SLSResourceDTO_UsedFor_" data-uid="SLS.Common.DTO.UserManagement.SLSResourceDTO.UsedFor*"></a>
+
+  <h3 id="SLS_Common_DTO_UserManagement_SLSResourceDTO_UsedFor" data-uid="SLS.Common.DTO.UserManagement.SLSResourceDTO.UsedFor">
+  UsedFor
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/UserManagement/SLSResourceDTO.cs/#L110"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;UsedFor&quot;)]
+public virtual string UsedFor { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_UserManagement_SLSResourceDTO_Version_" data-uid="SLS.Common.DTO.UserManagement.SLSResourceDTO.Version*"></a>
+
+  <h3 id="SLS_Common_DTO_UserManagement_SLSResourceDTO_Version" data-uid="SLS.Common.DTO.UserManagement.SLSResourceDTO.Version">
+  Version
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/UserManagement/SLSResourceDTO.cs/#L38"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;Version&quot;)]
+public long Version { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+</article>
+
+        <div class="contribution d-print-none">
+          <a href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/UserManagement/SLSResourceDTO.cs/#L28" class="edit-link">Edit this page</a>
+        </div>
+
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

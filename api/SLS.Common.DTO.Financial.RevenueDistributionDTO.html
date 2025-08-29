@@ -1,0 +1,1244 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Class RevenueDistributionDTO | SLS Documentation </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Class RevenueDistributionDTO | SLS Documentation ">
+      
+      
+      <link rel="icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="../">
+      
+      
+      <meta name="docfx:docurl" content="https://github.com/Dev-SLS/dev/new/Dev/apiSpec/new?filename=SLS_Common_DTO_Financial_RevenueDistributionDTO.md&amp;value=---%0Auid%3A%20SLS.Common.DTO.Financial.RevenueDistributionDTO%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../logo.svg" alt="SLS Documentation">
+            SLS Documentation
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="SLS.Common.DTO.Financial.RevenueDistributionDTO">
+
+
+
+  <h1 id="SLS_Common_DTO_Financial_RevenueDistributionDTO" data-uid="SLS.Common.DTO.Financial.RevenueDistributionDTO" class="text-break">
+Class RevenueDistributionDTO  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Financial/RevenueDistributionDTO.cs/#L28"><i class="bi bi-code-slash"></i></a>
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="SLS.html">SLS</a>.<a class="xref" href="SLS.Common.html">Common</a>.<a class="xref" href="SLS.Common.DTO.html">DTO</a>.<a class="xref" href="SLS.Common.DTO.Financial.html">Financial</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>SLS.Common.DTO.dll</dd></dl>
+  </div>
+
+  <div class="markdown summary"></div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Serializable]
+[DataContract(IsReference = true)]
+public class RevenueDistributionDTO : IBusinessDTO, IDTO</code></pre>
+  </div>
+
+
+
+
+  <dl class="typelist inheritance">
+    <dt>Inheritance</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+      <div><span class="xref">RevenueDistributionDTO</span></div>
+    </dd>
+  </dl>
+
+  <dl class="typelist implements">
+    <dt>Implements</dt>
+    <dd>
+      <div><a class="xref" href="SLS.Common.Interfaces.IBusinessDTO.html">IBusinessDTO</a></div>
+      <div><a class="xref" href="SLS.Common.Interfaces.IDTO.html">IDTO</a></div>
+    </dd>
+  </dl>
+
+
+  <dl class="typelist inheritedMembers">
+    <dt>Inherited Members</dt>
+    <dd>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)">object.Equals(object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">object.Equals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gethashcode">object.GetHashCode()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gettype">object.GetType()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone">object.MemberwiseClone()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals">object.ReferenceEquals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.tostring">object.ToString()</a>
+    </div>
+  </dd></dl>
+
+
+
+
+
+
+  <h2 class="section" id="properties">Properties
+</h2>
+
+
+  <a id="SLS_Common_DTO_Financial_RevenueDistributionDTO_Company_ID_" data-uid="SLS.Common.DTO.Financial.RevenueDistributionDTO.Company_ID*"></a>
+
+  <h3 id="SLS_Common_DTO_Financial_RevenueDistributionDTO_Company_ID" data-uid="SLS.Common.DTO.Financial.RevenueDistributionDTO.Company_ID">
+  Company_ID
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Financial/RevenueDistributionDTO.cs/#L41"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public long? Company_ID { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Financial_RevenueDistributionDTO_CostCenter_" data-uid="SLS.Common.DTO.Financial.RevenueDistributionDTO.CostCenter*"></a>
+
+  <h3 id="SLS_Common_DTO_Financial_RevenueDistributionDTO_CostCenter" data-uid="SLS.Common.DTO.Financial.RevenueDistributionDTO.CostCenter">
+  CostCenter
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Financial/RevenueDistributionDTO.cs/#L143"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[ForeignKey(&quot;CostCenterCollection&quot;)]
+[InverseProperty(&quot;RevenueDistribution_CostCenter&quot;)]
+[JsonIgnore]
+public virtual CostCenterDTO? CostCenter { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="SLS.Common.DTO.Financial.CostCenterDTO.html">CostCenterDTO</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Financial_RevenueDistributionDTO_CostCenterID_" data-uid="SLS.Common.DTO.Financial.RevenueDistributionDTO.CostCenterID*"></a>
+
+  <h3 id="SLS_Common_DTO_Financial_RevenueDistributionDTO_CostCenterID" data-uid="SLS.Common.DTO.Financial.RevenueDistributionDTO.CostCenterID">
+  CostCenterID
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Financial/RevenueDistributionDTO.cs/#L57"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;CostCenterCollection&quot;)]
+[ForeignKey(&quot;CostCenterCollection&quot;)]
+public virtual long CostCenterID { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Financial_RevenueDistributionDTO_CurrencyValue_" data-uid="SLS.Common.DTO.Financial.RevenueDistributionDTO.CurrencyValue*"></a>
+
+  <h3 id="SLS_Common_DTO_Financial_RevenueDistributionDTO_CurrencyValue" data-uid="SLS.Common.DTO.Financial.RevenueDistributionDTO.CurrencyValue">
+  CurrencyValue
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Financial/RevenueDistributionDTO.cs/#L130"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;CurrencyValue&quot;)]
+public virtual double? CurrencyValue { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Financial_RevenueDistributionDTO_Department_ID_" data-uid="SLS.Common.DTO.Financial.RevenueDistributionDTO.Department_ID*"></a>
+
+  <h3 id="SLS_Common_DTO_Financial_RevenueDistributionDTO_Department_ID" data-uid="SLS.Common.DTO.Financial.RevenueDistributionDTO.Department_ID">
+  Department_ID
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Financial/RevenueDistributionDTO.cs/#L43"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public long? Department_ID { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Financial_RevenueDistributionDTO_Division_ID_" data-uid="SLS.Common.DTO.Financial.RevenueDistributionDTO.Division_ID*"></a>
+
+  <h3 id="SLS_Common_DTO_Financial_RevenueDistributionDTO_Division_ID" data-uid="SLS.Common.DTO.Financial.RevenueDistributionDTO.Division_ID">
+  Division_ID
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Financial/RevenueDistributionDTO.cs/#L45"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public long? Division_ID { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Financial_RevenueDistributionDTO_FiscalYear_ID_" data-uid="SLS.Common.DTO.Financial.RevenueDistributionDTO.FiscalYear_ID*"></a>
+
+  <h3 id="SLS_Common_DTO_Financial_RevenueDistributionDTO_FiscalYear_ID" data-uid="SLS.Common.DTO.Financial.RevenueDistributionDTO.FiscalYear_ID">
+  FiscalYear_ID
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Financial/RevenueDistributionDTO.cs/#L44"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public long? FiscalYear_ID { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Financial_RevenueDistributionDTO_Id_" data-uid="SLS.Common.DTO.Financial.RevenueDistributionDTO.Id*"></a>
+
+  <h3 id="SLS_Common_DTO_Financial_RevenueDistributionDTO_Id" data-uid="SLS.Common.DTO.Financial.RevenueDistributionDTO.Id">
+  Id
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Financial/RevenueDistributionDTO.cs/#L34"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;ID&quot;)]
+public long Id { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Financial_RevenueDistributionDTO_Notes_" data-uid="SLS.Common.DTO.Financial.RevenueDistributionDTO.Notes*"></a>
+
+  <h3 id="SLS_Common_DTO_Financial_RevenueDistributionDTO_Notes" data-uid="SLS.Common.DTO.Financial.RevenueDistributionDTO.Notes">
+  Notes
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Financial/RevenueDistributionDTO.cs/#L90"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;Notes&quot;)]
+public virtual string? Notes { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Financial_RevenueDistributionDTO_Optional_1_" data-uid="SLS.Common.DTO.Financial.RevenueDistributionDTO.Optional_1*"></a>
+
+  <h3 id="SLS_Common_DTO_Financial_RevenueDistributionDTO_Optional_1" data-uid="SLS.Common.DTO.Financial.RevenueDistributionDTO.Optional_1">
+  Optional_1
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Financial/RevenueDistributionDTO.cs/#L94"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;Optional_1&quot;)]
+public virtual int? Optional_1 { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Financial_RevenueDistributionDTO_Optional_2_" data-uid="SLS.Common.DTO.Financial.RevenueDistributionDTO.Optional_2*"></a>
+
+  <h3 id="SLS_Common_DTO_Financial_RevenueDistributionDTO_Optional_2" data-uid="SLS.Common.DTO.Financial.RevenueDistributionDTO.Optional_2">
+  Optional_2
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Financial/RevenueDistributionDTO.cs/#L98"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;Optional_2&quot;)]
+public virtual int? Optional_2 { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Financial_RevenueDistributionDTO_Optional_3_" data-uid="SLS.Common.DTO.Financial.RevenueDistributionDTO.Optional_3*"></a>
+
+  <h3 id="SLS_Common_DTO_Financial_RevenueDistributionDTO_Optional_3" data-uid="SLS.Common.DTO.Financial.RevenueDistributionDTO.Optional_3">
+  Optional_3
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Financial/RevenueDistributionDTO.cs/#L102"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;Optional_3&quot;)]
+public virtual string? Optional_3 { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Financial_RevenueDistributionDTO_Optional_4_" data-uid="SLS.Common.DTO.Financial.RevenueDistributionDTO.Optional_4*"></a>
+
+  <h3 id="SLS_Common_DTO_Financial_RevenueDistributionDTO_Optional_4" data-uid="SLS.Common.DTO.Financial.RevenueDistributionDTO.Optional_4">
+  Optional_4
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Financial/RevenueDistributionDTO.cs/#L106"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;Optional_4&quot;)]
+public virtual string? Optional_4 { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Financial_RevenueDistributionDTO_Optional_5_" data-uid="SLS.Common.DTO.Financial.RevenueDistributionDTO.Optional_5*"></a>
+
+  <h3 id="SLS_Common_DTO_Financial_RevenueDistributionDTO_Optional_5" data-uid="SLS.Common.DTO.Financial.RevenueDistributionDTO.Optional_5">
+  Optional_5
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Financial/RevenueDistributionDTO.cs/#L114"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;Optional_5&quot;)]
+public virtual DateTime? Optional_5 { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.datetime">DateTime</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Financial_RevenueDistributionDTO_Optional_6_" data-uid="SLS.Common.DTO.Financial.RevenueDistributionDTO.Optional_6*"></a>
+
+  <h3 id="SLS_Common_DTO_Financial_RevenueDistributionDTO_Optional_6" data-uid="SLS.Common.DTO.Financial.RevenueDistributionDTO.Optional_6">
+  Optional_6
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Financial/RevenueDistributionDTO.cs/#L118"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;Optional_6&quot;)]
+public virtual DateTime? Optional_6 { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.datetime">DateTime</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Financial_RevenueDistributionDTO_Optional_7_" data-uid="SLS.Common.DTO.Financial.RevenueDistributionDTO.Optional_7*"></a>
+
+  <h3 id="SLS_Common_DTO_Financial_RevenueDistributionDTO_Optional_7" data-uid="SLS.Common.DTO.Financial.RevenueDistributionDTO.Optional_7">
+  Optional_7
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Financial/RevenueDistributionDTO.cs/#L122"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;Optional_7&quot;)]
+public virtual double? Optional_7 { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Financial_RevenueDistributionDTO_Optional_8_" data-uid="SLS.Common.DTO.Financial.RevenueDistributionDTO.Optional_8*"></a>
+
+  <h3 id="SLS_Common_DTO_Financial_RevenueDistributionDTO_Optional_8" data-uid="SLS.Common.DTO.Financial.RevenueDistributionDTO.Optional_8">
+  Optional_8
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Financial/RevenueDistributionDTO.cs/#L126"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;Optional_8&quot;)]
+public virtual double? Optional_8 { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Financial_RevenueDistributionDTO_RelatedHandlingUnit_" data-uid="SLS.Common.DTO.Financial.RevenueDistributionDTO.RelatedHandlingUnit*"></a>
+
+  <h3 id="SLS_Common_DTO_Financial_RevenueDistributionDTO_RelatedHandlingUnit" data-uid="SLS.Common.DTO.Financial.RevenueDistributionDTO.RelatedHandlingUnit">
+  RelatedHandlingUnit
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Financial/RevenueDistributionDTO.cs/#L158"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[ForeignKey(&quot;RelatedHandlingUnitCollection&quot;)]
+[InverseProperty(&quot;RevenueDistribution_RelatedHandlingUnit&quot;)]
+[JsonIgnore]
+public virtual HandlingUnitDTO? RelatedHandlingUnit { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="SLS.Common.DTO.Dispatch.HandlingUnitDTO.html">HandlingUnitDTO</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Financial_RevenueDistributionDTO_RelatedHandlingUnitID_" data-uid="SLS.Common.DTO.Financial.RevenueDistributionDTO.RelatedHandlingUnitID*"></a>
+
+  <h3 id="SLS_Common_DTO_Financial_RevenueDistributionDTO_RelatedHandlingUnitID" data-uid="SLS.Common.DTO.Financial.RevenueDistributionDTO.RelatedHandlingUnitID">
+  RelatedHandlingUnitID
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Financial/RevenueDistributionDTO.cs/#L72"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;RelatedHandlingUnitCollection&quot;)]
+[ForeignKey(&quot;RelatedHandlingUnitCollection&quot;)]
+public virtual long? RelatedHandlingUnitID { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Financial_RevenueDistributionDTO_RelatedOrder_" data-uid="SLS.Common.DTO.Financial.RevenueDistributionDTO.RelatedOrder*"></a>
+
+  <h3 id="SLS_Common_DTO_Financial_RevenueDistributionDTO_RelatedOrder" data-uid="SLS.Common.DTO.Financial.RevenueDistributionDTO.RelatedOrder">
+  RelatedOrder
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Financial/RevenueDistributionDTO.cs/#L153"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[ForeignKey(&quot;RelatedOrderCollection&quot;)]
+[InverseProperty(&quot;RevenueDistribution_RelatedOrder&quot;)]
+[JsonIgnore]
+public virtual OrderDTO? RelatedOrder { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="SLS.Common.DTO.Dispatch.OrderDTO.html">OrderDTO</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Financial_RevenueDistributionDTO_RelatedOrderID_" data-uid="SLS.Common.DTO.Financial.RevenueDistributionDTO.RelatedOrderID*"></a>
+
+  <h3 id="SLS_Common_DTO_Financial_RevenueDistributionDTO_RelatedOrderID" data-uid="SLS.Common.DTO.Financial.RevenueDistributionDTO.RelatedOrderID">
+  RelatedOrderID
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Financial/RevenueDistributionDTO.cs/#L67"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;RelatedOrderCollection&quot;)]
+[ForeignKey(&quot;RelatedOrderCollection&quot;)]
+public virtual long? RelatedOrderID { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Financial_RevenueDistributionDTO_RelatedTrip_" data-uid="SLS.Common.DTO.Financial.RevenueDistributionDTO.RelatedTrip*"></a>
+
+  <h3 id="SLS_Common_DTO_Financial_RevenueDistributionDTO_RelatedTrip" data-uid="SLS.Common.DTO.Financial.RevenueDistributionDTO.RelatedTrip">
+  RelatedTrip
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Financial/RevenueDistributionDTO.cs/#L148"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[ForeignKey(&quot;RelatedTripCollection&quot;)]
+[InverseProperty(&quot;RevenueDistribution_RelatedTrip&quot;)]
+[JsonIgnore]
+public virtual TripDTO? RelatedTrip { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="SLS.Common.DTO.Dispatch.TripDTO.html">TripDTO</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Financial_RevenueDistributionDTO_RelatedTripID_" data-uid="SLS.Common.DTO.Financial.RevenueDistributionDTO.RelatedTripID*"></a>
+
+  <h3 id="SLS_Common_DTO_Financial_RevenueDistributionDTO_RelatedTripID" data-uid="SLS.Common.DTO.Financial.RevenueDistributionDTO.RelatedTripID">
+  RelatedTripID
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Financial/RevenueDistributionDTO.cs/#L62"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;RelatedTripCollection&quot;)]
+[ForeignKey(&quot;RelatedTripCollection&quot;)]
+public virtual long? RelatedTripID { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Financial_RevenueDistributionDTO_SourceCostCenter_" data-uid="SLS.Common.DTO.Financial.RevenueDistributionDTO.SourceCostCenter*"></a>
+
+  <h3 id="SLS_Common_DTO_Financial_RevenueDistributionDTO_SourceCostCenter" data-uid="SLS.Common.DTO.Financial.RevenueDistributionDTO.SourceCostCenter">
+  SourceCostCenter
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Financial/RevenueDistributionDTO.cs/#L163"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[ForeignKey(&quot;SourceCostCenterCollection&quot;)]
+[InverseProperty(&quot;RevenueDistribution_SourceCostCenter&quot;)]
+[JsonIgnore]
+public virtual CostCenterDTO? SourceCostCenter { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="SLS.Common.DTO.Financial.CostCenterDTO.html">CostCenterDTO</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Financial_RevenueDistributionDTO_SourceCostCenterID_" data-uid="SLS.Common.DTO.Financial.RevenueDistributionDTO.SourceCostCenterID*"></a>
+
+  <h3 id="SLS_Common_DTO_Financial_RevenueDistributionDTO_SourceCostCenterID" data-uid="SLS.Common.DTO.Financial.RevenueDistributionDTO.SourceCostCenterID">
+  SourceCostCenterID
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Financial/RevenueDistributionDTO.cs/#L77"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;SourceCostCenterCollection&quot;)]
+[ForeignKey(&quot;SourceCostCenterCollection&quot;)]
+public virtual long? SourceCostCenterID { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Financial_RevenueDistributionDTO_Subsidiary_ID_" data-uid="SLS.Common.DTO.Financial.RevenueDistributionDTO.Subsidiary_ID*"></a>
+
+  <h3 id="SLS_Common_DTO_Financial_RevenueDistributionDTO_Subsidiary_ID" data-uid="SLS.Common.DTO.Financial.RevenueDistributionDTO.Subsidiary_ID">
+  Subsidiary_ID
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Financial/RevenueDistributionDTO.cs/#L42"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public long? Subsidiary_ID { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Financial_RevenueDistributionDTO_TimeStamp_" data-uid="SLS.Common.DTO.Financial.RevenueDistributionDTO.TimeStamp*"></a>
+
+  <h3 id="SLS_Common_DTO_Financial_RevenueDistributionDTO_TimeStamp" data-uid="SLS.Common.DTO.Financial.RevenueDistributionDTO.TimeStamp">
+  TimeStamp
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Financial/RevenueDistributionDTO.cs/#L110"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;TimeStamp&quot;)]
+public virtual DateTime TimeStamp { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.datetime">DateTime</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Financial_RevenueDistributionDTO_User_ID_" data-uid="SLS.Common.DTO.Financial.RevenueDistributionDTO.User_ID*"></a>
+
+  <h3 id="SLS_Common_DTO_Financial_RevenueDistributionDTO_User_ID" data-uid="SLS.Common.DTO.Financial.RevenueDistributionDTO.User_ID">
+  User_ID
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Financial/RevenueDistributionDTO.cs/#L46"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public long? User_ID { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Financial_RevenueDistributionDTO_Value_" data-uid="SLS.Common.DTO.Financial.RevenueDistributionDTO.Value*"></a>
+
+  <h3 id="SLS_Common_DTO_Financial_RevenueDistributionDTO_Value" data-uid="SLS.Common.DTO.Financial.RevenueDistributionDTO.Value">
+  Value
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Financial/RevenueDistributionDTO.cs/#L86"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;Value&quot;)]
+public virtual double Value { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Financial_RevenueDistributionDTO_Version_" data-uid="SLS.Common.DTO.Financial.RevenueDistributionDTO.Version*"></a>
+
+  <h3 id="SLS_Common_DTO_Financial_RevenueDistributionDTO_Version" data-uid="SLS.Common.DTO.Financial.RevenueDistributionDTO.Version">
+  Version
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Financial/RevenueDistributionDTO.cs/#L38"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;Version&quot;)]
+public long Version { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Financial_RevenueDistributionDTO_VoucherItem_" data-uid="SLS.Common.DTO.Financial.RevenueDistributionDTO.VoucherItem*"></a>
+
+  <h3 id="SLS_Common_DTO_Financial_RevenueDistributionDTO_VoucherItem" data-uid="SLS.Common.DTO.Financial.RevenueDistributionDTO.VoucherItem">
+  VoucherItem
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Financial/RevenueDistributionDTO.cs/#L138"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[ForeignKey(&quot;VoucherItemCollection&quot;)]
+[InverseProperty(&quot;RevenueDistribution_VoucherItem&quot;)]
+public virtual VoucherItemDTO? VoucherItem { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="SLS.Common.DTO.Financial.VoucherItemDTO.html">VoucherItemDTO</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Financial_RevenueDistributionDTO_VoucherItemID_" data-uid="SLS.Common.DTO.Financial.RevenueDistributionDTO.VoucherItemID*"></a>
+
+  <h3 id="SLS_Common_DTO_Financial_RevenueDistributionDTO_VoucherItemID" data-uid="SLS.Common.DTO.Financial.RevenueDistributionDTO.VoucherItemID">
+  VoucherItemID
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Financial/RevenueDistributionDTO.cs/#L52"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;VoucherItemCollection&quot;)]
+[ForeignKey(&quot;VoucherItemCollection&quot;)]
+public virtual long VoucherItemID { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+</article>
+
+        <div class="contribution d-print-none">
+          <a href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Financial/RevenueDistributionDTO.cs/#L28" class="edit-link">Edit this page</a>
+        </div>
+
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

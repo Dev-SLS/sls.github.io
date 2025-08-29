@@ -1,0 +1,1241 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Class SurchargeOrDiscountDTO | SLS Documentation </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Class SurchargeOrDiscountDTO | SLS Documentation ">
+      
+      
+      <link rel="icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="../">
+      
+      
+      <meta name="docfx:docurl" content="https://github.com/Dev-SLS/dev/new/Dev/apiSpec/new?filename=SLS_Common_DTO_Financial_SurchargeOrDiscountDTO.md&amp;value=---%0Auid%3A%20SLS.Common.DTO.Financial.SurchargeOrDiscountDTO%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../logo.svg" alt="SLS Documentation">
+            SLS Documentation
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="SLS.Common.DTO.Financial.SurchargeOrDiscountDTO">
+
+
+
+  <h1 id="SLS_Common_DTO_Financial_SurchargeOrDiscountDTO" data-uid="SLS.Common.DTO.Financial.SurchargeOrDiscountDTO" class="text-break">
+Class SurchargeOrDiscountDTO  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Financial/SurchargeOrDiscountDTO.cs/#L28"><i class="bi bi-code-slash"></i></a>
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="SLS.html">SLS</a>.<a class="xref" href="SLS.Common.html">Common</a>.<a class="xref" href="SLS.Common.DTO.html">DTO</a>.<a class="xref" href="SLS.Common.DTO.Financial.html">Financial</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>SLS.Common.DTO.dll</dd></dl>
+  </div>
+
+  <div class="markdown summary"></div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Serializable]
+[DataContract(IsReference = true)]
+public class SurchargeOrDiscountDTO : IBusinessDTO, IDTO</code></pre>
+  </div>
+
+
+
+
+  <dl class="typelist inheritance">
+    <dt>Inheritance</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+      <div><span class="xref">SurchargeOrDiscountDTO</span></div>
+    </dd>
+  </dl>
+
+  <dl class="typelist implements">
+    <dt>Implements</dt>
+    <dd>
+      <div><a class="xref" href="SLS.Common.Interfaces.IBusinessDTO.html">IBusinessDTO</a></div>
+      <div><a class="xref" href="SLS.Common.Interfaces.IDTO.html">IDTO</a></div>
+    </dd>
+  </dl>
+
+
+  <dl class="typelist inheritedMembers">
+    <dt>Inherited Members</dt>
+    <dd>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)">object.Equals(object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">object.Equals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gethashcode">object.GetHashCode()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gettype">object.GetType()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone">object.MemberwiseClone()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals">object.ReferenceEquals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.tostring">object.ToString()</a>
+    </div>
+  </dd></dl>
+
+
+
+
+
+
+  <h2 class="section" id="properties">Properties
+</h2>
+
+
+  <a id="SLS_Common_DTO_Financial_SurchargeOrDiscountDTO_AccountingCode_" data-uid="SLS.Common.DTO.Financial.SurchargeOrDiscountDTO.AccountingCode*"></a>
+
+  <h3 id="SLS_Common_DTO_Financial_SurchargeOrDiscountDTO_AccountingCode" data-uid="SLS.Common.DTO.Financial.SurchargeOrDiscountDTO.AccountingCode">
+  AccountingCode
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Financial/SurchargeOrDiscountDTO.cs/#L145"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[ForeignKey(&quot;AccountingCodeCollection&quot;)]
+[InverseProperty(&quot;SurchargeOrDiscount_AccountingCode&quot;)]
+[JsonIgnore]
+public virtual AccountingCodeDTO? AccountingCode { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="SLS.Common.DTO.Financial.AccountingCodeDTO.html">AccountingCodeDTO</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Financial_SurchargeOrDiscountDTO_AccountingCodeID_" data-uid="SLS.Common.DTO.Financial.SurchargeOrDiscountDTO.AccountingCodeID*"></a>
+
+  <h3 id="SLS_Common_DTO_Financial_SurchargeOrDiscountDTO_AccountingCodeID" data-uid="SLS.Common.DTO.Financial.SurchargeOrDiscountDTO.AccountingCodeID">
+  AccountingCodeID
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Financial/SurchargeOrDiscountDTO.cs/#L57"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;AccountingCodeCollection&quot;)]
+[ForeignKey(&quot;AccountingCodeCollection&quot;)]
+public virtual long AccountingCodeID { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Financial_SurchargeOrDiscountDTO_AddrCompSurchargeOrDiscount_SurchargeOrDiscount_" data-uid="SLS.Common.DTO.Financial.SurchargeOrDiscountDTO.AddrCompSurchargeOrDiscount_SurchargeOrDiscount*"></a>
+
+  <h3 id="SLS_Common_DTO_Financial_SurchargeOrDiscountDTO_AddrCompSurchargeOrDiscount_SurchargeOrDiscount" data-uid="SLS.Common.DTO.Financial.SurchargeOrDiscountDTO.AddrCompSurchargeOrDiscount_SurchargeOrDiscount">
+  AddrCompSurchargeOrDiscount_SurchargeOrDiscount
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Financial/SurchargeOrDiscountDTO.cs/#L164"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;SurchargeOrDiscountCollection&quot;)]
+public virtual List&lt;AddrCompSurchargeOrDiscountDTO&gt;? AddrCompSurchargeOrDiscount_SurchargeOrDiscount { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<a class="xref" href="SLS.Common.DTO.Financial.AddrCompSurchargeOrDiscountDTO.html">AddrCompSurchargeOrDiscountDTO</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Financial_SurchargeOrDiscountDTO_BillingCategory_" data-uid="SLS.Common.DTO.Financial.SurchargeOrDiscountDTO.BillingCategory*"></a>
+
+  <h3 id="SLS_Common_DTO_Financial_SurchargeOrDiscountDTO_BillingCategory" data-uid="SLS.Common.DTO.Financial.SurchargeOrDiscountDTO.BillingCategory">
+  BillingCategory
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Financial/SurchargeOrDiscountDTO.cs/#L140"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[ForeignKey(&quot;BillingCategoryCollection&quot;)]
+[InverseProperty(&quot;SurchargeOrDiscount_BillingCategory&quot;)]
+[JsonIgnore]
+public virtual BillingCategoryDTO? BillingCategory { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="SLS.Common.DTO.Financial.BillingCategoryDTO.html">BillingCategoryDTO</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Financial_SurchargeOrDiscountDTO_BillingCategoryFilter_" data-uid="SLS.Common.DTO.Financial.SurchargeOrDiscountDTO.BillingCategoryFilter*"></a>
+
+  <h3 id="SLS_Common_DTO_Financial_SurchargeOrDiscountDTO_BillingCategoryFilter" data-uid="SLS.Common.DTO.Financial.SurchargeOrDiscountDTO.BillingCategoryFilter">
+  BillingCategoryFilter
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Financial/SurchargeOrDiscountDTO.cs/#L155"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[ForeignKey(&quot;BillingCategoryFilterCollection&quot;)]
+[InverseProperty(&quot;SurchargeOrDiscount_BillingCategoryFilter&quot;)]
+[JsonIgnore]
+public virtual BillingCategoryDTO? BillingCategoryFilter { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="SLS.Common.DTO.Financial.BillingCategoryDTO.html">BillingCategoryDTO</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Financial_SurchargeOrDiscountDTO_BillingCategoryFilterID_" data-uid="SLS.Common.DTO.Financial.SurchargeOrDiscountDTO.BillingCategoryFilterID*"></a>
+
+  <h3 id="SLS_Common_DTO_Financial_SurchargeOrDiscountDTO_BillingCategoryFilterID" data-uid="SLS.Common.DTO.Financial.SurchargeOrDiscountDTO.BillingCategoryFilterID">
+  BillingCategoryFilterID
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Financial/SurchargeOrDiscountDTO.cs/#L67"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;BillingCategoryFilterCollection&quot;)]
+[ForeignKey(&quot;BillingCategoryFilterCollection&quot;)]
+public virtual long? BillingCategoryFilterID { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Financial_SurchargeOrDiscountDTO_BillingCategoryID_" data-uid="SLS.Common.DTO.Financial.SurchargeOrDiscountDTO.BillingCategoryID*"></a>
+
+  <h3 id="SLS_Common_DTO_Financial_SurchargeOrDiscountDTO_BillingCategoryID" data-uid="SLS.Common.DTO.Financial.SurchargeOrDiscountDTO.BillingCategoryID">
+  BillingCategoryID
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Financial/SurchargeOrDiscountDTO.cs/#L52"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;BillingCategoryCollection&quot;)]
+[ForeignKey(&quot;BillingCategoryCollection&quot;)]
+public virtual long? BillingCategoryID { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Financial_SurchargeOrDiscountDTO_Company_ID_" data-uid="SLS.Common.DTO.Financial.SurchargeOrDiscountDTO.Company_ID*"></a>
+
+  <h3 id="SLS_Common_DTO_Financial_SurchargeOrDiscountDTO_Company_ID" data-uid="SLS.Common.DTO.Financial.SurchargeOrDiscountDTO.Company_ID">
+  Company_ID
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Financial/SurchargeOrDiscountDTO.cs/#L41"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public long? Company_ID { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Financial_SurchargeOrDiscountDTO_CostCenter_" data-uid="SLS.Common.DTO.Financial.SurchargeOrDiscountDTO.CostCenter*"></a>
+
+  <h3 id="SLS_Common_DTO_Financial_SurchargeOrDiscountDTO_CostCenter" data-uid="SLS.Common.DTO.Financial.SurchargeOrDiscountDTO.CostCenter">
+  CostCenter
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Financial/SurchargeOrDiscountDTO.cs/#L150"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[ForeignKey(&quot;CostCenterCollection&quot;)]
+[InverseProperty(&quot;SurchargeOrDiscount_CostCenter&quot;)]
+[JsonIgnore]
+public virtual CostCenterDTO? CostCenter { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="SLS.Common.DTO.Financial.CostCenterDTO.html">CostCenterDTO</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Financial_SurchargeOrDiscountDTO_CostCenterID_" data-uid="SLS.Common.DTO.Financial.SurchargeOrDiscountDTO.CostCenterID*"></a>
+
+  <h3 id="SLS_Common_DTO_Financial_SurchargeOrDiscountDTO_CostCenterID" data-uid="SLS.Common.DTO.Financial.SurchargeOrDiscountDTO.CostCenterID">
+  CostCenterID
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Financial/SurchargeOrDiscountDTO.cs/#L62"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;CostCenterCollection&quot;)]
+[ForeignKey(&quot;CostCenterCollection&quot;)]
+public virtual long? CostCenterID { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Financial_SurchargeOrDiscountDTO_DecimalDigits_" data-uid="SLS.Common.DTO.Financial.SurchargeOrDiscountDTO.DecimalDigits*"></a>
+
+  <h3 id="SLS_Common_DTO_Financial_SurchargeOrDiscountDTO_DecimalDigits" data-uid="SLS.Common.DTO.Financial.SurchargeOrDiscountDTO.DecimalDigits">
+  DecimalDigits
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Financial/SurchargeOrDiscountDTO.cs/#L96"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;DecimalDigits&quot;)]
+public virtual int DecimalDigits { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Financial_SurchargeOrDiscountDTO_Department_ID_" data-uid="SLS.Common.DTO.Financial.SurchargeOrDiscountDTO.Department_ID*"></a>
+
+  <h3 id="SLS_Common_DTO_Financial_SurchargeOrDiscountDTO_Department_ID" data-uid="SLS.Common.DTO.Financial.SurchargeOrDiscountDTO.Department_ID">
+  Department_ID
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Financial/SurchargeOrDiscountDTO.cs/#L43"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public long? Department_ID { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Financial_SurchargeOrDiscountDTO_Description_" data-uid="SLS.Common.DTO.Financial.SurchargeOrDiscountDTO.Description*"></a>
+
+  <h3 id="SLS_Common_DTO_Financial_SurchargeOrDiscountDTO_Description" data-uid="SLS.Common.DTO.Financial.SurchargeOrDiscountDTO.Description">
+  Description
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Financial/SurchargeOrDiscountDTO.cs/#L128"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;Description&quot;)]
+public virtual string? Description { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Financial_SurchargeOrDiscountDTO_Division_ID_" data-uid="SLS.Common.DTO.Financial.SurchargeOrDiscountDTO.Division_ID*"></a>
+
+  <h3 id="SLS_Common_DTO_Financial_SurchargeOrDiscountDTO_Division_ID" data-uid="SLS.Common.DTO.Financial.SurchargeOrDiscountDTO.Division_ID">
+  Division_ID
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Financial/SurchargeOrDiscountDTO.cs/#L45"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public long? Division_ID { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Financial_SurchargeOrDiscountDTO_FiscalYear_ID_" data-uid="SLS.Common.DTO.Financial.SurchargeOrDiscountDTO.FiscalYear_ID*"></a>
+
+  <h3 id="SLS_Common_DTO_Financial_SurchargeOrDiscountDTO_FiscalYear_ID" data-uid="SLS.Common.DTO.Financial.SurchargeOrDiscountDTO.FiscalYear_ID">
+  FiscalYear_ID
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Financial/SurchargeOrDiscountDTO.cs/#L44"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public long? FiscalYear_ID { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Financial_SurchargeOrDiscountDTO_ForCollectiveOrers_" data-uid="SLS.Common.DTO.Financial.SurchargeOrDiscountDTO.ForCollectiveOrers*"></a>
+
+  <h3 id="SLS_Common_DTO_Financial_SurchargeOrDiscountDTO_ForCollectiveOrers" data-uid="SLS.Common.DTO.Financial.SurchargeOrDiscountDTO.ForCollectiveOrers">
+  ForCollectiveOrers
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Financial/SurchargeOrDiscountDTO.cs/#L116"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;ForCollectiveOrers&quot;)]
+public virtual bool ForCollectiveOrers { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Financial_SurchargeOrDiscountDTO_ForCollectiveTrips_" data-uid="SLS.Common.DTO.Financial.SurchargeOrDiscountDTO.ForCollectiveTrips*"></a>
+
+  <h3 id="SLS_Common_DTO_Financial_SurchargeOrDiscountDTO_ForCollectiveTrips" data-uid="SLS.Common.DTO.Financial.SurchargeOrDiscountDTO.ForCollectiveTrips">
+  ForCollectiveTrips
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Financial/SurchargeOrDiscountDTO.cs/#L132"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;ForCollectiveTrips&quot;)]
+public virtual bool ForCollectiveTrips { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Financial_SurchargeOrDiscountDTO_ForInvoices_" data-uid="SLS.Common.DTO.Financial.SurchargeOrDiscountDTO.ForInvoices*"></a>
+
+  <h3 id="SLS_Common_DTO_Financial_SurchargeOrDiscountDTO_ForInvoices" data-uid="SLS.Common.DTO.Financial.SurchargeOrDiscountDTO.ForInvoices">
+  ForInvoices
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Financial/SurchargeOrDiscountDTO.cs/#L120"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;ForInvoices&quot;)]
+public virtual bool ForInvoices { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Financial_SurchargeOrDiscountDTO_ForOrders_" data-uid="SLS.Common.DTO.Financial.SurchargeOrDiscountDTO.ForOrders*"></a>
+
+  <h3 id="SLS_Common_DTO_Financial_SurchargeOrDiscountDTO_ForOrders" data-uid="SLS.Common.DTO.Financial.SurchargeOrDiscountDTO.ForOrders">
+  ForOrders
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Financial/SurchargeOrDiscountDTO.cs/#L108"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;ForOrders&quot;)]
+public virtual bool ForOrders { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Financial_SurchargeOrDiscountDTO_ForTrips_" data-uid="SLS.Common.DTO.Financial.SurchargeOrDiscountDTO.ForTrips*"></a>
+
+  <h3 id="SLS_Common_DTO_Financial_SurchargeOrDiscountDTO_ForTrips" data-uid="SLS.Common.DTO.Financial.SurchargeOrDiscountDTO.ForTrips">
+  ForTrips
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Financial/SurchargeOrDiscountDTO.cs/#L112"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;ForTrips&quot;)]
+public virtual bool ForTrips { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Financial_SurchargeOrDiscountDTO_Id_" data-uid="SLS.Common.DTO.Financial.SurchargeOrDiscountDTO.Id*"></a>
+
+  <h3 id="SLS_Common_DTO_Financial_SurchargeOrDiscountDTO_Id" data-uid="SLS.Common.DTO.Financial.SurchargeOrDiscountDTO.Id">
+  Id
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Financial/SurchargeOrDiscountDTO.cs/#L34"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;ID&quot;)]
+public long Id { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Financial_SurchargeOrDiscountDTO_IsPercentage_" data-uid="SLS.Common.DTO.Financial.SurchargeOrDiscountDTO.IsPercentage*"></a>
+
+  <h3 id="SLS_Common_DTO_Financial_SurchargeOrDiscountDTO_IsPercentage" data-uid="SLS.Common.DTO.Financial.SurchargeOrDiscountDTO.IsPercentage">
+  IsPercentage
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Financial/SurchargeOrDiscountDTO.cs/#L88"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;IsPercentage&quot;)]
+public virtual bool IsPercentage { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Financial_SurchargeOrDiscountDTO_Name_" data-uid="SLS.Common.DTO.Financial.SurchargeOrDiscountDTO.Name*"></a>
+
+  <h3 id="SLS_Common_DTO_Financial_SurchargeOrDiscountDTO_Name" data-uid="SLS.Common.DTO.Financial.SurchargeOrDiscountDTO.Name">
+  Name
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Financial/SurchargeOrDiscountDTO.cs/#L124"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;Name&quot;)]
+public virtual string Name { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Financial_SurchargeOrDiscountDTO_RoundingType_" data-uid="SLS.Common.DTO.Financial.SurchargeOrDiscountDTO.RoundingType*"></a>
+
+  <h3 id="SLS_Common_DTO_Financial_SurchargeOrDiscountDTO_RoundingType" data-uid="SLS.Common.DTO.Financial.SurchargeOrDiscountDTO.RoundingType">
+  RoundingType
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Financial/SurchargeOrDiscountDTO.cs/#L92"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;RoundingType&quot;)]
+public virtual int RoundingType { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Financial_SurchargeOrDiscountDTO_Subsidiary_ID_" data-uid="SLS.Common.DTO.Financial.SurchargeOrDiscountDTO.Subsidiary_ID*"></a>
+
+  <h3 id="SLS_Common_DTO_Financial_SurchargeOrDiscountDTO_Subsidiary_ID" data-uid="SLS.Common.DTO.Financial.SurchargeOrDiscountDTO.Subsidiary_ID">
+  Subsidiary_ID
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Financial/SurchargeOrDiscountDTO.cs/#L42"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public long? Subsidiary_ID { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Financial_SurchargeOrDiscountDTO_TextLong_" data-uid="SLS.Common.DTO.Financial.SurchargeOrDiscountDTO.TextLong*"></a>
+
+  <h3 id="SLS_Common_DTO_Financial_SurchargeOrDiscountDTO_TextLong" data-uid="SLS.Common.DTO.Financial.SurchargeOrDiscountDTO.TextLong">
+  TextLong
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Financial/SurchargeOrDiscountDTO.cs/#L80"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;TextLong&quot;)]
+public virtual string? TextLong { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Financial_SurchargeOrDiscountDTO_TextShort_" data-uid="SLS.Common.DTO.Financial.SurchargeOrDiscountDTO.TextShort*"></a>
+
+  <h3 id="SLS_Common_DTO_Financial_SurchargeOrDiscountDTO_TextShort" data-uid="SLS.Common.DTO.Financial.SurchargeOrDiscountDTO.TextShort">
+  TextShort
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Financial/SurchargeOrDiscountDTO.cs/#L76"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;TextShort&quot;)]
+public virtual string TextShort { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Financial_SurchargeOrDiscountDTO_User_ID_" data-uid="SLS.Common.DTO.Financial.SurchargeOrDiscountDTO.User_ID*"></a>
+
+  <h3 id="SLS_Common_DTO_Financial_SurchargeOrDiscountDTO_User_ID" data-uid="SLS.Common.DTO.Financial.SurchargeOrDiscountDTO.User_ID">
+  User_ID
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Financial/SurchargeOrDiscountDTO.cs/#L46"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public long? User_ID { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Financial_SurchargeOrDiscountDTO_ValidFrom_" data-uid="SLS.Common.DTO.Financial.SurchargeOrDiscountDTO.ValidFrom*"></a>
+
+  <h3 id="SLS_Common_DTO_Financial_SurchargeOrDiscountDTO_ValidFrom" data-uid="SLS.Common.DTO.Financial.SurchargeOrDiscountDTO.ValidFrom">
+  ValidFrom
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Financial/SurchargeOrDiscountDTO.cs/#L100"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;ValidFrom&quot;)]
+public virtual DateTime? ValidFrom { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.datetime">DateTime</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Financial_SurchargeOrDiscountDTO_ValidTo_" data-uid="SLS.Common.DTO.Financial.SurchargeOrDiscountDTO.ValidTo*"></a>
+
+  <h3 id="SLS_Common_DTO_Financial_SurchargeOrDiscountDTO_ValidTo" data-uid="SLS.Common.DTO.Financial.SurchargeOrDiscountDTO.ValidTo">
+  ValidTo
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Financial/SurchargeOrDiscountDTO.cs/#L104"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;ValidTo&quot;)]
+public virtual DateTime? ValidTo { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.datetime">DateTime</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Financial_SurchargeOrDiscountDTO_Value_" data-uid="SLS.Common.DTO.Financial.SurchargeOrDiscountDTO.Value*"></a>
+
+  <h3 id="SLS_Common_DTO_Financial_SurchargeOrDiscountDTO_Value" data-uid="SLS.Common.DTO.Financial.SurchargeOrDiscountDTO.Value">
+  Value
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Financial/SurchargeOrDiscountDTO.cs/#L84"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;Value&quot;)]
+public virtual double Value { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Financial_SurchargeOrDiscountDTO_Version_" data-uid="SLS.Common.DTO.Financial.SurchargeOrDiscountDTO.Version*"></a>
+
+  <h3 id="SLS_Common_DTO_Financial_SurchargeOrDiscountDTO_Version" data-uid="SLS.Common.DTO.Financial.SurchargeOrDiscountDTO.Version">
+  Version
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Financial/SurchargeOrDiscountDTO.cs/#L38"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;Version&quot;)]
+public long Version { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+</article>
+
+        <div class="contribution d-print-none">
+          <a href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Financial/SurchargeOrDiscountDTO.cs/#L28" class="edit-link">Edit this page</a>
+        </div>
+
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

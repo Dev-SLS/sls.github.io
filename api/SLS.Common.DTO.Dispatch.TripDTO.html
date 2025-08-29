@@ -1,0 +1,5892 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Class TripDTO | SLS Documentation </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Class TripDTO | SLS Documentation ">
+      
+      
+      <link rel="icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="../">
+      
+      
+      <meta name="docfx:docurl" content="https://github.com/Dev-SLS/dev/new/Dev/apiSpec/new?filename=SLS_Common_DTO_Dispatch_TripDTO.md&amp;value=---%0Auid%3A%20SLS.Common.DTO.Dispatch.TripDTO%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../logo.svg" alt="SLS Documentation">
+            SLS Documentation
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="SLS.Common.DTO.Dispatch.TripDTO">
+
+
+
+  <h1 id="SLS_Common_DTO_Dispatch_TripDTO" data-uid="SLS.Common.DTO.Dispatch.TripDTO" class="text-break">
+Class TripDTO  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Dispatch/TripDTO.cs/#L28"><i class="bi bi-code-slash"></i></a>
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="SLS.html">SLS</a>.<a class="xref" href="SLS.Common.html">Common</a>.<a class="xref" href="SLS.Common.DTO.html">DTO</a>.<a class="xref" href="SLS.Common.DTO.Dispatch.html">Dispatch</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>SLS.Common.DTO.dll</dd></dl>
+  </div>
+
+  <div class="markdown summary"></div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Serializable]
+[DataContract(IsReference = true)]
+public class TripDTO : IBusinessDTO, IDTO</code></pre>
+  </div>
+
+
+
+
+  <dl class="typelist inheritance">
+    <dt>Inheritance</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+      <div><span class="xref">TripDTO</span></div>
+    </dd>
+  </dl>
+
+  <dl class="typelist implements">
+    <dt>Implements</dt>
+    <dd>
+      <div><a class="xref" href="SLS.Common.Interfaces.IBusinessDTO.html">IBusinessDTO</a></div>
+      <div><a class="xref" href="SLS.Common.Interfaces.IDTO.html">IDTO</a></div>
+    </dd>
+  </dl>
+
+
+  <dl class="typelist inheritedMembers">
+    <dt>Inherited Members</dt>
+    <dd>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)">object.Equals(object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">object.Equals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gethashcode">object.GetHashCode()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gettype">object.GetType()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone">object.MemberwiseClone()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals">object.ReferenceEquals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.tostring">object.ToString()</a>
+    </div>
+  </dd></dl>
+
+
+
+
+
+
+  <h2 class="section" id="properties">Properties
+</h2>
+
+
+  <a id="SLS_Common_DTO_Dispatch_TripDTO_AccountingCode_" data-uid="SLS.Common.DTO.Dispatch.TripDTO.AccountingCode*"></a>
+
+  <h3 id="SLS_Common_DTO_Dispatch_TripDTO_AccountingCode" data-uid="SLS.Common.DTO.Dispatch.TripDTO.AccountingCode">
+  AccountingCode
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Dispatch/TripDTO.cs/#L614"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[ForeignKey(&quot;AccountingCodeCollection&quot;)]
+[InverseProperty(&quot;Trips_AccountingCode&quot;)]
+[JsonIgnore]
+public virtual AccountingCodeDTO? AccountingCode { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="SLS.Common.DTO.Financial.AccountingCodeDTO.html">AccountingCodeDTO</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Dispatch_TripDTO_AccountingCodeID_" data-uid="SLS.Common.DTO.Dispatch.TripDTO.AccountingCodeID*"></a>
+
+  <h3 id="SLS_Common_DTO_Dispatch_TripDTO_AccountingCodeID" data-uid="SLS.Common.DTO.Dispatch.TripDTO.AccountingCodeID">
+  AccountingCodeID
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Dispatch/TripDTO.cs/#L67"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;AccountingCodeCollection&quot;)]
+[ForeignKey(&quot;AccountingCodeCollection&quot;)]
+public virtual long? AccountingCodeID { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Dispatch_TripDTO_AverageSpeed_" data-uid="SLS.Common.DTO.Dispatch.TripDTO.AverageSpeed*"></a>
+
+  <h3 id="SLS_Common_DTO_Dispatch_TripDTO_AverageSpeed" data-uid="SLS.Common.DTO.Dispatch.TripDTO.AverageSpeed">
+  AverageSpeed
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Dispatch/TripDTO.cs/#L568"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;AverageSpeed&quot;)]
+public virtual double AverageSpeed { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Dispatch_TripDTO_Balance_" data-uid="SLS.Common.DTO.Dispatch.TripDTO.Balance*"></a>
+
+  <h3 id="SLS_Common_DTO_Dispatch_TripDTO_Balance" data-uid="SLS.Common.DTO.Dispatch.TripDTO.Balance">
+  Balance
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Dispatch/TripDTO.cs/#L272"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;Balance&quot;)]
+public virtual double Balance { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Dispatch_TripDTO_BeginDate_" data-uid="SLS.Common.DTO.Dispatch.TripDTO.BeginDate*"></a>
+
+  <h3 id="SLS_Common_DTO_Dispatch_TripDTO_BeginDate" data-uid="SLS.Common.DTO.Dispatch.TripDTO.BeginDate">
+  BeginDate
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Dispatch/TripDTO.cs/#L140"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;BeginDate&quot;)]
+public virtual DateTime? BeginDate { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.datetime">DateTime</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Dispatch_TripDTO_BeginTime_" data-uid="SLS.Common.DTO.Dispatch.TripDTO.BeginTime*"></a>
+
+  <h3 id="SLS_Common_DTO_Dispatch_TripDTO_BeginTime" data-uid="SLS.Common.DTO.Dispatch.TripDTO.BeginTime">
+  BeginTime
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Dispatch/TripDTO.cs/#L144"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;BeginTime&quot;)]
+public virtual DateTime? BeginTime { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.datetime">DateTime</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Dispatch_TripDTO_CalculetedCosts_" data-uid="SLS.Common.DTO.Dispatch.TripDTO.CalculetedCosts*"></a>
+
+  <h3 id="SLS_Common_DTO_Dispatch_TripDTO_CalculetedCosts" data-uid="SLS.Common.DTO.Dispatch.TripDTO.CalculetedCosts">
+  CalculetedCosts
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Dispatch/TripDTO.cs/#L248"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;CalculetedCosts&quot;)]
+public virtual double CalculetedCosts { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Dispatch_TripDTO_CheckOutUserID_" data-uid="SLS.Common.DTO.Dispatch.TripDTO.CheckOutUserID*"></a>
+
+  <h3 id="SLS_Common_DTO_Dispatch_TripDTO_CheckOutUserID" data-uid="SLS.Common.DTO.Dispatch.TripDTO.CheckOutUserID">
+  CheckOutUserID
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Dispatch/TripDTO.cs/#L300"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;CheckOutUserID&quot;)]
+public virtual long? CheckOutUserID { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Dispatch_TripDTO_ChekOutUserName_" data-uid="SLS.Common.DTO.Dispatch.TripDTO.ChekOutUserName*"></a>
+
+  <h3 id="SLS_Common_DTO_Dispatch_TripDTO_ChekOutUserName" data-uid="SLS.Common.DTO.Dispatch.TripDTO.ChekOutUserName">
+  ChekOutUserName
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Dispatch/TripDTO.cs/#L304"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;ChekOutUserName&quot;)]
+public virtual string? ChekOutUserName { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Dispatch_TripDTO_ClearingReference_Trip_" data-uid="SLS.Common.DTO.Dispatch.TripDTO.ClearingReference_Trip*"></a>
+
+  <h3 id="SLS_Common_DTO_Dispatch_TripDTO_ClearingReference_Trip" data-uid="SLS.Common.DTO.Dispatch.TripDTO.ClearingReference_Trip">
+  ClearingReference_Trip
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Dispatch/TripDTO.cs/#L710"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;TripCollection&quot;)]
+[JsonIgnore]
+public virtual List&lt;ClearingReferenceDTO&gt;? ClearingReference_Trip { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<a class="xref" href="SLS.Common.DTO.Financial.Clearing.ClearingReferenceDTO.html">ClearingReferenceDTO</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Dispatch_TripDTO_CollectiveTrip_" data-uid="SLS.Common.DTO.Dispatch.TripDTO.CollectiveTrip*"></a>
+
+  <h3 id="SLS_Common_DTO_Dispatch_TripDTO_CollectiveTrip" data-uid="SLS.Common.DTO.Dispatch.TripDTO.CollectiveTrip">
+  CollectiveTrip
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Dispatch/TripDTO.cs/#L641"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[ForeignKey(&quot;CollectiveTripCollection&quot;)]
+[InverseProperty(&quot;Trips_CollectiveTrip&quot;)]
+public virtual CollectiveTripDTO? CollectiveTrip { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="SLS.Common.DTO.Dispatch.CollectiveTripDTO.html">CollectiveTripDTO</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Dispatch_TripDTO_CollectiveTripID_" data-uid="SLS.Common.DTO.Dispatch.TripDTO.CollectiveTripID*"></a>
+
+  <h3 id="SLS_Common_DTO_Dispatch_TripDTO_CollectiveTripID" data-uid="SLS.Common.DTO.Dispatch.TripDTO.CollectiveTripID">
+  CollectiveTripID
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Dispatch/TripDTO.cs/#L97"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;CollectiveTripCollection&quot;)]
+[ForeignKey(&quot;CollectiveTripCollection&quot;)]
+public virtual long? CollectiveTripID { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Dispatch_TripDTO_CompanyMatchcode_" data-uid="SLS.Common.DTO.Dispatch.TripDTO.CompanyMatchcode*"></a>
+
+  <h3 id="SLS_Common_DTO_Dispatch_TripDTO_CompanyMatchcode" data-uid="SLS.Common.DTO.Dispatch.TripDTO.CompanyMatchcode">
+  CompanyMatchcode
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Dispatch/TripDTO.cs/#L464"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;CompanyMatchcode&quot;)]
+public virtual string? CompanyMatchcode { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Dispatch_TripDTO_CompanyName_" data-uid="SLS.Common.DTO.Dispatch.TripDTO.CompanyName*"></a>
+
+  <h3 id="SLS_Common_DTO_Dispatch_TripDTO_CompanyName" data-uid="SLS.Common.DTO.Dispatch.TripDTO.CompanyName">
+  CompanyName
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Dispatch/TripDTO.cs/#L468"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;CompanyName&quot;)]
+public virtual string? CompanyName { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Dispatch_TripDTO_Company_ID_" data-uid="SLS.Common.DTO.Dispatch.TripDTO.Company_ID*"></a>
+
+  <h3 id="SLS_Common_DTO_Dispatch_TripDTO_Company_ID" data-uid="SLS.Common.DTO.Dispatch.TripDTO.Company_ID">
+  Company_ID
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Dispatch/TripDTO.cs/#L41"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public long? Company_ID { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Dispatch_TripDTO_Cost_" data-uid="SLS.Common.DTO.Dispatch.TripDTO.Cost*"></a>
+
+  <h3 id="SLS_Common_DTO_Dispatch_TripDTO_Cost" data-uid="SLS.Common.DTO.Dispatch.TripDTO.Cost">
+  Cost
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Dispatch/TripDTO.cs/#L192"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;Cost&quot;)]
+public virtual double? Cost { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Dispatch_TripDTO_Currency_" data-uid="SLS.Common.DTO.Dispatch.TripDTO.Currency*"></a>
+
+  <h3 id="SLS_Common_DTO_Dispatch_TripDTO_Currency" data-uid="SLS.Common.DTO.Dispatch.TripDTO.Currency">
+  Currency
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Dispatch/TripDTO.cs/#L609"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[ForeignKey(&quot;CurrencyCollection&quot;)]
+[InverseProperty(&quot;Trips_Currency&quot;)]
+[JsonIgnore]
+public virtual CurrencyDTO? Currency { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="SLS.Common.DTO.Financial.CurrencyDTO.html">CurrencyDTO</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Dispatch_TripDTO_CurrencyGrossPrice_" data-uid="SLS.Common.DTO.Dispatch.TripDTO.CurrencyGrossPrice*"></a>
+
+  <h3 id="SLS_Common_DTO_Dispatch_TripDTO_CurrencyGrossPrice" data-uid="SLS.Common.DTO.Dispatch.TripDTO.CurrencyGrossPrice">
+  CurrencyGrossPrice
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Dispatch/TripDTO.cs/#L280"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;CurrencyGrossPrice&quot;)]
+public virtual double CurrencyGrossPrice { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Dispatch_TripDTO_CurrencyGrossPriceDebitor_" data-uid="SLS.Common.DTO.Dispatch.TripDTO.CurrencyGrossPriceDebitor*"></a>
+
+  <h3 id="SLS_Common_DTO_Dispatch_TripDTO_CurrencyGrossPriceDebitor" data-uid="SLS.Common.DTO.Dispatch.TripDTO.CurrencyGrossPriceDebitor">
+  CurrencyGrossPriceDebitor
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Dispatch/TripDTO.cs/#L536"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;CurrencyGrossPriceDebitor&quot;)]
+public virtual double CurrencyGrossPriceDebitor { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Dispatch_TripDTO_CurrencyID_" data-uid="SLS.Common.DTO.Dispatch.TripDTO.CurrencyID*"></a>
+
+  <h3 id="SLS_Common_DTO_Dispatch_TripDTO_CurrencyID" data-uid="SLS.Common.DTO.Dispatch.TripDTO.CurrencyID">
+  CurrencyID
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Dispatch/TripDTO.cs/#L62"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;CurrencyCollection&quot;)]
+[ForeignKey(&quot;CurrencyCollection&quot;)]
+public virtual long? CurrencyID { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Dispatch_TripDTO_CurrencyNetPrice_" data-uid="SLS.Common.DTO.Dispatch.TripDTO.CurrencyNetPrice*"></a>
+
+  <h3 id="SLS_Common_DTO_Dispatch_TripDTO_CurrencyNetPrice" data-uid="SLS.Common.DTO.Dispatch.TripDTO.CurrencyNetPrice">
+  CurrencyNetPrice
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Dispatch/TripDTO.cs/#L276"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;CurrencyNetPrice&quot;)]
+public virtual double CurrencyNetPrice { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Dispatch_TripDTO_CurrencyNetPriceDebitor_" data-uid="SLS.Common.DTO.Dispatch.TripDTO.CurrencyNetPriceDebitor*"></a>
+
+  <h3 id="SLS_Common_DTO_Dispatch_TripDTO_CurrencyNetPriceDebitor" data-uid="SLS.Common.DTO.Dispatch.TripDTO.CurrencyNetPriceDebitor">
+  CurrencyNetPriceDebitor
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Dispatch/TripDTO.cs/#L532"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;CurrencyNetPriceDebitor&quot;)]
+public virtual double CurrencyNetPriceDebitor { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Dispatch_TripDTO_CurrentPositionText_" data-uid="SLS.Common.DTO.Dispatch.TripDTO.CurrentPositionText*"></a>
+
+  <h3 id="SLS_Common_DTO_Dispatch_TripDTO_CurrentPositionText" data-uid="SLS.Common.DTO.Dispatch.TripDTO.CurrentPositionText">
+  CurrentPositionText
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Dispatch/TripDTO.cs/#L572"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;CurrentPositionText&quot;)]
+public virtual string? CurrentPositionText { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Dispatch_TripDTO_Department_ID_" data-uid="SLS.Common.DTO.Dispatch.TripDTO.Department_ID*"></a>
+
+  <h3 id="SLS_Common_DTO_Dispatch_TripDTO_Department_ID" data-uid="SLS.Common.DTO.Dispatch.TripDTO.Department_ID">
+  Department_ID
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Dispatch/TripDTO.cs/#L43"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public long? Department_ID { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Dispatch_TripDTO_DepartureTime_" data-uid="SLS.Common.DTO.Dispatch.TripDTO.DepartureTime*"></a>
+
+  <h3 id="SLS_Common_DTO_Dispatch_TripDTO_DepartureTime" data-uid="SLS.Common.DTO.Dispatch.TripDTO.DepartureTime">
+  DepartureTime
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Dispatch/TripDTO.cs/#L156"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;DepartureTime&quot;)]
+public virtual DateTime? DepartureTime { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.datetime">DateTime</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Dispatch_TripDTO_Direction_" data-uid="SLS.Common.DTO.Dispatch.TripDTO.Direction*"></a>
+
+  <h3 id="SLS_Common_DTO_Dispatch_TripDTO_Direction" data-uid="SLS.Common.DTO.Dispatch.TripDTO.Direction">
+  Direction
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Dispatch/TripDTO.cs/#L180"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;Direction&quot;)]
+public virtual string? Direction { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Dispatch_TripDTO_DispoStellPlaetze_" data-uid="SLS.Common.DTO.Dispatch.TripDTO.DispoStellPlaetze*"></a>
+
+  <h3 id="SLS_Common_DTO_Dispatch_TripDTO_DispoStellPlaetze" data-uid="SLS.Common.DTO.Dispatch.TripDTO.DispoStellPlaetze">
+  DispoStellPlaetze
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Dispatch/TripDTO.cs/#L216"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;DispoStellPlaetze&quot;)]
+public virtual double DispoStellPlaetze { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Dispatch_TripDTO_DispoStoringPlaces_" data-uid="SLS.Common.DTO.Dispatch.TripDTO.DispoStoringPlaces*"></a>
+
+  <h3 id="SLS_Common_DTO_Dispatch_TripDTO_DispoStoringPlaces" data-uid="SLS.Common.DTO.Dispatch.TripDTO.DispoStoringPlaces">
+  DispoStoringPlaces
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Dispatch/TripDTO.cs/#L516"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;DispoStoringPlaces&quot;)]
+public virtual double DispoStoringPlaces { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Dispatch_TripDTO_Distance_" data-uid="SLS.Common.DTO.Dispatch.TripDTO.Distance*"></a>
+
+  <h3 id="SLS_Common_DTO_Dispatch_TripDTO_Distance" data-uid="SLS.Common.DTO.Dispatch.TripDTO.Distance">
+  Distance
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Dispatch/TripDTO.cs/#L160"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;Distance&quot;)]
+public virtual double? Distance { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Dispatch_TripDTO_DistanceCalcType_" data-uid="SLS.Common.DTO.Dispatch.TripDTO.DistanceCalcType*"></a>
+
+  <h3 id="SLS_Common_DTO_Dispatch_TripDTO_DistanceCalcType" data-uid="SLS.Common.DTO.Dispatch.TripDTO.DistanceCalcType">
+  DistanceCalcType
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Dispatch/TripDTO.cs/#L676"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[ForeignKey(&quot;DistanceCalcTypeCollection&quot;)]
+[InverseProperty(&quot;Trips_DistanceCalcType&quot;)]
+[JsonIgnore]
+public virtual DistanceCalcTypesDTO? DistanceCalcType { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="SLS.Common.DTO.MasterData.DistanceCalcTypesDTO.html">DistanceCalcTypesDTO</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Dispatch_TripDTO_DistanceCalcTypeDetails_" data-uid="SLS.Common.DTO.Dispatch.TripDTO.DistanceCalcTypeDetails*"></a>
+
+  <h3 id="SLS_Common_DTO_Dispatch_TripDTO_DistanceCalcTypeDetails" data-uid="SLS.Common.DTO.Dispatch.TripDTO.DistanceCalcTypeDetails">
+  DistanceCalcTypeDetails
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Dispatch/TripDTO.cs/#L592"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;DistanceCalcTypeDetails&quot;)]
+public virtual string? DistanceCalcTypeDetails { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Dispatch_TripDTO_DistanceDetailInfo_Trip_" data-uid="SLS.Common.DTO.Dispatch.TripDTO.DistanceDetailInfo_Trip*"></a>
+
+  <h3 id="SLS_Common_DTO_Dispatch_TripDTO_DistanceDetailInfo_Trip" data-uid="SLS.Common.DTO.Dispatch.TripDTO.DistanceDetailInfo_Trip">
+  DistanceDetailInfo_Trip
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Dispatch/TripDTO.cs/#L760"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;TripCollection&quot;)]
+[JsonIgnore]
+public virtual List&lt;DistanceDetailInfoDTO&gt;? DistanceDetailInfo_Trip { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<a class="xref" href="SLS.Common.DTO.Dispatch.DistanceDetailInfoDTO.html">DistanceDetailInfoDTO</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Dispatch_TripDTO_DistributionFactor_" data-uid="SLS.Common.DTO.Dispatch.TripDTO.DistributionFactor*"></a>
+
+  <h3 id="SLS_Common_DTO_Dispatch_TripDTO_DistributionFactor" data-uid="SLS.Common.DTO.Dispatch.TripDTO.DistributionFactor">
+  DistributionFactor
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Dispatch/TripDTO.cs/#L584"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;DistributionFactor&quot;)]
+public virtual double DistributionFactor { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Dispatch_TripDTO_Division_ID_" data-uid="SLS.Common.DTO.Dispatch.TripDTO.Division_ID*"></a>
+
+  <h3 id="SLS_Common_DTO_Dispatch_TripDTO_Division_ID" data-uid="SLS.Common.DTO.Dispatch.TripDTO.Division_ID">
+  Division_ID
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Dispatch/TripDTO.cs/#L45"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public long? Division_ID { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Dispatch_TripDTO_DocumentID_" data-uid="SLS.Common.DTO.Dispatch.TripDTO.DocumentID*"></a>
+
+  <h3 id="SLS_Common_DTO_Dispatch_TripDTO_DocumentID" data-uid="SLS.Common.DTO.Dispatch.TripDTO.DocumentID">
+  DocumentID
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Dispatch/TripDTO.cs/#L136"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;DocumentID&quot;)]
+public virtual string DocumentID { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Dispatch_TripDTO_DriveTime_" data-uid="SLS.Common.DTO.Dispatch.TripDTO.DriveTime*"></a>
+
+  <h3 id="SLS_Common_DTO_Dispatch_TripDTO_DriveTime" data-uid="SLS.Common.DTO.Dispatch.TripDTO.DriveTime">
+  DriveTime
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Dispatch/TripDTO.cs/#L220"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;DriveTime&quot;)]
+public virtual double DriveTime { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Dispatch_TripDTO_Driver_" data-uid="SLS.Common.DTO.Dispatch.TripDTO.Driver*"></a>
+
+  <h3 id="SLS_Common_DTO_Dispatch_TripDTO_Driver" data-uid="SLS.Common.DTO.Dispatch.TripDTO.Driver">
+  Driver
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Dispatch/TripDTO.cs/#L476"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;Driver&quot;)]
+public virtual string? Driver { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Dispatch_TripDTO_DriverName_" data-uid="SLS.Common.DTO.Dispatch.TripDTO.DriverName*"></a>
+
+  <h3 id="SLS_Common_DTO_Dispatch_TripDTO_DriverName" data-uid="SLS.Common.DTO.Dispatch.TripDTO.DriverName">
+  DriverName
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Dispatch/TripDTO.cs/#L448"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;DriverName&quot;)]
+public virtual string? DriverName { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Dispatch_TripDTO_DriverPhone_" data-uid="SLS.Common.DTO.Dispatch.TripDTO.DriverPhone*"></a>
+
+  <h3 id="SLS_Common_DTO_Dispatch_TripDTO_DriverPhone" data-uid="SLS.Common.DTO.Dispatch.TripDTO.DriverPhone">
+  DriverPhone
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Dispatch/TripDTO.cs/#L576"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;DriverPhone&quot;)]
+public virtual string? DriverPhone { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Dispatch_TripDTO_EmtpyDistance_" data-uid="SLS.Common.DTO.Dispatch.TripDTO.EmtpyDistance*"></a>
+
+  <h3 id="SLS_Common_DTO_Dispatch_TripDTO_EmtpyDistance" data-uid="SLS.Common.DTO.Dispatch.TripDTO.EmtpyDistance">
+  EmtpyDistance
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Dispatch/TripDTO.cs/#L560"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;EmtpyDistance&quot;)]
+public virtual double? EmtpyDistance { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Dispatch_TripDTO_EndAddress_" data-uid="SLS.Common.DTO.Dispatch.TripDTO.EndAddress*"></a>
+
+  <h3 id="SLS_Common_DTO_Dispatch_TripDTO_EndAddress" data-uid="SLS.Common.DTO.Dispatch.TripDTO.EndAddress">
+  EndAddress
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Dispatch/TripDTO.cs/#L627"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[ForeignKey(&quot;EndAddressCollection&quot;)]
+[InverseProperty(&quot;Trips_EndAddress&quot;)]
+public virtual AddressDTO? EndAddress { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="SLS.Common.DTO.MasterData.AddressDTO.html">AddressDTO</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Dispatch_TripDTO_EndAddressID_" data-uid="SLS.Common.DTO.Dispatch.TripDTO.EndAddressID*"></a>
+
+  <h3 id="SLS_Common_DTO_Dispatch_TripDTO_EndAddressID" data-uid="SLS.Common.DTO.Dispatch.TripDTO.EndAddressID">
+  EndAddressID
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Dispatch/TripDTO.cs/#L82"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;EndAddressCollection&quot;)]
+[ForeignKey(&quot;EndAddressCollection&quot;)]
+public virtual long? EndAddressID { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Dispatch_TripDTO_EndAddressMethod_" data-uid="SLS.Common.DTO.Dispatch.TripDTO.EndAddressMethod*"></a>
+
+  <h3 id="SLS_Common_DTO_Dispatch_TripDTO_EndAddressMethod" data-uid="SLS.Common.DTO.Dispatch.TripDTO.EndAddressMethod">
+  EndAddressMethod
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Dispatch/TripDTO.cs/#L528"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;EndAddressMethod&quot;)]
+public virtual int EndAddressMethod { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Dispatch_TripDTO_EndDate_" data-uid="SLS.Common.DTO.Dispatch.TripDTO.EndDate*"></a>
+
+  <h3 id="SLS_Common_DTO_Dispatch_TripDTO_EndDate" data-uid="SLS.Common.DTO.Dispatch.TripDTO.EndDate">
+  EndDate
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Dispatch/TripDTO.cs/#L148"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;EndDate&quot;)]
+public virtual DateTime? EndDate { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.datetime">DateTime</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Dispatch_TripDTO_EndTime_" data-uid="SLS.Common.DTO.Dispatch.TripDTO.EndTime*"></a>
+
+  <h3 id="SLS_Common_DTO_Dispatch_TripDTO_EndTime" data-uid="SLS.Common.DTO.Dispatch.TripDTO.EndTime">
+  EndTime
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Dispatch/TripDTO.cs/#L152"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;EndTime&quot;)]
+public virtual DateTime? EndTime { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.datetime">DateTime</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Dispatch_TripDTO_Expense_" data-uid="SLS.Common.DTO.Dispatch.TripDTO.Expense*"></a>
+
+  <h3 id="SLS_Common_DTO_Dispatch_TripDTO_Expense" data-uid="SLS.Common.DTO.Dispatch.TripDTO.Expense">
+  Expense
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Dispatch/TripDTO.cs/#L268"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;Expense&quot;)]
+public virtual double Expense { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Dispatch_TripDTO_ExternalTripNr_" data-uid="SLS.Common.DTO.Dispatch.TripDTO.ExternalTripNr*"></a>
+
+  <h3 id="SLS_Common_DTO_Dispatch_TripDTO_ExternalTripNr" data-uid="SLS.Common.DTO.Dispatch.TripDTO.ExternalTripNr">
+  ExternalTripNr
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Dispatch/TripDTO.cs/#L172"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;ExternalTripNr&quot;)]
+public virtual string? ExternalTripNr { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Dispatch_TripDTO_FiscalYear_ID_" data-uid="SLS.Common.DTO.Dispatch.TripDTO.FiscalYear_ID*"></a>
+
+  <h3 id="SLS_Common_DTO_Dispatch_TripDTO_FiscalYear_ID" data-uid="SLS.Common.DTO.Dispatch.TripDTO.FiscalYear_ID">
+  FiscalYear_ID
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Dispatch/TripDTO.cs/#L44"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public long? FiscalYear_ID { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Dispatch_TripDTO_FreightExchangeCommunication_Trip_" data-uid="SLS.Common.DTO.Dispatch.TripDTO.FreightExchangeCommunication_Trip*"></a>
+
+  <h3 id="SLS_Common_DTO_Dispatch_TripDTO_FreightExchangeCommunication_Trip" data-uid="SLS.Common.DTO.Dispatch.TripDTO.FreightExchangeCommunication_Trip">
+  FreightExchangeCommunication_Trip
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Dispatch/TripDTO.cs/#L755"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;TripCollection&quot;)]
+[JsonIgnore]
+public virtual List&lt;FreightExchangeCommunicationDTO&gt;? FreightExchangeCommunication_Trip { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<a class="xref" href="SLS.Common.DTO.Dispatch.FreightExchange.FreightExchangeCommunicationDTO.html">FreightExchangeCommunicationDTO</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Dispatch_TripDTO_HandlingUnits_Trip_" data-uid="SLS.Common.DTO.Dispatch.TripDTO.HandlingUnits_Trip*"></a>
+
+  <h3 id="SLS_Common_DTO_Dispatch_TripDTO_HandlingUnits_Trip" data-uid="SLS.Common.DTO.Dispatch.TripDTO.HandlingUnits_Trip">
+  HandlingUnits_Trip
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Dispatch/TripDTO.cs/#L750"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;TripCollection&quot;)]
+[JsonIgnore]
+public virtual List&lt;HandlingUnitDTO&gt;? HandlingUnits_Trip { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<a class="xref" href="SLS.Common.DTO.Dispatch.HandlingUnitDTO.html">HandlingUnitDTO</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Dispatch_TripDTO_HomeGrossPrice_" data-uid="SLS.Common.DTO.Dispatch.TripDTO.HomeGrossPrice*"></a>
+
+  <h3 id="SLS_Common_DTO_Dispatch_TripDTO_HomeGrossPrice" data-uid="SLS.Common.DTO.Dispatch.TripDTO.HomeGrossPrice">
+  HomeGrossPrice
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Dispatch/TripDTO.cs/#L288"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;HomeGrossPrice&quot;)]
+public virtual double HomeGrossPrice { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Dispatch_TripDTO_HomeGrossPriceDebitor_" data-uid="SLS.Common.DTO.Dispatch.TripDTO.HomeGrossPriceDebitor*"></a>
+
+  <h3 id="SLS_Common_DTO_Dispatch_TripDTO_HomeGrossPriceDebitor" data-uid="SLS.Common.DTO.Dispatch.TripDTO.HomeGrossPriceDebitor">
+  HomeGrossPriceDebitor
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Dispatch/TripDTO.cs/#L544"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;HomeGrossPriceDebitor&quot;)]
+public virtual double HomeGrossPriceDebitor { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Dispatch_TripDTO_HomeNetPrice_" data-uid="SLS.Common.DTO.Dispatch.TripDTO.HomeNetPrice*"></a>
+
+  <h3 id="SLS_Common_DTO_Dispatch_TripDTO_HomeNetPrice" data-uid="SLS.Common.DTO.Dispatch.TripDTO.HomeNetPrice">
+  HomeNetPrice
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Dispatch/TripDTO.cs/#L284"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;HomeNetPrice&quot;)]
+public virtual double HomeNetPrice { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Dispatch_TripDTO_HomeNetPriceDebitor_" data-uid="SLS.Common.DTO.Dispatch.TripDTO.HomeNetPriceDebitor*"></a>
+
+  <h3 id="SLS_Common_DTO_Dispatch_TripDTO_HomeNetPriceDebitor" data-uid="SLS.Common.DTO.Dispatch.TripDTO.HomeNetPriceDebitor">
+  HomeNetPriceDebitor
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Dispatch/TripDTO.cs/#L540"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;HomeNetPriceDebitor&quot;)]
+public virtual double HomeNetPriceDebitor { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Dispatch_TripDTO_Id_" data-uid="SLS.Common.DTO.Dispatch.TripDTO.Id*"></a>
+
+  <h3 id="SLS_Common_DTO_Dispatch_TripDTO_Id" data-uid="SLS.Common.DTO.Dispatch.TripDTO.Id">
+  Id
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Dispatch/TripDTO.cs/#L34"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;ID&quot;)]
+public long Id { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Dispatch_TripDTO_ImputedEmtpyDistance_" data-uid="SLS.Common.DTO.Dispatch.TripDTO.ImputedEmtpyDistance*"></a>
+
+  <h3 id="SLS_Common_DTO_Dispatch_TripDTO_ImputedEmtpyDistance" data-uid="SLS.Common.DTO.Dispatch.TripDTO.ImputedEmtpyDistance">
+  ImputedEmtpyDistance
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Dispatch/TripDTO.cs/#L564"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;ImputedEmtpyDistance&quot;)]
+public virtual double? ImputedEmtpyDistance { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Dispatch_TripDTO_InvoicedGrossPrice_" data-uid="SLS.Common.DTO.Dispatch.TripDTO.InvoicedGrossPrice*"></a>
+
+  <h3 id="SLS_Common_DTO_Dispatch_TripDTO_InvoicedGrossPrice" data-uid="SLS.Common.DTO.Dispatch.TripDTO.InvoicedGrossPrice">
+  InvoicedGrossPrice
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Dispatch/TripDTO.cs/#L296"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;InvoicedGrossPrice&quot;)]
+public virtual double InvoicedGrossPrice { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Dispatch_TripDTO_InvoicedGrossPriceDebitor_" data-uid="SLS.Common.DTO.Dispatch.TripDTO.InvoicedGrossPriceDebitor*"></a>
+
+  <h3 id="SLS_Common_DTO_Dispatch_TripDTO_InvoicedGrossPriceDebitor" data-uid="SLS.Common.DTO.Dispatch.TripDTO.InvoicedGrossPriceDebitor">
+  InvoicedGrossPriceDebitor
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Dispatch/TripDTO.cs/#L552"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;InvoicedGrossPriceDebitor&quot;)]
+public virtual double InvoicedGrossPriceDebitor { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Dispatch_TripDTO_InvoicedNetPrice_" data-uid="SLS.Common.DTO.Dispatch.TripDTO.InvoicedNetPrice*"></a>
+
+  <h3 id="SLS_Common_DTO_Dispatch_TripDTO_InvoicedNetPrice" data-uid="SLS.Common.DTO.Dispatch.TripDTO.InvoicedNetPrice">
+  InvoicedNetPrice
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Dispatch/TripDTO.cs/#L292"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;InvoicedNetPrice&quot;)]
+public virtual double InvoicedNetPrice { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Dispatch_TripDTO_InvoicedNetPriceDebitor_" data-uid="SLS.Common.DTO.Dispatch.TripDTO.InvoicedNetPriceDebitor*"></a>
+
+  <h3 id="SLS_Common_DTO_Dispatch_TripDTO_InvoicedNetPriceDebitor" data-uid="SLS.Common.DTO.Dispatch.TripDTO.InvoicedNetPriceDebitor">
+  InvoicedNetPriceDebitor
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Dispatch/TripDTO.cs/#L548"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;InvoicedNetPriceDebitor&quot;)]
+public virtual double InvoicedNetPriceDebitor { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Dispatch_TripDTO_IsDistanceFix_" data-uid="SLS.Common.DTO.Dispatch.TripDTO.IsDistanceFix*"></a>
+
+  <h3 id="SLS_Common_DTO_Dispatch_TripDTO_IsDistanceFix" data-uid="SLS.Common.DTO.Dispatch.TripDTO.IsDistanceFix">
+  IsDistanceFix
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Dispatch/TripDTO.cs/#L232"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;IsDistanceFix&quot;)]
+public virtual bool IsDistanceFix { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Dispatch_TripDTO_IsNoWareKmFix_" data-uid="SLS.Common.DTO.Dispatch.TripDTO.IsNoWareKmFix*"></a>
+
+  <h3 id="SLS_Common_DTO_Dispatch_TripDTO_IsNoWareKmFix" data-uid="SLS.Common.DTO.Dispatch.TripDTO.IsNoWareKmFix">
+  IsNoWareKmFix
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Dispatch/TripDTO.cs/#L236"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;IsNoWareKmFix&quot;)]
+public virtual bool IsNoWareKmFix { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Dispatch_TripDTO_IsNoWareTollFeeIncluded_" data-uid="SLS.Common.DTO.Dispatch.TripDTO.IsNoWareTollFeeIncluded*"></a>
+
+  <h3 id="SLS_Common_DTO_Dispatch_TripDTO_IsNoWareTollFeeIncluded" data-uid="SLS.Common.DTO.Dispatch.TripDTO.IsNoWareTollFeeIncluded">
+  IsNoWareTollFeeIncluded
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Dispatch/TripDTO.cs/#L244"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;IsNoWareTollFeeIncluded&quot;)]
+public virtual bool IsNoWareTollFeeIncluded { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Dispatch_TripDTO_IsTollFeeFix_" data-uid="SLS.Common.DTO.Dispatch.TripDTO.IsTollFeeFix*"></a>
+
+  <h3 id="SLS_Common_DTO_Dispatch_TripDTO_IsTollFeeFix" data-uid="SLS.Common.DTO.Dispatch.TripDTO.IsTollFeeFix">
+  IsTollFeeFix
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Dispatch/TripDTO.cs/#L228"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;IsTollFeeFix&quot;)]
+public virtual bool IsTollFeeFix { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Dispatch_TripDTO_IsTollFeeIncluded_" data-uid="SLS.Common.DTO.Dispatch.TripDTO.IsTollFeeIncluded*"></a>
+
+  <h3 id="SLS_Common_DTO_Dispatch_TripDTO_IsTollFeeIncluded" data-uid="SLS.Common.DTO.Dispatch.TripDTO.IsTollFeeIncluded">
+  IsTollFeeIncluded
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Dispatch/TripDTO.cs/#L240"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;IsTollFeeIncluded&quot;)]
+public virtual bool IsTollFeeIncluded { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Dispatch_TripDTO_Ist_DispoStoringPlaces_" data-uid="SLS.Common.DTO.Dispatch.TripDTO.Ist_DispoStoringPlaces*"></a>
+
+  <h3 id="SLS_Common_DTO_Dispatch_TripDTO_Ist_DispoStoringPlaces" data-uid="SLS.Common.DTO.Dispatch.TripDTO.Ist_DispoStoringPlaces">
+  Ist_DispoStoringPlaces
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Dispatch/TripDTO.cs/#L520"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;Ist_DispoStoringPlaces&quot;)]
+public virtual double Ist_DispoStoringPlaces { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Dispatch_TripDTO_Ist_LQQuantity_" data-uid="SLS.Common.DTO.Dispatch.TripDTO.Ist_LQQuantity*"></a>
+
+  <h3 id="SLS_Common_DTO_Dispatch_TripDTO_Ist_LQQuantity" data-uid="SLS.Common.DTO.Dispatch.TripDTO.Ist_LQQuantity">
+  Ist_LQQuantity
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Dispatch/TripDTO.cs/#L260"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;Ist_LQQuantity&quot;)]
+public virtual double Ist_LQQuantity { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Dispatch_TripDTO_Ist_LoadingMeter_" data-uid="SLS.Common.DTO.Dispatch.TripDTO.Ist_LoadingMeter*"></a>
+
+  <h3 id="SLS_Common_DTO_Dispatch_TripDTO_Ist_LoadingMeter" data-uid="SLS.Common.DTO.Dispatch.TripDTO.Ist_LoadingMeter">
+  Ist_LoadingMeter
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Dispatch/TripDTO.cs/#L200"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;Ist_LoadingMeter&quot;)]
+public virtual double? Ist_LoadingMeter { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Dispatch_TripDTO_Ist_SquareMeters_" data-uid="SLS.Common.DTO.Dispatch.TripDTO.Ist_SquareMeters*"></a>
+
+  <h3 id="SLS_Common_DTO_Dispatch_TripDTO_Ist_SquareMeters" data-uid="SLS.Common.DTO.Dispatch.TripDTO.Ist_SquareMeters">
+  Ist_SquareMeters
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Dispatch/TripDTO.cs/#L492"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;Ist_SquareMeters&quot;)]
+public virtual double? Ist_SquareMeters { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Dispatch_TripDTO_Ist_StopCount_" data-uid="SLS.Common.DTO.Dispatch.TripDTO.Ist_StopCount*"></a>
+
+  <h3 id="SLS_Common_DTO_Dispatch_TripDTO_Ist_StopCount" data-uid="SLS.Common.DTO.Dispatch.TripDTO.Ist_StopCount">
+  Ist_StopCount
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Dispatch/TripDTO.cs/#L484"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;Ist_StopCount&quot;)]
+public virtual int? Ist_StopCount { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Dispatch_TripDTO_Ist_Volume_" data-uid="SLS.Common.DTO.Dispatch.TripDTO.Ist_Volume*"></a>
+
+  <h3 id="SLS_Common_DTO_Dispatch_TripDTO_Ist_Volume" data-uid="SLS.Common.DTO.Dispatch.TripDTO.Ist_Volume">
+  Ist_Volume
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Dispatch/TripDTO.cs/#L188"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;Ist_Volume&quot;)]
+public virtual double? Ist_Volume { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Dispatch_TripDTO_Ist_Weight_" data-uid="SLS.Common.DTO.Dispatch.TripDTO.Ist_Weight*"></a>
+
+  <h3 id="SLS_Common_DTO_Dispatch_TripDTO_Ist_Weight" data-uid="SLS.Common.DTO.Dispatch.TripDTO.Ist_Weight">
+  Ist_Weight
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Dispatch/TripDTO.cs/#L512"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;Ist_Weight&quot;)]
+public virtual double? Ist_Weight { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Dispatch_TripDTO_Ist_WeightFreight_" data-uid="SLS.Common.DTO.Dispatch.TripDTO.Ist_WeightFreight*"></a>
+
+  <h3 id="SLS_Common_DTO_Dispatch_TripDTO_Ist_WeightFreight" data-uid="SLS.Common.DTO.Dispatch.TripDTO.Ist_WeightFreight">
+  Ist_WeightFreight
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Dispatch/TripDTO.cs/#L500"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;Ist_WeightFreight&quot;)]
+public virtual double? Ist_WeightFreight { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Dispatch_TripDTO_Ist_WeightNet_" data-uid="SLS.Common.DTO.Dispatch.TripDTO.Ist_WeightNet*"></a>
+
+  <h3 id="SLS_Common_DTO_Dispatch_TripDTO_Ist_WeightNet" data-uid="SLS.Common.DTO.Dispatch.TripDTO.Ist_WeightNet">
+  Ist_WeightNet
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Dispatch/TripDTO.cs/#L508"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;Ist_WeightNet&quot;)]
+public virtual double? Ist_WeightNet { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Dispatch_TripDTO_JobLists_Trip_" data-uid="SLS.Common.DTO.Dispatch.TripDTO.JobLists_Trip*"></a>
+
+  <h3 id="SLS_Common_DTO_Dispatch_TripDTO_JobLists_Trip" data-uid="SLS.Common.DTO.Dispatch.TripDTO.JobLists_Trip">
+  JobLists_Trip
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Dispatch/TripDTO.cs/#L685"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;TripCollection&quot;)]
+[JsonIgnore]
+public virtual List&lt;JobListDTO&gt;? JobLists_Trip { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<a class="xref" href="SLS.Common.DTO.TransactionData.Reports.JobListDTO.html">JobListDTO</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Dispatch_TripDTO_LQAccountingSets_Trip_" data-uid="SLS.Common.DTO.Dispatch.TripDTO.LQAccountingSets_Trip*"></a>
+
+  <h3 id="SLS_Common_DTO_Dispatch_TripDTO_LQAccountingSets_Trip" data-uid="SLS.Common.DTO.Dispatch.TripDTO.LQAccountingSets_Trip">
+  LQAccountingSets_Trip
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Dispatch/TripDTO.cs/#L745"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;TripCollection&quot;)]
+[JsonIgnore]
+public virtual List&lt;LQAccountingSetDTO&gt;? LQAccountingSets_Trip { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<a class="xref" href="SLS.Common.DTO.Dispatch.LQAccountingSetDTO.html">LQAccountingSetDTO</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Dispatch_TripDTO_LQQuantity_" data-uid="SLS.Common.DTO.Dispatch.TripDTO.LQQuantity*"></a>
+
+  <h3 id="SLS_Common_DTO_Dispatch_TripDTO_LQQuantity" data-uid="SLS.Common.DTO.Dispatch.TripDTO.LQQuantity">
+  LQQuantity
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Dispatch/TripDTO.cs/#L256"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;LQQuantity&quot;)]
+public virtual double LQQuantity { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Dispatch_TripDTO_LastETAUpdate_" data-uid="SLS.Common.DTO.Dispatch.TripDTO.LastETAUpdate*"></a>
+
+  <h3 id="SLS_Common_DTO_Dispatch_TripDTO_LastETAUpdate" data-uid="SLS.Common.DTO.Dispatch.TripDTO.LastETAUpdate">
+  LastETAUpdate
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Dispatch/TripDTO.cs/#L588"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;LastETAUpdate&quot;)]
+public virtual DateTime? LastETAUpdate { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.datetime">DateTime</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Dispatch_TripDTO_LastTripProcessStatus_" data-uid="SLS.Common.DTO.Dispatch.TripDTO.LastTripProcessStatus*"></a>
+
+  <h3 id="SLS_Common_DTO_Dispatch_TripDTO_LastTripProcessStatus" data-uid="SLS.Common.DTO.Dispatch.TripDTO.LastTripProcessStatus">
+  LastTripProcessStatus
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Dispatch/TripDTO.cs/#L656"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[ForeignKey(&quot;LastTripProcessStatusCollection&quot;)]
+[InverseProperty(&quot;Trips_LastTripProcessStatus&quot;)]
+[JsonIgnore]
+public virtual TripProcessStatusDTO? LastTripProcessStatus { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="SLS.Common.DTO.Dispatch.TripProcessStatusDTO.html">TripProcessStatusDTO</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Dispatch_TripDTO_LastTripProcessStatusID_" data-uid="SLS.Common.DTO.Dispatch.TripDTO.LastTripProcessStatusID*"></a>
+
+  <h3 id="SLS_Common_DTO_Dispatch_TripDTO_LastTripProcessStatusID" data-uid="SLS.Common.DTO.Dispatch.TripDTO.LastTripProcessStatusID">
+  LastTripProcessStatusID
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Dispatch/TripDTO.cs/#L112"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;LastTripProcessStatusCollection&quot;)]
+[ForeignKey(&quot;LastTripProcessStatusCollection&quot;)]
+public virtual long? LastTripProcessStatusID { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Dispatch_TripDTO_LoadFactor_" data-uid="SLS.Common.DTO.Dispatch.TripDTO.LoadFactor*"></a>
+
+  <h3 id="SLS_Common_DTO_Dispatch_TripDTO_LoadFactor" data-uid="SLS.Common.DTO.Dispatch.TripDTO.LoadFactor">
+  LoadFactor
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Dispatch/TripDTO.cs/#L556"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;LoadFactor&quot;)]
+public virtual double? LoadFactor { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Dispatch_TripDTO_LoadingMeter_" data-uid="SLS.Common.DTO.Dispatch.TripDTO.LoadingMeter*"></a>
+
+  <h3 id="SLS_Common_DTO_Dispatch_TripDTO_LoadingMeter" data-uid="SLS.Common.DTO.Dispatch.TripDTO.LoadingMeter">
+  LoadingMeter
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Dispatch/TripDTO.cs/#L196"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;LoadingMeter&quot;)]
+public virtual double? LoadingMeter { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Dispatch_TripDTO_NoWareKm_" data-uid="SLS.Common.DTO.Dispatch.TripDTO.NoWareKm*"></a>
+
+  <h3 id="SLS_Common_DTO_Dispatch_TripDTO_NoWareKm" data-uid="SLS.Common.DTO.Dispatch.TripDTO.NoWareKm">
+  NoWareKm
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Dispatch/TripDTO.cs/#L204"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;NoWareKm&quot;)]
+public virtual double? NoWareKm { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Dispatch_TripDTO_NoWareTollFee_" data-uid="SLS.Common.DTO.Dispatch.TripDTO.NoWareTollFee*"></a>
+
+  <h3 id="SLS_Common_DTO_Dispatch_TripDTO_NoWareTollFee" data-uid="SLS.Common.DTO.Dispatch.TripDTO.NoWareTollFee">
+  NoWareTollFee
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Dispatch/TripDTO.cs/#L208"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;NoWareTollFee&quot;)]
+public virtual double? NoWareTollFee { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Dispatch_TripDTO_NoWareTollKm_" data-uid="SLS.Common.DTO.Dispatch.TripDTO.NoWareTollKm*"></a>
+
+  <h3 id="SLS_Common_DTO_Dispatch_TripDTO_NoWareTollKm" data-uid="SLS.Common.DTO.Dispatch.TripDTO.NoWareTollKm">
+  NoWareTollKm
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Dispatch/TripDTO.cs/#L212"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;NoWareTollKm&quot;)]
+public virtual double? NoWareTollKm { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Dispatch_TripDTO_Note_Trip_" data-uid="SLS.Common.DTO.Dispatch.TripDTO.Note_Trip*"></a>
+
+  <h3 id="SLS_Common_DTO_Dispatch_TripDTO_Note_Trip" data-uid="SLS.Common.DTO.Dispatch.TripDTO.Note_Trip">
+  Note_Trip
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Dispatch/TripDTO.cs/#L740"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;TripCollection&quot;)]
+public virtual List&lt;NoteDTO&gt;? Note_Trip { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<a class="xref" href="SLS.Common.DTO.Dispatch.NoteDTO.html">NoteDTO</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Dispatch_TripDTO_Notes_" data-uid="SLS.Common.DTO.Dispatch.TripDTO.Notes*"></a>
+
+  <h3 id="SLS_Common_DTO_Dispatch_TripDTO_Notes" data-uid="SLS.Common.DTO.Dispatch.TripDTO.Notes">
+  Notes
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Dispatch/TripDTO.cs/#L176"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;Notes&quot;)]
+public virtual string? Notes { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Dispatch_TripDTO_Optional_Bool1_" data-uid="SLS.Common.DTO.Dispatch.TripDTO.Optional_Bool1*"></a>
+
+  <h3 id="SLS_Common_DTO_Dispatch_TripDTO_Optional_Bool1" data-uid="SLS.Common.DTO.Dispatch.TripDTO.Optional_Bool1">
+  Optional_Bool1
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Dispatch/TripDTO.cs/#L420"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;Optional_Bool1&quot;)]
+public virtual bool? Optional_Bool1 { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Dispatch_TripDTO_Optional_Bool2_" data-uid="SLS.Common.DTO.Dispatch.TripDTO.Optional_Bool2*"></a>
+
+  <h3 id="SLS_Common_DTO_Dispatch_TripDTO_Optional_Bool2" data-uid="SLS.Common.DTO.Dispatch.TripDTO.Optional_Bool2">
+  Optional_Bool2
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Dispatch/TripDTO.cs/#L424"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;Optional_Bool2&quot;)]
+public virtual bool? Optional_Bool2 { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Dispatch_TripDTO_Optional_Bool3_" data-uid="SLS.Common.DTO.Dispatch.TripDTO.Optional_Bool3*"></a>
+
+  <h3 id="SLS_Common_DTO_Dispatch_TripDTO_Optional_Bool3" data-uid="SLS.Common.DTO.Dispatch.TripDTO.Optional_Bool3">
+  Optional_Bool3
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Dispatch/TripDTO.cs/#L428"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;Optional_Bool3&quot;)]
+public virtual bool? Optional_Bool3 { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Dispatch_TripDTO_Optional_Date1_" data-uid="SLS.Common.DTO.Dispatch.TripDTO.Optional_Date1*"></a>
+
+  <h3 id="SLS_Common_DTO_Dispatch_TripDTO_Optional_Date1" data-uid="SLS.Common.DTO.Dispatch.TripDTO.Optional_Date1">
+  Optional_Date1
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Dispatch/TripDTO.cs/#L408"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;Optional_Date1&quot;)]
+public virtual DateTime? Optional_Date1 { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.datetime">DateTime</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Dispatch_TripDTO_Optional_Date2_" data-uid="SLS.Common.DTO.Dispatch.TripDTO.Optional_Date2*"></a>
+
+  <h3 id="SLS_Common_DTO_Dispatch_TripDTO_Optional_Date2" data-uid="SLS.Common.DTO.Dispatch.TripDTO.Optional_Date2">
+  Optional_Date2
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Dispatch/TripDTO.cs/#L412"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;Optional_Date2&quot;)]
+public virtual DateTime? Optional_Date2 { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.datetime">DateTime</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Dispatch_TripDTO_Optional_Date3_" data-uid="SLS.Common.DTO.Dispatch.TripDTO.Optional_Date3*"></a>
+
+  <h3 id="SLS_Common_DTO_Dispatch_TripDTO_Optional_Date3" data-uid="SLS.Common.DTO.Dispatch.TripDTO.Optional_Date3">
+  Optional_Date3
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Dispatch/TripDTO.cs/#L416"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;Optional_Date3&quot;)]
+public virtual DateTime? Optional_Date3 { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.datetime">DateTime</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Dispatch_TripDTO_Optional_Float1_" data-uid="SLS.Common.DTO.Dispatch.TripDTO.Optional_Float1*"></a>
+
+  <h3 id="SLS_Common_DTO_Dispatch_TripDTO_Optional_Float1" data-uid="SLS.Common.DTO.Dispatch.TripDTO.Optional_Float1">
+  Optional_Float1
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Dispatch/TripDTO.cs/#L436"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;Optional_Float1&quot;)]
+public virtual double? Optional_Float1 { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Dispatch_TripDTO_Optional_Float2_" data-uid="SLS.Common.DTO.Dispatch.TripDTO.Optional_Float2*"></a>
+
+  <h3 id="SLS_Common_DTO_Dispatch_TripDTO_Optional_Float2" data-uid="SLS.Common.DTO.Dispatch.TripDTO.Optional_Float2">
+  Optional_Float2
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Dispatch/TripDTO.cs/#L432"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;Optional_Float2&quot;)]
+public virtual double? Optional_Float2 { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Dispatch_TripDTO_Optional_Float3_" data-uid="SLS.Common.DTO.Dispatch.TripDTO.Optional_Float3*"></a>
+
+  <h3 id="SLS_Common_DTO_Dispatch_TripDTO_Optional_Float3" data-uid="SLS.Common.DTO.Dispatch.TripDTO.Optional_Float3">
+  Optional_Float3
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Dispatch/TripDTO.cs/#L440"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;Optional_Float3&quot;)]
+public virtual double? Optional_Float3 { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Dispatch_TripDTO_Optional_Num1_" data-uid="SLS.Common.DTO.Dispatch.TripDTO.Optional_Num1*"></a>
+
+  <h3 id="SLS_Common_DTO_Dispatch_TripDTO_Optional_Num1" data-uid="SLS.Common.DTO.Dispatch.TripDTO.Optional_Num1">
+  Optional_Num1
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Dispatch/TripDTO.cs/#L368"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;Optional_Num1&quot;)]
+public virtual int? Optional_Num1 { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Dispatch_TripDTO_Optional_Num10_" data-uid="SLS.Common.DTO.Dispatch.TripDTO.Optional_Num10*"></a>
+
+  <h3 id="SLS_Common_DTO_Dispatch_TripDTO_Optional_Num10" data-uid="SLS.Common.DTO.Dispatch.TripDTO.Optional_Num10">
+  Optional_Num10
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Dispatch/TripDTO.cs/#L404"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;Optional_Num10&quot;)]
+public virtual long? Optional_Num10 { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Dispatch_TripDTO_Optional_Num2_" data-uid="SLS.Common.DTO.Dispatch.TripDTO.Optional_Num2*"></a>
+
+  <h3 id="SLS_Common_DTO_Dispatch_TripDTO_Optional_Num2" data-uid="SLS.Common.DTO.Dispatch.TripDTO.Optional_Num2">
+  Optional_Num2
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Dispatch/TripDTO.cs/#L372"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;Optional_Num2&quot;)]
+public virtual int? Optional_Num2 { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Dispatch_TripDTO_Optional_Num3_" data-uid="SLS.Common.DTO.Dispatch.TripDTO.Optional_Num3*"></a>
+
+  <h3 id="SLS_Common_DTO_Dispatch_TripDTO_Optional_Num3" data-uid="SLS.Common.DTO.Dispatch.TripDTO.Optional_Num3">
+  Optional_Num3
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Dispatch/TripDTO.cs/#L376"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;Optional_Num3&quot;)]
+public virtual int? Optional_Num3 { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Dispatch_TripDTO_Optional_Num4_" data-uid="SLS.Common.DTO.Dispatch.TripDTO.Optional_Num4*"></a>
+
+  <h3 id="SLS_Common_DTO_Dispatch_TripDTO_Optional_Num4" data-uid="SLS.Common.DTO.Dispatch.TripDTO.Optional_Num4">
+  Optional_Num4
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Dispatch/TripDTO.cs/#L380"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;Optional_Num4&quot;)]
+public virtual int? Optional_Num4 { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Dispatch_TripDTO_Optional_Num5_" data-uid="SLS.Common.DTO.Dispatch.TripDTO.Optional_Num5*"></a>
+
+  <h3 id="SLS_Common_DTO_Dispatch_TripDTO_Optional_Num5" data-uid="SLS.Common.DTO.Dispatch.TripDTO.Optional_Num5">
+  Optional_Num5
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Dispatch/TripDTO.cs/#L384"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;Optional_Num5&quot;)]
+public virtual int? Optional_Num5 { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Dispatch_TripDTO_Optional_Num6_" data-uid="SLS.Common.DTO.Dispatch.TripDTO.Optional_Num6*"></a>
+
+  <h3 id="SLS_Common_DTO_Dispatch_TripDTO_Optional_Num6" data-uid="SLS.Common.DTO.Dispatch.TripDTO.Optional_Num6">
+  Optional_Num6
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Dispatch/TripDTO.cs/#L388"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;Optional_Num6&quot;)]
+public virtual long? Optional_Num6 { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Dispatch_TripDTO_Optional_Num7_" data-uid="SLS.Common.DTO.Dispatch.TripDTO.Optional_Num7*"></a>
+
+  <h3 id="SLS_Common_DTO_Dispatch_TripDTO_Optional_Num7" data-uid="SLS.Common.DTO.Dispatch.TripDTO.Optional_Num7">
+  Optional_Num7
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Dispatch/TripDTO.cs/#L392"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;Optional_Num7&quot;)]
+public virtual long? Optional_Num7 { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Dispatch_TripDTO_Optional_Num8_" data-uid="SLS.Common.DTO.Dispatch.TripDTO.Optional_Num8*"></a>
+
+  <h3 id="SLS_Common_DTO_Dispatch_TripDTO_Optional_Num8" data-uid="SLS.Common.DTO.Dispatch.TripDTO.Optional_Num8">
+  Optional_Num8
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Dispatch/TripDTO.cs/#L396"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;Optional_Num8&quot;)]
+public virtual long? Optional_Num8 { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Dispatch_TripDTO_Optional_Num9_" data-uid="SLS.Common.DTO.Dispatch.TripDTO.Optional_Num9*"></a>
+
+  <h3 id="SLS_Common_DTO_Dispatch_TripDTO_Optional_Num9" data-uid="SLS.Common.DTO.Dispatch.TripDTO.Optional_Num9">
+  Optional_Num9
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Dispatch/TripDTO.cs/#L400"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;Optional_Num9&quot;)]
+public virtual long? Optional_Num9 { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Dispatch_TripDTO_Optional_String1_" data-uid="SLS.Common.DTO.Dispatch.TripDTO.Optional_String1*"></a>
+
+  <h3 id="SLS_Common_DTO_Dispatch_TripDTO_Optional_String1" data-uid="SLS.Common.DTO.Dispatch.TripDTO.Optional_String1">
+  Optional_String1
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Dispatch/TripDTO.cs/#L328"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;Optional_String1&quot;)]
+public virtual string? Optional_String1 { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Dispatch_TripDTO_Optional_String10_" data-uid="SLS.Common.DTO.Dispatch.TripDTO.Optional_String10*"></a>
+
+  <h3 id="SLS_Common_DTO_Dispatch_TripDTO_Optional_String10" data-uid="SLS.Common.DTO.Dispatch.TripDTO.Optional_String10">
+  Optional_String10
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Dispatch/TripDTO.cs/#L364"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;Optional_String10&quot;)]
+public virtual string? Optional_String10 { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Dispatch_TripDTO_Optional_String2_" data-uid="SLS.Common.DTO.Dispatch.TripDTO.Optional_String2*"></a>
+
+  <h3 id="SLS_Common_DTO_Dispatch_TripDTO_Optional_String2" data-uid="SLS.Common.DTO.Dispatch.TripDTO.Optional_String2">
+  Optional_String2
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Dispatch/TripDTO.cs/#L332"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;Optional_String2&quot;)]
+public virtual string? Optional_String2 { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Dispatch_TripDTO_Optional_String3_" data-uid="SLS.Common.DTO.Dispatch.TripDTO.Optional_String3*"></a>
+
+  <h3 id="SLS_Common_DTO_Dispatch_TripDTO_Optional_String3" data-uid="SLS.Common.DTO.Dispatch.TripDTO.Optional_String3">
+  Optional_String3
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Dispatch/TripDTO.cs/#L336"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;Optional_String3&quot;)]
+public virtual string? Optional_String3 { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Dispatch_TripDTO_Optional_String4_" data-uid="SLS.Common.DTO.Dispatch.TripDTO.Optional_String4*"></a>
+
+  <h3 id="SLS_Common_DTO_Dispatch_TripDTO_Optional_String4" data-uid="SLS.Common.DTO.Dispatch.TripDTO.Optional_String4">
+  Optional_String4
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Dispatch/TripDTO.cs/#L340"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;Optional_String4&quot;)]
+public virtual string? Optional_String4 { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Dispatch_TripDTO_Optional_String5_" data-uid="SLS.Common.DTO.Dispatch.TripDTO.Optional_String5*"></a>
+
+  <h3 id="SLS_Common_DTO_Dispatch_TripDTO_Optional_String5" data-uid="SLS.Common.DTO.Dispatch.TripDTO.Optional_String5">
+  Optional_String5
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Dispatch/TripDTO.cs/#L344"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;Optional_String5&quot;)]
+public virtual string? Optional_String5 { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Dispatch_TripDTO_Optional_String6_" data-uid="SLS.Common.DTO.Dispatch.TripDTO.Optional_String6*"></a>
+
+  <h3 id="SLS_Common_DTO_Dispatch_TripDTO_Optional_String6" data-uid="SLS.Common.DTO.Dispatch.TripDTO.Optional_String6">
+  Optional_String6
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Dispatch/TripDTO.cs/#L348"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;Optional_String6&quot;)]
+public virtual string? Optional_String6 { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Dispatch_TripDTO_Optional_String7_" data-uid="SLS.Common.DTO.Dispatch.TripDTO.Optional_String7*"></a>
+
+  <h3 id="SLS_Common_DTO_Dispatch_TripDTO_Optional_String7" data-uid="SLS.Common.DTO.Dispatch.TripDTO.Optional_String7">
+  Optional_String7
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Dispatch/TripDTO.cs/#L352"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;Optional_String7&quot;)]
+public virtual string? Optional_String7 { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Dispatch_TripDTO_Optional_String8_" data-uid="SLS.Common.DTO.Dispatch.TripDTO.Optional_String8*"></a>
+
+  <h3 id="SLS_Common_DTO_Dispatch_TripDTO_Optional_String8" data-uid="SLS.Common.DTO.Dispatch.TripDTO.Optional_String8">
+  Optional_String8
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Dispatch/TripDTO.cs/#L356"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;Optional_String8&quot;)]
+public virtual string? Optional_String8 { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Dispatch_TripDTO_Optional_String9_" data-uid="SLS.Common.DTO.Dispatch.TripDTO.Optional_String9*"></a>
+
+  <h3 id="SLS_Common_DTO_Dispatch_TripDTO_Optional_String9" data-uid="SLS.Common.DTO.Dispatch.TripDTO.Optional_String9">
+  Optional_String9
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Dispatch/TripDTO.cs/#L360"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;Optional_String9&quot;)]
+public virtual string? Optional_String9 { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Dispatch_TripDTO_PricePerKg_" data-uid="SLS.Common.DTO.Dispatch.TripDTO.PricePerKg*"></a>
+
+  <h3 id="SLS_Common_DTO_Dispatch_TripDTO_PricePerKg" data-uid="SLS.Common.DTO.Dispatch.TripDTO.PricePerKg">
+  PricePerKg
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Dispatch/TripDTO.cs/#L312"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;PricePerKg&quot;)]
+public virtual double? PricePerKg { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Dispatch_TripDTO_PricePerLiter_" data-uid="SLS.Common.DTO.Dispatch.TripDTO.PricePerLiter*"></a>
+
+  <h3 id="SLS_Common_DTO_Dispatch_TripDTO_PricePerLiter" data-uid="SLS.Common.DTO.Dispatch.TripDTO.PricePerLiter">
+  PricePerLiter
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Dispatch/TripDTO.cs/#L308"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;PricePerLiter&quot;)]
+public virtual double? PricePerLiter { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Dispatch_TripDTO_PricePerMeter_" data-uid="SLS.Common.DTO.Dispatch.TripDTO.PricePerMeter*"></a>
+
+  <h3 id="SLS_Common_DTO_Dispatch_TripDTO_PricePerMeter" data-uid="SLS.Common.DTO.Dispatch.TripDTO.PricePerMeter">
+  PricePerMeter
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Dispatch/TripDTO.cs/#L320"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;PricePerMeter&quot;)]
+public virtual double? PricePerMeter { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Dispatch_TripDTO_PricePerPart_" data-uid="SLS.Common.DTO.Dispatch.TripDTO.PricePerPart*"></a>
+
+  <h3 id="SLS_Common_DTO_Dispatch_TripDTO_PricePerPart" data-uid="SLS.Common.DTO.Dispatch.TripDTO.PricePerPart">
+  PricePerPart
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Dispatch/TripDTO.cs/#L316"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;PricePerPart&quot;)]
+public virtual double? PricePerPart { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Dispatch_TripDTO_PricePerStorageUnit_" data-uid="SLS.Common.DTO.Dispatch.TripDTO.PricePerStorageUnit*"></a>
+
+  <h3 id="SLS_Common_DTO_Dispatch_TripDTO_PricePerStorageUnit" data-uid="SLS.Common.DTO.Dispatch.TripDTO.PricePerStorageUnit">
+  PricePerStorageUnit
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Dispatch/TripDTO.cs/#L324"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;PricePerStorageUnit&quot;)]
+public virtual double? PricePerStorageUnit { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Dispatch_TripDTO_ProcessStatus_" data-uid="SLS.Common.DTO.Dispatch.TripDTO.ProcessStatus*"></a>
+
+  <h3 id="SLS_Common_DTO_Dispatch_TripDTO_ProcessStatus" data-uid="SLS.Common.DTO.Dispatch.TripDTO.ProcessStatus">
+  ProcessStatus
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Dispatch/TripDTO.cs/#L631"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[ForeignKey(&quot;ProcessStatusCollection&quot;)]
+[InverseProperty(&quot;Trips_ProcessStatus&quot;)]
+[JsonIgnore]
+public virtual ProcessStatusDTO? ProcessStatus { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="SLS.Common.DTO.MasterData.Dispo.ProcessStatusDTO.html">ProcessStatusDTO</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Dispatch_TripDTO_ProcessStatusID_" data-uid="SLS.Common.DTO.Dispatch.TripDTO.ProcessStatusID*"></a>
+
+  <h3 id="SLS_Common_DTO_Dispatch_TripDTO_ProcessStatusID" data-uid="SLS.Common.DTO.Dispatch.TripDTO.ProcessStatusID">
+  ProcessStatusID
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Dispatch/TripDTO.cs/#L87"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;ProcessStatusCollection&quot;)]
+[ForeignKey(&quot;ProcessStatusCollection&quot;)]
+public virtual long? ProcessStatusID { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Dispatch_TripDTO_ResourceOccupations_Trip_" data-uid="SLS.Common.DTO.Dispatch.TripDTO.ResourceOccupations_Trip*"></a>
+
+  <h3 id="SLS_Common_DTO_Dispatch_TripDTO_ResourceOccupations_Trip" data-uid="SLS.Common.DTO.Dispatch.TripDTO.ResourceOccupations_Trip">
+  ResourceOccupations_Trip
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Dispatch/TripDTO.cs/#L695"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;TripCollection&quot;)]
+[JsonIgnore]
+public virtual List&lt;ResourceOccupationDTO&gt;? ResourceOccupations_Trip { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<a class="xref" href="SLS.Common.DTO.Resource.ResourceOccupationDTO.html">ResourceOccupationDTO</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Dispatch_TripDTO_Revenue_" data-uid="SLS.Common.DTO.Dispatch.TripDTO.Revenue*"></a>
+
+  <h3 id="SLS_Common_DTO_Dispatch_TripDTO_Revenue" data-uid="SLS.Common.DTO.Dispatch.TripDTO.Revenue">
+  Revenue
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Dispatch/TripDTO.cs/#L264"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;Revenue&quot;)]
+public virtual double Revenue { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Dispatch_TripDTO_RevenueDistribution_RelatedTrip_" data-uid="SLS.Common.DTO.Dispatch.TripDTO.RevenueDistribution_RelatedTrip*"></a>
+
+  <h3 id="SLS_Common_DTO_Dispatch_TripDTO_RevenueDistribution_RelatedTrip" data-uid="SLS.Common.DTO.Dispatch.TripDTO.RevenueDistribution_RelatedTrip">
+  RevenueDistribution_RelatedTrip
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Dispatch/TripDTO.cs/#L705"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;RelatedTripCollection&quot;)]
+[JsonIgnore]
+public virtual List&lt;RevenueDistributionDTO&gt;? RevenueDistribution_RelatedTrip { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<a class="xref" href="SLS.Common.DTO.Financial.RevenueDistributionDTO.html">RevenueDistributionDTO</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Dispatch_TripDTO_SquareMeters_" data-uid="SLS.Common.DTO.Dispatch.TripDTO.SquareMeters*"></a>
+
+  <h3 id="SLS_Common_DTO_Dispatch_TripDTO_SquareMeters" data-uid="SLS.Common.DTO.Dispatch.TripDTO.SquareMeters">
+  SquareMeters
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Dispatch/TripDTO.cs/#L488"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;SquareMeters&quot;)]
+public virtual double? SquareMeters { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Dispatch_TripDTO_StartAddress_" data-uid="SLS.Common.DTO.Dispatch.TripDTO.StartAddress*"></a>
+
+  <h3 id="SLS_Common_DTO_Dispatch_TripDTO_StartAddress" data-uid="SLS.Common.DTO.Dispatch.TripDTO.StartAddress">
+  StartAddress
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Dispatch/TripDTO.cs/#L623"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[ForeignKey(&quot;StartAddressCollection&quot;)]
+[InverseProperty(&quot;Trips_StartAddress&quot;)]
+public virtual AddressDTO? StartAddress { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="SLS.Common.DTO.MasterData.AddressDTO.html">AddressDTO</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Dispatch_TripDTO_StartAddressID_" data-uid="SLS.Common.DTO.Dispatch.TripDTO.StartAddressID*"></a>
+
+  <h3 id="SLS_Common_DTO_Dispatch_TripDTO_StartAddressID" data-uid="SLS.Common.DTO.Dispatch.TripDTO.StartAddressID">
+  StartAddressID
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Dispatch/TripDTO.cs/#L77"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;StartAddressCollection&quot;)]
+[ForeignKey(&quot;StartAddressCollection&quot;)]
+public virtual long? StartAddressID { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Dispatch_TripDTO_StartAddressMethod_" data-uid="SLS.Common.DTO.Dispatch.TripDTO.StartAddressMethod*"></a>
+
+  <h3 id="SLS_Common_DTO_Dispatch_TripDTO_StartAddressMethod" data-uid="SLS.Common.DTO.Dispatch.TripDTO.StartAddressMethod">
+  StartAddressMethod
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Dispatch/TripDTO.cs/#L524"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;StartAddressMethod&quot;)]
+public virtual int StartAddressMethod { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Dispatch_TripDTO_StatusReason_" data-uid="SLS.Common.DTO.Dispatch.TripDTO.StatusReason*"></a>
+
+  <h3 id="SLS_Common_DTO_Dispatch_TripDTO_StatusReason" data-uid="SLS.Common.DTO.Dispatch.TripDTO.StatusReason">
+  StatusReason
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Dispatch/TripDTO.cs/#L636"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[ForeignKey(&quot;StatusReasonCollection&quot;)]
+[InverseProperty(&quot;Trips_StatusReason&quot;)]
+[JsonIgnore]
+public virtual StatusReasonDTO? StatusReason { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="SLS.Common.DTO.MasterData.Dispo.StatusReasonDTO.html">StatusReasonDTO</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Dispatch_TripDTO_StatusReasonID_" data-uid="SLS.Common.DTO.Dispatch.TripDTO.StatusReasonID*"></a>
+
+  <h3 id="SLS_Common_DTO_Dispatch_TripDTO_StatusReasonID" data-uid="SLS.Common.DTO.Dispatch.TripDTO.StatusReasonID">
+  StatusReasonID
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Dispatch/TripDTO.cs/#L92"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;StatusReasonCollection&quot;)]
+[ForeignKey(&quot;StatusReasonCollection&quot;)]
+public virtual long? StatusReasonID { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Dispatch_TripDTO_StopCount_" data-uid="SLS.Common.DTO.Dispatch.TripDTO.StopCount*"></a>
+
+  <h3 id="SLS_Common_DTO_Dispatch_TripDTO_StopCount" data-uid="SLS.Common.DTO.Dispatch.TripDTO.StopCount">
+  StopCount
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Dispatch/TripDTO.cs/#L456"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;StopCount&quot;)]
+public virtual int? StopCount { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Dispatch_TripDTO_Subsidiary_ID_" data-uid="SLS.Common.DTO.Dispatch.TripDTO.Subsidiary_ID*"></a>
+
+  <h3 id="SLS_Common_DTO_Dispatch_TripDTO_Subsidiary_ID" data-uid="SLS.Common.DTO.Dispatch.TripDTO.Subsidiary_ID">
+  Subsidiary_ID
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Dispatch/TripDTO.cs/#L42"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public long? Subsidiary_ID { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Dispatch_TripDTO_Tag_" data-uid="SLS.Common.DTO.Dispatch.TripDTO.Tag*"></a>
+
+  <h3 id="SLS_Common_DTO_Dispatch_TripDTO_Tag" data-uid="SLS.Common.DTO.Dispatch.TripDTO.Tag">
+  Tag
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Dispatch/TripDTO.cs/#L224"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;Tag&quot;)]
+public virtual string? Tag { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Dispatch_TripDTO_TaxationContext_" data-uid="SLS.Common.DTO.Dispatch.TripDTO.TaxationContext*"></a>
+
+  <h3 id="SLS_Common_DTO_Dispatch_TripDTO_TaxationContext" data-uid="SLS.Common.DTO.Dispatch.TripDTO.TaxationContext">
+  TaxationContext
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Dispatch/TripDTO.cs/#L651"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[ForeignKey(&quot;TaxationContextCollection&quot;)]
+[InverseProperty(&quot;Trips_TaxationContext&quot;)]
+[JsonIgnore]
+public virtual TaxationContextDTO? TaxationContext { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="SLS.Common.DTO.Financial.TaxationContextDTO.html">TaxationContextDTO</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Dispatch_TripDTO_TaxationContextID_" data-uid="SLS.Common.DTO.Dispatch.TripDTO.TaxationContextID*"></a>
+
+  <h3 id="SLS_Common_DTO_Dispatch_TripDTO_TaxationContextID" data-uid="SLS.Common.DTO.Dispatch.TripDTO.TaxationContextID">
+  TaxationContextID
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Dispatch/TripDTO.cs/#L107"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;TaxationContextCollection&quot;)]
+[ForeignKey(&quot;TaxationContextCollection&quot;)]
+public virtual long? TaxationContextID { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Dispatch_TripDTO_TemperatureCheck1_" data-uid="SLS.Common.DTO.Dispatch.TripDTO.TemperatureCheck1*"></a>
+
+  <h3 id="SLS_Common_DTO_Dispatch_TripDTO_TemperatureCheck1" data-uid="SLS.Common.DTO.Dispatch.TripDTO.TemperatureCheck1">
+  TemperatureCheck1
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Dispatch/TripDTO.cs/#L661"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[ForeignKey(&quot;TemperatureCheck1Collection&quot;)]
+[InverseProperty(&quot;Trips_TemperatureCheck1&quot;)]
+[JsonIgnore]
+public virtual TemperatureCheckDTO? TemperatureCheck1 { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="SLS.Common.DTO.MasterData.Temperature.TemperatureCheckDTO.html">TemperatureCheckDTO</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Dispatch_TripDTO_TemperatureCheck1ID_" data-uid="SLS.Common.DTO.Dispatch.TripDTO.TemperatureCheck1ID*"></a>
+
+  <h3 id="SLS_Common_DTO_Dispatch_TripDTO_TemperatureCheck1ID" data-uid="SLS.Common.DTO.Dispatch.TripDTO.TemperatureCheck1ID">
+  TemperatureCheck1ID
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Dispatch/TripDTO.cs/#L117"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;TemperatureCheck1Collection&quot;)]
+[ForeignKey(&quot;TemperatureCheck1Collection&quot;)]
+public virtual long? TemperatureCheck1ID { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Dispatch_TripDTO_TemperatureCheck2_" data-uid="SLS.Common.DTO.Dispatch.TripDTO.TemperatureCheck2*"></a>
+
+  <h3 id="SLS_Common_DTO_Dispatch_TripDTO_TemperatureCheck2" data-uid="SLS.Common.DTO.Dispatch.TripDTO.TemperatureCheck2">
+  TemperatureCheck2
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Dispatch/TripDTO.cs/#L666"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[ForeignKey(&quot;TemperatureCheck2Collection&quot;)]
+[InverseProperty(&quot;Trips_TemperatureCheck2&quot;)]
+[JsonIgnore]
+public virtual TemperatureCheckDTO? TemperatureCheck2 { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="SLS.Common.DTO.MasterData.Temperature.TemperatureCheckDTO.html">TemperatureCheckDTO</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Dispatch_TripDTO_TemperatureCheck2ID_" data-uid="SLS.Common.DTO.Dispatch.TripDTO.TemperatureCheck2ID*"></a>
+
+  <h3 id="SLS_Common_DTO_Dispatch_TripDTO_TemperatureCheck2ID" data-uid="SLS.Common.DTO.Dispatch.TripDTO.TemperatureCheck2ID">
+  TemperatureCheck2ID
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Dispatch/TripDTO.cs/#L122"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;TemperatureCheck2Collection&quot;)]
+[ForeignKey(&quot;TemperatureCheck2Collection&quot;)]
+public virtual long? TemperatureCheck2ID { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Dispatch_TripDTO_TemperatureCheck3_" data-uid="SLS.Common.DTO.Dispatch.TripDTO.TemperatureCheck3*"></a>
+
+  <h3 id="SLS_Common_DTO_Dispatch_TripDTO_TemperatureCheck3" data-uid="SLS.Common.DTO.Dispatch.TripDTO.TemperatureCheck3">
+  TemperatureCheck3
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Dispatch/TripDTO.cs/#L671"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[ForeignKey(&quot;TemperatureCheck3Collection&quot;)]
+[InverseProperty(&quot;Trips_TemperatureCheck3&quot;)]
+[JsonIgnore]
+public virtual TemperatureCheckDTO? TemperatureCheck3 { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="SLS.Common.DTO.MasterData.Temperature.TemperatureCheckDTO.html">TemperatureCheckDTO</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Dispatch_TripDTO_TemperatureCheck3ID_" data-uid="SLS.Common.DTO.Dispatch.TripDTO.TemperatureCheck3ID*"></a>
+
+  <h3 id="SLS_Common_DTO_Dispatch_TripDTO_TemperatureCheck3ID" data-uid="SLS.Common.DTO.Dispatch.TripDTO.TemperatureCheck3ID">
+  TemperatureCheck3ID
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Dispatch/TripDTO.cs/#L127"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;TemperatureCheck3Collection&quot;)]
+[ForeignKey(&quot;TemperatureCheck3Collection&quot;)]
+public virtual long? TemperatureCheck3ID { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Dispatch_TripDTO_TemperatureHistory_Trip_" data-uid="SLS.Common.DTO.Dispatch.TripDTO.TemperatureHistory_Trip*"></a>
+
+  <h3 id="SLS_Common_DTO_Dispatch_TripDTO_TemperatureHistory_Trip" data-uid="SLS.Common.DTO.Dispatch.TripDTO.TemperatureHistory_Trip">
+  TemperatureHistory_Trip
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Dispatch/TripDTO.cs/#L735"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;TripCollection&quot;)]
+[JsonIgnore]
+public virtual List&lt;TemperatureHistoryDTO&gt;? TemperatureHistory_Trip { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<a class="xref" href="SLS.Common.DTO.Dispatch.TemperatureHistoryDTO.html">TemperatureHistoryDTO</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Dispatch_TripDTO_TollFee_" data-uid="SLS.Common.DTO.Dispatch.TripDTO.TollFee*"></a>
+
+  <h3 id="SLS_Common_DTO_Dispatch_TripDTO_TollFee" data-uid="SLS.Common.DTO.Dispatch.TripDTO.TollFee">
+  TollFee
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Dispatch/TripDTO.cs/#L168"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;TollFee&quot;)]
+public virtual double? TollFee { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Dispatch_TripDTO_TollKm_" data-uid="SLS.Common.DTO.Dispatch.TripDTO.TollKm*"></a>
+
+  <h3 id="SLS_Common_DTO_Dispatch_TripDTO_TollKm" data-uid="SLS.Common.DTO.Dispatch.TripDTO.TollKm">
+  TollKm
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Dispatch/TripDTO.cs/#L164"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;TollKm&quot;)]
+public virtual double? TollKm { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Dispatch_TripDTO_Trailer_" data-uid="SLS.Common.DTO.Dispatch.TripDTO.Trailer*"></a>
+
+  <h3 id="SLS_Common_DTO_Dispatch_TripDTO_Trailer" data-uid="SLS.Common.DTO.Dispatch.TripDTO.Trailer">
+  Trailer
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Dispatch/TripDTO.cs/#L472"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;Trailer&quot;)]
+public virtual string? Trailer { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Dispatch_TripDTO_TrailerTag_" data-uid="SLS.Common.DTO.Dispatch.TripDTO.TrailerTag*"></a>
+
+  <h3 id="SLS_Common_DTO_Dispatch_TripDTO_TrailerTag" data-uid="SLS.Common.DTO.Dispatch.TripDTO.TrailerTag">
+  TrailerTag
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Dispatch/TripDTO.cs/#L444"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;TrailerTag&quot;)]
+public virtual string? TrailerTag { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Dispatch_TripDTO_TransAppliance_" data-uid="SLS.Common.DTO.Dispatch.TripDTO.TransAppliance*"></a>
+
+  <h3 id="SLS_Common_DTO_Dispatch_TripDTO_TransAppliance" data-uid="SLS.Common.DTO.Dispatch.TripDTO.TransAppliance">
+  TransAppliance
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Dispatch/TripDTO.cs/#L460"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;TransAppliance&quot;)]
+public virtual string? TransAppliance { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Dispatch_TripDTO_TransApplianceGroup_" data-uid="SLS.Common.DTO.Dispatch.TripDTO.TransApplianceGroup*"></a>
+
+  <h3 id="SLS_Common_DTO_Dispatch_TripDTO_TransApplianceGroup" data-uid="SLS.Common.DTO.Dispatch.TripDTO.TransApplianceGroup">
+  TransApplianceGroup
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Dispatch/TripDTO.cs/#L452"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;TransApplianceGroup&quot;)]
+public virtual string? TransApplianceGroup { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Dispatch_TripDTO_TransportCompany_" data-uid="SLS.Common.DTO.Dispatch.TripDTO.TransportCompany*"></a>
+
+  <h3 id="SLS_Common_DTO_Dispatch_TripDTO_TransportCompany" data-uid="SLS.Common.DTO.Dispatch.TripDTO.TransportCompany">
+  TransportCompany
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Dispatch/TripDTO.cs/#L619"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[ForeignKey(&quot;TransportCompanyCollection&quot;)]
+[InverseProperty(&quot;Trips_TransportCompany&quot;)]
+public virtual AddressCompanyDTO? TransportCompany { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="SLS.Common.DTO.MasterData.AddressCompanyDTO.html">AddressCompanyDTO</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Dispatch_TripDTO_TransportCompanyExternalKey_" data-uid="SLS.Common.DTO.Dispatch.TripDTO.TransportCompanyExternalKey*"></a>
+
+  <h3 id="SLS_Common_DTO_Dispatch_TripDTO_TransportCompanyExternalKey" data-uid="SLS.Common.DTO.Dispatch.TripDTO.TransportCompanyExternalKey">
+  TransportCompanyExternalKey
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Dispatch/TripDTO.cs/#L580"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;TransportCompanyExternalKey&quot;)]
+public virtual string? TransportCompanyExternalKey { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Dispatch_TripDTO_TransportCompanyID_" data-uid="SLS.Common.DTO.Dispatch.TripDTO.TransportCompanyID*"></a>
+
+  <h3 id="SLS_Common_DTO_Dispatch_TripDTO_TransportCompanyID" data-uid="SLS.Common.DTO.Dispatch.TripDTO.TransportCompanyID">
+  TransportCompanyID
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Dispatch/TripDTO.cs/#L72"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;TransportCompanyCollection&quot;)]
+[ForeignKey(&quot;TransportCompanyCollection&quot;)]
+public virtual long TransportCompanyID { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Dispatch_TripDTO_TripProcessStatus_" data-uid="SLS.Common.DTO.Dispatch.TripDTO.TripProcessStatus*"></a>
+
+  <h3 id="SLS_Common_DTO_Dispatch_TripDTO_TripProcessStatus" data-uid="SLS.Common.DTO.Dispatch.TripDTO.TripProcessStatus">
+  TripProcessStatus
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Dispatch/TripDTO.cs/#L646"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[ForeignKey(&quot;TripProcessStatusCollection&quot;)]
+[InverseProperty(&quot;Trips_TripProcessStatus&quot;)]
+[JsonIgnore]
+public virtual TripProcessStatusDTO? TripProcessStatus { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="SLS.Common.DTO.Dispatch.TripProcessStatusDTO.html">TripProcessStatusDTO</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Dispatch_TripDTO_TripProcessStatusID_" data-uid="SLS.Common.DTO.Dispatch.TripDTO.TripProcessStatusID*"></a>
+
+  <h3 id="SLS_Common_DTO_Dispatch_TripDTO_TripProcessStatusID" data-uid="SLS.Common.DTO.Dispatch.TripDTO.TripProcessStatusID">
+  TripProcessStatusID
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Dispatch/TripDTO.cs/#L102"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;TripProcessStatusCollection&quot;)]
+[ForeignKey(&quot;TripProcessStatusCollection&quot;)]
+public virtual long? TripProcessStatusID { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Dispatch_TripDTO_TripProcessStatus_Trip_" data-uid="SLS.Common.DTO.Dispatch.TripDTO.TripProcessStatus_Trip*"></a>
+
+  <h3 id="SLS_Common_DTO_Dispatch_TripDTO_TripProcessStatus_Trip" data-uid="SLS.Common.DTO.Dispatch.TripDTO.TripProcessStatus_Trip">
+  TripProcessStatus_Trip
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Dispatch/TripDTO.cs/#L730"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;TripCollection&quot;)]
+public virtual List&lt;TripProcessStatusDTO&gt;? TripProcessStatus_Trip { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<a class="xref" href="SLS.Common.DTO.Dispatch.TripProcessStatusDTO.html">TripProcessStatusDTO</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Dispatch_TripDTO_TripRelation_Trip_" data-uid="SLS.Common.DTO.Dispatch.TripDTO.TripRelation_Trip*"></a>
+
+  <h3 id="SLS_Common_DTO_Dispatch_TripDTO_TripRelation_Trip" data-uid="SLS.Common.DTO.Dispatch.TripDTO.TripRelation_Trip">
+  TripRelation_Trip
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Dispatch/TripDTO.cs/#L725"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;TripCollection&quot;)]
+public virtual List&lt;TripRelationDTO&gt;? TripRelation_Trip { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<a class="xref" href="SLS.Common.DTO.Dispatch.TripRelationDTO.html">TripRelationDTO</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Dispatch_TripDTO_TripResources_Trip_" data-uid="SLS.Common.DTO.Dispatch.TripDTO.TripResources_Trip*"></a>
+
+  <h3 id="SLS_Common_DTO_Dispatch_TripDTO_TripResources_Trip" data-uid="SLS.Common.DTO.Dispatch.TripDTO.TripResources_Trip">
+  TripResources_Trip
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Dispatch/TripDTO.cs/#L720"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;TripCollection&quot;)]
+public virtual List&lt;TripResourceDTO&gt;? TripResources_Trip { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<a class="xref" href="SLS.Common.DTO.Dispatch.TripResourceDTO.html">TripResourceDTO</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Dispatch_TripDTO_TripServices_Trip_" data-uid="SLS.Common.DTO.Dispatch.TripDTO.TripServices_Trip*"></a>
+
+  <h3 id="SLS_Common_DTO_Dispatch_TripDTO_TripServices_Trip" data-uid="SLS.Common.DTO.Dispatch.TripDTO.TripServices_Trip">
+  TripServices_Trip
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Dispatch/TripDTO.cs/#L715"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;TripCollection&quot;)]
+public virtual List&lt;TripServiceDTO&gt;? TripServices_Trip { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<a class="xref" href="SLS.Common.DTO.Dispatch.TripServiceDTO.html">TripServiceDTO</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Dispatch_TripDTO_TripStatus_" data-uid="SLS.Common.DTO.Dispatch.TripDTO.TripStatus*"></a>
+
+  <h3 id="SLS_Common_DTO_Dispatch_TripDTO_TripStatus" data-uid="SLS.Common.DTO.Dispatch.TripDTO.TripStatus">
+  TripStatus
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Dispatch/TripDTO.cs/#L600"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[ForeignKey(&quot;TripStatusCollection&quot;)]
+[InverseProperty(&quot;Trips_TripStatus&quot;)]
+public virtual TripTransportOrderStatusDTO? TripStatus { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="SLS.Common.DTO.MasterData.Dispo.TripTransportOrderStatusDTO.html">TripTransportOrderStatusDTO</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Dispatch_TripDTO_TripStatusID_" data-uid="SLS.Common.DTO.Dispatch.TripDTO.TripStatusID*"></a>
+
+  <h3 id="SLS_Common_DTO_Dispatch_TripDTO_TripStatusID" data-uid="SLS.Common.DTO.Dispatch.TripDTO.TripStatusID">
+  TripStatusID
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Dispatch/TripDTO.cs/#L52"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;TripStatusCollection&quot;)]
+[ForeignKey(&quot;TripStatusCollection&quot;)]
+public virtual long? TripStatusID { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Dispatch_TripDTO_TripType_" data-uid="SLS.Common.DTO.Dispatch.TripDTO.TripType*"></a>
+
+  <h3 id="SLS_Common_DTO_Dispatch_TripDTO_TripType" data-uid="SLS.Common.DTO.Dispatch.TripDTO.TripType">
+  TripType
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Dispatch/TripDTO.cs/#L604"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[ForeignKey(&quot;TripTypeCollection&quot;)]
+[InverseProperty(&quot;Trips_TripType&quot;)]
+[JsonIgnore]
+public virtual DispoTypeDTO? TripType { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="SLS.Common.DTO.MasterData.Dispo.DispoTypeDTO.html">DispoTypeDTO</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Dispatch_TripDTO_TripTypeID_" data-uid="SLS.Common.DTO.Dispatch.TripDTO.TripTypeID*"></a>
+
+  <h3 id="SLS_Common_DTO_Dispatch_TripDTO_TripTypeID" data-uid="SLS.Common.DTO.Dispatch.TripDTO.TripTypeID">
+  TripTypeID
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Dispatch/TripDTO.cs/#L57"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;TripTypeCollection&quot;)]
+[ForeignKey(&quot;TripTypeCollection&quot;)]
+public virtual long TripTypeID { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Dispatch_TripDTO_UseConditions_" data-uid="SLS.Common.DTO.Dispatch.TripDTO.UseConditions*"></a>
+
+  <h3 id="SLS_Common_DTO_Dispatch_TripDTO_UseConditions" data-uid="SLS.Common.DTO.Dispatch.TripDTO.UseConditions">
+  UseConditions
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Dispatch/TripDTO.cs/#L480"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;UseConditions&quot;)]
+public virtual bool UseConditions { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Dispatch_TripDTO_User_ID_" data-uid="SLS.Common.DTO.Dispatch.TripDTO.User_ID*"></a>
+
+  <h3 id="SLS_Common_DTO_Dispatch_TripDTO_User_ID" data-uid="SLS.Common.DTO.Dispatch.TripDTO.User_ID">
+  User_ID
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Dispatch/TripDTO.cs/#L46"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public long? User_ID { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Dispatch_TripDTO_VehiclePositions_Trip_" data-uid="SLS.Common.DTO.Dispatch.TripDTO.VehiclePositions_Trip*"></a>
+
+  <h3 id="SLS_Common_DTO_Dispatch_TripDTO_VehiclePositions_Trip" data-uid="SLS.Common.DTO.Dispatch.TripDTO.VehiclePositions_Trip">
+  VehiclePositions_Trip
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Dispatch/TripDTO.cs/#L690"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;TripCollection&quot;)]
+[JsonIgnore]
+public virtual List&lt;VehiclePositionDTO&gt;? VehiclePositions_Trip { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<a class="xref" href="SLS.Common.DTO.Telematics.VehiclePositionDTO.html">VehiclePositionDTO</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Dispatch_TripDTO_Version_" data-uid="SLS.Common.DTO.Dispatch.TripDTO.Version*"></a>
+
+  <h3 id="SLS_Common_DTO_Dispatch_TripDTO_Version" data-uid="SLS.Common.DTO.Dispatch.TripDTO.Version">
+  Version
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Dispatch/TripDTO.cs/#L38"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;Version&quot;)]
+public long Version { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Dispatch_TripDTO_Volume_" data-uid="SLS.Common.DTO.Dispatch.TripDTO.Volume*"></a>
+
+  <h3 id="SLS_Common_DTO_Dispatch_TripDTO_Volume" data-uid="SLS.Common.DTO.Dispatch.TripDTO.Volume">
+  Volume
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Dispatch/TripDTO.cs/#L184"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;Volume&quot;)]
+public virtual double? Volume { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Dispatch_TripDTO_VoucherItems_Trip_" data-uid="SLS.Common.DTO.Dispatch.TripDTO.VoucherItems_Trip*"></a>
+
+  <h3 id="SLS_Common_DTO_Dispatch_TripDTO_VoucherItems_Trip" data-uid="SLS.Common.DTO.Dispatch.TripDTO.VoucherItems_Trip">
+  VoucherItems_Trip
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Dispatch/TripDTO.cs/#L700"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;TripCollection&quot;)]
+[JsonIgnore]
+public virtual List&lt;VoucherItemDTO&gt;? VoucherItems_Trip { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<a class="xref" href="SLS.Common.DTO.Financial.VoucherItemDTO.html">VoucherItemDTO</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Dispatch_TripDTO_Weight_" data-uid="SLS.Common.DTO.Dispatch.TripDTO.Weight*"></a>
+
+  <h3 id="SLS_Common_DTO_Dispatch_TripDTO_Weight" data-uid="SLS.Common.DTO.Dispatch.TripDTO.Weight">
+  Weight
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Dispatch/TripDTO.cs/#L252"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;Weight&quot;)]
+public virtual double Weight { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Dispatch_TripDTO_WeightFreight_" data-uid="SLS.Common.DTO.Dispatch.TripDTO.WeightFreight*"></a>
+
+  <h3 id="SLS_Common_DTO_Dispatch_TripDTO_WeightFreight" data-uid="SLS.Common.DTO.Dispatch.TripDTO.WeightFreight">
+  WeightFreight
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Dispatch/TripDTO.cs/#L496"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;WeightFreight&quot;)]
+public virtual double? WeightFreight { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Dispatch_TripDTO_WeightNet_" data-uid="SLS.Common.DTO.Dispatch.TripDTO.WeightNet*"></a>
+
+  <h3 id="SLS_Common_DTO_Dispatch_TripDTO_WeightNet" data-uid="SLS.Common.DTO.Dispatch.TripDTO.WeightNet">
+  WeightNet
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Dispatch/TripDTO.cs/#L504"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;WeightNet&quot;)]
+public virtual double? WeightNet { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+</article>
+
+        <div class="contribution d-print-none">
+          <a href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Dispatch/TripDTO.cs/#L28" class="edit-link">Edit this page</a>
+        </div>
+
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

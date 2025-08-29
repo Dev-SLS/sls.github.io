@@ -1,0 +1,3741 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Class WareHouseHURealmObject | SLS Documentation </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Class WareHouseHURealmObject | SLS Documentation ">
+      
+      
+      <link rel="icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="../">
+      
+      
+      
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../logo.svg" alt="SLS Documentation">
+            SLS Documentation
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="SLS.Common.DTO.RealmObjects.WareHouse.WareHouseHURealmObject">
+
+
+
+  <h1 id="SLS_Common_DTO_RealmObjects_WareHouse_WareHouseHURealmObject" data-uid="SLS.Common.DTO.RealmObjects.WareHouse.WareHouseHURealmObject" class="text-break">
+Class WareHouseHURealmObject  
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="SLS.html">SLS</a>.<a class="xref" href="SLS.Common.html">Common</a>.<a class="xref" href="SLS.Common.DTO.html">DTO</a>.<a class="xref" href="SLS.Common.DTO.RealmObjects.html">RealmObjects</a>.<a class="xref" href="SLS.Common.DTO.RealmObjects.WareHouse.html">WareHouse</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>SLS.Common.DTO.RealmObjects.dll</dd></dl>
+  </div>
+
+  <div class="markdown summary"></div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Generated]
+[Woven(typeof(WareHouseHURealmObject.WareHouseHURealmObjectObjectHelper))]
+[Preserve(AllMembers = true)]
+public class WareHouseHURealmObject : IRealmObject, IRealmObjectBase, INotifyPropertyChanged, IReflectableType</code></pre>
+  </div>
+
+
+
+
+  <dl class="typelist inheritance">
+    <dt>Inheritance</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+      <div><span class="xref">WareHouseHURealmObject</span></div>
+    </dd>
+  </dl>
+
+  <dl class="typelist implements">
+    <dt>Implements</dt>
+    <dd>
+      <div><a class="xref" href="https://github.com/realm/realm-dotnet/blob/Dev/Realm/Realm/DatabaseTypes/IRealmObjectBase.cs">IRealmObject</a></div>
+      <div><a class="xref" href="https://github.com/realm/realm-dotnet/blob/Dev/Realm/Realm/DatabaseTypes/IRealmObjectBase.cs">IRealmObjectBase</a></div>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.componentmodel.inotifypropertychanged">INotifyPropertyChanged</a></div>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.reflection.ireflectabletype">IReflectableType</a></div>
+    </dd>
+  </dl>
+
+
+  <dl class="typelist inheritedMembers">
+    <dt>Inherited Members</dt>
+    <dd>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">object.Equals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gettype">object.GetType()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone">object.MemberwiseClone()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals">object.ReferenceEquals(object, object)</a>
+    </div>
+  </dd></dl>
+
+
+
+
+
+
+  <h2 class="section" id="fields">Fields
+</h2>
+
+
+
+  <h3 id="SLS_Common_DTO_RealmObjects_WareHouse_WareHouseHURealmObject_RealmSchema" data-uid="SLS.Common.DTO.RealmObjects.WareHouse.WareHouseHURealmObject.RealmSchema">
+  RealmSchema
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Defines the schema for the <a class="xref" href="SLS.Common.DTO.RealmObjects.WareHouse.WareHouseHURealmObject.html">WareHouseHURealmObject</a> class.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obfuscation]
+public static ObjectSchema RealmSchema</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://github.com/realm/realm-dotnet/blob/Dev/Realm/Realm/Schema/ObjectSchema.cs">ObjectSchema</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="properties">Properties
+</h2>
+
+
+  <a id="SLS_Common_DTO_RealmObjects_WareHouse_WareHouseHURealmObject_Article_" data-uid="SLS.Common.DTO.RealmObjects.WareHouse.WareHouseHURealmObject.Article*"></a>
+
+  <h3 id="SLS_Common_DTO_RealmObjects_WareHouse_WareHouseHURealmObject_Article" data-uid="SLS.Common.DTO.RealmObjects.WareHouse.WareHouseHURealmObject.Article">
+  Article
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO.RealmObjects/WareHouse/WareHouseHURealmObject.cs/#L135"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ArticleTypeRealmObject? Article { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="SLS.Common.DTO.RealmObjects.MasterData.Article.ArticleTypeRealmObject.html">ArticleTypeRealmObject</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_RealmObjects_WareHouse_WareHouseHURealmObject_Article2_" data-uid="SLS.Common.DTO.RealmObjects.WareHouse.WareHouseHURealmObject.Article2*"></a>
+
+  <h3 id="SLS_Common_DTO_RealmObjects_WareHouse_WareHouseHURealmObject_Article2" data-uid="SLS.Common.DTO.RealmObjects.WareHouse.WareHouseHURealmObject.Article2">
+  Article2
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO.RealmObjects/WareHouse/WareHouseHURealmObject.cs/#L145"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ArticleTypeRealmObject? Article2 { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="SLS.Common.DTO.RealmObjects.MasterData.Article.ArticleTypeRealmObject.html">ArticleTypeRealmObject</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_RealmObjects_WareHouse_WareHouseHURealmObject_Article2ID_" data-uid="SLS.Common.DTO.RealmObjects.WareHouse.WareHouseHURealmObject.Article2ID*"></a>
+
+  <h3 id="SLS_Common_DTO_RealmObjects_WareHouse_WareHouseHURealmObject_Article2ID" data-uid="SLS.Common.DTO.RealmObjects.WareHouse.WareHouseHURealmObject.Article2ID">
+  Article2ID
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO.RealmObjects/WareHouse/WareHouseHURealmObject.cs/#L53"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual long? Article2ID { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_RealmObjects_WareHouse_WareHouseHURealmObject_ArticleID_" data-uid="SLS.Common.DTO.RealmObjects.WareHouse.WareHouseHURealmObject.ArticleID*"></a>
+
+  <h3 id="SLS_Common_DTO_RealmObjects_WareHouse_WareHouseHURealmObject_ArticleID" data-uid="SLS.Common.DTO.RealmObjects.WareHouse.WareHouseHURealmObject.ArticleID">
+  ArticleID
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO.RealmObjects/WareHouse/WareHouseHURealmObject.cs/#L43"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual long ArticleID { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_RealmObjects_WareHouse_WareHouseHURealmObject_ArticleQuantity_" data-uid="SLS.Common.DTO.RealmObjects.WareHouse.WareHouseHURealmObject.ArticleQuantity*"></a>
+
+  <h3 id="SLS_Common_DTO_RealmObjects_WareHouse_WareHouseHURealmObject_ArticleQuantity" data-uid="SLS.Common.DTO.RealmObjects.WareHouse.WareHouseHURealmObject.ArticleQuantity">
+  ArticleQuantity
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO.RealmObjects/WareHouse/WareHouseHURealmObject.cs/#L59"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public double? ArticleQuantity { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_RealmObjects_WareHouse_WareHouseHURealmObject_ArticleSerialNumber_" data-uid="SLS.Common.DTO.RealmObjects.WareHouse.WareHouseHURealmObject.ArticleSerialNumber*"></a>
+
+  <h3 id="SLS_Common_DTO_RealmObjects_WareHouse_WareHouseHURealmObject_ArticleSerialNumber" data-uid="SLS.Common.DTO.RealmObjects.WareHouse.WareHouseHURealmObject.ArticleSerialNumber">
+  ArticleSerialNumber
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO.RealmObjects/WareHouse/WareHouseHURealmObject.cs/#L60"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string? ArticleSerialNumber { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_RealmObjects_WareHouse_WareHouseHURealmObject_ArticleTypePackingStructureID_" data-uid="SLS.Common.DTO.RealmObjects.WareHouse.WareHouseHURealmObject.ArticleTypePackingStructureID*"></a>
+
+  <h3 id="SLS_Common_DTO_RealmObjects_WareHouse_WareHouseHURealmObject_ArticleTypePackingStructureID" data-uid="SLS.Common.DTO.RealmObjects.WareHouse.WareHouseHURealmObject.ArticleTypePackingStructureID">
+  ArticleTypePackingStructureID
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO.RealmObjects/WareHouse/WareHouseHURealmObject.cs/#L50"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual long? ArticleTypePackingStructureID { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_RealmObjects_WareHouse_WareHouseHURealmObject_BacklinksCount_" data-uid="SLS.Common.DTO.RealmObjects.WareHouse.WareHouseHURealmObject.BacklinksCount*"></a>
+
+  <h3 id="SLS_Common_DTO_RealmObjects_WareHouse_WareHouseHURealmObject_BacklinksCount" data-uid="SLS.Common.DTO.RealmObjects.WareHouse.WareHouseHURealmObject.BacklinksCount">
+  BacklinksCount
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Gets the number of objects referring to this one via either a to-one or to-many relationship.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[IgnoreDataMember]
+public int BacklinksCount { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd><p>The number of objects referring to this one.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_RealmObjects_WareHouse_WareHouseHURealmObject_BestBeforeDate_" data-uid="SLS.Common.DTO.RealmObjects.WareHouse.WareHouseHURealmObject.BestBeforeDate*"></a>
+
+  <h3 id="SLS_Common_DTO_RealmObjects_WareHouse_WareHouseHURealmObject_BestBeforeDate" data-uid="SLS.Common.DTO.RealmObjects.WareHouse.WareHouseHURealmObject.BestBeforeDate">
+  BestBeforeDate
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO.RealmObjects/WareHouse/WareHouseHURealmObject.cs/#L68"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public DateTimeOffset? BestBeforeDate { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.datetimeoffset">DateTimeOffset</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_RealmObjects_WareHouse_WareHouseHURealmObject_Company_ID_" data-uid="SLS.Common.DTO.RealmObjects.WareHouse.WareHouseHURealmObject.Company_ID*"></a>
+
+  <h3 id="SLS_Common_DTO_RealmObjects_WareHouse_WareHouseHURealmObject_Company_ID" data-uid="SLS.Common.DTO.RealmObjects.WareHouse.WareHouseHURealmObject.Company_ID">
+  Company_ID
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO.RealmObjects/WareHouse/WareHouseHURealmObject.cs/#L32"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public long? Company_ID { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_RealmObjects_WareHouse_WareHouseHURealmObject_ContainerNumber_" data-uid="SLS.Common.DTO.RealmObjects.WareHouse.WareHouseHURealmObject.ContainerNumber*"></a>
+
+  <h3 id="SLS_Common_DTO_RealmObjects_WareHouse_WareHouseHURealmObject_ContainerNumber" data-uid="SLS.Common.DTO.RealmObjects.WareHouse.WareHouseHURealmObject.ContainerNumber">
+  ContainerNumber
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO.RealmObjects/WareHouse/WareHouseHURealmObject.cs/#L76"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string? ContainerNumber { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_RealmObjects_WareHouse_WareHouseHURealmObject_CreatedDate_" data-uid="SLS.Common.DTO.RealmObjects.WareHouse.WareHouseHURealmObject.CreatedDate*"></a>
+
+  <h3 id="SLS_Common_DTO_RealmObjects_WareHouse_WareHouseHURealmObject_CreatedDate" data-uid="SLS.Common.DTO.RealmObjects.WareHouse.WareHouseHURealmObject.CreatedDate">
+  CreatedDate
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO.RealmObjects/WareHouse/WareHouseHURealmObject.cs/#L61"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public DateTimeOffset CreatedDate { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.datetimeoffset">DateTimeOffset</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_RealmObjects_WareHouse_WareHouseHURealmObject_CustomsMRN_" data-uid="SLS.Common.DTO.RealmObjects.WareHouse.WareHouseHURealmObject.CustomsMRN*"></a>
+
+  <h3 id="SLS_Common_DTO_RealmObjects_WareHouse_WareHouseHURealmObject_CustomsMRN" data-uid="SLS.Common.DTO.RealmObjects.WareHouse.WareHouseHURealmObject.CustomsMRN">
+  CustomsMRN
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO.RealmObjects/WareHouse/WareHouseHURealmObject.cs/#L81"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string? CustomsMRN { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_RealmObjects_WareHouse_WareHouseHURealmObject_CustomsReference_" data-uid="SLS.Common.DTO.RealmObjects.WareHouse.WareHouseHURealmObject.CustomsReference*"></a>
+
+  <h3 id="SLS_Common_DTO_RealmObjects_WareHouse_WareHouseHURealmObject_CustomsReference" data-uid="SLS.Common.DTO.RealmObjects.WareHouse.WareHouseHURealmObject.CustomsReference">
+  CustomsReference
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO.RealmObjects/WareHouse/WareHouseHURealmObject.cs/#L74"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string? CustomsReference { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_RealmObjects_WareHouse_WareHouseHURealmObject_CustomsReferenceOut_" data-uid="SLS.Common.DTO.RealmObjects.WareHouse.WareHouseHURealmObject.CustomsReferenceOut*"></a>
+
+  <h3 id="SLS_Common_DTO_RealmObjects_WareHouse_WareHouseHURealmObject_CustomsReferenceOut" data-uid="SLS.Common.DTO.RealmObjects.WareHouse.WareHouseHURealmObject.CustomsReferenceOut">
+  CustomsReferenceOut
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO.RealmObjects/WareHouse/WareHouseHURealmObject.cs/#L80"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string? CustomsReferenceOut { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_RealmObjects_WareHouse_WareHouseHURealmObject_CustomsReferencePos_" data-uid="SLS.Common.DTO.RealmObjects.WareHouse.WareHouseHURealmObject.CustomsReferencePos*"></a>
+
+  <h3 id="SLS_Common_DTO_RealmObjects_WareHouse_WareHouseHURealmObject_CustomsReferencePos" data-uid="SLS.Common.DTO.RealmObjects.WareHouse.WareHouseHURealmObject.CustomsReferencePos">
+  CustomsReferencePos
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO.RealmObjects/WareHouse/WareHouseHURealmObject.cs/#L78"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string? CustomsReferencePos { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_RealmObjects_WareHouse_WareHouseHURealmObject_CustomsReferenceRel_" data-uid="SLS.Common.DTO.RealmObjects.WareHouse.WareHouseHURealmObject.CustomsReferenceRel*"></a>
+
+  <h3 id="SLS_Common_DTO_RealmObjects_WareHouse_WareHouseHURealmObject_CustomsReferenceRel" data-uid="SLS.Common.DTO.RealmObjects.WareHouse.WareHouseHURealmObject.CustomsReferenceRel">
+  CustomsReferenceRel
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO.RealmObjects/WareHouse/WareHouseHURealmObject.cs/#L79"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string? CustomsReferenceRel { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_RealmObjects_WareHouse_WareHouseHURealmObject_CustomsStatus_" data-uid="SLS.Common.DTO.RealmObjects.WareHouse.WareHouseHURealmObject.CustomsStatus*"></a>
+
+  <h3 id="SLS_Common_DTO_RealmObjects_WareHouse_WareHouseHURealmObject_CustomsStatus" data-uid="SLS.Common.DTO.RealmObjects.WareHouse.WareHouseHURealmObject.CustomsStatus">
+  CustomsStatus
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO.RealmObjects/WareHouse/WareHouseHURealmObject.cs/#L77"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool? CustomsStatus { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_RealmObjects_WareHouse_WareHouseHURealmObject_CustomsValue_" data-uid="SLS.Common.DTO.RealmObjects.WareHouse.WareHouseHURealmObject.CustomsValue*"></a>
+
+  <h3 id="SLS_Common_DTO_RealmObjects_WareHouse_WareHouseHURealmObject_CustomsValue" data-uid="SLS.Common.DTO.RealmObjects.WareHouse.WareHouseHURealmObject.CustomsValue">
+  CustomsValue
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO.RealmObjects/WareHouse/WareHouseHURealmObject.cs/#L75"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public double? CustomsValue { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_RealmObjects_WareHouse_WareHouseHURealmObject_CustomsWarehouseProcID_" data-uid="SLS.Common.DTO.RealmObjects.WareHouse.WareHouseHURealmObject.CustomsWarehouseProcID*"></a>
+
+  <h3 id="SLS_Common_DTO_RealmObjects_WareHouse_WareHouseHURealmObject_CustomsWarehouseProcID" data-uid="SLS.Common.DTO.RealmObjects.WareHouse.WareHouseHURealmObject.CustomsWarehouseProcID">
+  CustomsWarehouseProcID
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO.RealmObjects/WareHouse/WareHouseHURealmObject.cs/#L49"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual long? CustomsWarehouseProcID { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_RealmObjects_WareHouse_WareHouseHURealmObject_DeliveryNote_" data-uid="SLS.Common.DTO.RealmObjects.WareHouse.WareHouseHURealmObject.DeliveryNote*"></a>
+
+  <h3 id="SLS_Common_DTO_RealmObjects_WareHouse_WareHouseHURealmObject_DeliveryNote" data-uid="SLS.Common.DTO.RealmObjects.WareHouse.WareHouseHURealmObject.DeliveryNote">
+  DeliveryNote
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO.RealmObjects/WareHouse/WareHouseHURealmObject.cs/#L63"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string? DeliveryNote { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_RealmObjects_WareHouse_WareHouseHURealmObject_Department_ID_" data-uid="SLS.Common.DTO.RealmObjects.WareHouse.WareHouseHURealmObject.Department_ID*"></a>
+
+  <h3 id="SLS_Common_DTO_RealmObjects_WareHouse_WareHouseHURealmObject_Department_ID" data-uid="SLS.Common.DTO.RealmObjects.WareHouse.WareHouseHURealmObject.Department_ID">
+  Department_ID
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO.RealmObjects/WareHouse/WareHouseHURealmObject.cs/#L34"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public long? Department_ID { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_RealmObjects_WareHouse_WareHouseHURealmObject_Details_" data-uid="SLS.Common.DTO.RealmObjects.WareHouse.WareHouseHURealmObject.Details*"></a>
+
+  <h3 id="SLS_Common_DTO_RealmObjects_WareHouse_WareHouseHURealmObject_Details" data-uid="SLS.Common.DTO.RealmObjects.WareHouse.WareHouseHURealmObject.Details">
+  Details
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO.RealmObjects/WareHouse/WareHouseHURealmObject.cs/#L111"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string? Details { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_RealmObjects_WareHouse_WareHouseHURealmObject_Division_ID_" data-uid="SLS.Common.DTO.RealmObjects.WareHouse.WareHouseHURealmObject.Division_ID*"></a>
+
+  <h3 id="SLS_Common_DTO_RealmObjects_WareHouse_WareHouseHURealmObject_Division_ID" data-uid="SLS.Common.DTO.RealmObjects.WareHouse.WareHouseHURealmObject.Division_ID">
+  Division_ID
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO.RealmObjects/WareHouse/WareHouseHURealmObject.cs/#L36"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public long? Division_ID { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_RealmObjects_WareHouse_WareHouseHURealmObject_DynamicApi_" data-uid="SLS.Common.DTO.RealmObjects.WareHouse.WareHouseHURealmObject.DynamicApi*"></a>
+
+  <h3 id="SLS_Common_DTO_RealmObjects_WareHouse_WareHouseHURealmObject_DynamicApi" data-uid="SLS.Common.DTO.RealmObjects.WareHouse.WareHouseHURealmObject.DynamicApi">
+  DynamicApi
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Gets an object encompassing the dynamic API for this Realm object instance.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[IgnoreDataMember]
+public DynamicObjectApi DynamicApi { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://github.com/realm/realm-dotnet/blob/Dev/Realm/Realm/Dynamic/DynamicObjectApi.cs">DynamicObjectApi</a></dt>
+    <dd><p>A <span class="xref">Realms.Dynamic</span> instance that wraps this Realm object.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_RealmObjects_WareHouse_WareHouseHURealmObject_FahrzeugID_" data-uid="SLS.Common.DTO.RealmObjects.WareHouse.WareHouseHURealmObject.FahrzeugID*"></a>
+
+  <h3 id="SLS_Common_DTO_RealmObjects_WareHouse_WareHouseHURealmObject_FahrzeugID" data-uid="SLS.Common.DTO.RealmObjects.WareHouse.WareHouseHURealmObject.FahrzeugID">
+  FahrzeugID
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO.RealmObjects/WareHouse/WareHouseHURealmObject.cs/#L122"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public long? FahrzeugID { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_RealmObjects_WareHouse_WareHouseHURealmObject_FiscalYear_ID_" data-uid="SLS.Common.DTO.RealmObjects.WareHouse.WareHouseHURealmObject.FiscalYear_ID*"></a>
+
+  <h3 id="SLS_Common_DTO_RealmObjects_WareHouse_WareHouseHURealmObject_FiscalYear_ID" data-uid="SLS.Common.DTO.RealmObjects.WareHouse.WareHouseHURealmObject.FiscalYear_ID">
+  FiscalYear_ID
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO.RealmObjects/WareHouse/WareHouseHURealmObject.cs/#L35"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public long? FiscalYear_ID { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_RealmObjects_WareHouse_WareHouseHURealmObject_GoodsInOrder_" data-uid="SLS.Common.DTO.RealmObjects.WareHouse.WareHouseHURealmObject.GoodsInOrder*"></a>
+
+  <h3 id="SLS_Common_DTO_RealmObjects_WareHouse_WareHouseHURealmObject_GoodsInOrder" data-uid="SLS.Common.DTO.RealmObjects.WareHouse.WareHouseHURealmObject.GoodsInOrder">
+  GoodsInOrder
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO.RealmObjects/WareHouse/WareHouseHURealmObject.cs/#L137"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public GoodsInOrderRealmObject? GoodsInOrder { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="SLS.Common.DTO.RealmObjects.WareHouse.GoodsInOrderRealmObject.html">GoodsInOrderRealmObject</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_RealmObjects_WareHouse_WareHouseHURealmObject_GoodsInOrderID_" data-uid="SLS.Common.DTO.RealmObjects.WareHouse.WareHouseHURealmObject.GoodsInOrderID*"></a>
+
+  <h3 id="SLS_Common_DTO_RealmObjects_WareHouse_WareHouseHURealmObject_GoodsInOrderID" data-uid="SLS.Common.DTO.RealmObjects.WareHouse.WareHouseHURealmObject.GoodsInOrderID">
+  GoodsInOrderID
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO.RealmObjects/WareHouse/WareHouseHURealmObject.cs/#L44"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual long? GoodsInOrderID { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_RealmObjects_WareHouse_WareHouseHURealmObject_GoodsInOrderItemID_" data-uid="SLS.Common.DTO.RealmObjects.WareHouse.WareHouseHURealmObject.GoodsInOrderItemID*"></a>
+
+  <h3 id="SLS_Common_DTO_RealmObjects_WareHouse_WareHouseHURealmObject_GoodsInOrderItemID" data-uid="SLS.Common.DTO.RealmObjects.WareHouse.WareHouseHURealmObject.GoodsInOrderItemID">
+  GoodsInOrderItemID
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO.RealmObjects/WareHouse/WareHouseHURealmObject.cs/#L47"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual long? GoodsInOrderItemID { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_RealmObjects_WareHouse_WareHouseHURealmObject_GoodsOutOrder_" data-uid="SLS.Common.DTO.RealmObjects.WareHouse.WareHouseHURealmObject.GoodsOutOrder*"></a>
+
+  <h3 id="SLS_Common_DTO_RealmObjects_WareHouse_WareHouseHURealmObject_GoodsOutOrder" data-uid="SLS.Common.DTO.RealmObjects.WareHouse.WareHouseHURealmObject.GoodsOutOrder">
+  GoodsOutOrder
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO.RealmObjects/WareHouse/WareHouseHURealmObject.cs/#L139"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public GoodsOutOrderRealmObject? GoodsOutOrder { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="SLS.Common.DTO.RealmObjects.WareHouse.GoodsOutOrderRealmObject.html">GoodsOutOrderRealmObject</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_RealmObjects_WareHouse_WareHouseHURealmObject_GoodsOutOrderID_" data-uid="SLS.Common.DTO.RealmObjects.WareHouse.WareHouseHURealmObject.GoodsOutOrderID*"></a>
+
+  <h3 id="SLS_Common_DTO_RealmObjects_WareHouse_WareHouseHURealmObject_GoodsOutOrderID" data-uid="SLS.Common.DTO.RealmObjects.WareHouse.WareHouseHURealmObject.GoodsOutOrderID">
+  GoodsOutOrderID
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO.RealmObjects/WareHouse/WareHouseHURealmObject.cs/#L45"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual long? GoodsOutOrderID { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_RealmObjects_WareHouse_WareHouseHURealmObject_GoodsOutOrderItemID_" data-uid="SLS.Common.DTO.RealmObjects.WareHouse.WareHouseHURealmObject.GoodsOutOrderItemID*"></a>
+
+  <h3 id="SLS_Common_DTO_RealmObjects_WareHouse_WareHouseHURealmObject_GoodsOutOrderItemID" data-uid="SLS.Common.DTO.RealmObjects.WareHouse.WareHouseHURealmObject.GoodsOutOrderItemID">
+  GoodsOutOrderItemID
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO.RealmObjects/WareHouse/WareHouseHURealmObject.cs/#L48"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual long? GoodsOutOrderItemID { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_RealmObjects_WareHouse_WareHouseHURealmObject_Height_" data-uid="SLS.Common.DTO.RealmObjects.WareHouse.WareHouseHURealmObject.Height*"></a>
+
+  <h3 id="SLS_Common_DTO_RealmObjects_WareHouse_WareHouseHURealmObject_Height" data-uid="SLS.Common.DTO.RealmObjects.WareHouse.WareHouseHURealmObject.Height">
+  Height
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO.RealmObjects/WareHouse/WareHouseHURealmObject.cs/#L73"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public double? Height { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_RealmObjects_WareHouse_WareHouseHURealmObject_Id_" data-uid="SLS.Common.DTO.RealmObjects.WareHouse.WareHouseHURealmObject.Id*"></a>
+
+  <h3 id="SLS_Common_DTO_RealmObjects_WareHouse_WareHouseHURealmObject_Id" data-uid="SLS.Common.DTO.RealmObjects.WareHouse.WareHouseHURealmObject.Id">
+  Id
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO.RealmObjects/WareHouse/WareHouseHURealmObject.cs/#L29"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[PrimaryKey]
+public long Id { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_RealmObjects_WareHouse_WareHouseHURealmObject_Info_" data-uid="SLS.Common.DTO.RealmObjects.WareHouse.WareHouseHURealmObject.Info*"></a>
+
+  <h3 id="SLS_Common_DTO_RealmObjects_WareHouse_WareHouseHURealmObject_Info" data-uid="SLS.Common.DTO.RealmObjects.WareHouse.WareHouseHURealmObject.Info">
+  Info
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO.RealmObjects/WareHouse/WareHouseHURealmObject.cs/#L109"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string? Info { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_RealmObjects_WareHouse_WareHouseHURealmObject_IsFrozen_" data-uid="SLS.Common.DTO.RealmObjects.WareHouse.WareHouseHURealmObject.IsFrozen*"></a>
+
+  <h3 id="SLS_Common_DTO_RealmObjects_WareHouse_WareHouseHURealmObject_IsFrozen" data-uid="SLS.Common.DTO.RealmObjects.WareHouse.WareHouseHURealmObject.IsFrozen">
+  IsFrozen
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Gets a value indicating whether this object is frozen. Frozen objects are immutable
+and will not update when writes are made to the Realm. Unlike live objects, frozen
+objects can be used across threads.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[IgnoreDataMember]
+public bool IsFrozen { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd><p><code>true</code> if the object is frozen and immutable; <code>false</code> otherwise.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+  <dl class="typelist seealso">
+    <dt>See Also</dt>
+    <dd>
+    <div><span class="xref">Freeze</span>&lt;T&gt;(T)</div>
+    </dd>
+  </dl>
+
+
+  <a id="SLS_Common_DTO_RealmObjects_WareHouse_WareHouseHURealmObject_IsManaged_" data-uid="SLS.Common.DTO.RealmObjects.WareHouse.WareHouseHURealmObject.IsManaged*"></a>
+
+  <h3 id="SLS_Common_DTO_RealmObjects_WareHouse_WareHouseHURealmObject_IsManaged" data-uid="SLS.Common.DTO.RealmObjects.WareHouse.WareHouseHURealmObject.IsManaged">
+  IsManaged
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Gets a value indicating whether the object has been associated with a Realm, either at creation or via
+<a class="xref" href="https://github.com/realm/realm-dotnet/blob/Dev/Realm/Realm/Realm.cs">Add&lt;T&gt;(T, bool)</a>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[IgnoreDataMember]
+public bool IsManaged { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd><p><code>true</code> if object belongs to a Realm; <code>false</code> if standalone.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_RealmObjects_WareHouse_WareHouseHURealmObject_IsValid_" data-uid="SLS.Common.DTO.RealmObjects.WareHouse.WareHouseHURealmObject.IsValid*"></a>
+
+  <h3 id="SLS_Common_DTO_RealmObjects_WareHouse_WareHouseHURealmObject_IsValid" data-uid="SLS.Common.DTO.RealmObjects.WareHouse.WareHouseHURealmObject.IsValid">
+  IsValid
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Gets a value indicating whether this object is managed and represents a row in the database.
+If a managed object has been removed from the Realm, it is no longer valid and accessing properties on it
+will throw an exception.
+Unmanaged objects are always considered valid.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[IgnoreDataMember]
+public bool IsValid { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd><p><code>true</code> if managed and part of the Realm or unmanaged; <code>false</code> if managed but deleted.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_RealmObjects_WareHouse_WareHouseHURealmObject_LastStatusChangeInfo_" data-uid="SLS.Common.DTO.RealmObjects.WareHouse.WareHouseHURealmObject.LastStatusChangeInfo*"></a>
+
+  <h3 id="SLS_Common_DTO_RealmObjects_WareHouse_WareHouseHURealmObject_LastStatusChangeInfo" data-uid="SLS.Common.DTO.RealmObjects.WareHouse.WareHouseHURealmObject.LastStatusChangeInfo">
+  LastStatusChangeInfo
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO.RealmObjects/WareHouse/WareHouseHURealmObject.cs/#L128"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string? LastStatusChangeInfo { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_RealmObjects_WareHouse_WareHouseHURealmObject_LastStatusChangeUserID_" data-uid="SLS.Common.DTO.RealmObjects.WareHouse.WareHouseHURealmObject.LastStatusChangeUserID*"></a>
+
+  <h3 id="SLS_Common_DTO_RealmObjects_WareHouse_WareHouseHURealmObject_LastStatusChangeUserID" data-uid="SLS.Common.DTO.RealmObjects.WareHouse.WareHouseHURealmObject.LastStatusChangeUserID">
+  LastStatusChangeUserID
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO.RealmObjects/WareHouse/WareHouseHURealmObject.cs/#L106"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public long? LastStatusChangeUserID { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_RealmObjects_WareHouse_WareHouseHURealmObject_LastStatusChanged_" data-uid="SLS.Common.DTO.RealmObjects.WareHouse.WareHouseHURealmObject.LastStatusChanged*"></a>
+
+  <h3 id="SLS_Common_DTO_RealmObjects_WareHouse_WareHouseHURealmObject_LastStatusChanged" data-uid="SLS.Common.DTO.RealmObjects.WareHouse.WareHouseHURealmObject.LastStatusChanged">
+  LastStatusChanged
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO.RealmObjects/WareHouse/WareHouseHURealmObject.cs/#L105"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public DateTimeOffset? LastStatusChanged { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.datetimeoffset">DateTimeOffset</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_RealmObjects_WareHouse_WareHouseHURealmObject_Length_" data-uid="SLS.Common.DTO.RealmObjects.WareHouse.WareHouseHURealmObject.Length*"></a>
+
+  <h3 id="SLS_Common_DTO_RealmObjects_WareHouse_WareHouseHURealmObject_Length" data-uid="SLS.Common.DTO.RealmObjects.WareHouse.WareHouseHURealmObject.Length">
+  Length
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO.RealmObjects/WareHouse/WareHouseHURealmObject.cs/#L71"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public double? Length { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_RealmObjects_WareHouse_WareHouseHURealmObject_LoadingEq_" data-uid="SLS.Common.DTO.RealmObjects.WareHouse.WareHouseHURealmObject.LoadingEq*"></a>
+
+  <h3 id="SLS_Common_DTO_RealmObjects_WareHouse_WareHouseHURealmObject_LoadingEq" data-uid="SLS.Common.DTO.RealmObjects.WareHouse.WareHouseHURealmObject.LoadingEq">
+  LoadingEq
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO.RealmObjects/WareHouse/WareHouseHURealmObject.cs/#L143"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ArticleTypeRealmObject? LoadingEq { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="SLS.Common.DTO.RealmObjects.MasterData.Article.ArticleTypeRealmObject.html">ArticleTypeRealmObject</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_RealmObjects_WareHouse_WareHouseHURealmObject_LoadingEqID_" data-uid="SLS.Common.DTO.RealmObjects.WareHouse.WareHouseHURealmObject.LoadingEqID*"></a>
+
+  <h3 id="SLS_Common_DTO_RealmObjects_WareHouse_WareHouseHURealmObject_LoadingEqID" data-uid="SLS.Common.DTO.RealmObjects.WareHouse.WareHouseHURealmObject.LoadingEqID">
+  LoadingEqID
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO.RealmObjects/WareHouse/WareHouseHURealmObject.cs/#L51"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual long? LoadingEqID { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_RealmObjects_WareHouse_WareHouseHURealmObject_LoadingEqQuantity_" data-uid="SLS.Common.DTO.RealmObjects.WareHouse.WareHouseHURealmObject.LoadingEqQuantity*"></a>
+
+  <h3 id="SLS_Common_DTO_RealmObjects_WareHouse_WareHouseHURealmObject_LoadingEqQuantity" data-uid="SLS.Common.DTO.RealmObjects.WareHouse.WareHouseHURealmObject.LoadingEqQuantity">
+  LoadingEqQuantity
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO.RealmObjects/WareHouse/WareHouseHURealmObject.cs/#L103"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public long? LoadingEqQuantity { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_RealmObjects_WareHouse_WareHouseHURealmObject_LotNumber_" data-uid="SLS.Common.DTO.RealmObjects.WareHouse.WareHouseHURealmObject.LotNumber*"></a>
+
+  <h3 id="SLS_Common_DTO_RealmObjects_WareHouse_WareHouseHURealmObject_LotNumber" data-uid="SLS.Common.DTO.RealmObjects.WareHouse.WareHouseHURealmObject.LotNumber">
+  LotNumber
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO.RealmObjects/WareHouse/WareHouseHURealmObject.cs/#L70"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string? LotNumber { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_RealmObjects_WareHouse_WareHouseHURealmObject_Marking_" data-uid="SLS.Common.DTO.RealmObjects.WareHouse.WareHouseHURealmObject.Marking*"></a>
+
+  <h3 id="SLS_Common_DTO_RealmObjects_WareHouse_WareHouseHURealmObject_Marking" data-uid="SLS.Common.DTO.RealmObjects.WareHouse.WareHouseHURealmObject.Marking">
+  Marking
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO.RealmObjects/WareHouse/WareHouseHURealmObject.cs/#L65"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string? Marking { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_RealmObjects_WareHouse_WareHouseHURealmObject_ObjectSchema_" data-uid="SLS.Common.DTO.RealmObjects.WareHouse.WareHouseHURealmObject.ObjectSchema*"></a>
+
+  <h3 id="SLS_Common_DTO_RealmObjects_WareHouse_WareHouseHURealmObject_ObjectSchema" data-uid="SLS.Common.DTO.RealmObjects.WareHouse.WareHouseHURealmObject.ObjectSchema">
+  ObjectSchema
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Gets the <a class="xref" href="https://github.com/realm/realm-dotnet/blob/Dev/Realm/Realm/Schema/ObjectSchema.cs">ObjectSchema</a> instance that describes how the <a class="xref" href="https://github.com/realm/realm-dotnet/blob/Dev/Realm/Realm/DatabaseTypes/IRealmObjectBase.cs">Realm</a> this object belongs to sees it.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[IgnoreDataMember]
+public ObjectSchema ObjectSchema { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://github.com/realm/realm-dotnet/blob/Dev/Realm/Realm/Schema/ObjectSchema.cs">ObjectSchema</a></dt>
+    <dd><p>A collection of properties describing the underlying schema of this object.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_RealmObjects_WareHouse_WareHouseHURealmObject_OptionalString11_" data-uid="SLS.Common.DTO.RealmObjects.WareHouse.WareHouseHURealmObject.OptionalString11*"></a>
+
+  <h3 id="SLS_Common_DTO_RealmObjects_WareHouse_WareHouseHURealmObject_OptionalString11" data-uid="SLS.Common.DTO.RealmObjects.WareHouse.WareHouseHURealmObject.OptionalString11">
+  OptionalString11
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO.RealmObjects/WareHouse/WareHouseHURealmObject.cs/#L123"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string? OptionalString11 { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_RealmObjects_WareHouse_WareHouseHURealmObject_OptionalString12_" data-uid="SLS.Common.DTO.RealmObjects.WareHouse.WareHouseHURealmObject.OptionalString12*"></a>
+
+  <h3 id="SLS_Common_DTO_RealmObjects_WareHouse_WareHouseHURealmObject_OptionalString12" data-uid="SLS.Common.DTO.RealmObjects.WareHouse.WareHouseHURealmObject.OptionalString12">
+  OptionalString12
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO.RealmObjects/WareHouse/WareHouseHURealmObject.cs/#L124"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string? OptionalString12 { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_RealmObjects_WareHouse_WareHouseHURealmObject_OptionalString13_" data-uid="SLS.Common.DTO.RealmObjects.WareHouse.WareHouseHURealmObject.OptionalString13*"></a>
+
+  <h3 id="SLS_Common_DTO_RealmObjects_WareHouse_WareHouseHURealmObject_OptionalString13" data-uid="SLS.Common.DTO.RealmObjects.WareHouse.WareHouseHURealmObject.OptionalString13">
+  OptionalString13
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO.RealmObjects/WareHouse/WareHouseHURealmObject.cs/#L125"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string? OptionalString13 { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_RealmObjects_WareHouse_WareHouseHURealmObject_OptionalString14_" data-uid="SLS.Common.DTO.RealmObjects.WareHouse.WareHouseHURealmObject.OptionalString14*"></a>
+
+  <h3 id="SLS_Common_DTO_RealmObjects_WareHouse_WareHouseHURealmObject_OptionalString14" data-uid="SLS.Common.DTO.RealmObjects.WareHouse.WareHouseHURealmObject.OptionalString14">
+  OptionalString14
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO.RealmObjects/WareHouse/WareHouseHURealmObject.cs/#L126"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string? OptionalString14 { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_RealmObjects_WareHouse_WareHouseHURealmObject_OptionalString15_" data-uid="SLS.Common.DTO.RealmObjects.WareHouse.WareHouseHURealmObject.OptionalString15*"></a>
+
+  <h3 id="SLS_Common_DTO_RealmObjects_WareHouse_WareHouseHURealmObject_OptionalString15" data-uid="SLS.Common.DTO.RealmObjects.WareHouse.WareHouseHURealmObject.OptionalString15">
+  OptionalString15
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO.RealmObjects/WareHouse/WareHouseHURealmObject.cs/#L127"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string? OptionalString15 { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_RealmObjects_WareHouse_WareHouseHURealmObject_Optional_Bool1_" data-uid="SLS.Common.DTO.RealmObjects.WareHouse.WareHouseHURealmObject.Optional_Bool1*"></a>
+
+  <h3 id="SLS_Common_DTO_RealmObjects_WareHouse_WareHouseHURealmObject_Optional_Bool1" data-uid="SLS.Common.DTO.RealmObjects.WareHouse.WareHouseHURealmObject.Optional_Bool1">
+  Optional_Bool1
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO.RealmObjects/WareHouse/WareHouseHURealmObject.cs/#L95"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool? Optional_Bool1 { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_RealmObjects_WareHouse_WareHouseHURealmObject_Optional_Bool2_" data-uid="SLS.Common.DTO.RealmObjects.WareHouse.WareHouseHURealmObject.Optional_Bool2*"></a>
+
+  <h3 id="SLS_Common_DTO_RealmObjects_WareHouse_WareHouseHURealmObject_Optional_Bool2" data-uid="SLS.Common.DTO.RealmObjects.WareHouse.WareHouseHURealmObject.Optional_Bool2">
+  Optional_Bool2
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO.RealmObjects/WareHouse/WareHouseHURealmObject.cs/#L96"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool? Optional_Bool2 { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_RealmObjects_WareHouse_WareHouseHURealmObject_Optional_Bool3_" data-uid="SLS.Common.DTO.RealmObjects.WareHouse.WareHouseHURealmObject.Optional_Bool3*"></a>
+
+  <h3 id="SLS_Common_DTO_RealmObjects_WareHouse_WareHouseHURealmObject_Optional_Bool3" data-uid="SLS.Common.DTO.RealmObjects.WareHouse.WareHouseHURealmObject.Optional_Bool3">
+  Optional_Bool3
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO.RealmObjects/WareHouse/WareHouseHURealmObject.cs/#L97"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool? Optional_Bool3 { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_RealmObjects_WareHouse_WareHouseHURealmObject_Optional_Date1_" data-uid="SLS.Common.DTO.RealmObjects.WareHouse.WareHouseHURealmObject.Optional_Date1*"></a>
+
+  <h3 id="SLS_Common_DTO_RealmObjects_WareHouse_WareHouseHURealmObject_Optional_Date1" data-uid="SLS.Common.DTO.RealmObjects.WareHouse.WareHouseHURealmObject.Optional_Date1">
+  Optional_Date1
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO.RealmObjects/WareHouse/WareHouseHURealmObject.cs/#L92"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public DateTimeOffset? Optional_Date1 { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.datetimeoffset">DateTimeOffset</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_RealmObjects_WareHouse_WareHouseHURealmObject_Optional_Date2_" data-uid="SLS.Common.DTO.RealmObjects.WareHouse.WareHouseHURealmObject.Optional_Date2*"></a>
+
+  <h3 id="SLS_Common_DTO_RealmObjects_WareHouse_WareHouseHURealmObject_Optional_Date2" data-uid="SLS.Common.DTO.RealmObjects.WareHouse.WareHouseHURealmObject.Optional_Date2">
+  Optional_Date2
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO.RealmObjects/WareHouse/WareHouseHURealmObject.cs/#L93"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public DateTimeOffset? Optional_Date2 { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.datetimeoffset">DateTimeOffset</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_RealmObjects_WareHouse_WareHouseHURealmObject_Optional_Date3_" data-uid="SLS.Common.DTO.RealmObjects.WareHouse.WareHouseHURealmObject.Optional_Date3*"></a>
+
+  <h3 id="SLS_Common_DTO_RealmObjects_WareHouse_WareHouseHURealmObject_Optional_Date3" data-uid="SLS.Common.DTO.RealmObjects.WareHouse.WareHouseHURealmObject.Optional_Date3">
+  Optional_Date3
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO.RealmObjects/WareHouse/WareHouseHURealmObject.cs/#L94"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public DateTimeOffset? Optional_Date3 { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.datetimeoffset">DateTimeOffset</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_RealmObjects_WareHouse_WareHouseHURealmObject_Optional_Float1_" data-uid="SLS.Common.DTO.RealmObjects.WareHouse.WareHouseHURealmObject.Optional_Float1*"></a>
+
+  <h3 id="SLS_Common_DTO_RealmObjects_WareHouse_WareHouseHURealmObject_Optional_Float1" data-uid="SLS.Common.DTO.RealmObjects.WareHouse.WareHouseHURealmObject.Optional_Float1">
+  Optional_Float1
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO.RealmObjects/WareHouse/WareHouseHURealmObject.cs/#L99"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public double? Optional_Float1 { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_RealmObjects_WareHouse_WareHouseHURealmObject_Optional_Float2_" data-uid="SLS.Common.DTO.RealmObjects.WareHouse.WareHouseHURealmObject.Optional_Float2*"></a>
+
+  <h3 id="SLS_Common_DTO_RealmObjects_WareHouse_WareHouseHURealmObject_Optional_Float2" data-uid="SLS.Common.DTO.RealmObjects.WareHouse.WareHouseHURealmObject.Optional_Float2">
+  Optional_Float2
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO.RealmObjects/WareHouse/WareHouseHURealmObject.cs/#L98"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public double? Optional_Float2 { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_RealmObjects_WareHouse_WareHouseHURealmObject_Optional_Float3_" data-uid="SLS.Common.DTO.RealmObjects.WareHouse.WareHouseHURealmObject.Optional_Float3*"></a>
+
+  <h3 id="SLS_Common_DTO_RealmObjects_WareHouse_WareHouseHURealmObject_Optional_Float3" data-uid="SLS.Common.DTO.RealmObjects.WareHouse.WareHouseHURealmObject.Optional_Float3">
+  Optional_Float3
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO.RealmObjects/WareHouse/WareHouseHURealmObject.cs/#L100"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public double? Optional_Float3 { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_RealmObjects_WareHouse_WareHouseHURealmObject_Optional_Num1_" data-uid="SLS.Common.DTO.RealmObjects.WareHouse.WareHouseHURealmObject.Optional_Num1*"></a>
+
+  <h3 id="SLS_Common_DTO_RealmObjects_WareHouse_WareHouseHURealmObject_Optional_Num1" data-uid="SLS.Common.DTO.RealmObjects.WareHouse.WareHouseHURealmObject.Optional_Num1">
+  Optional_Num1
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO.RealmObjects/WareHouse/WareHouseHURealmObject.cs/#L87"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int? Optional_Num1 { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_RealmObjects_WareHouse_WareHouseHURealmObject_Optional_Num10_" data-uid="SLS.Common.DTO.RealmObjects.WareHouse.WareHouseHURealmObject.Optional_Num10*"></a>
+
+  <h3 id="SLS_Common_DTO_RealmObjects_WareHouse_WareHouseHURealmObject_Optional_Num10" data-uid="SLS.Common.DTO.RealmObjects.WareHouse.WareHouseHURealmObject.Optional_Num10">
+  Optional_Num10
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO.RealmObjects/WareHouse/WareHouseHURealmObject.cs/#L121"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public long? Optional_Num10 { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_RealmObjects_WareHouse_WareHouseHURealmObject_Optional_Num2_" data-uid="SLS.Common.DTO.RealmObjects.WareHouse.WareHouseHURealmObject.Optional_Num2*"></a>
+
+  <h3 id="SLS_Common_DTO_RealmObjects_WareHouse_WareHouseHURealmObject_Optional_Num2" data-uid="SLS.Common.DTO.RealmObjects.WareHouse.WareHouseHURealmObject.Optional_Num2">
+  Optional_Num2
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO.RealmObjects/WareHouse/WareHouseHURealmObject.cs/#L88"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int? Optional_Num2 { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_RealmObjects_WareHouse_WareHouseHURealmObject_Optional_Num3_" data-uid="SLS.Common.DTO.RealmObjects.WareHouse.WareHouseHURealmObject.Optional_Num3*"></a>
+
+  <h3 id="SLS_Common_DTO_RealmObjects_WareHouse_WareHouseHURealmObject_Optional_Num3" data-uid="SLS.Common.DTO.RealmObjects.WareHouse.WareHouseHURealmObject.Optional_Num3">
+  Optional_Num3
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO.RealmObjects/WareHouse/WareHouseHURealmObject.cs/#L89"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int? Optional_Num3 { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_RealmObjects_WareHouse_WareHouseHURealmObject_Optional_Num4_" data-uid="SLS.Common.DTO.RealmObjects.WareHouse.WareHouseHURealmObject.Optional_Num4*"></a>
+
+  <h3 id="SLS_Common_DTO_RealmObjects_WareHouse_WareHouseHURealmObject_Optional_Num4" data-uid="SLS.Common.DTO.RealmObjects.WareHouse.WareHouseHURealmObject.Optional_Num4">
+  Optional_Num4
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO.RealmObjects/WareHouse/WareHouseHURealmObject.cs/#L90"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int? Optional_Num4 { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_RealmObjects_WareHouse_WareHouseHURealmObject_Optional_Num5_" data-uid="SLS.Common.DTO.RealmObjects.WareHouse.WareHouseHURealmObject.Optional_Num5*"></a>
+
+  <h3 id="SLS_Common_DTO_RealmObjects_WareHouse_WareHouseHURealmObject_Optional_Num5" data-uid="SLS.Common.DTO.RealmObjects.WareHouse.WareHouseHURealmObject.Optional_Num5">
+  Optional_Num5
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO.RealmObjects/WareHouse/WareHouseHURealmObject.cs/#L91"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int? Optional_Num5 { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_RealmObjects_WareHouse_WareHouseHURealmObject_Optional_Num6_" data-uid="SLS.Common.DTO.RealmObjects.WareHouse.WareHouseHURealmObject.Optional_Num6*"></a>
+
+  <h3 id="SLS_Common_DTO_RealmObjects_WareHouse_WareHouseHURealmObject_Optional_Num6" data-uid="SLS.Common.DTO.RealmObjects.WareHouse.WareHouseHURealmObject.Optional_Num6">
+  Optional_Num6
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO.RealmObjects/WareHouse/WareHouseHURealmObject.cs/#L117"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public long? Optional_Num6 { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_RealmObjects_WareHouse_WareHouseHURealmObject_Optional_Num7_" data-uid="SLS.Common.DTO.RealmObjects.WareHouse.WareHouseHURealmObject.Optional_Num7*"></a>
+
+  <h3 id="SLS_Common_DTO_RealmObjects_WareHouse_WareHouseHURealmObject_Optional_Num7" data-uid="SLS.Common.DTO.RealmObjects.WareHouse.WareHouseHURealmObject.Optional_Num7">
+  Optional_Num7
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO.RealmObjects/WareHouse/WareHouseHURealmObject.cs/#L118"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public long? Optional_Num7 { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_RealmObjects_WareHouse_WareHouseHURealmObject_Optional_Num8_" data-uid="SLS.Common.DTO.RealmObjects.WareHouse.WareHouseHURealmObject.Optional_Num8*"></a>
+
+  <h3 id="SLS_Common_DTO_RealmObjects_WareHouse_WareHouseHURealmObject_Optional_Num8" data-uid="SLS.Common.DTO.RealmObjects.WareHouse.WareHouseHURealmObject.Optional_Num8">
+  Optional_Num8
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO.RealmObjects/WareHouse/WareHouseHURealmObject.cs/#L119"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public long? Optional_Num8 { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_RealmObjects_WareHouse_WareHouseHURealmObject_Optional_Num9_" data-uid="SLS.Common.DTO.RealmObjects.WareHouse.WareHouseHURealmObject.Optional_Num9*"></a>
+
+  <h3 id="SLS_Common_DTO_RealmObjects_WareHouse_WareHouseHURealmObject_Optional_Num9" data-uid="SLS.Common.DTO.RealmObjects.WareHouse.WareHouseHURealmObject.Optional_Num9">
+  Optional_Num9
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO.RealmObjects/WareHouse/WareHouseHURealmObject.cs/#L120"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public long? Optional_Num9 { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_RealmObjects_WareHouse_WareHouseHURealmObject_Optional_String1_" data-uid="SLS.Common.DTO.RealmObjects.WareHouse.WareHouseHURealmObject.Optional_String1*"></a>
+
+  <h3 id="SLS_Common_DTO_RealmObjects_WareHouse_WareHouseHURealmObject_Optional_String1" data-uid="SLS.Common.DTO.RealmObjects.WareHouse.WareHouseHURealmObject.Optional_String1">
+  Optional_String1
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO.RealmObjects/WareHouse/WareHouseHURealmObject.cs/#L82"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string? Optional_String1 { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_RealmObjects_WareHouse_WareHouseHURealmObject_Optional_String10_" data-uid="SLS.Common.DTO.RealmObjects.WareHouse.WareHouseHURealmObject.Optional_String10*"></a>
+
+  <h3 id="SLS_Common_DTO_RealmObjects_WareHouse_WareHouseHURealmObject_Optional_String10" data-uid="SLS.Common.DTO.RealmObjects.WareHouse.WareHouseHURealmObject.Optional_String10">
+  Optional_String10
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO.RealmObjects/WareHouse/WareHouseHURealmObject.cs/#L116"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string? Optional_String10 { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_RealmObjects_WareHouse_WareHouseHURealmObject_Optional_String2_" data-uid="SLS.Common.DTO.RealmObjects.WareHouse.WareHouseHURealmObject.Optional_String2*"></a>
+
+  <h3 id="SLS_Common_DTO_RealmObjects_WareHouse_WareHouseHURealmObject_Optional_String2" data-uid="SLS.Common.DTO.RealmObjects.WareHouse.WareHouseHURealmObject.Optional_String2">
+  Optional_String2
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO.RealmObjects/WareHouse/WareHouseHURealmObject.cs/#L83"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string? Optional_String2 { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_RealmObjects_WareHouse_WareHouseHURealmObject_Optional_String3_" data-uid="SLS.Common.DTO.RealmObjects.WareHouse.WareHouseHURealmObject.Optional_String3*"></a>
+
+  <h3 id="SLS_Common_DTO_RealmObjects_WareHouse_WareHouseHURealmObject_Optional_String3" data-uid="SLS.Common.DTO.RealmObjects.WareHouse.WareHouseHURealmObject.Optional_String3">
+  Optional_String3
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO.RealmObjects/WareHouse/WareHouseHURealmObject.cs/#L84"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string? Optional_String3 { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_RealmObjects_WareHouse_WareHouseHURealmObject_Optional_String4_" data-uid="SLS.Common.DTO.RealmObjects.WareHouse.WareHouseHURealmObject.Optional_String4*"></a>
+
+  <h3 id="SLS_Common_DTO_RealmObjects_WareHouse_WareHouseHURealmObject_Optional_String4" data-uid="SLS.Common.DTO.RealmObjects.WareHouse.WareHouseHURealmObject.Optional_String4">
+  Optional_String4
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO.RealmObjects/WareHouse/WareHouseHURealmObject.cs/#L85"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string? Optional_String4 { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_RealmObjects_WareHouse_WareHouseHURealmObject_Optional_String5_" data-uid="SLS.Common.DTO.RealmObjects.WareHouse.WareHouseHURealmObject.Optional_String5*"></a>
+
+  <h3 id="SLS_Common_DTO_RealmObjects_WareHouse_WareHouseHURealmObject_Optional_String5" data-uid="SLS.Common.DTO.RealmObjects.WareHouse.WareHouseHURealmObject.Optional_String5">
+  Optional_String5
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO.RealmObjects/WareHouse/WareHouseHURealmObject.cs/#L86"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string? Optional_String5 { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_RealmObjects_WareHouse_WareHouseHURealmObject_Optional_String6_" data-uid="SLS.Common.DTO.RealmObjects.WareHouse.WareHouseHURealmObject.Optional_String6*"></a>
+
+  <h3 id="SLS_Common_DTO_RealmObjects_WareHouse_WareHouseHURealmObject_Optional_String6" data-uid="SLS.Common.DTO.RealmObjects.WareHouse.WareHouseHURealmObject.Optional_String6">
+  Optional_String6
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO.RealmObjects/WareHouse/WareHouseHURealmObject.cs/#L112"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string? Optional_String6 { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_RealmObjects_WareHouse_WareHouseHURealmObject_Optional_String7_" data-uid="SLS.Common.DTO.RealmObjects.WareHouse.WareHouseHURealmObject.Optional_String7*"></a>
+
+  <h3 id="SLS_Common_DTO_RealmObjects_WareHouse_WareHouseHURealmObject_Optional_String7" data-uid="SLS.Common.DTO.RealmObjects.WareHouse.WareHouseHURealmObject.Optional_String7">
+  Optional_String7
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO.RealmObjects/WareHouse/WareHouseHURealmObject.cs/#L113"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string? Optional_String7 { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_RealmObjects_WareHouse_WareHouseHURealmObject_Optional_String8_" data-uid="SLS.Common.DTO.RealmObjects.WareHouse.WareHouseHURealmObject.Optional_String8*"></a>
+
+  <h3 id="SLS_Common_DTO_RealmObjects_WareHouse_WareHouseHURealmObject_Optional_String8" data-uid="SLS.Common.DTO.RealmObjects.WareHouse.WareHouseHURealmObject.Optional_String8">
+  Optional_String8
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO.RealmObjects/WareHouse/WareHouseHURealmObject.cs/#L114"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string? Optional_String8 { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_RealmObjects_WareHouse_WareHouseHURealmObject_Optional_String9_" data-uid="SLS.Common.DTO.RealmObjects.WareHouse.WareHouseHURealmObject.Optional_String9*"></a>
+
+  <h3 id="SLS_Common_DTO_RealmObjects_WareHouse_WareHouseHURealmObject_Optional_String9" data-uid="SLS.Common.DTO.RealmObjects.WareHouse.WareHouseHURealmObject.Optional_String9">
+  Optional_String9
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO.RealmObjects/WareHouse/WareHouseHURealmObject.cs/#L115"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string? Optional_String9 { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_RealmObjects_WareHouse_WareHouseHURealmObject_Owner_" data-uid="SLS.Common.DTO.RealmObjects.WareHouse.WareHouseHURealmObject.Owner*"></a>
+
+  <h3 id="SLS_Common_DTO_RealmObjects_WareHouse_WareHouseHURealmObject_Owner" data-uid="SLS.Common.DTO.RealmObjects.WareHouse.WareHouseHURealmObject.Owner">
+  Owner
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO.RealmObjects/WareHouse/WareHouseHURealmObject.cs/#L141"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public AddressCompanyRealmObject? Owner { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="SLS.Common.DTO.RealmObjects.MasterData.AddressCompanyRealmObject.html">AddressCompanyRealmObject</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_RealmObjects_WareHouse_WareHouseHURealmObject_OwnerID_" data-uid="SLS.Common.DTO.RealmObjects.WareHouse.WareHouseHURealmObject.OwnerID*"></a>
+
+  <h3 id="SLS_Common_DTO_RealmObjects_WareHouse_WareHouseHURealmObject_OwnerID" data-uid="SLS.Common.DTO.RealmObjects.WareHouse.WareHouseHURealmObject.OwnerID">
+  OwnerID
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO.RealmObjects/WareHouse/WareHouseHURealmObject.cs/#L46"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual long? OwnerID { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_RealmObjects_WareHouse_WareHouseHURealmObject_OwnerReferenceNo_" data-uid="SLS.Common.DTO.RealmObjects.WareHouse.WareHouseHURealmObject.OwnerReferenceNo*"></a>
+
+  <h3 id="SLS_Common_DTO_RealmObjects_WareHouse_WareHouseHURealmObject_OwnerReferenceNo" data-uid="SLS.Common.DTO.RealmObjects.WareHouse.WareHouseHURealmObject.OwnerReferenceNo">
+  OwnerReferenceNo
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO.RealmObjects/WareHouse/WareHouseHURealmObject.cs/#L101"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string? OwnerReferenceNo { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_RealmObjects_WareHouse_WareHouseHURealmObject_PackingStructureQuantity_" data-uid="SLS.Common.DTO.RealmObjects.WareHouse.WareHouseHURealmObject.PackingStructureQuantity*"></a>
+
+  <h3 id="SLS_Common_DTO_RealmObjects_WareHouse_WareHouseHURealmObject_PackingStructureQuantity" data-uid="SLS.Common.DTO.RealmObjects.WareHouse.WareHouseHURealmObject.PackingStructureQuantity">
+  PackingStructureQuantity
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO.RealmObjects/WareHouse/WareHouseHURealmObject.cs/#L102"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public long? PackingStructureQuantity { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_RealmObjects_WareHouse_WareHouseHURealmObject_ParcelServiceNumber_" data-uid="SLS.Common.DTO.RealmObjects.WareHouse.WareHouseHURealmObject.ParcelServiceNumber*"></a>
+
+  <h3 id="SLS_Common_DTO_RealmObjects_WareHouse_WareHouseHURealmObject_ParcelServiceNumber" data-uid="SLS.Common.DTO.RealmObjects.WareHouse.WareHouseHURealmObject.ParcelServiceNumber">
+  ParcelServiceNumber
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO.RealmObjects/WareHouse/WareHouseHURealmObject.cs/#L129"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string? ParcelServiceNumber { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_RealmObjects_WareHouse_WareHouseHURealmObject_ParentHUReference_" data-uid="SLS.Common.DTO.RealmObjects.WareHouse.WareHouseHURealmObject.ParentHUReference*"></a>
+
+  <h3 id="SLS_Common_DTO_RealmObjects_WareHouse_WareHouseHURealmObject_ParentHUReference" data-uid="SLS.Common.DTO.RealmObjects.WareHouse.WareHouseHURealmObject.ParentHUReference">
+  ParentHUReference
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO.RealmObjects/WareHouse/WareHouseHURealmObject.cs/#L104"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public long? ParentHUReference { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_RealmObjects_WareHouse_WareHouseHURealmObject_ProductionDate_" data-uid="SLS.Common.DTO.RealmObjects.WareHouse.WareHouseHURealmObject.ProductionDate*"></a>
+
+  <h3 id="SLS_Common_DTO_RealmObjects_WareHouse_WareHouseHURealmObject_ProductionDate" data-uid="SLS.Common.DTO.RealmObjects.WareHouse.WareHouseHURealmObject.ProductionDate">
+  ProductionDate
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO.RealmObjects/WareHouse/WareHouseHURealmObject.cs/#L67"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public DateTimeOffset? ProductionDate { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.datetimeoffset">DateTimeOffset</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_RealmObjects_WareHouse_WareHouseHURealmObject_Realm_" data-uid="SLS.Common.DTO.RealmObjects.WareHouse.WareHouseHURealmObject.Realm*"></a>
+
+  <h3 id="SLS_Common_DTO_RealmObjects_WareHouse_WareHouseHURealmObject_Realm" data-uid="SLS.Common.DTO.RealmObjects.WareHouse.WareHouseHURealmObject.Realm">
+  Realm
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Gets the <a class="xref" href="https://github.com/realm/realm-dotnet/blob/Dev/Realm/Realm/DatabaseTypes/IRealmObjectBase.cs">Realm</a> instance this object belongs to, or <code>null</code> if it is unmanaged.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[IgnoreDataMember]
+public Realm? Realm { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://github.com/realm/realm-dotnet/blob/Dev/Realm/Realm/Realm.cs">Realm</a></dt>
+    <dd><p>The <a class="xref" href="https://github.com/realm/realm-dotnet/blob/Dev/Realm/Realm/DatabaseTypes/IRealmObjectBase.cs">Realm</a> instance this object belongs to.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_RealmObjects_WareHouse_WareHouseHURealmObject_ReferenceNumber_" data-uid="SLS.Common.DTO.RealmObjects.WareHouse.WareHouseHURealmObject.ReferenceNumber*"></a>
+
+  <h3 id="SLS_Common_DTO_RealmObjects_WareHouse_WareHouseHURealmObject_ReferenceNumber" data-uid="SLS.Common.DTO.RealmObjects.WareHouse.WareHouseHURealmObject.ReferenceNumber">
+  ReferenceNumber
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO.RealmObjects/WareHouse/WareHouseHURealmObject.cs/#L107"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string? ReferenceNumber { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_RealmObjects_WareHouse_WareHouseHURealmObject_Remarks_" data-uid="SLS.Common.DTO.RealmObjects.WareHouse.WareHouseHURealmObject.Remarks*"></a>
+
+  <h3 id="SLS_Common_DTO_RealmObjects_WareHouse_WareHouseHURealmObject_Remarks" data-uid="SLS.Common.DTO.RealmObjects.WareHouse.WareHouseHURealmObject.Remarks">
+  Remarks
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO.RealmObjects/WareHouse/WareHouseHURealmObject.cs/#L108"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string? Remarks { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_RealmObjects_WareHouse_WareHouseHURealmObject_SSCCNumber_" data-uid="SLS.Common.DTO.RealmObjects.WareHouse.WareHouseHURealmObject.SSCCNumber*"></a>
+
+  <h3 id="SLS_Common_DTO_RealmObjects_WareHouse_WareHouseHURealmObject_SSCCNumber" data-uid="SLS.Common.DTO.RealmObjects.WareHouse.WareHouseHURealmObject.SSCCNumber">
+  SSCCNumber
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO.RealmObjects/WareHouse/WareHouseHURealmObject.cs/#L69"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string? SSCCNumber { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_RealmObjects_WareHouse_WareHouseHURealmObject_SequenzNo_" data-uid="SLS.Common.DTO.RealmObjects.WareHouse.WareHouseHURealmObject.SequenzNo*"></a>
+
+  <h3 id="SLS_Common_DTO_RealmObjects_WareHouse_WareHouseHURealmObject_SequenzNo" data-uid="SLS.Common.DTO.RealmObjects.WareHouse.WareHouseHURealmObject.SequenzNo">
+  SequenzNo
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO.RealmObjects/WareHouse/WareHouseHURealmObject.cs/#L110"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string? SequenzNo { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_RealmObjects_WareHouse_WareHouseHURealmObject_StatusID_" data-uid="SLS.Common.DTO.RealmObjects.WareHouse.WareHouseHURealmObject.StatusID*"></a>
+
+  <h3 id="SLS_Common_DTO_RealmObjects_WareHouse_WareHouseHURealmObject_StatusID" data-uid="SLS.Common.DTO.RealmObjects.WareHouse.WareHouseHURealmObject.StatusID">
+  StatusID
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO.RealmObjects/WareHouse/WareHouseHURealmObject.cs/#L52"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual long? StatusID { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_RealmObjects_WareHouse_WareHouseHURealmObject_Subsidiary_ID_" data-uid="SLS.Common.DTO.RealmObjects.WareHouse.WareHouseHURealmObject.Subsidiary_ID*"></a>
+
+  <h3 id="SLS_Common_DTO_RealmObjects_WareHouse_WareHouseHURealmObject_Subsidiary_ID" data-uid="SLS.Common.DTO.RealmObjects.WareHouse.WareHouseHURealmObject.Subsidiary_ID">
+  Subsidiary_ID
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO.RealmObjects/WareHouse/WareHouseHURealmObject.cs/#L33"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public long? Subsidiary_ID { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_RealmObjects_WareHouse_WareHouseHURealmObject_TransportResource_" data-uid="SLS.Common.DTO.RealmObjects.WareHouse.WareHouseHURealmObject.TransportResource*"></a>
+
+  <h3 id="SLS_Common_DTO_RealmObjects_WareHouse_WareHouseHURealmObject_TransportResource" data-uid="SLS.Common.DTO.RealmObjects.WareHouse.WareHouseHURealmObject.TransportResource">
+  TransportResource
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO.RealmObjects/WareHouse/WareHouseHURealmObject.cs/#L147"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ResourceRealmObject? TransportResource { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="SLS.Common.DTO.RealmObjects.Resource.ResourceRealmObject.html">ResourceRealmObject</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_RealmObjects_WareHouse_WareHouseHURealmObject_User_ID_" data-uid="SLS.Common.DTO.RealmObjects.WareHouse.WareHouseHURealmObject.User_ID*"></a>
+
+  <h3 id="SLS_Common_DTO_RealmObjects_WareHouse_WareHouseHURealmObject_User_ID" data-uid="SLS.Common.DTO.RealmObjects.WareHouse.WareHouseHURealmObject.User_ID">
+  User_ID
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO.RealmObjects/WareHouse/WareHouseHURealmObject.cs/#L37"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public long? User_ID { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_RealmObjects_WareHouse_WareHouseHURealmObject_ValueOfGoods_" data-uid="SLS.Common.DTO.RealmObjects.WareHouse.WareHouseHURealmObject.ValueOfGoods*"></a>
+
+  <h3 id="SLS_Common_DTO_RealmObjects_WareHouse_WareHouseHURealmObject_ValueOfGoods" data-uid="SLS.Common.DTO.RealmObjects.WareHouse.WareHouseHURealmObject.ValueOfGoods">
+  ValueOfGoods
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO.RealmObjects/WareHouse/WareHouseHURealmObject.cs/#L66"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public double? ValueOfGoods { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_RealmObjects_WareHouse_WareHouseHURealmObject_Version_" data-uid="SLS.Common.DTO.RealmObjects.WareHouse.WareHouseHURealmObject.Version*"></a>
+
+  <h3 id="SLS_Common_DTO_RealmObjects_WareHouse_WareHouseHURealmObject_Version" data-uid="SLS.Common.DTO.RealmObjects.WareHouse.WareHouseHURealmObject.Version">
+  Version
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO.RealmObjects/WareHouse/WareHouseHURealmObject.cs/#L31"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public long Version { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_RealmObjects_WareHouse_WareHouseHURealmObject_Volumen_" data-uid="SLS.Common.DTO.RealmObjects.WareHouse.WareHouseHURealmObject.Volumen*"></a>
+
+  <h3 id="SLS_Common_DTO_RealmObjects_WareHouse_WareHouseHURealmObject_Volumen" data-uid="SLS.Common.DTO.RealmObjects.WareHouse.WareHouseHURealmObject.Volumen">
+  Volumen
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO.RealmObjects/WareHouse/WareHouseHURealmObject.cs/#L64"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public double? Volumen { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_RealmObjects_WareHouse_WareHouseHURealmObject_Weigth_" data-uid="SLS.Common.DTO.RealmObjects.WareHouse.WareHouseHURealmObject.Weigth*"></a>
+
+  <h3 id="SLS_Common_DTO_RealmObjects_WareHouse_WareHouseHURealmObject_Weigth" data-uid="SLS.Common.DTO.RealmObjects.WareHouse.WareHouseHURealmObject.Weigth">
+  Weigth
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO.RealmObjects/WareHouse/WareHouseHURealmObject.cs/#L62"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public double? Weigth { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_RealmObjects_WareHouse_WareHouseHURealmObject_Width_" data-uid="SLS.Common.DTO.RealmObjects.WareHouse.WareHouseHURealmObject.Width*"></a>
+
+  <h3 id="SLS_Common_DTO_RealmObjects_WareHouse_WareHouseHURealmObject_Width" data-uid="SLS.Common.DTO.RealmObjects.WareHouse.WareHouseHURealmObject.Width">
+  Width
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO.RealmObjects/WareHouse/WareHouseHURealmObject.cs/#L72"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public double? Width { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h2 class="section" id="methods">Methods
+</h2>
+
+
+  <a id="SLS_Common_DTO_RealmObjects_WareHouse_WareHouseHURealmObject_Equals_" data-uid="SLS.Common.DTO.RealmObjects.WareHouse.WareHouseHURealmObject.Equals*"></a>
+
+  <h3 id="SLS_Common_DTO_RealmObjects_WareHouse_WareHouseHURealmObject_Equals_System_Object_" data-uid="SLS.Common.DTO.RealmObjects.WareHouse.WareHouseHURealmObject.Equals(System.Object)">
+  Equals(object?)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Determines whether the specified object is equal to the current object.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override bool Equals(object? obj)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>obj</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></dt>
+    <dd><p>The object to compare with the current object.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd><p><a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">true</a> if the specified object  is equal to the current object; otherwise, <a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">false</a>.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_RealmObjects_WareHouse_WareHouseHURealmObject_GetHashCode_" data-uid="SLS.Common.DTO.RealmObjects.WareHouse.WareHouseHURealmObject.GetHashCode*"></a>
+
+  <h3 id="SLS_Common_DTO_RealmObjects_WareHouse_WareHouseHURealmObject_GetHashCode" data-uid="SLS.Common.DTO.RealmObjects.WareHouse.WareHouseHURealmObject.GetHashCode">
+  GetHashCode()
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Serves as the default hash function.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override int GetHashCode()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd><p>A hash code for the current object.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_RealmObjects_WareHouse_WareHouseHURealmObject_ToString_" data-uid="SLS.Common.DTO.RealmObjects.WareHouse.WareHouseHURealmObject.ToString*"></a>
+
+  <h3 id="SLS_Common_DTO_RealmObjects_WareHouse_WareHouseHURealmObject_ToString" data-uid="SLS.Common.DTO.RealmObjects.WareHouse.WareHouseHURealmObject.ToString">
+  ToString()
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Returns a string that represents the current object.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override string? ToString()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>A string that represents the current object.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="events">Events
+</h2>
+
+
+
+  <h3 id="SLS_Common_DTO_RealmObjects_WareHouse_WareHouseHURealmObject_PropertyChanged" data-uid="SLS.Common.DTO.RealmObjects.WareHouse.WareHouseHURealmObject.PropertyChanged">
+  PropertyChanged
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Occurs when a property value changes.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public event PropertyChangedEventHandler? PropertyChanged</code></pre>
+  </div>
+
+
+
+
+
+
+  <h4 class="section">Event Type</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.componentmodel.propertychangedeventhandler">PropertyChangedEventHandler</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+  <h2 class="section" id="operators">Operators
+</h2>
+
+
+  <a id="SLS_Common_DTO_RealmObjects_WareHouse_WareHouseHURealmObject_op_Explicit_" data-uid="SLS.Common.DTO.RealmObjects.WareHouse.WareHouseHURealmObject.op_Explicit*"></a>
+
+  <h3 id="SLS_Common_DTO_RealmObjects_WareHouse_WareHouseHURealmObject_op_Explicit_Realms_RealmValue__SLS_Common_DTO_RealmObjects_WareHouse_WareHouseHURealmObject" data-uid="SLS.Common.DTO.RealmObjects.WareHouse.WareHouseHURealmObject.op_Explicit(Realms.RealmValue)~SLS.Common.DTO.RealmObjects.WareHouse.WareHouseHURealmObject">
+  explicit operator WareHouseHURealmObject?(RealmValue)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Converts a <a class="xref" href="https://github.com/realm/realm-dotnet/blob/Dev/Realm/Realm/DatabaseTypes/RealmValue.cs">RealmValue</a> to <a class="xref" href="SLS.Common.DTO.RealmObjects.WareHouse.WareHouseHURealmObject.html">WareHouseHURealmObject</a>. Equivalent to <a class="xref" href="https://github.com/realm/realm-dotnet/blob/Dev/Realm/Realm/DatabaseTypes/RealmValue.cs">AsNullableRealmObject&lt;T&gt;()</a>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static explicit operator WareHouseHURealmObject?(RealmValue val)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>val</code> <a class="xref" href="https://github.com/realm/realm-dotnet/blob/Dev/Realm/Realm/DatabaseTypes/RealmValue.cs">RealmValue</a></dt>
+    <dd><p>The <a class="xref" href="https://github.com/realm/realm-dotnet/blob/Dev/Realm/Realm/DatabaseTypes/RealmValue.cs">RealmValue</a> to convert.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="SLS.Common.DTO.RealmObjects.WareHouse.WareHouseHURealmObject.html">WareHouseHURealmObject</a></dt>
+    <dd><p>The <a class="xref" href="SLS.Common.DTO.RealmObjects.WareHouse.WareHouseHURealmObject.html">WareHouseHURealmObject</a> stored in the <a class="xref" href="https://github.com/realm/realm-dotnet/blob/Dev/Realm/Realm/DatabaseTypes/RealmValue.cs">RealmValue</a>.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_RealmObjects_WareHouse_WareHouseHURealmObject_op_Implicit_" data-uid="SLS.Common.DTO.RealmObjects.WareHouse.WareHouseHURealmObject.op_Implicit*"></a>
+
+  <h3 id="SLS_Common_DTO_RealmObjects_WareHouse_WareHouseHURealmObject_op_Implicit_SLS_Common_DTO_RealmObjects_WareHouse_WareHouseHURealmObject__Realms_QueryArgument" data-uid="SLS.Common.DTO.RealmObjects.WareHouse.WareHouseHURealmObject.op_Implicit(SLS.Common.DTO.RealmObjects.WareHouse.WareHouseHURealmObject)~Realms.QueryArgument">
+  implicit operator QueryArgument(WareHouseHURealmObject?)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Implicitly constructs a <a class="xref" href="https://github.com/realm/realm-dotnet/blob/Dev/Realm/Realm/DatabaseTypes/QueryArgument.cs">QueryArgument</a> from <a class="xref" href="SLS.Common.DTO.RealmObjects.WareHouse.WareHouseHURealmObject.html">WareHouseHURealmObject</a>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static implicit operator QueryArgument(WareHouseHURealmObject? val)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>val</code> <a class="xref" href="SLS.Common.DTO.RealmObjects.WareHouse.WareHouseHURealmObject.html">WareHouseHURealmObject</a></dt>
+    <dd><p>The value to store in the <a class="xref" href="https://github.com/realm/realm-dotnet/blob/Dev/Realm/Realm/DatabaseTypes/QueryArgument.cs">QueryArgument</a>.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://github.com/realm/realm-dotnet/blob/Dev/Realm/Realm/DatabaseTypes/QueryArgument.cs">QueryArgument</a></dt>
+    <dd><p>A <a class="xref" href="https://github.com/realm/realm-dotnet/blob/Dev/Realm/Realm/DatabaseTypes/QueryArgument.cs">QueryArgument</a> containing the supplied <code class="paramref">val</code>.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_RealmObjects_WareHouse_WareHouseHURealmObject_op_Implicit_" data-uid="SLS.Common.DTO.RealmObjects.WareHouse.WareHouseHURealmObject.op_Implicit*"></a>
+
+  <h3 id="SLS_Common_DTO_RealmObjects_WareHouse_WareHouseHURealmObject_op_Implicit_SLS_Common_DTO_RealmObjects_WareHouse_WareHouseHURealmObject__Realms_RealmValue" data-uid="SLS.Common.DTO.RealmObjects.WareHouse.WareHouseHURealmObject.op_Implicit(SLS.Common.DTO.RealmObjects.WareHouse.WareHouseHURealmObject)~Realms.RealmValue">
+  implicit operator RealmValue(WareHouseHURealmObject?)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Implicitly constructs a <a class="xref" href="https://github.com/realm/realm-dotnet/blob/Dev/Realm/Realm/DatabaseTypes/RealmValue.cs">RealmValue</a> from <a class="xref" href="SLS.Common.DTO.RealmObjects.WareHouse.WareHouseHURealmObject.html">WareHouseHURealmObject</a>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static implicit operator RealmValue(WareHouseHURealmObject? val)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>val</code> <a class="xref" href="SLS.Common.DTO.RealmObjects.WareHouse.WareHouseHURealmObject.html">WareHouseHURealmObject</a></dt>
+    <dd><p>The value to store in the <a class="xref" href="https://github.com/realm/realm-dotnet/blob/Dev/Realm/Realm/DatabaseTypes/RealmValue.cs">RealmValue</a>.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://github.com/realm/realm-dotnet/blob/Dev/Realm/Realm/DatabaseTypes/RealmValue.cs">RealmValue</a></dt>
+    <dd><p>A <a class="xref" href="https://github.com/realm/realm-dotnet/blob/Dev/Realm/Realm/DatabaseTypes/RealmValue.cs">RealmValue</a> containing the supplied <code class="paramref">val</code>.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+</article>
+
+        <div class="contribution d-print-none">
+        </div>
+
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

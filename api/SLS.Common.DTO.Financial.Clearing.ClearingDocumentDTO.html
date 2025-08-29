@@ -1,0 +1,2442 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Class ClearingDocumentDTO | SLS Documentation </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Class ClearingDocumentDTO | SLS Documentation ">
+      
+      
+      <link rel="icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="../">
+      
+      
+      <meta name="docfx:docurl" content="https://github.com/Dev-SLS/dev/new/Dev/apiSpec/new?filename=SLS_Common_DTO_Financial_Clearing_ClearingDocumentDTO.md&amp;value=---%0Auid%3A%20SLS.Common.DTO.Financial.Clearing.ClearingDocumentDTO%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../logo.svg" alt="SLS Documentation">
+            SLS Documentation
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="SLS.Common.DTO.Financial.Clearing.ClearingDocumentDTO">
+
+
+
+  <h1 id="SLS_Common_DTO_Financial_Clearing_ClearingDocumentDTO" data-uid="SLS.Common.DTO.Financial.Clearing.ClearingDocumentDTO" class="text-break">
+Class ClearingDocumentDTO  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Financial/Clearing/ClearingDocumentDTO.cs/#L28"><i class="bi bi-code-slash"></i></a>
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="SLS.html">SLS</a>.<a class="xref" href="SLS.Common.html">Common</a>.<a class="xref" href="SLS.Common.DTO.html">DTO</a>.<a class="xref" href="SLS.Common.DTO.Financial.html">Financial</a>.<a class="xref" href="SLS.Common.DTO.Financial.Clearing.html">Clearing</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>SLS.Common.DTO.dll</dd></dl>
+  </div>
+
+  <div class="markdown summary"></div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Serializable]
+[DataContract(IsReference = true)]
+public class ClearingDocumentDTO : IBusinessDTO, IDTO</code></pre>
+  </div>
+
+
+
+
+  <dl class="typelist inheritance">
+    <dt>Inheritance</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+      <div><span class="xref">ClearingDocumentDTO</span></div>
+    </dd>
+  </dl>
+
+  <dl class="typelist implements">
+    <dt>Implements</dt>
+    <dd>
+      <div><a class="xref" href="SLS.Common.Interfaces.IBusinessDTO.html">IBusinessDTO</a></div>
+      <div><a class="xref" href="SLS.Common.Interfaces.IDTO.html">IDTO</a></div>
+    </dd>
+  </dl>
+
+
+  <dl class="typelist inheritedMembers">
+    <dt>Inherited Members</dt>
+    <dd>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)">object.Equals(object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">object.Equals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gethashcode">object.GetHashCode()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gettype">object.GetType()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone">object.MemberwiseClone()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals">object.ReferenceEquals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.tostring">object.ToString()</a>
+    </div>
+  </dd></dl>
+
+
+
+
+
+
+  <h2 class="section" id="properties">Properties
+</h2>
+
+
+  <a id="SLS_Common_DTO_Financial_Clearing_ClearingDocumentDTO_ClearingDate_" data-uid="SLS.Common.DTO.Financial.Clearing.ClearingDocumentDTO.ClearingDate*"></a>
+
+  <h3 id="SLS_Common_DTO_Financial_Clearing_ClearingDocumentDTO_ClearingDate" data-uid="SLS.Common.DTO.Financial.Clearing.ClearingDocumentDTO.ClearingDate">
+  ClearingDate
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Financial/Clearing/ClearingDocumentDTO.cs/#L110"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;ClearingDate&quot;)]
+public virtual DateTime ClearingDate { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.datetime">DateTime</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Financial_Clearing_ClearingDocumentDTO_ClearingItem_ClearingDocument_" data-uid="SLS.Common.DTO.Financial.Clearing.ClearingDocumentDTO.ClearingItem_ClearingDocument*"></a>
+
+  <h3 id="SLS_Common_DTO_Financial_Clearing_ClearingDocumentDTO_ClearingItem_ClearingDocument" data-uid="SLS.Common.DTO.Financial.Clearing.ClearingDocumentDTO.ClearingItem_ClearingDocument">
+  ClearingItem_ClearingDocument
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Financial/Clearing/ClearingDocumentDTO.cs/#L322"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;ClearingDocumentCollection&quot;)]
+public virtual List&lt;ClearingItemDTO&gt;? ClearingItem_ClearingDocument { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<a class="xref" href="SLS.Common.DTO.Financial.Clearing.ClearingItemDTO.html">ClearingItemDTO</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Financial_Clearing_ClearingDocumentDTO_ClearingProcessStatus_" data-uid="SLS.Common.DTO.Financial.Clearing.ClearingDocumentDTO.ClearingProcessStatus*"></a>
+
+  <h3 id="SLS_Common_DTO_Financial_Clearing_ClearingDocumentDTO_ClearingProcessStatus" data-uid="SLS.Common.DTO.Financial.Clearing.ClearingDocumentDTO.ClearingProcessStatus">
+  ClearingProcessStatus
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Financial/Clearing/ClearingDocumentDTO.cs/#L298"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[ForeignKey(&quot;ClearingProcessStatusCollection&quot;)]
+[InverseProperty(&quot;ClearingDocument_ClearingProcessStatus&quot;)]
+[JsonIgnore]
+public virtual ClearingProcessStatusDTO? ClearingProcessStatus { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="SLS.Common.DTO.Financial.Clearing.ClearingProcessStatusDTO.html">ClearingProcessStatusDTO</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Financial_Clearing_ClearingDocumentDTO_ClearingProcessStatusID_" data-uid="SLS.Common.DTO.Financial.Clearing.ClearingDocumentDTO.ClearingProcessStatusID*"></a>
+
+  <h3 id="SLS_Common_DTO_Financial_Clearing_ClearingDocumentDTO_ClearingProcessStatusID" data-uid="SLS.Common.DTO.Financial.Clearing.ClearingDocumentDTO.ClearingProcessStatusID">
+  ClearingProcessStatusID
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Financial/Clearing/ClearingDocumentDTO.cs/#L92"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;ClearingProcessStatusCollection&quot;)]
+[ForeignKey(&quot;ClearingProcessStatusCollection&quot;)]
+public virtual long? ClearingProcessStatusID { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Financial_Clearing_ClearingDocumentDTO_ClearingProcessStatus_ClearingDocument_" data-uid="SLS.Common.DTO.Financial.Clearing.ClearingDocumentDTO.ClearingProcessStatus_ClearingDocument*"></a>
+
+  <h3 id="SLS_Common_DTO_Financial_Clearing_ClearingDocumentDTO_ClearingProcessStatus_ClearingDocument" data-uid="SLS.Common.DTO.Financial.Clearing.ClearingDocumentDTO.ClearingProcessStatus_ClearingDocument">
+  ClearingProcessStatus_ClearingDocument
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Financial/Clearing/ClearingDocumentDTO.cs/#L317"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;ClearingDocumentCollection&quot;)]
+public virtual List&lt;ClearingProcessStatusDTO&gt;? ClearingProcessStatus_ClearingDocument { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<a class="xref" href="SLS.Common.DTO.Financial.Clearing.ClearingProcessStatusDTO.html">ClearingProcessStatusDTO</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Financial_Clearing_ClearingDocumentDTO_Company_ID_" data-uid="SLS.Common.DTO.Financial.Clearing.ClearingDocumentDTO.Company_ID*"></a>
+
+  <h3 id="SLS_Common_DTO_Financial_Clearing_ClearingDocumentDTO_Company_ID" data-uid="SLS.Common.DTO.Financial.Clearing.ClearingDocumentDTO.Company_ID">
+  Company_ID
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Financial/Clearing/ClearingDocumentDTO.cs/#L41"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public long? Company_ID { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Financial_Clearing_ClearingDocumentDTO_Cooperation_" data-uid="SLS.Common.DTO.Financial.Clearing.ClearingDocumentDTO.Cooperation*"></a>
+
+  <h3 id="SLS_Common_DTO_Financial_Clearing_ClearingDocumentDTO_Cooperation" data-uid="SLS.Common.DTO.Financial.Clearing.ClearingDocumentDTO.Cooperation">
+  Cooperation
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Financial/Clearing/ClearingDocumentDTO.cs/#L258"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[ForeignKey(&quot;CooperationCollection&quot;)]
+[InverseProperty(&quot;ClearingDocument_Cooperation&quot;)]
+[JsonIgnore]
+public virtual AddressCompanyDTO? Cooperation { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="SLS.Common.DTO.MasterData.AddressCompanyDTO.html">AddressCompanyDTO</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Financial_Clearing_ClearingDocumentDTO_CooperationID_" data-uid="SLS.Common.DTO.Financial.Clearing.ClearingDocumentDTO.CooperationID*"></a>
+
+  <h3 id="SLS_Common_DTO_Financial_Clearing_ClearingDocumentDTO_CooperationID" data-uid="SLS.Common.DTO.Financial.Clearing.ClearingDocumentDTO.CooperationID">
+  CooperationID
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Financial/Clearing/ClearingDocumentDTO.cs/#L52"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;CooperationCollection&quot;)]
+[ForeignKey(&quot;CooperationCollection&quot;)]
+public virtual long CooperationID { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Financial_Clearing_ClearingDocumentDTO_Currency_" data-uid="SLS.Common.DTO.Financial.Clearing.ClearingDocumentDTO.Currency*"></a>
+
+  <h3 id="SLS_Common_DTO_Financial_Clearing_ClearingDocumentDTO_Currency" data-uid="SLS.Common.DTO.Financial.Clearing.ClearingDocumentDTO.Currency">
+  Currency
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Financial/Clearing/ClearingDocumentDTO.cs/#L273"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[ForeignKey(&quot;CurrencyCollection&quot;)]
+[InverseProperty(&quot;ClearingDocument_Currency&quot;)]
+[JsonIgnore]
+public virtual CurrencyDTO? Currency { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="SLS.Common.DTO.Financial.CurrencyDTO.html">CurrencyDTO</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Financial_Clearing_ClearingDocumentDTO_CurrencyExchange_" data-uid="SLS.Common.DTO.Financial.Clearing.ClearingDocumentDTO.CurrencyExchange*"></a>
+
+  <h3 id="SLS_Common_DTO_Financial_Clearing_ClearingDocumentDTO_CurrencyExchange" data-uid="SLS.Common.DTO.Financial.Clearing.ClearingDocumentDTO.CurrencyExchange">
+  CurrencyExchange
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Financial/Clearing/ClearingDocumentDTO.cs/#L278"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[ForeignKey(&quot;CurrencyExchangeCollection&quot;)]
+[InverseProperty(&quot;ClearingDocument_CurrencyExchange&quot;)]
+[JsonIgnore]
+public virtual CurrencyExchangeDTO? CurrencyExchange { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="SLS.Common.DTO.Financial.CurrencyExchangeDTO.html">CurrencyExchangeDTO</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Financial_Clearing_ClearingDocumentDTO_CurrencyExchangeID_" data-uid="SLS.Common.DTO.Financial.Clearing.ClearingDocumentDTO.CurrencyExchangeID*"></a>
+
+  <h3 id="SLS_Common_DTO_Financial_Clearing_ClearingDocumentDTO_CurrencyExchangeID" data-uid="SLS.Common.DTO.Financial.Clearing.ClearingDocumentDTO.CurrencyExchangeID">
+  CurrencyExchangeID
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Financial/Clearing/ClearingDocumentDTO.cs/#L72"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;CurrencyExchangeCollection&quot;)]
+[ForeignKey(&quot;CurrencyExchangeCollection&quot;)]
+public virtual long? CurrencyExchangeID { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Financial_Clearing_ClearingDocumentDTO_CurrencyExchanges_Clearing_" data-uid="SLS.Common.DTO.Financial.Clearing.ClearingDocumentDTO.CurrencyExchanges_Clearing*"></a>
+
+  <h3 id="SLS_Common_DTO_Financial_Clearing_ClearingDocumentDTO_CurrencyExchanges_Clearing" data-uid="SLS.Common.DTO.Financial.Clearing.ClearingDocumentDTO.CurrencyExchanges_Clearing">
+  CurrencyExchanges_Clearing
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Financial/Clearing/ClearingDocumentDTO.cs/#L312"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;ClearingCollection&quot;)]
+[JsonIgnore]
+public virtual List&lt;CurrencyExchangeDTO&gt;? CurrencyExchanges_Clearing { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<a class="xref" href="SLS.Common.DTO.Financial.CurrencyExchangeDTO.html">CurrencyExchangeDTO</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Financial_Clearing_ClearingDocumentDTO_CurrencyID_" data-uid="SLS.Common.DTO.Financial.Clearing.ClearingDocumentDTO.CurrencyID*"></a>
+
+  <h3 id="SLS_Common_DTO_Financial_Clearing_ClearingDocumentDTO_CurrencyID" data-uid="SLS.Common.DTO.Financial.Clearing.ClearingDocumentDTO.CurrencyID">
+  CurrencyID
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Financial/Clearing/ClearingDocumentDTO.cs/#L67"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;CurrencyCollection&quot;)]
+[ForeignKey(&quot;CurrencyCollection&quot;)]
+public virtual long? CurrencyID { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Financial_Clearing_ClearingDocumentDTO_Department_ID_" data-uid="SLS.Common.DTO.Financial.Clearing.ClearingDocumentDTO.Department_ID*"></a>
+
+  <h3 id="SLS_Common_DTO_Financial_Clearing_ClearingDocumentDTO_Department_ID" data-uid="SLS.Common.DTO.Financial.Clearing.ClearingDocumentDTO.Department_ID">
+  Department_ID
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Financial/Clearing/ClearingDocumentDTO.cs/#L43"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public long? Department_ID { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Financial_Clearing_ClearingDocumentDTO_Division_ID_" data-uid="SLS.Common.DTO.Financial.Clearing.ClearingDocumentDTO.Division_ID*"></a>
+
+  <h3 id="SLS_Common_DTO_Financial_Clearing_ClearingDocumentDTO_Division_ID" data-uid="SLS.Common.DTO.Financial.Clearing.ClearingDocumentDTO.Division_ID">
+  Division_ID
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Financial/Clearing/ClearingDocumentDTO.cs/#L45"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public long? Division_ID { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Financial_Clearing_ClearingDocumentDTO_DocumentID_" data-uid="SLS.Common.DTO.Financial.Clearing.ClearingDocumentDTO.DocumentID*"></a>
+
+  <h3 id="SLS_Common_DTO_Financial_Clearing_ClearingDocumentDTO_DocumentID" data-uid="SLS.Common.DTO.Financial.Clearing.ClearingDocumentDTO.DocumentID">
+  DocumentID
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Financial/Clearing/ClearingDocumentDTO.cs/#L106"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;DocumentID&quot;)]
+public virtual string DocumentID { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Financial_Clearing_ClearingDocumentDTO_DueDate_" data-uid="SLS.Common.DTO.Financial.Clearing.ClearingDocumentDTO.DueDate*"></a>
+
+  <h3 id="SLS_Common_DTO_Financial_Clearing_ClearingDocumentDTO_DueDate" data-uid="SLS.Common.DTO.Financial.Clearing.ClearingDocumentDTO.DueDate">
+  DueDate
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Financial/Clearing/ClearingDocumentDTO.cs/#L134"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;DueDate&quot;)]
+public virtual DateTime? DueDate { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.datetime">DateTime</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Financial_Clearing_ClearingDocumentDTO_ExternalDataInfo_" data-uid="SLS.Common.DTO.Financial.Clearing.ClearingDocumentDTO.ExternalDataInfo*"></a>
+
+  <h3 id="SLS_Common_DTO_Financial_Clearing_ClearingDocumentDTO_ExternalDataInfo" data-uid="SLS.Common.DTO.Financial.Clearing.ClearingDocumentDTO.ExternalDataInfo">
+  ExternalDataInfo
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Financial/Clearing/ClearingDocumentDTO.cs/#L126"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;ExternalDataInfo&quot;)]
+public virtual string? ExternalDataInfo { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Financial_Clearing_ClearingDocumentDTO_ExternalNumber_" data-uid="SLS.Common.DTO.Financial.Clearing.ClearingDocumentDTO.ExternalNumber*"></a>
+
+  <h3 id="SLS_Common_DTO_Financial_Clearing_ClearingDocumentDTO_ExternalNumber" data-uid="SLS.Common.DTO.Financial.Clearing.ClearingDocumentDTO.ExternalNumber">
+  ExternalNumber
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Financial/Clearing/ClearingDocumentDTO.cs/#L114"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;ExternalNumber&quot;)]
+public virtual string ExternalNumber { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Financial_Clearing_ClearingDocumentDTO_FiscalYear_ID_" data-uid="SLS.Common.DTO.Financial.Clearing.ClearingDocumentDTO.FiscalYear_ID*"></a>
+
+  <h3 id="SLS_Common_DTO_Financial_Clearing_ClearingDocumentDTO_FiscalYear_ID" data-uid="SLS.Common.DTO.Financial.Clearing.ClearingDocumentDTO.FiscalYear_ID">
+  FiscalYear_ID
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Financial/Clearing/ClearingDocumentDTO.cs/#L44"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public long? FiscalYear_ID { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Financial_Clearing_ClearingDocumentDTO_Format_" data-uid="SLS.Common.DTO.Financial.Clearing.ClearingDocumentDTO.Format*"></a>
+
+  <h3 id="SLS_Common_DTO_Financial_Clearing_ClearingDocumentDTO_Format" data-uid="SLS.Common.DTO.Financial.Clearing.ClearingDocumentDTO.Format">
+  Format
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Financial/Clearing/ClearingDocumentDTO.cs/#L268"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[ForeignKey(&quot;FormatCollection&quot;)]
+[InverseProperty(&quot;ClearingDocument_Format&quot;)]
+[JsonIgnore]
+public virtual ClearingFormatInformationDTO? Format { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="SLS.Common.DTO.Financial.Clearing.ClearingFormatInformationDTO.html">ClearingFormatInformationDTO</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Financial_Clearing_ClearingDocumentDTO_FormatID_" data-uid="SLS.Common.DTO.Financial.Clearing.ClearingDocumentDTO.FormatID*"></a>
+
+  <h3 id="SLS_Common_DTO_Financial_Clearing_ClearingDocumentDTO_FormatID" data-uid="SLS.Common.DTO.Financial.Clearing.ClearingDocumentDTO.FormatID">
+  FormatID
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Financial/Clearing/ClearingDocumentDTO.cs/#L62"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;FormatCollection&quot;)]
+[ForeignKey(&quot;FormatCollection&quot;)]
+public virtual long FormatID { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Financial_Clearing_ClearingDocumentDTO_Id_" data-uid="SLS.Common.DTO.Financial.Clearing.ClearingDocumentDTO.Id*"></a>
+
+  <h3 id="SLS_Common_DTO_Financial_Clearing_ClearingDocumentDTO_Id" data-uid="SLS.Common.DTO.Financial.Clearing.ClearingDocumentDTO.Id">
+  Id
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Financial/Clearing/ClearingDocumentDTO.cs/#L34"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;ID&quot;)]
+public long Id { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Financial_Clearing_ClearingDocumentDTO_LastClearingProcessStatus_" data-uid="SLS.Common.DTO.Financial.Clearing.ClearingDocumentDTO.LastClearingProcessStatus*"></a>
+
+  <h3 id="SLS_Common_DTO_Financial_Clearing_ClearingDocumentDTO_LastClearingProcessStatus" data-uid="SLS.Common.DTO.Financial.Clearing.ClearingDocumentDTO.LastClearingProcessStatus">
+  LastClearingProcessStatus
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Financial/Clearing/ClearingDocumentDTO.cs/#L303"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[ForeignKey(&quot;LastClearingProcessStatusCollection&quot;)]
+[InverseProperty(&quot;ClearingDocument_LastClearingProcessStatus&quot;)]
+[JsonIgnore]
+public virtual ClearingProcessStatusDTO? LastClearingProcessStatus { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="SLS.Common.DTO.Financial.Clearing.ClearingProcessStatusDTO.html">ClearingProcessStatusDTO</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Financial_Clearing_ClearingDocumentDTO_LastClearingProcessStatusID_" data-uid="SLS.Common.DTO.Financial.Clearing.ClearingDocumentDTO.LastClearingProcessStatusID*"></a>
+
+  <h3 id="SLS_Common_DTO_Financial_Clearing_ClearingDocumentDTO_LastClearingProcessStatusID" data-uid="SLS.Common.DTO.Financial.Clearing.ClearingDocumentDTO.LastClearingProcessStatusID">
+  LastClearingProcessStatusID
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Financial/Clearing/ClearingDocumentDTO.cs/#L97"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;LastClearingProcessStatusCollection&quot;)]
+[ForeignKey(&quot;LastClearingProcessStatusCollection&quot;)]
+public virtual long? LastClearingProcessStatusID { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Financial_Clearing_ClearingDocumentDTO_NetPrice_" data-uid="SLS.Common.DTO.Financial.Clearing.ClearingDocumentDTO.NetPrice*"></a>
+
+  <h3 id="SLS_Common_DTO_Financial_Clearing_ClearingDocumentDTO_NetPrice" data-uid="SLS.Common.DTO.Financial.Clearing.ClearingDocumentDTO.NetPrice">
+  NetPrice
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Financial/Clearing/ClearingDocumentDTO.cs/#L118"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;NetPrice&quot;)]
+public virtual double NetPrice { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Financial_Clearing_ClearingDocumentDTO_Optional_Bool1_" data-uid="SLS.Common.DTO.Financial.Clearing.ClearingDocumentDTO.Optional_Bool1*"></a>
+
+  <h3 id="SLS_Common_DTO_Financial_Clearing_ClearingDocumentDTO_Optional_Bool1" data-uid="SLS.Common.DTO.Financial.Clearing.ClearingDocumentDTO.Optional_Bool1">
+  Optional_Bool1
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Financial/Clearing/ClearingDocumentDTO.cs/#L230"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;Optional_Bool1&quot;)]
+public virtual bool? Optional_Bool1 { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Financial_Clearing_ClearingDocumentDTO_Optional_Bool2_" data-uid="SLS.Common.DTO.Financial.Clearing.ClearingDocumentDTO.Optional_Bool2*"></a>
+
+  <h3 id="SLS_Common_DTO_Financial_Clearing_ClearingDocumentDTO_Optional_Bool2" data-uid="SLS.Common.DTO.Financial.Clearing.ClearingDocumentDTO.Optional_Bool2">
+  Optional_Bool2
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Financial/Clearing/ClearingDocumentDTO.cs/#L234"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;Optional_Bool2&quot;)]
+public virtual bool? Optional_Bool2 { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Financial_Clearing_ClearingDocumentDTO_Optional_Bool3_" data-uid="SLS.Common.DTO.Financial.Clearing.ClearingDocumentDTO.Optional_Bool3*"></a>
+
+  <h3 id="SLS_Common_DTO_Financial_Clearing_ClearingDocumentDTO_Optional_Bool3" data-uid="SLS.Common.DTO.Financial.Clearing.ClearingDocumentDTO.Optional_Bool3">
+  Optional_Bool3
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Financial/Clearing/ClearingDocumentDTO.cs/#L238"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;Optional_Bool3&quot;)]
+public virtual bool? Optional_Bool3 { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Financial_Clearing_ClearingDocumentDTO_Optional_Date1_" data-uid="SLS.Common.DTO.Financial.Clearing.ClearingDocumentDTO.Optional_Date1*"></a>
+
+  <h3 id="SLS_Common_DTO_Financial_Clearing_ClearingDocumentDTO_Optional_Date1" data-uid="SLS.Common.DTO.Financial.Clearing.ClearingDocumentDTO.Optional_Date1">
+  Optional_Date1
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Financial/Clearing/ClearingDocumentDTO.cs/#L218"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;Optional_Date1&quot;)]
+public virtual DateTime? Optional_Date1 { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.datetime">DateTime</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Financial_Clearing_ClearingDocumentDTO_Optional_Date2_" data-uid="SLS.Common.DTO.Financial.Clearing.ClearingDocumentDTO.Optional_Date2*"></a>
+
+  <h3 id="SLS_Common_DTO_Financial_Clearing_ClearingDocumentDTO_Optional_Date2" data-uid="SLS.Common.DTO.Financial.Clearing.ClearingDocumentDTO.Optional_Date2">
+  Optional_Date2
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Financial/Clearing/ClearingDocumentDTO.cs/#L222"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;Optional_Date2&quot;)]
+public virtual DateTime? Optional_Date2 { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.datetime">DateTime</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Financial_Clearing_ClearingDocumentDTO_Optional_Date3_" data-uid="SLS.Common.DTO.Financial.Clearing.ClearingDocumentDTO.Optional_Date3*"></a>
+
+  <h3 id="SLS_Common_DTO_Financial_Clearing_ClearingDocumentDTO_Optional_Date3" data-uid="SLS.Common.DTO.Financial.Clearing.ClearingDocumentDTO.Optional_Date3">
+  Optional_Date3
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Financial/Clearing/ClearingDocumentDTO.cs/#L226"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;Optional_Date3&quot;)]
+public virtual DateTime? Optional_Date3 { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.datetime">DateTime</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Financial_Clearing_ClearingDocumentDTO_Optional_Float1_" data-uid="SLS.Common.DTO.Financial.Clearing.ClearingDocumentDTO.Optional_Float1*"></a>
+
+  <h3 id="SLS_Common_DTO_Financial_Clearing_ClearingDocumentDTO_Optional_Float1" data-uid="SLS.Common.DTO.Financial.Clearing.ClearingDocumentDTO.Optional_Float1">
+  Optional_Float1
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Financial/Clearing/ClearingDocumentDTO.cs/#L246"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;Optional_Float1&quot;)]
+public virtual double? Optional_Float1 { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Financial_Clearing_ClearingDocumentDTO_Optional_Float2_" data-uid="SLS.Common.DTO.Financial.Clearing.ClearingDocumentDTO.Optional_Float2*"></a>
+
+  <h3 id="SLS_Common_DTO_Financial_Clearing_ClearingDocumentDTO_Optional_Float2" data-uid="SLS.Common.DTO.Financial.Clearing.ClearingDocumentDTO.Optional_Float2">
+  Optional_Float2
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Financial/Clearing/ClearingDocumentDTO.cs/#L242"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;Optional_Float2&quot;)]
+public virtual double? Optional_Float2 { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Financial_Clearing_ClearingDocumentDTO_Optional_Float3_" data-uid="SLS.Common.DTO.Financial.Clearing.ClearingDocumentDTO.Optional_Float3*"></a>
+
+  <h3 id="SLS_Common_DTO_Financial_Clearing_ClearingDocumentDTO_Optional_Float3" data-uid="SLS.Common.DTO.Financial.Clearing.ClearingDocumentDTO.Optional_Float3">
+  Optional_Float3
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Financial/Clearing/ClearingDocumentDTO.cs/#L250"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;Optional_Float3&quot;)]
+public virtual double? Optional_Float3 { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Financial_Clearing_ClearingDocumentDTO_Optional_Num1_" data-uid="SLS.Common.DTO.Financial.Clearing.ClearingDocumentDTO.Optional_Num1*"></a>
+
+  <h3 id="SLS_Common_DTO_Financial_Clearing_ClearingDocumentDTO_Optional_Num1" data-uid="SLS.Common.DTO.Financial.Clearing.ClearingDocumentDTO.Optional_Num1">
+  Optional_Num1
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Financial/Clearing/ClearingDocumentDTO.cs/#L178"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;Optional_Num1&quot;)]
+public virtual int? Optional_Num1 { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Financial_Clearing_ClearingDocumentDTO_Optional_Num10_" data-uid="SLS.Common.DTO.Financial.Clearing.ClearingDocumentDTO.Optional_Num10*"></a>
+
+  <h3 id="SLS_Common_DTO_Financial_Clearing_ClearingDocumentDTO_Optional_Num10" data-uid="SLS.Common.DTO.Financial.Clearing.ClearingDocumentDTO.Optional_Num10">
+  Optional_Num10
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Financial/Clearing/ClearingDocumentDTO.cs/#L214"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;Optional_Num10&quot;)]
+public virtual long? Optional_Num10 { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Financial_Clearing_ClearingDocumentDTO_Optional_Num2_" data-uid="SLS.Common.DTO.Financial.Clearing.ClearingDocumentDTO.Optional_Num2*"></a>
+
+  <h3 id="SLS_Common_DTO_Financial_Clearing_ClearingDocumentDTO_Optional_Num2" data-uid="SLS.Common.DTO.Financial.Clearing.ClearingDocumentDTO.Optional_Num2">
+  Optional_Num2
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Financial/Clearing/ClearingDocumentDTO.cs/#L182"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;Optional_Num2&quot;)]
+public virtual int? Optional_Num2 { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Financial_Clearing_ClearingDocumentDTO_Optional_Num3_" data-uid="SLS.Common.DTO.Financial.Clearing.ClearingDocumentDTO.Optional_Num3*"></a>
+
+  <h3 id="SLS_Common_DTO_Financial_Clearing_ClearingDocumentDTO_Optional_Num3" data-uid="SLS.Common.DTO.Financial.Clearing.ClearingDocumentDTO.Optional_Num3">
+  Optional_Num3
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Financial/Clearing/ClearingDocumentDTO.cs/#L186"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;Optional_Num3&quot;)]
+public virtual int? Optional_Num3 { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Financial_Clearing_ClearingDocumentDTO_Optional_Num4_" data-uid="SLS.Common.DTO.Financial.Clearing.ClearingDocumentDTO.Optional_Num4*"></a>
+
+  <h3 id="SLS_Common_DTO_Financial_Clearing_ClearingDocumentDTO_Optional_Num4" data-uid="SLS.Common.DTO.Financial.Clearing.ClearingDocumentDTO.Optional_Num4">
+  Optional_Num4
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Financial/Clearing/ClearingDocumentDTO.cs/#L190"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;Optional_Num4&quot;)]
+public virtual int? Optional_Num4 { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Financial_Clearing_ClearingDocumentDTO_Optional_Num5_" data-uid="SLS.Common.DTO.Financial.Clearing.ClearingDocumentDTO.Optional_Num5*"></a>
+
+  <h3 id="SLS_Common_DTO_Financial_Clearing_ClearingDocumentDTO_Optional_Num5" data-uid="SLS.Common.DTO.Financial.Clearing.ClearingDocumentDTO.Optional_Num5">
+  Optional_Num5
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Financial/Clearing/ClearingDocumentDTO.cs/#L194"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;Optional_Num5&quot;)]
+public virtual int? Optional_Num5 { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Financial_Clearing_ClearingDocumentDTO_Optional_Num6_" data-uid="SLS.Common.DTO.Financial.Clearing.ClearingDocumentDTO.Optional_Num6*"></a>
+
+  <h3 id="SLS_Common_DTO_Financial_Clearing_ClearingDocumentDTO_Optional_Num6" data-uid="SLS.Common.DTO.Financial.Clearing.ClearingDocumentDTO.Optional_Num6">
+  Optional_Num6
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Financial/Clearing/ClearingDocumentDTO.cs/#L198"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;Optional_Num6&quot;)]
+public virtual long? Optional_Num6 { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Financial_Clearing_ClearingDocumentDTO_Optional_Num7_" data-uid="SLS.Common.DTO.Financial.Clearing.ClearingDocumentDTO.Optional_Num7*"></a>
+
+  <h3 id="SLS_Common_DTO_Financial_Clearing_ClearingDocumentDTO_Optional_Num7" data-uid="SLS.Common.DTO.Financial.Clearing.ClearingDocumentDTO.Optional_Num7">
+  Optional_Num7
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Financial/Clearing/ClearingDocumentDTO.cs/#L202"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;Optional_Num7&quot;)]
+public virtual long? Optional_Num7 { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Financial_Clearing_ClearingDocumentDTO_Optional_Num8_" data-uid="SLS.Common.DTO.Financial.Clearing.ClearingDocumentDTO.Optional_Num8*"></a>
+
+  <h3 id="SLS_Common_DTO_Financial_Clearing_ClearingDocumentDTO_Optional_Num8" data-uid="SLS.Common.DTO.Financial.Clearing.ClearingDocumentDTO.Optional_Num8">
+  Optional_Num8
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Financial/Clearing/ClearingDocumentDTO.cs/#L206"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;Optional_Num8&quot;)]
+public virtual long? Optional_Num8 { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Financial_Clearing_ClearingDocumentDTO_Optional_Num9_" data-uid="SLS.Common.DTO.Financial.Clearing.ClearingDocumentDTO.Optional_Num9*"></a>
+
+  <h3 id="SLS_Common_DTO_Financial_Clearing_ClearingDocumentDTO_Optional_Num9" data-uid="SLS.Common.DTO.Financial.Clearing.ClearingDocumentDTO.Optional_Num9">
+  Optional_Num9
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Financial/Clearing/ClearingDocumentDTO.cs/#L210"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;Optional_Num9&quot;)]
+public virtual long? Optional_Num9 { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Financial_Clearing_ClearingDocumentDTO_Optional_String1_" data-uid="SLS.Common.DTO.Financial.Clearing.ClearingDocumentDTO.Optional_String1*"></a>
+
+  <h3 id="SLS_Common_DTO_Financial_Clearing_ClearingDocumentDTO_Optional_String1" data-uid="SLS.Common.DTO.Financial.Clearing.ClearingDocumentDTO.Optional_String1">
+  Optional_String1
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Financial/Clearing/ClearingDocumentDTO.cs/#L138"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;Optional_String1&quot;)]
+public virtual string? Optional_String1 { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Financial_Clearing_ClearingDocumentDTO_Optional_String10_" data-uid="SLS.Common.DTO.Financial.Clearing.ClearingDocumentDTO.Optional_String10*"></a>
+
+  <h3 id="SLS_Common_DTO_Financial_Clearing_ClearingDocumentDTO_Optional_String10" data-uid="SLS.Common.DTO.Financial.Clearing.ClearingDocumentDTO.Optional_String10">
+  Optional_String10
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Financial/Clearing/ClearingDocumentDTO.cs/#L174"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;Optional_String10&quot;)]
+public virtual string? Optional_String10 { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Financial_Clearing_ClearingDocumentDTO_Optional_String2_" data-uid="SLS.Common.DTO.Financial.Clearing.ClearingDocumentDTO.Optional_String2*"></a>
+
+  <h3 id="SLS_Common_DTO_Financial_Clearing_ClearingDocumentDTO_Optional_String2" data-uid="SLS.Common.DTO.Financial.Clearing.ClearingDocumentDTO.Optional_String2">
+  Optional_String2
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Financial/Clearing/ClearingDocumentDTO.cs/#L142"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;Optional_String2&quot;)]
+public virtual string? Optional_String2 { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Financial_Clearing_ClearingDocumentDTO_Optional_String3_" data-uid="SLS.Common.DTO.Financial.Clearing.ClearingDocumentDTO.Optional_String3*"></a>
+
+  <h3 id="SLS_Common_DTO_Financial_Clearing_ClearingDocumentDTO_Optional_String3" data-uid="SLS.Common.DTO.Financial.Clearing.ClearingDocumentDTO.Optional_String3">
+  Optional_String3
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Financial/Clearing/ClearingDocumentDTO.cs/#L146"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;Optional_String3&quot;)]
+public virtual string? Optional_String3 { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Financial_Clearing_ClearingDocumentDTO_Optional_String4_" data-uid="SLS.Common.DTO.Financial.Clearing.ClearingDocumentDTO.Optional_String4*"></a>
+
+  <h3 id="SLS_Common_DTO_Financial_Clearing_ClearingDocumentDTO_Optional_String4" data-uid="SLS.Common.DTO.Financial.Clearing.ClearingDocumentDTO.Optional_String4">
+  Optional_String4
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Financial/Clearing/ClearingDocumentDTO.cs/#L150"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;Optional_String4&quot;)]
+public virtual string? Optional_String4 { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Financial_Clearing_ClearingDocumentDTO_Optional_String5_" data-uid="SLS.Common.DTO.Financial.Clearing.ClearingDocumentDTO.Optional_String5*"></a>
+
+  <h3 id="SLS_Common_DTO_Financial_Clearing_ClearingDocumentDTO_Optional_String5" data-uid="SLS.Common.DTO.Financial.Clearing.ClearingDocumentDTO.Optional_String5">
+  Optional_String5
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Financial/Clearing/ClearingDocumentDTO.cs/#L154"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;Optional_String5&quot;)]
+public virtual string? Optional_String5 { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Financial_Clearing_ClearingDocumentDTO_Optional_String6_" data-uid="SLS.Common.DTO.Financial.Clearing.ClearingDocumentDTO.Optional_String6*"></a>
+
+  <h3 id="SLS_Common_DTO_Financial_Clearing_ClearingDocumentDTO_Optional_String6" data-uid="SLS.Common.DTO.Financial.Clearing.ClearingDocumentDTO.Optional_String6">
+  Optional_String6
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Financial/Clearing/ClearingDocumentDTO.cs/#L158"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;Optional_String6&quot;)]
+public virtual string? Optional_String6 { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Financial_Clearing_ClearingDocumentDTO_Optional_String7_" data-uid="SLS.Common.DTO.Financial.Clearing.ClearingDocumentDTO.Optional_String7*"></a>
+
+  <h3 id="SLS_Common_DTO_Financial_Clearing_ClearingDocumentDTO_Optional_String7" data-uid="SLS.Common.DTO.Financial.Clearing.ClearingDocumentDTO.Optional_String7">
+  Optional_String7
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Financial/Clearing/ClearingDocumentDTO.cs/#L162"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;Optional_String7&quot;)]
+public virtual string? Optional_String7 { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Financial_Clearing_ClearingDocumentDTO_Optional_String8_" data-uid="SLS.Common.DTO.Financial.Clearing.ClearingDocumentDTO.Optional_String8*"></a>
+
+  <h3 id="SLS_Common_DTO_Financial_Clearing_ClearingDocumentDTO_Optional_String8" data-uid="SLS.Common.DTO.Financial.Clearing.ClearingDocumentDTO.Optional_String8">
+  Optional_String8
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Financial/Clearing/ClearingDocumentDTO.cs/#L166"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;Optional_String8&quot;)]
+public virtual string? Optional_String8 { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Financial_Clearing_ClearingDocumentDTO_Optional_String9_" data-uid="SLS.Common.DTO.Financial.Clearing.ClearingDocumentDTO.Optional_String9*"></a>
+
+  <h3 id="SLS_Common_DTO_Financial_Clearing_ClearingDocumentDTO_Optional_String9" data-uid="SLS.Common.DTO.Financial.Clearing.ClearingDocumentDTO.Optional_String9">
+  Optional_String9
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Financial/Clearing/ClearingDocumentDTO.cs/#L170"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;Optional_String9&quot;)]
+public virtual string? Optional_String9 { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Financial_Clearing_ClearingDocumentDTO_PaymentCondition_" data-uid="SLS.Common.DTO.Financial.Clearing.ClearingDocumentDTO.PaymentCondition*"></a>
+
+  <h3 id="SLS_Common_DTO_Financial_Clearing_ClearingDocumentDTO_PaymentCondition" data-uid="SLS.Common.DTO.Financial.Clearing.ClearingDocumentDTO.PaymentCondition">
+  PaymentCondition
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Financial/Clearing/ClearingDocumentDTO.cs/#L283"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[ForeignKey(&quot;PaymentConditionCollection&quot;)]
+[InverseProperty(&quot;ClearingDocument_PaymentCondition&quot;)]
+[JsonIgnore]
+public virtual PaymentConditionDTO? PaymentCondition { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="SLS.Common.DTO.Financial.PaymentConditionDTO.html">PaymentConditionDTO</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Financial_Clearing_ClearingDocumentDTO_PaymentConditionID_" data-uid="SLS.Common.DTO.Financial.Clearing.ClearingDocumentDTO.PaymentConditionID*"></a>
+
+  <h3 id="SLS_Common_DTO_Financial_Clearing_ClearingDocumentDTO_PaymentConditionID" data-uid="SLS.Common.DTO.Financial.Clearing.ClearingDocumentDTO.PaymentConditionID">
+  PaymentConditionID
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Financial/Clearing/ClearingDocumentDTO.cs/#L77"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;PaymentConditionCollection&quot;)]
+[ForeignKey(&quot;PaymentConditionCollection&quot;)]
+public virtual long? PaymentConditionID { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Financial_Clearing_ClearingDocumentDTO_ProcessStatus_" data-uid="SLS.Common.DTO.Financial.Clearing.ClearingDocumentDTO.ProcessStatus*"></a>
+
+  <h3 id="SLS_Common_DTO_Financial_Clearing_ClearingDocumentDTO_ProcessStatus" data-uid="SLS.Common.DTO.Financial.Clearing.ClearingDocumentDTO.ProcessStatus">
+  ProcessStatus
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Financial/Clearing/ClearingDocumentDTO.cs/#L288"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[ForeignKey(&quot;ProcessStatusCollection&quot;)]
+[InverseProperty(&quot;ClearingDocument_ProcessStatus&quot;)]
+[JsonIgnore]
+public virtual ProcessStatusDTO? ProcessStatus { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="SLS.Common.DTO.MasterData.Dispo.ProcessStatusDTO.html">ProcessStatusDTO</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Financial_Clearing_ClearingDocumentDTO_ProcessStatusID_" data-uid="SLS.Common.DTO.Financial.Clearing.ClearingDocumentDTO.ProcessStatusID*"></a>
+
+  <h3 id="SLS_Common_DTO_Financial_Clearing_ClearingDocumentDTO_ProcessStatusID" data-uid="SLS.Common.DTO.Financial.Clearing.ClearingDocumentDTO.ProcessStatusID">
+  ProcessStatusID
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Financial/Clearing/ClearingDocumentDTO.cs/#L82"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;ProcessStatusCollection&quot;)]
+[ForeignKey(&quot;ProcessStatusCollection&quot;)]
+public virtual long? ProcessStatusID { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Financial_Clearing_ClearingDocumentDTO_StatusReason_" data-uid="SLS.Common.DTO.Financial.Clearing.ClearingDocumentDTO.StatusReason*"></a>
+
+  <h3 id="SLS_Common_DTO_Financial_Clearing_ClearingDocumentDTO_StatusReason" data-uid="SLS.Common.DTO.Financial.Clearing.ClearingDocumentDTO.StatusReason">
+  StatusReason
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Financial/Clearing/ClearingDocumentDTO.cs/#L293"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[ForeignKey(&quot;StatusReasonCollection&quot;)]
+[InverseProperty(&quot;ClearingDocument_StatusReason&quot;)]
+[JsonIgnore]
+public virtual StatusReasonDTO? StatusReason { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="SLS.Common.DTO.MasterData.Dispo.StatusReasonDTO.html">StatusReasonDTO</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Financial_Clearing_ClearingDocumentDTO_StatusReasonID_" data-uid="SLS.Common.DTO.Financial.Clearing.ClearingDocumentDTO.StatusReasonID*"></a>
+
+  <h3 id="SLS_Common_DTO_Financial_Clearing_ClearingDocumentDTO_StatusReasonID" data-uid="SLS.Common.DTO.Financial.Clearing.ClearingDocumentDTO.StatusReasonID">
+  StatusReasonID
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Financial/Clearing/ClearingDocumentDTO.cs/#L87"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;StatusReasonCollection&quot;)]
+[ForeignKey(&quot;StatusReasonCollection&quot;)]
+public virtual long? StatusReasonID { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Financial_Clearing_ClearingDocumentDTO_Subsidiary_ID_" data-uid="SLS.Common.DTO.Financial.Clearing.ClearingDocumentDTO.Subsidiary_ID*"></a>
+
+  <h3 id="SLS_Common_DTO_Financial_Clearing_ClearingDocumentDTO_Subsidiary_ID" data-uid="SLS.Common.DTO.Financial.Clearing.ClearingDocumentDTO.Subsidiary_ID">
+  Subsidiary_ID
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Financial/Clearing/ClearingDocumentDTO.cs/#L42"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public long? Subsidiary_ID { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Financial_Clearing_ClearingDocumentDTO_User_ID_" data-uid="SLS.Common.DTO.Financial.Clearing.ClearingDocumentDTO.User_ID*"></a>
+
+  <h3 id="SLS_Common_DTO_Financial_Clearing_ClearingDocumentDTO_User_ID" data-uid="SLS.Common.DTO.Financial.Clearing.ClearingDocumentDTO.User_ID">
+  User_ID
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Financial/Clearing/ClearingDocumentDTO.cs/#L46"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public long? User_ID { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Financial_Clearing_ClearingDocumentDTO_ValutaDate_" data-uid="SLS.Common.DTO.Financial.Clearing.ClearingDocumentDTO.ValutaDate*"></a>
+
+  <h3 id="SLS_Common_DTO_Financial_Clearing_ClearingDocumentDTO_ValutaDate" data-uid="SLS.Common.DTO.Financial.Clearing.ClearingDocumentDTO.ValutaDate">
+  ValutaDate
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Financial/Clearing/ClearingDocumentDTO.cs/#L130"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;ValutaDate&quot;)]
+public virtual DateTime? ValutaDate { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.datetime">DateTime</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Financial_Clearing_ClearingDocumentDTO_Version_" data-uid="SLS.Common.DTO.Financial.Clearing.ClearingDocumentDTO.Version*"></a>
+
+  <h3 id="SLS_Common_DTO_Financial_Clearing_ClearingDocumentDTO_Version" data-uid="SLS.Common.DTO.Financial.Clearing.ClearingDocumentDTO.Version">
+  Version
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Financial/Clearing/ClearingDocumentDTO.cs/#L38"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;Version&quot;)]
+public long Version { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Financial_Clearing_ClearingDocumentDTO_VoucherType_" data-uid="SLS.Common.DTO.Financial.Clearing.ClearingDocumentDTO.VoucherType*"></a>
+
+  <h3 id="SLS_Common_DTO_Financial_Clearing_ClearingDocumentDTO_VoucherType" data-uid="SLS.Common.DTO.Financial.Clearing.ClearingDocumentDTO.VoucherType">
+  VoucherType
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Financial/Clearing/ClearingDocumentDTO.cs/#L263"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[ForeignKey(&quot;VoucherTypeCollection&quot;)]
+[InverseProperty(&quot;ClearingDocument_VoucherType&quot;)]
+[JsonIgnore]
+public virtual VoucherTypeDTO? VoucherType { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="SLS.Common.DTO.Financial.VoucherTypeDTO.html">VoucherTypeDTO</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Financial_Clearing_ClearingDocumentDTO_VoucherTypeCode_" data-uid="SLS.Common.DTO.Financial.Clearing.ClearingDocumentDTO.VoucherTypeCode*"></a>
+
+  <h3 id="SLS_Common_DTO_Financial_Clearing_ClearingDocumentDTO_VoucherTypeCode" data-uid="SLS.Common.DTO.Financial.Clearing.ClearingDocumentDTO.VoucherTypeCode">
+  VoucherTypeCode
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Financial/Clearing/ClearingDocumentDTO.cs/#L122"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;VoucherTypeCode&quot;)]
+public virtual string VoucherTypeCode { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Financial_Clearing_ClearingDocumentDTO_VoucherTypeID_" data-uid="SLS.Common.DTO.Financial.Clearing.ClearingDocumentDTO.VoucherTypeID*"></a>
+
+  <h3 id="SLS_Common_DTO_Financial_Clearing_ClearingDocumentDTO_VoucherTypeID" data-uid="SLS.Common.DTO.Financial.Clearing.ClearingDocumentDTO.VoucherTypeID">
+  VoucherTypeID
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Financial/Clearing/ClearingDocumentDTO.cs/#L57"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;VoucherTypeCollection&quot;)]
+[ForeignKey(&quot;VoucherTypeCollection&quot;)]
+public virtual long VoucherTypeID { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+</article>
+
+        <div class="contribution d-print-none">
+          <a href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Financial/Clearing/ClearingDocumentDTO.cs/#L28" class="edit-link">Edit this page</a>
+        </div>
+
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

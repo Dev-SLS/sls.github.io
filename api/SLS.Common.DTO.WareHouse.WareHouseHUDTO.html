@@ -1,0 +1,3838 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Class WareHouseHUDTO | SLS Documentation </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Class WareHouseHUDTO | SLS Documentation ">
+      
+      
+      <link rel="icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="../">
+      
+      
+      <meta name="docfx:docurl" content="https://github.com/Dev-SLS/dev/new/Dev/apiSpec/new?filename=SLS_Common_DTO_WareHouse_WareHouseHUDTO.md&amp;value=---%0Auid%3A%20SLS.Common.DTO.WareHouse.WareHouseHUDTO%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../logo.svg" alt="SLS Documentation">
+            SLS Documentation
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="SLS.Common.DTO.WareHouse.WareHouseHUDTO">
+
+
+
+  <h1 id="SLS_Common_DTO_WareHouse_WareHouseHUDTO" data-uid="SLS.Common.DTO.WareHouse.WareHouseHUDTO" class="text-break">
+Class WareHouseHUDTO  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/WareHouse/WareHouseHUDTO.cs/#L28"><i class="bi bi-code-slash"></i></a>
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="SLS.html">SLS</a>.<a class="xref" href="SLS.Common.html">Common</a>.<a class="xref" href="SLS.Common.DTO.html">DTO</a>.<a class="xref" href="SLS.Common.DTO.WareHouse.html">WareHouse</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>SLS.Common.DTO.dll</dd></dl>
+  </div>
+
+  <div class="markdown summary"></div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Serializable]
+[DataContract(IsReference = true)]
+public class WareHouseHUDTO : IBusinessDTO, IDTO</code></pre>
+  </div>
+
+
+
+
+  <dl class="typelist inheritance">
+    <dt>Inheritance</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+      <div><span class="xref">WareHouseHUDTO</span></div>
+    </dd>
+  </dl>
+
+  <dl class="typelist implements">
+    <dt>Implements</dt>
+    <dd>
+      <div><a class="xref" href="SLS.Common.Interfaces.IBusinessDTO.html">IBusinessDTO</a></div>
+      <div><a class="xref" href="SLS.Common.Interfaces.IDTO.html">IDTO</a></div>
+    </dd>
+  </dl>
+
+
+  <dl class="typelist inheritedMembers">
+    <dt>Inherited Members</dt>
+    <dd>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)">object.Equals(object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">object.Equals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gethashcode">object.GetHashCode()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gettype">object.GetType()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone">object.MemberwiseClone()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals">object.ReferenceEquals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.tostring">object.ToString()</a>
+    </div>
+  </dd></dl>
+
+
+
+
+
+
+  <h2 class="section" id="properties">Properties
+</h2>
+
+
+  <a id="SLS_Common_DTO_WareHouse_WareHouseHUDTO_Article_" data-uid="SLS.Common.DTO.WareHouse.WareHouseHUDTO.Article*"></a>
+
+  <h3 id="SLS_Common_DTO_WareHouse_WareHouseHUDTO_Article" data-uid="SLS.Common.DTO.WareHouse.WareHouseHUDTO.Article">
+  Article
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/WareHouse/WareHouseHUDTO.cs/#L399"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[ForeignKey(&quot;ArticleCollection&quot;)]
+[InverseProperty(&quot;WareHouseHU_Article&quot;)]
+[JsonIgnore]
+public virtual ArticleTypeDTO? Article { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="SLS.Common.DTO.MasterData.Article.ArticleTypeDTO.html">ArticleTypeDTO</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_WareHouse_WareHouseHUDTO_Article2_" data-uid="SLS.Common.DTO.WareHouse.WareHouseHUDTO.Article2*"></a>
+
+  <h3 id="SLS_Common_DTO_WareHouse_WareHouseHUDTO_Article2" data-uid="SLS.Common.DTO.WareHouse.WareHouseHUDTO.Article2">
+  Article2
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/WareHouse/WareHouseHUDTO.cs/#L449"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[ForeignKey(&quot;Article2Collection&quot;)]
+[InverseProperty(&quot;WareHouseHU_Article2&quot;)]
+[JsonIgnore]
+public virtual ArticleTypeDTO? Article2 { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="SLS.Common.DTO.MasterData.Article.ArticleTypeDTO.html">ArticleTypeDTO</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_WareHouse_WareHouseHUDTO_Article2ID_" data-uid="SLS.Common.DTO.WareHouse.WareHouseHUDTO.Article2ID*"></a>
+
+  <h3 id="SLS_Common_DTO_WareHouse_WareHouseHUDTO_Article2ID" data-uid="SLS.Common.DTO.WareHouse.WareHouseHUDTO.Article2ID">
+  Article2ID
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/WareHouse/WareHouseHUDTO.cs/#L102"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;Article2Collection&quot;)]
+[ForeignKey(&quot;Article2Collection&quot;)]
+public virtual long? Article2ID { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_WareHouse_WareHouseHUDTO_ArticleID_" data-uid="SLS.Common.DTO.WareHouse.WareHouseHUDTO.ArticleID*"></a>
+
+  <h3 id="SLS_Common_DTO_WareHouse_WareHouseHUDTO_ArticleID" data-uid="SLS.Common.DTO.WareHouse.WareHouseHUDTO.ArticleID">
+  ArticleID
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/WareHouse/WareHouseHUDTO.cs/#L52"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;ArticleCollection&quot;)]
+[ForeignKey(&quot;ArticleCollection&quot;)]
+public virtual long ArticleID { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_WareHouse_WareHouseHUDTO_ArticleQuantity_" data-uid="SLS.Common.DTO.WareHouse.WareHouseHUDTO.ArticleQuantity*"></a>
+
+  <h3 id="SLS_Common_DTO_WareHouse_WareHouseHUDTO_ArticleQuantity" data-uid="SLS.Common.DTO.WareHouse.WareHouseHUDTO.ArticleQuantity">
+  ArticleQuantity
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/WareHouse/WareHouseHUDTO.cs/#L111"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;ArticleQuantity&quot;)]
+public virtual double ArticleQuantity { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_WareHouse_WareHouseHUDTO_ArticleSerialNumber_" data-uid="SLS.Common.DTO.WareHouse.WareHouseHUDTO.ArticleSerialNumber*"></a>
+
+  <h3 id="SLS_Common_DTO_WareHouse_WareHouseHUDTO_ArticleSerialNumber" data-uid="SLS.Common.DTO.WareHouse.WareHouseHUDTO.ArticleSerialNumber">
+  ArticleSerialNumber
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/WareHouse/WareHouseHUDTO.cs/#L115"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;ArticleSerialNumber&quot;)]
+public virtual string? ArticleSerialNumber { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_WareHouse_WareHouseHUDTO_ArticleTypePackingStructure_" data-uid="SLS.Common.DTO.WareHouse.WareHouseHUDTO.ArticleTypePackingStructure*"></a>
+
+  <h3 id="SLS_Common_DTO_WareHouse_WareHouseHUDTO_ArticleTypePackingStructure" data-uid="SLS.Common.DTO.WareHouse.WareHouseHUDTO.ArticleTypePackingStructure">
+  ArticleTypePackingStructure
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/WareHouse/WareHouseHUDTO.cs/#L434"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[ForeignKey(&quot;ArticleTypePackingStructureCollection&quot;)]
+[InverseProperty(&quot;WareHouseHU_ArticleTypePackingStructure&quot;)]
+[JsonIgnore]
+public virtual ArticlePackingStructureDTO? ArticleTypePackingStructure { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="SLS.Common.DTO.MasterData.Article.ArticlePackingStructureDTO.html">ArticlePackingStructureDTO</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_WareHouse_WareHouseHUDTO_ArticleTypePackingStructureID_" data-uid="SLS.Common.DTO.WareHouse.WareHouseHUDTO.ArticleTypePackingStructureID*"></a>
+
+  <h3 id="SLS_Common_DTO_WareHouse_WareHouseHUDTO_ArticleTypePackingStructureID" data-uid="SLS.Common.DTO.WareHouse.WareHouseHUDTO.ArticleTypePackingStructureID">
+  ArticleTypePackingStructureID
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/WareHouse/WareHouseHUDTO.cs/#L87"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;ArticleTypePackingStructureCollection&quot;)]
+[ForeignKey(&quot;ArticleTypePackingStructureCollection&quot;)]
+public virtual long? ArticleTypePackingStructureID { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_WareHouse_WareHouseHUDTO_BestBeforeDate_" data-uid="SLS.Common.DTO.WareHouse.WareHouseHUDTO.BestBeforeDate*"></a>
+
+  <h3 id="SLS_Common_DTO_WareHouse_WareHouseHUDTO_BestBeforeDate" data-uid="SLS.Common.DTO.WareHouse.WareHouseHUDTO.BestBeforeDate">
+  BestBeforeDate
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/WareHouse/WareHouseHUDTO.cs/#L147"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;BestBeforeDate&quot;)]
+public virtual DateTime? BestBeforeDate { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.datetime">DateTime</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_WareHouse_WareHouseHUDTO_Company_ID_" data-uid="SLS.Common.DTO.WareHouse.WareHouseHUDTO.Company_ID*"></a>
+
+  <h3 id="SLS_Common_DTO_WareHouse_WareHouseHUDTO_Company_ID" data-uid="SLS.Common.DTO.WareHouse.WareHouseHUDTO.Company_ID">
+  Company_ID
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/WareHouse/WareHouseHUDTO.cs/#L41"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public long? Company_ID { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_WareHouse_WareHouseHUDTO_ContainerNumber_" data-uid="SLS.Common.DTO.WareHouse.WareHouseHUDTO.ContainerNumber*"></a>
+
+  <h3 id="SLS_Common_DTO_WareHouse_WareHouseHUDTO_ContainerNumber" data-uid="SLS.Common.DTO.WareHouse.WareHouseHUDTO.ContainerNumber">
+  ContainerNumber
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/WareHouse/WareHouseHUDTO.cs/#L179"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;ContainerNumber&quot;)]
+public virtual string? ContainerNumber { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_WareHouse_WareHouseHUDTO_CreatedDate_" data-uid="SLS.Common.DTO.WareHouse.WareHouseHUDTO.CreatedDate*"></a>
+
+  <h3 id="SLS_Common_DTO_WareHouse_WareHouseHUDTO_CreatedDate" data-uid="SLS.Common.DTO.WareHouse.WareHouseHUDTO.CreatedDate">
+  CreatedDate
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/WareHouse/WareHouseHUDTO.cs/#L119"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;CreatedDate&quot;)]
+public virtual DateTime CreatedDate { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.datetime">DateTime</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_WareHouse_WareHouseHUDTO_CustomsMRN_" data-uid="SLS.Common.DTO.WareHouse.WareHouseHUDTO.CustomsMRN*"></a>
+
+  <h3 id="SLS_Common_DTO_WareHouse_WareHouseHUDTO_CustomsMRN" data-uid="SLS.Common.DTO.WareHouse.WareHouseHUDTO.CustomsMRN">
+  CustomsMRN
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/WareHouse/WareHouseHUDTO.cs/#L199"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;CustomsMRN&quot;)]
+public virtual string? CustomsMRN { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_WareHouse_WareHouseHUDTO_CustomsReference_" data-uid="SLS.Common.DTO.WareHouse.WareHouseHUDTO.CustomsReference*"></a>
+
+  <h3 id="SLS_Common_DTO_WareHouse_WareHouseHUDTO_CustomsReference" data-uid="SLS.Common.DTO.WareHouse.WareHouseHUDTO.CustomsReference">
+  CustomsReference
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/WareHouse/WareHouseHUDTO.cs/#L171"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;CustomsReference&quot;)]
+public virtual string? CustomsReference { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_WareHouse_WareHouseHUDTO_CustomsReferenceOut_" data-uid="SLS.Common.DTO.WareHouse.WareHouseHUDTO.CustomsReferenceOut*"></a>
+
+  <h3 id="SLS_Common_DTO_WareHouse_WareHouseHUDTO_CustomsReferenceOut" data-uid="SLS.Common.DTO.WareHouse.WareHouseHUDTO.CustomsReferenceOut">
+  CustomsReferenceOut
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/WareHouse/WareHouseHUDTO.cs/#L195"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;CustomsReferenceOut&quot;)]
+public virtual string? CustomsReferenceOut { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_WareHouse_WareHouseHUDTO_CustomsReferencePos_" data-uid="SLS.Common.DTO.WareHouse.WareHouseHUDTO.CustomsReferencePos*"></a>
+
+  <h3 id="SLS_Common_DTO_WareHouse_WareHouseHUDTO_CustomsReferencePos" data-uid="SLS.Common.DTO.WareHouse.WareHouseHUDTO.CustomsReferencePos">
+  CustomsReferencePos
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/WareHouse/WareHouseHUDTO.cs/#L187"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;CustomsReferencePos&quot;)]
+public virtual string? CustomsReferencePos { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_WareHouse_WareHouseHUDTO_CustomsReferenceRel_" data-uid="SLS.Common.DTO.WareHouse.WareHouseHUDTO.CustomsReferenceRel*"></a>
+
+  <h3 id="SLS_Common_DTO_WareHouse_WareHouseHUDTO_CustomsReferenceRel" data-uid="SLS.Common.DTO.WareHouse.WareHouseHUDTO.CustomsReferenceRel">
+  CustomsReferenceRel
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/WareHouse/WareHouseHUDTO.cs/#L191"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;CustomsReferenceRel&quot;)]
+public virtual string? CustomsReferenceRel { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_WareHouse_WareHouseHUDTO_CustomsStatus_" data-uid="SLS.Common.DTO.WareHouse.WareHouseHUDTO.CustomsStatus*"></a>
+
+  <h3 id="SLS_Common_DTO_WareHouse_WareHouseHUDTO_CustomsStatus" data-uid="SLS.Common.DTO.WareHouse.WareHouseHUDTO.CustomsStatus">
+  CustomsStatus
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/WareHouse/WareHouseHUDTO.cs/#L183"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;CustomsStatus&quot;)]
+public virtual bool? CustomsStatus { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_WareHouse_WareHouseHUDTO_CustomsValue_" data-uid="SLS.Common.DTO.WareHouse.WareHouseHUDTO.CustomsValue*"></a>
+
+  <h3 id="SLS_Common_DTO_WareHouse_WareHouseHUDTO_CustomsValue" data-uid="SLS.Common.DTO.WareHouse.WareHouseHUDTO.CustomsValue">
+  CustomsValue
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/WareHouse/WareHouseHUDTO.cs/#L175"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;CustomsValue&quot;)]
+public virtual double? CustomsValue { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_WareHouse_WareHouseHUDTO_CustomsWarehouseProc_" data-uid="SLS.Common.DTO.WareHouse.WareHouseHUDTO.CustomsWarehouseProc*"></a>
+
+  <h3 id="SLS_Common_DTO_WareHouse_WareHouseHUDTO_CustomsWarehouseProc" data-uid="SLS.Common.DTO.WareHouse.WareHouseHUDTO.CustomsWarehouseProc">
+  CustomsWarehouseProc
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/WareHouse/WareHouseHUDTO.cs/#L429"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[ForeignKey(&quot;CustomsWarehouseProcCollection&quot;)]
+[InverseProperty(&quot;WareHouseHU_CustomsWarehouseProc&quot;)]
+[JsonIgnore]
+public virtual CustomsWarehouseProcDTO? CustomsWarehouseProc { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="SLS.Common.DTO.WareHouse.CustomsWarehouseProcDTO.html">CustomsWarehouseProcDTO</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_WareHouse_WareHouseHUDTO_CustomsWarehouseProcID_" data-uid="SLS.Common.DTO.WareHouse.WareHouseHUDTO.CustomsWarehouseProcID*"></a>
+
+  <h3 id="SLS_Common_DTO_WareHouse_WareHouseHUDTO_CustomsWarehouseProcID" data-uid="SLS.Common.DTO.WareHouse.WareHouseHUDTO.CustomsWarehouseProcID">
+  CustomsWarehouseProcID
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/WareHouse/WareHouseHUDTO.cs/#L82"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;CustomsWarehouseProcCollection&quot;)]
+[ForeignKey(&quot;CustomsWarehouseProcCollection&quot;)]
+public virtual long? CustomsWarehouseProcID { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_WareHouse_WareHouseHUDTO_DeliveryNote_" data-uid="SLS.Common.DTO.WareHouse.WareHouseHUDTO.DeliveryNote*"></a>
+
+  <h3 id="SLS_Common_DTO_WareHouse_WareHouseHUDTO_DeliveryNote" data-uid="SLS.Common.DTO.WareHouse.WareHouseHUDTO.DeliveryNote">
+  DeliveryNote
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/WareHouse/WareHouseHUDTO.cs/#L127"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;DeliveryNote&quot;)]
+public virtual string? DeliveryNote { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_WareHouse_WareHouseHUDTO_Department_ID_" data-uid="SLS.Common.DTO.WareHouse.WareHouseHUDTO.Department_ID*"></a>
+
+  <h3 id="SLS_Common_DTO_WareHouse_WareHouseHUDTO_Department_ID" data-uid="SLS.Common.DTO.WareHouse.WareHouseHUDTO.Department_ID">
+  Department_ID
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/WareHouse/WareHouseHUDTO.cs/#L43"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public long? Department_ID { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_WareHouse_WareHouseHUDTO_Details_" data-uid="SLS.Common.DTO.WareHouse.WareHouseHUDTO.Details*"></a>
+
+  <h3 id="SLS_Common_DTO_WareHouse_WareHouseHUDTO_Details" data-uid="SLS.Common.DTO.WareHouse.WareHouseHUDTO.Details">
+  Details
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/WareHouse/WareHouseHUDTO.cs/#L319"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;Details&quot;)]
+public virtual string? Details { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_WareHouse_WareHouseHUDTO_Division_ID_" data-uid="SLS.Common.DTO.WareHouse.WareHouseHUDTO.Division_ID*"></a>
+
+  <h3 id="SLS_Common_DTO_WareHouse_WareHouseHUDTO_Division_ID" data-uid="SLS.Common.DTO.WareHouse.WareHouseHUDTO.Division_ID">
+  Division_ID
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/WareHouse/WareHouseHUDTO.cs/#L45"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public long? Division_ID { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_WareHouse_WareHouseHUDTO_FahrzeugID_" data-uid="SLS.Common.DTO.WareHouse.WareHouseHUDTO.FahrzeugID*"></a>
+
+  <h3 id="SLS_Common_DTO_WareHouse_WareHouseHUDTO_FahrzeugID" data-uid="SLS.Common.DTO.WareHouse.WareHouseHUDTO.FahrzeugID">
+  FahrzeugID
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/WareHouse/WareHouseHUDTO.cs/#L363"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;FahrzeugID&quot;)]
+public virtual long? FahrzeugID { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_WareHouse_WareHouseHUDTO_FiscalYear_ID_" data-uid="SLS.Common.DTO.WareHouse.WareHouseHUDTO.FiscalYear_ID*"></a>
+
+  <h3 id="SLS_Common_DTO_WareHouse_WareHouseHUDTO_FiscalYear_ID" data-uid="SLS.Common.DTO.WareHouse.WareHouseHUDTO.FiscalYear_ID">
+  FiscalYear_ID
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/WareHouse/WareHouseHUDTO.cs/#L44"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public long? FiscalYear_ID { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_WareHouse_WareHouseHUDTO_GoodsInOrder_" data-uid="SLS.Common.DTO.WareHouse.WareHouseHUDTO.GoodsInOrder*"></a>
+
+  <h3 id="SLS_Common_DTO_WareHouse_WareHouseHUDTO_GoodsInOrder" data-uid="SLS.Common.DTO.WareHouse.WareHouseHUDTO.GoodsInOrder">
+  GoodsInOrder
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/WareHouse/WareHouseHUDTO.cs/#L404"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[ForeignKey(&quot;GoodsInOrderCollection&quot;)]
+[InverseProperty(&quot;WareHouseHU_GoodsInOrder&quot;)]
+[JsonIgnore]
+public virtual GoodsInOrderDTO? GoodsInOrder { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="SLS.Common.DTO.WareHouse.GoodsInOrderDTO.html">GoodsInOrderDTO</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_WareHouse_WareHouseHUDTO_GoodsInOrderID_" data-uid="SLS.Common.DTO.WareHouse.WareHouseHUDTO.GoodsInOrderID*"></a>
+
+  <h3 id="SLS_Common_DTO_WareHouse_WareHouseHUDTO_GoodsInOrderID" data-uid="SLS.Common.DTO.WareHouse.WareHouseHUDTO.GoodsInOrderID">
+  GoodsInOrderID
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/WareHouse/WareHouseHUDTO.cs/#L57"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;GoodsInOrderCollection&quot;)]
+[ForeignKey(&quot;GoodsInOrderCollection&quot;)]
+public virtual long? GoodsInOrderID { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_WareHouse_WareHouseHUDTO_GoodsInOrderItem_" data-uid="SLS.Common.DTO.WareHouse.WareHouseHUDTO.GoodsInOrderItem*"></a>
+
+  <h3 id="SLS_Common_DTO_WareHouse_WareHouseHUDTO_GoodsInOrderItem" data-uid="SLS.Common.DTO.WareHouse.WareHouseHUDTO.GoodsInOrderItem">
+  GoodsInOrderItem
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/WareHouse/WareHouseHUDTO.cs/#L419"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[ForeignKey(&quot;GoodsInOrderItemCollection&quot;)]
+[InverseProperty(&quot;WareHouseHU_GoodsInOrderItem&quot;)]
+[JsonIgnore]
+public virtual GoodsInOrderItemsDTO? GoodsInOrderItem { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="SLS.Common.DTO.WareHouse.GoodsInOrderItemsDTO.html">GoodsInOrderItemsDTO</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_WareHouse_WareHouseHUDTO_GoodsInOrderItemID_" data-uid="SLS.Common.DTO.WareHouse.WareHouseHUDTO.GoodsInOrderItemID*"></a>
+
+  <h3 id="SLS_Common_DTO_WareHouse_WareHouseHUDTO_GoodsInOrderItemID" data-uid="SLS.Common.DTO.WareHouse.WareHouseHUDTO.GoodsInOrderItemID">
+  GoodsInOrderItemID
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/WareHouse/WareHouseHUDTO.cs/#L72"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;GoodsInOrderItemCollection&quot;)]
+[ForeignKey(&quot;GoodsInOrderItemCollection&quot;)]
+public virtual long? GoodsInOrderItemID { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_WareHouse_WareHouseHUDTO_GoodsInOrderItems_HandlingUnit_" data-uid="SLS.Common.DTO.WareHouse.WareHouseHUDTO.GoodsInOrderItems_HandlingUnit*"></a>
+
+  <h3 id="SLS_Common_DTO_WareHouse_WareHouseHUDTO_GoodsInOrderItems_HandlingUnit" data-uid="SLS.Common.DTO.WareHouse.WareHouseHUDTO.GoodsInOrderItems_HandlingUnit">
+  GoodsInOrderItems_HandlingUnit
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/WareHouse/WareHouseHUDTO.cs/#L493"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;HandlingUnitCollection&quot;)]
+[JsonIgnore]
+public virtual List&lt;GoodsInOrderItemsDTO&gt;? GoodsInOrderItems_HandlingUnit { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<a class="xref" href="SLS.Common.DTO.WareHouse.GoodsInOrderItemsDTO.html">GoodsInOrderItemsDTO</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_WareHouse_WareHouseHUDTO_GoodsOutOrder_" data-uid="SLS.Common.DTO.WareHouse.WareHouseHUDTO.GoodsOutOrder*"></a>
+
+  <h3 id="SLS_Common_DTO_WareHouse_WareHouseHUDTO_GoodsOutOrder" data-uid="SLS.Common.DTO.WareHouse.WareHouseHUDTO.GoodsOutOrder">
+  GoodsOutOrder
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/WareHouse/WareHouseHUDTO.cs/#L409"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[ForeignKey(&quot;GoodsOutOrderCollection&quot;)]
+[InverseProperty(&quot;WareHouseHU_GoodsOutOrder&quot;)]
+[JsonIgnore]
+public virtual GoodsOutOrderDTO? GoodsOutOrder { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="SLS.Common.DTO.WareHouse.GoodsOutOrderDTO.html">GoodsOutOrderDTO</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_WareHouse_WareHouseHUDTO_GoodsOutOrderID_" data-uid="SLS.Common.DTO.WareHouse.WareHouseHUDTO.GoodsOutOrderID*"></a>
+
+  <h3 id="SLS_Common_DTO_WareHouse_WareHouseHUDTO_GoodsOutOrderID" data-uid="SLS.Common.DTO.WareHouse.WareHouseHUDTO.GoodsOutOrderID">
+  GoodsOutOrderID
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/WareHouse/WareHouseHUDTO.cs/#L62"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;GoodsOutOrderCollection&quot;)]
+[ForeignKey(&quot;GoodsOutOrderCollection&quot;)]
+public virtual long? GoodsOutOrderID { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_WareHouse_WareHouseHUDTO_GoodsOutOrderItem_" data-uid="SLS.Common.DTO.WareHouse.WareHouseHUDTO.GoodsOutOrderItem*"></a>
+
+  <h3 id="SLS_Common_DTO_WareHouse_WareHouseHUDTO_GoodsOutOrderItem" data-uid="SLS.Common.DTO.WareHouse.WareHouseHUDTO.GoodsOutOrderItem">
+  GoodsOutOrderItem
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/WareHouse/WareHouseHUDTO.cs/#L424"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[ForeignKey(&quot;GoodsOutOrderItemCollection&quot;)]
+[InverseProperty(&quot;WareHouseHU_GoodsOutOrderItem&quot;)]
+[JsonIgnore]
+public virtual GoodsOutOrderItemsDTO? GoodsOutOrderItem { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="SLS.Common.DTO.WareHouse.GoodsOutOrderItemsDTO.html">GoodsOutOrderItemsDTO</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_WareHouse_WareHouseHUDTO_GoodsOutOrderItemID_" data-uid="SLS.Common.DTO.WareHouse.WareHouseHUDTO.GoodsOutOrderItemID*"></a>
+
+  <h3 id="SLS_Common_DTO_WareHouse_WareHouseHUDTO_GoodsOutOrderItemID" data-uid="SLS.Common.DTO.WareHouse.WareHouseHUDTO.GoodsOutOrderItemID">
+  GoodsOutOrderItemID
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/WareHouse/WareHouseHUDTO.cs/#L77"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;GoodsOutOrderItemCollection&quot;)]
+[ForeignKey(&quot;GoodsOutOrderItemCollection&quot;)]
+public virtual long? GoodsOutOrderItemID { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_WareHouse_WareHouseHUDTO_GoodsOutOrderItems_HandlingUnit_" data-uid="SLS.Common.DTO.WareHouse.WareHouseHUDTO.GoodsOutOrderItems_HandlingUnit*"></a>
+
+  <h3 id="SLS_Common_DTO_WareHouse_WareHouseHUDTO_GoodsOutOrderItems_HandlingUnit" data-uid="SLS.Common.DTO.WareHouse.WareHouseHUDTO.GoodsOutOrderItems_HandlingUnit">
+  GoodsOutOrderItems_HandlingUnit
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/WareHouse/WareHouseHUDTO.cs/#L488"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;HandlingUnitCollection&quot;)]
+[JsonIgnore]
+public virtual List&lt;GoodsOutOrderItemsDTO&gt;? GoodsOutOrderItems_HandlingUnit { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<a class="xref" href="SLS.Common.DTO.WareHouse.GoodsOutOrderItemsDTO.html">GoodsOutOrderItemsDTO</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_WareHouse_WareHouseHUDTO_GoodsOutOrderReservation_WarehouseHU_" data-uid="SLS.Common.DTO.WareHouse.WareHouseHUDTO.GoodsOutOrderReservation_WarehouseHU*"></a>
+
+  <h3 id="SLS_Common_DTO_WareHouse_WareHouseHUDTO_GoodsOutOrderReservation_WarehouseHU" data-uid="SLS.Common.DTO.WareHouse.WareHouseHUDTO.GoodsOutOrderReservation_WarehouseHU">
+  GoodsOutOrderReservation_WarehouseHU
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/WareHouse/WareHouseHUDTO.cs/#L483"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;WarehouseHUCollection&quot;)]
+[JsonIgnore]
+public virtual List&lt;GoodsOutOrderReservationDTO&gt;? GoodsOutOrderReservation_WarehouseHU { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<a class="xref" href="SLS.Common.DTO.WareHouse.GoodsOutOrderReservationDTO.html">GoodsOutOrderReservationDTO</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_WareHouse_WareHouseHUDTO_GoodsRelocateOrderItems_HandlingUnit_" data-uid="SLS.Common.DTO.WareHouse.WareHouseHUDTO.GoodsRelocateOrderItems_HandlingUnit*"></a>
+
+  <h3 id="SLS_Common_DTO_WareHouse_WareHouseHUDTO_GoodsRelocateOrderItems_HandlingUnit" data-uid="SLS.Common.DTO.WareHouse.WareHouseHUDTO.GoodsRelocateOrderItems_HandlingUnit">
+  GoodsRelocateOrderItems_HandlingUnit
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/WareHouse/WareHouseHUDTO.cs/#L478"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;HandlingUnitCollection&quot;)]
+[JsonIgnore]
+public virtual List&lt;GoodsRelocateOrderItemsDTO&gt;? GoodsRelocateOrderItems_HandlingUnit { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<a class="xref" href="SLS.Common.DTO.WareHouse.GoodsRelocateOrderItemsDTO.html">GoodsRelocateOrderItemsDTO</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_WareHouse_WareHouseHUDTO_Height_" data-uid="SLS.Common.DTO.WareHouse.WareHouseHUDTO.Height*"></a>
+
+  <h3 id="SLS_Common_DTO_WareHouse_WareHouseHUDTO_Height" data-uid="SLS.Common.DTO.WareHouse.WareHouseHUDTO.Height">
+  Height
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/WareHouse/WareHouseHUDTO.cs/#L167"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;Height&quot;)]
+public virtual double? Height { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_WareHouse_WareHouseHUDTO_Id_" data-uid="SLS.Common.DTO.WareHouse.WareHouseHUDTO.Id*"></a>
+
+  <h3 id="SLS_Common_DTO_WareHouse_WareHouseHUDTO_Id" data-uid="SLS.Common.DTO.WareHouse.WareHouseHUDTO.Id">
+  Id
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/WareHouse/WareHouseHUDTO.cs/#L34"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;ID&quot;)]
+public long Id { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_WareHouse_WareHouseHUDTO_Info_" data-uid="SLS.Common.DTO.WareHouse.WareHouseHUDTO.Info*"></a>
+
+  <h3 id="SLS_Common_DTO_WareHouse_WareHouseHUDTO_Info" data-uid="SLS.Common.DTO.WareHouse.WareHouseHUDTO.Info">
+  Info
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/WareHouse/WareHouseHUDTO.cs/#L311"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;Info&quot;)]
+public virtual string? Info { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_WareHouse_WareHouseHUDTO_LastStatusChangeInfo_" data-uid="SLS.Common.DTO.WareHouse.WareHouseHUDTO.LastStatusChangeInfo*"></a>
+
+  <h3 id="SLS_Common_DTO_WareHouse_WareHouseHUDTO_LastStatusChangeInfo" data-uid="SLS.Common.DTO.WareHouse.WareHouseHUDTO.LastStatusChangeInfo">
+  LastStatusChangeInfo
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/WareHouse/WareHouseHUDTO.cs/#L387"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;LastStatusChangeInfo&quot;)]
+public virtual string? LastStatusChangeInfo { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_WareHouse_WareHouseHUDTO_LastStatusChangeUserID_" data-uid="SLS.Common.DTO.WareHouse.WareHouseHUDTO.LastStatusChangeUserID*"></a>
+
+  <h3 id="SLS_Common_DTO_WareHouse_WareHouseHUDTO_LastStatusChangeUserID" data-uid="SLS.Common.DTO.WareHouse.WareHouseHUDTO.LastStatusChangeUserID">
+  LastStatusChangeUserID
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/WareHouse/WareHouseHUDTO.cs/#L299"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;LastStatusChangeUserID&quot;)]
+public virtual long? LastStatusChangeUserID { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_WareHouse_WareHouseHUDTO_LastStatusChanged_" data-uid="SLS.Common.DTO.WareHouse.WareHouseHUDTO.LastStatusChanged*"></a>
+
+  <h3 id="SLS_Common_DTO_WareHouse_WareHouseHUDTO_LastStatusChanged" data-uid="SLS.Common.DTO.WareHouse.WareHouseHUDTO.LastStatusChanged">
+  LastStatusChanged
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/WareHouse/WareHouseHUDTO.cs/#L295"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;LastStatusChanged&quot;)]
+public virtual DateTime? LastStatusChanged { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.datetime">DateTime</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_WareHouse_WareHouseHUDTO_Length_" data-uid="SLS.Common.DTO.WareHouse.WareHouseHUDTO.Length*"></a>
+
+  <h3 id="SLS_Common_DTO_WareHouse_WareHouseHUDTO_Length" data-uid="SLS.Common.DTO.WareHouse.WareHouseHUDTO.Length">
+  Length
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/WareHouse/WareHouseHUDTO.cs/#L159"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;Length&quot;)]
+public virtual double? Length { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_WareHouse_WareHouseHUDTO_LoadingEq_" data-uid="SLS.Common.DTO.WareHouse.WareHouseHUDTO.LoadingEq*"></a>
+
+  <h3 id="SLS_Common_DTO_WareHouse_WareHouseHUDTO_LoadingEq" data-uid="SLS.Common.DTO.WareHouse.WareHouseHUDTO.LoadingEq">
+  LoadingEq
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/WareHouse/WareHouseHUDTO.cs/#L439"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[ForeignKey(&quot;LoadingEqCollection&quot;)]
+[InverseProperty(&quot;WareHouseHU_LoadingEq&quot;)]
+[JsonIgnore]
+public virtual ArticleTypeDTO? LoadingEq { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="SLS.Common.DTO.MasterData.Article.ArticleTypeDTO.html">ArticleTypeDTO</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_WareHouse_WareHouseHUDTO_LoadingEqID_" data-uid="SLS.Common.DTO.WareHouse.WareHouseHUDTO.LoadingEqID*"></a>
+
+  <h3 id="SLS_Common_DTO_WareHouse_WareHouseHUDTO_LoadingEqID" data-uid="SLS.Common.DTO.WareHouse.WareHouseHUDTO.LoadingEqID">
+  LoadingEqID
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/WareHouse/WareHouseHUDTO.cs/#L92"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;LoadingEqCollection&quot;)]
+[ForeignKey(&quot;LoadingEqCollection&quot;)]
+public virtual long? LoadingEqID { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_WareHouse_WareHouseHUDTO_LoadingEqQuantity_" data-uid="SLS.Common.DTO.WareHouse.WareHouseHUDTO.LoadingEqQuantity*"></a>
+
+  <h3 id="SLS_Common_DTO_WareHouse_WareHouseHUDTO_LoadingEqQuantity" data-uid="SLS.Common.DTO.WareHouse.WareHouseHUDTO.LoadingEqQuantity">
+  LoadingEqQuantity
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/WareHouse/WareHouseHUDTO.cs/#L287"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;LoadingEqQuantity&quot;)]
+public virtual long? LoadingEqQuantity { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_WareHouse_WareHouseHUDTO_LotNumber_" data-uid="SLS.Common.DTO.WareHouse.WareHouseHUDTO.LotNumber*"></a>
+
+  <h3 id="SLS_Common_DTO_WareHouse_WareHouseHUDTO_LotNumber" data-uid="SLS.Common.DTO.WareHouse.WareHouseHUDTO.LotNumber">
+  LotNumber
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/WareHouse/WareHouseHUDTO.cs/#L155"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;LotNumber&quot;)]
+public virtual string? LotNumber { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_WareHouse_WareHouseHUDTO_Marking_" data-uid="SLS.Common.DTO.WareHouse.WareHouseHUDTO.Marking*"></a>
+
+  <h3 id="SLS_Common_DTO_WareHouse_WareHouseHUDTO_Marking" data-uid="SLS.Common.DTO.WareHouse.WareHouseHUDTO.Marking">
+  Marking
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/WareHouse/WareHouseHUDTO.cs/#L135"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;Marking&quot;)]
+public virtual string? Marking { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_WareHouse_WareHouseHUDTO_OptionalString11_" data-uid="SLS.Common.DTO.WareHouse.WareHouseHUDTO.OptionalString11*"></a>
+
+  <h3 id="SLS_Common_DTO_WareHouse_WareHouseHUDTO_OptionalString11" data-uid="SLS.Common.DTO.WareHouse.WareHouseHUDTO.OptionalString11">
+  OptionalString11
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/WareHouse/WareHouseHUDTO.cs/#L367"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;OptionalString11&quot;)]
+public virtual string? OptionalString11 { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_WareHouse_WareHouseHUDTO_OptionalString12_" data-uid="SLS.Common.DTO.WareHouse.WareHouseHUDTO.OptionalString12*"></a>
+
+  <h3 id="SLS_Common_DTO_WareHouse_WareHouseHUDTO_OptionalString12" data-uid="SLS.Common.DTO.WareHouse.WareHouseHUDTO.OptionalString12">
+  OptionalString12
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/WareHouse/WareHouseHUDTO.cs/#L371"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;OptionalString12&quot;)]
+public virtual string? OptionalString12 { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_WareHouse_WareHouseHUDTO_OptionalString13_" data-uid="SLS.Common.DTO.WareHouse.WareHouseHUDTO.OptionalString13*"></a>
+
+  <h3 id="SLS_Common_DTO_WareHouse_WareHouseHUDTO_OptionalString13" data-uid="SLS.Common.DTO.WareHouse.WareHouseHUDTO.OptionalString13">
+  OptionalString13
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/WareHouse/WareHouseHUDTO.cs/#L375"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;OptionalString13&quot;)]
+public virtual string? OptionalString13 { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_WareHouse_WareHouseHUDTO_OptionalString14_" data-uid="SLS.Common.DTO.WareHouse.WareHouseHUDTO.OptionalString14*"></a>
+
+  <h3 id="SLS_Common_DTO_WareHouse_WareHouseHUDTO_OptionalString14" data-uid="SLS.Common.DTO.WareHouse.WareHouseHUDTO.OptionalString14">
+  OptionalString14
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/WareHouse/WareHouseHUDTO.cs/#L379"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;OptionalString14&quot;)]
+public virtual string? OptionalString14 { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_WareHouse_WareHouseHUDTO_OptionalString15_" data-uid="SLS.Common.DTO.WareHouse.WareHouseHUDTO.OptionalString15*"></a>
+
+  <h3 id="SLS_Common_DTO_WareHouse_WareHouseHUDTO_OptionalString15" data-uid="SLS.Common.DTO.WareHouse.WareHouseHUDTO.OptionalString15">
+  OptionalString15
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/WareHouse/WareHouseHUDTO.cs/#L383"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;OptionalString15&quot;)]
+public virtual string? OptionalString15 { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_WareHouse_WareHouseHUDTO_Optional_Bool1_" data-uid="SLS.Common.DTO.WareHouse.WareHouseHUDTO.Optional_Bool1*"></a>
+
+  <h3 id="SLS_Common_DTO_WareHouse_WareHouseHUDTO_Optional_Bool1" data-uid="SLS.Common.DTO.WareHouse.WareHouseHUDTO.Optional_Bool1">
+  Optional_Bool1
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/WareHouse/WareHouseHUDTO.cs/#L255"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;Optional_Bool1&quot;)]
+public virtual bool? Optional_Bool1 { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_WareHouse_WareHouseHUDTO_Optional_Bool2_" data-uid="SLS.Common.DTO.WareHouse.WareHouseHUDTO.Optional_Bool2*"></a>
+
+  <h3 id="SLS_Common_DTO_WareHouse_WareHouseHUDTO_Optional_Bool2" data-uid="SLS.Common.DTO.WareHouse.WareHouseHUDTO.Optional_Bool2">
+  Optional_Bool2
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/WareHouse/WareHouseHUDTO.cs/#L259"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;Optional_Bool2&quot;)]
+public virtual bool? Optional_Bool2 { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_WareHouse_WareHouseHUDTO_Optional_Bool3_" data-uid="SLS.Common.DTO.WareHouse.WareHouseHUDTO.Optional_Bool3*"></a>
+
+  <h3 id="SLS_Common_DTO_WareHouse_WareHouseHUDTO_Optional_Bool3" data-uid="SLS.Common.DTO.WareHouse.WareHouseHUDTO.Optional_Bool3">
+  Optional_Bool3
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/WareHouse/WareHouseHUDTO.cs/#L263"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;Optional_Bool3&quot;)]
+public virtual bool? Optional_Bool3 { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_WareHouse_WareHouseHUDTO_Optional_Date1_" data-uid="SLS.Common.DTO.WareHouse.WareHouseHUDTO.Optional_Date1*"></a>
+
+  <h3 id="SLS_Common_DTO_WareHouse_WareHouseHUDTO_Optional_Date1" data-uid="SLS.Common.DTO.WareHouse.WareHouseHUDTO.Optional_Date1">
+  Optional_Date1
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/WareHouse/WareHouseHUDTO.cs/#L243"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;Optional_Date1&quot;)]
+public virtual DateTime? Optional_Date1 { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.datetime">DateTime</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_WareHouse_WareHouseHUDTO_Optional_Date2_" data-uid="SLS.Common.DTO.WareHouse.WareHouseHUDTO.Optional_Date2*"></a>
+
+  <h3 id="SLS_Common_DTO_WareHouse_WareHouseHUDTO_Optional_Date2" data-uid="SLS.Common.DTO.WareHouse.WareHouseHUDTO.Optional_Date2">
+  Optional_Date2
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/WareHouse/WareHouseHUDTO.cs/#L247"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;Optional_Date2&quot;)]
+public virtual DateTime? Optional_Date2 { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.datetime">DateTime</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_WareHouse_WareHouseHUDTO_Optional_Date3_" data-uid="SLS.Common.DTO.WareHouse.WareHouseHUDTO.Optional_Date3*"></a>
+
+  <h3 id="SLS_Common_DTO_WareHouse_WareHouseHUDTO_Optional_Date3" data-uid="SLS.Common.DTO.WareHouse.WareHouseHUDTO.Optional_Date3">
+  Optional_Date3
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/WareHouse/WareHouseHUDTO.cs/#L251"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;Optional_Date3&quot;)]
+public virtual DateTime? Optional_Date3 { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.datetime">DateTime</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_WareHouse_WareHouseHUDTO_Optional_Float1_" data-uid="SLS.Common.DTO.WareHouse.WareHouseHUDTO.Optional_Float1*"></a>
+
+  <h3 id="SLS_Common_DTO_WareHouse_WareHouseHUDTO_Optional_Float1" data-uid="SLS.Common.DTO.WareHouse.WareHouseHUDTO.Optional_Float1">
+  Optional_Float1
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/WareHouse/WareHouseHUDTO.cs/#L271"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;Optional_Float1&quot;)]
+public virtual double? Optional_Float1 { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_WareHouse_WareHouseHUDTO_Optional_Float2_" data-uid="SLS.Common.DTO.WareHouse.WareHouseHUDTO.Optional_Float2*"></a>
+
+  <h3 id="SLS_Common_DTO_WareHouse_WareHouseHUDTO_Optional_Float2" data-uid="SLS.Common.DTO.WareHouse.WareHouseHUDTO.Optional_Float2">
+  Optional_Float2
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/WareHouse/WareHouseHUDTO.cs/#L267"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;Optional_Float2&quot;)]
+public virtual double? Optional_Float2 { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_WareHouse_WareHouseHUDTO_Optional_Float3_" data-uid="SLS.Common.DTO.WareHouse.WareHouseHUDTO.Optional_Float3*"></a>
+
+  <h3 id="SLS_Common_DTO_WareHouse_WareHouseHUDTO_Optional_Float3" data-uid="SLS.Common.DTO.WareHouse.WareHouseHUDTO.Optional_Float3">
+  Optional_Float3
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/WareHouse/WareHouseHUDTO.cs/#L275"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;Optional_Float3&quot;)]
+public virtual double? Optional_Float3 { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_WareHouse_WareHouseHUDTO_Optional_Num1_" data-uid="SLS.Common.DTO.WareHouse.WareHouseHUDTO.Optional_Num1*"></a>
+
+  <h3 id="SLS_Common_DTO_WareHouse_WareHouseHUDTO_Optional_Num1" data-uid="SLS.Common.DTO.WareHouse.WareHouseHUDTO.Optional_Num1">
+  Optional_Num1
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/WareHouse/WareHouseHUDTO.cs/#L223"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;Optional_Num1&quot;)]
+public virtual int? Optional_Num1 { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_WareHouse_WareHouseHUDTO_Optional_Num10_" data-uid="SLS.Common.DTO.WareHouse.WareHouseHUDTO.Optional_Num10*"></a>
+
+  <h3 id="SLS_Common_DTO_WareHouse_WareHouseHUDTO_Optional_Num10" data-uid="SLS.Common.DTO.WareHouse.WareHouseHUDTO.Optional_Num10">
+  Optional_Num10
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/WareHouse/WareHouseHUDTO.cs/#L359"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;Optional_Num10&quot;)]
+public virtual long? Optional_Num10 { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_WareHouse_WareHouseHUDTO_Optional_Num2_" data-uid="SLS.Common.DTO.WareHouse.WareHouseHUDTO.Optional_Num2*"></a>
+
+  <h3 id="SLS_Common_DTO_WareHouse_WareHouseHUDTO_Optional_Num2" data-uid="SLS.Common.DTO.WareHouse.WareHouseHUDTO.Optional_Num2">
+  Optional_Num2
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/WareHouse/WareHouseHUDTO.cs/#L227"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;Optional_Num2&quot;)]
+public virtual int? Optional_Num2 { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_WareHouse_WareHouseHUDTO_Optional_Num3_" data-uid="SLS.Common.DTO.WareHouse.WareHouseHUDTO.Optional_Num3*"></a>
+
+  <h3 id="SLS_Common_DTO_WareHouse_WareHouseHUDTO_Optional_Num3" data-uid="SLS.Common.DTO.WareHouse.WareHouseHUDTO.Optional_Num3">
+  Optional_Num3
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/WareHouse/WareHouseHUDTO.cs/#L231"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;Optional_Num3&quot;)]
+public virtual int? Optional_Num3 { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_WareHouse_WareHouseHUDTO_Optional_Num4_" data-uid="SLS.Common.DTO.WareHouse.WareHouseHUDTO.Optional_Num4*"></a>
+
+  <h3 id="SLS_Common_DTO_WareHouse_WareHouseHUDTO_Optional_Num4" data-uid="SLS.Common.DTO.WareHouse.WareHouseHUDTO.Optional_Num4">
+  Optional_Num4
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/WareHouse/WareHouseHUDTO.cs/#L235"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;Optional_Num4&quot;)]
+public virtual int? Optional_Num4 { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_WareHouse_WareHouseHUDTO_Optional_Num5_" data-uid="SLS.Common.DTO.WareHouse.WareHouseHUDTO.Optional_Num5*"></a>
+
+  <h3 id="SLS_Common_DTO_WareHouse_WareHouseHUDTO_Optional_Num5" data-uid="SLS.Common.DTO.WareHouse.WareHouseHUDTO.Optional_Num5">
+  Optional_Num5
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/WareHouse/WareHouseHUDTO.cs/#L239"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;Optional_Num5&quot;)]
+public virtual int? Optional_Num5 { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_WareHouse_WareHouseHUDTO_Optional_Num6_" data-uid="SLS.Common.DTO.WareHouse.WareHouseHUDTO.Optional_Num6*"></a>
+
+  <h3 id="SLS_Common_DTO_WareHouse_WareHouseHUDTO_Optional_Num6" data-uid="SLS.Common.DTO.WareHouse.WareHouseHUDTO.Optional_Num6">
+  Optional_Num6
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/WareHouse/WareHouseHUDTO.cs/#L343"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;Optional_Num6&quot;)]
+public virtual long? Optional_Num6 { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_WareHouse_WareHouseHUDTO_Optional_Num7_" data-uid="SLS.Common.DTO.WareHouse.WareHouseHUDTO.Optional_Num7*"></a>
+
+  <h3 id="SLS_Common_DTO_WareHouse_WareHouseHUDTO_Optional_Num7" data-uid="SLS.Common.DTO.WareHouse.WareHouseHUDTO.Optional_Num7">
+  Optional_Num7
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/WareHouse/WareHouseHUDTO.cs/#L347"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;Optional_Num7&quot;)]
+public virtual long? Optional_Num7 { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_WareHouse_WareHouseHUDTO_Optional_Num8_" data-uid="SLS.Common.DTO.WareHouse.WareHouseHUDTO.Optional_Num8*"></a>
+
+  <h3 id="SLS_Common_DTO_WareHouse_WareHouseHUDTO_Optional_Num8" data-uid="SLS.Common.DTO.WareHouse.WareHouseHUDTO.Optional_Num8">
+  Optional_Num8
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/WareHouse/WareHouseHUDTO.cs/#L351"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;Optional_Num8&quot;)]
+public virtual long? Optional_Num8 { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_WareHouse_WareHouseHUDTO_Optional_Num9_" data-uid="SLS.Common.DTO.WareHouse.WareHouseHUDTO.Optional_Num9*"></a>
+
+  <h3 id="SLS_Common_DTO_WareHouse_WareHouseHUDTO_Optional_Num9" data-uid="SLS.Common.DTO.WareHouse.WareHouseHUDTO.Optional_Num9">
+  Optional_Num9
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/WareHouse/WareHouseHUDTO.cs/#L355"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;Optional_Num9&quot;)]
+public virtual long? Optional_Num9 { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_WareHouse_WareHouseHUDTO_Optional_String1_" data-uid="SLS.Common.DTO.WareHouse.WareHouseHUDTO.Optional_String1*"></a>
+
+  <h3 id="SLS_Common_DTO_WareHouse_WareHouseHUDTO_Optional_String1" data-uid="SLS.Common.DTO.WareHouse.WareHouseHUDTO.Optional_String1">
+  Optional_String1
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/WareHouse/WareHouseHUDTO.cs/#L203"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;Optional_String1&quot;)]
+public virtual string? Optional_String1 { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_WareHouse_WareHouseHUDTO_Optional_String10_" data-uid="SLS.Common.DTO.WareHouse.WareHouseHUDTO.Optional_String10*"></a>
+
+  <h3 id="SLS_Common_DTO_WareHouse_WareHouseHUDTO_Optional_String10" data-uid="SLS.Common.DTO.WareHouse.WareHouseHUDTO.Optional_String10">
+  Optional_String10
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/WareHouse/WareHouseHUDTO.cs/#L339"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;Optional_String10&quot;)]
+public virtual string? Optional_String10 { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_WareHouse_WareHouseHUDTO_Optional_String2_" data-uid="SLS.Common.DTO.WareHouse.WareHouseHUDTO.Optional_String2*"></a>
+
+  <h3 id="SLS_Common_DTO_WareHouse_WareHouseHUDTO_Optional_String2" data-uid="SLS.Common.DTO.WareHouse.WareHouseHUDTO.Optional_String2">
+  Optional_String2
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/WareHouse/WareHouseHUDTO.cs/#L207"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;Optional_String2&quot;)]
+public virtual string? Optional_String2 { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_WareHouse_WareHouseHUDTO_Optional_String3_" data-uid="SLS.Common.DTO.WareHouse.WareHouseHUDTO.Optional_String3*"></a>
+
+  <h3 id="SLS_Common_DTO_WareHouse_WareHouseHUDTO_Optional_String3" data-uid="SLS.Common.DTO.WareHouse.WareHouseHUDTO.Optional_String3">
+  Optional_String3
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/WareHouse/WareHouseHUDTO.cs/#L211"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;Optional_String3&quot;)]
+public virtual string? Optional_String3 { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_WareHouse_WareHouseHUDTO_Optional_String4_" data-uid="SLS.Common.DTO.WareHouse.WareHouseHUDTO.Optional_String4*"></a>
+
+  <h3 id="SLS_Common_DTO_WareHouse_WareHouseHUDTO_Optional_String4" data-uid="SLS.Common.DTO.WareHouse.WareHouseHUDTO.Optional_String4">
+  Optional_String4
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/WareHouse/WareHouseHUDTO.cs/#L215"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;Optional_String4&quot;)]
+public virtual string? Optional_String4 { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_WareHouse_WareHouseHUDTO_Optional_String5_" data-uid="SLS.Common.DTO.WareHouse.WareHouseHUDTO.Optional_String5*"></a>
+
+  <h3 id="SLS_Common_DTO_WareHouse_WareHouseHUDTO_Optional_String5" data-uid="SLS.Common.DTO.WareHouse.WareHouseHUDTO.Optional_String5">
+  Optional_String5
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/WareHouse/WareHouseHUDTO.cs/#L219"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;Optional_String5&quot;)]
+public virtual string? Optional_String5 { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_WareHouse_WareHouseHUDTO_Optional_String6_" data-uid="SLS.Common.DTO.WareHouse.WareHouseHUDTO.Optional_String6*"></a>
+
+  <h3 id="SLS_Common_DTO_WareHouse_WareHouseHUDTO_Optional_String6" data-uid="SLS.Common.DTO.WareHouse.WareHouseHUDTO.Optional_String6">
+  Optional_String6
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/WareHouse/WareHouseHUDTO.cs/#L323"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;Optional_String6&quot;)]
+public virtual string? Optional_String6 { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_WareHouse_WareHouseHUDTO_Optional_String7_" data-uid="SLS.Common.DTO.WareHouse.WareHouseHUDTO.Optional_String7*"></a>
+
+  <h3 id="SLS_Common_DTO_WareHouse_WareHouseHUDTO_Optional_String7" data-uid="SLS.Common.DTO.WareHouse.WareHouseHUDTO.Optional_String7">
+  Optional_String7
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/WareHouse/WareHouseHUDTO.cs/#L327"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;Optional_String7&quot;)]
+public virtual string? Optional_String7 { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_WareHouse_WareHouseHUDTO_Optional_String8_" data-uid="SLS.Common.DTO.WareHouse.WareHouseHUDTO.Optional_String8*"></a>
+
+  <h3 id="SLS_Common_DTO_WareHouse_WareHouseHUDTO_Optional_String8" data-uid="SLS.Common.DTO.WareHouse.WareHouseHUDTO.Optional_String8">
+  Optional_String8
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/WareHouse/WareHouseHUDTO.cs/#L331"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;Optional_String8&quot;)]
+public virtual string? Optional_String8 { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_WareHouse_WareHouseHUDTO_Optional_String9_" data-uid="SLS.Common.DTO.WareHouse.WareHouseHUDTO.Optional_String9*"></a>
+
+  <h3 id="SLS_Common_DTO_WareHouse_WareHouseHUDTO_Optional_String9" data-uid="SLS.Common.DTO.WareHouse.WareHouseHUDTO.Optional_String9">
+  Optional_String9
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/WareHouse/WareHouseHUDTO.cs/#L335"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;Optional_String9&quot;)]
+public virtual string? Optional_String9 { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_WareHouse_WareHouseHUDTO_Owner_" data-uid="SLS.Common.DTO.WareHouse.WareHouseHUDTO.Owner*"></a>
+
+  <h3 id="SLS_Common_DTO_WareHouse_WareHouseHUDTO_Owner" data-uid="SLS.Common.DTO.WareHouse.WareHouseHUDTO.Owner">
+  Owner
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/WareHouse/WareHouseHUDTO.cs/#L414"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[ForeignKey(&quot;OwnerCollection&quot;)]
+[InverseProperty(&quot;WareHouseHU_Owner&quot;)]
+[JsonIgnore]
+public virtual AddressCompanyDTO? Owner { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="SLS.Common.DTO.MasterData.AddressCompanyDTO.html">AddressCompanyDTO</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_WareHouse_WareHouseHUDTO_OwnerID_" data-uid="SLS.Common.DTO.WareHouse.WareHouseHUDTO.OwnerID*"></a>
+
+  <h3 id="SLS_Common_DTO_WareHouse_WareHouseHUDTO_OwnerID" data-uid="SLS.Common.DTO.WareHouse.WareHouseHUDTO.OwnerID">
+  OwnerID
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/WareHouse/WareHouseHUDTO.cs/#L67"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;OwnerCollection&quot;)]
+[ForeignKey(&quot;OwnerCollection&quot;)]
+public virtual long? OwnerID { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_WareHouse_WareHouseHUDTO_OwnerReferenceNo_" data-uid="SLS.Common.DTO.WareHouse.WareHouseHUDTO.OwnerReferenceNo*"></a>
+
+  <h3 id="SLS_Common_DTO_WareHouse_WareHouseHUDTO_OwnerReferenceNo" data-uid="SLS.Common.DTO.WareHouse.WareHouseHUDTO.OwnerReferenceNo">
+  OwnerReferenceNo
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/WareHouse/WareHouseHUDTO.cs/#L279"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;OwnerReferenceNo&quot;)]
+public virtual string? OwnerReferenceNo { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_WareHouse_WareHouseHUDTO_PackingStructureQuantity_" data-uid="SLS.Common.DTO.WareHouse.WareHouseHUDTO.PackingStructureQuantity*"></a>
+
+  <h3 id="SLS_Common_DTO_WareHouse_WareHouseHUDTO_PackingStructureQuantity" data-uid="SLS.Common.DTO.WareHouse.WareHouseHUDTO.PackingStructureQuantity">
+  PackingStructureQuantity
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/WareHouse/WareHouseHUDTO.cs/#L283"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;PackingStructureQuantity&quot;)]
+public virtual long? PackingStructureQuantity { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_WareHouse_WareHouseHUDTO_ParcelServiceNumber_" data-uid="SLS.Common.DTO.WareHouse.WareHouseHUDTO.ParcelServiceNumber*"></a>
+
+  <h3 id="SLS_Common_DTO_WareHouse_WareHouseHUDTO_ParcelServiceNumber" data-uid="SLS.Common.DTO.WareHouse.WareHouseHUDTO.ParcelServiceNumber">
+  ParcelServiceNumber
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/WareHouse/WareHouseHUDTO.cs/#L391"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;ParcelServiceNumber&quot;)]
+public virtual string? ParcelServiceNumber { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_WareHouse_WareHouseHUDTO_ParentHUReference_" data-uid="SLS.Common.DTO.WareHouse.WareHouseHUDTO.ParentHUReference*"></a>
+
+  <h3 id="SLS_Common_DTO_WareHouse_WareHouseHUDTO_ParentHUReference" data-uid="SLS.Common.DTO.WareHouse.WareHouseHUDTO.ParentHUReference">
+  ParentHUReference
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/WareHouse/WareHouseHUDTO.cs/#L291"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;ParentHUReference&quot;)]
+public virtual long? ParentHUReference { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_WareHouse_WareHouseHUDTO_ProductionDate_" data-uid="SLS.Common.DTO.WareHouse.WareHouseHUDTO.ProductionDate*"></a>
+
+  <h3 id="SLS_Common_DTO_WareHouse_WareHouseHUDTO_ProductionDate" data-uid="SLS.Common.DTO.WareHouse.WareHouseHUDTO.ProductionDate">
+  ProductionDate
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/WareHouse/WareHouseHUDTO.cs/#L143"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;ProductionDate&quot;)]
+public virtual DateTime? ProductionDate { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.datetime">DateTime</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_WareHouse_WareHouseHUDTO_ProductionOrderReservation_WarehouseHU_" data-uid="SLS.Common.DTO.WareHouse.WareHouseHUDTO.ProductionOrderReservation_WarehouseHU*"></a>
+
+  <h3 id="SLS_Common_DTO_WareHouse_WareHouseHUDTO_ProductionOrderReservation_WarehouseHU" data-uid="SLS.Common.DTO.WareHouse.WareHouseHUDTO.ProductionOrderReservation_WarehouseHU">
+  ProductionOrderReservation_WarehouseHU
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/WareHouse/WareHouseHUDTO.cs/#L498"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;WarehouseHUCollection&quot;)]
+[JsonIgnore]
+public virtual List&lt;ProductionOrderReservationDTO&gt;? ProductionOrderReservation_WarehouseHU { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<a class="xref" href="SLS.Common.DTO.Production.ProductionOrderReservationDTO.html">ProductionOrderReservationDTO</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_WareHouse_WareHouseHUDTO_ReferenceNumber_" data-uid="SLS.Common.DTO.WareHouse.WareHouseHUDTO.ReferenceNumber*"></a>
+
+  <h3 id="SLS_Common_DTO_WareHouse_WareHouseHUDTO_ReferenceNumber" data-uid="SLS.Common.DTO.WareHouse.WareHouseHUDTO.ReferenceNumber">
+  ReferenceNumber
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/WareHouse/WareHouseHUDTO.cs/#L303"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;ReferenceNumber&quot;)]
+public virtual string? ReferenceNumber { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_WareHouse_WareHouseHUDTO_Remarks_" data-uid="SLS.Common.DTO.WareHouse.WareHouseHUDTO.Remarks*"></a>
+
+  <h3 id="SLS_Common_DTO_WareHouse_WareHouseHUDTO_Remarks" data-uid="SLS.Common.DTO.WareHouse.WareHouseHUDTO.Remarks">
+  Remarks
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/WareHouse/WareHouseHUDTO.cs/#L307"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;Remarks&quot;)]
+public virtual string? Remarks { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_WareHouse_WareHouseHUDTO_SSCCNumber_" data-uid="SLS.Common.DTO.WareHouse.WareHouseHUDTO.SSCCNumber*"></a>
+
+  <h3 id="SLS_Common_DTO_WareHouse_WareHouseHUDTO_SSCCNumber" data-uid="SLS.Common.DTO.WareHouse.WareHouseHUDTO.SSCCNumber">
+  SSCCNumber
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/WareHouse/WareHouseHUDTO.cs/#L151"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;SSCCNumber&quot;)]
+public virtual string? SSCCNumber { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_WareHouse_WareHouseHUDTO_SequenzNo_" data-uid="SLS.Common.DTO.WareHouse.WareHouseHUDTO.SequenzNo*"></a>
+
+  <h3 id="SLS_Common_DTO_WareHouse_WareHouseHUDTO_SequenzNo" data-uid="SLS.Common.DTO.WareHouse.WareHouseHUDTO.SequenzNo">
+  SequenzNo
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/WareHouse/WareHouseHUDTO.cs/#L315"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;SequenzNo&quot;)]
+public virtual string? SequenzNo { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_WareHouse_WareHouseHUDTO_Status_" data-uid="SLS.Common.DTO.WareHouse.WareHouseHUDTO.Status*"></a>
+
+  <h3 id="SLS_Common_DTO_WareHouse_WareHouseHUDTO_Status" data-uid="SLS.Common.DTO.WareHouse.WareHouseHUDTO.Status">
+  Status
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/WareHouse/WareHouseHUDTO.cs/#L444"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[ForeignKey(&quot;StatusCollection&quot;)]
+[InverseProperty(&quot;WareHouseHU_Status&quot;)]
+[JsonIgnore]
+public virtual WarehouseHUStatusDTO? Status { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="SLS.Common.DTO.WareHouse.WarehouseHUStatusDTO.html">WarehouseHUStatusDTO</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_WareHouse_WareHouseHUDTO_StatusID_" data-uid="SLS.Common.DTO.WareHouse.WareHouseHUDTO.StatusID*"></a>
+
+  <h3 id="SLS_Common_DTO_WareHouse_WareHouseHUDTO_StatusID" data-uid="SLS.Common.DTO.WareHouse.WareHouseHUDTO.StatusID">
+  StatusID
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/WareHouse/WareHouseHUDTO.cs/#L97"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;StatusCollection&quot;)]
+[ForeignKey(&quot;StatusCollection&quot;)]
+public virtual long? StatusID { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_WareHouse_WareHouseHUDTO_StorageLocationChange_HandlingUnit_" data-uid="SLS.Common.DTO.WareHouse.WareHouseHUDTO.StorageLocationChange_HandlingUnit*"></a>
+
+  <h3 id="SLS_Common_DTO_WareHouse_WareHouseHUDTO_StorageLocationChange_HandlingUnit" data-uid="SLS.Common.DTO.WareHouse.WareHouseHUDTO.StorageLocationChange_HandlingUnit">
+  StorageLocationChange_HandlingUnit
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/WareHouse/WareHouseHUDTO.cs/#L473"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;HandlingUnitCollection&quot;)]
+[JsonIgnore]
+public virtual List&lt;StorageLocationChangeDTO&gt;? StorageLocationChange_HandlingUnit { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<a class="xref" href="SLS.Common.DTO.WareHouse.StorageLocationChangeDTO.html">StorageLocationChangeDTO</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_WareHouse_WareHouseHUDTO_StorageLocationOccupation_HandlingUnit_" data-uid="SLS.Common.DTO.WareHouse.WareHouseHUDTO.StorageLocationOccupation_HandlingUnit*"></a>
+
+  <h3 id="SLS_Common_DTO_WareHouse_WareHouseHUDTO_StorageLocationOccupation_HandlingUnit" data-uid="SLS.Common.DTO.WareHouse.WareHouseHUDTO.StorageLocationOccupation_HandlingUnit">
+  StorageLocationOccupation_HandlingUnit
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/WareHouse/WareHouseHUDTO.cs/#L468"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;HandlingUnitCollection&quot;)]
+[JsonIgnore]
+public virtual List&lt;StorageLocationOccupationDTO&gt;? StorageLocationOccupation_HandlingUnit { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<a class="xref" href="SLS.Common.DTO.WareHouse.StorageLocationOccupationDTO.html">StorageLocationOccupationDTO</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_WareHouse_WareHouseHUDTO_Subsidiary_ID_" data-uid="SLS.Common.DTO.WareHouse.WareHouseHUDTO.Subsidiary_ID*"></a>
+
+  <h3 id="SLS_Common_DTO_WareHouse_WareHouseHUDTO_Subsidiary_ID" data-uid="SLS.Common.DTO.WareHouse.WareHouseHUDTO.Subsidiary_ID">
+  Subsidiary_ID
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/WareHouse/WareHouseHUDTO.cs/#L42"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public long? Subsidiary_ID { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_WareHouse_WareHouseHUDTO_TransportResource_" data-uid="SLS.Common.DTO.WareHouse.WareHouseHUDTO.TransportResource*"></a>
+
+  <h3 id="SLS_Common_DTO_WareHouse_WareHouseHUDTO_TransportResource" data-uid="SLS.Common.DTO.WareHouse.WareHouseHUDTO.TransportResource">
+  TransportResource
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/WareHouse/WareHouseHUDTO.cs/#L454"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[ForeignKey(&quot;TransportResourceCollection&quot;)]
+[InverseProperty(&quot;WareHouseHU_TransportResource&quot;)]
+[JsonIgnore]
+public virtual ResourceDTO? TransportResource { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="SLS.Common.DTO.Resource.ResourceDTO.html">ResourceDTO</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_WareHouse_WareHouseHUDTO_User_ID_" data-uid="SLS.Common.DTO.WareHouse.WareHouseHUDTO.User_ID*"></a>
+
+  <h3 id="SLS_Common_DTO_WareHouse_WareHouseHUDTO_User_ID" data-uid="SLS.Common.DTO.WareHouse.WareHouseHUDTO.User_ID">
+  User_ID
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/WareHouse/WareHouseHUDTO.cs/#L46"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public long? User_ID { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_WareHouse_WareHouseHUDTO_ValueOfGoods_" data-uid="SLS.Common.DTO.WareHouse.WareHouseHUDTO.ValueOfGoods*"></a>
+
+  <h3 id="SLS_Common_DTO_WareHouse_WareHouseHUDTO_ValueOfGoods" data-uid="SLS.Common.DTO.WareHouse.WareHouseHUDTO.ValueOfGoods">
+  ValueOfGoods
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/WareHouse/WareHouseHUDTO.cs/#L139"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;ValueOfGoods&quot;)]
+public virtual double? ValueOfGoods { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_WareHouse_WareHouseHUDTO_Version_" data-uid="SLS.Common.DTO.WareHouse.WareHouseHUDTO.Version*"></a>
+
+  <h3 id="SLS_Common_DTO_WareHouse_WareHouseHUDTO_Version" data-uid="SLS.Common.DTO.WareHouse.WareHouseHUDTO.Version">
+  Version
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/WareHouse/WareHouseHUDTO.cs/#L38"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;Version&quot;)]
+public long Version { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_WareHouse_WareHouseHUDTO_Volumen_" data-uid="SLS.Common.DTO.WareHouse.WareHouseHUDTO.Volumen*"></a>
+
+  <h3 id="SLS_Common_DTO_WareHouse_WareHouseHUDTO_Volumen" data-uid="SLS.Common.DTO.WareHouse.WareHouseHUDTO.Volumen">
+  Volumen
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/WareHouse/WareHouseHUDTO.cs/#L131"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;Volumen&quot;)]
+public virtual double? Volumen { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_WareHouse_WareHouseHUDTO_WarehouseInventory_HandlingUnit_" data-uid="SLS.Common.DTO.WareHouse.WareHouseHUDTO.WarehouseInventory_HandlingUnit*"></a>
+
+  <h3 id="SLS_Common_DTO_WareHouse_WareHouseHUDTO_WarehouseInventory_HandlingUnit" data-uid="SLS.Common.DTO.WareHouse.WareHouseHUDTO.WarehouseInventory_HandlingUnit">
+  WarehouseInventory_HandlingUnit
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/WareHouse/WareHouseHUDTO.cs/#L463"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;HandlingUnitCollection&quot;)]
+[JsonIgnore]
+public virtual List&lt;WarehouseInventoryDTO&gt;? WarehouseInventory_HandlingUnit { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<a class="xref" href="SLS.Common.DTO.WareHouse.WarehouseInventoryDTO.html">WarehouseInventoryDTO</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_WareHouse_WareHouseHUDTO_Weigth_" data-uid="SLS.Common.DTO.WareHouse.WareHouseHUDTO.Weigth*"></a>
+
+  <h3 id="SLS_Common_DTO_WareHouse_WareHouseHUDTO_Weigth" data-uid="SLS.Common.DTO.WareHouse.WareHouseHUDTO.Weigth">
+  Weigth
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/WareHouse/WareHouseHUDTO.cs/#L123"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;Weigth&quot;)]
+public virtual double? Weigth { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_WareHouse_WareHouseHUDTO_Width_" data-uid="SLS.Common.DTO.WareHouse.WareHouseHUDTO.Width*"></a>
+
+  <h3 id="SLS_Common_DTO_WareHouse_WareHouseHUDTO_Width" data-uid="SLS.Common.DTO.WareHouse.WareHouseHUDTO.Width">
+  Width
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/WareHouse/WareHouseHUDTO.cs/#L163"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;Width&quot;)]
+public virtual double? Width { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+</article>
+
+        <div class="contribution d-print-none">
+          <a href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/WareHouse/WareHouseHUDTO.cs/#L28" class="edit-link">Edit this page</a>
+        </div>
+
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

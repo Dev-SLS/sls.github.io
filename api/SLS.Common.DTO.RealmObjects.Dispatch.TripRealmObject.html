@@ -1,0 +1,5421 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Class TripRealmObject | SLS Documentation </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Class TripRealmObject | SLS Documentation ">
+      
+      
+      <link rel="icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="../">
+      
+      
+      
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../logo.svg" alt="SLS Documentation">
+            SLS Documentation
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="SLS.Common.DTO.RealmObjects.Dispatch.TripRealmObject">
+
+
+
+  <h1 id="SLS_Common_DTO_RealmObjects_Dispatch_TripRealmObject" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.TripRealmObject" class="text-break">
+Class TripRealmObject  
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="SLS.html">SLS</a>.<a class="xref" href="SLS.Common.html">Common</a>.<a class="xref" href="SLS.Common.DTO.html">DTO</a>.<a class="xref" href="SLS.Common.DTO.RealmObjects.html">RealmObjects</a>.<a class="xref" href="SLS.Common.DTO.RealmObjects.Dispatch.html">Dispatch</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>SLS.Common.DTO.RealmObjects.dll</dd></dl>
+  </div>
+
+  <div class="markdown summary"></div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Generated]
+[Woven(typeof(TripRealmObject.TripRealmObjectObjectHelper))]
+[Preserve(AllMembers = true)]
+public class TripRealmObject : IRealmObject, IRealmObjectBase, INotifyPropertyChanged, IReflectableType</code></pre>
+  </div>
+
+
+
+
+  <dl class="typelist inheritance">
+    <dt>Inheritance</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+      <div><span class="xref">TripRealmObject</span></div>
+    </dd>
+  </dl>
+
+  <dl class="typelist implements">
+    <dt>Implements</dt>
+    <dd>
+      <div><a class="xref" href="https://github.com/realm/realm-dotnet/blob/Dev/Realm/Realm/DatabaseTypes/IRealmObjectBase.cs">IRealmObject</a></div>
+      <div><a class="xref" href="https://github.com/realm/realm-dotnet/blob/Dev/Realm/Realm/DatabaseTypes/IRealmObjectBase.cs">IRealmObjectBase</a></div>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.componentmodel.inotifypropertychanged">INotifyPropertyChanged</a></div>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.reflection.ireflectabletype">IReflectableType</a></div>
+    </dd>
+  </dl>
+
+
+  <dl class="typelist inheritedMembers">
+    <dt>Inherited Members</dt>
+    <dd>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">object.Equals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gettype">object.GetType()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone">object.MemberwiseClone()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals">object.ReferenceEquals(object, object)</a>
+    </div>
+  </dd></dl>
+
+
+
+
+
+
+  <h2 class="section" id="fields">Fields
+</h2>
+
+
+
+  <h3 id="SLS_Common_DTO_RealmObjects_Dispatch_TripRealmObject_RealmSchema" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.TripRealmObject.RealmSchema">
+  RealmSchema
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Defines the schema for the <a class="xref" href="SLS.Common.DTO.RealmObjects.Dispatch.TripRealmObject.html">TripRealmObject</a> class.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obfuscation]
+public static ObjectSchema RealmSchema</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://github.com/realm/realm-dotnet/blob/Dev/Realm/Realm/Schema/ObjectSchema.cs">ObjectSchema</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="properties">Properties
+</h2>
+
+
+  <a id="SLS_Common_DTO_RealmObjects_Dispatch_TripRealmObject_AccountingCodeID_" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.TripRealmObject.AccountingCodeID*"></a>
+
+  <h3 id="SLS_Common_DTO_RealmObjects_Dispatch_TripRealmObject_AccountingCodeID" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.TripRealmObject.AccountingCodeID">
+  AccountingCodeID
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO.RealmObjects/Dispatch/TripRealmObject.cs/#L46"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual long? AccountingCodeID { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_RealmObjects_Dispatch_TripRealmObject_AverageSpeed_" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.TripRealmObject.AverageSpeed*"></a>
+
+  <h3 id="SLS_Common_DTO_RealmObjects_Dispatch_TripRealmObject_AverageSpeed" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.TripRealmObject.AverageSpeed">
+  AverageSpeed
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO.RealmObjects/Dispatch/TripRealmObject.cs/#L172"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public double? AverageSpeed { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_RealmObjects_Dispatch_TripRealmObject_BacklinksCount_" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.TripRealmObject.BacklinksCount*"></a>
+
+  <h3 id="SLS_Common_DTO_RealmObjects_Dispatch_TripRealmObject_BacklinksCount" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.TripRealmObject.BacklinksCount">
+  BacklinksCount
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Gets the number of objects referring to this one via either a to-one or to-many relationship.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[IgnoreDataMember]
+public int BacklinksCount { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd><p>The number of objects referring to this one.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_RealmObjects_Dispatch_TripRealmObject_Balance_" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.TripRealmObject.Balance*"></a>
+
+  <h3 id="SLS_Common_DTO_RealmObjects_Dispatch_TripRealmObject_Balance" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.TripRealmObject.Balance">
+  Balance
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO.RealmObjects/Dispatch/TripRealmObject.cs/#L98"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public double? Balance { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_RealmObjects_Dispatch_TripRealmObject_BeginDate_" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.TripRealmObject.BeginDate*"></a>
+
+  <h3 id="SLS_Common_DTO_RealmObjects_Dispatch_TripRealmObject_BeginDate" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.TripRealmObject.BeginDate">
+  BeginDate
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO.RealmObjects/Dispatch/TripRealmObject.cs/#L65"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public DateTimeOffset? BeginDate { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.datetimeoffset">DateTimeOffset</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_RealmObjects_Dispatch_TripRealmObject_BeginTime_" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.TripRealmObject.BeginTime*"></a>
+
+  <h3 id="SLS_Common_DTO_RealmObjects_Dispatch_TripRealmObject_BeginTime" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.TripRealmObject.BeginTime">
+  BeginTime
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO.RealmObjects/Dispatch/TripRealmObject.cs/#L66"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public DateTimeOffset? BeginTime { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.datetimeoffset">DateTimeOffset</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_RealmObjects_Dispatch_TripRealmObject_CalculetedCosts_" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.TripRealmObject.CalculetedCosts*"></a>
+
+  <h3 id="SLS_Common_DTO_RealmObjects_Dispatch_TripRealmObject_CalculetedCosts" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.TripRealmObject.CalculetedCosts">
+  CalculetedCosts
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO.RealmObjects/Dispatch/TripRealmObject.cs/#L92"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public double? CalculetedCosts { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_RealmObjects_Dispatch_TripRealmObject_CheckOutUserID_" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.TripRealmObject.CheckOutUserID*"></a>
+
+  <h3 id="SLS_Common_DTO_RealmObjects_Dispatch_TripRealmObject_CheckOutUserID" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.TripRealmObject.CheckOutUserID">
+  CheckOutUserID
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO.RealmObjects/Dispatch/TripRealmObject.cs/#L105"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public long? CheckOutUserID { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_RealmObjects_Dispatch_TripRealmObject_ChekOutUserName_" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.TripRealmObject.ChekOutUserName*"></a>
+
+  <h3 id="SLS_Common_DTO_RealmObjects_Dispatch_TripRealmObject_ChekOutUserName" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.TripRealmObject.ChekOutUserName">
+  ChekOutUserName
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO.RealmObjects/Dispatch/TripRealmObject.cs/#L106"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string? ChekOutUserName { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_RealmObjects_Dispatch_TripRealmObject_CollectiveTripID_" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.TripRealmObject.CollectiveTripID*"></a>
+
+  <h3 id="SLS_Common_DTO_RealmObjects_Dispatch_TripRealmObject_CollectiveTripID" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.TripRealmObject.CollectiveTripID">
+  CollectiveTripID
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO.RealmObjects/Dispatch/TripRealmObject.cs/#L52"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual long? CollectiveTripID { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_RealmObjects_Dispatch_TripRealmObject_CompanyMatchcode_" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.TripRealmObject.CompanyMatchcode*"></a>
+
+  <h3 id="SLS_Common_DTO_RealmObjects_Dispatch_TripRealmObject_CompanyMatchcode" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.TripRealmObject.CompanyMatchcode">
+  CompanyMatchcode
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO.RealmObjects/Dispatch/TripRealmObject.cs/#L146"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string? CompanyMatchcode { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_RealmObjects_Dispatch_TripRealmObject_CompanyName_" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.TripRealmObject.CompanyName*"></a>
+
+  <h3 id="SLS_Common_DTO_RealmObjects_Dispatch_TripRealmObject_CompanyName" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.TripRealmObject.CompanyName">
+  CompanyName
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO.RealmObjects/Dispatch/TripRealmObject.cs/#L147"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string? CompanyName { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_RealmObjects_Dispatch_TripRealmObject_Company_ID_" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.TripRealmObject.Company_ID*"></a>
+
+  <h3 id="SLS_Common_DTO_RealmObjects_Dispatch_TripRealmObject_Company_ID" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.TripRealmObject.Company_ID">
+  Company_ID
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO.RealmObjects/Dispatch/TripRealmObject.cs/#L32"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public long? Company_ID { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_RealmObjects_Dispatch_TripRealmObject_Cost_" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.TripRealmObject.Cost*"></a>
+
+  <h3 id="SLS_Common_DTO_RealmObjects_Dispatch_TripRealmObject_Cost" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.TripRealmObject.Cost">
+  Cost
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO.RealmObjects/Dispatch/TripRealmObject.cs/#L78"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public double? Cost { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_RealmObjects_Dispatch_TripRealmObject_CurrencyGrossPrice_" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.TripRealmObject.CurrencyGrossPrice*"></a>
+
+  <h3 id="SLS_Common_DTO_RealmObjects_Dispatch_TripRealmObject_CurrencyGrossPrice" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.TripRealmObject.CurrencyGrossPrice">
+  CurrencyGrossPrice
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO.RealmObjects/Dispatch/TripRealmObject.cs/#L100"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public double? CurrencyGrossPrice { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_RealmObjects_Dispatch_TripRealmObject_CurrencyGrossPriceDebitor_" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.TripRealmObject.CurrencyGrossPriceDebitor*"></a>
+
+  <h3 id="SLS_Common_DTO_RealmObjects_Dispatch_TripRealmObject_CurrencyGrossPriceDebitor" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.TripRealmObject.CurrencyGrossPriceDebitor">
+  CurrencyGrossPriceDebitor
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO.RealmObjects/Dispatch/TripRealmObject.cs/#L164"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public double? CurrencyGrossPriceDebitor { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_RealmObjects_Dispatch_TripRealmObject_CurrencyID_" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.TripRealmObject.CurrencyID*"></a>
+
+  <h3 id="SLS_Common_DTO_RealmObjects_Dispatch_TripRealmObject_CurrencyID" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.TripRealmObject.CurrencyID">
+  CurrencyID
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO.RealmObjects/Dispatch/TripRealmObject.cs/#L45"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual long? CurrencyID { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_RealmObjects_Dispatch_TripRealmObject_CurrencyNetPrice_" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.TripRealmObject.CurrencyNetPrice*"></a>
+
+  <h3 id="SLS_Common_DTO_RealmObjects_Dispatch_TripRealmObject_CurrencyNetPrice" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.TripRealmObject.CurrencyNetPrice">
+  CurrencyNetPrice
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO.RealmObjects/Dispatch/TripRealmObject.cs/#L99"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public double? CurrencyNetPrice { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_RealmObjects_Dispatch_TripRealmObject_CurrencyNetPriceDebitor_" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.TripRealmObject.CurrencyNetPriceDebitor*"></a>
+
+  <h3 id="SLS_Common_DTO_RealmObjects_Dispatch_TripRealmObject_CurrencyNetPriceDebitor" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.TripRealmObject.CurrencyNetPriceDebitor">
+  CurrencyNetPriceDebitor
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO.RealmObjects/Dispatch/TripRealmObject.cs/#L163"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public double? CurrencyNetPriceDebitor { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_RealmObjects_Dispatch_TripRealmObject_CurrentPositionText_" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.TripRealmObject.CurrentPositionText*"></a>
+
+  <h3 id="SLS_Common_DTO_RealmObjects_Dispatch_TripRealmObject_CurrentPositionText" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.TripRealmObject.CurrentPositionText">
+  CurrentPositionText
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO.RealmObjects/Dispatch/TripRealmObject.cs/#L173"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string? CurrentPositionText { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_RealmObjects_Dispatch_TripRealmObject_Department_ID_" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.TripRealmObject.Department_ID*"></a>
+
+  <h3 id="SLS_Common_DTO_RealmObjects_Dispatch_TripRealmObject_Department_ID" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.TripRealmObject.Department_ID">
+  Department_ID
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO.RealmObjects/Dispatch/TripRealmObject.cs/#L34"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public long? Department_ID { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_RealmObjects_Dispatch_TripRealmObject_DepartureTime_" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.TripRealmObject.DepartureTime*"></a>
+
+  <h3 id="SLS_Common_DTO_RealmObjects_Dispatch_TripRealmObject_DepartureTime" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.TripRealmObject.DepartureTime">
+  DepartureTime
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO.RealmObjects/Dispatch/TripRealmObject.cs/#L69"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public DateTimeOffset? DepartureTime { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.datetimeoffset">DateTimeOffset</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_RealmObjects_Dispatch_TripRealmObject_Direction_" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.TripRealmObject.Direction*"></a>
+
+  <h3 id="SLS_Common_DTO_RealmObjects_Dispatch_TripRealmObject_Direction" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.TripRealmObject.Direction">
+  Direction
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO.RealmObjects/Dispatch/TripRealmObject.cs/#L75"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string? Direction { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_RealmObjects_Dispatch_TripRealmObject_DispoStellPlaetze_" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.TripRealmObject.DispoStellPlaetze*"></a>
+
+  <h3 id="SLS_Common_DTO_RealmObjects_Dispatch_TripRealmObject_DispoStellPlaetze" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.TripRealmObject.DispoStellPlaetze">
+  DispoStellPlaetze
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO.RealmObjects/Dispatch/TripRealmObject.cs/#L84"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public double? DispoStellPlaetze { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_RealmObjects_Dispatch_TripRealmObject_DispoStoringPlaces_" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.TripRealmObject.DispoStoringPlaces*"></a>
+
+  <h3 id="SLS_Common_DTO_RealmObjects_Dispatch_TripRealmObject_DispoStoringPlaces" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.TripRealmObject.DispoStoringPlaces">
+  DispoStoringPlaces
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO.RealmObjects/Dispatch/TripRealmObject.cs/#L159"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public double? DispoStoringPlaces { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_RealmObjects_Dispatch_TripRealmObject_Distance_" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.TripRealmObject.Distance*"></a>
+
+  <h3 id="SLS_Common_DTO_RealmObjects_Dispatch_TripRealmObject_Distance" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.TripRealmObject.Distance">
+  Distance
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO.RealmObjects/Dispatch/TripRealmObject.cs/#L70"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public double? Distance { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_RealmObjects_Dispatch_TripRealmObject_DistributionFactor_" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.TripRealmObject.DistributionFactor*"></a>
+
+  <h3 id="SLS_Common_DTO_RealmObjects_Dispatch_TripRealmObject_DistributionFactor" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.TripRealmObject.DistributionFactor">
+  DistributionFactor
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO.RealmObjects/Dispatch/TripRealmObject.cs/#L176"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public double? DistributionFactor { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_RealmObjects_Dispatch_TripRealmObject_Division_ID_" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.TripRealmObject.Division_ID*"></a>
+
+  <h3 id="SLS_Common_DTO_RealmObjects_Dispatch_TripRealmObject_Division_ID" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.TripRealmObject.Division_ID">
+  Division_ID
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO.RealmObjects/Dispatch/TripRealmObject.cs/#L36"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public long? Division_ID { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_RealmObjects_Dispatch_TripRealmObject_DocumentID_" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.TripRealmObject.DocumentID*"></a>
+
+  <h3 id="SLS_Common_DTO_RealmObjects_Dispatch_TripRealmObject_DocumentID" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.TripRealmObject.DocumentID">
+  DocumentID
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO.RealmObjects/Dispatch/TripRealmObject.cs/#L64"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string? DocumentID { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_RealmObjects_Dispatch_TripRealmObject_DriveTime_" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.TripRealmObject.DriveTime*"></a>
+
+  <h3 id="SLS_Common_DTO_RealmObjects_Dispatch_TripRealmObject_DriveTime" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.TripRealmObject.DriveTime">
+  DriveTime
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO.RealmObjects/Dispatch/TripRealmObject.cs/#L85"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public double? DriveTime { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_RealmObjects_Dispatch_TripRealmObject_Driver_" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.TripRealmObject.Driver*"></a>
+
+  <h3 id="SLS_Common_DTO_RealmObjects_Dispatch_TripRealmObject_Driver" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.TripRealmObject.Driver">
+  Driver
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO.RealmObjects/Dispatch/TripRealmObject.cs/#L149"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string? Driver { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_RealmObjects_Dispatch_TripRealmObject_DriverName_" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.TripRealmObject.DriverName*"></a>
+
+  <h3 id="SLS_Common_DTO_RealmObjects_Dispatch_TripRealmObject_DriverName" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.TripRealmObject.DriverName">
+  DriverName
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO.RealmObjects/Dispatch/TripRealmObject.cs/#L142"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string? DriverName { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_RealmObjects_Dispatch_TripRealmObject_DriverPhone_" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.TripRealmObject.DriverPhone*"></a>
+
+  <h3 id="SLS_Common_DTO_RealmObjects_Dispatch_TripRealmObject_DriverPhone" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.TripRealmObject.DriverPhone">
+  DriverPhone
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO.RealmObjects/Dispatch/TripRealmObject.cs/#L174"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string? DriverPhone { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_RealmObjects_Dispatch_TripRealmObject_DynamicApi_" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.TripRealmObject.DynamicApi*"></a>
+
+  <h3 id="SLS_Common_DTO_RealmObjects_Dispatch_TripRealmObject_DynamicApi" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.TripRealmObject.DynamicApi">
+  DynamicApi
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Gets an object encompassing the dynamic API for this Realm object instance.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[IgnoreDataMember]
+public DynamicObjectApi DynamicApi { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://github.com/realm/realm-dotnet/blob/Dev/Realm/Realm/Dynamic/DynamicObjectApi.cs">DynamicObjectApi</a></dt>
+    <dd><p>A <span class="xref">Realms.Dynamic</span> instance that wraps this Realm object.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_RealmObjects_Dispatch_TripRealmObject_EmtpyDistance_" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.TripRealmObject.EmtpyDistance*"></a>
+
+  <h3 id="SLS_Common_DTO_RealmObjects_Dispatch_TripRealmObject_EmtpyDistance" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.TripRealmObject.EmtpyDistance">
+  EmtpyDistance
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO.RealmObjects/Dispatch/TripRealmObject.cs/#L170"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public double? EmtpyDistance { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_RealmObjects_Dispatch_TripRealmObject_EndAddress_" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.TripRealmObject.EndAddress*"></a>
+
+  <h3 id="SLS_Common_DTO_RealmObjects_Dispatch_TripRealmObject_EndAddress" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.TripRealmObject.EndAddress">
+  EndAddress
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO.RealmObjects/Dispatch/TripRealmObject.cs/#L188"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public AddressRealmObject? EndAddress { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="SLS.Common.DTO.RealmObjects.MasterData.AddressRealmObject.html">AddressRealmObject</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_RealmObjects_Dispatch_TripRealmObject_EndAddressID_" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.TripRealmObject.EndAddressID*"></a>
+
+  <h3 id="SLS_Common_DTO_RealmObjects_Dispatch_TripRealmObject_EndAddressID" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.TripRealmObject.EndAddressID">
+  EndAddressID
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO.RealmObjects/Dispatch/TripRealmObject.cs/#L49"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual long? EndAddressID { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_RealmObjects_Dispatch_TripRealmObject_EndAddressMethod_" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.TripRealmObject.EndAddressMethod*"></a>
+
+  <h3 id="SLS_Common_DTO_RealmObjects_Dispatch_TripRealmObject_EndAddressMethod" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.TripRealmObject.EndAddressMethod">
+  EndAddressMethod
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO.RealmObjects/Dispatch/TripRealmObject.cs/#L162"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int? EndAddressMethod { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_RealmObjects_Dispatch_TripRealmObject_EndDate_" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.TripRealmObject.EndDate*"></a>
+
+  <h3 id="SLS_Common_DTO_RealmObjects_Dispatch_TripRealmObject_EndDate" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.TripRealmObject.EndDate">
+  EndDate
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO.RealmObjects/Dispatch/TripRealmObject.cs/#L67"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public DateTimeOffset? EndDate { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.datetimeoffset">DateTimeOffset</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_RealmObjects_Dispatch_TripRealmObject_EndTime_" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.TripRealmObject.EndTime*"></a>
+
+  <h3 id="SLS_Common_DTO_RealmObjects_Dispatch_TripRealmObject_EndTime" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.TripRealmObject.EndTime">
+  EndTime
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO.RealmObjects/Dispatch/TripRealmObject.cs/#L68"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public DateTimeOffset? EndTime { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.datetimeoffset">DateTimeOffset</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_RealmObjects_Dispatch_TripRealmObject_Expense_" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.TripRealmObject.Expense*"></a>
+
+  <h3 id="SLS_Common_DTO_RealmObjects_Dispatch_TripRealmObject_Expense" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.TripRealmObject.Expense">
+  Expense
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO.RealmObjects/Dispatch/TripRealmObject.cs/#L97"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public double? Expense { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_RealmObjects_Dispatch_TripRealmObject_ExternalTripNr_" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.TripRealmObject.ExternalTripNr*"></a>
+
+  <h3 id="SLS_Common_DTO_RealmObjects_Dispatch_TripRealmObject_ExternalTripNr" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.TripRealmObject.ExternalTripNr">
+  ExternalTripNr
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO.RealmObjects/Dispatch/TripRealmObject.cs/#L73"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string? ExternalTripNr { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_RealmObjects_Dispatch_TripRealmObject_FiscalYear_ID_" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.TripRealmObject.FiscalYear_ID*"></a>
+
+  <h3 id="SLS_Common_DTO_RealmObjects_Dispatch_TripRealmObject_FiscalYear_ID" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.TripRealmObject.FiscalYear_ID">
+  FiscalYear_ID
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO.RealmObjects/Dispatch/TripRealmObject.cs/#L35"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public long? FiscalYear_ID { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_RealmObjects_Dispatch_TripRealmObject_HandlingUnits_Trip_" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.TripRealmObject.HandlingUnits_Trip*"></a>
+
+  <h3 id="SLS_Common_DTO_RealmObjects_Dispatch_TripRealmObject_HandlingUnits_Trip" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.TripRealmObject.HandlingUnits_Trip">
+  HandlingUnits_Trip
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO.RealmObjects/Dispatch/TripRealmObject.cs/#L214"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Backlink(&quot;Trip&quot;)]
+public IQueryable&lt;HandlingUnitRealmObject&gt; HandlingUnits_Trip { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.linq.iqueryable-1">IQueryable</a>&lt;<a class="xref" href="SLS.Common.DTO.RealmObjects.Dispatch.HandlingUnitRealmObject.html">HandlingUnitRealmObject</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_RealmObjects_Dispatch_TripRealmObject_HomeGrossPrice_" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.TripRealmObject.HomeGrossPrice*"></a>
+
+  <h3 id="SLS_Common_DTO_RealmObjects_Dispatch_TripRealmObject_HomeGrossPrice" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.TripRealmObject.HomeGrossPrice">
+  HomeGrossPrice
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO.RealmObjects/Dispatch/TripRealmObject.cs/#L102"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public double? HomeGrossPrice { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_RealmObjects_Dispatch_TripRealmObject_HomeGrossPriceDebitor_" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.TripRealmObject.HomeGrossPriceDebitor*"></a>
+
+  <h3 id="SLS_Common_DTO_RealmObjects_Dispatch_TripRealmObject_HomeGrossPriceDebitor" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.TripRealmObject.HomeGrossPriceDebitor">
+  HomeGrossPriceDebitor
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO.RealmObjects/Dispatch/TripRealmObject.cs/#L166"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public double? HomeGrossPriceDebitor { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_RealmObjects_Dispatch_TripRealmObject_HomeNetPrice_" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.TripRealmObject.HomeNetPrice*"></a>
+
+  <h3 id="SLS_Common_DTO_RealmObjects_Dispatch_TripRealmObject_HomeNetPrice" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.TripRealmObject.HomeNetPrice">
+  HomeNetPrice
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO.RealmObjects/Dispatch/TripRealmObject.cs/#L101"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public double? HomeNetPrice { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_RealmObjects_Dispatch_TripRealmObject_HomeNetPriceDebitor_" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.TripRealmObject.HomeNetPriceDebitor*"></a>
+
+  <h3 id="SLS_Common_DTO_RealmObjects_Dispatch_TripRealmObject_HomeNetPriceDebitor" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.TripRealmObject.HomeNetPriceDebitor">
+  HomeNetPriceDebitor
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO.RealmObjects/Dispatch/TripRealmObject.cs/#L165"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public double? HomeNetPriceDebitor { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_RealmObjects_Dispatch_TripRealmObject_Id_" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.TripRealmObject.Id*"></a>
+
+  <h3 id="SLS_Common_DTO_RealmObjects_Dispatch_TripRealmObject_Id" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.TripRealmObject.Id">
+  Id
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO.RealmObjects/Dispatch/TripRealmObject.cs/#L29"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[PrimaryKey]
+public long Id { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_RealmObjects_Dispatch_TripRealmObject_ImputedEmtpyDistance_" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.TripRealmObject.ImputedEmtpyDistance*"></a>
+
+  <h3 id="SLS_Common_DTO_RealmObjects_Dispatch_TripRealmObject_ImputedEmtpyDistance" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.TripRealmObject.ImputedEmtpyDistance">
+  ImputedEmtpyDistance
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO.RealmObjects/Dispatch/TripRealmObject.cs/#L171"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public double? ImputedEmtpyDistance { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_RealmObjects_Dispatch_TripRealmObject_InvoicedGrossPrice_" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.TripRealmObject.InvoicedGrossPrice*"></a>
+
+  <h3 id="SLS_Common_DTO_RealmObjects_Dispatch_TripRealmObject_InvoicedGrossPrice" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.TripRealmObject.InvoicedGrossPrice">
+  InvoicedGrossPrice
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO.RealmObjects/Dispatch/TripRealmObject.cs/#L104"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public double? InvoicedGrossPrice { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_RealmObjects_Dispatch_TripRealmObject_InvoicedGrossPriceDebitor_" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.TripRealmObject.InvoicedGrossPriceDebitor*"></a>
+
+  <h3 id="SLS_Common_DTO_RealmObjects_Dispatch_TripRealmObject_InvoicedGrossPriceDebitor" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.TripRealmObject.InvoicedGrossPriceDebitor">
+  InvoicedGrossPriceDebitor
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO.RealmObjects/Dispatch/TripRealmObject.cs/#L168"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public double? InvoicedGrossPriceDebitor { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_RealmObjects_Dispatch_TripRealmObject_InvoicedNetPrice_" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.TripRealmObject.InvoicedNetPrice*"></a>
+
+  <h3 id="SLS_Common_DTO_RealmObjects_Dispatch_TripRealmObject_InvoicedNetPrice" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.TripRealmObject.InvoicedNetPrice">
+  InvoicedNetPrice
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO.RealmObjects/Dispatch/TripRealmObject.cs/#L103"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public double? InvoicedNetPrice { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_RealmObjects_Dispatch_TripRealmObject_InvoicedNetPriceDebitor_" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.TripRealmObject.InvoicedNetPriceDebitor*"></a>
+
+  <h3 id="SLS_Common_DTO_RealmObjects_Dispatch_TripRealmObject_InvoicedNetPriceDebitor" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.TripRealmObject.InvoicedNetPriceDebitor">
+  InvoicedNetPriceDebitor
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO.RealmObjects/Dispatch/TripRealmObject.cs/#L167"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public double? InvoicedNetPriceDebitor { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_RealmObjects_Dispatch_TripRealmObject_IsDistanceFix_" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.TripRealmObject.IsDistanceFix*"></a>
+
+  <h3 id="SLS_Common_DTO_RealmObjects_Dispatch_TripRealmObject_IsDistanceFix" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.TripRealmObject.IsDistanceFix">
+  IsDistanceFix
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO.RealmObjects/Dispatch/TripRealmObject.cs/#L88"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool? IsDistanceFix { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_RealmObjects_Dispatch_TripRealmObject_IsFrozen_" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.TripRealmObject.IsFrozen*"></a>
+
+  <h3 id="SLS_Common_DTO_RealmObjects_Dispatch_TripRealmObject_IsFrozen" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.TripRealmObject.IsFrozen">
+  IsFrozen
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Gets a value indicating whether this object is frozen. Frozen objects are immutable
+and will not update when writes are made to the Realm. Unlike live objects, frozen
+objects can be used across threads.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[IgnoreDataMember]
+public bool IsFrozen { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd><p><code>true</code> if the object is frozen and immutable; <code>false</code> otherwise.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+  <dl class="typelist seealso">
+    <dt>See Also</dt>
+    <dd>
+    <div><span class="xref">Freeze</span>&lt;T&gt;(T)</div>
+    </dd>
+  </dl>
+
+
+  <a id="SLS_Common_DTO_RealmObjects_Dispatch_TripRealmObject_IsManaged_" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.TripRealmObject.IsManaged*"></a>
+
+  <h3 id="SLS_Common_DTO_RealmObjects_Dispatch_TripRealmObject_IsManaged" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.TripRealmObject.IsManaged">
+  IsManaged
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Gets a value indicating whether the object has been associated with a Realm, either at creation or via
+<a class="xref" href="https://github.com/realm/realm-dotnet/blob/Dev/Realm/Realm/Realm.cs">Add&lt;T&gt;(T, bool)</a>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[IgnoreDataMember]
+public bool IsManaged { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd><p><code>true</code> if object belongs to a Realm; <code>false</code> if standalone.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_RealmObjects_Dispatch_TripRealmObject_IsNoWareKmFix_" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.TripRealmObject.IsNoWareKmFix*"></a>
+
+  <h3 id="SLS_Common_DTO_RealmObjects_Dispatch_TripRealmObject_IsNoWareKmFix" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.TripRealmObject.IsNoWareKmFix">
+  IsNoWareKmFix
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO.RealmObjects/Dispatch/TripRealmObject.cs/#L89"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool? IsNoWareKmFix { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_RealmObjects_Dispatch_TripRealmObject_IsNoWareTollFeeIncluded_" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.TripRealmObject.IsNoWareTollFeeIncluded*"></a>
+
+  <h3 id="SLS_Common_DTO_RealmObjects_Dispatch_TripRealmObject_IsNoWareTollFeeIncluded" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.TripRealmObject.IsNoWareTollFeeIncluded">
+  IsNoWareTollFeeIncluded
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO.RealmObjects/Dispatch/TripRealmObject.cs/#L91"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool? IsNoWareTollFeeIncluded { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_RealmObjects_Dispatch_TripRealmObject_IsTollFeeFix_" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.TripRealmObject.IsTollFeeFix*"></a>
+
+  <h3 id="SLS_Common_DTO_RealmObjects_Dispatch_TripRealmObject_IsTollFeeFix" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.TripRealmObject.IsTollFeeFix">
+  IsTollFeeFix
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO.RealmObjects/Dispatch/TripRealmObject.cs/#L87"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool? IsTollFeeFix { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_RealmObjects_Dispatch_TripRealmObject_IsTollFeeIncluded_" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.TripRealmObject.IsTollFeeIncluded*"></a>
+
+  <h3 id="SLS_Common_DTO_RealmObjects_Dispatch_TripRealmObject_IsTollFeeIncluded" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.TripRealmObject.IsTollFeeIncluded">
+  IsTollFeeIncluded
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO.RealmObjects/Dispatch/TripRealmObject.cs/#L90"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool? IsTollFeeIncluded { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_RealmObjects_Dispatch_TripRealmObject_IsValid_" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.TripRealmObject.IsValid*"></a>
+
+  <h3 id="SLS_Common_DTO_RealmObjects_Dispatch_TripRealmObject_IsValid" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.TripRealmObject.IsValid">
+  IsValid
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Gets a value indicating whether this object is managed and represents a row in the database.
+If a managed object has been removed from the Realm, it is no longer valid and accessing properties on it
+will throw an exception.
+Unmanaged objects are always considered valid.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[IgnoreDataMember]
+public bool IsValid { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd><p><code>true</code> if managed and part of the Realm or unmanaged; <code>false</code> if managed but deleted.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_RealmObjects_Dispatch_TripRealmObject_Ist_DispoStoringPlaces_" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.TripRealmObject.Ist_DispoStoringPlaces*"></a>
+
+  <h3 id="SLS_Common_DTO_RealmObjects_Dispatch_TripRealmObject_Ist_DispoStoringPlaces" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.TripRealmObject.Ist_DispoStoringPlaces">
+  Ist_DispoStoringPlaces
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO.RealmObjects/Dispatch/TripRealmObject.cs/#L160"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public double? Ist_DispoStoringPlaces { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_RealmObjects_Dispatch_TripRealmObject_Ist_LQQuantity_" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.TripRealmObject.Ist_LQQuantity*"></a>
+
+  <h3 id="SLS_Common_DTO_RealmObjects_Dispatch_TripRealmObject_Ist_LQQuantity" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.TripRealmObject.Ist_LQQuantity">
+  Ist_LQQuantity
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO.RealmObjects/Dispatch/TripRealmObject.cs/#L95"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public double? Ist_LQQuantity { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_RealmObjects_Dispatch_TripRealmObject_Ist_LoadingMeter_" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.TripRealmObject.Ist_LoadingMeter*"></a>
+
+  <h3 id="SLS_Common_DTO_RealmObjects_Dispatch_TripRealmObject_Ist_LoadingMeter" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.TripRealmObject.Ist_LoadingMeter">
+  Ist_LoadingMeter
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO.RealmObjects/Dispatch/TripRealmObject.cs/#L80"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public double? Ist_LoadingMeter { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_RealmObjects_Dispatch_TripRealmObject_Ist_SquareMeters_" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.TripRealmObject.Ist_SquareMeters*"></a>
+
+  <h3 id="SLS_Common_DTO_RealmObjects_Dispatch_TripRealmObject_Ist_SquareMeters" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.TripRealmObject.Ist_SquareMeters">
+  Ist_SquareMeters
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO.RealmObjects/Dispatch/TripRealmObject.cs/#L153"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public double? Ist_SquareMeters { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_RealmObjects_Dispatch_TripRealmObject_Ist_StopCount_" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.TripRealmObject.Ist_StopCount*"></a>
+
+  <h3 id="SLS_Common_DTO_RealmObjects_Dispatch_TripRealmObject_Ist_StopCount" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.TripRealmObject.Ist_StopCount">
+  Ist_StopCount
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO.RealmObjects/Dispatch/TripRealmObject.cs/#L151"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int? Ist_StopCount { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_RealmObjects_Dispatch_TripRealmObject_Ist_Volume_" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.TripRealmObject.Ist_Volume*"></a>
+
+  <h3 id="SLS_Common_DTO_RealmObjects_Dispatch_TripRealmObject_Ist_Volume" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.TripRealmObject.Ist_Volume">
+  Ist_Volume
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO.RealmObjects/Dispatch/TripRealmObject.cs/#L77"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public double? Ist_Volume { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_RealmObjects_Dispatch_TripRealmObject_Ist_Weight_" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.TripRealmObject.Ist_Weight*"></a>
+
+  <h3 id="SLS_Common_DTO_RealmObjects_Dispatch_TripRealmObject_Ist_Weight" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.TripRealmObject.Ist_Weight">
+  Ist_Weight
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO.RealmObjects/Dispatch/TripRealmObject.cs/#L158"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public double? Ist_Weight { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_RealmObjects_Dispatch_TripRealmObject_Ist_WeightFreight_" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.TripRealmObject.Ist_WeightFreight*"></a>
+
+  <h3 id="SLS_Common_DTO_RealmObjects_Dispatch_TripRealmObject_Ist_WeightFreight" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.TripRealmObject.Ist_WeightFreight">
+  Ist_WeightFreight
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO.RealmObjects/Dispatch/TripRealmObject.cs/#L155"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public double? Ist_WeightFreight { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_RealmObjects_Dispatch_TripRealmObject_Ist_WeightNet_" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.TripRealmObject.Ist_WeightNet*"></a>
+
+  <h3 id="SLS_Common_DTO_RealmObjects_Dispatch_TripRealmObject_Ist_WeightNet" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.TripRealmObject.Ist_WeightNet">
+  Ist_WeightNet
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO.RealmObjects/Dispatch/TripRealmObject.cs/#L157"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public double? Ist_WeightNet { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_RealmObjects_Dispatch_TripRealmObject_LQQuantity_" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.TripRealmObject.LQQuantity*"></a>
+
+  <h3 id="SLS_Common_DTO_RealmObjects_Dispatch_TripRealmObject_LQQuantity" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.TripRealmObject.LQQuantity">
+  LQQuantity
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO.RealmObjects/Dispatch/TripRealmObject.cs/#L94"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public double? LQQuantity { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_RealmObjects_Dispatch_TripRealmObject_LastTripProcessStatus_" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.TripRealmObject.LastTripProcessStatus*"></a>
+
+  <h3 id="SLS_Common_DTO_RealmObjects_Dispatch_TripRealmObject_LastTripProcessStatus" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.TripRealmObject.LastTripProcessStatus">
+  LastTripProcessStatus
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO.RealmObjects/Dispatch/TripRealmObject.cs/#L196"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public TripProcessStatusRealmObject? LastTripProcessStatus { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="SLS.Common.DTO.RealmObjects.Dispatch.TripProcessStatusRealmObject.html">TripProcessStatusRealmObject</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_RealmObjects_Dispatch_TripRealmObject_LastTripProcessStatusID_" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.TripRealmObject.LastTripProcessStatusID*"></a>
+
+  <h3 id="SLS_Common_DTO_RealmObjects_Dispatch_TripRealmObject_LastTripProcessStatusID" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.TripRealmObject.LastTripProcessStatusID">
+  LastTripProcessStatusID
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO.RealmObjects/Dispatch/TripRealmObject.cs/#L55"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual long? LastTripProcessStatusID { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_RealmObjects_Dispatch_TripRealmObject_LoadFactor_" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.TripRealmObject.LoadFactor*"></a>
+
+  <h3 id="SLS_Common_DTO_RealmObjects_Dispatch_TripRealmObject_LoadFactor" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.TripRealmObject.LoadFactor">
+  LoadFactor
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO.RealmObjects/Dispatch/TripRealmObject.cs/#L169"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public double? LoadFactor { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_RealmObjects_Dispatch_TripRealmObject_LoadingMeter_" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.TripRealmObject.LoadingMeter*"></a>
+
+  <h3 id="SLS_Common_DTO_RealmObjects_Dispatch_TripRealmObject_LoadingMeter" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.TripRealmObject.LoadingMeter">
+  LoadingMeter
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO.RealmObjects/Dispatch/TripRealmObject.cs/#L79"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public double? LoadingMeter { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_RealmObjects_Dispatch_TripRealmObject_NoWareKm_" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.TripRealmObject.NoWareKm*"></a>
+
+  <h3 id="SLS_Common_DTO_RealmObjects_Dispatch_TripRealmObject_NoWareKm" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.TripRealmObject.NoWareKm">
+  NoWareKm
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO.RealmObjects/Dispatch/TripRealmObject.cs/#L81"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public double? NoWareKm { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_RealmObjects_Dispatch_TripRealmObject_NoWareTollFee_" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.TripRealmObject.NoWareTollFee*"></a>
+
+  <h3 id="SLS_Common_DTO_RealmObjects_Dispatch_TripRealmObject_NoWareTollFee" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.TripRealmObject.NoWareTollFee">
+  NoWareTollFee
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO.RealmObjects/Dispatch/TripRealmObject.cs/#L82"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public double? NoWareTollFee { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_RealmObjects_Dispatch_TripRealmObject_NoWareTollKm_" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.TripRealmObject.NoWareTollKm*"></a>
+
+  <h3 id="SLS_Common_DTO_RealmObjects_Dispatch_TripRealmObject_NoWareTollKm" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.TripRealmObject.NoWareTollKm">
+  NoWareTollKm
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO.RealmObjects/Dispatch/TripRealmObject.cs/#L83"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public double? NoWareTollKm { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_RealmObjects_Dispatch_TripRealmObject_Note_Trip_" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.TripRealmObject.Note_Trip*"></a>
+
+  <h3 id="SLS_Common_DTO_RealmObjects_Dispatch_TripRealmObject_Note_Trip" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.TripRealmObject.Note_Trip">
+  Note_Trip
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO.RealmObjects/Dispatch/TripRealmObject.cs/#L211"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Backlink(&quot;Trip&quot;)]
+public IQueryable&lt;NoteRealmObject&gt; Note_Trip { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.linq.iqueryable-1">IQueryable</a>&lt;<a class="xref" href="SLS.Common.DTO.RealmObjects.Dispatch.NoteRealmObject.html">NoteRealmObject</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_RealmObjects_Dispatch_TripRealmObject_Notes_" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.TripRealmObject.Notes*"></a>
+
+  <h3 id="SLS_Common_DTO_RealmObjects_Dispatch_TripRealmObject_Notes" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.TripRealmObject.Notes">
+  Notes
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO.RealmObjects/Dispatch/TripRealmObject.cs/#L74"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string? Notes { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_RealmObjects_Dispatch_TripRealmObject_ObjectSchema_" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.TripRealmObject.ObjectSchema*"></a>
+
+  <h3 id="SLS_Common_DTO_RealmObjects_Dispatch_TripRealmObject_ObjectSchema" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.TripRealmObject.ObjectSchema">
+  ObjectSchema
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Gets the <a class="xref" href="https://github.com/realm/realm-dotnet/blob/Dev/Realm/Realm/Schema/ObjectSchema.cs">ObjectSchema</a> instance that describes how the <a class="xref" href="https://github.com/realm/realm-dotnet/blob/Dev/Realm/Realm/DatabaseTypes/IRealmObjectBase.cs">Realm</a> this object belongs to sees it.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[IgnoreDataMember]
+public ObjectSchema ObjectSchema { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://github.com/realm/realm-dotnet/blob/Dev/Realm/Realm/Schema/ObjectSchema.cs">ObjectSchema</a></dt>
+    <dd><p>A collection of properties describing the underlying schema of this object.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_RealmObjects_Dispatch_TripRealmObject_Optional_Bool1_" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.TripRealmObject.Optional_Bool1*"></a>
+
+  <h3 id="SLS_Common_DTO_RealmObjects_Dispatch_TripRealmObject_Optional_Bool1" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.TripRealmObject.Optional_Bool1">
+  Optional_Bool1
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO.RealmObjects/Dispatch/TripRealmObject.cs/#L135"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool? Optional_Bool1 { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_RealmObjects_Dispatch_TripRealmObject_Optional_Bool2_" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.TripRealmObject.Optional_Bool2*"></a>
+
+  <h3 id="SLS_Common_DTO_RealmObjects_Dispatch_TripRealmObject_Optional_Bool2" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.TripRealmObject.Optional_Bool2">
+  Optional_Bool2
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO.RealmObjects/Dispatch/TripRealmObject.cs/#L136"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool? Optional_Bool2 { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_RealmObjects_Dispatch_TripRealmObject_Optional_Bool3_" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.TripRealmObject.Optional_Bool3*"></a>
+
+  <h3 id="SLS_Common_DTO_RealmObjects_Dispatch_TripRealmObject_Optional_Bool3" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.TripRealmObject.Optional_Bool3">
+  Optional_Bool3
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO.RealmObjects/Dispatch/TripRealmObject.cs/#L137"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool? Optional_Bool3 { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_RealmObjects_Dispatch_TripRealmObject_Optional_Date1_" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.TripRealmObject.Optional_Date1*"></a>
+
+  <h3 id="SLS_Common_DTO_RealmObjects_Dispatch_TripRealmObject_Optional_Date1" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.TripRealmObject.Optional_Date1">
+  Optional_Date1
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO.RealmObjects/Dispatch/TripRealmObject.cs/#L132"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public DateTimeOffset? Optional_Date1 { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.datetimeoffset">DateTimeOffset</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_RealmObjects_Dispatch_TripRealmObject_Optional_Date2_" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.TripRealmObject.Optional_Date2*"></a>
+
+  <h3 id="SLS_Common_DTO_RealmObjects_Dispatch_TripRealmObject_Optional_Date2" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.TripRealmObject.Optional_Date2">
+  Optional_Date2
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO.RealmObjects/Dispatch/TripRealmObject.cs/#L133"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public DateTimeOffset? Optional_Date2 { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.datetimeoffset">DateTimeOffset</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_RealmObjects_Dispatch_TripRealmObject_Optional_Date3_" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.TripRealmObject.Optional_Date3*"></a>
+
+  <h3 id="SLS_Common_DTO_RealmObjects_Dispatch_TripRealmObject_Optional_Date3" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.TripRealmObject.Optional_Date3">
+  Optional_Date3
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO.RealmObjects/Dispatch/TripRealmObject.cs/#L134"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public DateTimeOffset? Optional_Date3 { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.datetimeoffset">DateTimeOffset</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_RealmObjects_Dispatch_TripRealmObject_Optional_Float1_" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.TripRealmObject.Optional_Float1*"></a>
+
+  <h3 id="SLS_Common_DTO_RealmObjects_Dispatch_TripRealmObject_Optional_Float1" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.TripRealmObject.Optional_Float1">
+  Optional_Float1
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO.RealmObjects/Dispatch/TripRealmObject.cs/#L139"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public double? Optional_Float1 { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_RealmObjects_Dispatch_TripRealmObject_Optional_Float2_" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.TripRealmObject.Optional_Float2*"></a>
+
+  <h3 id="SLS_Common_DTO_RealmObjects_Dispatch_TripRealmObject_Optional_Float2" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.TripRealmObject.Optional_Float2">
+  Optional_Float2
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO.RealmObjects/Dispatch/TripRealmObject.cs/#L138"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public double? Optional_Float2 { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_RealmObjects_Dispatch_TripRealmObject_Optional_Float3_" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.TripRealmObject.Optional_Float3*"></a>
+
+  <h3 id="SLS_Common_DTO_RealmObjects_Dispatch_TripRealmObject_Optional_Float3" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.TripRealmObject.Optional_Float3">
+  Optional_Float3
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO.RealmObjects/Dispatch/TripRealmObject.cs/#L140"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public double? Optional_Float3 { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_RealmObjects_Dispatch_TripRealmObject_Optional_Num1_" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.TripRealmObject.Optional_Num1*"></a>
+
+  <h3 id="SLS_Common_DTO_RealmObjects_Dispatch_TripRealmObject_Optional_Num1" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.TripRealmObject.Optional_Num1">
+  Optional_Num1
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO.RealmObjects/Dispatch/TripRealmObject.cs/#L122"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int? Optional_Num1 { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_RealmObjects_Dispatch_TripRealmObject_Optional_Num10_" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.TripRealmObject.Optional_Num10*"></a>
+
+  <h3 id="SLS_Common_DTO_RealmObjects_Dispatch_TripRealmObject_Optional_Num10" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.TripRealmObject.Optional_Num10">
+  Optional_Num10
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO.RealmObjects/Dispatch/TripRealmObject.cs/#L131"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public long? Optional_Num10 { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_RealmObjects_Dispatch_TripRealmObject_Optional_Num2_" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.TripRealmObject.Optional_Num2*"></a>
+
+  <h3 id="SLS_Common_DTO_RealmObjects_Dispatch_TripRealmObject_Optional_Num2" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.TripRealmObject.Optional_Num2">
+  Optional_Num2
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO.RealmObjects/Dispatch/TripRealmObject.cs/#L123"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int? Optional_Num2 { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_RealmObjects_Dispatch_TripRealmObject_Optional_Num3_" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.TripRealmObject.Optional_Num3*"></a>
+
+  <h3 id="SLS_Common_DTO_RealmObjects_Dispatch_TripRealmObject_Optional_Num3" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.TripRealmObject.Optional_Num3">
+  Optional_Num3
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO.RealmObjects/Dispatch/TripRealmObject.cs/#L124"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int? Optional_Num3 { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_RealmObjects_Dispatch_TripRealmObject_Optional_Num4_" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.TripRealmObject.Optional_Num4*"></a>
+
+  <h3 id="SLS_Common_DTO_RealmObjects_Dispatch_TripRealmObject_Optional_Num4" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.TripRealmObject.Optional_Num4">
+  Optional_Num4
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO.RealmObjects/Dispatch/TripRealmObject.cs/#L125"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int? Optional_Num4 { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_RealmObjects_Dispatch_TripRealmObject_Optional_Num5_" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.TripRealmObject.Optional_Num5*"></a>
+
+  <h3 id="SLS_Common_DTO_RealmObjects_Dispatch_TripRealmObject_Optional_Num5" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.TripRealmObject.Optional_Num5">
+  Optional_Num5
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO.RealmObjects/Dispatch/TripRealmObject.cs/#L126"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int? Optional_Num5 { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_RealmObjects_Dispatch_TripRealmObject_Optional_Num6_" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.TripRealmObject.Optional_Num6*"></a>
+
+  <h3 id="SLS_Common_DTO_RealmObjects_Dispatch_TripRealmObject_Optional_Num6" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.TripRealmObject.Optional_Num6">
+  Optional_Num6
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO.RealmObjects/Dispatch/TripRealmObject.cs/#L127"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public long? Optional_Num6 { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_RealmObjects_Dispatch_TripRealmObject_Optional_Num7_" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.TripRealmObject.Optional_Num7*"></a>
+
+  <h3 id="SLS_Common_DTO_RealmObjects_Dispatch_TripRealmObject_Optional_Num7" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.TripRealmObject.Optional_Num7">
+  Optional_Num7
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO.RealmObjects/Dispatch/TripRealmObject.cs/#L128"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public long? Optional_Num7 { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_RealmObjects_Dispatch_TripRealmObject_Optional_Num8_" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.TripRealmObject.Optional_Num8*"></a>
+
+  <h3 id="SLS_Common_DTO_RealmObjects_Dispatch_TripRealmObject_Optional_Num8" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.TripRealmObject.Optional_Num8">
+  Optional_Num8
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO.RealmObjects/Dispatch/TripRealmObject.cs/#L129"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public long? Optional_Num8 { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_RealmObjects_Dispatch_TripRealmObject_Optional_Num9_" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.TripRealmObject.Optional_Num9*"></a>
+
+  <h3 id="SLS_Common_DTO_RealmObjects_Dispatch_TripRealmObject_Optional_Num9" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.TripRealmObject.Optional_Num9">
+  Optional_Num9
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO.RealmObjects/Dispatch/TripRealmObject.cs/#L130"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public long? Optional_Num9 { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_RealmObjects_Dispatch_TripRealmObject_Optional_String1_" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.TripRealmObject.Optional_String1*"></a>
+
+  <h3 id="SLS_Common_DTO_RealmObjects_Dispatch_TripRealmObject_Optional_String1" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.TripRealmObject.Optional_String1">
+  Optional_String1
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO.RealmObjects/Dispatch/TripRealmObject.cs/#L112"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string? Optional_String1 { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_RealmObjects_Dispatch_TripRealmObject_Optional_String10_" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.TripRealmObject.Optional_String10*"></a>
+
+  <h3 id="SLS_Common_DTO_RealmObjects_Dispatch_TripRealmObject_Optional_String10" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.TripRealmObject.Optional_String10">
+  Optional_String10
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO.RealmObjects/Dispatch/TripRealmObject.cs/#L121"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string? Optional_String10 { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_RealmObjects_Dispatch_TripRealmObject_Optional_String2_" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.TripRealmObject.Optional_String2*"></a>
+
+  <h3 id="SLS_Common_DTO_RealmObjects_Dispatch_TripRealmObject_Optional_String2" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.TripRealmObject.Optional_String2">
+  Optional_String2
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO.RealmObjects/Dispatch/TripRealmObject.cs/#L113"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string? Optional_String2 { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_RealmObjects_Dispatch_TripRealmObject_Optional_String3_" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.TripRealmObject.Optional_String3*"></a>
+
+  <h3 id="SLS_Common_DTO_RealmObjects_Dispatch_TripRealmObject_Optional_String3" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.TripRealmObject.Optional_String3">
+  Optional_String3
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO.RealmObjects/Dispatch/TripRealmObject.cs/#L114"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string? Optional_String3 { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_RealmObjects_Dispatch_TripRealmObject_Optional_String4_" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.TripRealmObject.Optional_String4*"></a>
+
+  <h3 id="SLS_Common_DTO_RealmObjects_Dispatch_TripRealmObject_Optional_String4" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.TripRealmObject.Optional_String4">
+  Optional_String4
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO.RealmObjects/Dispatch/TripRealmObject.cs/#L115"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string? Optional_String4 { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_RealmObjects_Dispatch_TripRealmObject_Optional_String5_" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.TripRealmObject.Optional_String5*"></a>
+
+  <h3 id="SLS_Common_DTO_RealmObjects_Dispatch_TripRealmObject_Optional_String5" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.TripRealmObject.Optional_String5">
+  Optional_String5
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO.RealmObjects/Dispatch/TripRealmObject.cs/#L116"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string? Optional_String5 { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_RealmObjects_Dispatch_TripRealmObject_Optional_String6_" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.TripRealmObject.Optional_String6*"></a>
+
+  <h3 id="SLS_Common_DTO_RealmObjects_Dispatch_TripRealmObject_Optional_String6" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.TripRealmObject.Optional_String6">
+  Optional_String6
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO.RealmObjects/Dispatch/TripRealmObject.cs/#L117"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string? Optional_String6 { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_RealmObjects_Dispatch_TripRealmObject_Optional_String7_" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.TripRealmObject.Optional_String7*"></a>
+
+  <h3 id="SLS_Common_DTO_RealmObjects_Dispatch_TripRealmObject_Optional_String7" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.TripRealmObject.Optional_String7">
+  Optional_String7
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO.RealmObjects/Dispatch/TripRealmObject.cs/#L118"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string? Optional_String7 { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_RealmObjects_Dispatch_TripRealmObject_Optional_String8_" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.TripRealmObject.Optional_String8*"></a>
+
+  <h3 id="SLS_Common_DTO_RealmObjects_Dispatch_TripRealmObject_Optional_String8" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.TripRealmObject.Optional_String8">
+  Optional_String8
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO.RealmObjects/Dispatch/TripRealmObject.cs/#L119"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string? Optional_String8 { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_RealmObjects_Dispatch_TripRealmObject_Optional_String9_" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.TripRealmObject.Optional_String9*"></a>
+
+  <h3 id="SLS_Common_DTO_RealmObjects_Dispatch_TripRealmObject_Optional_String9" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.TripRealmObject.Optional_String9">
+  Optional_String9
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO.RealmObjects/Dispatch/TripRealmObject.cs/#L120"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string? Optional_String9 { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_RealmObjects_Dispatch_TripRealmObject_PricePerKg_" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.TripRealmObject.PricePerKg*"></a>
+
+  <h3 id="SLS_Common_DTO_RealmObjects_Dispatch_TripRealmObject_PricePerKg" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.TripRealmObject.PricePerKg">
+  PricePerKg
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO.RealmObjects/Dispatch/TripRealmObject.cs/#L108"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public double? PricePerKg { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_RealmObjects_Dispatch_TripRealmObject_PricePerLiter_" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.TripRealmObject.PricePerLiter*"></a>
+
+  <h3 id="SLS_Common_DTO_RealmObjects_Dispatch_TripRealmObject_PricePerLiter" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.TripRealmObject.PricePerLiter">
+  PricePerLiter
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO.RealmObjects/Dispatch/TripRealmObject.cs/#L107"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public double? PricePerLiter { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_RealmObjects_Dispatch_TripRealmObject_PricePerMeter_" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.TripRealmObject.PricePerMeter*"></a>
+
+  <h3 id="SLS_Common_DTO_RealmObjects_Dispatch_TripRealmObject_PricePerMeter" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.TripRealmObject.PricePerMeter">
+  PricePerMeter
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO.RealmObjects/Dispatch/TripRealmObject.cs/#L110"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public double? PricePerMeter { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_RealmObjects_Dispatch_TripRealmObject_PricePerPart_" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.TripRealmObject.PricePerPart*"></a>
+
+  <h3 id="SLS_Common_DTO_RealmObjects_Dispatch_TripRealmObject_PricePerPart" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.TripRealmObject.PricePerPart">
+  PricePerPart
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO.RealmObjects/Dispatch/TripRealmObject.cs/#L109"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public double? PricePerPart { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_RealmObjects_Dispatch_TripRealmObject_PricePerStorageUnit_" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.TripRealmObject.PricePerStorageUnit*"></a>
+
+  <h3 id="SLS_Common_DTO_RealmObjects_Dispatch_TripRealmObject_PricePerStorageUnit" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.TripRealmObject.PricePerStorageUnit">
+  PricePerStorageUnit
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO.RealmObjects/Dispatch/TripRealmObject.cs/#L111"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public double? PricePerStorageUnit { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_RealmObjects_Dispatch_TripRealmObject_ProcessStatus_" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.TripRealmObject.ProcessStatus*"></a>
+
+  <h3 id="SLS_Common_DTO_RealmObjects_Dispatch_TripRealmObject_ProcessStatus" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.TripRealmObject.ProcessStatus">
+  ProcessStatus
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO.RealmObjects/Dispatch/TripRealmObject.cs/#L190"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ProcessStatusRealmObject? ProcessStatus { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="SLS.Common.DTO.RealmObjects.MasterData.Dispo.ProcessStatusRealmObject.html">ProcessStatusRealmObject</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_RealmObjects_Dispatch_TripRealmObject_ProcessStatusID_" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.TripRealmObject.ProcessStatusID*"></a>
+
+  <h3 id="SLS_Common_DTO_RealmObjects_Dispatch_TripRealmObject_ProcessStatusID" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.TripRealmObject.ProcessStatusID">
+  ProcessStatusID
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO.RealmObjects/Dispatch/TripRealmObject.cs/#L50"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual long? ProcessStatusID { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_RealmObjects_Dispatch_TripRealmObject_Realm_" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.TripRealmObject.Realm*"></a>
+
+  <h3 id="SLS_Common_DTO_RealmObjects_Dispatch_TripRealmObject_Realm" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.TripRealmObject.Realm">
+  Realm
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Gets the <a class="xref" href="https://github.com/realm/realm-dotnet/blob/Dev/Realm/Realm/DatabaseTypes/IRealmObjectBase.cs">Realm</a> instance this object belongs to, or <code>null</code> if it is unmanaged.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[IgnoreDataMember]
+public Realm? Realm { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://github.com/realm/realm-dotnet/blob/Dev/Realm/Realm/Realm.cs">Realm</a></dt>
+    <dd><p>The <a class="xref" href="https://github.com/realm/realm-dotnet/blob/Dev/Realm/Realm/DatabaseTypes/IRealmObjectBase.cs">Realm</a> instance this object belongs to.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_RealmObjects_Dispatch_TripRealmObject_Revenue_" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.TripRealmObject.Revenue*"></a>
+
+  <h3 id="SLS_Common_DTO_RealmObjects_Dispatch_TripRealmObject_Revenue" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.TripRealmObject.Revenue">
+  Revenue
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO.RealmObjects/Dispatch/TripRealmObject.cs/#L96"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public double? Revenue { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_RealmObjects_Dispatch_TripRealmObject_SquareMeters_" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.TripRealmObject.SquareMeters*"></a>
+
+  <h3 id="SLS_Common_DTO_RealmObjects_Dispatch_TripRealmObject_SquareMeters" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.TripRealmObject.SquareMeters">
+  SquareMeters
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO.RealmObjects/Dispatch/TripRealmObject.cs/#L152"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public double? SquareMeters { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_RealmObjects_Dispatch_TripRealmObject_StartAddress_" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.TripRealmObject.StartAddress*"></a>
+
+  <h3 id="SLS_Common_DTO_RealmObjects_Dispatch_TripRealmObject_StartAddress" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.TripRealmObject.StartAddress">
+  StartAddress
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO.RealmObjects/Dispatch/TripRealmObject.cs/#L186"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public AddressRealmObject? StartAddress { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="SLS.Common.DTO.RealmObjects.MasterData.AddressRealmObject.html">AddressRealmObject</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_RealmObjects_Dispatch_TripRealmObject_StartAddressID_" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.TripRealmObject.StartAddressID*"></a>
+
+  <h3 id="SLS_Common_DTO_RealmObjects_Dispatch_TripRealmObject_StartAddressID" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.TripRealmObject.StartAddressID">
+  StartAddressID
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO.RealmObjects/Dispatch/TripRealmObject.cs/#L48"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual long? StartAddressID { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_RealmObjects_Dispatch_TripRealmObject_StartAddressMethod_" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.TripRealmObject.StartAddressMethod*"></a>
+
+  <h3 id="SLS_Common_DTO_RealmObjects_Dispatch_TripRealmObject_StartAddressMethod" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.TripRealmObject.StartAddressMethod">
+  StartAddressMethod
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO.RealmObjects/Dispatch/TripRealmObject.cs/#L161"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int? StartAddressMethod { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_RealmObjects_Dispatch_TripRealmObject_StatusReason_" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.TripRealmObject.StatusReason*"></a>
+
+  <h3 id="SLS_Common_DTO_RealmObjects_Dispatch_TripRealmObject_StatusReason" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.TripRealmObject.StatusReason">
+  StatusReason
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO.RealmObjects/Dispatch/TripRealmObject.cs/#L192"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public StatusReasonRealmObject? StatusReason { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="SLS.Common.DTO.RealmObjects.MasterData.Dispo.StatusReasonRealmObject.html">StatusReasonRealmObject</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_RealmObjects_Dispatch_TripRealmObject_StatusReasonID_" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.TripRealmObject.StatusReasonID*"></a>
+
+  <h3 id="SLS_Common_DTO_RealmObjects_Dispatch_TripRealmObject_StatusReasonID" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.TripRealmObject.StatusReasonID">
+  StatusReasonID
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO.RealmObjects/Dispatch/TripRealmObject.cs/#L51"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual long? StatusReasonID { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_RealmObjects_Dispatch_TripRealmObject_StopCount_" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.TripRealmObject.StopCount*"></a>
+
+  <h3 id="SLS_Common_DTO_RealmObjects_Dispatch_TripRealmObject_StopCount" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.TripRealmObject.StopCount">
+  StopCount
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO.RealmObjects/Dispatch/TripRealmObject.cs/#L144"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int? StopCount { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_RealmObjects_Dispatch_TripRealmObject_Subsidiary_ID_" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.TripRealmObject.Subsidiary_ID*"></a>
+
+  <h3 id="SLS_Common_DTO_RealmObjects_Dispatch_TripRealmObject_Subsidiary_ID" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.TripRealmObject.Subsidiary_ID">
+  Subsidiary_ID
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO.RealmObjects/Dispatch/TripRealmObject.cs/#L33"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public long? Subsidiary_ID { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_RealmObjects_Dispatch_TripRealmObject_Tag_" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.TripRealmObject.Tag*"></a>
+
+  <h3 id="SLS_Common_DTO_RealmObjects_Dispatch_TripRealmObject_Tag" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.TripRealmObject.Tag">
+  Tag
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO.RealmObjects/Dispatch/TripRealmObject.cs/#L86"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string? Tag { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_RealmObjects_Dispatch_TripRealmObject_TaxationContextID_" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.TripRealmObject.TaxationContextID*"></a>
+
+  <h3 id="SLS_Common_DTO_RealmObjects_Dispatch_TripRealmObject_TaxationContextID" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.TripRealmObject.TaxationContextID">
+  TaxationContextID
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO.RealmObjects/Dispatch/TripRealmObject.cs/#L54"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual long? TaxationContextID { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_RealmObjects_Dispatch_TripRealmObject_TemperatureCheck1ID_" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.TripRealmObject.TemperatureCheck1ID*"></a>
+
+  <h3 id="SLS_Common_DTO_RealmObjects_Dispatch_TripRealmObject_TemperatureCheck1ID" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.TripRealmObject.TemperatureCheck1ID">
+  TemperatureCheck1ID
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO.RealmObjects/Dispatch/TripRealmObject.cs/#L56"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual long? TemperatureCheck1ID { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_RealmObjects_Dispatch_TripRealmObject_TemperatureCheck2ID_" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.TripRealmObject.TemperatureCheck2ID*"></a>
+
+  <h3 id="SLS_Common_DTO_RealmObjects_Dispatch_TripRealmObject_TemperatureCheck2ID" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.TripRealmObject.TemperatureCheck2ID">
+  TemperatureCheck2ID
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO.RealmObjects/Dispatch/TripRealmObject.cs/#L57"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual long? TemperatureCheck2ID { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_RealmObjects_Dispatch_TripRealmObject_TemperatureCheck3ID_" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.TripRealmObject.TemperatureCheck3ID*"></a>
+
+  <h3 id="SLS_Common_DTO_RealmObjects_Dispatch_TripRealmObject_TemperatureCheck3ID" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.TripRealmObject.TemperatureCheck3ID">
+  TemperatureCheck3ID
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO.RealmObjects/Dispatch/TripRealmObject.cs/#L58"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual long? TemperatureCheck3ID { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_RealmObjects_Dispatch_TripRealmObject_TollFee_" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.TripRealmObject.TollFee*"></a>
+
+  <h3 id="SLS_Common_DTO_RealmObjects_Dispatch_TripRealmObject_TollFee" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.TripRealmObject.TollFee">
+  TollFee
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO.RealmObjects/Dispatch/TripRealmObject.cs/#L72"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public double? TollFee { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_RealmObjects_Dispatch_TripRealmObject_TollKm_" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.TripRealmObject.TollKm*"></a>
+
+  <h3 id="SLS_Common_DTO_RealmObjects_Dispatch_TripRealmObject_TollKm" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.TripRealmObject.TollKm">
+  TollKm
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO.RealmObjects/Dispatch/TripRealmObject.cs/#L71"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public double? TollKm { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_RealmObjects_Dispatch_TripRealmObject_Trailer_" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.TripRealmObject.Trailer*"></a>
+
+  <h3 id="SLS_Common_DTO_RealmObjects_Dispatch_TripRealmObject_Trailer" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.TripRealmObject.Trailer">
+  Trailer
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO.RealmObjects/Dispatch/TripRealmObject.cs/#L148"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string? Trailer { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_RealmObjects_Dispatch_TripRealmObject_TrailerTag_" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.TripRealmObject.TrailerTag*"></a>
+
+  <h3 id="SLS_Common_DTO_RealmObjects_Dispatch_TripRealmObject_TrailerTag" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.TripRealmObject.TrailerTag">
+  TrailerTag
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO.RealmObjects/Dispatch/TripRealmObject.cs/#L141"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string? TrailerTag { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_RealmObjects_Dispatch_TripRealmObject_TransAppliance_" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.TripRealmObject.TransAppliance*"></a>
+
+  <h3 id="SLS_Common_DTO_RealmObjects_Dispatch_TripRealmObject_TransAppliance" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.TripRealmObject.TransAppliance">
+  TransAppliance
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO.RealmObjects/Dispatch/TripRealmObject.cs/#L145"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string? TransAppliance { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_RealmObjects_Dispatch_TripRealmObject_TransApplianceGroup_" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.TripRealmObject.TransApplianceGroup*"></a>
+
+  <h3 id="SLS_Common_DTO_RealmObjects_Dispatch_TripRealmObject_TransApplianceGroup" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.TripRealmObject.TransApplianceGroup">
+  TransApplianceGroup
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO.RealmObjects/Dispatch/TripRealmObject.cs/#L143"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string? TransApplianceGroup { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_RealmObjects_Dispatch_TripRealmObject_TransportCompany_" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.TripRealmObject.TransportCompany*"></a>
+
+  <h3 id="SLS_Common_DTO_RealmObjects_Dispatch_TripRealmObject_TransportCompany" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.TripRealmObject.TransportCompany">
+  TransportCompany
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO.RealmObjects/Dispatch/TripRealmObject.cs/#L184"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public AddressCompanyRealmObject? TransportCompany { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="SLS.Common.DTO.RealmObjects.MasterData.AddressCompanyRealmObject.html">AddressCompanyRealmObject</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_RealmObjects_Dispatch_TripRealmObject_TransportCompanyExternalKey_" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.TripRealmObject.TransportCompanyExternalKey*"></a>
+
+  <h3 id="SLS_Common_DTO_RealmObjects_Dispatch_TripRealmObject_TransportCompanyExternalKey" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.TripRealmObject.TransportCompanyExternalKey">
+  TransportCompanyExternalKey
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO.RealmObjects/Dispatch/TripRealmObject.cs/#L175"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string? TransportCompanyExternalKey { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_RealmObjects_Dispatch_TripRealmObject_TransportCompanyID_" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.TripRealmObject.TransportCompanyID*"></a>
+
+  <h3 id="SLS_Common_DTO_RealmObjects_Dispatch_TripRealmObject_TransportCompanyID" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.TripRealmObject.TransportCompanyID">
+  TransportCompanyID
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO.RealmObjects/Dispatch/TripRealmObject.cs/#L47"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual long TransportCompanyID { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_RealmObjects_Dispatch_TripRealmObject_TripProcessStatus_" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.TripRealmObject.TripProcessStatus*"></a>
+
+  <h3 id="SLS_Common_DTO_RealmObjects_Dispatch_TripRealmObject_TripProcessStatus" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.TripRealmObject.TripProcessStatus">
+  TripProcessStatus
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO.RealmObjects/Dispatch/TripRealmObject.cs/#L194"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public TripProcessStatusRealmObject? TripProcessStatus { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="SLS.Common.DTO.RealmObjects.Dispatch.TripProcessStatusRealmObject.html">TripProcessStatusRealmObject</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_RealmObjects_Dispatch_TripRealmObject_TripProcessStatusID_" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.TripRealmObject.TripProcessStatusID*"></a>
+
+  <h3 id="SLS_Common_DTO_RealmObjects_Dispatch_TripRealmObject_TripProcessStatusID" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.TripRealmObject.TripProcessStatusID">
+  TripProcessStatusID
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO.RealmObjects/Dispatch/TripRealmObject.cs/#L53"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual long? TripProcessStatusID { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_RealmObjects_Dispatch_TripRealmObject_TripProcessStatus_Trip_" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.TripRealmObject.TripProcessStatus_Trip*"></a>
+
+  <h3 id="SLS_Common_DTO_RealmObjects_Dispatch_TripRealmObject_TripProcessStatus_Trip" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.TripRealmObject.TripProcessStatus_Trip">
+  TripProcessStatus_Trip
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO.RealmObjects/Dispatch/TripRealmObject.cs/#L208"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Backlink(&quot;Trip&quot;)]
+public IQueryable&lt;TripProcessStatusRealmObject&gt; TripProcessStatus_Trip { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.linq.iqueryable-1">IQueryable</a>&lt;<a class="xref" href="SLS.Common.DTO.RealmObjects.Dispatch.TripProcessStatusRealmObject.html">TripProcessStatusRealmObject</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_RealmObjects_Dispatch_TripRealmObject_TripResources_Trip_" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.TripRealmObject.TripResources_Trip*"></a>
+
+  <h3 id="SLS_Common_DTO_RealmObjects_Dispatch_TripRealmObject_TripResources_Trip" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.TripRealmObject.TripResources_Trip">
+  TripResources_Trip
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO.RealmObjects/Dispatch/TripRealmObject.cs/#L205"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Backlink(&quot;Trip&quot;)]
+public IQueryable&lt;TripResourceRealmObject&gt; TripResources_Trip { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.linq.iqueryable-1">IQueryable</a>&lt;<a class="xref" href="SLS.Common.DTO.RealmObjects.Dispatch.TripResourceRealmObject.html">TripResourceRealmObject</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_RealmObjects_Dispatch_TripRealmObject_TripServices_Trip_" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.TripRealmObject.TripServices_Trip*"></a>
+
+  <h3 id="SLS_Common_DTO_RealmObjects_Dispatch_TripRealmObject_TripServices_Trip" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.TripRealmObject.TripServices_Trip">
+  TripServices_Trip
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO.RealmObjects/Dispatch/TripRealmObject.cs/#L202"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Backlink(&quot;Trip&quot;)]
+public IQueryable&lt;TripServiceRealmObject&gt; TripServices_Trip { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.linq.iqueryable-1">IQueryable</a>&lt;<a class="xref" href="SLS.Common.DTO.RealmObjects.Dispatch.TripServiceRealmObject.html">TripServiceRealmObject</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_RealmObjects_Dispatch_TripRealmObject_TripStatus_" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.TripRealmObject.TripStatus*"></a>
+
+  <h3 id="SLS_Common_DTO_RealmObjects_Dispatch_TripRealmObject_TripStatus" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.TripRealmObject.TripStatus">
+  TripStatus
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO.RealmObjects/Dispatch/TripRealmObject.cs/#L182"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public TripTransportOrderStatusRealmObject? TripStatus { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="SLS.Common.DTO.RealmObjects.MasterData.Dispo.TripTransportOrderStatusRealmObject.html">TripTransportOrderStatusRealmObject</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_RealmObjects_Dispatch_TripRealmObject_TripStatusID_" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.TripRealmObject.TripStatusID*"></a>
+
+  <h3 id="SLS_Common_DTO_RealmObjects_Dispatch_TripRealmObject_TripStatusID" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.TripRealmObject.TripStatusID">
+  TripStatusID
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO.RealmObjects/Dispatch/TripRealmObject.cs/#L43"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual long? TripStatusID { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_RealmObjects_Dispatch_TripRealmObject_TripStops_" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.TripRealmObject.TripStops*"></a>
+
+  <h3 id="SLS_Common_DTO_RealmObjects_Dispatch_TripRealmObject_TripStops" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.TripRealmObject.TripStops">
+  TripStops
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO.RealmObjects/Dispatch/TripRealmObject.Virtuals.cs/#L6"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Backlink(&quot;Trip&quot;)]
+public IQueryable&lt;TripStopRealmObject&gt; TripStops { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.linq.iqueryable-1">IQueryable</a>&lt;<a class="xref" href="SLS.Common.DTO.RealmObjects.Virtuals.TripStopRealmObject.html">TripStopRealmObject</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_RealmObjects_Dispatch_TripRealmObject_TripTypeID_" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.TripRealmObject.TripTypeID*"></a>
+
+  <h3 id="SLS_Common_DTO_RealmObjects_Dispatch_TripRealmObject_TripTypeID" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.TripRealmObject.TripTypeID">
+  TripTypeID
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO.RealmObjects/Dispatch/TripRealmObject.cs/#L44"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual long TripTypeID { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_RealmObjects_Dispatch_TripRealmObject_UseConditions_" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.TripRealmObject.UseConditions*"></a>
+
+  <h3 id="SLS_Common_DTO_RealmObjects_Dispatch_TripRealmObject_UseConditions" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.TripRealmObject.UseConditions">
+  UseConditions
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO.RealmObjects/Dispatch/TripRealmObject.cs/#L150"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool? UseConditions { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_RealmObjects_Dispatch_TripRealmObject_User_ID_" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.TripRealmObject.User_ID*"></a>
+
+  <h3 id="SLS_Common_DTO_RealmObjects_Dispatch_TripRealmObject_User_ID" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.TripRealmObject.User_ID">
+  User_ID
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO.RealmObjects/Dispatch/TripRealmObject.cs/#L37"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public long? User_ID { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_RealmObjects_Dispatch_TripRealmObject_Version_" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.TripRealmObject.Version*"></a>
+
+  <h3 id="SLS_Common_DTO_RealmObjects_Dispatch_TripRealmObject_Version" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.TripRealmObject.Version">
+  Version
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO.RealmObjects/Dispatch/TripRealmObject.cs/#L31"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public long Version { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_RealmObjects_Dispatch_TripRealmObject_Volume_" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.TripRealmObject.Volume*"></a>
+
+  <h3 id="SLS_Common_DTO_RealmObjects_Dispatch_TripRealmObject_Volume" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.TripRealmObject.Volume">
+  Volume
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO.RealmObjects/Dispatch/TripRealmObject.cs/#L76"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public double? Volume { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_RealmObjects_Dispatch_TripRealmObject_Weight_" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.TripRealmObject.Weight*"></a>
+
+  <h3 id="SLS_Common_DTO_RealmObjects_Dispatch_TripRealmObject_Weight" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.TripRealmObject.Weight">
+  Weight
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO.RealmObjects/Dispatch/TripRealmObject.cs/#L93"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public double? Weight { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_RealmObjects_Dispatch_TripRealmObject_WeightFreight_" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.TripRealmObject.WeightFreight*"></a>
+
+  <h3 id="SLS_Common_DTO_RealmObjects_Dispatch_TripRealmObject_WeightFreight" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.TripRealmObject.WeightFreight">
+  WeightFreight
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO.RealmObjects/Dispatch/TripRealmObject.cs/#L154"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public double? WeightFreight { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_RealmObjects_Dispatch_TripRealmObject_WeightNet_" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.TripRealmObject.WeightNet*"></a>
+
+  <h3 id="SLS_Common_DTO_RealmObjects_Dispatch_TripRealmObject_WeightNet" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.TripRealmObject.WeightNet">
+  WeightNet
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO.RealmObjects/Dispatch/TripRealmObject.cs/#L156"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public double? WeightNet { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h2 class="section" id="methods">Methods
+</h2>
+
+
+  <a id="SLS_Common_DTO_RealmObjects_Dispatch_TripRealmObject_Equals_" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.TripRealmObject.Equals*"></a>
+
+  <h3 id="SLS_Common_DTO_RealmObjects_Dispatch_TripRealmObject_Equals_System_Object_" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.TripRealmObject.Equals(System.Object)">
+  Equals(object?)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Determines whether the specified object is equal to the current object.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override bool Equals(object? obj)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>obj</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></dt>
+    <dd><p>The object to compare with the current object.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd><p><a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">true</a> if the specified object  is equal to the current object; otherwise, <a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">false</a>.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_RealmObjects_Dispatch_TripRealmObject_GetHashCode_" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.TripRealmObject.GetHashCode*"></a>
+
+  <h3 id="SLS_Common_DTO_RealmObjects_Dispatch_TripRealmObject_GetHashCode" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.TripRealmObject.GetHashCode">
+  GetHashCode()
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Serves as the default hash function.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override int GetHashCode()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd><p>A hash code for the current object.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_RealmObjects_Dispatch_TripRealmObject_ToString_" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.TripRealmObject.ToString*"></a>
+
+  <h3 id="SLS_Common_DTO_RealmObjects_Dispatch_TripRealmObject_ToString" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.TripRealmObject.ToString">
+  ToString()
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Returns a string that represents the current object.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override string? ToString()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>A string that represents the current object.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="events">Events
+</h2>
+
+
+
+  <h3 id="SLS_Common_DTO_RealmObjects_Dispatch_TripRealmObject_PropertyChanged" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.TripRealmObject.PropertyChanged">
+  PropertyChanged
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Occurs when a property value changes.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public event PropertyChangedEventHandler? PropertyChanged</code></pre>
+  </div>
+
+
+
+
+
+
+  <h4 class="section">Event Type</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.componentmodel.propertychangedeventhandler">PropertyChangedEventHandler</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+  <h2 class="section" id="operators">Operators
+</h2>
+
+
+  <a id="SLS_Common_DTO_RealmObjects_Dispatch_TripRealmObject_op_Explicit_" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.TripRealmObject.op_Explicit*"></a>
+
+  <h3 id="SLS_Common_DTO_RealmObjects_Dispatch_TripRealmObject_op_Explicit_Realms_RealmValue__SLS_Common_DTO_RealmObjects_Dispatch_TripRealmObject" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.TripRealmObject.op_Explicit(Realms.RealmValue)~SLS.Common.DTO.RealmObjects.Dispatch.TripRealmObject">
+  explicit operator TripRealmObject?(RealmValue)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Converts a <a class="xref" href="https://github.com/realm/realm-dotnet/blob/Dev/Realm/Realm/DatabaseTypes/RealmValue.cs">RealmValue</a> to <a class="xref" href="SLS.Common.DTO.RealmObjects.Dispatch.TripRealmObject.html">TripRealmObject</a>. Equivalent to <a class="xref" href="https://github.com/realm/realm-dotnet/blob/Dev/Realm/Realm/DatabaseTypes/RealmValue.cs">AsNullableRealmObject&lt;T&gt;()</a>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static explicit operator TripRealmObject?(RealmValue val)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>val</code> <a class="xref" href="https://github.com/realm/realm-dotnet/blob/Dev/Realm/Realm/DatabaseTypes/RealmValue.cs">RealmValue</a></dt>
+    <dd><p>The <a class="xref" href="https://github.com/realm/realm-dotnet/blob/Dev/Realm/Realm/DatabaseTypes/RealmValue.cs">RealmValue</a> to convert.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="SLS.Common.DTO.RealmObjects.Dispatch.TripRealmObject.html">TripRealmObject</a></dt>
+    <dd><p>The <a class="xref" href="SLS.Common.DTO.RealmObjects.Dispatch.TripRealmObject.html">TripRealmObject</a> stored in the <a class="xref" href="https://github.com/realm/realm-dotnet/blob/Dev/Realm/Realm/DatabaseTypes/RealmValue.cs">RealmValue</a>.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_RealmObjects_Dispatch_TripRealmObject_op_Implicit_" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.TripRealmObject.op_Implicit*"></a>
+
+  <h3 id="SLS_Common_DTO_RealmObjects_Dispatch_TripRealmObject_op_Implicit_SLS_Common_DTO_RealmObjects_Dispatch_TripRealmObject__Realms_QueryArgument" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.TripRealmObject.op_Implicit(SLS.Common.DTO.RealmObjects.Dispatch.TripRealmObject)~Realms.QueryArgument">
+  implicit operator QueryArgument(TripRealmObject?)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Implicitly constructs a <a class="xref" href="https://github.com/realm/realm-dotnet/blob/Dev/Realm/Realm/DatabaseTypes/QueryArgument.cs">QueryArgument</a> from <a class="xref" href="SLS.Common.DTO.RealmObjects.Dispatch.TripRealmObject.html">TripRealmObject</a>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static implicit operator QueryArgument(TripRealmObject? val)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>val</code> <a class="xref" href="SLS.Common.DTO.RealmObjects.Dispatch.TripRealmObject.html">TripRealmObject</a></dt>
+    <dd><p>The value to store in the <a class="xref" href="https://github.com/realm/realm-dotnet/blob/Dev/Realm/Realm/DatabaseTypes/QueryArgument.cs">QueryArgument</a>.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://github.com/realm/realm-dotnet/blob/Dev/Realm/Realm/DatabaseTypes/QueryArgument.cs">QueryArgument</a></dt>
+    <dd><p>A <a class="xref" href="https://github.com/realm/realm-dotnet/blob/Dev/Realm/Realm/DatabaseTypes/QueryArgument.cs">QueryArgument</a> containing the supplied <code class="paramref">val</code>.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_RealmObjects_Dispatch_TripRealmObject_op_Implicit_" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.TripRealmObject.op_Implicit*"></a>
+
+  <h3 id="SLS_Common_DTO_RealmObjects_Dispatch_TripRealmObject_op_Implicit_SLS_Common_DTO_RealmObjects_Dispatch_TripRealmObject__Realms_RealmValue" data-uid="SLS.Common.DTO.RealmObjects.Dispatch.TripRealmObject.op_Implicit(SLS.Common.DTO.RealmObjects.Dispatch.TripRealmObject)~Realms.RealmValue">
+  implicit operator RealmValue(TripRealmObject?)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Implicitly constructs a <a class="xref" href="https://github.com/realm/realm-dotnet/blob/Dev/Realm/Realm/DatabaseTypes/RealmValue.cs">RealmValue</a> from <a class="xref" href="SLS.Common.DTO.RealmObjects.Dispatch.TripRealmObject.html">TripRealmObject</a>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static implicit operator RealmValue(TripRealmObject? val)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>val</code> <a class="xref" href="SLS.Common.DTO.RealmObjects.Dispatch.TripRealmObject.html">TripRealmObject</a></dt>
+    <dd><p>The value to store in the <a class="xref" href="https://github.com/realm/realm-dotnet/blob/Dev/Realm/Realm/DatabaseTypes/RealmValue.cs">RealmValue</a>.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://github.com/realm/realm-dotnet/blob/Dev/Realm/Realm/DatabaseTypes/RealmValue.cs">RealmValue</a></dt>
+    <dd><p>A <a class="xref" href="https://github.com/realm/realm-dotnet/blob/Dev/Realm/Realm/DatabaseTypes/RealmValue.cs">RealmValue</a> containing the supplied <code class="paramref">val</code>.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+</article>
+
+        <div class="contribution d-print-none">
+        </div>
+
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

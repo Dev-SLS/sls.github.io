@@ -1,0 +1,2472 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Class ValueAddedServiceDTO | SLS Documentation </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Class ValueAddedServiceDTO | SLS Documentation ">
+      
+      
+      <link rel="icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="../">
+      
+      
+      <meta name="docfx:docurl" content="https://github.com/Dev-SLS/dev/new/Dev/apiSpec/new?filename=SLS_Common_DTO_MasterData_Service_ValueAddedServiceDTO.md&amp;value=---%0Auid%3A%20SLS.Common.DTO.MasterData.Service.ValueAddedServiceDTO%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../logo.svg" alt="SLS Documentation">
+            SLS Documentation
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="SLS.Common.DTO.MasterData.Service.ValueAddedServiceDTO">
+
+
+
+  <h1 id="SLS_Common_DTO_MasterData_Service_ValueAddedServiceDTO" data-uid="SLS.Common.DTO.MasterData.Service.ValueAddedServiceDTO" class="text-break">
+Class ValueAddedServiceDTO  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/MasterData/Service/ValueAddedServiceDTO.cs/#L28"><i class="bi bi-code-slash"></i></a>
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="SLS.html">SLS</a>.<a class="xref" href="SLS.Common.html">Common</a>.<a class="xref" href="SLS.Common.DTO.html">DTO</a>.<a class="xref" href="SLS.Common.DTO.MasterData.html">MasterData</a>.<a class="xref" href="SLS.Common.DTO.MasterData.Service.html">Service</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>SLS.Common.DTO.dll</dd></dl>
+  </div>
+
+  <div class="markdown summary"></div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Serializable]
+[DataContract(IsReference = true)]
+public class ValueAddedServiceDTO : IBusinessDTO, IDTO</code></pre>
+  </div>
+
+
+
+
+  <dl class="typelist inheritance">
+    <dt>Inheritance</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+      <div><span class="xref">ValueAddedServiceDTO</span></div>
+    </dd>
+  </dl>
+
+  <dl class="typelist implements">
+    <dt>Implements</dt>
+    <dd>
+      <div><a class="xref" href="SLS.Common.Interfaces.IBusinessDTO.html">IBusinessDTO</a></div>
+      <div><a class="xref" href="SLS.Common.Interfaces.IDTO.html">IDTO</a></div>
+    </dd>
+  </dl>
+
+
+  <dl class="typelist inheritedMembers">
+    <dt>Inherited Members</dt>
+    <dd>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)">object.Equals(object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">object.Equals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gethashcode">object.GetHashCode()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gettype">object.GetType()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone">object.MemberwiseClone()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals">object.ReferenceEquals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.tostring">object.ToString()</a>
+    </div>
+  </dd></dl>
+
+
+
+
+
+
+  <h2 class="section" id="properties">Properties
+</h2>
+
+
+  <a id="SLS_Common_DTO_MasterData_Service_ValueAddedServiceDTO_AccountingCode_" data-uid="SLS.Common.DTO.MasterData.Service.ValueAddedServiceDTO.AccountingCode*"></a>
+
+  <h3 id="SLS_Common_DTO_MasterData_Service_ValueAddedServiceDTO_AccountingCode" data-uid="SLS.Common.DTO.MasterData.Service.ValueAddedServiceDTO.AccountingCode">
+  AccountingCode
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/MasterData/Service/ValueAddedServiceDTO.cs/#L255"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[ForeignKey(&quot;AccountingCodeCollection&quot;)]
+[InverseProperty(&quot;ValueAddedServices_AccountingCode&quot;)]
+[JsonIgnore]
+public virtual AccountingCodeDTO? AccountingCode { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="SLS.Common.DTO.Financial.AccountingCodeDTO.html">AccountingCodeDTO</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_MasterData_Service_ValueAddedServiceDTO_AccountingCodeID_" data-uid="SLS.Common.DTO.MasterData.Service.ValueAddedServiceDTO.AccountingCodeID*"></a>
+
+  <h3 id="SLS_Common_DTO_MasterData_Service_ValueAddedServiceDTO_AccountingCodeID" data-uid="SLS.Common.DTO.MasterData.Service.ValueAddedServiceDTO.AccountingCodeID">
+  AccountingCodeID
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/MasterData/Service/ValueAddedServiceDTO.cs/#L57"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;AccountingCodeCollection&quot;)]
+[ForeignKey(&quot;AccountingCodeCollection&quot;)]
+public virtual long AccountingCodeID { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_MasterData_Service_ValueAddedServiceDTO_AccountingText_" data-uid="SLS.Common.DTO.MasterData.Service.ValueAddedServiceDTO.AccountingText*"></a>
+
+  <h3 id="SLS_Common_DTO_MasterData_Service_ValueAddedServiceDTO_AccountingText" data-uid="SLS.Common.DTO.MasterData.Service.ValueAddedServiceDTO.AccountingText">
+  AccountingText
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/MasterData/Service/ValueAddedServiceDTO.cs/#L134"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;AccountingText&quot;)]
+public virtual string? AccountingText { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_MasterData_Service_ValueAddedServiceDTO_AccountingTextLong_" data-uid="SLS.Common.DTO.MasterData.Service.ValueAddedServiceDTO.AccountingTextLong*"></a>
+
+  <h3 id="SLS_Common_DTO_MasterData_Service_ValueAddedServiceDTO_AccountingTextLong" data-uid="SLS.Common.DTO.MasterData.Service.ValueAddedServiceDTO.AccountingTextLong">
+  AccountingTextLong
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/MasterData/Service/ValueAddedServiceDTO.cs/#L150"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;AccountingTextLong&quot;)]
+public virtual string? AccountingTextLong { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_MasterData_Service_ValueAddedServiceDTO_Active_" data-uid="SLS.Common.DTO.MasterData.Service.ValueAddedServiceDTO.Active*"></a>
+
+  <h3 id="SLS_Common_DTO_MasterData_Service_ValueAddedServiceDTO_Active" data-uid="SLS.Common.DTO.MasterData.Service.ValueAddedServiceDTO.Active">
+  Active
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/MasterData/Service/ValueAddedServiceDTO.cs/#L146"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;Active&quot;)]
+public virtual bool Active { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_MasterData_Service_ValueAddedServiceDTO_ActiveForWeb_" data-uid="SLS.Common.DTO.MasterData.Service.ValueAddedServiceDTO.ActiveForWeb*"></a>
+
+  <h3 id="SLS_Common_DTO_MasterData_Service_ValueAddedServiceDTO_ActiveForWeb" data-uid="SLS.Common.DTO.MasterData.Service.ValueAddedServiceDTO.ActiveForWeb">
+  ActiveForWeb
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/MasterData/Service/ValueAddedServiceDTO.cs/#L234"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;ActiveForWeb&quot;)]
+public virtual bool? ActiveForWeb { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_MasterData_Service_ValueAddedServiceDTO_ArticleSetValueAddedService_ValueAddedService_" data-uid="SLS.Common.DTO.MasterData.Service.ValueAddedServiceDTO.ArticleSetValueAddedService_ValueAddedService*"></a>
+
+  <h3 id="SLS_Common_DTO_MasterData_Service_ValueAddedServiceDTO_ArticleSetValueAddedService_ValueAddedService" data-uid="SLS.Common.DTO.MasterData.Service.ValueAddedServiceDTO.ArticleSetValueAddedService_ValueAddedService">
+  ArticleSetValueAddedService_ValueAddedService
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/MasterData/Service/ValueAddedServiceDTO.cs/#L319"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;ValueAddedServiceCollection&quot;)]
+[JsonIgnore]
+public virtual List&lt;ArticleSetValueAddedServiceDTO&gt;? ArticleSetValueAddedService_ValueAddedService { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<a class="xref" href="SLS.Common.DTO.MasterData.Article.ArticleSetValueAddedServiceDTO.html">ArticleSetValueAddedServiceDTO</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_MasterData_Service_ValueAddedServiceDTO_AssmblyCodeBase_" data-uid="SLS.Common.DTO.MasterData.Service.ValueAddedServiceDTO.AssmblyCodeBase*"></a>
+
+  <h3 id="SLS_Common_DTO_MasterData_Service_ValueAddedServiceDTO_AssmblyCodeBase" data-uid="SLS.Common.DTO.MasterData.Service.ValueAddedServiceDTO.AssmblyCodeBase">
+  AssmblyCodeBase
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/MasterData/Service/ValueAddedServiceDTO.cs/#L90"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;AssmblyCodeBase&quot;)]
+public virtual string? AssmblyCodeBase { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_MasterData_Service_ValueAddedServiceDTO_BusinessObjectService_ValueAddedService_" data-uid="SLS.Common.DTO.MasterData.Service.ValueAddedServiceDTO.BusinessObjectService_ValueAddedService*"></a>
+
+  <h3 id="SLS_Common_DTO_MasterData_Service_ValueAddedServiceDTO_BusinessObjectService_ValueAddedService" data-uid="SLS.Common.DTO.MasterData.Service.ValueAddedServiceDTO.BusinessObjectService_ValueAddedService">
+  BusinessObjectService_ValueAddedService
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/MasterData/Service/ValueAddedServiceDTO.cs/#L294"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;ValueAddedServiceCollection&quot;)]
+[JsonIgnore]
+public virtual List&lt;BusinessObjectServiceDTO&gt;? BusinessObjectService_ValueAddedService { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<a class="xref" href="SLS.Common.DTO.Services.BusinessObjectServiceDTO.html">BusinessObjectServiceDTO</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_MasterData_Service_ValueAddedServiceDTO_Company_ID_" data-uid="SLS.Common.DTO.MasterData.Service.ValueAddedServiceDTO.Company_ID*"></a>
+
+  <h3 id="SLS_Common_DTO_MasterData_Service_ValueAddedServiceDTO_Company_ID" data-uid="SLS.Common.DTO.MasterData.Service.ValueAddedServiceDTO.Company_ID">
+  Company_ID
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/MasterData/Service/ValueAddedServiceDTO.cs/#L41"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public long? Company_ID { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_MasterData_Service_ValueAddedServiceDTO_CustomDataViewName_" data-uid="SLS.Common.DTO.MasterData.Service.ValueAddedServiceDTO.CustomDataViewName*"></a>
+
+  <h3 id="SLS_Common_DTO_MasterData_Service_ValueAddedServiceDTO_CustomDataViewName" data-uid="SLS.Common.DTO.MasterData.Service.ValueAddedServiceDTO.CustomDataViewName">
+  CustomDataViewName
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/MasterData/Service/ValueAddedServiceDTO.cs/#L126"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;CustomDataViewName&quot;)]
+public virtual string? CustomDataViewName { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_MasterData_Service_ValueAddedServiceDTO_DataKey_" data-uid="SLS.Common.DTO.MasterData.Service.ValueAddedServiceDTO.DataKey*"></a>
+
+  <h3 id="SLS_Common_DTO_MasterData_Service_ValueAddedServiceDTO_DataKey" data-uid="SLS.Common.DTO.MasterData.Service.ValueAddedServiceDTO.DataKey">
+  DataKey
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/MasterData/Service/ValueAddedServiceDTO.cs/#L158"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;DataKey&quot;)]
+public virtual string? DataKey { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_MasterData_Service_ValueAddedServiceDTO_Department_ID_" data-uid="SLS.Common.DTO.MasterData.Service.ValueAddedServiceDTO.Department_ID*"></a>
+
+  <h3 id="SLS_Common_DTO_MasterData_Service_ValueAddedServiceDTO_Department_ID" data-uid="SLS.Common.DTO.MasterData.Service.ValueAddedServiceDTO.Department_ID">
+  Department_ID
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/MasterData/Service/ValueAddedServiceDTO.cs/#L43"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public long? Department_ID { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_MasterData_Service_ValueAddedServiceDTO_Division_ID_" data-uid="SLS.Common.DTO.MasterData.Service.ValueAddedServiceDTO.Division_ID*"></a>
+
+  <h3 id="SLS_Common_DTO_MasterData_Service_ValueAddedServiceDTO_Division_ID" data-uid="SLS.Common.DTO.MasterData.Service.ValueAddedServiceDTO.Division_ID">
+  Division_ID
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/MasterData/Service/ValueAddedServiceDTO.cs/#L45"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public long? Division_ID { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_MasterData_Service_ValueAddedServiceDTO_Duration_" data-uid="SLS.Common.DTO.MasterData.Service.ValueAddedServiceDTO.Duration*"></a>
+
+  <h3 id="SLS_Common_DTO_MasterData_Service_ValueAddedServiceDTO_Duration" data-uid="SLS.Common.DTO.MasterData.Service.ValueAddedServiceDTO.Duration">
+  Duration
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/MasterData/Service/ValueAddedServiceDTO.cs/#L162"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;Duration&quot;)]
+public virtual int? Duration { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_MasterData_Service_ValueAddedServiceDTO_FiscalYear_ID_" data-uid="SLS.Common.DTO.MasterData.Service.ValueAddedServiceDTO.FiscalYear_ID*"></a>
+
+  <h3 id="SLS_Common_DTO_MasterData_Service_ValueAddedServiceDTO_FiscalYear_ID" data-uid="SLS.Common.DTO.MasterData.Service.ValueAddedServiceDTO.FiscalYear_ID">
+  FiscalYear_ID
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/MasterData/Service/ValueAddedServiceDTO.cs/#L44"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public long? FiscalYear_ID { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_MasterData_Service_ValueAddedServiceDTO_Id_" data-uid="SLS.Common.DTO.MasterData.Service.ValueAddedServiceDTO.Id*"></a>
+
+  <h3 id="SLS_Common_DTO_MasterData_Service_ValueAddedServiceDTO_Id" data-uid="SLS.Common.DTO.MasterData.Service.ValueAddedServiceDTO.Id">
+  Id
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/MasterData/Service/ValueAddedServiceDTO.cs/#L34"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;ID&quot;)]
+public long Id { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_MasterData_Service_ValueAddedServiceDTO_ImplementationTypeName_" data-uid="SLS.Common.DTO.MasterData.Service.ValueAddedServiceDTO.ImplementationTypeName*"></a>
+
+  <h3 id="SLS_Common_DTO_MasterData_Service_ValueAddedServiceDTO_ImplementationTypeName" data-uid="SLS.Common.DTO.MasterData.Service.ValueAddedServiceDTO.ImplementationTypeName">
+  ImplementationTypeName
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/MasterData/Service/ValueAddedServiceDTO.cs/#L94"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;ImplementationTypeName&quot;)]
+public virtual string? ImplementationTypeName { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_MasterData_Service_ValueAddedServiceDTO_IsAccountingTextLongDBFunction_" data-uid="SLS.Common.DTO.MasterData.Service.ValueAddedServiceDTO.IsAccountingTextLongDBFunction*"></a>
+
+  <h3 id="SLS_Common_DTO_MasterData_Service_ValueAddedServiceDTO_IsAccountingTextLongDBFunction" data-uid="SLS.Common.DTO.MasterData.Service.ValueAddedServiceDTO.IsAccountingTextLongDBFunction">
+  IsAccountingTextLongDBFunction
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/MasterData/Service/ValueAddedServiceDTO.cs/#L154"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;IsAccountingTextLongDBFunction&quot;)]
+public virtual bool IsAccountingTextLongDBFunction { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_MasterData_Service_ValueAddedServiceDTO_Matchcode_" data-uid="SLS.Common.DTO.MasterData.Service.ValueAddedServiceDTO.Matchcode*"></a>
+
+  <h3 id="SLS_Common_DTO_MasterData_Service_ValueAddedServiceDTO_Matchcode" data-uid="SLS.Common.DTO.MasterData.Service.ValueAddedServiceDTO.Matchcode">
+  Matchcode
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/MasterData/Service/ValueAddedServiceDTO.cs/#L166"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;Matchcode&quot;)]
+public virtual string Matchcode { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_MasterData_Service_ValueAddedServiceDTO_MaterializedViewName_" data-uid="SLS.Common.DTO.MasterData.Service.ValueAddedServiceDTO.MaterializedViewName*"></a>
+
+  <h3 id="SLS_Common_DTO_MasterData_Service_ValueAddedServiceDTO_MaterializedViewName" data-uid="SLS.Common.DTO.MasterData.Service.ValueAddedServiceDTO.MaterializedViewName">
+  MaterializedViewName
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/MasterData/Service/ValueAddedServiceDTO.cs/#L138"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;MaterializedViewName&quot;)]
+public virtual string? MaterializedViewName { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_MasterData_Service_ValueAddedServiceDTO_Name_" data-uid="SLS.Common.DTO.MasterData.Service.ValueAddedServiceDTO.Name*"></a>
+
+  <h3 id="SLS_Common_DTO_MasterData_Service_ValueAddedServiceDTO_Name" data-uid="SLS.Common.DTO.MasterData.Service.ValueAddedServiceDTO.Name">
+  Name
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/MasterData/Service/ValueAddedServiceDTO.cs/#L86"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;Name&quot;)]
+public virtual string Name { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_MasterData_Service_ValueAddedServiceDTO_OptionalBoolean1_" data-uid="SLS.Common.DTO.MasterData.Service.ValueAddedServiceDTO.OptionalBoolean1*"></a>
+
+  <h3 id="SLS_Common_DTO_MasterData_Service_ValueAddedServiceDTO_OptionalBoolean1" data-uid="SLS.Common.DTO.MasterData.Service.ValueAddedServiceDTO.OptionalBoolean1">
+  OptionalBoolean1
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/MasterData/Service/ValueAddedServiceDTO.cs/#L222"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;OptionalBoolean1&quot;)]
+public virtual double? OptionalBoolean1 { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_MasterData_Service_ValueAddedServiceDTO_OptionalBoolean2_" data-uid="SLS.Common.DTO.MasterData.Service.ValueAddedServiceDTO.OptionalBoolean2*"></a>
+
+  <h3 id="SLS_Common_DTO_MasterData_Service_ValueAddedServiceDTO_OptionalBoolean2" data-uid="SLS.Common.DTO.MasterData.Service.ValueAddedServiceDTO.OptionalBoolean2">
+  OptionalBoolean2
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/MasterData/Service/ValueAddedServiceDTO.cs/#L226"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;OptionalBoolean2&quot;)]
+public virtual double? OptionalBoolean2 { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_MasterData_Service_ValueAddedServiceDTO_OptionalBoolean3_" data-uid="SLS.Common.DTO.MasterData.Service.ValueAddedServiceDTO.OptionalBoolean3*"></a>
+
+  <h3 id="SLS_Common_DTO_MasterData_Service_ValueAddedServiceDTO_OptionalBoolean3" data-uid="SLS.Common.DTO.MasterData.Service.ValueAddedServiceDTO.OptionalBoolean3">
+  OptionalBoolean3
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/MasterData/Service/ValueAddedServiceDTO.cs/#L230"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;OptionalBoolean3&quot;)]
+public virtual double? OptionalBoolean3 { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_MasterData_Service_ValueAddedServiceDTO_OptionalDate1_" data-uid="SLS.Common.DTO.MasterData.Service.ValueAddedServiceDTO.OptionalDate1*"></a>
+
+  <h3 id="SLS_Common_DTO_MasterData_Service_ValueAddedServiceDTO_OptionalDate1" data-uid="SLS.Common.DTO.MasterData.Service.ValueAddedServiceDTO.OptionalDate1">
+  OptionalDate1
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/MasterData/Service/ValueAddedServiceDTO.cs/#L190"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;OptionalDate1&quot;)]
+public virtual DateTime? OptionalDate1 { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.datetime">DateTime</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_MasterData_Service_ValueAddedServiceDTO_OptionalDate2_" data-uid="SLS.Common.DTO.MasterData.Service.ValueAddedServiceDTO.OptionalDate2*"></a>
+
+  <h3 id="SLS_Common_DTO_MasterData_Service_ValueAddedServiceDTO_OptionalDate2" data-uid="SLS.Common.DTO.MasterData.Service.ValueAddedServiceDTO.OptionalDate2">
+  OptionalDate2
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/MasterData/Service/ValueAddedServiceDTO.cs/#L194"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;OptionalDate2&quot;)]
+public virtual DateTime? OptionalDate2 { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.datetime">DateTime</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_MasterData_Service_ValueAddedServiceDTO_OptionalDate3_" data-uid="SLS.Common.DTO.MasterData.Service.ValueAddedServiceDTO.OptionalDate3*"></a>
+
+  <h3 id="SLS_Common_DTO_MasterData_Service_ValueAddedServiceDTO_OptionalDate3" data-uid="SLS.Common.DTO.MasterData.Service.ValueAddedServiceDTO.OptionalDate3">
+  OptionalDate3
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/MasterData/Service/ValueAddedServiceDTO.cs/#L198"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;OptionalDate3&quot;)]
+public virtual DateTime? OptionalDate3 { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.datetime">DateTime</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_MasterData_Service_ValueAddedServiceDTO_OptionalNumber1_" data-uid="SLS.Common.DTO.MasterData.Service.ValueAddedServiceDTO.OptionalNumber1*"></a>
+
+  <h3 id="SLS_Common_DTO_MasterData_Service_ValueAddedServiceDTO_OptionalNumber1" data-uid="SLS.Common.DTO.MasterData.Service.ValueAddedServiceDTO.OptionalNumber1">
+  OptionalNumber1
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/MasterData/Service/ValueAddedServiceDTO.cs/#L202"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;OptionalNumber1&quot;)]
+public virtual long? OptionalNumber1 { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_MasterData_Service_ValueAddedServiceDTO_OptionalNumber2_" data-uid="SLS.Common.DTO.MasterData.Service.ValueAddedServiceDTO.OptionalNumber2*"></a>
+
+  <h3 id="SLS_Common_DTO_MasterData_Service_ValueAddedServiceDTO_OptionalNumber2" data-uid="SLS.Common.DTO.MasterData.Service.ValueAddedServiceDTO.OptionalNumber2">
+  OptionalNumber2
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/MasterData/Service/ValueAddedServiceDTO.cs/#L206"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;OptionalNumber2&quot;)]
+public virtual long? OptionalNumber2 { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_MasterData_Service_ValueAddedServiceDTO_OptionalNumber3_" data-uid="SLS.Common.DTO.MasterData.Service.ValueAddedServiceDTO.OptionalNumber3*"></a>
+
+  <h3 id="SLS_Common_DTO_MasterData_Service_ValueAddedServiceDTO_OptionalNumber3" data-uid="SLS.Common.DTO.MasterData.Service.ValueAddedServiceDTO.OptionalNumber3">
+  OptionalNumber3
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/MasterData/Service/ValueAddedServiceDTO.cs/#L210"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;OptionalNumber3&quot;)]
+public virtual long? OptionalNumber3 { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_MasterData_Service_ValueAddedServiceDTO_OptionalNumber4_" data-uid="SLS.Common.DTO.MasterData.Service.ValueAddedServiceDTO.OptionalNumber4*"></a>
+
+  <h3 id="SLS_Common_DTO_MasterData_Service_ValueAddedServiceDTO_OptionalNumber4" data-uid="SLS.Common.DTO.MasterData.Service.ValueAddedServiceDTO.OptionalNumber4">
+  OptionalNumber4
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/MasterData/Service/ValueAddedServiceDTO.cs/#L214"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;OptionalNumber4&quot;)]
+public virtual double? OptionalNumber4 { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_MasterData_Service_ValueAddedServiceDTO_OptionalNumber5_" data-uid="SLS.Common.DTO.MasterData.Service.ValueAddedServiceDTO.OptionalNumber5*"></a>
+
+  <h3 id="SLS_Common_DTO_MasterData_Service_ValueAddedServiceDTO_OptionalNumber5" data-uid="SLS.Common.DTO.MasterData.Service.ValueAddedServiceDTO.OptionalNumber5">
+  OptionalNumber5
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/MasterData/Service/ValueAddedServiceDTO.cs/#L218"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;OptionalNumber5&quot;)]
+public virtual double? OptionalNumber5 { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_MasterData_Service_ValueAddedServiceDTO_OptionalString1_" data-uid="SLS.Common.DTO.MasterData.Service.ValueAddedServiceDTO.OptionalString1*"></a>
+
+  <h3 id="SLS_Common_DTO_MasterData_Service_ValueAddedServiceDTO_OptionalString1" data-uid="SLS.Common.DTO.MasterData.Service.ValueAddedServiceDTO.OptionalString1">
+  OptionalString1
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/MasterData/Service/ValueAddedServiceDTO.cs/#L170"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;OptionalString1&quot;)]
+public virtual string? OptionalString1 { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_MasterData_Service_ValueAddedServiceDTO_OptionalString2_" data-uid="SLS.Common.DTO.MasterData.Service.ValueAddedServiceDTO.OptionalString2*"></a>
+
+  <h3 id="SLS_Common_DTO_MasterData_Service_ValueAddedServiceDTO_OptionalString2" data-uid="SLS.Common.DTO.MasterData.Service.ValueAddedServiceDTO.OptionalString2">
+  OptionalString2
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/MasterData/Service/ValueAddedServiceDTO.cs/#L174"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;OptionalString2&quot;)]
+public virtual string? OptionalString2 { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_MasterData_Service_ValueAddedServiceDTO_OptionalString3_" data-uid="SLS.Common.DTO.MasterData.Service.ValueAddedServiceDTO.OptionalString3*"></a>
+
+  <h3 id="SLS_Common_DTO_MasterData_Service_ValueAddedServiceDTO_OptionalString3" data-uid="SLS.Common.DTO.MasterData.Service.ValueAddedServiceDTO.OptionalString3">
+  OptionalString3
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/MasterData/Service/ValueAddedServiceDTO.cs/#L178"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;OptionalString3&quot;)]
+public virtual string? OptionalString3 { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_MasterData_Service_ValueAddedServiceDTO_OptionalString4_" data-uid="SLS.Common.DTO.MasterData.Service.ValueAddedServiceDTO.OptionalString4*"></a>
+
+  <h3 id="SLS_Common_DTO_MasterData_Service_ValueAddedServiceDTO_OptionalString4" data-uid="SLS.Common.DTO.MasterData.Service.ValueAddedServiceDTO.OptionalString4">
+  OptionalString4
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/MasterData/Service/ValueAddedServiceDTO.cs/#L182"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;OptionalString4&quot;)]
+public virtual string? OptionalString4 { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_MasterData_Service_ValueAddedServiceDTO_OptionalString5_" data-uid="SLS.Common.DTO.MasterData.Service.ValueAddedServiceDTO.OptionalString5*"></a>
+
+  <h3 id="SLS_Common_DTO_MasterData_Service_ValueAddedServiceDTO_OptionalString5" data-uid="SLS.Common.DTO.MasterData.Service.ValueAddedServiceDTO.OptionalString5">
+  OptionalString5
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/MasterData/Service/ValueAddedServiceDTO.cs/#L186"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;OptionalString5&quot;)]
+public virtual string? OptionalString5 { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_MasterData_Service_ValueAddedServiceDTO_OrderServices_ValueAddedService_" data-uid="SLS.Common.DTO.MasterData.Service.ValueAddedServiceDTO.OrderServices_ValueAddedService*"></a>
+
+  <h3 id="SLS_Common_DTO_MasterData_Service_ValueAddedServiceDTO_OrderServices_ValueAddedService" data-uid="SLS.Common.DTO.MasterData.Service.ValueAddedServiceDTO.OrderServices_ValueAddedService">
+  OrderServices_ValueAddedService
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/MasterData/Service/ValueAddedServiceDTO.cs/#L324"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;ValueAddedServiceCollection&quot;)]
+[JsonIgnore]
+public virtual List&lt;OrderServiceDTO&gt;? OrderServices_ValueAddedService { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<a class="xref" href="SLS.Common.DTO.Dispatch.OrderServiceDTO.html">OrderServiceDTO</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_MasterData_Service_ValueAddedServiceDTO_OrderType_" data-uid="SLS.Common.DTO.MasterData.Service.ValueAddedServiceDTO.OrderType*"></a>
+
+  <h3 id="SLS_Common_DTO_MasterData_Service_ValueAddedServiceDTO_OrderType" data-uid="SLS.Common.DTO.MasterData.Service.ValueAddedServiceDTO.OrderType">
+  OrderType
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/MasterData/Service/ValueAddedServiceDTO.cs/#L275"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[ForeignKey(&quot;OrderTypeCollection&quot;)]
+[InverseProperty(&quot;ValueAddedServices_OrderType&quot;)]
+[JsonIgnore]
+public virtual OrderTypeDTO? OrderType { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="SLS.Common.DTO.WareHouse.OrderTypeDTO.html">OrderTypeDTO</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_MasterData_Service_ValueAddedServiceDTO_OrderTypeID_" data-uid="SLS.Common.DTO.MasterData.Service.ValueAddedServiceDTO.OrderTypeID*"></a>
+
+  <h3 id="SLS_Common_DTO_MasterData_Service_ValueAddedServiceDTO_OrderTypeID" data-uid="SLS.Common.DTO.MasterData.Service.ValueAddedServiceDTO.OrderTypeID">
+  OrderTypeID
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/MasterData/Service/ValueAddedServiceDTO.cs/#L77"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;OrderTypeCollection&quot;)]
+[ForeignKey(&quot;OrderTypeCollection&quot;)]
+public virtual long? OrderTypeID { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_MasterData_Service_ValueAddedServiceDTO_PreWorkFlow_" data-uid="SLS.Common.DTO.MasterData.Service.ValueAddedServiceDTO.PreWorkFlow*"></a>
+
+  <h3 id="SLS_Common_DTO_MasterData_Service_ValueAddedServiceDTO_PreWorkFlow" data-uid="SLS.Common.DTO.MasterData.Service.ValueAddedServiceDTO.PreWorkFlow">
+  PreWorkFlow
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/MasterData/Service/ValueAddedServiceDTO.cs/#L270"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[ForeignKey(&quot;PreWorkFlowCollection&quot;)]
+[InverseProperty(&quot;ValueAddedServices_PreWorkFlow&quot;)]
+[JsonIgnore]
+public virtual WorkFlowDTO? PreWorkFlow { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="SLS.Common.DTO.WorkFlow.WorkFlowDTO.html">WorkFlowDTO</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_MasterData_Service_ValueAddedServiceDTO_PreWorkFlowActionType_" data-uid="SLS.Common.DTO.MasterData.Service.ValueAddedServiceDTO.PreWorkFlowActionType*"></a>
+
+  <h3 id="SLS_Common_DTO_MasterData_Service_ValueAddedServiceDTO_PreWorkFlowActionType" data-uid="SLS.Common.DTO.MasterData.Service.ValueAddedServiceDTO.PreWorkFlowActionType">
+  PreWorkFlowActionType
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/MasterData/Service/ValueAddedServiceDTO.cs/#L118"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;PreWorkFlowActionType&quot;)]
+public virtual string? PreWorkFlowActionType { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_MasterData_Service_ValueAddedServiceDTO_PreWorkFlowDescription_" data-uid="SLS.Common.DTO.MasterData.Service.ValueAddedServiceDTO.PreWorkFlowDescription*"></a>
+
+  <h3 id="SLS_Common_DTO_MasterData_Service_ValueAddedServiceDTO_PreWorkFlowDescription" data-uid="SLS.Common.DTO.MasterData.Service.ValueAddedServiceDTO.PreWorkFlowDescription">
+  PreWorkFlowDescription
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/MasterData/Service/ValueAddedServiceDTO.cs/#L122"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;PreWorkFlowDescription&quot;)]
+public virtual string? PreWorkFlowDescription { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_MasterData_Service_ValueAddedServiceDTO_PreWorkFlowID_" data-uid="SLS.Common.DTO.MasterData.Service.ValueAddedServiceDTO.PreWorkFlowID*"></a>
+
+  <h3 id="SLS_Common_DTO_MasterData_Service_ValueAddedServiceDTO_PreWorkFlowID" data-uid="SLS.Common.DTO.MasterData.Service.ValueAddedServiceDTO.PreWorkFlowID">
+  PreWorkFlowID
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/MasterData/Service/ValueAddedServiceDTO.cs/#L72"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;PreWorkFlowCollection&quot;)]
+[ForeignKey(&quot;PreWorkFlowCollection&quot;)]
+public virtual long? PreWorkFlowID { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_MasterData_Service_ValueAddedServiceDTO_Price_" data-uid="SLS.Common.DTO.MasterData.Service.ValueAddedServiceDTO.Price*"></a>
+
+  <h3 id="SLS_Common_DTO_MasterData_Service_ValueAddedServiceDTO_Price" data-uid="SLS.Common.DTO.MasterData.Service.ValueAddedServiceDTO.Price">
+  Price
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/MasterData/Service/ValueAddedServiceDTO.cs/#L142"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;Price&quot;)]
+public virtual double? Price { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_MasterData_Service_ValueAddedServiceDTO_ReportDataViewName_" data-uid="SLS.Common.DTO.MasterData.Service.ValueAddedServiceDTO.ReportDataViewName*"></a>
+
+  <h3 id="SLS_Common_DTO_MasterData_Service_ValueAddedServiceDTO_ReportDataViewName" data-uid="SLS.Common.DTO.MasterData.Service.ValueAddedServiceDTO.ReportDataViewName">
+  ReportDataViewName
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/MasterData/Service/ValueAddedServiceDTO.cs/#L130"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;ReportDataViewName&quot;)]
+public virtual string? ReportDataViewName { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_MasterData_Service_ValueAddedServiceDTO_ServiceData_ValueAddedService_" data-uid="SLS.Common.DTO.MasterData.Service.ValueAddedServiceDTO.ServiceData_ValueAddedService*"></a>
+
+  <h3 id="SLS_Common_DTO_MasterData_Service_ValueAddedServiceDTO_ServiceData_ValueAddedService" data-uid="SLS.Common.DTO.MasterData.Service.ValueAddedServiceDTO.ServiceData_ValueAddedService">
+  ServiceData_ValueAddedService
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/MasterData/Service/ValueAddedServiceDTO.cs/#L289"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;ValueAddedServiceCollection&quot;)]
+[JsonIgnore]
+public virtual List&lt;ServiceDataDTO&gt;? ServiceData_ValueAddedService { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<a class="xref" href="SLS.Common.DTO.Services.ServiceDataDTO.html">ServiceDataDTO</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_MasterData_Service_ValueAddedServiceDTO_ServiceOrderItems_ValueAddedService_" data-uid="SLS.Common.DTO.MasterData.Service.ValueAddedServiceDTO.ServiceOrderItems_ValueAddedService*"></a>
+
+  <h3 id="SLS_Common_DTO_MasterData_Service_ValueAddedServiceDTO_ServiceOrderItems_ValueAddedService" data-uid="SLS.Common.DTO.MasterData.Service.ValueAddedServiceDTO.ServiceOrderItems_ValueAddedService">
+  ServiceOrderItems_ValueAddedService
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/MasterData/Service/ValueAddedServiceDTO.cs/#L284"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;ValueAddedServiceCollection&quot;)]
+[JsonIgnore]
+public virtual List&lt;ServiceOrderItemDTO&gt;? ServiceOrderItems_ValueAddedService { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<a class="xref" href="SLS.Common.DTO.Services.ServiceOrderItemDTO.html">ServiceOrderItemDTO</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_MasterData_Service_ValueAddedServiceDTO_ServiceType_" data-uid="SLS.Common.DTO.MasterData.Service.ValueAddedServiceDTO.ServiceType*"></a>
+
+  <h3 id="SLS_Common_DTO_MasterData_Service_ValueAddedServiceDTO_ServiceType" data-uid="SLS.Common.DTO.MasterData.Service.ValueAddedServiceDTO.ServiceType">
+  ServiceType
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/MasterData/Service/ValueAddedServiceDTO.cs/#L250"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[ForeignKey(&quot;ServiceTypeCollection&quot;)]
+[InverseProperty(&quot;ValueAddedServices_ServiceType&quot;)]
+public virtual ServiceTypeDTO? ServiceType { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="SLS.Common.DTO.MasterData.Service.ServiceTypeDTO.html">ServiceTypeDTO</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_MasterData_Service_ValueAddedServiceDTO_ServiceTypeID_" data-uid="SLS.Common.DTO.MasterData.Service.ValueAddedServiceDTO.ServiceTypeID*"></a>
+
+  <h3 id="SLS_Common_DTO_MasterData_Service_ValueAddedServiceDTO_ServiceTypeID" data-uid="SLS.Common.DTO.MasterData.Service.ValueAddedServiceDTO.ServiceTypeID">
+  ServiceTypeID
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/MasterData/Service/ValueAddedServiceDTO.cs/#L52"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;ServiceTypeCollection&quot;)]
+[ForeignKey(&quot;ServiceTypeCollection&quot;)]
+public virtual long ServiceTypeID { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_MasterData_Service_ValueAddedServiceDTO_StartPreWorkFlow_" data-uid="SLS.Common.DTO.MasterData.Service.ValueAddedServiceDTO.StartPreWorkFlow*"></a>
+
+  <h3 id="SLS_Common_DTO_MasterData_Service_ValueAddedServiceDTO_StartPreWorkFlow" data-uid="SLS.Common.DTO.MasterData.Service.ValueAddedServiceDTO.StartPreWorkFlow">
+  StartPreWorkFlow
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/MasterData/Service/ValueAddedServiceDTO.cs/#L114"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;StartPreWorkFlow&quot;)]
+public virtual bool StartPreWorkFlow { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_MasterData_Service_ValueAddedServiceDTO_StartWorkFlow_" data-uid="SLS.Common.DTO.MasterData.Service.ValueAddedServiceDTO.StartWorkFlow*"></a>
+
+  <h3 id="SLS_Common_DTO_MasterData_Service_ValueAddedServiceDTO_StartWorkFlow" data-uid="SLS.Common.DTO.MasterData.Service.ValueAddedServiceDTO.StartWorkFlow">
+  StartWorkFlow
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/MasterData/Service/ValueAddedServiceDTO.cs/#L98"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;StartWorkFlow&quot;)]
+public virtual bool StartWorkFlow { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_MasterData_Service_ValueAddedServiceDTO_Subsidiary_ID_" data-uid="SLS.Common.DTO.MasterData.Service.ValueAddedServiceDTO.Subsidiary_ID*"></a>
+
+  <h3 id="SLS_Common_DTO_MasterData_Service_ValueAddedServiceDTO_Subsidiary_ID" data-uid="SLS.Common.DTO.MasterData.Service.ValueAddedServiceDTO.Subsidiary_ID">
+  Subsidiary_ID
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/MasterData/Service/ValueAddedServiceDTO.cs/#L42"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public long? Subsidiary_ID { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_MasterData_Service_ValueAddedServiceDTO_User_ID_" data-uid="SLS.Common.DTO.MasterData.Service.ValueAddedServiceDTO.User_ID*"></a>
+
+  <h3 id="SLS_Common_DTO_MasterData_Service_ValueAddedServiceDTO_User_ID" data-uid="SLS.Common.DTO.MasterData.Service.ValueAddedServiceDTO.User_ID">
+  User_ID
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/MasterData/Service/ValueAddedServiceDTO.cs/#L46"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public long? User_ID { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_MasterData_Service_ValueAddedServiceDTO_ValidFrom_" data-uid="SLS.Common.DTO.MasterData.Service.ValueAddedServiceDTO.ValidFrom*"></a>
+
+  <h3 id="SLS_Common_DTO_MasterData_Service_ValueAddedServiceDTO_ValidFrom" data-uid="SLS.Common.DTO.MasterData.Service.ValueAddedServiceDTO.ValidFrom">
+  ValidFrom
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/MasterData/Service/ValueAddedServiceDTO.cs/#L238"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;ValidFrom&quot;)]
+public virtual DateTime? ValidFrom { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.datetime">DateTime</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_MasterData_Service_ValueAddedServiceDTO_ValidTo_" data-uid="SLS.Common.DTO.MasterData.Service.ValueAddedServiceDTO.ValidTo*"></a>
+
+  <h3 id="SLS_Common_DTO_MasterData_Service_ValueAddedServiceDTO_ValidTo" data-uid="SLS.Common.DTO.MasterData.Service.ValueAddedServiceDTO.ValidTo">
+  ValidTo
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/MasterData/Service/ValueAddedServiceDTO.cs/#L242"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;ValidTo&quot;)]
+public virtual DateTime? ValidTo { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.datetime">DateTime</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_MasterData_Service_ValueAddedServiceDTO_ValueAddedServiceBusTypeRel_ValueAddedService_" data-uid="SLS.Common.DTO.MasterData.Service.ValueAddedServiceDTO.ValueAddedServiceBusTypeRel_ValueAddedService*"></a>
+
+  <h3 id="SLS_Common_DTO_MasterData_Service_ValueAddedServiceDTO_ValueAddedServiceBusTypeRel_ValueAddedService" data-uid="SLS.Common.DTO.MasterData.Service.ValueAddedServiceDTO.ValueAddedServiceBusTypeRel_ValueAddedService">
+  ValueAddedServiceBusTypeRel_ValueAddedService
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/MasterData/Service/ValueAddedServiceDTO.cs/#L314"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;ValueAddedServiceCollection&quot;)]
+[JsonIgnore]
+public virtual List&lt;ValueAddedServiceBusTypeRelDTO&gt;? ValueAddedServiceBusTypeRel_ValueAddedService { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<a class="xref" href="SLS.Common.DTO.MasterData.Service.ValueAddedServiceBusTypeRelDTO.html">ValueAddedServiceBusTypeRelDTO</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_MasterData_Service_ValueAddedServiceDTO_ValueAddedServiceData_ValueAddedService_" data-uid="SLS.Common.DTO.MasterData.Service.ValueAddedServiceDTO.ValueAddedServiceData_ValueAddedService*"></a>
+
+  <h3 id="SLS_Common_DTO_MasterData_Service_ValueAddedServiceDTO_ValueAddedServiceData_ValueAddedService" data-uid="SLS.Common.DTO.MasterData.Service.ValueAddedServiceDTO.ValueAddedServiceData_ValueAddedService">
+  ValueAddedServiceData_ValueAddedService
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/MasterData/Service/ValueAddedServiceDTO.cs/#L309"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;ValueAddedServiceCollection&quot;)]
+public virtual List&lt;ValueAddedServiceDataDTO&gt;? ValueAddedServiceData_ValueAddedService { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<a class="xref" href="SLS.Common.DTO.MasterData.Service.ValueAddedServiceDataDTO.html">ValueAddedServiceDataDTO</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_MasterData_Service_ValueAddedServiceDTO_ValueAddedServiceOrderType_ValueAddedService_" data-uid="SLS.Common.DTO.MasterData.Service.ValueAddedServiceDTO.ValueAddedServiceOrderType_ValueAddedService*"></a>
+
+  <h3 id="SLS_Common_DTO_MasterData_Service_ValueAddedServiceDTO_ValueAddedServiceOrderType_ValueAddedService" data-uid="SLS.Common.DTO.MasterData.Service.ValueAddedServiceDTO.ValueAddedServiceOrderType_ValueAddedService">
+  ValueAddedServiceOrderType_ValueAddedService
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/MasterData/Service/ValueAddedServiceDTO.cs/#L304"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;ValueAddedServiceCollection&quot;)]
+public virtual List&lt;ValueAddedServiceOrderTypeDTO&gt;? ValueAddedServiceOrderType_ValueAddedService { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<a class="xref" href="SLS.Common.DTO.MasterData.Service.ValueAddedServiceOrderTypeDTO.html">ValueAddedServiceOrderTypeDTO</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_MasterData_Service_ValueAddedServiceDTO_ValueAddedServiceSetRel_ValueAddedService_" data-uid="SLS.Common.DTO.MasterData.Service.ValueAddedServiceDTO.ValueAddedServiceSetRel_ValueAddedService*"></a>
+
+  <h3 id="SLS_Common_DTO_MasterData_Service_ValueAddedServiceDTO_ValueAddedServiceSetRel_ValueAddedService" data-uid="SLS.Common.DTO.MasterData.Service.ValueAddedServiceDTO.ValueAddedServiceSetRel_ValueAddedService">
+  ValueAddedServiceSetRel_ValueAddedService
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/MasterData/Service/ValueAddedServiceDTO.cs/#L299"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;ValueAddedServiceCollection&quot;)]
+[JsonIgnore]
+public virtual List&lt;ValueAddedServiceSetRelDTO&gt;? ValueAddedServiceSetRel_ValueAddedService { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<a class="xref" href="SLS.Common.DTO.MasterData.Service.ValueAddedServiceSetRelDTO.html">ValueAddedServiceSetRelDTO</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_MasterData_Service_ValueAddedServiceDTO_Version_" data-uid="SLS.Common.DTO.MasterData.Service.ValueAddedServiceDTO.Version*"></a>
+
+  <h3 id="SLS_Common_DTO_MasterData_Service_ValueAddedServiceDTO_Version" data-uid="SLS.Common.DTO.MasterData.Service.ValueAddedServiceDTO.Version">
+  Version
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/MasterData/Service/ValueAddedServiceDTO.cs/#L38"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;Version&quot;)]
+public long Version { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_MasterData_Service_ValueAddedServiceDTO_WorkFlow_" data-uid="SLS.Common.DTO.MasterData.Service.ValueAddedServiceDTO.WorkFlow*"></a>
+
+  <h3 id="SLS_Common_DTO_MasterData_Service_ValueAddedServiceDTO_WorkFlow" data-uid="SLS.Common.DTO.MasterData.Service.ValueAddedServiceDTO.WorkFlow">
+  WorkFlow
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/MasterData/Service/ValueAddedServiceDTO.cs/#L265"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[ForeignKey(&quot;WorkFlowCollection&quot;)]
+[InverseProperty(&quot;ValueAddedServices_WorkFlow&quot;)]
+[JsonIgnore]
+public virtual WorkFlowDTO? WorkFlow { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="SLS.Common.DTO.WorkFlow.WorkFlowDTO.html">WorkFlowDTO</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_MasterData_Service_ValueAddedServiceDTO_WorkFlowActionType_" data-uid="SLS.Common.DTO.MasterData.Service.ValueAddedServiceDTO.WorkFlowActionType*"></a>
+
+  <h3 id="SLS_Common_DTO_MasterData_Service_ValueAddedServiceDTO_WorkFlowActionType" data-uid="SLS.Common.DTO.MasterData.Service.ValueAddedServiceDTO.WorkFlowActionType">
+  WorkFlowActionType
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/MasterData/Service/ValueAddedServiceDTO.cs/#L106"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;WorkFlowActionType&quot;)]
+public virtual string? WorkFlowActionType { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_MasterData_Service_ValueAddedServiceDTO_WorkFlowApplicationName_" data-uid="SLS.Common.DTO.MasterData.Service.ValueAddedServiceDTO.WorkFlowApplicationName*"></a>
+
+  <h3 id="SLS_Common_DTO_MasterData_Service_ValueAddedServiceDTO_WorkFlowApplicationName" data-uid="SLS.Common.DTO.MasterData.Service.ValueAddedServiceDTO.WorkFlowApplicationName">
+  WorkFlowApplicationName
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/MasterData/Service/ValueAddedServiceDTO.cs/#L102"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;WorkFlowApplicationName&quot;)]
+public virtual string? WorkFlowApplicationName { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_MasterData_Service_ValueAddedServiceDTO_WorkFlowDescription_" data-uid="SLS.Common.DTO.MasterData.Service.ValueAddedServiceDTO.WorkFlowDescription*"></a>
+
+  <h3 id="SLS_Common_DTO_MasterData_Service_ValueAddedServiceDTO_WorkFlowDescription" data-uid="SLS.Common.DTO.MasterData.Service.ValueAddedServiceDTO.WorkFlowDescription">
+  WorkFlowDescription
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/MasterData/Service/ValueAddedServiceDTO.cs/#L110"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;WorkFlowDescription&quot;)]
+public virtual string? WorkFlowDescription { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_MasterData_Service_ValueAddedServiceDTO_WorkFlowID_" data-uid="SLS.Common.DTO.MasterData.Service.ValueAddedServiceDTO.WorkFlowID*"></a>
+
+  <h3 id="SLS_Common_DTO_MasterData_Service_ValueAddedServiceDTO_WorkFlowID" data-uid="SLS.Common.DTO.MasterData.Service.ValueAddedServiceDTO.WorkFlowID">
+  WorkFlowID
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/MasterData/Service/ValueAddedServiceDTO.cs/#L67"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;WorkFlowCollection&quot;)]
+[ForeignKey(&quot;WorkFlowCollection&quot;)]
+public virtual long? WorkFlowID { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_MasterData_Service_ValueAddedServiceDTO_XMLDetailsTemplate_" data-uid="SLS.Common.DTO.MasterData.Service.ValueAddedServiceDTO.XMLDetailsTemplate*"></a>
+
+  <h3 id="SLS_Common_DTO_MasterData_Service_ValueAddedServiceDTO_XMLDetailsTemplate" data-uid="SLS.Common.DTO.MasterData.Service.ValueAddedServiceDTO.XMLDetailsTemplate">
+  XMLDetailsTemplate
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/MasterData/Service/ValueAddedServiceDTO.cs/#L260"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[ForeignKey(&quot;XMLDetailsTemplateCollection&quot;)]
+[InverseProperty(&quot;ValueAddedServices_XMLDetailsTemplate&quot;)]
+[JsonIgnore]
+public virtual XMLDetailsTemplatesDTO? XMLDetailsTemplate { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="SLS.Common.DTO.MasterData.XMLDetailsTemplatesDTO.html">XMLDetailsTemplatesDTO</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_MasterData_Service_ValueAddedServiceDTO_XMLDetailsTemplateID_" data-uid="SLS.Common.DTO.MasterData.Service.ValueAddedServiceDTO.XMLDetailsTemplateID*"></a>
+
+  <h3 id="SLS_Common_DTO_MasterData_Service_ValueAddedServiceDTO_XMLDetailsTemplateID" data-uid="SLS.Common.DTO.MasterData.Service.ValueAddedServiceDTO.XMLDetailsTemplateID">
+  XMLDetailsTemplateID
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/MasterData/Service/ValueAddedServiceDTO.cs/#L62"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;XMLDetailsTemplateCollection&quot;)]
+[ForeignKey(&quot;XMLDetailsTemplateCollection&quot;)]
+public virtual long XMLDetailsTemplateID { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+</article>
+
+        <div class="contribution d-print-none">
+          <a href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/MasterData/Service/ValueAddedServiceDTO.cs/#L28" class="edit-link">Edit this page</a>
+        </div>
+
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

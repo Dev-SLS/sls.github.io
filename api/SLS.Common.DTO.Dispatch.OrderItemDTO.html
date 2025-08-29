@@ -1,0 +1,1569 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Class OrderItemDTO | SLS Documentation </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Class OrderItemDTO | SLS Documentation ">
+      
+      
+      <link rel="icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="../">
+      
+      
+      <meta name="docfx:docurl" content="https://github.com/Dev-SLS/dev/new/Dev/apiSpec/new?filename=SLS_Common_DTO_Dispatch_OrderItemDTO.md&amp;value=---%0Auid%3A%20SLS.Common.DTO.Dispatch.OrderItemDTO%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../logo.svg" alt="SLS Documentation">
+            SLS Documentation
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="SLS.Common.DTO.Dispatch.OrderItemDTO">
+
+
+
+  <h1 id="SLS_Common_DTO_Dispatch_OrderItemDTO" data-uid="SLS.Common.DTO.Dispatch.OrderItemDTO" class="text-break">
+Class OrderItemDTO  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Dispatch/OrderItemDTO.cs/#L28"><i class="bi bi-code-slash"></i></a>
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="SLS.html">SLS</a>.<a class="xref" href="SLS.Common.html">Common</a>.<a class="xref" href="SLS.Common.DTO.html">DTO</a>.<a class="xref" href="SLS.Common.DTO.Dispatch.html">Dispatch</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>SLS.Common.DTO.dll</dd></dl>
+  </div>
+
+  <div class="markdown summary"></div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Serializable]
+[DataContract(IsReference = true)]
+public class OrderItemDTO : IBusinessDTO, IDTO</code></pre>
+  </div>
+
+
+
+
+  <dl class="typelist inheritance">
+    <dt>Inheritance</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+      <div><span class="xref">OrderItemDTO</span></div>
+    </dd>
+  </dl>
+
+  <dl class="typelist implements">
+    <dt>Implements</dt>
+    <dd>
+      <div><a class="xref" href="SLS.Common.Interfaces.IBusinessDTO.html">IBusinessDTO</a></div>
+      <div><a class="xref" href="SLS.Common.Interfaces.IDTO.html">IDTO</a></div>
+    </dd>
+  </dl>
+
+
+  <dl class="typelist inheritedMembers">
+    <dt>Inherited Members</dt>
+    <dd>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)">object.Equals(object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">object.Equals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gethashcode">object.GetHashCode()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gettype">object.GetType()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone">object.MemberwiseClone()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals">object.ReferenceEquals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.tostring">object.ToString()</a>
+    </div>
+  </dd></dl>
+
+
+
+
+
+
+  <h2 class="section" id="properties">Properties
+</h2>
+
+
+  <a id="SLS_Common_DTO_Dispatch_OrderItemDTO_Company_ID_" data-uid="SLS.Common.DTO.Dispatch.OrderItemDTO.Company_ID*"></a>
+
+  <h3 id="SLS_Common_DTO_Dispatch_OrderItemDTO_Company_ID" data-uid="SLS.Common.DTO.Dispatch.OrderItemDTO.Company_ID">
+  Company_ID
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Dispatch/OrderItemDTO.cs/#L41"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public long? Company_ID { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Dispatch_OrderItemDTO_DangerousGoodsPoint_" data-uid="SLS.Common.DTO.Dispatch.OrderItemDTO.DangerousGoodsPoint*"></a>
+
+  <h3 id="SLS_Common_DTO_Dispatch_OrderItemDTO_DangerousGoodsPoint" data-uid="SLS.Common.DTO.Dispatch.OrderItemDTO.DangerousGoodsPoint">
+  DangerousGoodsPoint
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Dispatch/OrderItemDTO.cs/#L130"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;DangerousGoodsPoint&quot;)]
+public virtual int DangerousGoodsPoint { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Dispatch_OrderItemDTO_Department_ID_" data-uid="SLS.Common.DTO.Dispatch.OrderItemDTO.Department_ID*"></a>
+
+  <h3 id="SLS_Common_DTO_Dispatch_OrderItemDTO_Department_ID" data-uid="SLS.Common.DTO.Dispatch.OrderItemDTO.Department_ID">
+  Department_ID
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Dispatch/OrderItemDTO.cs/#L43"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public long? Department_ID { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Dispatch_OrderItemDTO_Division_ID_" data-uid="SLS.Common.DTO.Dispatch.OrderItemDTO.Division_ID*"></a>
+
+  <h3 id="SLS_Common_DTO_Dispatch_OrderItemDTO_Division_ID" data-uid="SLS.Common.DTO.Dispatch.OrderItemDTO.Division_ID">
+  Division_ID
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Dispatch/OrderItemDTO.cs/#L45"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public long? Division_ID { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Dispatch_OrderItemDTO_FiscalYear_ID_" data-uid="SLS.Common.DTO.Dispatch.OrderItemDTO.FiscalYear_ID*"></a>
+
+  <h3 id="SLS_Common_DTO_Dispatch_OrderItemDTO_FiscalYear_ID" data-uid="SLS.Common.DTO.Dispatch.OrderItemDTO.FiscalYear_ID">
+  FiscalYear_ID
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Dispatch/OrderItemDTO.cs/#L44"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public long? FiscalYear_ID { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Dispatch_OrderItemDTO_Height_" data-uid="SLS.Common.DTO.Dispatch.OrderItemDTO.Height*"></a>
+
+  <h3 id="SLS_Common_DTO_Dispatch_OrderItemDTO_Height" data-uid="SLS.Common.DTO.Dispatch.OrderItemDTO.Height">
+  Height
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Dispatch/OrderItemDTO.cs/#L86"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;Height&quot;)]
+public virtual double Height { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Dispatch_OrderItemDTO_Id_" data-uid="SLS.Common.DTO.Dispatch.OrderItemDTO.Id*"></a>
+
+  <h3 id="SLS_Common_DTO_Dispatch_OrderItemDTO_Id" data-uid="SLS.Common.DTO.Dispatch.OrderItemDTO.Id">
+  Id
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Dispatch/OrderItemDTO.cs/#L34"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;ID&quot;)]
+public long Id { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Dispatch_OrderItemDTO_Info_" data-uid="SLS.Common.DTO.Dispatch.OrderItemDTO.Info*"></a>
+
+  <h3 id="SLS_Common_DTO_Dispatch_OrderItemDTO_Info" data-uid="SLS.Common.DTO.Dispatch.OrderItemDTO.Info">
+  Info
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Dispatch/OrderItemDTO.cs/#L110"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;Info&quot;)]
+public virtual string? Info { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Dispatch_OrderItemDTO_Ist_Height_" data-uid="SLS.Common.DTO.Dispatch.OrderItemDTO.Ist_Height*"></a>
+
+  <h3 id="SLS_Common_DTO_Dispatch_OrderItemDTO_Ist_Height" data-uid="SLS.Common.DTO.Dispatch.OrderItemDTO.Ist_Height">
+  Ist_Height
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Dispatch/OrderItemDTO.cs/#L106"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;Ist_Height&quot;)]
+public virtual double Ist_Height { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Dispatch_OrderItemDTO_Ist_Length_" data-uid="SLS.Common.DTO.Dispatch.OrderItemDTO.Ist_Length*"></a>
+
+  <h3 id="SLS_Common_DTO_Dispatch_OrderItemDTO_Ist_Length" data-uid="SLS.Common.DTO.Dispatch.OrderItemDTO.Ist_Length">
+  Ist_Length
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Dispatch/OrderItemDTO.cs/#L98"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;Ist_Length&quot;)]
+public virtual double Ist_Length { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Dispatch_OrderItemDTO_Ist_LoadingMeters_" data-uid="SLS.Common.DTO.Dispatch.OrderItemDTO.Ist_LoadingMeters*"></a>
+
+  <h3 id="SLS_Common_DTO_Dispatch_OrderItemDTO_Ist_LoadingMeters" data-uid="SLS.Common.DTO.Dispatch.OrderItemDTO.Ist_LoadingMeters">
+  Ist_LoadingMeters
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Dispatch/OrderItemDTO.cs/#L158"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;Ist_LoadingMeters&quot;)]
+public virtual double? Ist_LoadingMeters { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Dispatch_OrderItemDTO_Ist_Places_" data-uid="SLS.Common.DTO.Dispatch.OrderItemDTO.Ist_Places*"></a>
+
+  <h3 id="SLS_Common_DTO_Dispatch_OrderItemDTO_Ist_Places" data-uid="SLS.Common.DTO.Dispatch.OrderItemDTO.Ist_Places">
+  Ist_Places
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Dispatch/OrderItemDTO.cs/#L166"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;Ist_Places&quot;)]
+public virtual double? Ist_Places { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Dispatch_OrderItemDTO_Ist_SquareMeters_" data-uid="SLS.Common.DTO.Dispatch.OrderItemDTO.Ist_SquareMeters*"></a>
+
+  <h3 id="SLS_Common_DTO_Dispatch_OrderItemDTO_Ist_SquareMeters" data-uid="SLS.Common.DTO.Dispatch.OrderItemDTO.Ist_SquareMeters">
+  Ist_SquareMeters
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Dispatch/OrderItemDTO.cs/#L150"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;Ist_SquareMeters&quot;)]
+public virtual double? Ist_SquareMeters { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Dispatch_OrderItemDTO_Ist_Volume_" data-uid="SLS.Common.DTO.Dispatch.OrderItemDTO.Ist_Volume*"></a>
+
+  <h3 id="SLS_Common_DTO_Dispatch_OrderItemDTO_Ist_Volume" data-uid="SLS.Common.DTO.Dispatch.OrderItemDTO.Ist_Volume">
+  Ist_Volume
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Dispatch/OrderItemDTO.cs/#L142"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;Ist_Volume&quot;)]
+public virtual double? Ist_Volume { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Dispatch_OrderItemDTO_Ist_WeightGross_" data-uid="SLS.Common.DTO.Dispatch.OrderItemDTO.Ist_WeightGross*"></a>
+
+  <h3 id="SLS_Common_DTO_Dispatch_OrderItemDTO_Ist_WeightGross" data-uid="SLS.Common.DTO.Dispatch.OrderItemDTO.Ist_WeightGross">
+  Ist_WeightGross
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Dispatch/OrderItemDTO.cs/#L90"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;Ist_WeightGross&quot;)]
+public virtual double Ist_WeightGross { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Dispatch_OrderItemDTO_Ist_WeightNet_" data-uid="SLS.Common.DTO.Dispatch.OrderItemDTO.Ist_WeightNet*"></a>
+
+  <h3 id="SLS_Common_DTO_Dispatch_OrderItemDTO_Ist_WeightNet" data-uid="SLS.Common.DTO.Dispatch.OrderItemDTO.Ist_WeightNet">
+  Ist_WeightNet
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Dispatch/OrderItemDTO.cs/#L94"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;Ist_WeightNet&quot;)]
+public virtual double Ist_WeightNet { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Dispatch_OrderItemDTO_Ist_Width_" data-uid="SLS.Common.DTO.Dispatch.OrderItemDTO.Ist_Width*"></a>
+
+  <h3 id="SLS_Common_DTO_Dispatch_OrderItemDTO_Ist_Width" data-uid="SLS.Common.DTO.Dispatch.OrderItemDTO.Ist_Width">
+  Ist_Width
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Dispatch/OrderItemDTO.cs/#L102"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;Ist_Width&quot;)]
+public virtual double Ist_Width { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Dispatch_OrderItemDTO_Length_" data-uid="SLS.Common.DTO.Dispatch.OrderItemDTO.Length*"></a>
+
+  <h3 id="SLS_Common_DTO_Dispatch_OrderItemDTO_Length" data-uid="SLS.Common.DTO.Dispatch.OrderItemDTO.Length">
+  Length
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Dispatch/OrderItemDTO.cs/#L78"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;Length&quot;)]
+public virtual double Length { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Dispatch_OrderItemDTO_LoadingMeters_" data-uid="SLS.Common.DTO.Dispatch.OrderItemDTO.LoadingMeters*"></a>
+
+  <h3 id="SLS_Common_DTO_Dispatch_OrderItemDTO_LoadingMeters" data-uid="SLS.Common.DTO.Dispatch.OrderItemDTO.LoadingMeters">
+  LoadingMeters
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Dispatch/OrderItemDTO.cs/#L154"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;LoadingMeters&quot;)]
+public virtual double? LoadingMeters { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Dispatch_OrderItemDTO_OptionalDate1_" data-uid="SLS.Common.DTO.Dispatch.OrderItemDTO.OptionalDate1*"></a>
+
+  <h3 id="SLS_Common_DTO_Dispatch_OrderItemDTO_OptionalDate1" data-uid="SLS.Common.DTO.Dispatch.OrderItemDTO.OptionalDate1">
+  OptionalDate1
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Dispatch/OrderItemDTO.cs/#L114"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;OptionalDate1&quot;)]
+public virtual DateTime? OptionalDate1 { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.datetime">DateTime</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Dispatch_OrderItemDTO_OptionalFloat1_" data-uid="SLS.Common.DTO.Dispatch.OrderItemDTO.OptionalFloat1*"></a>
+
+  <h3 id="SLS_Common_DTO_Dispatch_OrderItemDTO_OptionalFloat1" data-uid="SLS.Common.DTO.Dispatch.OrderItemDTO.OptionalFloat1">
+  OptionalFloat1
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Dispatch/OrderItemDTO.cs/#L126"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;OptionalFloat1&quot;)]
+public virtual double? OptionalFloat1 { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Dispatch_OrderItemDTO_OptionalLong1_" data-uid="SLS.Common.DTO.Dispatch.OrderItemDTO.OptionalLong1*"></a>
+
+  <h3 id="SLS_Common_DTO_Dispatch_OrderItemDTO_OptionalLong1" data-uid="SLS.Common.DTO.Dispatch.OrderItemDTO.OptionalLong1">
+  OptionalLong1
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Dispatch/OrderItemDTO.cs/#L122"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;OptionalLong1&quot;)]
+public virtual long? OptionalLong1 { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Dispatch_OrderItemDTO_OptionalString1_" data-uid="SLS.Common.DTO.Dispatch.OrderItemDTO.OptionalString1*"></a>
+
+  <h3 id="SLS_Common_DTO_Dispatch_OrderItemDTO_OptionalString1" data-uid="SLS.Common.DTO.Dispatch.OrderItemDTO.OptionalString1">
+  OptionalString1
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Dispatch/OrderItemDTO.cs/#L118"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;OptionalString1&quot;)]
+public virtual string? OptionalString1 { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Dispatch_OrderItemDTO_OrderDangerousGoodInfo_OrderItem_" data-uid="SLS.Common.DTO.Dispatch.OrderItemDTO.OrderDangerousGoodInfo_OrderItem*"></a>
+
+  <h3 id="SLS_Common_DTO_Dispatch_OrderItemDTO_OrderDangerousGoodInfo_OrderItem" data-uid="SLS.Common.DTO.Dispatch.OrderItemDTO.OrderDangerousGoodInfo_OrderItem">
+  OrderDangerousGoodInfo_OrderItem
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Dispatch/OrderItemDTO.cs/#L202"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;OrderItemCollection&quot;)]
+[JsonIgnore]
+public virtual List&lt;OrderDangerousGoodInfoDTO&gt;? OrderDangerousGoodInfo_OrderItem { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<a class="xref" href="SLS.Common.DTO.Dispatch.OrderDangerousGoodInfoDTO.html">OrderDangerousGoodInfoDTO</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Dispatch_OrderItemDTO_OrderItemMeasured_OrderItem_" data-uid="SLS.Common.DTO.Dispatch.OrderItemDTO.OrderItemMeasured_OrderItem*"></a>
+
+  <h3 id="SLS_Common_DTO_Dispatch_OrderItemDTO_OrderItemMeasured_OrderItem" data-uid="SLS.Common.DTO.Dispatch.OrderItemDTO.OrderItemMeasured_OrderItem">
+  OrderItemMeasured_OrderItem
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Dispatch/OrderItemDTO.cs/#L197"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;OrderItemCollection&quot;)]
+[JsonIgnore]
+public virtual List&lt;OrderItemMeasuredDTO&gt;? OrderItemMeasured_OrderItem { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<a class="xref" href="SLS.Common.DTO.Dispatch.OrderItemMeasuredDTO.html">OrderItemMeasuredDTO</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Dispatch_OrderItemDTO_OrderItemProcessStatus_" data-uid="SLS.Common.DTO.Dispatch.OrderItemDTO.OrderItemProcessStatus*"></a>
+
+  <h3 id="SLS_Common_DTO_Dispatch_OrderItemDTO_OrderItemProcessStatus" data-uid="SLS.Common.DTO.Dispatch.OrderItemDTO.OrderItemProcessStatus">
+  OrderItemProcessStatus
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Dispatch/OrderItemDTO.cs/#L179"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[ForeignKey(&quot;OrderItemProcessStatusCollection&quot;)]
+[InverseProperty(&quot;OrderItems_OrderItemProcessStatus&quot;)]
+public virtual OrderProcessStatusDTO? OrderItemProcessStatus { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="SLS.Common.DTO.Dispatch.OrderProcessStatusDTO.html">OrderProcessStatusDTO</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Dispatch_OrderItemDTO_OrderItemProcessStatusID_" data-uid="SLS.Common.DTO.Dispatch.OrderItemDTO.OrderItemProcessStatusID*"></a>
+
+  <h3 id="SLS_Common_DTO_Dispatch_OrderItemDTO_OrderItemProcessStatusID" data-uid="SLS.Common.DTO.Dispatch.OrderItemDTO.OrderItemProcessStatusID">
+  OrderItemProcessStatusID
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Dispatch/OrderItemDTO.cs/#L57"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;OrderItemProcessStatusCollection&quot;)]
+[ForeignKey(&quot;OrderItemProcessStatusCollection&quot;)]
+public virtual long? OrderItemProcessStatusID { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Dispatch_OrderItemDTO_OrderPosition_" data-uid="SLS.Common.DTO.Dispatch.OrderItemDTO.OrderPosition*"></a>
+
+  <h3 id="SLS_Common_DTO_Dispatch_OrderItemDTO_OrderPosition" data-uid="SLS.Common.DTO.Dispatch.OrderItemDTO.OrderPosition">
+  OrderPosition
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Dispatch/OrderItemDTO.cs/#L174"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[ForeignKey(&quot;OrderPositionCollection&quot;)]
+[InverseProperty(&quot;OrderItems_OrderPosition&quot;)]
+public virtual OrderPositionDTO? OrderPosition { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="SLS.Common.DTO.Dispatch.OrderPositionDTO.html">OrderPositionDTO</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Dispatch_OrderItemDTO_OrderPositionID_" data-uid="SLS.Common.DTO.Dispatch.OrderItemDTO.OrderPositionID*"></a>
+
+  <h3 id="SLS_Common_DTO_Dispatch_OrderItemDTO_OrderPositionID" data-uid="SLS.Common.DTO.Dispatch.OrderItemDTO.OrderPositionID">
+  OrderPositionID
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Dispatch/OrderItemDTO.cs/#L52"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;OrderPositionCollection&quot;)]
+[ForeignKey(&quot;OrderPositionCollection&quot;)]
+public virtual long OrderPositionID { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Dispatch_OrderItemDTO_OrderProcessStatus_OrderItem_" data-uid="SLS.Common.DTO.Dispatch.OrderItemDTO.OrderProcessStatus_OrderItem*"></a>
+
+  <h3 id="SLS_Common_DTO_Dispatch_OrderItemDTO_OrderProcessStatus_OrderItem" data-uid="SLS.Common.DTO.Dispatch.OrderItemDTO.OrderProcessStatus_OrderItem">
+  OrderProcessStatus_OrderItem
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Dispatch/OrderItemDTO.cs/#L192"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;OrderItemCollection&quot;)]
+[JsonIgnore]
+public virtual List&lt;OrderProcessStatusDTO&gt;? OrderProcessStatus_OrderItem { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<a class="xref" href="SLS.Common.DTO.Dispatch.OrderProcessStatusDTO.html">OrderProcessStatusDTO</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Dispatch_OrderItemDTO_Places_" data-uid="SLS.Common.DTO.Dispatch.OrderItemDTO.Places*"></a>
+
+  <h3 id="SLS_Common_DTO_Dispatch_OrderItemDTO_Places" data-uid="SLS.Common.DTO.Dispatch.OrderItemDTO.Places">
+  Places
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Dispatch/OrderItemDTO.cs/#L162"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;Places&quot;)]
+public virtual double? Places { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Dispatch_OrderItemDTO_ScanCode_" data-uid="SLS.Common.DTO.Dispatch.OrderItemDTO.ScanCode*"></a>
+
+  <h3 id="SLS_Common_DTO_Dispatch_OrderItemDTO_ScanCode" data-uid="SLS.Common.DTO.Dispatch.OrderItemDTO.ScanCode">
+  ScanCode
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Dispatch/OrderItemDTO.cs/#L66"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;ScanCode&quot;)]
+public virtual string ScanCode { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Dispatch_OrderItemDTO_ScanCodeCustom_" data-uid="SLS.Common.DTO.Dispatch.OrderItemDTO.ScanCodeCustom*"></a>
+
+  <h3 id="SLS_Common_DTO_Dispatch_OrderItemDTO_ScanCodeCustom" data-uid="SLS.Common.DTO.Dispatch.OrderItemDTO.ScanCodeCustom">
+  ScanCodeCustom
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Dispatch/OrderItemDTO.cs/#L134"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;ScanCodeCustom&quot;)]
+public virtual string? ScanCodeCustom { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Dispatch_OrderItemDTO_SquareMeters_" data-uid="SLS.Common.DTO.Dispatch.OrderItemDTO.SquareMeters*"></a>
+
+  <h3 id="SLS_Common_DTO_Dispatch_OrderItemDTO_SquareMeters" data-uid="SLS.Common.DTO.Dispatch.OrderItemDTO.SquareMeters">
+  SquareMeters
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Dispatch/OrderItemDTO.cs/#L146"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;SquareMeters&quot;)]
+public virtual double? SquareMeters { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Dispatch_OrderItemDTO_Subsidiary_ID_" data-uid="SLS.Common.DTO.Dispatch.OrderItemDTO.Subsidiary_ID*"></a>
+
+  <h3 id="SLS_Common_DTO_Dispatch_OrderItemDTO_Subsidiary_ID" data-uid="SLS.Common.DTO.Dispatch.OrderItemDTO.Subsidiary_ID">
+  Subsidiary_ID
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Dispatch/OrderItemDTO.cs/#L42"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public long? Subsidiary_ID { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Dispatch_OrderItemDTO_User_ID_" data-uid="SLS.Common.DTO.Dispatch.OrderItemDTO.User_ID*"></a>
+
+  <h3 id="SLS_Common_DTO_Dispatch_OrderItemDTO_User_ID" data-uid="SLS.Common.DTO.Dispatch.OrderItemDTO.User_ID">
+  User_ID
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Dispatch/OrderItemDTO.cs/#L46"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public long? User_ID { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Dispatch_OrderItemDTO_Version_" data-uid="SLS.Common.DTO.Dispatch.OrderItemDTO.Version*"></a>
+
+  <h3 id="SLS_Common_DTO_Dispatch_OrderItemDTO_Version" data-uid="SLS.Common.DTO.Dispatch.OrderItemDTO.Version">
+  Version
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Dispatch/OrderItemDTO.cs/#L38"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;Version&quot;)]
+public long Version { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Dispatch_OrderItemDTO_Volume_" data-uid="SLS.Common.DTO.Dispatch.OrderItemDTO.Volume*"></a>
+
+  <h3 id="SLS_Common_DTO_Dispatch_OrderItemDTO_Volume" data-uid="SLS.Common.DTO.Dispatch.OrderItemDTO.Volume">
+  Volume
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Dispatch/OrderItemDTO.cs/#L138"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;Volume&quot;)]
+public virtual double? Volume { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Dispatch_OrderItemDTO_WarehouseStorageLocation_" data-uid="SLS.Common.DTO.Dispatch.OrderItemDTO.WarehouseStorageLocation*"></a>
+
+  <h3 id="SLS_Common_DTO_Dispatch_OrderItemDTO_WarehouseStorageLocation" data-uid="SLS.Common.DTO.Dispatch.OrderItemDTO.WarehouseStorageLocation">
+  WarehouseStorageLocation
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Dispatch/OrderItemDTO.cs/#L183"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[ForeignKey(&quot;WarehouseStorageLocationCollection&quot;)]
+[InverseProperty(&quot;OrderItems_WarehouseStorageLocation&quot;)]
+[JsonIgnore]
+public virtual WarehouseStorageLocationDTO? WarehouseStorageLocation { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="SLS.Common.DTO.WareHouse.WarehouseStorageLocationDTO.html">WarehouseStorageLocationDTO</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Dispatch_OrderItemDTO_WeightGross_" data-uid="SLS.Common.DTO.Dispatch.OrderItemDTO.WeightGross*"></a>
+
+  <h3 id="SLS_Common_DTO_Dispatch_OrderItemDTO_WeightGross" data-uid="SLS.Common.DTO.Dispatch.OrderItemDTO.WeightGross">
+  WeightGross
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Dispatch/OrderItemDTO.cs/#L70"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;WeightGross&quot;)]
+public virtual double WeightGross { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Dispatch_OrderItemDTO_WeightNet_" data-uid="SLS.Common.DTO.Dispatch.OrderItemDTO.WeightNet*"></a>
+
+  <h3 id="SLS_Common_DTO_Dispatch_OrderItemDTO_WeightNet" data-uid="SLS.Common.DTO.Dispatch.OrderItemDTO.WeightNet">
+  WeightNet
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Dispatch/OrderItemDTO.cs/#L74"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;WeightNet&quot;)]
+public virtual double WeightNet { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Dispatch_OrderItemDTO_Width_" data-uid="SLS.Common.DTO.Dispatch.OrderItemDTO.Width*"></a>
+
+  <h3 id="SLS_Common_DTO_Dispatch_OrderItemDTO_Width" data-uid="SLS.Common.DTO.Dispatch.OrderItemDTO.Width">
+  Width
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Dispatch/OrderItemDTO.cs/#L82"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;Width&quot;)]
+public virtual double Width { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+</article>
+
+        <div class="contribution d-print-none">
+          <a href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Dispatch/OrderItemDTO.cs/#L28" class="edit-link">Edit this page</a>
+        </div>
+
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

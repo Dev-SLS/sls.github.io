@@ -1,0 +1,2111 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Class ArticlePackingStructureDTO | SLS Documentation </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Class ArticlePackingStructureDTO | SLS Documentation ">
+      
+      
+      <link rel="icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="../">
+      
+      
+      <meta name="docfx:docurl" content="https://github.com/Dev-SLS/dev/new/Dev/apiSpec/new?filename=SLS_Common_DTO_MasterData_Article_ArticlePackingStructureDTO.md&amp;value=---%0Auid%3A%20SLS.Common.DTO.MasterData.Article.ArticlePackingStructureDTO%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../logo.svg" alt="SLS Documentation">
+            SLS Documentation
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="SLS.Common.DTO.MasterData.Article.ArticlePackingStructureDTO">
+
+
+
+  <h1 id="SLS_Common_DTO_MasterData_Article_ArticlePackingStructureDTO" data-uid="SLS.Common.DTO.MasterData.Article.ArticlePackingStructureDTO" class="text-break">
+Class ArticlePackingStructureDTO  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/MasterData/Article/ArticlePackingStructureDTO.cs/#L28"><i class="bi bi-code-slash"></i></a>
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="SLS.html">SLS</a>.<a class="xref" href="SLS.Common.html">Common</a>.<a class="xref" href="SLS.Common.DTO.html">DTO</a>.<a class="xref" href="SLS.Common.DTO.MasterData.html">MasterData</a>.<a class="xref" href="SLS.Common.DTO.MasterData.Article.html">Article</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>SLS.Common.DTO.dll</dd></dl>
+  </div>
+
+  <div class="markdown summary"></div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Serializable]
+[DataContract(IsReference = true)]
+public class ArticlePackingStructureDTO : IBusinessDTO, IDTO</code></pre>
+  </div>
+
+
+
+
+  <dl class="typelist inheritance">
+    <dt>Inheritance</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+      <div><span class="xref">ArticlePackingStructureDTO</span></div>
+    </dd>
+  </dl>
+
+  <dl class="typelist implements">
+    <dt>Implements</dt>
+    <dd>
+      <div><a class="xref" href="SLS.Common.Interfaces.IBusinessDTO.html">IBusinessDTO</a></div>
+      <div><a class="xref" href="SLS.Common.Interfaces.IDTO.html">IDTO</a></div>
+    </dd>
+  </dl>
+
+
+  <dl class="typelist inheritedMembers">
+    <dt>Inherited Members</dt>
+    <dd>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)">object.Equals(object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">object.Equals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gethashcode">object.GetHashCode()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gettype">object.GetType()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone">object.MemberwiseClone()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals">object.ReferenceEquals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.tostring">object.ToString()</a>
+    </div>
+  </dd></dl>
+
+
+
+
+
+
+  <h2 class="section" id="properties">Properties
+</h2>
+
+
+  <a id="SLS_Common_DTO_MasterData_Article_ArticlePackingStructureDTO_Article_" data-uid="SLS.Common.DTO.MasterData.Article.ArticlePackingStructureDTO.Article*"></a>
+
+  <h3 id="SLS_Common_DTO_MasterData_Article_ArticlePackingStructureDTO_Article" data-uid="SLS.Common.DTO.MasterData.Article.ArticlePackingStructureDTO.Article">
+  Article
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/MasterData/Article/ArticlePackingStructureDTO.cs/#L191"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[ForeignKey(&quot;ArticleCollection&quot;)]
+[InverseProperty(&quot;ArticlePackingStructures_Article&quot;)]
+public virtual ArticleTypeDTO? Article { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="SLS.Common.DTO.MasterData.Article.ArticleTypeDTO.html">ArticleTypeDTO</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_MasterData_Article_ArticlePackingStructureDTO_ArticleID_" data-uid="SLS.Common.DTO.MasterData.Article.ArticlePackingStructureDTO.ArticleID*"></a>
+
+  <h3 id="SLS_Common_DTO_MasterData_Article_ArticlePackingStructureDTO_ArticleID" data-uid="SLS.Common.DTO.MasterData.Article.ArticlePackingStructureDTO.ArticleID">
+  ArticleID
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/MasterData/Article/ArticlePackingStructureDTO.cs/#L52"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;ArticleCollection&quot;)]
+[ForeignKey(&quot;ArticleCollection&quot;)]
+public virtual long? ArticleID { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_MasterData_Article_ArticlePackingStructureDTO_ArticlePackingStrucLqInfo_ArticlePackingStructure_" data-uid="SLS.Common.DTO.MasterData.Article.ArticlePackingStructureDTO.ArticlePackingStrucLqInfo_ArticlePackingStructure*"></a>
+
+  <h3 id="SLS_Common_DTO_MasterData_Article_ArticlePackingStructureDTO_ArticlePackingStrucLqInfo_ArticlePackingStructure" data-uid="SLS.Common.DTO.MasterData.Article.ArticlePackingStructureDTO.ArticlePackingStrucLqInfo_ArticlePackingStructure">
+  ArticlePackingStrucLqInfo_ArticlePackingStructure
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/MasterData/Article/ArticlePackingStructureDTO.cs/#L265"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;ArticlePackingStructureCollection&quot;)]
+[JsonIgnore]
+public virtual List&lt;ArticlePackingStrucLqInfoDTO&gt;? ArticlePackingStrucLqInfo_ArticlePackingStructure { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<a class="xref" href="SLS.Common.DTO.MasterData.Article.ArticlePackingStrucLqInfoDTO.html">ArticlePackingStrucLqInfoDTO</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_MasterData_Article_ArticlePackingStructureDTO_ArticlePackingStructures_SubStructure_" data-uid="SLS.Common.DTO.MasterData.Article.ArticlePackingStructureDTO.ArticlePackingStructures_SubStructure*"></a>
+
+  <h3 id="SLS_Common_DTO_MasterData_Article_ArticlePackingStructureDTO_ArticlePackingStructures_SubStructure" data-uid="SLS.Common.DTO.MasterData.Article.ArticlePackingStructureDTO.ArticlePackingStructures_SubStructure">
+  ArticlePackingStructures_SubStructure
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/MasterData/Article/ArticlePackingStructureDTO.cs/#L260"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;SubStructureCollection&quot;)]
+[JsonIgnore]
+public virtual List&lt;ArticlePackingStructureDTO&gt;? ArticlePackingStructures_SubStructure { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<a class="xref" href="SLS.Common.DTO.MasterData.Article.ArticlePackingStructureDTO.html">ArticlePackingStructureDTO</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_MasterData_Article_ArticlePackingStructureDTO_ArticleSet_ArticlePackingStructure_" data-uid="SLS.Common.DTO.MasterData.Article.ArticlePackingStructureDTO.ArticleSet_ArticlePackingStructure*"></a>
+
+  <h3 id="SLS_Common_DTO_MasterData_Article_ArticlePackingStructureDTO_ArticleSet_ArticlePackingStructure" data-uid="SLS.Common.DTO.MasterData.Article.ArticlePackingStructureDTO.ArticleSet_ArticlePackingStructure">
+  ArticleSet_ArticlePackingStructure
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/MasterData/Article/ArticlePackingStructureDTO.cs/#L255"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;ArticlePackingStructureCollection&quot;)]
+[JsonIgnore]
+public virtual List&lt;ArticleSetDTO&gt;? ArticleSet_ArticlePackingStructure { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<a class="xref" href="SLS.Common.DTO.MasterData.Article.ArticleSetDTO.html">ArticleSetDTO</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_MasterData_Article_ArticlePackingStructureDTO_ArticleTypeWarehouseDetails_PackingStructureMax_" data-uid="SLS.Common.DTO.MasterData.Article.ArticlePackingStructureDTO.ArticleTypeWarehouseDetails_PackingStructureMax*"></a>
+
+  <h3 id="SLS_Common_DTO_MasterData_Article_ArticlePackingStructureDTO_ArticleTypeWarehouseDetails_PackingStructureMax" data-uid="SLS.Common.DTO.MasterData.Article.ArticlePackingStructureDTO.ArticleTypeWarehouseDetails_PackingStructureMax">
+  ArticleTypeWarehouseDetails_PackingStructureMax
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/MasterData/Article/ArticlePackingStructureDTO.cs/#L240"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;PackingStructureMaxCollection&quot;)]
+[JsonIgnore]
+public virtual List&lt;ArticleTypeWarehouseDetailsDTO&gt;? ArticleTypeWarehouseDetails_PackingStructureMax { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<a class="xref" href="SLS.Common.DTO.WareHouse.ArticleTypeWarehouseDetailsDTO.html">ArticleTypeWarehouseDetailsDTO</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_MasterData_Article_ArticlePackingStructureDTO_ArticleTypeWarehouseDetails_PackingStructureMin_" data-uid="SLS.Common.DTO.MasterData.Article.ArticlePackingStructureDTO.ArticleTypeWarehouseDetails_PackingStructureMin*"></a>
+
+  <h3 id="SLS_Common_DTO_MasterData_Article_ArticlePackingStructureDTO_ArticleTypeWarehouseDetails_PackingStructureMin" data-uid="SLS.Common.DTO.MasterData.Article.ArticlePackingStructureDTO.ArticleTypeWarehouseDetails_PackingStructureMin">
+  ArticleTypeWarehouseDetails_PackingStructureMin
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/MasterData/Article/ArticlePackingStructureDTO.cs/#L235"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;PackingStructureMinCollection&quot;)]
+[JsonIgnore]
+public virtual List&lt;ArticleTypeWarehouseDetailsDTO&gt;? ArticleTypeWarehouseDetails_PackingStructureMin { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<a class="xref" href="SLS.Common.DTO.WareHouse.ArticleTypeWarehouseDetailsDTO.html">ArticleTypeWarehouseDetailsDTO</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_MasterData_Article_ArticlePackingStructureDTO_Company_ID_" data-uid="SLS.Common.DTO.MasterData.Article.ArticlePackingStructureDTO.Company_ID*"></a>
+
+  <h3 id="SLS_Common_DTO_MasterData_Article_ArticlePackingStructureDTO_Company_ID" data-uid="SLS.Common.DTO.MasterData.Article.ArticlePackingStructureDTO.Company_ID">
+  Company_ID
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/MasterData/Article/ArticlePackingStructureDTO.cs/#L41"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public long? Company_ID { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_MasterData_Article_ArticlePackingStructureDTO_CustomsValue_" data-uid="SLS.Common.DTO.MasterData.Article.ArticlePackingStructureDTO.CustomsValue*"></a>
+
+  <h3 id="SLS_Common_DTO_MasterData_Article_ArticlePackingStructureDTO_CustomsValue" data-uid="SLS.Common.DTO.MasterData.Article.ArticlePackingStructureDTO.CustomsValue">
+  CustomsValue
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/MasterData/Article/ArticlePackingStructureDTO.cs/#L167"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;CustomsValue&quot;)]
+public virtual double? CustomsValue { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_MasterData_Article_ArticlePackingStructureDTO_Department_ID_" data-uid="SLS.Common.DTO.MasterData.Article.ArticlePackingStructureDTO.Department_ID*"></a>
+
+  <h3 id="SLS_Common_DTO_MasterData_Article_ArticlePackingStructureDTO_Department_ID" data-uid="SLS.Common.DTO.MasterData.Article.ArticlePackingStructureDTO.Department_ID">
+  Department_ID
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/MasterData/Article/ArticlePackingStructureDTO.cs/#L43"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public long? Department_ID { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_MasterData_Article_ArticlePackingStructureDTO_Description_" data-uid="SLS.Common.DTO.MasterData.Article.ArticlePackingStructureDTO.Description*"></a>
+
+  <h3 id="SLS_Common_DTO_MasterData_Article_ArticlePackingStructureDTO_Description" data-uid="SLS.Common.DTO.MasterData.Article.ArticlePackingStructureDTO.Description">
+  Description
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/MasterData/Article/ArticlePackingStructureDTO.cs/#L123"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;Description&quot;)]
+public virtual string? Description { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_MasterData_Article_ArticlePackingStructureDTO_Division_ID_" data-uid="SLS.Common.DTO.MasterData.Article.ArticlePackingStructureDTO.Division_ID*"></a>
+
+  <h3 id="SLS_Common_DTO_MasterData_Article_ArticlePackingStructureDTO_Division_ID" data-uid="SLS.Common.DTO.MasterData.Article.ArticlePackingStructureDTO.Division_ID">
+  Division_ID
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/MasterData/Article/ArticlePackingStructureDTO.cs/#L45"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public long? Division_ID { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_MasterData_Article_ArticlePackingStructureDTO_EAN_" data-uid="SLS.Common.DTO.MasterData.Article.ArticlePackingStructureDTO.EAN*"></a>
+
+  <h3 id="SLS_Common_DTO_MasterData_Article_ArticlePackingStructureDTO_EAN" data-uid="SLS.Common.DTO.MasterData.Article.ArticlePackingStructureDTO.EAN">
+  EAN
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/MasterData/Article/ArticlePackingStructureDTO.cs/#L131"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;EAN&quot;)]
+public virtual string? EAN { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_MasterData_Article_ArticlePackingStructureDTO_ExternalArticleNr_" data-uid="SLS.Common.DTO.MasterData.Article.ArticlePackingStructureDTO.ExternalArticleNr*"></a>
+
+  <h3 id="SLS_Common_DTO_MasterData_Article_ArticlePackingStructureDTO_ExternalArticleNr" data-uid="SLS.Common.DTO.MasterData.Article.ArticlePackingStructureDTO.ExternalArticleNr">
+  ExternalArticleNr
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/MasterData/Article/ArticlePackingStructureDTO.cs/#L83"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;ExternalArticleNr&quot;)]
+public virtual string? ExternalArticleNr { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_MasterData_Article_ArticlePackingStructureDTO_FiscalYear_ID_" data-uid="SLS.Common.DTO.MasterData.Article.ArticlePackingStructureDTO.FiscalYear_ID*"></a>
+
+  <h3 id="SLS_Common_DTO_MasterData_Article_ArticlePackingStructureDTO_FiscalYear_ID" data-uid="SLS.Common.DTO.MasterData.Article.ArticlePackingStructureDTO.FiscalYear_ID">
+  FiscalYear_ID
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/MasterData/Article/ArticlePackingStructureDTO.cs/#L44"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public long? FiscalYear_ID { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_MasterData_Article_ArticlePackingStructureDTO_GoodsInOrderItems_ArticleTypePackingStructure_" data-uid="SLS.Common.DTO.MasterData.Article.ArticlePackingStructureDTO.GoodsInOrderItems_ArticleTypePackingStructure*"></a>
+
+  <h3 id="SLS_Common_DTO_MasterData_Article_ArticlePackingStructureDTO_GoodsInOrderItems_ArticleTypePackingStructure" data-uid="SLS.Common.DTO.MasterData.Article.ArticlePackingStructureDTO.GoodsInOrderItems_ArticleTypePackingStructure">
+  GoodsInOrderItems_ArticleTypePackingStructure
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/MasterData/Article/ArticlePackingStructureDTO.cs/#L230"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;ArticleTypePackingStructureCollection&quot;)]
+[JsonIgnore]
+public virtual List&lt;GoodsInOrderItemsDTO&gt;? GoodsInOrderItems_ArticleTypePackingStructure { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<a class="xref" href="SLS.Common.DTO.WareHouse.GoodsInOrderItemsDTO.html">GoodsInOrderItemsDTO</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_MasterData_Article_ArticlePackingStructureDTO_GoodsOutOrderItems_ArticleTypePackingStructure_" data-uid="SLS.Common.DTO.MasterData.Article.ArticlePackingStructureDTO.GoodsOutOrderItems_ArticleTypePackingStructure*"></a>
+
+  <h3 id="SLS_Common_DTO_MasterData_Article_ArticlePackingStructureDTO_GoodsOutOrderItems_ArticleTypePackingStructure" data-uid="SLS.Common.DTO.MasterData.Article.ArticlePackingStructureDTO.GoodsOutOrderItems_ArticleTypePackingStructure">
+  GoodsOutOrderItems_ArticleTypePackingStructure
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/MasterData/Article/ArticlePackingStructureDTO.cs/#L225"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;ArticleTypePackingStructureCollection&quot;)]
+[JsonIgnore]
+public virtual List&lt;GoodsOutOrderItemsDTO&gt;? GoodsOutOrderItems_ArticleTypePackingStructure { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<a class="xref" href="SLS.Common.DTO.WareHouse.GoodsOutOrderItemsDTO.html">GoodsOutOrderItemsDTO</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_MasterData_Article_ArticlePackingStructureDTO_GoodsRelocateOrderItems_ArticleTypePackingStructure_" data-uid="SLS.Common.DTO.MasterData.Article.ArticlePackingStructureDTO.GoodsRelocateOrderItems_ArticleTypePackingStructure*"></a>
+
+  <h3 id="SLS_Common_DTO_MasterData_Article_ArticlePackingStructureDTO_GoodsRelocateOrderItems_ArticleTypePackingStructure" data-uid="SLS.Common.DTO.MasterData.Article.ArticlePackingStructureDTO.GoodsRelocateOrderItems_ArticleTypePackingStructure">
+  GoodsRelocateOrderItems_ArticleTypePackingStructure
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/MasterData/Article/ArticlePackingStructureDTO.cs/#L220"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;ArticleTypePackingStructureCollection&quot;)]
+[JsonIgnore]
+public virtual List&lt;GoodsRelocateOrderItemsDTO&gt;? GoodsRelocateOrderItems_ArticleTypePackingStructure { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<a class="xref" href="SLS.Common.DTO.WareHouse.GoodsRelocateOrderItemsDTO.html">GoodsRelocateOrderItemsDTO</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_MasterData_Article_ArticlePackingStructureDTO_HandlingUnitItems_ArticlePackingStructure_" data-uid="SLS.Common.DTO.MasterData.Article.ArticlePackingStructureDTO.HandlingUnitItems_ArticlePackingStructure*"></a>
+
+  <h3 id="SLS_Common_DTO_MasterData_Article_ArticlePackingStructureDTO_HandlingUnitItems_ArticlePackingStructure" data-uid="SLS.Common.DTO.MasterData.Article.ArticlePackingStructureDTO.HandlingUnitItems_ArticlePackingStructure">
+  HandlingUnitItems_ArticlePackingStructure
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/MasterData/Article/ArticlePackingStructureDTO.cs/#L280"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;ArticlePackingStructureCollection&quot;)]
+[JsonIgnore]
+public virtual List&lt;HandlingUnitItemDTO&gt;? HandlingUnitItems_ArticlePackingStructure { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<a class="xref" href="SLS.Common.DTO.Dispatch.HandlingUnitItemDTO.html">HandlingUnitItemDTO</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_MasterData_Article_ArticlePackingStructureDTO_Height_" data-uid="SLS.Common.DTO.MasterData.Article.ArticlePackingStructureDTO.Height*"></a>
+
+  <h3 id="SLS_Common_DTO_MasterData_Article_ArticlePackingStructureDTO_Height" data-uid="SLS.Common.DTO.MasterData.Article.ArticlePackingStructureDTO.Height">
+  Height
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/MasterData/Article/ArticlePackingStructureDTO.cs/#L103"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;Height&quot;)]
+public virtual double? Height { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_MasterData_Article_ArticlePackingStructureDTO_ISBN_" data-uid="SLS.Common.DTO.MasterData.Article.ArticlePackingStructureDTO.ISBN*"></a>
+
+  <h3 id="SLS_Common_DTO_MasterData_Article_ArticlePackingStructureDTO_ISBN" data-uid="SLS.Common.DTO.MasterData.Article.ArticlePackingStructureDTO.ISBN">
+  ISBN
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/MasterData/Article/ArticlePackingStructureDTO.cs/#L135"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;ISBN&quot;)]
+public virtual string? ISBN { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_MasterData_Article_ArticlePackingStructureDTO_Id_" data-uid="SLS.Common.DTO.MasterData.Article.ArticlePackingStructureDTO.Id*"></a>
+
+  <h3 id="SLS_Common_DTO_MasterData_Article_ArticlePackingStructureDTO_Id" data-uid="SLS.Common.DTO.MasterData.Article.ArticlePackingStructureDTO.Id">
+  Id
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/MasterData/Article/ArticlePackingStructureDTO.cs/#L34"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;ID&quot;)]
+public long Id { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_MasterData_Article_ArticlePackingStructureDTO_InternalArticleNr_" data-uid="SLS.Common.DTO.MasterData.Article.ArticlePackingStructureDTO.InternalArticleNr*"></a>
+
+  <h3 id="SLS_Common_DTO_MasterData_Article_ArticlePackingStructureDTO_InternalArticleNr" data-uid="SLS.Common.DTO.MasterData.Article.ArticlePackingStructureDTO.InternalArticleNr">
+  InternalArticleNr
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/MasterData/Article/ArticlePackingStructureDTO.cs/#L79"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;InternalArticleNr&quot;)]
+public virtual string? InternalArticleNr { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_MasterData_Article_ArticlePackingStructureDTO_IsActive_" data-uid="SLS.Common.DTO.MasterData.Article.ArticlePackingStructureDTO.IsActive*"></a>
+
+  <h3 id="SLS_Common_DTO_MasterData_Article_ArticlePackingStructureDTO_IsActive" data-uid="SLS.Common.DTO.MasterData.Article.ArticlePackingStructureDTO.IsActive">
+  IsActive
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/MasterData/Article/ArticlePackingStructureDTO.cs/#L175"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;IsActive&quot;)]
+public virtual bool? IsActive { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_MasterData_Article_ArticlePackingStructureDTO_IsDefault_" data-uid="SLS.Common.DTO.MasterData.Article.ArticlePackingStructureDTO.IsDefault*"></a>
+
+  <h3 id="SLS_Common_DTO_MasterData_Article_ArticlePackingStructureDTO_IsDefault" data-uid="SLS.Common.DTO.MasterData.Article.ArticlePackingStructureDTO.IsDefault">
+  IsDefault
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/MasterData/Article/ArticlePackingStructureDTO.cs/#L179"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;IsDefault&quot;)]
+public virtual bool IsDefault { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_MasterData_Article_ArticlePackingStructureDTO_IsDispatchAble_" data-uid="SLS.Common.DTO.MasterData.Article.ArticlePackingStructureDTO.IsDispatchAble*"></a>
+
+  <h3 id="SLS_Common_DTO_MasterData_Article_ArticlePackingStructureDTO_IsDispatchAble" data-uid="SLS.Common.DTO.MasterData.Article.ArticlePackingStructureDTO.IsDispatchAble">
+  IsDispatchAble
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/MasterData/Article/ArticlePackingStructureDTO.cs/#L183"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;IsDispatchAble&quot;)]
+public virtual bool? IsDispatchAble { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_MasterData_Article_ArticlePackingStructureDTO_IsLQContained_" data-uid="SLS.Common.DTO.MasterData.Article.ArticlePackingStructureDTO.IsLQContained*"></a>
+
+  <h3 id="SLS_Common_DTO_MasterData_Article_ArticlePackingStructureDTO_IsLQContained" data-uid="SLS.Common.DTO.MasterData.Article.ArticlePackingStructureDTO.IsLQContained">
+  IsLQContained
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/MasterData/Article/ArticlePackingStructureDTO.cs/#L111"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;IsLQContained&quot;)]
+public virtual bool? IsLQContained { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_MasterData_Article_ArticlePackingStructureDTO_Length_" data-uid="SLS.Common.DTO.MasterData.Article.ArticlePackingStructureDTO.Length*"></a>
+
+  <h3 id="SLS_Common_DTO_MasterData_Article_ArticlePackingStructureDTO_Length" data-uid="SLS.Common.DTO.MasterData.Article.ArticlePackingStructureDTO.Length">
+  Length
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/MasterData/Article/ArticlePackingStructureDTO.cs/#L95"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;Length&quot;)]
+public virtual double? Length { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_MasterData_Article_ArticlePackingStructureDTO_LoadingEqQuantity_" data-uid="SLS.Common.DTO.MasterData.Article.ArticlePackingStructureDTO.LoadingEqQuantity*"></a>
+
+  <h3 id="SLS_Common_DTO_MasterData_Article_ArticlePackingStructureDTO_LoadingEqQuantity" data-uid="SLS.Common.DTO.MasterData.Article.ArticlePackingStructureDTO.LoadingEqQuantity">
+  LoadingEqQuantity
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/MasterData/Article/ArticlePackingStructureDTO.cs/#L139"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;LoadingEqQuantity&quot;)]
+public virtual double? LoadingEqQuantity { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_MasterData_Article_ArticlePackingStructureDTO_LoadingEquipment_" data-uid="SLS.Common.DTO.MasterData.Article.ArticlePackingStructureDTO.LoadingEquipment*"></a>
+
+  <h3 id="SLS_Common_DTO_MasterData_Article_ArticlePackingStructureDTO_LoadingEquipment" data-uid="SLS.Common.DTO.MasterData.Article.ArticlePackingStructureDTO.LoadingEquipment">
+  LoadingEquipment
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/MasterData/Article/ArticlePackingStructureDTO.cs/#L196"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[ForeignKey(&quot;LoadingEquipmentCollection&quot;)]
+[InverseProperty(&quot;ArticlePackingStructures_LoadingEquipment&quot;)]
+[JsonIgnore]
+public virtual ArticleTypeDTO? LoadingEquipment { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="SLS.Common.DTO.MasterData.Article.ArticleTypeDTO.html">ArticleTypeDTO</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_MasterData_Article_ArticlePackingStructureDTO_LoadingEquipmentID_" data-uid="SLS.Common.DTO.MasterData.Article.ArticlePackingStructureDTO.LoadingEquipmentID*"></a>
+
+  <h3 id="SLS_Common_DTO_MasterData_Article_ArticlePackingStructureDTO_LoadingEquipmentID" data-uid="SLS.Common.DTO.MasterData.Article.ArticlePackingStructureDTO.LoadingEquipmentID">
+  LoadingEquipmentID
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/MasterData/Article/ArticlePackingStructureDTO.cs/#L57"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;LoadingEquipmentCollection&quot;)]
+[ForeignKey(&quot;LoadingEquipmentCollection&quot;)]
+public virtual long? LoadingEquipmentID { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_MasterData_Article_ArticlePackingStructureDTO_Matchcode_" data-uid="SLS.Common.DTO.MasterData.Article.ArticlePackingStructureDTO.Matchcode*"></a>
+
+  <h3 id="SLS_Common_DTO_MasterData_Article_ArticlePackingStructureDTO_Matchcode" data-uid="SLS.Common.DTO.MasterData.Article.ArticlePackingStructureDTO.Matchcode">
+  Matchcode
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/MasterData/Article/ArticlePackingStructureDTO.cs/#L75"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;Matchcode&quot;)]
+public virtual string? Matchcode { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_MasterData_Article_ArticlePackingStructureDTO_Name_" data-uid="SLS.Common.DTO.MasterData.Article.ArticlePackingStructureDTO.Name*"></a>
+
+  <h3 id="SLS_Common_DTO_MasterData_Article_ArticlePackingStructureDTO_Name" data-uid="SLS.Common.DTO.MasterData.Article.ArticlePackingStructureDTO.Name">
+  Name
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/MasterData/Article/ArticlePackingStructureDTO.cs/#L71"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;Name&quot;)]
+public virtual string Name { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_MasterData_Article_ArticlePackingStructureDTO_OptionalNum1_" data-uid="SLS.Common.DTO.MasterData.Article.ArticlePackingStructureDTO.OptionalNum1*"></a>
+
+  <h3 id="SLS_Common_DTO_MasterData_Article_ArticlePackingStructureDTO_OptionalNum1" data-uid="SLS.Common.DTO.MasterData.Article.ArticlePackingStructureDTO.OptionalNum1">
+  OptionalNum1
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/MasterData/Article/ArticlePackingStructureDTO.cs/#L155"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;OptionalNum1&quot;)]
+public virtual double? OptionalNum1 { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_MasterData_Article_ArticlePackingStructureDTO_OptionalNum2_" data-uid="SLS.Common.DTO.MasterData.Article.ArticlePackingStructureDTO.OptionalNum2*"></a>
+
+  <h3 id="SLS_Common_DTO_MasterData_Article_ArticlePackingStructureDTO_OptionalNum2" data-uid="SLS.Common.DTO.MasterData.Article.ArticlePackingStructureDTO.OptionalNum2">
+  OptionalNum2
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/MasterData/Article/ArticlePackingStructureDTO.cs/#L159"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;OptionalNum2&quot;)]
+public virtual double? OptionalNum2 { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_MasterData_Article_ArticlePackingStructureDTO_OptionalNum3_" data-uid="SLS.Common.DTO.MasterData.Article.ArticlePackingStructureDTO.OptionalNum3*"></a>
+
+  <h3 id="SLS_Common_DTO_MasterData_Article_ArticlePackingStructureDTO_OptionalNum3" data-uid="SLS.Common.DTO.MasterData.Article.ArticlePackingStructureDTO.OptionalNum3">
+  OptionalNum3
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/MasterData/Article/ArticlePackingStructureDTO.cs/#L163"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;OptionalNum3&quot;)]
+public virtual double? OptionalNum3 { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_MasterData_Article_ArticlePackingStructureDTO_OptionalString1_" data-uid="SLS.Common.DTO.MasterData.Article.ArticlePackingStructureDTO.OptionalString1*"></a>
+
+  <h3 id="SLS_Common_DTO_MasterData_Article_ArticlePackingStructureDTO_OptionalString1" data-uid="SLS.Common.DTO.MasterData.Article.ArticlePackingStructureDTO.OptionalString1">
+  OptionalString1
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/MasterData/Article/ArticlePackingStructureDTO.cs/#L143"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;OptionalString1&quot;)]
+public virtual string? OptionalString1 { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_MasterData_Article_ArticlePackingStructureDTO_OptionalString2_" data-uid="SLS.Common.DTO.MasterData.Article.ArticlePackingStructureDTO.OptionalString2*"></a>
+
+  <h3 id="SLS_Common_DTO_MasterData_Article_ArticlePackingStructureDTO_OptionalString2" data-uid="SLS.Common.DTO.MasterData.Article.ArticlePackingStructureDTO.OptionalString2">
+  OptionalString2
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/MasterData/Article/ArticlePackingStructureDTO.cs/#L147"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;OptionalString2&quot;)]
+public virtual string? OptionalString2 { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_MasterData_Article_ArticlePackingStructureDTO_OptionalString3_" data-uid="SLS.Common.DTO.MasterData.Article.ArticlePackingStructureDTO.OptionalString3*"></a>
+
+  <h3 id="SLS_Common_DTO_MasterData_Article_ArticlePackingStructureDTO_OptionalString3" data-uid="SLS.Common.DTO.MasterData.Article.ArticlePackingStructureDTO.OptionalString3">
+  OptionalString3
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/MasterData/Article/ArticlePackingStructureDTO.cs/#L151"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;OptionalString3&quot;)]
+public virtual string? OptionalString3 { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_MasterData_Article_ArticlePackingStructureDTO_OrderPositions_ArticlePackingStructure_" data-uid="SLS.Common.DTO.MasterData.Article.ArticlePackingStructureDTO.OrderPositions_ArticlePackingStructure*"></a>
+
+  <h3 id="SLS_Common_DTO_MasterData_Article_ArticlePackingStructureDTO_OrderPositions_ArticlePackingStructure" data-uid="SLS.Common.DTO.MasterData.Article.ArticlePackingStructureDTO.OrderPositions_ArticlePackingStructure">
+  OrderPositions_ArticlePackingStructure
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/MasterData/Article/ArticlePackingStructureDTO.cs/#L275"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;ArticlePackingStructureCollection&quot;)]
+[JsonIgnore]
+public virtual List&lt;OrderPositionDTO&gt;? OrderPositions_ArticlePackingStructure { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<a class="xref" href="SLS.Common.DTO.Dispatch.OrderPositionDTO.html">OrderPositionDTO</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_MasterData_Article_ArticlePackingStructureDTO_OrderPositions_Ist_ArticlePackingStructure_" data-uid="SLS.Common.DTO.MasterData.Article.ArticlePackingStructureDTO.OrderPositions_Ist_ArticlePackingStructure*"></a>
+
+  <h3 id="SLS_Common_DTO_MasterData_Article_ArticlePackingStructureDTO_OrderPositions_Ist_ArticlePackingStructure" data-uid="SLS.Common.DTO.MasterData.Article.ArticlePackingStructureDTO.OrderPositions_Ist_ArticlePackingStructure">
+  OrderPositions_Ist_ArticlePackingStructure
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/MasterData/Article/ArticlePackingStructureDTO.cs/#L270"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;Ist_ArticlePackingStructureCollection&quot;)]
+[JsonIgnore]
+public virtual List&lt;OrderPositionDTO&gt;? OrderPositions_Ist_ArticlePackingStructure { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<a class="xref" href="SLS.Common.DTO.Dispatch.OrderPositionDTO.html">OrderPositionDTO</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_MasterData_Article_ArticlePackingStructureDTO_PillingUpFactor_" data-uid="SLS.Common.DTO.MasterData.Article.ArticlePackingStructureDTO.PillingUpFactor*"></a>
+
+  <h3 id="SLS_Common_DTO_MasterData_Article_ArticlePackingStructureDTO_PillingUpFactor" data-uid="SLS.Common.DTO.MasterData.Article.ArticlePackingStructureDTO.PillingUpFactor">
+  PillingUpFactor
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/MasterData/Article/ArticlePackingStructureDTO.cs/#L91"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;PillingUpFactor&quot;)]
+public virtual int? PillingUpFactor { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_MasterData_Article_ArticlePackingStructureDTO_ProductionOrderItemDetails_ArticleTypePackingStructure_" data-uid="SLS.Common.DTO.MasterData.Article.ArticlePackingStructureDTO.ProductionOrderItemDetails_ArticleTypePackingStructure*"></a>
+
+  <h3 id="SLS_Common_DTO_MasterData_Article_ArticlePackingStructureDTO_ProductionOrderItemDetails_ArticleTypePackingStructure" data-uid="SLS.Common.DTO.MasterData.Article.ArticlePackingStructureDTO.ProductionOrderItemDetails_ArticleTypePackingStructure">
+  ProductionOrderItemDetails_ArticleTypePackingStructure
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/MasterData/Article/ArticlePackingStructureDTO.cs/#L245"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;ArticleTypePackingStructureCollection&quot;)]
+[JsonIgnore]
+public virtual List&lt;ProductionOrderItemDetailsDTO&gt;? ProductionOrderItemDetails_ArticleTypePackingStructure { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<a class="xref" href="SLS.Common.DTO.Production.ProductionOrderItemDetailsDTO.html">ProductionOrderItemDetailsDTO</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_MasterData_Article_ArticlePackingStructureDTO_ProductionOrderItem_ArticleTypePackingStructure_" data-uid="SLS.Common.DTO.MasterData.Article.ArticlePackingStructureDTO.ProductionOrderItem_ArticleTypePackingStructure*"></a>
+
+  <h3 id="SLS_Common_DTO_MasterData_Article_ArticlePackingStructureDTO_ProductionOrderItem_ArticleTypePackingStructure" data-uid="SLS.Common.DTO.MasterData.Article.ArticlePackingStructureDTO.ProductionOrderItem_ArticleTypePackingStructure">
+  ProductionOrderItem_ArticleTypePackingStructure
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/MasterData/Article/ArticlePackingStructureDTO.cs/#L250"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;ArticleTypePackingStructureCollection&quot;)]
+[JsonIgnore]
+public virtual List&lt;ProductionOrderItemDTO&gt;? ProductionOrderItem_ArticleTypePackingStructure { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<a class="xref" href="SLS.Common.DTO.Production.ProductionOrderItemDTO.html">ProductionOrderItemDTO</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_MasterData_Article_ArticlePackingStructureDTO_QuantityOfBaseUnits_" data-uid="SLS.Common.DTO.MasterData.Article.ArticlePackingStructureDTO.QuantityOfBaseUnits*"></a>
+
+  <h3 id="SLS_Common_DTO_MasterData_Article_ArticlePackingStructureDTO_QuantityOfBaseUnits" data-uid="SLS.Common.DTO.MasterData.Article.ArticlePackingStructureDTO.QuantityOfBaseUnits">
+  QuantityOfBaseUnits
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/MasterData/Article/ArticlePackingStructureDTO.cs/#L87"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;QuantityOfBaseUnits&quot;)]
+public virtual long QuantityOfBaseUnits { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_MasterData_Article_ArticlePackingStructureDTO_Storable_" data-uid="SLS.Common.DTO.MasterData.Article.ArticlePackingStructureDTO.Storable*"></a>
+
+  <h3 id="SLS_Common_DTO_MasterData_Article_ArticlePackingStructureDTO_Storable" data-uid="SLS.Common.DTO.MasterData.Article.ArticlePackingStructureDTO.Storable">
+  Storable
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/MasterData/Article/ArticlePackingStructureDTO.cs/#L119"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;Storable&quot;)]
+public virtual bool Storable { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_MasterData_Article_ArticlePackingStructureDTO_SubStructure_" data-uid="SLS.Common.DTO.MasterData.Article.ArticlePackingStructureDTO.SubStructure*"></a>
+
+  <h3 id="SLS_Common_DTO_MasterData_Article_ArticlePackingStructureDTO_SubStructure" data-uid="SLS.Common.DTO.MasterData.Article.ArticlePackingStructureDTO.SubStructure">
+  SubStructure
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/MasterData/Article/ArticlePackingStructureDTO.cs/#L201"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[ForeignKey(&quot;SubStructureCollection&quot;)]
+[InverseProperty(&quot;ArticlePackingStructures_SubStructure&quot;)]
+[JsonIgnore]
+public virtual ArticlePackingStructureDTO? SubStructure { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="SLS.Common.DTO.MasterData.Article.ArticlePackingStructureDTO.html">ArticlePackingStructureDTO</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_MasterData_Article_ArticlePackingStructureDTO_SubStructureID_" data-uid="SLS.Common.DTO.MasterData.Article.ArticlePackingStructureDTO.SubStructureID*"></a>
+
+  <h3 id="SLS_Common_DTO_MasterData_Article_ArticlePackingStructureDTO_SubStructureID" data-uid="SLS.Common.DTO.MasterData.Article.ArticlePackingStructureDTO.SubStructureID">
+  SubStructureID
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/MasterData/Article/ArticlePackingStructureDTO.cs/#L62"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;SubStructureCollection&quot;)]
+[ForeignKey(&quot;SubStructureCollection&quot;)]
+public virtual long? SubStructureID { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_MasterData_Article_ArticlePackingStructureDTO_SubStructureQuantity_" data-uid="SLS.Common.DTO.MasterData.Article.ArticlePackingStructureDTO.SubStructureQuantity*"></a>
+
+  <h3 id="SLS_Common_DTO_MasterData_Article_ArticlePackingStructureDTO_SubStructureQuantity" data-uid="SLS.Common.DTO.MasterData.Article.ArticlePackingStructureDTO.SubStructureQuantity">
+  SubStructureQuantity
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/MasterData/Article/ArticlePackingStructureDTO.cs/#L115"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;SubStructureQuantity&quot;)]
+public virtual int SubStructureQuantity { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_MasterData_Article_ArticlePackingStructureDTO_Subsidiary_ID_" data-uid="SLS.Common.DTO.MasterData.Article.ArticlePackingStructureDTO.Subsidiary_ID*"></a>
+
+  <h3 id="SLS_Common_DTO_MasterData_Article_ArticlePackingStructureDTO_Subsidiary_ID" data-uid="SLS.Common.DTO.MasterData.Article.ArticlePackingStructureDTO.Subsidiary_ID">
+  Subsidiary_ID
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/MasterData/Article/ArticlePackingStructureDTO.cs/#L42"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public long? Subsidiary_ID { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_MasterData_Article_ArticlePackingStructureDTO_User_ID_" data-uid="SLS.Common.DTO.MasterData.Article.ArticlePackingStructureDTO.User_ID*"></a>
+
+  <h3 id="SLS_Common_DTO_MasterData_Article_ArticlePackingStructureDTO_User_ID" data-uid="SLS.Common.DTO.MasterData.Article.ArticlePackingStructureDTO.User_ID">
+  User_ID
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/MasterData/Article/ArticlePackingStructureDTO.cs/#L46"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public long? User_ID { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_MasterData_Article_ArticlePackingStructureDTO_Value_" data-uid="SLS.Common.DTO.MasterData.Article.ArticlePackingStructureDTO.Value*"></a>
+
+  <h3 id="SLS_Common_DTO_MasterData_Article_ArticlePackingStructureDTO_Value" data-uid="SLS.Common.DTO.MasterData.Article.ArticlePackingStructureDTO.Value">
+  Value
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/MasterData/Article/ArticlePackingStructureDTO.cs/#L171"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;Value&quot;)]
+public virtual double? Value { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_MasterData_Article_ArticlePackingStructureDTO_Version_" data-uid="SLS.Common.DTO.MasterData.Article.ArticlePackingStructureDTO.Version*"></a>
+
+  <h3 id="SLS_Common_DTO_MasterData_Article_ArticlePackingStructureDTO_Version" data-uid="SLS.Common.DTO.MasterData.Article.ArticlePackingStructureDTO.Version">
+  Version
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/MasterData/Article/ArticlePackingStructureDTO.cs/#L38"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;Version&quot;)]
+public long Version { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_MasterData_Article_ArticlePackingStructureDTO_WareHouseHU_ArticleTypePackingStructure_" data-uid="SLS.Common.DTO.MasterData.Article.ArticlePackingStructureDTO.WareHouseHU_ArticleTypePackingStructure*"></a>
+
+  <h3 id="SLS_Common_DTO_MasterData_Article_ArticlePackingStructureDTO_WareHouseHU_ArticleTypePackingStructure" data-uid="SLS.Common.DTO.MasterData.Article.ArticlePackingStructureDTO.WareHouseHU_ArticleTypePackingStructure">
+  WareHouseHU_ArticleTypePackingStructure
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/MasterData/Article/ArticlePackingStructureDTO.cs/#L215"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;ArticleTypePackingStructureCollection&quot;)]
+[JsonIgnore]
+public virtual List&lt;WareHouseHUDTO&gt;? WareHouseHU_ArticleTypePackingStructure { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<a class="xref" href="SLS.Common.DTO.WareHouse.WareHouseHUDTO.html">WareHouseHUDTO</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_MasterData_Article_ArticlePackingStructureDTO_WarehouseInventory_ArticlePackingStructure_" data-uid="SLS.Common.DTO.MasterData.Article.ArticlePackingStructureDTO.WarehouseInventory_ArticlePackingStructure*"></a>
+
+  <h3 id="SLS_Common_DTO_MasterData_Article_ArticlePackingStructureDTO_WarehouseInventory_ArticlePackingStructure" data-uid="SLS.Common.DTO.MasterData.Article.ArticlePackingStructureDTO.WarehouseInventory_ArticlePackingStructure">
+  WarehouseInventory_ArticlePackingStructure
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/MasterData/Article/ArticlePackingStructureDTO.cs/#L210"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;ArticlePackingStructureCollection&quot;)]
+[JsonIgnore]
+public virtual List&lt;WarehouseInventoryDTO&gt;? WarehouseInventory_ArticlePackingStructure { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<a class="xref" href="SLS.Common.DTO.WareHouse.WarehouseInventoryDTO.html">WarehouseInventoryDTO</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_MasterData_Article_ArticlePackingStructureDTO_Weight_" data-uid="SLS.Common.DTO.MasterData.Article.ArticlePackingStructureDTO.Weight*"></a>
+
+  <h3 id="SLS_Common_DTO_MasterData_Article_ArticlePackingStructureDTO_Weight" data-uid="SLS.Common.DTO.MasterData.Article.ArticlePackingStructureDTO.Weight">
+  Weight
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/MasterData/Article/ArticlePackingStructureDTO.cs/#L107"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;Weight&quot;)]
+public virtual double? Weight { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_MasterData_Article_ArticlePackingStructureDTO_WeightNett_" data-uid="SLS.Common.DTO.MasterData.Article.ArticlePackingStructureDTO.WeightNett*"></a>
+
+  <h3 id="SLS_Common_DTO_MasterData_Article_ArticlePackingStructureDTO_WeightNett" data-uid="SLS.Common.DTO.MasterData.Article.ArticlePackingStructureDTO.WeightNett">
+  WeightNett
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/MasterData/Article/ArticlePackingStructureDTO.cs/#L127"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;WeightNett&quot;)]
+public virtual double WeightNett { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_MasterData_Article_ArticlePackingStructureDTO_Width_" data-uid="SLS.Common.DTO.MasterData.Article.ArticlePackingStructureDTO.Width*"></a>
+
+  <h3 id="SLS_Common_DTO_MasterData_Article_ArticlePackingStructureDTO_Width" data-uid="SLS.Common.DTO.MasterData.Article.ArticlePackingStructureDTO.Width">
+  Width
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/MasterData/Article/ArticlePackingStructureDTO.cs/#L99"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;Width&quot;)]
+public virtual double? Width { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+</article>
+
+        <div class="contribution d-print-none">
+          <a href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/MasterData/Article/ArticlePackingStructureDTO.cs/#L28" class="edit-link">Edit this page</a>
+        </div>
+
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

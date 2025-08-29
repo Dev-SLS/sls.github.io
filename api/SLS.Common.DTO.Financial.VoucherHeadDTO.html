@@ -1,0 +1,3143 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Class VoucherHeadDTO | SLS Documentation </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Class VoucherHeadDTO | SLS Documentation ">
+      
+      
+      <link rel="icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="../">
+      
+      
+      <meta name="docfx:docurl" content="https://github.com/Dev-SLS/dev/new/Dev/apiSpec/new?filename=SLS_Common_DTO_Financial_VoucherHeadDTO.md&amp;value=---%0Auid%3A%20SLS.Common.DTO.Financial.VoucherHeadDTO%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../logo.svg" alt="SLS Documentation">
+            SLS Documentation
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="SLS.Common.DTO.Financial.VoucherHeadDTO">
+
+
+
+  <h1 id="SLS_Common_DTO_Financial_VoucherHeadDTO" data-uid="SLS.Common.DTO.Financial.VoucherHeadDTO" class="text-break">
+Class VoucherHeadDTO  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Financial/VoucherHeadDTO.cs/#L28"><i class="bi bi-code-slash"></i></a>
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="SLS.html">SLS</a>.<a class="xref" href="SLS.Common.html">Common</a>.<a class="xref" href="SLS.Common.DTO.html">DTO</a>.<a class="xref" href="SLS.Common.DTO.Financial.html">Financial</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>SLS.Common.DTO.dll</dd></dl>
+  </div>
+
+  <div class="markdown summary"></div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Serializable]
+[DataContract(IsReference = true)]
+public class VoucherHeadDTO : IBusinessDTO, IDTO</code></pre>
+  </div>
+
+
+
+
+  <dl class="typelist inheritance">
+    <dt>Inheritance</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+      <div><span class="xref">VoucherHeadDTO</span></div>
+    </dd>
+  </dl>
+
+  <dl class="typelist implements">
+    <dt>Implements</dt>
+    <dd>
+      <div><a class="xref" href="SLS.Common.Interfaces.IBusinessDTO.html">IBusinessDTO</a></div>
+      <div><a class="xref" href="SLS.Common.Interfaces.IDTO.html">IDTO</a></div>
+    </dd>
+  </dl>
+
+
+  <dl class="typelist inheritedMembers">
+    <dt>Inherited Members</dt>
+    <dd>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)">object.Equals(object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">object.Equals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gethashcode">object.GetHashCode()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gettype">object.GetType()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone">object.MemberwiseClone()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals">object.ReferenceEquals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.tostring">object.ToString()</a>
+    </div>
+  </dd></dl>
+
+
+
+
+
+
+  <h2 class="section" id="properties">Properties
+</h2>
+
+
+  <a id="SLS_Common_DTO_Financial_VoucherHeadDTO_AccrualDate_" data-uid="SLS.Common.DTO.Financial.VoucherHeadDTO.AccrualDate*"></a>
+
+  <h3 id="SLS_Common_DTO_Financial_VoucherHeadDTO_AccrualDate" data-uid="SLS.Common.DTO.Financial.VoucherHeadDTO.AccrualDate">
+  AccrualDate
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Financial/VoucherHeadDTO.cs/#L157"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;AccrualDate&quot;)]
+public virtual DateTime AccrualDate { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.datetime">DateTime</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Financial_VoucherHeadDTO_Address_" data-uid="SLS.Common.DTO.Financial.VoucherHeadDTO.Address*"></a>
+
+  <h3 id="SLS_Common_DTO_Financial_VoucherHeadDTO_Address" data-uid="SLS.Common.DTO.Financial.VoucherHeadDTO.Address">
+  Address
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Financial/VoucherHeadDTO.cs/#L365"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[ForeignKey(&quot;AddressCollection&quot;)]
+[InverseProperty(&quot;VoucherHeads_Address&quot;)]
+[JsonIgnore]
+public virtual AddressCompanyDTO? Address { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="SLS.Common.DTO.MasterData.AddressCompanyDTO.html">AddressCompanyDTO</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Financial_VoucherHeadDTO_AddressID_" data-uid="SLS.Common.DTO.Financial.VoucherHeadDTO.AddressID*"></a>
+
+  <h3 id="SLS_Common_DTO_Financial_VoucherHeadDTO_AddressID" data-uid="SLS.Common.DTO.Financial.VoucherHeadDTO.AddressID">
+  AddressID
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Financial/VoucherHeadDTO.cs/#L92"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;AddressCollection&quot;)]
+[ForeignKey(&quot;AddressCollection&quot;)]
+public virtual long AddressID { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Financial_VoucherHeadDTO_BankingAccount_" data-uid="SLS.Common.DTO.Financial.VoucherHeadDTO.BankingAccount*"></a>
+
+  <h3 id="SLS_Common_DTO_Financial_VoucherHeadDTO_BankingAccount" data-uid="SLS.Common.DTO.Financial.VoucherHeadDTO.BankingAccount">
+  BankingAccount
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Financial/VoucherHeadDTO.cs/#L330"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[ForeignKey(&quot;BankingAccountCollection&quot;)]
+[InverseProperty(&quot;VoucherHeads_BankingAccount&quot;)]
+[JsonIgnore]
+public virtual BankingAccountDTO? BankingAccount { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="SLS.Common.DTO.Financial.BankingAccountDTO.html">BankingAccountDTO</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Financial_VoucherHeadDTO_BankingAccountID_" data-uid="SLS.Common.DTO.Financial.VoucherHeadDTO.BankingAccountID*"></a>
+
+  <h3 id="SLS_Common_DTO_Financial_VoucherHeadDTO_BankingAccountID" data-uid="SLS.Common.DTO.Financial.VoucherHeadDTO.BankingAccountID">
+  BankingAccountID
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Financial/VoucherHeadDTO.cs/#L57"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;BankingAccountCollection&quot;)]
+[ForeignKey(&quot;BankingAccountCollection&quot;)]
+public virtual long? BankingAccountID { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Financial_VoucherHeadDTO_Company_" data-uid="SLS.Common.DTO.Financial.VoucherHeadDTO.Company*"></a>
+
+  <h3 id="SLS_Common_DTO_Financial_VoucherHeadDTO_Company" data-uid="SLS.Common.DTO.Financial.VoucherHeadDTO.Company">
+  Company
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Financial/VoucherHeadDTO.cs/#L325"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[ForeignKey(&quot;CompanyCollection&quot;)]
+[InverseProperty(&quot;VoucherHeads_Company&quot;)]
+[JsonIgnore]
+public virtual CompanyDTO? Company { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="SLS.Common.DTO.MasterData.CompanyDTO.html">CompanyDTO</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Financial_VoucherHeadDTO_CompanyDetail_" data-uid="SLS.Common.DTO.Financial.VoucherHeadDTO.CompanyDetail*"></a>
+
+  <h3 id="SLS_Common_DTO_Financial_VoucherHeadDTO_CompanyDetail" data-uid="SLS.Common.DTO.Financial.VoucherHeadDTO.CompanyDetail">
+  CompanyDetail
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Financial/VoucherHeadDTO.cs/#L340"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[ForeignKey(&quot;CompanyDetailCollection&quot;)]
+[InverseProperty(&quot;VoucherHeads_CompanyDetail&quot;)]
+[JsonIgnore]
+public virtual CompanyDetailDTO? CompanyDetail { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="SLS.Common.DTO.Financial.CompanyDetailDTO.html">CompanyDetailDTO</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Financial_VoucherHeadDTO_CompanyDetailID_" data-uid="SLS.Common.DTO.Financial.VoucherHeadDTO.CompanyDetailID*"></a>
+
+  <h3 id="SLS_Common_DTO_Financial_VoucherHeadDTO_CompanyDetailID" data-uid="SLS.Common.DTO.Financial.VoucherHeadDTO.CompanyDetailID">
+  CompanyDetailID
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Financial/VoucherHeadDTO.cs/#L67"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;CompanyDetailCollection&quot;)]
+[ForeignKey(&quot;CompanyDetailCollection&quot;)]
+public virtual long CompanyDetailID { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Financial_VoucherHeadDTO_CompanyID_" data-uid="SLS.Common.DTO.Financial.VoucherHeadDTO.CompanyID*"></a>
+
+  <h3 id="SLS_Common_DTO_Financial_VoucherHeadDTO_CompanyID" data-uid="SLS.Common.DTO.Financial.VoucherHeadDTO.CompanyID">
+  CompanyID
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Financial/VoucherHeadDTO.cs/#L52"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;CompanyCollection&quot;)]
+[ForeignKey(&quot;CompanyCollection&quot;)]
+public virtual long CompanyID { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Financial_VoucherHeadDTO_Company_ID_" data-uid="SLS.Common.DTO.Financial.VoucherHeadDTO.Company_ID*"></a>
+
+  <h3 id="SLS_Common_DTO_Financial_VoucherHeadDTO_Company_ID" data-uid="SLS.Common.DTO.Financial.VoucherHeadDTO.Company_ID">
+  Company_ID
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Financial/VoucherHeadDTO.cs/#L41"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public long? Company_ID { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Financial_VoucherHeadDTO_CreatedBy_" data-uid="SLS.Common.DTO.Financial.VoucherHeadDTO.CreatedBy*"></a>
+
+  <h3 id="SLS_Common_DTO_Financial_VoucherHeadDTO_CreatedBy" data-uid="SLS.Common.DTO.Financial.VoucherHeadDTO.CreatedBy">
+  CreatedBy
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Financial/VoucherHeadDTO.cs/#L177"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;CreatedBy&quot;)]
+public virtual string CreatedBy { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Financial_VoucherHeadDTO_CreatedDate_" data-uid="SLS.Common.DTO.Financial.VoucherHeadDTO.CreatedDate*"></a>
+
+  <h3 id="SLS_Common_DTO_Financial_VoucherHeadDTO_CreatedDate" data-uid="SLS.Common.DTO.Financial.VoucherHeadDTO.CreatedDate">
+  CreatedDate
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Financial/VoucherHeadDTO.cs/#L173"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;CreatedDate&quot;)]
+public virtual DateTime CreatedDate { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.datetime">DateTime</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Financial_VoucherHeadDTO_Currency_" data-uid="SLS.Common.DTO.Financial.VoucherHeadDTO.Currency*"></a>
+
+  <h3 id="SLS_Common_DTO_Financial_VoucherHeadDTO_Currency" data-uid="SLS.Common.DTO.Financial.VoucherHeadDTO.Currency">
+  Currency
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Financial/VoucherHeadDTO.cs/#L350"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[ForeignKey(&quot;CurrencyCollection&quot;)]
+[InverseProperty(&quot;VoucherHeads_Currency&quot;)]
+[JsonIgnore]
+public virtual CurrencyDTO? Currency { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="SLS.Common.DTO.Financial.CurrencyDTO.html">CurrencyDTO</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Financial_VoucherHeadDTO_CurrencyGrossPrice_" data-uid="SLS.Common.DTO.Financial.VoucherHeadDTO.CurrencyGrossPrice*"></a>
+
+  <h3 id="SLS_Common_DTO_Financial_VoucherHeadDTO_CurrencyGrossPrice" data-uid="SLS.Common.DTO.Financial.VoucherHeadDTO.CurrencyGrossPrice">
+  CurrencyGrossPrice
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Financial/VoucherHeadDTO.cs/#L133"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;CurrencyGrossPrice&quot;)]
+public virtual double CurrencyGrossPrice { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Financial_VoucherHeadDTO_CurrencyID_" data-uid="SLS.Common.DTO.Financial.VoucherHeadDTO.CurrencyID*"></a>
+
+  <h3 id="SLS_Common_DTO_Financial_VoucherHeadDTO_CurrencyID" data-uid="SLS.Common.DTO.Financial.VoucherHeadDTO.CurrencyID">
+  CurrencyID
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Financial/VoucherHeadDTO.cs/#L77"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;CurrencyCollection&quot;)]
+[ForeignKey(&quot;CurrencyCollection&quot;)]
+public virtual long CurrencyID { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Financial_VoucherHeadDTO_CurrencyNetPrice_" data-uid="SLS.Common.DTO.Financial.VoucherHeadDTO.CurrencyNetPrice*"></a>
+
+  <h3 id="SLS_Common_DTO_Financial_VoucherHeadDTO_CurrencyNetPrice" data-uid="SLS.Common.DTO.Financial.VoucherHeadDTO.CurrencyNetPrice">
+  CurrencyNetPrice
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Financial/VoucherHeadDTO.cs/#L137"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;CurrencyNetPrice&quot;)]
+public virtual double CurrencyNetPrice { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Financial_VoucherHeadDTO_CurrencyTaxPrice_" data-uid="SLS.Common.DTO.Financial.VoucherHeadDTO.CurrencyTaxPrice*"></a>
+
+  <h3 id="SLS_Common_DTO_Financial_VoucherHeadDTO_CurrencyTaxPrice" data-uid="SLS.Common.DTO.Financial.VoucherHeadDTO.CurrencyTaxPrice">
+  CurrencyTaxPrice
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Financial/VoucherHeadDTO.cs/#L141"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;CurrencyTaxPrice&quot;)]
+public virtual double CurrencyTaxPrice { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Financial_VoucherHeadDTO_CustomerHistory_Voucher_" data-uid="SLS.Common.DTO.Financial.VoucherHeadDTO.CustomerHistory_Voucher*"></a>
+
+  <h3 id="SLS_Common_DTO_Financial_VoucherHeadDTO_CustomerHistory_Voucher" data-uid="SLS.Common.DTO.Financial.VoucherHeadDTO.CustomerHistory_Voucher">
+  CustomerHistory_Voucher
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Financial/VoucherHeadDTO.cs/#L414"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;VoucherCollection&quot;)]
+[JsonIgnore]
+public virtual List&lt;CustomerHistoryDTO&gt;? CustomerHistory_Voucher { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<a class="xref" href="SLS.Common.DTO.Common.CustomerHistoryDTO.html">CustomerHistoryDTO</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Financial_VoucherHeadDTO_Department_ID_" data-uid="SLS.Common.DTO.Financial.VoucherHeadDTO.Department_ID*"></a>
+
+  <h3 id="SLS_Common_DTO_Financial_VoucherHeadDTO_Department_ID" data-uid="SLS.Common.DTO.Financial.VoucherHeadDTO.Department_ID">
+  Department_ID
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Financial/VoucherHeadDTO.cs/#L43"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public long? Department_ID { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Financial_VoucherHeadDTO_Division_ID_" data-uid="SLS.Common.DTO.Financial.VoucherHeadDTO.Division_ID*"></a>
+
+  <h3 id="SLS_Common_DTO_Financial_VoucherHeadDTO_Division_ID" data-uid="SLS.Common.DTO.Financial.VoucherHeadDTO.Division_ID">
+  Division_ID
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Financial/VoucherHeadDTO.cs/#L45"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public long? Division_ID { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Financial_VoucherHeadDTO_DueDate_" data-uid="SLS.Common.DTO.Financial.VoucherHeadDTO.DueDate*"></a>
+
+  <h3 id="SLS_Common_DTO_Financial_VoucherHeadDTO_DueDate" data-uid="SLS.Common.DTO.Financial.VoucherHeadDTO.DueDate">
+  DueDate
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Financial/VoucherHeadDTO.cs/#L161"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;DueDate&quot;)]
+public virtual DateTime DueDate { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.datetime">DateTime</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Financial_VoucherHeadDTO_ExternalVoucherNumber_" data-uid="SLS.Common.DTO.Financial.VoucherHeadDTO.ExternalVoucherNumber*"></a>
+
+  <h3 id="SLS_Common_DTO_Financial_VoucherHeadDTO_ExternalVoucherNumber" data-uid="SLS.Common.DTO.Financial.VoucherHeadDTO.ExternalVoucherNumber">
+  ExternalVoucherNumber
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Financial/VoucherHeadDTO.cs/#L149"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;ExternalVoucherNumber&quot;)]
+public virtual string? ExternalVoucherNumber { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Financial_VoucherHeadDTO_FiscalYear_ID_" data-uid="SLS.Common.DTO.Financial.VoucherHeadDTO.FiscalYear_ID*"></a>
+
+  <h3 id="SLS_Common_DTO_Financial_VoucherHeadDTO_FiscalYear_ID" data-uid="SLS.Common.DTO.Financial.VoucherHeadDTO.FiscalYear_ID">
+  FiscalYear_ID
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Financial/VoucherHeadDTO.cs/#L44"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public long? FiscalYear_ID { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Financial_VoucherHeadDTO_HomeGrossPrice_" data-uid="SLS.Common.DTO.Financial.VoucherHeadDTO.HomeGrossPrice*"></a>
+
+  <h3 id="SLS_Common_DTO_Financial_VoucherHeadDTO_HomeGrossPrice" data-uid="SLS.Common.DTO.Financial.VoucherHeadDTO.HomeGrossPrice">
+  HomeGrossPrice
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Financial/VoucherHeadDTO.cs/#L121"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;HomeGrossPrice&quot;)]
+public virtual double HomeGrossPrice { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Financial_VoucherHeadDTO_HomeNetPrice_" data-uid="SLS.Common.DTO.Financial.VoucherHeadDTO.HomeNetPrice*"></a>
+
+  <h3 id="SLS_Common_DTO_Financial_VoucherHeadDTO_HomeNetPrice" data-uid="SLS.Common.DTO.Financial.VoucherHeadDTO.HomeNetPrice">
+  HomeNetPrice
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Financial/VoucherHeadDTO.cs/#L125"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;HomeNetPrice&quot;)]
+public virtual double HomeNetPrice { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Financial_VoucherHeadDTO_HomeTaxPrice_" data-uid="SLS.Common.DTO.Financial.VoucherHeadDTO.HomeTaxPrice*"></a>
+
+  <h3 id="SLS_Common_DTO_Financial_VoucherHeadDTO_HomeTaxPrice" data-uid="SLS.Common.DTO.Financial.VoucherHeadDTO.HomeTaxPrice">
+  HomeTaxPrice
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Financial/VoucherHeadDTO.cs/#L129"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;HomeTaxPrice&quot;)]
+public virtual double HomeTaxPrice { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Financial_VoucherHeadDTO_Id_" data-uid="SLS.Common.DTO.Financial.VoucherHeadDTO.Id*"></a>
+
+  <h3 id="SLS_Common_DTO_Financial_VoucherHeadDTO_Id" data-uid="SLS.Common.DTO.Financial.VoucherHeadDTO.Id">
+  Id
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Financial/VoucherHeadDTO.cs/#L34"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;ID&quot;)]
+public long Id { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Financial_VoucherHeadDTO_IsExported_" data-uid="SLS.Common.DTO.Financial.VoucherHeadDTO.IsExported*"></a>
+
+  <h3 id="SLS_Common_DTO_Financial_VoucherHeadDTO_IsExported" data-uid="SLS.Common.DTO.Financial.VoucherHeadDTO.IsExported">
+  IsExported
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Financial/VoucherHeadDTO.cs/#L181"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;IsExported&quot;)]
+public virtual bool? IsExported { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Financial_VoucherHeadDTO_IsProForma_" data-uid="SLS.Common.DTO.Financial.VoucherHeadDTO.IsProForma*"></a>
+
+  <h3 id="SLS_Common_DTO_Financial_VoucherHeadDTO_IsProForma" data-uid="SLS.Common.DTO.Financial.VoucherHeadDTO.IsProForma">
+  IsProForma
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Financial/VoucherHeadDTO.cs/#L313"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;IsProForma&quot;)]
+public virtual bool IsProForma { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Financial_VoucherHeadDTO_KundenNummerBeiAbrechnung_" data-uid="SLS.Common.DTO.Financial.VoucherHeadDTO.KundenNummerBeiAbrechnung*"></a>
+
+  <h3 id="SLS_Common_DTO_Financial_VoucherHeadDTO_KundenNummerBeiAbrechnung" data-uid="SLS.Common.DTO.Financial.VoucherHeadDTO.KundenNummerBeiAbrechnung">
+  KundenNummerBeiAbrechnung
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Financial/VoucherHeadDTO.cs/#L189"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;KundenNummerBeiAbrechnung&quot;)]
+public virtual string? KundenNummerBeiAbrechnung { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Financial_VoucherHeadDTO_LastVoucherHeadProcessStatus_" data-uid="SLS.Common.DTO.Financial.VoucherHeadDTO.LastVoucherHeadProcessStatus*"></a>
+
+  <h3 id="SLS_Common_DTO_Financial_VoucherHeadDTO_LastVoucherHeadProcessStatus" data-uid="SLS.Common.DTO.Financial.VoucherHeadDTO.LastVoucherHeadProcessStatus">
+  LastVoucherHeadProcessStatus
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Financial/VoucherHeadDTO.cs/#L385"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[ForeignKey(&quot;LastVoucherHeadProcessStatusCollection&quot;)]
+[InverseProperty(&quot;VoucherHeads_LastVoucherHeadProcessStatus&quot;)]
+[JsonIgnore]
+public virtual VoucherHeadProcessStatusDTO? LastVoucherHeadProcessStatus { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="SLS.Common.DTO.Financial.VoucherHeadProcessStatusDTO.html">VoucherHeadProcessStatusDTO</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Financial_VoucherHeadDTO_LastVoucherHeadProcessStatusID_" data-uid="SLS.Common.DTO.Financial.VoucherHeadDTO.LastVoucherHeadProcessStatusID*"></a>
+
+  <h3 id="SLS_Common_DTO_Financial_VoucherHeadDTO_LastVoucherHeadProcessStatusID" data-uid="SLS.Common.DTO.Financial.VoucherHeadDTO.LastVoucherHeadProcessStatusID">
+  LastVoucherHeadProcessStatusID
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Financial/VoucherHeadDTO.cs/#L112"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;LastVoucherHeadProcessStatusCollection&quot;)]
+[ForeignKey(&quot;LastVoucherHeadProcessStatusCollection&quot;)]
+public virtual long? LastVoucherHeadProcessStatusID { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Financial_VoucherHeadDTO_Note_VoucherHead_" data-uid="SLS.Common.DTO.Financial.VoucherHeadDTO.Note_VoucherHead*"></a>
+
+  <h3 id="SLS_Common_DTO_Financial_VoucherHeadDTO_Note_VoucherHead" data-uid="SLS.Common.DTO.Financial.VoucherHeadDTO.Note_VoucherHead">
+  Note_VoucherHead
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Financial/VoucherHeadDTO.cs/#L409"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;VoucherHeadCollection&quot;)]
+[JsonIgnore]
+public virtual List&lt;NoteDTO&gt;? Note_VoucherHead { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<a class="xref" href="SLS.Common.DTO.Dispatch.NoteDTO.html">NoteDTO</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Financial_VoucherHeadDTO_OnlineTransmittedTime_" data-uid="SLS.Common.DTO.Financial.VoucherHeadDTO.OnlineTransmittedTime*"></a>
+
+  <h3 id="SLS_Common_DTO_Financial_VoucherHeadDTO_OnlineTransmittedTime" data-uid="SLS.Common.DTO.Financial.VoucherHeadDTO.OnlineTransmittedTime">
+  OnlineTransmittedTime
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Financial/VoucherHeadDTO.cs/#L193"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;OnlineTransmittedTime&quot;)]
+public virtual DateTime? OnlineTransmittedTime { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.datetime">DateTime</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Financial_VoucherHeadDTO_Optional_Bool1_" data-uid="SLS.Common.DTO.Financial.VoucherHeadDTO.Optional_Bool1*"></a>
+
+  <h3 id="SLS_Common_DTO_Financial_VoucherHeadDTO_Optional_Bool1" data-uid="SLS.Common.DTO.Financial.VoucherHeadDTO.Optional_Bool1">
+  Optional_Bool1
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Financial/VoucherHeadDTO.cs/#L289"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;Optional_Bool1&quot;)]
+public virtual bool? Optional_Bool1 { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Financial_VoucherHeadDTO_Optional_Bool2_" data-uid="SLS.Common.DTO.Financial.VoucherHeadDTO.Optional_Bool2*"></a>
+
+  <h3 id="SLS_Common_DTO_Financial_VoucherHeadDTO_Optional_Bool2" data-uid="SLS.Common.DTO.Financial.VoucherHeadDTO.Optional_Bool2">
+  Optional_Bool2
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Financial/VoucherHeadDTO.cs/#L293"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;Optional_Bool2&quot;)]
+public virtual bool? Optional_Bool2 { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Financial_VoucherHeadDTO_Optional_Bool3_" data-uid="SLS.Common.DTO.Financial.VoucherHeadDTO.Optional_Bool3*"></a>
+
+  <h3 id="SLS_Common_DTO_Financial_VoucherHeadDTO_Optional_Bool3" data-uid="SLS.Common.DTO.Financial.VoucherHeadDTO.Optional_Bool3">
+  Optional_Bool3
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Financial/VoucherHeadDTO.cs/#L297"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;Optional_Bool3&quot;)]
+public virtual bool? Optional_Bool3 { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Financial_VoucherHeadDTO_Optional_Date1_" data-uid="SLS.Common.DTO.Financial.VoucherHeadDTO.Optional_Date1*"></a>
+
+  <h3 id="SLS_Common_DTO_Financial_VoucherHeadDTO_Optional_Date1" data-uid="SLS.Common.DTO.Financial.VoucherHeadDTO.Optional_Date1">
+  Optional_Date1
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Financial/VoucherHeadDTO.cs/#L277"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;Optional_Date1&quot;)]
+public virtual DateTime? Optional_Date1 { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.datetime">DateTime</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Financial_VoucherHeadDTO_Optional_Date2_" data-uid="SLS.Common.DTO.Financial.VoucherHeadDTO.Optional_Date2*"></a>
+
+  <h3 id="SLS_Common_DTO_Financial_VoucherHeadDTO_Optional_Date2" data-uid="SLS.Common.DTO.Financial.VoucherHeadDTO.Optional_Date2">
+  Optional_Date2
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Financial/VoucherHeadDTO.cs/#L281"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;Optional_Date2&quot;)]
+public virtual DateTime? Optional_Date2 { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.datetime">DateTime</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Financial_VoucherHeadDTO_Optional_Date3_" data-uid="SLS.Common.DTO.Financial.VoucherHeadDTO.Optional_Date3*"></a>
+
+  <h3 id="SLS_Common_DTO_Financial_VoucherHeadDTO_Optional_Date3" data-uid="SLS.Common.DTO.Financial.VoucherHeadDTO.Optional_Date3">
+  Optional_Date3
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Financial/VoucherHeadDTO.cs/#L285"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;Optional_Date3&quot;)]
+public virtual DateTime? Optional_Date3 { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.datetime">DateTime</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Financial_VoucherHeadDTO_Optional_Float1_" data-uid="SLS.Common.DTO.Financial.VoucherHeadDTO.Optional_Float1*"></a>
+
+  <h3 id="SLS_Common_DTO_Financial_VoucherHeadDTO_Optional_Float1" data-uid="SLS.Common.DTO.Financial.VoucherHeadDTO.Optional_Float1">
+  Optional_Float1
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Financial/VoucherHeadDTO.cs/#L305"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;Optional_Float1&quot;)]
+public virtual double? Optional_Float1 { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Financial_VoucherHeadDTO_Optional_Float2_" data-uid="SLS.Common.DTO.Financial.VoucherHeadDTO.Optional_Float2*"></a>
+
+  <h3 id="SLS_Common_DTO_Financial_VoucherHeadDTO_Optional_Float2" data-uid="SLS.Common.DTO.Financial.VoucherHeadDTO.Optional_Float2">
+  Optional_Float2
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Financial/VoucherHeadDTO.cs/#L301"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;Optional_Float2&quot;)]
+public virtual double? Optional_Float2 { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Financial_VoucherHeadDTO_Optional_Float3_" data-uid="SLS.Common.DTO.Financial.VoucherHeadDTO.Optional_Float3*"></a>
+
+  <h3 id="SLS_Common_DTO_Financial_VoucherHeadDTO_Optional_Float3" data-uid="SLS.Common.DTO.Financial.VoucherHeadDTO.Optional_Float3">
+  Optional_Float3
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Financial/VoucherHeadDTO.cs/#L309"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;Optional_Float3&quot;)]
+public virtual double? Optional_Float3 { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Financial_VoucherHeadDTO_Optional_Num1_" data-uid="SLS.Common.DTO.Financial.VoucherHeadDTO.Optional_Num1*"></a>
+
+  <h3 id="SLS_Common_DTO_Financial_VoucherHeadDTO_Optional_Num1" data-uid="SLS.Common.DTO.Financial.VoucherHeadDTO.Optional_Num1">
+  Optional_Num1
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Financial/VoucherHeadDTO.cs/#L237"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;Optional_Num1&quot;)]
+public virtual int? Optional_Num1 { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Financial_VoucherHeadDTO_Optional_Num10_" data-uid="SLS.Common.DTO.Financial.VoucherHeadDTO.Optional_Num10*"></a>
+
+  <h3 id="SLS_Common_DTO_Financial_VoucherHeadDTO_Optional_Num10" data-uid="SLS.Common.DTO.Financial.VoucherHeadDTO.Optional_Num10">
+  Optional_Num10
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Financial/VoucherHeadDTO.cs/#L273"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;Optional_Num10&quot;)]
+public virtual long? Optional_Num10 { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Financial_VoucherHeadDTO_Optional_Num2_" data-uid="SLS.Common.DTO.Financial.VoucherHeadDTO.Optional_Num2*"></a>
+
+  <h3 id="SLS_Common_DTO_Financial_VoucherHeadDTO_Optional_Num2" data-uid="SLS.Common.DTO.Financial.VoucherHeadDTO.Optional_Num2">
+  Optional_Num2
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Financial/VoucherHeadDTO.cs/#L241"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;Optional_Num2&quot;)]
+public virtual int? Optional_Num2 { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Financial_VoucherHeadDTO_Optional_Num3_" data-uid="SLS.Common.DTO.Financial.VoucherHeadDTO.Optional_Num3*"></a>
+
+  <h3 id="SLS_Common_DTO_Financial_VoucherHeadDTO_Optional_Num3" data-uid="SLS.Common.DTO.Financial.VoucherHeadDTO.Optional_Num3">
+  Optional_Num3
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Financial/VoucherHeadDTO.cs/#L245"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;Optional_Num3&quot;)]
+public virtual int? Optional_Num3 { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Financial_VoucherHeadDTO_Optional_Num4_" data-uid="SLS.Common.DTO.Financial.VoucherHeadDTO.Optional_Num4*"></a>
+
+  <h3 id="SLS_Common_DTO_Financial_VoucherHeadDTO_Optional_Num4" data-uid="SLS.Common.DTO.Financial.VoucherHeadDTO.Optional_Num4">
+  Optional_Num4
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Financial/VoucherHeadDTO.cs/#L249"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;Optional_Num4&quot;)]
+public virtual int? Optional_Num4 { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Financial_VoucherHeadDTO_Optional_Num5_" data-uid="SLS.Common.DTO.Financial.VoucherHeadDTO.Optional_Num5*"></a>
+
+  <h3 id="SLS_Common_DTO_Financial_VoucherHeadDTO_Optional_Num5" data-uid="SLS.Common.DTO.Financial.VoucherHeadDTO.Optional_Num5">
+  Optional_Num5
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Financial/VoucherHeadDTO.cs/#L253"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;Optional_Num5&quot;)]
+public virtual int? Optional_Num5 { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Financial_VoucherHeadDTO_Optional_Num6_" data-uid="SLS.Common.DTO.Financial.VoucherHeadDTO.Optional_Num6*"></a>
+
+  <h3 id="SLS_Common_DTO_Financial_VoucherHeadDTO_Optional_Num6" data-uid="SLS.Common.DTO.Financial.VoucherHeadDTO.Optional_Num6">
+  Optional_Num6
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Financial/VoucherHeadDTO.cs/#L257"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;Optional_Num6&quot;)]
+public virtual long? Optional_Num6 { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Financial_VoucherHeadDTO_Optional_Num7_" data-uid="SLS.Common.DTO.Financial.VoucherHeadDTO.Optional_Num7*"></a>
+
+  <h3 id="SLS_Common_DTO_Financial_VoucherHeadDTO_Optional_Num7" data-uid="SLS.Common.DTO.Financial.VoucherHeadDTO.Optional_Num7">
+  Optional_Num7
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Financial/VoucherHeadDTO.cs/#L261"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;Optional_Num7&quot;)]
+public virtual long? Optional_Num7 { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Financial_VoucherHeadDTO_Optional_Num8_" data-uid="SLS.Common.DTO.Financial.VoucherHeadDTO.Optional_Num8*"></a>
+
+  <h3 id="SLS_Common_DTO_Financial_VoucherHeadDTO_Optional_Num8" data-uid="SLS.Common.DTO.Financial.VoucherHeadDTO.Optional_Num8">
+  Optional_Num8
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Financial/VoucherHeadDTO.cs/#L265"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;Optional_Num8&quot;)]
+public virtual long? Optional_Num8 { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Financial_VoucherHeadDTO_Optional_Num9_" data-uid="SLS.Common.DTO.Financial.VoucherHeadDTO.Optional_Num9*"></a>
+
+  <h3 id="SLS_Common_DTO_Financial_VoucherHeadDTO_Optional_Num9" data-uid="SLS.Common.DTO.Financial.VoucherHeadDTO.Optional_Num9">
+  Optional_Num9
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Financial/VoucherHeadDTO.cs/#L269"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;Optional_Num9&quot;)]
+public virtual long? Optional_Num9 { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Financial_VoucherHeadDTO_Optional_String1_" data-uid="SLS.Common.DTO.Financial.VoucherHeadDTO.Optional_String1*"></a>
+
+  <h3 id="SLS_Common_DTO_Financial_VoucherHeadDTO_Optional_String1" data-uid="SLS.Common.DTO.Financial.VoucherHeadDTO.Optional_String1">
+  Optional_String1
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Financial/VoucherHeadDTO.cs/#L197"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;Optional_String1&quot;)]
+public virtual string? Optional_String1 { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Financial_VoucherHeadDTO_Optional_String10_" data-uid="SLS.Common.DTO.Financial.VoucherHeadDTO.Optional_String10*"></a>
+
+  <h3 id="SLS_Common_DTO_Financial_VoucherHeadDTO_Optional_String10" data-uid="SLS.Common.DTO.Financial.VoucherHeadDTO.Optional_String10">
+  Optional_String10
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Financial/VoucherHeadDTO.cs/#L233"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;Optional_String10&quot;)]
+public virtual string? Optional_String10 { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Financial_VoucherHeadDTO_Optional_String2_" data-uid="SLS.Common.DTO.Financial.VoucherHeadDTO.Optional_String2*"></a>
+
+  <h3 id="SLS_Common_DTO_Financial_VoucherHeadDTO_Optional_String2" data-uid="SLS.Common.DTO.Financial.VoucherHeadDTO.Optional_String2">
+  Optional_String2
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Financial/VoucherHeadDTO.cs/#L201"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;Optional_String2&quot;)]
+public virtual string? Optional_String2 { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Financial_VoucherHeadDTO_Optional_String3_" data-uid="SLS.Common.DTO.Financial.VoucherHeadDTO.Optional_String3*"></a>
+
+  <h3 id="SLS_Common_DTO_Financial_VoucherHeadDTO_Optional_String3" data-uid="SLS.Common.DTO.Financial.VoucherHeadDTO.Optional_String3">
+  Optional_String3
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Financial/VoucherHeadDTO.cs/#L205"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;Optional_String3&quot;)]
+public virtual string? Optional_String3 { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Financial_VoucherHeadDTO_Optional_String4_" data-uid="SLS.Common.DTO.Financial.VoucherHeadDTO.Optional_String4*"></a>
+
+  <h3 id="SLS_Common_DTO_Financial_VoucherHeadDTO_Optional_String4" data-uid="SLS.Common.DTO.Financial.VoucherHeadDTO.Optional_String4">
+  Optional_String4
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Financial/VoucherHeadDTO.cs/#L209"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;Optional_String4&quot;)]
+public virtual string? Optional_String4 { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Financial_VoucherHeadDTO_Optional_String5_" data-uid="SLS.Common.DTO.Financial.VoucherHeadDTO.Optional_String5*"></a>
+
+  <h3 id="SLS_Common_DTO_Financial_VoucherHeadDTO_Optional_String5" data-uid="SLS.Common.DTO.Financial.VoucherHeadDTO.Optional_String5">
+  Optional_String5
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Financial/VoucherHeadDTO.cs/#L213"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;Optional_String5&quot;)]
+public virtual string? Optional_String5 { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Financial_VoucherHeadDTO_Optional_String6_" data-uid="SLS.Common.DTO.Financial.VoucherHeadDTO.Optional_String6*"></a>
+
+  <h3 id="SLS_Common_DTO_Financial_VoucherHeadDTO_Optional_String6" data-uid="SLS.Common.DTO.Financial.VoucherHeadDTO.Optional_String6">
+  Optional_String6
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Financial/VoucherHeadDTO.cs/#L217"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;Optional_String6&quot;)]
+public virtual string? Optional_String6 { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Financial_VoucherHeadDTO_Optional_String7_" data-uid="SLS.Common.DTO.Financial.VoucherHeadDTO.Optional_String7*"></a>
+
+  <h3 id="SLS_Common_DTO_Financial_VoucherHeadDTO_Optional_String7" data-uid="SLS.Common.DTO.Financial.VoucherHeadDTO.Optional_String7">
+  Optional_String7
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Financial/VoucherHeadDTO.cs/#L221"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;Optional_String7&quot;)]
+public virtual string? Optional_String7 { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Financial_VoucherHeadDTO_Optional_String8_" data-uid="SLS.Common.DTO.Financial.VoucherHeadDTO.Optional_String8*"></a>
+
+  <h3 id="SLS_Common_DTO_Financial_VoucherHeadDTO_Optional_String8" data-uid="SLS.Common.DTO.Financial.VoucherHeadDTO.Optional_String8">
+  Optional_String8
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Financial/VoucherHeadDTO.cs/#L225"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;Optional_String8&quot;)]
+public virtual string? Optional_String8 { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Financial_VoucherHeadDTO_Optional_String9_" data-uid="SLS.Common.DTO.Financial.VoucherHeadDTO.Optional_String9*"></a>
+
+  <h3 id="SLS_Common_DTO_Financial_VoucherHeadDTO_Optional_String9" data-uid="SLS.Common.DTO.Financial.VoucherHeadDTO.Optional_String9">
+  Optional_String9
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Financial/VoucherHeadDTO.cs/#L229"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;Optional_String9&quot;)]
+public virtual string? Optional_String9 { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Financial_VoucherHeadDTO_OriginVoucherHead_" data-uid="SLS.Common.DTO.Financial.VoucherHeadDTO.OriginVoucherHead*"></a>
+
+  <h3 id="SLS_Common_DTO_Financial_VoucherHeadDTO_OriginVoucherHead" data-uid="SLS.Common.DTO.Financial.VoucherHeadDTO.OriginVoucherHead">
+  OriginVoucherHead
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Financial/VoucherHeadDTO.cs/#L355"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[ForeignKey(&quot;OriginVoucherHeadCollection&quot;)]
+[InverseProperty(&quot;VoucherHeads_OriginVoucherHead&quot;)]
+[JsonIgnore]
+public virtual VoucherHeadDTO? OriginVoucherHead { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="SLS.Common.DTO.Financial.VoucherHeadDTO.html">VoucherHeadDTO</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Financial_VoucherHeadDTO_OriginVoucherHeadID_" data-uid="SLS.Common.DTO.Financial.VoucherHeadDTO.OriginVoucherHeadID*"></a>
+
+  <h3 id="SLS_Common_DTO_Financial_VoucherHeadDTO_OriginVoucherHeadID" data-uid="SLS.Common.DTO.Financial.VoucherHeadDTO.OriginVoucherHeadID">
+  OriginVoucherHeadID
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Financial/VoucherHeadDTO.cs/#L82"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;OriginVoucherHeadCollection&quot;)]
+[ForeignKey(&quot;OriginVoucherHeadCollection&quot;)]
+public virtual long? OriginVoucherHeadID { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Financial_VoucherHeadDTO_PaymentCondition_" data-uid="SLS.Common.DTO.Financial.VoucherHeadDTO.PaymentCondition*"></a>
+
+  <h3 id="SLS_Common_DTO_Financial_VoucherHeadDTO_PaymentCondition" data-uid="SLS.Common.DTO.Financial.VoucherHeadDTO.PaymentCondition">
+  PaymentCondition
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Financial/VoucherHeadDTO.cs/#L345"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[ForeignKey(&quot;PaymentConditionCollection&quot;)]
+[InverseProperty(&quot;VoucherHeads_PaymentCondition&quot;)]
+[JsonIgnore]
+public virtual PaymentConditionDTO? PaymentCondition { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="SLS.Common.DTO.Financial.PaymentConditionDTO.html">PaymentConditionDTO</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Financial_VoucherHeadDTO_PaymentConditionID_" data-uid="SLS.Common.DTO.Financial.VoucherHeadDTO.PaymentConditionID*"></a>
+
+  <h3 id="SLS_Common_DTO_Financial_VoucherHeadDTO_PaymentConditionID" data-uid="SLS.Common.DTO.Financial.VoucherHeadDTO.PaymentConditionID">
+  PaymentConditionID
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Financial/VoucherHeadDTO.cs/#L72"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;PaymentConditionCollection&quot;)]
+[ForeignKey(&quot;PaymentConditionCollection&quot;)]
+public virtual long? PaymentConditionID { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Financial_VoucherHeadDTO_PrintedOn_" data-uid="SLS.Common.DTO.Financial.VoucherHeadDTO.PrintedOn*"></a>
+
+  <h3 id="SLS_Common_DTO_Financial_VoucherHeadDTO_PrintedOn" data-uid="SLS.Common.DTO.Financial.VoucherHeadDTO.PrintedOn">
+  PrintedOn
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Financial/VoucherHeadDTO.cs/#L185"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;PrintedOn&quot;)]
+public virtual DateTime? PrintedOn { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.datetime">DateTime</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Financial_VoucherHeadDTO_ProcessStatus_" data-uid="SLS.Common.DTO.Financial.VoucherHeadDTO.ProcessStatus*"></a>
+
+  <h3 id="SLS_Common_DTO_Financial_VoucherHeadDTO_ProcessStatus" data-uid="SLS.Common.DTO.Financial.VoucherHeadDTO.ProcessStatus">
+  ProcessStatus
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Financial/VoucherHeadDTO.cs/#L370"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[ForeignKey(&quot;ProcessStatusCollection&quot;)]
+[InverseProperty(&quot;VoucherHeads_ProcessStatus&quot;)]
+[JsonIgnore]
+public virtual ProcessStatusDTO? ProcessStatus { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="SLS.Common.DTO.MasterData.Dispo.ProcessStatusDTO.html">ProcessStatusDTO</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Financial_VoucherHeadDTO_ProcessStatusID_" data-uid="SLS.Common.DTO.Financial.VoucherHeadDTO.ProcessStatusID*"></a>
+
+  <h3 id="SLS_Common_DTO_Financial_VoucherHeadDTO_ProcessStatusID" data-uid="SLS.Common.DTO.Financial.VoucherHeadDTO.ProcessStatusID">
+  ProcessStatusID
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Financial/VoucherHeadDTO.cs/#L97"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;ProcessStatusCollection&quot;)]
+[ForeignKey(&quot;ProcessStatusCollection&quot;)]
+public virtual long? ProcessStatusID { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Financial_VoucherHeadDTO_StatusReason_" data-uid="SLS.Common.DTO.Financial.VoucherHeadDTO.StatusReason*"></a>
+
+  <h3 id="SLS_Common_DTO_Financial_VoucherHeadDTO_StatusReason" data-uid="SLS.Common.DTO.Financial.VoucherHeadDTO.StatusReason">
+  StatusReason
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Financial/VoucherHeadDTO.cs/#L375"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[ForeignKey(&quot;StatusReasonCollection&quot;)]
+[InverseProperty(&quot;VoucherHeads_StatusReason&quot;)]
+[JsonIgnore]
+public virtual StatusReasonDTO? StatusReason { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="SLS.Common.DTO.MasterData.Dispo.StatusReasonDTO.html">StatusReasonDTO</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Financial_VoucherHeadDTO_StatusReasonID_" data-uid="SLS.Common.DTO.Financial.VoucherHeadDTO.StatusReasonID*"></a>
+
+  <h3 id="SLS_Common_DTO_Financial_VoucherHeadDTO_StatusReasonID" data-uid="SLS.Common.DTO.Financial.VoucherHeadDTO.StatusReasonID">
+  StatusReasonID
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Financial/VoucherHeadDTO.cs/#L102"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;StatusReasonCollection&quot;)]
+[ForeignKey(&quot;StatusReasonCollection&quot;)]
+public virtual long? StatusReasonID { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Financial_VoucherHeadDTO_Subsidiary_ID_" data-uid="SLS.Common.DTO.Financial.VoucherHeadDTO.Subsidiary_ID*"></a>
+
+  <h3 id="SLS_Common_DTO_Financial_VoucherHeadDTO_Subsidiary_ID" data-uid="SLS.Common.DTO.Financial.VoucherHeadDTO.Subsidiary_ID">
+  Subsidiary_ID
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Financial/VoucherHeadDTO.cs/#L42"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public long? Subsidiary_ID { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Financial_VoucherHeadDTO_TextLong_" data-uid="SLS.Common.DTO.Financial.VoucherHeadDTO.TextLong*"></a>
+
+  <h3 id="SLS_Common_DTO_Financial_VoucherHeadDTO_TextLong" data-uid="SLS.Common.DTO.Financial.VoucherHeadDTO.TextLong">
+  TextLong
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Financial/VoucherHeadDTO.cs/#L169"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;TextLong&quot;)]
+public virtual string? TextLong { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Financial_VoucherHeadDTO_TextShort_" data-uid="SLS.Common.DTO.Financial.VoucherHeadDTO.TextShort*"></a>
+
+  <h3 id="SLS_Common_DTO_Financial_VoucherHeadDTO_TextShort" data-uid="SLS.Common.DTO.Financial.VoucherHeadDTO.TextShort">
+  TextShort
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Financial/VoucherHeadDTO.cs/#L165"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;TextShort&quot;)]
+public virtual string? TextShort { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Financial_VoucherHeadDTO_User_ID_" data-uid="SLS.Common.DTO.Financial.VoucherHeadDTO.User_ID*"></a>
+
+  <h3 id="SLS_Common_DTO_Financial_VoucherHeadDTO_User_ID" data-uid="SLS.Common.DTO.Financial.VoucherHeadDTO.User_ID">
+  User_ID
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Financial/VoucherHeadDTO.cs/#L46"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public long? User_ID { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Financial_VoucherHeadDTO_ValutaDate_" data-uid="SLS.Common.DTO.Financial.VoucherHeadDTO.ValutaDate*"></a>
+
+  <h3 id="SLS_Common_DTO_Financial_VoucherHeadDTO_ValutaDate" data-uid="SLS.Common.DTO.Financial.VoucherHeadDTO.ValutaDate">
+  ValutaDate
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Financial/VoucherHeadDTO.cs/#L317"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;ValutaDate&quot;)]
+public virtual DateTime? ValutaDate { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.datetime">DateTime</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Financial_VoucherHeadDTO_Version_" data-uid="SLS.Common.DTO.Financial.VoucherHeadDTO.Version*"></a>
+
+  <h3 id="SLS_Common_DTO_Financial_VoucherHeadDTO_Version" data-uid="SLS.Common.DTO.Financial.VoucherHeadDTO.Version">
+  Version
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Financial/VoucherHeadDTO.cs/#L38"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;Version&quot;)]
+public long Version { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Financial_VoucherHeadDTO_VoucherDate_" data-uid="SLS.Common.DTO.Financial.VoucherHeadDTO.VoucherDate*"></a>
+
+  <h3 id="SLS_Common_DTO_Financial_VoucherHeadDTO_VoucherDate" data-uid="SLS.Common.DTO.Financial.VoucherHeadDTO.VoucherDate">
+  VoucherDate
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Financial/VoucherHeadDTO.cs/#L153"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;VoucherDate&quot;)]
+public virtual DateTime VoucherDate { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.datetime">DateTime</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Financial_VoucherHeadDTO_VoucherHeadProcessStatus_" data-uid="SLS.Common.DTO.Financial.VoucherHeadDTO.VoucherHeadProcessStatus*"></a>
+
+  <h3 id="SLS_Common_DTO_Financial_VoucherHeadDTO_VoucherHeadProcessStatus" data-uid="SLS.Common.DTO.Financial.VoucherHeadDTO.VoucherHeadProcessStatus">
+  VoucherHeadProcessStatus
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Financial/VoucherHeadDTO.cs/#L380"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[ForeignKey(&quot;VoucherHeadProcessStatusCollection&quot;)]
+[InverseProperty(&quot;VoucherHeads_VoucherHeadProcessStatus&quot;)]
+[JsonIgnore]
+public virtual VoucherHeadProcessStatusDTO? VoucherHeadProcessStatus { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="SLS.Common.DTO.Financial.VoucherHeadProcessStatusDTO.html">VoucherHeadProcessStatusDTO</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Financial_VoucherHeadDTO_VoucherHeadProcessStatusID_" data-uid="SLS.Common.DTO.Financial.VoucherHeadDTO.VoucherHeadProcessStatusID*"></a>
+
+  <h3 id="SLS_Common_DTO_Financial_VoucherHeadDTO_VoucherHeadProcessStatusID" data-uid="SLS.Common.DTO.Financial.VoucherHeadDTO.VoucherHeadProcessStatusID">
+  VoucherHeadProcessStatusID
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Financial/VoucherHeadDTO.cs/#L107"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;VoucherHeadProcessStatusCollection&quot;)]
+[ForeignKey(&quot;VoucherHeadProcessStatusCollection&quot;)]
+public virtual long? VoucherHeadProcessStatusID { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Financial_VoucherHeadDTO_VoucherHeadProcessStatus_VoucherHead_" data-uid="SLS.Common.DTO.Financial.VoucherHeadDTO.VoucherHeadProcessStatus_VoucherHead*"></a>
+
+  <h3 id="SLS_Common_DTO_Financial_VoucherHeadDTO_VoucherHeadProcessStatus_VoucherHead" data-uid="SLS.Common.DTO.Financial.VoucherHeadDTO.VoucherHeadProcessStatus_VoucherHead">
+  VoucherHeadProcessStatus_VoucherHead
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Financial/VoucherHeadDTO.cs/#L399"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;VoucherHeadCollection&quot;)]
+public virtual List&lt;VoucherHeadProcessStatusDTO&gt;? VoucherHeadProcessStatus_VoucherHead { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<a class="xref" href="SLS.Common.DTO.Financial.VoucherHeadProcessStatusDTO.html">VoucherHeadProcessStatusDTO</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Financial_VoucherHeadDTO_VoucherHeads_OriginVoucherHead_" data-uid="SLS.Common.DTO.Financial.VoucherHeadDTO.VoucherHeads_OriginVoucherHead*"></a>
+
+  <h3 id="SLS_Common_DTO_Financial_VoucherHeadDTO_VoucherHeads_OriginVoucherHead" data-uid="SLS.Common.DTO.Financial.VoucherHeadDTO.VoucherHeads_OriginVoucherHead">
+  VoucherHeads_OriginVoucherHead
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Financial/VoucherHeadDTO.cs/#L404"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;OriginVoucherHeadCollection&quot;)]
+[JsonIgnore]
+public virtual List&lt;VoucherHeadDTO&gt;? VoucherHeads_OriginVoucherHead { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<a class="xref" href="SLS.Common.DTO.Financial.VoucherHeadDTO.html">VoucherHeadDTO</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Financial_VoucherHeadDTO_VoucherItems_VoucherHead_" data-uid="SLS.Common.DTO.Financial.VoucherHeadDTO.VoucherItems_VoucherHead*"></a>
+
+  <h3 id="SLS_Common_DTO_Financial_VoucherHeadDTO_VoucherItems_VoucherHead" data-uid="SLS.Common.DTO.Financial.VoucherHeadDTO.VoucherItems_VoucherHead">
+  VoucherItems_VoucherHead
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Financial/VoucherHeadDTO.cs/#L394"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;VoucherHeadCollection&quot;)]
+public virtual List&lt;VoucherItemDTO&gt;? VoucherItems_VoucherHead { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<a class="xref" href="SLS.Common.DTO.Financial.VoucherItemDTO.html">VoucherItemDTO</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Financial_VoucherHeadDTO_VoucherNumber_" data-uid="SLS.Common.DTO.Financial.VoucherHeadDTO.VoucherNumber*"></a>
+
+  <h3 id="SLS_Common_DTO_Financial_VoucherHeadDTO_VoucherNumber" data-uid="SLS.Common.DTO.Financial.VoucherHeadDTO.VoucherNumber">
+  VoucherNumber
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Financial/VoucherHeadDTO.cs/#L145"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;VoucherNumber&quot;)]
+public virtual string? VoucherNumber { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Financial_VoucherHeadDTO_VoucherState_" data-uid="SLS.Common.DTO.Financial.VoucherHeadDTO.VoucherState*"></a>
+
+  <h3 id="SLS_Common_DTO_Financial_VoucherHeadDTO_VoucherState" data-uid="SLS.Common.DTO.Financial.VoucherHeadDTO.VoucherState">
+  VoucherState
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Financial/VoucherHeadDTO.cs/#L360"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[ForeignKey(&quot;VoucherStateCollection&quot;)]
+[InverseProperty(&quot;VoucherHeads_VoucherState&quot;)]
+[JsonIgnore]
+public virtual VoucherStateDTO? VoucherState { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="SLS.Common.DTO.Financial.VoucherStateDTO.html">VoucherStateDTO</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Financial_VoucherHeadDTO_VoucherStateID_" data-uid="SLS.Common.DTO.Financial.VoucherHeadDTO.VoucherStateID*"></a>
+
+  <h3 id="SLS_Common_DTO_Financial_VoucherHeadDTO_VoucherStateID" data-uid="SLS.Common.DTO.Financial.VoucherHeadDTO.VoucherStateID">
+  VoucherStateID
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Financial/VoucherHeadDTO.cs/#L87"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;VoucherStateCollection&quot;)]
+[ForeignKey(&quot;VoucherStateCollection&quot;)]
+public virtual long VoucherStateID { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Financial_VoucherHeadDTO_VoucherType_" data-uid="SLS.Common.DTO.Financial.VoucherHeadDTO.VoucherType*"></a>
+
+  <h3 id="SLS_Common_DTO_Financial_VoucherHeadDTO_VoucherType" data-uid="SLS.Common.DTO.Financial.VoucherHeadDTO.VoucherType">
+  VoucherType
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Financial/VoucherHeadDTO.cs/#L335"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[ForeignKey(&quot;VoucherTypeCollection&quot;)]
+[InverseProperty(&quot;VoucherHeads_VoucherType&quot;)]
+[JsonIgnore]
+public virtual VoucherTypeDTO? VoucherType { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="SLS.Common.DTO.Financial.VoucherTypeDTO.html">VoucherTypeDTO</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Financial_VoucherHeadDTO_VoucherTypeID_" data-uid="SLS.Common.DTO.Financial.VoucherHeadDTO.VoucherTypeID*"></a>
+
+  <h3 id="SLS_Common_DTO_Financial_VoucherHeadDTO_VoucherTypeID" data-uid="SLS.Common.DTO.Financial.VoucherHeadDTO.VoucherTypeID">
+  VoucherTypeID
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Financial/VoucherHeadDTO.cs/#L62"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;VoucherTypeCollection&quot;)]
+[ForeignKey(&quot;VoucherTypeCollection&quot;)]
+public virtual long VoucherTypeID { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+</article>
+
+        <div class="contribution d-print-none">
+          <a href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Financial/VoucherHeadDTO.cs/#L28" class="edit-link">Edit this page</a>
+        </div>
+
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

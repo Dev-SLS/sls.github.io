@@ -1,0 +1,3407 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Class OrderRoutingDTO | SLS Documentation </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Class OrderRoutingDTO | SLS Documentation ">
+      
+      
+      <link rel="icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="../">
+      
+      
+      <meta name="docfx:docurl" content="https://github.com/Dev-SLS/dev/new/Dev/apiSpec/new?filename=SLS_Common_DTO_Dispatch_OrderRoutingDTO.md&amp;value=---%0Auid%3A%20SLS.Common.DTO.Dispatch.OrderRoutingDTO%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../logo.svg" alt="SLS Documentation">
+            SLS Documentation
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="SLS.Common.DTO.Dispatch.OrderRoutingDTO">
+
+
+
+  <h1 id="SLS_Common_DTO_Dispatch_OrderRoutingDTO" data-uid="SLS.Common.DTO.Dispatch.OrderRoutingDTO" class="text-break">
+Class OrderRoutingDTO  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Dispatch/OrderRoutingDTO.cs/#L28"><i class="bi bi-code-slash"></i></a>
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="SLS.html">SLS</a>.<a class="xref" href="SLS.Common.html">Common</a>.<a class="xref" href="SLS.Common.DTO.html">DTO</a>.<a class="xref" href="SLS.Common.DTO.Dispatch.html">Dispatch</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>SLS.Common.DTO.dll</dd></dl>
+  </div>
+
+  <div class="markdown summary"></div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Serializable]
+[DataContract(IsReference = true)]
+public class OrderRoutingDTO : IDTO</code></pre>
+  </div>
+
+
+
+
+  <dl class="typelist inheritance">
+    <dt>Inheritance</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+      <div><span class="xref">OrderRoutingDTO</span></div>
+    </dd>
+  </dl>
+
+  <dl class="typelist implements">
+    <dt>Implements</dt>
+    <dd>
+      <div><a class="xref" href="SLS.Common.Interfaces.IDTO.html">IDTO</a></div>
+    </dd>
+  </dl>
+
+
+  <dl class="typelist inheritedMembers">
+    <dt>Inherited Members</dt>
+    <dd>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)">object.Equals(object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">object.Equals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gethashcode">object.GetHashCode()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gettype">object.GetType()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone">object.MemberwiseClone()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals">object.ReferenceEquals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.tostring">object.ToString()</a>
+    </div>
+  </dd></dl>
+
+
+
+
+
+
+  <h2 class="section" id="properties">Properties
+</h2>
+
+
+  <a id="SLS_Common_DTO_Dispatch_OrderRoutingDTO_Alternative_Depot1_" data-uid="SLS.Common.DTO.Dispatch.OrderRoutingDTO.Alternative_Depot1*"></a>
+
+  <h3 id="SLS_Common_DTO_Dispatch_OrderRoutingDTO_Alternative_Depot1" data-uid="SLS.Common.DTO.Dispatch.OrderRoutingDTO.Alternative_Depot1">
+  Alternative_Depot1
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Dispatch/OrderRoutingDTO.cs/#L109"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;Alternative_Depot1&quot;)]
+public virtual string? Alternative_Depot1 { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Dispatch_OrderRoutingDTO_Alternative_Depot2_" data-uid="SLS.Common.DTO.Dispatch.OrderRoutingDTO.Alternative_Depot2*"></a>
+
+  <h3 id="SLS_Common_DTO_Dispatch_OrderRoutingDTO_Alternative_Depot2" data-uid="SLS.Common.DTO.Dispatch.OrderRoutingDTO.Alternative_Depot2">
+  Alternative_Depot2
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Dispatch/OrderRoutingDTO.cs/#L113"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;Alternative_Depot2&quot;)]
+public virtual string? Alternative_Depot2 { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Dispatch_OrderRoutingDTO_Alternative_Depot3_" data-uid="SLS.Common.DTO.Dispatch.OrderRoutingDTO.Alternative_Depot3*"></a>
+
+  <h3 id="SLS_Common_DTO_Dispatch_OrderRoutingDTO_Alternative_Depot3" data-uid="SLS.Common.DTO.Dispatch.OrderRoutingDTO.Alternative_Depot3">
+  Alternative_Depot3
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Dispatch/OrderRoutingDTO.cs/#L117"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;Alternative_Depot3&quot;)]
+public virtual string? Alternative_Depot3 { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Dispatch_OrderRoutingDTO_ClearingReference_OrderRouting_" data-uid="SLS.Common.DTO.Dispatch.OrderRoutingDTO.ClearingReference_OrderRouting*"></a>
+
+  <h3 id="SLS_Common_DTO_Dispatch_OrderRoutingDTO_ClearingReference_OrderRouting" data-uid="SLS.Common.DTO.Dispatch.OrderRoutingDTO.ClearingReference_OrderRouting">
+  ClearingReference_OrderRouting
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Dispatch/OrderRoutingDTO.cs/#L437"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;OrderRoutingCollection&quot;)]
+[JsonIgnore]
+public virtual List&lt;ClearingReferenceDTO&gt;? ClearingReference_OrderRouting { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<a class="xref" href="SLS.Common.DTO.Financial.Clearing.ClearingReferenceDTO.html">ClearingReferenceDTO</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Dispatch_OrderRoutingDTO_CollectionPrice_" data-uid="SLS.Common.DTO.Dispatch.OrderRoutingDTO.CollectionPrice*"></a>
+
+  <h3 id="SLS_Common_DTO_Dispatch_OrderRoutingDTO_CollectionPrice" data-uid="SLS.Common.DTO.Dispatch.OrderRoutingDTO.CollectionPrice">
+  CollectionPrice
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Dispatch/OrderRoutingDTO.cs/#L145"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;CollectionPrice&quot;)]
+public virtual double CollectionPrice { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Dispatch_OrderRoutingDTO_CollectiveRouteID_" data-uid="SLS.Common.DTO.Dispatch.OrderRoutingDTO.CollectiveRouteID*"></a>
+
+  <h3 id="SLS_Common_DTO_Dispatch_OrderRoutingDTO_CollectiveRouteID" data-uid="SLS.Common.DTO.Dispatch.OrderRoutingDTO.CollectiveRouteID">
+  CollectiveRouteID
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Dispatch/OrderRoutingDTO.cs/#L385"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;CollectiveRouteID&quot;)]
+public virtual long CollectiveRouteID { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Dispatch_OrderRoutingDTO_Cooperation_" data-uid="SLS.Common.DTO.Dispatch.OrderRoutingDTO.Cooperation*"></a>
+
+  <h3 id="SLS_Common_DTO_Dispatch_OrderRoutingDTO_Cooperation" data-uid="SLS.Common.DTO.Dispatch.OrderRoutingDTO.Cooperation">
+  Cooperation
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Dispatch/OrderRoutingDTO.cs/#L398"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[ForeignKey(&quot;CooperationCollection&quot;)]
+[InverseProperty(&quot;OrderRouting_Cooperation&quot;)]
+[JsonIgnore]
+public virtual CooperationDTO? Cooperation { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="SLS.Common.DTO.Dispatch.CooperationDTO.html">CooperationDTO</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Dispatch_OrderRoutingDTO_CooperationID_" data-uid="SLS.Common.DTO.Dispatch.OrderRoutingDTO.CooperationID*"></a>
+
+  <h3 id="SLS_Common_DTO_Dispatch_OrderRoutingDTO_CooperationID" data-uid="SLS.Common.DTO.Dispatch.OrderRoutingDTO.CooperationID">
+  CooperationID
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Dispatch/OrderRoutingDTO.cs/#L51"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;CooperationCollection&quot;)]
+[ForeignKey(&quot;CooperationCollection&quot;)]
+public virtual long CooperationID { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Dispatch_OrderRoutingDTO_CountryCode_" data-uid="SLS.Common.DTO.Dispatch.OrderRoutingDTO.CountryCode*"></a>
+
+  <h3 id="SLS_Common_DTO_Dispatch_OrderRoutingDTO_CountryCode" data-uid="SLS.Common.DTO.Dispatch.OrderRoutingDTO.CountryCode">
+  CountryCode
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Dispatch/OrderRoutingDTO.cs/#L85"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;CountryCode&quot;)]
+public virtual string? CountryCode { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Dispatch_OrderRoutingDTO_DeliveryPrice_" data-uid="SLS.Common.DTO.Dispatch.OrderRoutingDTO.DeliveryPrice*"></a>
+
+  <h3 id="SLS_Common_DTO_Dispatch_OrderRoutingDTO_DeliveryPrice" data-uid="SLS.Common.DTO.Dispatch.OrderRoutingDTO.DeliveryPrice">
+  DeliveryPrice
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Dispatch/OrderRoutingDTO.cs/#L153"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;DeliveryPrice&quot;)]
+public virtual double DeliveryPrice { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Dispatch_OrderRoutingDTO_Depot_" data-uid="SLS.Common.DTO.Dispatch.OrderRoutingDTO.Depot*"></a>
+
+  <h3 id="SLS_Common_DTO_Dispatch_OrderRoutingDTO_Depot" data-uid="SLS.Common.DTO.Dispatch.OrderRoutingDTO.Depot">
+  Depot
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Dispatch/OrderRoutingDTO.cs/#L105"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;Depot&quot;)]
+public virtual string? Depot { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Dispatch_OrderRoutingDTO_Depot_Name_" data-uid="SLS.Common.DTO.Dispatch.OrderRoutingDTO.Depot_Name*"></a>
+
+  <h3 id="SLS_Common_DTO_Dispatch_OrderRoutingDTO_Depot_Name" data-uid="SLS.Common.DTO.Dispatch.OrderRoutingDTO.Depot_Name">
+  Depot_Name
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Dispatch/OrderRoutingDTO.cs/#L269"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;Depot_Name&quot;)]
+public virtual string? Depot_Name { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Dispatch_OrderRoutingDTO_DispoStoringPlaces_" data-uid="SLS.Common.DTO.Dispatch.OrderRoutingDTO.DispoStoringPlaces*"></a>
+
+  <h3 id="SLS_Common_DTO_Dispatch_OrderRoutingDTO_DispoStoringPlaces" data-uid="SLS.Common.DTO.Dispatch.OrderRoutingDTO.DispoStoringPlaces">
+  DispoStoringPlaces
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Dispatch/OrderRoutingDTO.cs/#L305"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;DispoStoringPlaces&quot;)]
+public virtual double? DispoStoringPlaces { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Dispatch_OrderRoutingDTO_DistanceFinalLeg_" data-uid="SLS.Common.DTO.Dispatch.OrderRoutingDTO.DistanceFinalLeg*"></a>
+
+  <h3 id="SLS_Common_DTO_Dispatch_OrderRoutingDTO_DistanceFinalLeg" data-uid="SLS.Common.DTO.Dispatch.OrderRoutingDTO.DistanceFinalLeg">
+  DistanceFinalLeg
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Dispatch/OrderRoutingDTO.cs/#L377"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;DistanceFinalLeg&quot;)]
+public virtual double? DistanceFinalLeg { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Dispatch_OrderRoutingDTO_DistanceInitialLeg_" data-uid="SLS.Common.DTO.Dispatch.OrderRoutingDTO.DistanceInitialLeg*"></a>
+
+  <h3 id="SLS_Common_DTO_Dispatch_OrderRoutingDTO_DistanceInitialLeg" data-uid="SLS.Common.DTO.Dispatch.OrderRoutingDTO.DistanceInitialLeg">
+  DistanceInitialLeg
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Dispatch/OrderRoutingDTO.cs/#L261"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;DistanceInitialLeg&quot;)]
+public virtual double? DistanceInitialLeg { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Dispatch_OrderRoutingDTO_DistanceMiddleLeg_" data-uid="SLS.Common.DTO.Dispatch.OrderRoutingDTO.DistanceMiddleLeg*"></a>
+
+  <h3 id="SLS_Common_DTO_Dispatch_OrderRoutingDTO_DistanceMiddleLeg" data-uid="SLS.Common.DTO.Dispatch.OrderRoutingDTO.DistanceMiddleLeg">
+  DistanceMiddleLeg
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Dispatch/OrderRoutingDTO.cs/#L381"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;DistanceMiddleLeg&quot;)]
+public virtual double? DistanceMiddleLeg { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Dispatch_OrderRoutingDTO_ExternalDataProvidersDetails_" data-uid="SLS.Common.DTO.Dispatch.OrderRoutingDTO.ExternalDataProvidersDetails*"></a>
+
+  <h3 id="SLS_Common_DTO_Dispatch_OrderRoutingDTO_ExternalDataProvidersDetails" data-uid="SLS.Common.DTO.Dispatch.OrderRoutingDTO.ExternalDataProvidersDetails">
+  ExternalDataProvidersDetails
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Dispatch/OrderRoutingDTO.cs/#L257"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;ExternalDataProvidersDetails&quot;)]
+public virtual string? ExternalDataProvidersDetails { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Dispatch_OrderRoutingDTO_ExternalDataProvidersParas_" data-uid="SLS.Common.DTO.Dispatch.OrderRoutingDTO.ExternalDataProvidersParas*"></a>
+
+  <h3 id="SLS_Common_DTO_Dispatch_OrderRoutingDTO_ExternalDataProvidersParas" data-uid="SLS.Common.DTO.Dispatch.OrderRoutingDTO.ExternalDataProvidersParas">
+  ExternalDataProvidersParas
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Dispatch/OrderRoutingDTO.cs/#L165"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;ExternalDataProvidersParas&quot;)]
+public virtual string? ExternalDataProvidersParas { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Dispatch_OrderRoutingDTO_ForwardingPrice_" data-uid="SLS.Common.DTO.Dispatch.OrderRoutingDTO.ForwardingPrice*"></a>
+
+  <h3 id="SLS_Common_DTO_Dispatch_OrderRoutingDTO_ForwardingPrice" data-uid="SLS.Common.DTO.Dispatch.OrderRoutingDTO.ForwardingPrice">
+  ForwardingPrice
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Dispatch/OrderRoutingDTO.cs/#L149"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;ForwardingPrice&quot;)]
+public virtual double ForwardingPrice { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Dispatch_OrderRoutingDTO_HUB1_" data-uid="SLS.Common.DTO.Dispatch.OrderRoutingDTO.HUB1*"></a>
+
+  <h3 id="SLS_Common_DTO_Dispatch_OrderRoutingDTO_HUB1" data-uid="SLS.Common.DTO.Dispatch.OrderRoutingDTO.HUB1">
+  HUB1
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Dispatch/OrderRoutingDTO.cs/#L97"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;HUB1&quot;)]
+public virtual string? HUB1 { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Dispatch_OrderRoutingDTO_HUB2_" data-uid="SLS.Common.DTO.Dispatch.OrderRoutingDTO.HUB2*"></a>
+
+  <h3 id="SLS_Common_DTO_Dispatch_OrderRoutingDTO_HUB2" data-uid="SLS.Common.DTO.Dispatch.OrderRoutingDTO.HUB2">
+  HUB2
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Dispatch/OrderRoutingDTO.cs/#L101"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;HUB2&quot;)]
+public virtual string? HUB2 { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Dispatch_OrderRoutingDTO_HULoadingEquipmentQuantity_" data-uid="SLS.Common.DTO.Dispatch.OrderRoutingDTO.HULoadingEquipmentQuantity*"></a>
+
+  <h3 id="SLS_Common_DTO_Dispatch_OrderRoutingDTO_HULoadingEquipmentQuantity" data-uid="SLS.Common.DTO.Dispatch.OrderRoutingDTO.HULoadingEquipmentQuantity">
+  HULoadingEquipmentQuantity
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Dispatch/OrderRoutingDTO.cs/#L321"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;HULoadingEquipmentQuantity&quot;)]
+public virtual long HULoadingEquipmentQuantity { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Dispatch_OrderRoutingDTO_HUWeight_" data-uid="SLS.Common.DTO.Dispatch.OrderRoutingDTO.HUWeight*"></a>
+
+  <h3 id="SLS_Common_DTO_Dispatch_OrderRoutingDTO_HUWeight" data-uid="SLS.Common.DTO.Dispatch.OrderRoutingDTO.HUWeight">
+  HUWeight
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Dispatch/OrderRoutingDTO.cs/#L325"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;HUWeight&quot;)]
+public virtual double HUWeight { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Dispatch_OrderRoutingDTO_HandlingUnit_" data-uid="SLS.Common.DTO.Dispatch.OrderRoutingDTO.HandlingUnit*"></a>
+
+  <h3 id="SLS_Common_DTO_Dispatch_OrderRoutingDTO_HandlingUnit" data-uid="SLS.Common.DTO.Dispatch.OrderRoutingDTO.HandlingUnit">
+  HandlingUnit
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Dispatch/OrderRoutingDTO.cs/#L413"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[ForeignKey(&quot;HandlingUnitCollection&quot;)]
+[InverseProperty(&quot;OrderRouting_HandlingUnit&quot;)]
+[JsonIgnore]
+public virtual HandlingUnitDTO? HandlingUnit { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="SLS.Common.DTO.Dispatch.HandlingUnitDTO.html">HandlingUnitDTO</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Dispatch_OrderRoutingDTO_HandlingUnitID_" data-uid="SLS.Common.DTO.Dispatch.OrderRoutingDTO.HandlingUnitID*"></a>
+
+  <h3 id="SLS_Common_DTO_Dispatch_OrderRoutingDTO_HandlingUnitID" data-uid="SLS.Common.DTO.Dispatch.OrderRoutingDTO.HandlingUnitID">
+  HandlingUnitID
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Dispatch/OrderRoutingDTO.cs/#L66"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;HandlingUnitCollection&quot;)]
+[ForeignKey(&quot;HandlingUnitCollection&quot;)]
+public virtual long? HandlingUnitID { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Dispatch_OrderRoutingDTO_HandlingUnits_SelectedRouting_" data-uid="SLS.Common.DTO.Dispatch.OrderRoutingDTO.HandlingUnits_SelectedRouting*"></a>
+
+  <h3 id="SLS_Common_DTO_Dispatch_OrderRoutingDTO_HandlingUnits_SelectedRouting" data-uid="SLS.Common.DTO.Dispatch.OrderRoutingDTO.HandlingUnits_SelectedRouting">
+  HandlingUnits_SelectedRouting
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Dispatch/OrderRoutingDTO.cs/#L452"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;SelectedRoutingCollection&quot;)]
+[JsonIgnore]
+public virtual List&lt;HandlingUnitDTO&gt;? HandlingUnits_SelectedRouting { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<a class="xref" href="SLS.Common.DTO.Dispatch.HandlingUnitDTO.html">HandlingUnitDTO</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Dispatch_OrderRoutingDTO_HubPrice_" data-uid="SLS.Common.DTO.Dispatch.OrderRoutingDTO.HubPrice*"></a>
+
+  <h3 id="SLS_Common_DTO_Dispatch_OrderRoutingDTO_HubPrice" data-uid="SLS.Common.DTO.Dispatch.OrderRoutingDTO.HubPrice">
+  HubPrice
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Dispatch/OrderRoutingDTO.cs/#L141"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;HubPrice&quot;)]
+public virtual double HubPrice { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Dispatch_OrderRoutingDTO_Id_" data-uid="SLS.Common.DTO.Dispatch.OrderRoutingDTO.Id*"></a>
+
+  <h3 id="SLS_Common_DTO_Dispatch_OrderRoutingDTO_Id" data-uid="SLS.Common.DTO.Dispatch.OrderRoutingDTO.Id">
+  Id
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Dispatch/OrderRoutingDTO.cs/#L34"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;ID&quot;)]
+public long Id { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Dispatch_OrderRoutingDTO_IsBlocked_" data-uid="SLS.Common.DTO.Dispatch.OrderRoutingDTO.IsBlocked*"></a>
+
+  <h3 id="SLS_Common_DTO_Dispatch_OrderRoutingDTO_IsBlocked" data-uid="SLS.Common.DTO.Dispatch.OrderRoutingDTO.IsBlocked">
+  IsBlocked
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Dispatch/OrderRoutingDTO.cs/#L133"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;IsBlocked&quot;)]
+public virtual bool IsBlocked { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Dispatch_OrderRoutingDTO_IsDistribution_" data-uid="SLS.Common.DTO.Dispatch.OrderRoutingDTO.IsDistribution*"></a>
+
+  <h3 id="SLS_Common_DTO_Dispatch_OrderRoutingDTO_IsDistribution" data-uid="SLS.Common.DTO.Dispatch.OrderRoutingDTO.IsDistribution">
+  IsDistribution
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Dispatch/OrderRoutingDTO.cs/#L129"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;IsDistribution&quot;)]
+public virtual bool IsDistribution { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Dispatch_OrderRoutingDTO_IsManual_" data-uid="SLS.Common.DTO.Dispatch.OrderRoutingDTO.IsManual*"></a>
+
+  <h3 id="SLS_Common_DTO_Dispatch_OrderRoutingDTO_IsManual" data-uid="SLS.Common.DTO.Dispatch.OrderRoutingDTO.IsManual">
+  IsManual
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Dispatch/OrderRoutingDTO.cs/#L329"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;IsManual&quot;)]
+public virtual bool? IsManual { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Dispatch_OrderRoutingDTO_IsOfflineRoute_" data-uid="SLS.Common.DTO.Dispatch.OrderRoutingDTO.IsOfflineRoute*"></a>
+
+  <h3 id="SLS_Common_DTO_Dispatch_OrderRoutingDTO_IsOfflineRoute" data-uid="SLS.Common.DTO.Dispatch.OrderRoutingDTO.IsOfflineRoute">
+  IsOfflineRoute
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Dispatch/OrderRoutingDTO.cs/#L273"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;IsOfflineRoute&quot;)]
+public virtual bool? IsOfflineRoute { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Dispatch_OrderRoutingDTO_Ist_DispoStoringPlaces_" data-uid="SLS.Common.DTO.Dispatch.OrderRoutingDTO.Ist_DispoStoringPlaces*"></a>
+
+  <h3 id="SLS_Common_DTO_Dispatch_OrderRoutingDTO_Ist_DispoStoringPlaces" data-uid="SLS.Common.DTO.Dispatch.OrderRoutingDTO.Ist_DispoStoringPlaces">
+  Ist_DispoStoringPlaces
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Dispatch/OrderRoutingDTO.cs/#L369"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;Ist_DispoStoringPlaces&quot;)]
+public virtual double? Ist_DispoStoringPlaces { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Dispatch_OrderRoutingDTO_Ist_DistanceFinalLeg_" data-uid="SLS.Common.DTO.Dispatch.OrderRoutingDTO.Ist_DistanceFinalLeg*"></a>
+
+  <h3 id="SLS_Common_DTO_Dispatch_OrderRoutingDTO_Ist_DistanceFinalLeg" data-uid="SLS.Common.DTO.Dispatch.OrderRoutingDTO.Ist_DistanceFinalLeg">
+  Ist_DistanceFinalLeg
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Dispatch/OrderRoutingDTO.cs/#L341"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;Ist_DistanceFinalLeg&quot;)]
+public virtual double? Ist_DistanceFinalLeg { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Dispatch_OrderRoutingDTO_Ist_LoadingEquipmentQuantity_" data-uid="SLS.Common.DTO.Dispatch.OrderRoutingDTO.Ist_LoadingEquipmentQuantity*"></a>
+
+  <h3 id="SLS_Common_DTO_Dispatch_OrderRoutingDTO_Ist_LoadingEquipmentQuantity" data-uid="SLS.Common.DTO.Dispatch.OrderRoutingDTO.Ist_LoadingEquipmentQuantity">
+  Ist_LoadingEquipmentQuantity
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Dispatch/OrderRoutingDTO.cs/#L349"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;Ist_LoadingEquipmentQuantity&quot;)]
+public virtual long? Ist_LoadingEquipmentQuantity { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Dispatch_OrderRoutingDTO_Ist_LoadingMeter_" data-uid="SLS.Common.DTO.Dispatch.OrderRoutingDTO.Ist_LoadingMeter*"></a>
+
+  <h3 id="SLS_Common_DTO_Dispatch_OrderRoutingDTO_Ist_LoadingMeter" data-uid="SLS.Common.DTO.Dispatch.OrderRoutingDTO.Ist_LoadingMeter">
+  Ist_LoadingMeter
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Dispatch/OrderRoutingDTO.cs/#L361"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;Ist_LoadingMeter&quot;)]
+public virtual double? Ist_LoadingMeter { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Dispatch_OrderRoutingDTO_Ist_PackagingQuantity_" data-uid="SLS.Common.DTO.Dispatch.OrderRoutingDTO.Ist_PackagingQuantity*"></a>
+
+  <h3 id="SLS_Common_DTO_Dispatch_OrderRoutingDTO_Ist_PackagingQuantity" data-uid="SLS.Common.DTO.Dispatch.OrderRoutingDTO.Ist_PackagingQuantity">
+  Ist_PackagingQuantity
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Dispatch/OrderRoutingDTO.cs/#L373"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;Ist_PackagingQuantity&quot;)]
+public virtual long? Ist_PackagingQuantity { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Dispatch_OrderRoutingDTO_Ist_TotalPrice_" data-uid="SLS.Common.DTO.Dispatch.OrderRoutingDTO.Ist_TotalPrice*"></a>
+
+  <h3 id="SLS_Common_DTO_Dispatch_OrderRoutingDTO_Ist_TotalPrice" data-uid="SLS.Common.DTO.Dispatch.OrderRoutingDTO.Ist_TotalPrice">
+  Ist_TotalPrice
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Dispatch/OrderRoutingDTO.cs/#L337"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;Ist_TotalPrice&quot;)]
+public virtual double Ist_TotalPrice { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Dispatch_OrderRoutingDTO_Ist_Value_" data-uid="SLS.Common.DTO.Dispatch.OrderRoutingDTO.Ist_Value*"></a>
+
+  <h3 id="SLS_Common_DTO_Dispatch_OrderRoutingDTO_Ist_Value" data-uid="SLS.Common.DTO.Dispatch.OrderRoutingDTO.Ist_Value">
+  Ist_Value
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Dispatch/OrderRoutingDTO.cs/#L345"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;Ist_Value&quot;)]
+public virtual double? Ist_Value { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Dispatch_OrderRoutingDTO_Ist_Volume_" data-uid="SLS.Common.DTO.Dispatch.OrderRoutingDTO.Ist_Volume*"></a>
+
+  <h3 id="SLS_Common_DTO_Dispatch_OrderRoutingDTO_Ist_Volume" data-uid="SLS.Common.DTO.Dispatch.OrderRoutingDTO.Ist_Volume">
+  Ist_Volume
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Dispatch/OrderRoutingDTO.cs/#L365"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;Ist_Volume&quot;)]
+public virtual double? Ist_Volume { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Dispatch_OrderRoutingDTO_Ist_WeightFreight_" data-uid="SLS.Common.DTO.Dispatch.OrderRoutingDTO.Ist_WeightFreight*"></a>
+
+  <h3 id="SLS_Common_DTO_Dispatch_OrderRoutingDTO_Ist_WeightFreight" data-uid="SLS.Common.DTO.Dispatch.OrderRoutingDTO.Ist_WeightFreight">
+  Ist_WeightFreight
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Dispatch/OrderRoutingDTO.cs/#L357"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;Ist_WeightFreight&quot;)]
+public virtual double? Ist_WeightFreight { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Dispatch_OrderRoutingDTO_Ist_WeightGross_" data-uid="SLS.Common.DTO.Dispatch.OrderRoutingDTO.Ist_WeightGross*"></a>
+
+  <h3 id="SLS_Common_DTO_Dispatch_OrderRoutingDTO_Ist_WeightGross" data-uid="SLS.Common.DTO.Dispatch.OrderRoutingDTO.Ist_WeightGross">
+  Ist_WeightGross
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Dispatch/OrderRoutingDTO.cs/#L353"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;Ist_WeightGross&quot;)]
+public virtual double? Ist_WeightGross { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Dispatch_OrderRoutingDTO_Ist_WeightNet_" data-uid="SLS.Common.DTO.Dispatch.OrderRoutingDTO.Ist_WeightNet*"></a>
+
+  <h3 id="SLS_Common_DTO_Dispatch_OrderRoutingDTO_Ist_WeightNet" data-uid="SLS.Common.DTO.Dispatch.OrderRoutingDTO.Ist_WeightNet">
+  Ist_WeightNet
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Dispatch/OrderRoutingDTO.cs/#L333"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;Ist_WeightNet&quot;)]
+public virtual double? Ist_WeightNet { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Dispatch_OrderRoutingDTO_LoadingDate_" data-uid="SLS.Common.DTO.Dispatch.OrderRoutingDTO.LoadingDate*"></a>
+
+  <h3 id="SLS_Common_DTO_Dispatch_OrderRoutingDTO_LoadingDate" data-uid="SLS.Common.DTO.Dispatch.OrderRoutingDTO.LoadingDate">
+  LoadingDate
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Dispatch/OrderRoutingDTO.cs/#L313"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;LoadingDate&quot;)]
+public virtual DateTime LoadingDate { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.datetime">DateTime</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Dispatch_OrderRoutingDTO_LoadingEquipmentQuantity_" data-uid="SLS.Common.DTO.Dispatch.OrderRoutingDTO.LoadingEquipmentQuantity*"></a>
+
+  <h3 id="SLS_Common_DTO_Dispatch_OrderRoutingDTO_LoadingEquipmentQuantity" data-uid="SLS.Common.DTO.Dispatch.OrderRoutingDTO.LoadingEquipmentQuantity">
+  LoadingEquipmentQuantity
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Dispatch/OrderRoutingDTO.cs/#L285"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;LoadingEquipmentQuantity&quot;)]
+public virtual long? LoadingEquipmentQuantity { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Dispatch_OrderRoutingDTO_LoadingMeter_" data-uid="SLS.Common.DTO.Dispatch.OrderRoutingDTO.LoadingMeter*"></a>
+
+  <h3 id="SLS_Common_DTO_Dispatch_OrderRoutingDTO_LoadingMeter" data-uid="SLS.Common.DTO.Dispatch.OrderRoutingDTO.LoadingMeter">
+  LoadingMeter
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Dispatch/OrderRoutingDTO.cs/#L297"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;LoadingMeter&quot;)]
+public virtual double? LoadingMeter { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Dispatch_OrderRoutingDTO_Optional_Num1_" data-uid="SLS.Common.DTO.Dispatch.OrderRoutingDTO.Optional_Num1*"></a>
+
+  <h3 id="SLS_Common_DTO_Dispatch_OrderRoutingDTO_Optional_Num1" data-uid="SLS.Common.DTO.Dispatch.OrderRoutingDTO.Optional_Num1">
+  Optional_Num1
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Dispatch/OrderRoutingDTO.cs/#L217"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;Optional_Num1&quot;)]
+public virtual int? Optional_Num1 { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Dispatch_OrderRoutingDTO_Optional_Num10_" data-uid="SLS.Common.DTO.Dispatch.OrderRoutingDTO.Optional_Num10*"></a>
+
+  <h3 id="SLS_Common_DTO_Dispatch_OrderRoutingDTO_Optional_Num10" data-uid="SLS.Common.DTO.Dispatch.OrderRoutingDTO.Optional_Num10">
+  Optional_Num10
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Dispatch/OrderRoutingDTO.cs/#L253"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;Optional_Num10&quot;)]
+public virtual long? Optional_Num10 { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Dispatch_OrderRoutingDTO_Optional_Num2_" data-uid="SLS.Common.DTO.Dispatch.OrderRoutingDTO.Optional_Num2*"></a>
+
+  <h3 id="SLS_Common_DTO_Dispatch_OrderRoutingDTO_Optional_Num2" data-uid="SLS.Common.DTO.Dispatch.OrderRoutingDTO.Optional_Num2">
+  Optional_Num2
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Dispatch/OrderRoutingDTO.cs/#L221"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;Optional_Num2&quot;)]
+public virtual int? Optional_Num2 { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Dispatch_OrderRoutingDTO_Optional_Num3_" data-uid="SLS.Common.DTO.Dispatch.OrderRoutingDTO.Optional_Num3*"></a>
+
+  <h3 id="SLS_Common_DTO_Dispatch_OrderRoutingDTO_Optional_Num3" data-uid="SLS.Common.DTO.Dispatch.OrderRoutingDTO.Optional_Num3">
+  Optional_Num3
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Dispatch/OrderRoutingDTO.cs/#L225"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;Optional_Num3&quot;)]
+public virtual int? Optional_Num3 { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Dispatch_OrderRoutingDTO_Optional_Num4_" data-uid="SLS.Common.DTO.Dispatch.OrderRoutingDTO.Optional_Num4*"></a>
+
+  <h3 id="SLS_Common_DTO_Dispatch_OrderRoutingDTO_Optional_Num4" data-uid="SLS.Common.DTO.Dispatch.OrderRoutingDTO.Optional_Num4">
+  Optional_Num4
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Dispatch/OrderRoutingDTO.cs/#L229"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;Optional_Num4&quot;)]
+public virtual int? Optional_Num4 { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Dispatch_OrderRoutingDTO_Optional_Num5_" data-uid="SLS.Common.DTO.Dispatch.OrderRoutingDTO.Optional_Num5*"></a>
+
+  <h3 id="SLS_Common_DTO_Dispatch_OrderRoutingDTO_Optional_Num5" data-uid="SLS.Common.DTO.Dispatch.OrderRoutingDTO.Optional_Num5">
+  Optional_Num5
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Dispatch/OrderRoutingDTO.cs/#L233"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;Optional_Num5&quot;)]
+public virtual int? Optional_Num5 { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Dispatch_OrderRoutingDTO_Optional_Num6_" data-uid="SLS.Common.DTO.Dispatch.OrderRoutingDTO.Optional_Num6*"></a>
+
+  <h3 id="SLS_Common_DTO_Dispatch_OrderRoutingDTO_Optional_Num6" data-uid="SLS.Common.DTO.Dispatch.OrderRoutingDTO.Optional_Num6">
+  Optional_Num6
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Dispatch/OrderRoutingDTO.cs/#L237"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;Optional_Num6&quot;)]
+public virtual long? Optional_Num6 { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Dispatch_OrderRoutingDTO_Optional_Num7_" data-uid="SLS.Common.DTO.Dispatch.OrderRoutingDTO.Optional_Num7*"></a>
+
+  <h3 id="SLS_Common_DTO_Dispatch_OrderRoutingDTO_Optional_Num7" data-uid="SLS.Common.DTO.Dispatch.OrderRoutingDTO.Optional_Num7">
+  Optional_Num7
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Dispatch/OrderRoutingDTO.cs/#L241"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;Optional_Num7&quot;)]
+public virtual long? Optional_Num7 { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Dispatch_OrderRoutingDTO_Optional_Num8_" data-uid="SLS.Common.DTO.Dispatch.OrderRoutingDTO.Optional_Num8*"></a>
+
+  <h3 id="SLS_Common_DTO_Dispatch_OrderRoutingDTO_Optional_Num8" data-uid="SLS.Common.DTO.Dispatch.OrderRoutingDTO.Optional_Num8">
+  Optional_Num8
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Dispatch/OrderRoutingDTO.cs/#L245"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;Optional_Num8&quot;)]
+public virtual long? Optional_Num8 { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Dispatch_OrderRoutingDTO_Optional_Num9_" data-uid="SLS.Common.DTO.Dispatch.OrderRoutingDTO.Optional_Num9*"></a>
+
+  <h3 id="SLS_Common_DTO_Dispatch_OrderRoutingDTO_Optional_Num9" data-uid="SLS.Common.DTO.Dispatch.OrderRoutingDTO.Optional_Num9">
+  Optional_Num9
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Dispatch/OrderRoutingDTO.cs/#L249"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;Optional_Num9&quot;)]
+public virtual long? Optional_Num9 { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Dispatch_OrderRoutingDTO_Optional_String1_" data-uid="SLS.Common.DTO.Dispatch.OrderRoutingDTO.Optional_String1*"></a>
+
+  <h3 id="SLS_Common_DTO_Dispatch_OrderRoutingDTO_Optional_String1" data-uid="SLS.Common.DTO.Dispatch.OrderRoutingDTO.Optional_String1">
+  Optional_String1
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Dispatch/OrderRoutingDTO.cs/#L177"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;Optional_String1&quot;)]
+public virtual string? Optional_String1 { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Dispatch_OrderRoutingDTO_Optional_String10_" data-uid="SLS.Common.DTO.Dispatch.OrderRoutingDTO.Optional_String10*"></a>
+
+  <h3 id="SLS_Common_DTO_Dispatch_OrderRoutingDTO_Optional_String10" data-uid="SLS.Common.DTO.Dispatch.OrderRoutingDTO.Optional_String10">
+  Optional_String10
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Dispatch/OrderRoutingDTO.cs/#L213"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;Optional_String10&quot;)]
+public virtual string? Optional_String10 { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Dispatch_OrderRoutingDTO_Optional_String2_" data-uid="SLS.Common.DTO.Dispatch.OrderRoutingDTO.Optional_String2*"></a>
+
+  <h3 id="SLS_Common_DTO_Dispatch_OrderRoutingDTO_Optional_String2" data-uid="SLS.Common.DTO.Dispatch.OrderRoutingDTO.Optional_String2">
+  Optional_String2
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Dispatch/OrderRoutingDTO.cs/#L181"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;Optional_String2&quot;)]
+public virtual string? Optional_String2 { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Dispatch_OrderRoutingDTO_Optional_String3_" data-uid="SLS.Common.DTO.Dispatch.OrderRoutingDTO.Optional_String3*"></a>
+
+  <h3 id="SLS_Common_DTO_Dispatch_OrderRoutingDTO_Optional_String3" data-uid="SLS.Common.DTO.Dispatch.OrderRoutingDTO.Optional_String3">
+  Optional_String3
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Dispatch/OrderRoutingDTO.cs/#L185"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;Optional_String3&quot;)]
+public virtual string? Optional_String3 { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Dispatch_OrderRoutingDTO_Optional_String4_" data-uid="SLS.Common.DTO.Dispatch.OrderRoutingDTO.Optional_String4*"></a>
+
+  <h3 id="SLS_Common_DTO_Dispatch_OrderRoutingDTO_Optional_String4" data-uid="SLS.Common.DTO.Dispatch.OrderRoutingDTO.Optional_String4">
+  Optional_String4
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Dispatch/OrderRoutingDTO.cs/#L189"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;Optional_String4&quot;)]
+public virtual string? Optional_String4 { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Dispatch_OrderRoutingDTO_Optional_String5_" data-uid="SLS.Common.DTO.Dispatch.OrderRoutingDTO.Optional_String5*"></a>
+
+  <h3 id="SLS_Common_DTO_Dispatch_OrderRoutingDTO_Optional_String5" data-uid="SLS.Common.DTO.Dispatch.OrderRoutingDTO.Optional_String5">
+  Optional_String5
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Dispatch/OrderRoutingDTO.cs/#L193"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;Optional_String5&quot;)]
+public virtual string? Optional_String5 { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Dispatch_OrderRoutingDTO_Optional_String6_" data-uid="SLS.Common.DTO.Dispatch.OrderRoutingDTO.Optional_String6*"></a>
+
+  <h3 id="SLS_Common_DTO_Dispatch_OrderRoutingDTO_Optional_String6" data-uid="SLS.Common.DTO.Dispatch.OrderRoutingDTO.Optional_String6">
+  Optional_String6
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Dispatch/OrderRoutingDTO.cs/#L197"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;Optional_String6&quot;)]
+public virtual string? Optional_String6 { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Dispatch_OrderRoutingDTO_Optional_String7_" data-uid="SLS.Common.DTO.Dispatch.OrderRoutingDTO.Optional_String7*"></a>
+
+  <h3 id="SLS_Common_DTO_Dispatch_OrderRoutingDTO_Optional_String7" data-uid="SLS.Common.DTO.Dispatch.OrderRoutingDTO.Optional_String7">
+  Optional_String7
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Dispatch/OrderRoutingDTO.cs/#L201"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;Optional_String7&quot;)]
+public virtual string? Optional_String7 { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Dispatch_OrderRoutingDTO_Optional_String8_" data-uid="SLS.Common.DTO.Dispatch.OrderRoutingDTO.Optional_String8*"></a>
+
+  <h3 id="SLS_Common_DTO_Dispatch_OrderRoutingDTO_Optional_String8" data-uid="SLS.Common.DTO.Dispatch.OrderRoutingDTO.Optional_String8">
+  Optional_String8
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Dispatch/OrderRoutingDTO.cs/#L205"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;Optional_String8&quot;)]
+public virtual string? Optional_String8 { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Dispatch_OrderRoutingDTO_Optional_String9_" data-uid="SLS.Common.DTO.Dispatch.OrderRoutingDTO.Optional_String9*"></a>
+
+  <h3 id="SLS_Common_DTO_Dispatch_OrderRoutingDTO_Optional_String9" data-uid="SLS.Common.DTO.Dispatch.OrderRoutingDTO.Optional_String9">
+  Optional_String9
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Dispatch/OrderRoutingDTO.cs/#L209"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;Optional_String9&quot;)]
+public virtual string? Optional_String9 { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Dispatch_OrderRoutingDTO_Order_" data-uid="SLS.Common.DTO.Dispatch.OrderRoutingDTO.Order*"></a>
+
+  <h3 id="SLS_Common_DTO_Dispatch_OrderRoutingDTO_Order" data-uid="SLS.Common.DTO.Dispatch.OrderRoutingDTO.Order">
+  Order
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Dispatch/OrderRoutingDTO.cs/#L393"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[ForeignKey(&quot;OrderCollection&quot;)]
+[InverseProperty(&quot;OrderRouting_Order&quot;)]
+public virtual OrderDTO? Order { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="SLS.Common.DTO.Dispatch.OrderDTO.html">OrderDTO</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Dispatch_OrderRoutingDTO_OrderID_" data-uid="SLS.Common.DTO.Dispatch.OrderRoutingDTO.OrderID*"></a>
+
+  <h3 id="SLS_Common_DTO_Dispatch_OrderRoutingDTO_OrderID" data-uid="SLS.Common.DTO.Dispatch.OrderRoutingDTO.OrderID">
+  OrderID
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Dispatch/OrderRoutingDTO.cs/#L46"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;OrderCollection&quot;)]
+[ForeignKey(&quot;OrderCollection&quot;)]
+public virtual long OrderID { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Dispatch_OrderRoutingDTO_OrderPositionsTransformed_OrderRouting_" data-uid="SLS.Common.DTO.Dispatch.OrderRoutingDTO.OrderPositionsTransformed_OrderRouting*"></a>
+
+  <h3 id="SLS_Common_DTO_Dispatch_OrderRoutingDTO_OrderPositionsTransformed_OrderRouting" data-uid="SLS.Common.DTO.Dispatch.OrderRoutingDTO.OrderPositionsTransformed_OrderRouting">
+  OrderPositionsTransformed_OrderRouting
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Dispatch/OrderRoutingDTO.cs/#L442"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;OrderRoutingCollection&quot;)]
+[JsonIgnore]
+public virtual List&lt;OrderPositionTransformedDTO&gt;? OrderPositionsTransformed_OrderRouting { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<a class="xref" href="SLS.Common.DTO.Dispatch.OrderPositionTransformedDTO.html">OrderPositionTransformedDTO</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Dispatch_OrderRoutingDTO_OrderVersion_" data-uid="SLS.Common.DTO.Dispatch.OrderRoutingDTO.OrderVersion*"></a>
+
+  <h3 id="SLS_Common_DTO_Dispatch_OrderRoutingDTO_OrderVersion" data-uid="SLS.Common.DTO.Dispatch.OrderRoutingDTO.OrderVersion">
+  OrderVersion
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Dispatch/OrderRoutingDTO.cs/#L169"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;OrderVersion&quot;)]
+public virtual long? OrderVersion { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Dispatch_OrderRoutingDTO_OrderingDepot_" data-uid="SLS.Common.DTO.Dispatch.OrderRoutingDTO.OrderingDepot*"></a>
+
+  <h3 id="SLS_Common_DTO_Dispatch_OrderRoutingDTO_OrderingDepot" data-uid="SLS.Common.DTO.Dispatch.OrderRoutingDTO.OrderingDepot">
+  OrderingDepot
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Dispatch/OrderRoutingDTO.cs/#L157"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;OrderingDepot&quot;)]
+public virtual string? OrderingDepot { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Dispatch_OrderRoutingDTO_Orders_SelectedRouting_" data-uid="SLS.Common.DTO.Dispatch.OrderRoutingDTO.Orders_SelectedRouting*"></a>
+
+  <h3 id="SLS_Common_DTO_Dispatch_OrderRoutingDTO_Orders_SelectedRouting" data-uid="SLS.Common.DTO.Dispatch.OrderRoutingDTO.Orders_SelectedRouting">
+  Orders_SelectedRouting
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Dispatch/OrderRoutingDTO.cs/#L447"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;SelectedRoutingCollection&quot;)]
+[JsonIgnore]
+public virtual List&lt;OrderDTO&gt;? Orders_SelectedRouting { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<a class="xref" href="SLS.Common.DTO.Dispatch.OrderDTO.html">OrderDTO</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Dispatch_OrderRoutingDTO_PackagingQuantity_" data-uid="SLS.Common.DTO.Dispatch.OrderRoutingDTO.PackagingQuantity*"></a>
+
+  <h3 id="SLS_Common_DTO_Dispatch_OrderRoutingDTO_PackagingQuantity" data-uid="SLS.Common.DTO.Dispatch.OrderRoutingDTO.PackagingQuantity">
+  PackagingQuantity
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Dispatch/OrderRoutingDTO.cs/#L309"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;PackagingQuantity&quot;)]
+public virtual long? PackagingQuantity { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Dispatch_OrderRoutingDTO_Priority_" data-uid="SLS.Common.DTO.Dispatch.OrderRoutingDTO.Priority*"></a>
+
+  <h3 id="SLS_Common_DTO_Dispatch_OrderRoutingDTO_Priority" data-uid="SLS.Common.DTO.Dispatch.OrderRoutingDTO.Priority">
+  Priority
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Dispatch/OrderRoutingDTO.cs/#L265"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;Priority&quot;)]
+public virtual int? Priority { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Dispatch_OrderRoutingDTO_RoutingType_" data-uid="SLS.Common.DTO.Dispatch.OrderRoutingDTO.RoutingType*"></a>
+
+  <h3 id="SLS_Common_DTO_Dispatch_OrderRoutingDTO_RoutingType" data-uid="SLS.Common.DTO.Dispatch.OrderRoutingDTO.RoutingType">
+  RoutingType
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Dispatch/OrderRoutingDTO.cs/#L408"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[ForeignKey(&quot;RoutingTypeCollection&quot;)]
+[InverseProperty(&quot;OrderRouting_RoutingType&quot;)]
+[JsonIgnore]
+public virtual RoutingTypeDTO? RoutingType { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="SLS.Common.DTO.Dispatch.RoutingTypeDTO.html">RoutingTypeDTO</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Dispatch_OrderRoutingDTO_RoutingTypeID_" data-uid="SLS.Common.DTO.Dispatch.OrderRoutingDTO.RoutingTypeID*"></a>
+
+  <h3 id="SLS_Common_DTO_Dispatch_OrderRoutingDTO_RoutingTypeID" data-uid="SLS.Common.DTO.Dispatch.OrderRoutingDTO.RoutingTypeID">
+  RoutingTypeID
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Dispatch/OrderRoutingDTO.cs/#L61"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;RoutingTypeCollection&quot;)]
+[ForeignKey(&quot;RoutingTypeCollection&quot;)]
+public virtual long? RoutingTypeID { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Dispatch_OrderRoutingDTO_SendingDepot_" data-uid="SLS.Common.DTO.Dispatch.OrderRoutingDTO.SendingDepot*"></a>
+
+  <h3 id="SLS_Common_DTO_Dispatch_OrderRoutingDTO_SendingDepot" data-uid="SLS.Common.DTO.Dispatch.OrderRoutingDTO.SendingDepot">
+  SendingDepot
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Dispatch/OrderRoutingDTO.cs/#L161"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;SendingDepot&quot;)]
+public virtual string? SendingDepot { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Dispatch_OrderRoutingDTO_Service_" data-uid="SLS.Common.DTO.Dispatch.OrderRoutingDTO.Service*"></a>
+
+  <h3 id="SLS_Common_DTO_Dispatch_OrderRoutingDTO_Service" data-uid="SLS.Common.DTO.Dispatch.OrderRoutingDTO.Service">
+  Service
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Dispatch/OrderRoutingDTO.cs/#L403"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[ForeignKey(&quot;ServiceCollection&quot;)]
+[InverseProperty(&quot;OrderRouting_Service&quot;)]
+[JsonIgnore]
+public virtual ExpressTypeDTO? Service { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="SLS.Common.DTO.MasterData.Dispo.ExpressTypeDTO.html">ExpressTypeDTO</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Dispatch_OrderRoutingDTO_ServiceID_" data-uid="SLS.Common.DTO.Dispatch.OrderRoutingDTO.ServiceID*"></a>
+
+  <h3 id="SLS_Common_DTO_Dispatch_OrderRoutingDTO_ServiceID" data-uid="SLS.Common.DTO.Dispatch.OrderRoutingDTO.ServiceID">
+  ServiceID
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Dispatch/OrderRoutingDTO.cs/#L56"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;ServiceCollection&quot;)]
+[ForeignKey(&quot;ServiceCollection&quot;)]
+public virtual long? ServiceID { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Dispatch_OrderRoutingDTO_Station_" data-uid="SLS.Common.DTO.Dispatch.OrderRoutingDTO.Station*"></a>
+
+  <h3 id="SLS_Common_DTO_Dispatch_OrderRoutingDTO_Station" data-uid="SLS.Common.DTO.Dispatch.OrderRoutingDTO.Station">
+  Station
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Dispatch/OrderRoutingDTO.cs/#L418"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[ForeignKey(&quot;StationCollection&quot;)]
+[InverseProperty(&quot;OrderRouting_Station&quot;)]
+[JsonIgnore]
+public virtual StationDTO? Station { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="SLS.Common.DTO.MasterData.Equipment.StationDTO.html">StationDTO</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Dispatch_OrderRoutingDTO_StationID_" data-uid="SLS.Common.DTO.Dispatch.OrderRoutingDTO.StationID*"></a>
+
+  <h3 id="SLS_Common_DTO_Dispatch_OrderRoutingDTO_StationID" data-uid="SLS.Common.DTO.Dispatch.OrderRoutingDTO.StationID">
+  StationID
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Dispatch/OrderRoutingDTO.cs/#L71"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;StationCollection&quot;)]
+[ForeignKey(&quot;StationCollection&quot;)]
+public virtual long? StationID { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Dispatch_OrderRoutingDTO_Tariff_" data-uid="SLS.Common.DTO.Dispatch.OrderRoutingDTO.Tariff*"></a>
+
+  <h3 id="SLS_Common_DTO_Dispatch_OrderRoutingDTO_Tariff" data-uid="SLS.Common.DTO.Dispatch.OrderRoutingDTO.Tariff">
+  Tariff
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Dispatch/OrderRoutingDTO.cs/#L121"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;Tariff&quot;)]
+public virtual string? Tariff { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Dispatch_OrderRoutingDTO_TaxationContext_" data-uid="SLS.Common.DTO.Dispatch.OrderRoutingDTO.TaxationContext*"></a>
+
+  <h3 id="SLS_Common_DTO_Dispatch_OrderRoutingDTO_TaxationContext" data-uid="SLS.Common.DTO.Dispatch.OrderRoutingDTO.TaxationContext">
+  TaxationContext
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Dispatch/OrderRoutingDTO.cs/#L423"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[ForeignKey(&quot;TaxationContextCollection&quot;)]
+[InverseProperty(&quot;OrderRouting_TaxationContext&quot;)]
+[JsonIgnore]
+public virtual TaxationContextDTO? TaxationContext { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="SLS.Common.DTO.Financial.TaxationContextDTO.html">TaxationContextDTO</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Dispatch_OrderRoutingDTO_TaxationContextID_" data-uid="SLS.Common.DTO.Dispatch.OrderRoutingDTO.TaxationContextID*"></a>
+
+  <h3 id="SLS_Common_DTO_Dispatch_OrderRoutingDTO_TaxationContextID" data-uid="SLS.Common.DTO.Dispatch.OrderRoutingDTO.TaxationContextID">
+  TaxationContextID
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Dispatch/OrderRoutingDTO.cs/#L76"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;TaxationContextCollection&quot;)]
+[ForeignKey(&quot;TaxationContextCollection&quot;)]
+public virtual long? TaxationContextID { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Dispatch_OrderRoutingDTO_TimeStamp_" data-uid="SLS.Common.DTO.Dispatch.OrderRoutingDTO.TimeStamp*"></a>
+
+  <h3 id="SLS_Common_DTO_Dispatch_OrderRoutingDTO_TimeStamp" data-uid="SLS.Common.DTO.Dispatch.OrderRoutingDTO.TimeStamp">
+  TimeStamp
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Dispatch/OrderRoutingDTO.cs/#L173"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;TimeStamp&quot;)]
+public virtual DateTime? TimeStamp { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.datetime">DateTime</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Dispatch_OrderRoutingDTO_TotalPrice_" data-uid="SLS.Common.DTO.Dispatch.OrderRoutingDTO.TotalPrice*"></a>
+
+  <h3 id="SLS_Common_DTO_Dispatch_OrderRoutingDTO_TotalPrice" data-uid="SLS.Common.DTO.Dispatch.OrderRoutingDTO.TotalPrice">
+  TotalPrice
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Dispatch/OrderRoutingDTO.cs/#L137"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;TotalPrice&quot;)]
+public virtual double TotalPrice { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Dispatch_OrderRoutingDTO_UnLoadingDate_" data-uid="SLS.Common.DTO.Dispatch.OrderRoutingDTO.UnLoadingDate*"></a>
+
+  <h3 id="SLS_Common_DTO_Dispatch_OrderRoutingDTO_UnLoadingDate" data-uid="SLS.Common.DTO.Dispatch.OrderRoutingDTO.UnLoadingDate">
+  UnLoadingDate
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Dispatch/OrderRoutingDTO.cs/#L317"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;UnLoadingDate&quot;)]
+public virtual DateTime UnLoadingDate { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.datetime">DateTime</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Dispatch_OrderRoutingDTO_Value_" data-uid="SLS.Common.DTO.Dispatch.OrderRoutingDTO.Value*"></a>
+
+  <h3 id="SLS_Common_DTO_Dispatch_OrderRoutingDTO_Value" data-uid="SLS.Common.DTO.Dispatch.OrderRoutingDTO.Value">
+  Value
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Dispatch/OrderRoutingDTO.cs/#L281"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;Value&quot;)]
+public virtual double? Value { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Dispatch_OrderRoutingDTO_Version_" data-uid="SLS.Common.DTO.Dispatch.OrderRoutingDTO.Version*"></a>
+
+  <h3 id="SLS_Common_DTO_Dispatch_OrderRoutingDTO_Version" data-uid="SLS.Common.DTO.Dispatch.OrderRoutingDTO.Version">
+  Version
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Dispatch/OrderRoutingDTO.cs/#L38"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;Version&quot;)]
+public long Version { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Dispatch_OrderRoutingDTO_Volume_" data-uid="SLS.Common.DTO.Dispatch.OrderRoutingDTO.Volume*"></a>
+
+  <h3 id="SLS_Common_DTO_Dispatch_OrderRoutingDTO_Volume" data-uid="SLS.Common.DTO.Dispatch.OrderRoutingDTO.Volume">
+  Volume
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Dispatch/OrderRoutingDTO.cs/#L301"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;Volume&quot;)]
+public virtual double? Volume { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Dispatch_OrderRoutingDTO_VoucherItems_OrderRouting_" data-uid="SLS.Common.DTO.Dispatch.OrderRoutingDTO.VoucherItems_OrderRouting*"></a>
+
+  <h3 id="SLS_Common_DTO_Dispatch_OrderRoutingDTO_VoucherItems_OrderRouting" data-uid="SLS.Common.DTO.Dispatch.OrderRoutingDTO.VoucherItems_OrderRouting">
+  VoucherItems_OrderRouting
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Dispatch/OrderRoutingDTO.cs/#L432"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;OrderRoutingCollection&quot;)]
+[JsonIgnore]
+public virtual List&lt;VoucherItemDTO&gt;? VoucherItems_OrderRouting { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<a class="xref" href="SLS.Common.DTO.Financial.VoucherItemDTO.html">VoucherItemDTO</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Dispatch_OrderRoutingDTO_WeightFreight_" data-uid="SLS.Common.DTO.Dispatch.OrderRoutingDTO.WeightFreight*"></a>
+
+  <h3 id="SLS_Common_DTO_Dispatch_OrderRoutingDTO_WeightFreight" data-uid="SLS.Common.DTO.Dispatch.OrderRoutingDTO.WeightFreight">
+  WeightFreight
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Dispatch/OrderRoutingDTO.cs/#L293"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;WeightFreight&quot;)]
+public virtual double? WeightFreight { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Dispatch_OrderRoutingDTO_WeightGross_" data-uid="SLS.Common.DTO.Dispatch.OrderRoutingDTO.WeightGross*"></a>
+
+  <h3 id="SLS_Common_DTO_Dispatch_OrderRoutingDTO_WeightGross" data-uid="SLS.Common.DTO.Dispatch.OrderRoutingDTO.WeightGross">
+  WeightGross
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Dispatch/OrderRoutingDTO.cs/#L289"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;WeightGross&quot;)]
+public virtual double? WeightGross { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Dispatch_OrderRoutingDTO_WeightNet_" data-uid="SLS.Common.DTO.Dispatch.OrderRoutingDTO.WeightNet*"></a>
+
+  <h3 id="SLS_Common_DTO_Dispatch_OrderRoutingDTO_WeightNet" data-uid="SLS.Common.DTO.Dispatch.OrderRoutingDTO.WeightNet">
+  WeightNet
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Dispatch/OrderRoutingDTO.cs/#L277"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;WeightNet&quot;)]
+public virtual double? WeightNet { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Dispatch_OrderRoutingDTO_ZipCode1_" data-uid="SLS.Common.DTO.Dispatch.OrderRoutingDTO.ZipCode1*"></a>
+
+  <h3 id="SLS_Common_DTO_Dispatch_OrderRoutingDTO_ZipCode1" data-uid="SLS.Common.DTO.Dispatch.OrderRoutingDTO.ZipCode1">
+  ZipCode1
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Dispatch/OrderRoutingDTO.cs/#L89"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;ZipCode1&quot;)]
+public virtual string? ZipCode1 { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Dispatch_OrderRoutingDTO_ZipCode2_" data-uid="SLS.Common.DTO.Dispatch.OrderRoutingDTO.ZipCode2*"></a>
+
+  <h3 id="SLS_Common_DTO_Dispatch_OrderRoutingDTO_ZipCode2" data-uid="SLS.Common.DTO.Dispatch.OrderRoutingDTO.ZipCode2">
+  ZipCode2
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Dispatch/OrderRoutingDTO.cs/#L93"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;ZipCode2&quot;)]
+public virtual string? ZipCode2 { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Dispatch_OrderRoutingDTO_Zone_" data-uid="SLS.Common.DTO.Dispatch.OrderRoutingDTO.Zone*"></a>
+
+  <h3 id="SLS_Common_DTO_Dispatch_OrderRoutingDTO_Zone" data-uid="SLS.Common.DTO.Dispatch.OrderRoutingDTO.Zone">
+  Zone
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Dispatch/OrderRoutingDTO.cs/#L125"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;Zone&quot;)]
+public virtual string? Zone { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+</article>
+
+        <div class="contribution d-print-none">
+          <a href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Dispatch/OrderRoutingDTO.cs/#L28" class="edit-link">Edit this page</a>
+        </div>
+
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,2451 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Class BusinessTypeDTO | SLS Documentation </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Class BusinessTypeDTO | SLS Documentation ">
+      
+      
+      <link rel="icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="../">
+      
+      
+      <meta name="docfx:docurl" content="https://github.com/Dev-SLS/dev/new/Dev/apiSpec/new?filename=SLS_Common_DTO__System__BusinessTypeDTO.md&amp;value=---%0Auid%3A%20SLS.Common.DTO._System_.BusinessTypeDTO%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../logo.svg" alt="SLS Documentation">
+            SLS Documentation
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="SLS.Common.DTO._System_.BusinessTypeDTO">
+
+
+
+  <h1 id="SLS_Common_DTO__System__BusinessTypeDTO" data-uid="SLS.Common.DTO._System_.BusinessTypeDTO" class="text-break">
+Class BusinessTypeDTO  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/_System_/BusinessTypeDto.cs/#L28"><i class="bi bi-code-slash"></i></a>
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="SLS.html">SLS</a>.<a class="xref" href="SLS.Common.html">Common</a>.<a class="xref" href="SLS.Common.DTO.html">DTO</a>.<a class="xref" href="SLS.Common.DTO._System_.html">_System_</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>SLS.Common.DTO.dll</dd></dl>
+  </div>
+
+  <div class="markdown summary"></div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Serializable]
+[DataContract(IsReference = true)]
+public class BusinessTypeDTO : IDTO</code></pre>
+  </div>
+
+
+
+
+  <dl class="typelist inheritance">
+    <dt>Inheritance</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+      <div><span class="xref">BusinessTypeDTO</span></div>
+    </dd>
+  </dl>
+
+  <dl class="typelist implements">
+    <dt>Implements</dt>
+    <dd>
+      <div><a class="xref" href="SLS.Common.Interfaces.IDTO.html">IDTO</a></div>
+    </dd>
+  </dl>
+
+
+  <dl class="typelist inheritedMembers">
+    <dt>Inherited Members</dt>
+    <dd>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)">object.Equals(object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">object.Equals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gethashcode">object.GetHashCode()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gettype">object.GetType()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone">object.MemberwiseClone()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals">object.ReferenceEquals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.tostring">object.ToString()</a>
+    </div>
+  </dd></dl>
+
+
+
+
+
+
+  <h2 class="section" id="properties">Properties
+</h2>
+
+
+  <a id="SLS_Common_DTO__System__BusinessTypeDTO_AdditionalInfoEnabled_" data-uid="SLS.Common.DTO._System_.BusinessTypeDTO.AdditionalInfoEnabled*"></a>
+
+  <h3 id="SLS_Common_DTO__System__BusinessTypeDTO_AdditionalInfoEnabled" data-uid="SLS.Common.DTO._System_.BusinessTypeDTO.AdditionalInfoEnabled">
+  AdditionalInfoEnabled
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/_System_/BusinessTypeDto.cs/#L95"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;AdditionalInfoEnabled&quot;)]
+public virtual bool AdditionalInfoEnabled { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO__System__BusinessTypeDTO_AddressCompanyArticleType_UsedForBusinessType_" data-uid="SLS.Common.DTO._System_.BusinessTypeDTO.AddressCompanyArticleType_UsedForBusinessType*"></a>
+
+  <h3 id="SLS_Common_DTO__System__BusinessTypeDTO_AddressCompanyArticleType_UsedForBusinessType" data-uid="SLS.Common.DTO._System_.BusinessTypeDTO.AddressCompanyArticleType_UsedForBusinessType">
+  AddressCompanyArticleType_UsedForBusinessType
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/_System_/BusinessTypeDto.cs/#L272"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;UsedForBusinessTypeCollection&quot;)]
+[JsonIgnore]
+public virtual List&lt;AddressCompanyArticleTypeDTO&gt;? AddressCompanyArticleType_UsedForBusinessType { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<a class="xref" href="SLS.Common.DTO.MasterData.AddressCompanyArticleTypeDTO.html">AddressCompanyArticleTypeDTO</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO__System__BusinessTypeDTO_AddressCompanyObjRel_BusinessType_" data-uid="SLS.Common.DTO._System_.BusinessTypeDTO.AddressCompanyObjRel_BusinessType*"></a>
+
+  <h3 id="SLS_Common_DTO__System__BusinessTypeDTO_AddressCompanyObjRel_BusinessType" data-uid="SLS.Common.DTO._System_.BusinessTypeDTO.AddressCompanyObjRel_BusinessType">
+  AddressCompanyObjRel_BusinessType
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/_System_/BusinessTypeDto.cs/#L267"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;BusinessTypeCollection&quot;)]
+[JsonIgnore]
+public virtual List&lt;AddressCompanyObjRelDTO&gt;? AddressCompanyObjRel_BusinessType { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<a class="xref" href="SLS.Common.DTO.MasterData.AddressCompanyObjRelDTO.html">AddressCompanyObjRelDTO</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO__System__BusinessTypeDTO_AddressWebPortalDetObjRel_BusinessType_" data-uid="SLS.Common.DTO._System_.BusinessTypeDTO.AddressWebPortalDetObjRel_BusinessType*"></a>
+
+  <h3 id="SLS_Common_DTO__System__BusinessTypeDTO_AddressWebPortalDetObjRel_BusinessType" data-uid="SLS.Common.DTO._System_.BusinessTypeDTO.AddressWebPortalDetObjRel_BusinessType">
+  AddressWebPortalDetObjRel_BusinessType
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/_System_/BusinessTypeDto.cs/#L227"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;BusinessTypeCollection&quot;)]
+[JsonIgnore]
+public virtual List&lt;AddressWebPortalDetObjRelDTO&gt;? AddressWebPortalDetObjRel_BusinessType { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<a class="xref" href="SLS.Common.DTO.MasterData.Web.AddressWebPortalDetObjRelDTO.html">AddressWebPortalDetObjRelDTO</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO__System__BusinessTypeDTO_ApiProviderSettings_BusinessObjectType_" data-uid="SLS.Common.DTO._System_.BusinessTypeDTO.ApiProviderSettings_BusinessObjectType*"></a>
+
+  <h3 id="SLS_Common_DTO__System__BusinessTypeDTO_ApiProviderSettings_BusinessObjectType" data-uid="SLS.Common.DTO._System_.BusinessTypeDTO.ApiProviderSettings_BusinessObjectType">
+  ApiProviderSettings_BusinessObjectType
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/_System_/BusinessTypeDto.cs/#L262"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;BusinessObjectTypeCollection&quot;)]
+[JsonIgnore]
+public virtual List&lt;ApiProviderSettingDTO&gt;? ApiProviderSettings_BusinessObjectType { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<a class="xref" href="SLS.Common.DTO.MasterData.ApiProviderSettingDTO.html">ApiProviderSettingDTO</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO__System__BusinessTypeDTO_BillingRuleTranslations_BusinessType_" data-uid="SLS.Common.DTO._System_.BusinessTypeDTO.BillingRuleTranslations_BusinessType*"></a>
+
+  <h3 id="SLS_Common_DTO__System__BusinessTypeDTO_BillingRuleTranslations_BusinessType" data-uid="SLS.Common.DTO._System_.BusinessTypeDTO.BillingRuleTranslations_BusinessType">
+  BillingRuleTranslations_BusinessType
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/_System_/BusinessTypeDto.cs/#L297"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;BusinessTypeCollection&quot;)]
+[JsonIgnore]
+public virtual List&lt;BillingRuleTranslationDTO&gt;? BillingRuleTranslations_BusinessType { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<a class="xref" href="SLS.Common.DTO.Financial.BillingRuleTranslationDTO.html">BillingRuleTranslationDTO</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO__System__BusinessTypeDTO_BusinessTypeAttribute_BusinessType_" data-uid="SLS.Common.DTO._System_.BusinessTypeDTO.BusinessTypeAttribute_BusinessType*"></a>
+
+  <h3 id="SLS_Common_DTO__System__BusinessTypeDTO_BusinessTypeAttribute_BusinessType" data-uid="SLS.Common.DTO._System_.BusinessTypeDTO.BusinessTypeAttribute_BusinessType">
+  BusinessTypeAttribute_BusinessType
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/_System_/BusinessTypeDto.cs/#L342"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;BusinessTypeCollection&quot;)]
+[JsonIgnore]
+public virtual List&lt;BusinessTypeAttributeDTO&gt;? BusinessTypeAttribute_BusinessType { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<a class="xref" href="SLS.Common.DTO.Attributes.BusinessTypeAttributeDTO.html">BusinessTypeAttributeDTO</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO__System__BusinessTypeDTO_BusinessTypeChangeLogColumn_BusinessType_" data-uid="SLS.Common.DTO._System_.BusinessTypeDTO.BusinessTypeChangeLogColumn_BusinessType*"></a>
+
+  <h3 id="SLS_Common_DTO__System__BusinessTypeDTO_BusinessTypeChangeLogColumn_BusinessType" data-uid="SLS.Common.DTO._System_.BusinessTypeDTO.BusinessTypeChangeLogColumn_BusinessType">
+  BusinessTypeChangeLogColumn_BusinessType
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/_System_/BusinessTypeDto.cs/#L362"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;BusinessTypeCollection&quot;)]
+public virtual List&lt;BusinessTypeChangeLogColumnDTO&gt;? BusinessTypeChangeLogColumn_BusinessType { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<a class="xref" href="SLS.Common.DTO._System_.BusinessTypeChangeLogColumnDTO.html">BusinessTypeChangeLogColumnDTO</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO__System__BusinessTypeDTO_BusinessTypes_RealType_" data-uid="SLS.Common.DTO._System_.BusinessTypeDTO.BusinessTypes_RealType*"></a>
+
+  <h3 id="SLS_Common_DTO__System__BusinessTypeDTO_BusinessTypes_RealType" data-uid="SLS.Common.DTO._System_.BusinessTypeDTO.BusinessTypes_RealType">
+  BusinessTypes_RealType
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/_System_/BusinessTypeDto.cs/#L367"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;RealTypeCollection&quot;)]
+[JsonIgnore]
+public virtual List&lt;BusinessTypeDTO&gt;? BusinessTypes_RealType { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<a class="xref" href="SLS.Common.DTO._System_.BusinessTypeDTO.html">BusinessTypeDTO</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO__System__BusinessTypeDTO_ChangeLog_" data-uid="SLS.Common.DTO._System_.BusinessTypeDTO.ChangeLog*"></a>
+
+  <h3 id="SLS_Common_DTO__System__BusinessTypeDTO_ChangeLog" data-uid="SLS.Common.DTO._System_.BusinessTypeDTO.ChangeLog">
+  ChangeLog
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/_System_/BusinessTypeDto.cs/#L63"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;ChangeLog&quot;)]
+public virtual bool? ChangeLog { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO__System__BusinessTypeDTO_ClearingProcessStatus_ContextObjectType_" data-uid="SLS.Common.DTO._System_.BusinessTypeDTO.ClearingProcessStatus_ContextObjectType*"></a>
+
+  <h3 id="SLS_Common_DTO__System__BusinessTypeDTO_ClearingProcessStatus_ContextObjectType" data-uid="SLS.Common.DTO._System_.BusinessTypeDTO.ClearingProcessStatus_ContextObjectType">
+  ClearingProcessStatus_ContextObjectType
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/_System_/BusinessTypeDto.cs/#L292"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;ContextObjectTypeCollection&quot;)]
+[JsonIgnore]
+public virtual List&lt;ClearingProcessStatusDTO&gt;? ClearingProcessStatus_ContextObjectType { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<a class="xref" href="SLS.Common.DTO.Financial.Clearing.ClearingProcessStatusDTO.html">ClearingProcessStatusDTO</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO__System__BusinessTypeDTO_CollectivOrderProcessStatus_ContextObjectType_" data-uid="SLS.Common.DTO._System_.BusinessTypeDTO.CollectivOrderProcessStatus_ContextObjectType*"></a>
+
+  <h3 id="SLS_Common_DTO__System__BusinessTypeDTO_CollectivOrderProcessStatus_ContextObjectType" data-uid="SLS.Common.DTO._System_.BusinessTypeDTO.CollectivOrderProcessStatus_ContextObjectType">
+  CollectivOrderProcessStatus_ContextObjectType
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/_System_/BusinessTypeDto.cs/#L337"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;ContextObjectTypeCollection&quot;)]
+[JsonIgnore]
+public virtual List&lt;CollectivOrderProcessStatusDTO&gt;? CollectivOrderProcessStatus_ContextObjectType { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<a class="xref" href="SLS.Common.DTO.Dispatch.CollectivOrderProcessStatusDTO.html">CollectivOrderProcessStatusDTO</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO__System__BusinessTypeDTO_CompanyProcessStatus_ContextObjectType_" data-uid="SLS.Common.DTO._System_.BusinessTypeDTO.CompanyProcessStatus_ContextObjectType*"></a>
+
+  <h3 id="SLS_Common_DTO__System__BusinessTypeDTO_CompanyProcessStatus_ContextObjectType" data-uid="SLS.Common.DTO._System_.BusinessTypeDTO.CompanyProcessStatus_ContextObjectType">
+  CompanyProcessStatus_ContextObjectType
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/_System_/BusinessTypeDto.cs/#L257"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;ContextObjectTypeCollection&quot;)]
+[JsonIgnore]
+public virtual List&lt;CompanyProcessStatusDTO&gt;? CompanyProcessStatus_ContextObjectType { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<a class="xref" href="SLS.Common.DTO.MasterData.CompanyProcessStatusDTO.html">CompanyProcessStatusDTO</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO__System__BusinessTypeDTO_CustomObjectIDTypes_BusinessType_" data-uid="SLS.Common.DTO._System_.BusinessTypeDTO.CustomObjectIDTypes_BusinessType*"></a>
+
+  <h3 id="SLS_Common_DTO__System__BusinessTypeDTO_CustomObjectIDTypes_BusinessType" data-uid="SLS.Common.DTO._System_.BusinessTypeDTO.CustomObjectIDTypes_BusinessType">
+  CustomObjectIDTypes_BusinessType
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/_System_/BusinessTypeDto.cs/#L347"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;BusinessTypeCollection&quot;)]
+[JsonIgnore]
+public virtual List&lt;CustomObjectIDTypeDTO&gt;? CustomObjectIDTypes_BusinessType { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<a class="xref" href="SLS.Common.DTO.BusinessClasses.DocumentID.CustomObjectIDTypeDTO.html">CustomObjectIDTypeDTO</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO__System__BusinessTypeDTO_DB_Update_No_Data_Insert_" data-uid="SLS.Common.DTO._System_.BusinessTypeDTO.DB_Update_No_Data_Insert*"></a>
+
+  <h3 id="SLS_Common_DTO__System__BusinessTypeDTO_DB_Update_No_Data_Insert" data-uid="SLS.Common.DTO._System_.BusinessTypeDTO.DB_Update_No_Data_Insert">
+  DB_Update_No_Data_Insert
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/_System_/BusinessTypeDto.cs/#L71"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;DB_Update_No_Data_Insert&quot;)]
+public virtual bool DB_Update_No_Data_Insert { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO__System__BusinessTypeDTO_DefaultImagesIndex_" data-uid="SLS.Common.DTO._System_.BusinessTypeDTO.DefaultImagesIndex*"></a>
+
+  <h3 id="SLS_Common_DTO__System__BusinessTypeDTO_DefaultImagesIndex" data-uid="SLS.Common.DTO._System_.BusinessTypeDTO.DefaultImagesIndex">
+  DefaultImagesIndex
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/_System_/BusinessTypeDto.cs/#L91"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;DefaultImagesIndex&quot;)]
+public virtual int? DefaultImagesIndex { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO__System__BusinessTypeDTO_DelimitationDateFieldName_" data-uid="SLS.Common.DTO._System_.BusinessTypeDTO.DelimitationDateFieldName*"></a>
+
+  <h3 id="SLS_Common_DTO__System__BusinessTypeDTO_DelimitationDateFieldName" data-uid="SLS.Common.DTO._System_.BusinessTypeDTO.DelimitationDateFieldName">
+  DelimitationDateFieldName
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/_System_/BusinessTypeDto.cs/#L79"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;DelimitationDateFieldName&quot;)]
+public virtual string DelimitationDateFieldName { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO__System__BusinessTypeDTO_EmissionsInfos_BusinessObjectType_" data-uid="SLS.Common.DTO._System_.BusinessTypeDTO.EmissionsInfos_BusinessObjectType*"></a>
+
+  <h3 id="SLS_Common_DTO__System__BusinessTypeDTO_EmissionsInfos_BusinessObjectType" data-uid="SLS.Common.DTO._System_.BusinessTypeDTO.EmissionsInfos_BusinessObjectType">
+  EmissionsInfos_BusinessObjectType
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/_System_/BusinessTypeDto.cs/#L332"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;BusinessObjectTypeCollection&quot;)]
+[JsonIgnore]
+public virtual List&lt;EmissionsInfoDTO&gt;? EmissionsInfos_BusinessObjectType { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<a class="xref" href="SLS.Common.DTO.Dispatch.EmissionsInfoDTO.html">EmissionsInfoDTO</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO__System__BusinessTypeDTO_ExternalLink_BusinessType_" data-uid="SLS.Common.DTO._System_.BusinessTypeDTO.ExternalLink_BusinessType*"></a>
+
+  <h3 id="SLS_Common_DTO__System__BusinessTypeDTO_ExternalLink_BusinessType" data-uid="SLS.Common.DTO._System_.BusinessTypeDTO.ExternalLink_BusinessType">
+  ExternalLink_BusinessType
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/_System_/BusinessTypeDto.cs/#L357"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;BusinessTypeCollection&quot;)]
+[JsonIgnore]
+public virtual List&lt;ExternalLinkDTO&gt;? ExternalLink_BusinessType { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<a class="xref" href="SLS.Common.DTO._System_.ExternalLinkDTO.html">ExternalLinkDTO</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO__System__BusinessTypeDTO_FreightRateValueMapping_BusinessType_" data-uid="SLS.Common.DTO._System_.BusinessTypeDTO.FreightRateValueMapping_BusinessType*"></a>
+
+  <h3 id="SLS_Common_DTO__System__BusinessTypeDTO_FreightRateValueMapping_BusinessType" data-uid="SLS.Common.DTO._System_.BusinessTypeDTO.FreightRateValueMapping_BusinessType">
+  FreightRateValueMapping_BusinessType
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/_System_/BusinessTypeDto.cs/#L287"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;BusinessTypeCollection&quot;)]
+[JsonIgnore]
+public virtual List&lt;FreightRateValueMappingDTO&gt;? FreightRateValueMapping_BusinessType { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<a class="xref" href="SLS.Common.DTO.Financial.FreightRateValueMappingDTO.html">FreightRateValueMappingDTO</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO__System__BusinessTypeDTO_FreightTerms_UsedForBusinessType_" data-uid="SLS.Common.DTO._System_.BusinessTypeDTO.FreightTerms_UsedForBusinessType*"></a>
+
+  <h3 id="SLS_Common_DTO__System__BusinessTypeDTO_FreightTerms_UsedForBusinessType" data-uid="SLS.Common.DTO._System_.BusinessTypeDTO.FreightTerms_UsedForBusinessType">
+  FreightTerms_UsedForBusinessType
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/_System_/BusinessTypeDto.cs/#L247"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;UsedForBusinessTypeCollection&quot;)]
+[JsonIgnore]
+public virtual List&lt;FreightTermDTO&gt;? FreightTerms_UsedForBusinessType { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<a class="xref" href="SLS.Common.DTO.MasterData.FreightTermDTO.html">FreightTermDTO</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO__System__BusinessTypeDTO_GlobalIndexMode_" data-uid="SLS.Common.DTO._System_.BusinessTypeDTO.GlobalIndexMode*"></a>
+
+  <h3 id="SLS_Common_DTO__System__BusinessTypeDTO_GlobalIndexMode" data-uid="SLS.Common.DTO._System_.BusinessTypeDTO.GlobalIndexMode">
+  GlobalIndexMode
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/_System_/BusinessTypeDto.cs/#L75"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;GlobalIndexMode&quot;)]
+public virtual int GlobalIndexMode { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO__System__BusinessTypeDTO_GoodsInOrderItemProcStatus_ContextObjectType_" data-uid="SLS.Common.DTO._System_.BusinessTypeDTO.GoodsInOrderItemProcStatus_ContextObjectType*"></a>
+
+  <h3 id="SLS_Common_DTO__System__BusinessTypeDTO_GoodsInOrderItemProcStatus_ContextObjectType" data-uid="SLS.Common.DTO._System_.BusinessTypeDTO.GoodsInOrderItemProcStatus_ContextObjectType">
+  GoodsInOrderItemProcStatus_ContextObjectType
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/_System_/BusinessTypeDto.cs/#L152"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;ContextObjectTypeCollection&quot;)]
+[JsonIgnore]
+public virtual List&lt;GoodsInOrderItemProcStatusDTO&gt;? GoodsInOrderItemProcStatus_ContextObjectType { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<a class="xref" href="SLS.Common.DTO.WareHouse.GoodsInOrderItemProcStatusDTO.html">GoodsInOrderItemProcStatusDTO</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO__System__BusinessTypeDTO_GoodsInOrderProcStatus_ContextObjectType_" data-uid="SLS.Common.DTO._System_.BusinessTypeDTO.GoodsInOrderProcStatus_ContextObjectType*"></a>
+
+  <h3 id="SLS_Common_DTO__System__BusinessTypeDTO_GoodsInOrderProcStatus_ContextObjectType" data-uid="SLS.Common.DTO._System_.BusinessTypeDTO.GoodsInOrderProcStatus_ContextObjectType">
+  GoodsInOrderProcStatus_ContextObjectType
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/_System_/BusinessTypeDto.cs/#L147"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;ContextObjectTypeCollection&quot;)]
+[JsonIgnore]
+public virtual List&lt;GoodsInOrderProcStatusDTO&gt;? GoodsInOrderProcStatus_ContextObjectType { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<a class="xref" href="SLS.Common.DTO.WareHouse.GoodsInOrderProcStatusDTO.html">GoodsInOrderProcStatusDTO</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO__System__BusinessTypeDTO_GoodsOutOrderItemProcStatus_ContextObjectType_" data-uid="SLS.Common.DTO._System_.BusinessTypeDTO.GoodsOutOrderItemProcStatus_ContextObjectType*"></a>
+
+  <h3 id="SLS_Common_DTO__System__BusinessTypeDTO_GoodsOutOrderItemProcStatus_ContextObjectType" data-uid="SLS.Common.DTO._System_.BusinessTypeDTO.GoodsOutOrderItemProcStatus_ContextObjectType">
+  GoodsOutOrderItemProcStatus_ContextObjectType
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/_System_/BusinessTypeDto.cs/#L142"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;ContextObjectTypeCollection&quot;)]
+[JsonIgnore]
+public virtual List&lt;GoodsOutOrderItemProcStatusDTO&gt;? GoodsOutOrderItemProcStatus_ContextObjectType { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<a class="xref" href="SLS.Common.DTO.WareHouse.GoodsOutOrderItemProcStatusDTO.html">GoodsOutOrderItemProcStatusDTO</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO__System__BusinessTypeDTO_GoodsOutOrderProcStatus_ContextObjectType_" data-uid="SLS.Common.DTO._System_.BusinessTypeDTO.GoodsOutOrderProcStatus_ContextObjectType*"></a>
+
+  <h3 id="SLS_Common_DTO__System__BusinessTypeDTO_GoodsOutOrderProcStatus_ContextObjectType" data-uid="SLS.Common.DTO._System_.BusinessTypeDTO.GoodsOutOrderProcStatus_ContextObjectType">
+  GoodsOutOrderProcStatus_ContextObjectType
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/_System_/BusinessTypeDto.cs/#L137"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;ContextObjectTypeCollection&quot;)]
+[JsonIgnore]
+public virtual List&lt;GoodsOutOrderProcStatusDTO&gt;? GoodsOutOrderProcStatus_ContextObjectType { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<a class="xref" href="SLS.Common.DTO.WareHouse.GoodsOutOrderProcStatusDTO.html">GoodsOutOrderProcStatusDTO</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO__System__BusinessTypeDTO_GroupageScheduleResources_BusinessType_" data-uid="SLS.Common.DTO._System_.BusinessTypeDTO.GroupageScheduleResources_BusinessType*"></a>
+
+  <h3 id="SLS_Common_DTO__System__BusinessTypeDTO_GroupageScheduleResources_BusinessType" data-uid="SLS.Common.DTO._System_.BusinessTypeDTO.GroupageScheduleResources_BusinessType">
+  GroupageScheduleResources_BusinessType
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/_System_/BusinessTypeDto.cs/#L252"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;BusinessTypeCollection&quot;)]
+[JsonIgnore]
+public virtual List&lt;GroupageScheduleResourceDTO&gt;? GroupageScheduleResources_BusinessType { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<a class="xref" href="SLS.Common.DTO.MasterData.Dispo.GroupageScheduleResourceDTO.html">GroupageScheduleResourceDTO</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO__System__BusinessTypeDTO_HandlingUnitProcessStatus_ContextObjectType_" data-uid="SLS.Common.DTO._System_.BusinessTypeDTO.HandlingUnitProcessStatus_ContextObjectType*"></a>
+
+  <h3 id="SLS_Common_DTO__System__BusinessTypeDTO_HandlingUnitProcessStatus_ContextObjectType" data-uid="SLS.Common.DTO._System_.BusinessTypeDTO.HandlingUnitProcessStatus_ContextObjectType">
+  HandlingUnitProcessStatus_ContextObjectType
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/_System_/BusinessTypeDto.cs/#L327"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;ContextObjectTypeCollection&quot;)]
+[JsonIgnore]
+public virtual List&lt;HandlingUnitProcessStatusDTO&gt;? HandlingUnitProcessStatus_ContextObjectType { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<a class="xref" href="SLS.Common.DTO.Dispatch.HandlingUnitProcessStatusDTO.html">HandlingUnitProcessStatusDTO</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO__System__BusinessTypeDTO_Id_" data-uid="SLS.Common.DTO._System_.BusinessTypeDTO.Id*"></a>
+
+  <h3 id="SLS_Common_DTO__System__BusinessTypeDTO_Id" data-uid="SLS.Common.DTO._System_.BusinessTypeDTO.Id">
+  Id
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/_System_/BusinessTypeDto.cs/#L34"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;ID&quot;)]
+public long Id { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO__System__BusinessTypeDTO_IdentFieldName1_" data-uid="SLS.Common.DTO._System_.BusinessTypeDTO.IdentFieldName1*"></a>
+
+  <h3 id="SLS_Common_DTO__System__BusinessTypeDTO_IdentFieldName1" data-uid="SLS.Common.DTO._System_.BusinessTypeDTO.IdentFieldName1">
+  IdentFieldName1
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/_System_/BusinessTypeDto.cs/#L83"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;IdentFieldName1&quot;)]
+public virtual string IdentFieldName1 { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO__System__BusinessTypeDTO_IdentFieldName2_" data-uid="SLS.Common.DTO._System_.BusinessTypeDTO.IdentFieldName2*"></a>
+
+  <h3 id="SLS_Common_DTO__System__BusinessTypeDTO_IdentFieldName2" data-uid="SLS.Common.DTO._System_.BusinessTypeDTO.IdentFieldName2">
+  IdentFieldName2
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/_System_/BusinessTypeDto.cs/#L87"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;IdentFieldName2&quot;)]
+public virtual string IdentFieldName2 { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO__System__BusinessTypeDTO_JobPosition_UsedFoBusinessType_" data-uid="SLS.Common.DTO._System_.BusinessTypeDTO.JobPosition_UsedFoBusinessType*"></a>
+
+  <h3 id="SLS_Common_DTO__System__BusinessTypeDTO_JobPosition_UsedFoBusinessType" data-uid="SLS.Common.DTO._System_.BusinessTypeDTO.JobPosition_UsedFoBusinessType">
+  JobPosition_UsedFoBusinessType
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/_System_/BusinessTypeDto.cs/#L242"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;UsedFoBusinessTypeCollection&quot;)]
+[JsonIgnore]
+public virtual List&lt;JobPositionDTO&gt;? JobPosition_UsedFoBusinessType { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<a class="xref" href="SLS.Common.DTO.MasterData.JobPositionDTO.html">JobPositionDTO</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO__System__BusinessTypeDTO_LQAccountingSetProcStatus_ContextObjectType_" data-uid="SLS.Common.DTO._System_.BusinessTypeDTO.LQAccountingSetProcStatus_ContextObjectType*"></a>
+
+  <h3 id="SLS_Common_DTO__System__BusinessTypeDTO_LQAccountingSetProcStatus_ContextObjectType" data-uid="SLS.Common.DTO._System_.BusinessTypeDTO.LQAccountingSetProcStatus_ContextObjectType">
+  LQAccountingSetProcStatus_ContextObjectType
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/_System_/BusinessTypeDto.cs/#L322"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;ContextObjectTypeCollection&quot;)]
+[JsonIgnore]
+public virtual List&lt;LQAccountingSetProcStatusDTO&gt;? LQAccountingSetProcStatus_ContextObjectType { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<a class="xref" href="SLS.Common.DTO.Dispatch.LQAccountingSetProcStatusDTO.html">LQAccountingSetProcStatusDTO</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO__System__BusinessTypeDTO_Log_Keep_Time_" data-uid="SLS.Common.DTO._System_.BusinessTypeDTO.Log_Keep_Time*"></a>
+
+  <h3 id="SLS_Common_DTO__System__BusinessTypeDTO_Log_Keep_Time" data-uid="SLS.Common.DTO._System_.BusinessTypeDTO.Log_Keep_Time">
+  Log_Keep_Time
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/_System_/BusinessTypeDto.cs/#L67"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;Log_Keep_Time&quot;)]
+public virtual int? Log_Keep_Time { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO__System__BusinessTypeDTO_LookupValueMappingSet_BusinessType_" data-uid="SLS.Common.DTO._System_.BusinessTypeDTO.LookupValueMappingSet_BusinessType*"></a>
+
+  <h3 id="SLS_Common_DTO__System__BusinessTypeDTO_LookupValueMappingSet_BusinessType" data-uid="SLS.Common.DTO._System_.BusinessTypeDTO.LookupValueMappingSet_BusinessType">
+  LookupValueMappingSet_BusinessType
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/_System_/BusinessTypeDto.cs/#L187"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;BusinessTypeCollection&quot;)]
+[JsonIgnore]
+public virtual List&lt;LookupValueMappingSetDTO&gt;? LookupValueMappingSet_BusinessType { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<a class="xref" href="SLS.Common.DTO.Automation.LookupValueMappingSetDTO.html">LookupValueMappingSetDTO</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO__System__BusinessTypeDTO_LookupValueMapping_BusinessType_" data-uid="SLS.Common.DTO._System_.BusinessTypeDTO.LookupValueMapping_BusinessType*"></a>
+
+  <h3 id="SLS_Common_DTO__System__BusinessTypeDTO_LookupValueMapping_BusinessType" data-uid="SLS.Common.DTO._System_.BusinessTypeDTO.LookupValueMapping_BusinessType">
+  LookupValueMapping_BusinessType
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/_System_/BusinessTypeDto.cs/#L192"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;BusinessTypeCollection&quot;)]
+[JsonIgnore]
+public virtual List&lt;LookupValueMappingDTO&gt;? LookupValueMapping_BusinessType { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<a class="xref" href="SLS.Common.DTO.Automation.LookupValueMappingDTO.html">LookupValueMappingDTO</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO__System__BusinessTypeDTO_Messages_DataObjectBusinesstype_" data-uid="SLS.Common.DTO._System_.BusinessTypeDTO.Messages_DataObjectBusinesstype*"></a>
+
+  <h3 id="SLS_Common_DTO__System__BusinessTypeDTO_Messages_DataObjectBusinesstype" data-uid="SLS.Common.DTO._System_.BusinessTypeDTO.Messages_DataObjectBusinesstype">
+  Messages_DataObjectBusinesstype
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/_System_/BusinessTypeDto.cs/#L112"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;DataObjectBusinesstypeCollection&quot;)]
+[JsonIgnore]
+public virtual List&lt;MessageDTO&gt;? Messages_DataObjectBusinesstype { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<a class="xref" href="SLS.Common.DTO.Telematics.MessageDTO.html">MessageDTO</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO__System__BusinessTypeDTO_MinimumFreightWeight_BusinessType_" data-uid="SLS.Common.DTO._System_.BusinessTypeDTO.MinimumFreightWeight_BusinessType*"></a>
+
+  <h3 id="SLS_Common_DTO__System__BusinessTypeDTO_MinimumFreightWeight_BusinessType" data-uid="SLS.Common.DTO._System_.BusinessTypeDTO.MinimumFreightWeight_BusinessType">
+  MinimumFreightWeight_BusinessType
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/_System_/BusinessTypeDto.cs/#L237"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;BusinessTypeCollection&quot;)]
+[JsonIgnore]
+public virtual List&lt;MinimumFreightWeightDTO&gt;? MinimumFreightWeight_BusinessType { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<a class="xref" href="SLS.Common.DTO.MasterData.MinimumFreightWeightDTO.html">MinimumFreightWeightDTO</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO__System__BusinessTypeDTO_Name_" data-uid="SLS.Common.DTO._System_.BusinessTypeDTO.Name*"></a>
+
+  <h3 id="SLS_Common_DTO__System__BusinessTypeDTO_Name" data-uid="SLS.Common.DTO._System_.BusinessTypeDTO.Name">
+  Name
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/_System_/BusinessTypeDto.cs/#L55"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;Name&quot;)]
+public virtual string Name { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO__System__BusinessTypeDTO_ObjectMergeCode_ChildType_" data-uid="SLS.Common.DTO._System_.BusinessTypeDTO.ObjectMergeCode_ChildType*"></a>
+
+  <h3 id="SLS_Common_DTO__System__BusinessTypeDTO_ObjectMergeCode_ChildType" data-uid="SLS.Common.DTO._System_.BusinessTypeDTO.ObjectMergeCode_ChildType">
+  ObjectMergeCode_ChildType
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/_System_/BusinessTypeDto.cs/#L167"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;ChildTypeCollection&quot;)]
+[JsonIgnore]
+public virtual List&lt;ObjectMergeCodeDTO&gt;? ObjectMergeCode_ChildType { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<a class="xref" href="SLS.Common.DTO.ObjectMergeCodeDTO.html">ObjectMergeCodeDTO</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO__System__BusinessTypeDTO_ObjectMergeCode_ParentType_" data-uid="SLS.Common.DTO._System_.BusinessTypeDTO.ObjectMergeCode_ParentType*"></a>
+
+  <h3 id="SLS_Common_DTO__System__BusinessTypeDTO_ObjectMergeCode_ParentType" data-uid="SLS.Common.DTO._System_.BusinessTypeDTO.ObjectMergeCode_ParentType">
+  ObjectMergeCode_ParentType
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/_System_/BusinessTypeDto.cs/#L162"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;ParentTypeCollection&quot;)]
+[JsonIgnore]
+public virtual List&lt;ObjectMergeCodeDTO&gt;? ObjectMergeCode_ParentType { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<a class="xref" href="SLS.Common.DTO.ObjectMergeCodeDTO.html">ObjectMergeCodeDTO</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO__System__BusinessTypeDTO_OrderProcessStatus_ContextObjectType_" data-uid="SLS.Common.DTO._System_.BusinessTypeDTO.OrderProcessStatus_ContextObjectType*"></a>
+
+  <h3 id="SLS_Common_DTO__System__BusinessTypeDTO_OrderProcessStatus_ContextObjectType" data-uid="SLS.Common.DTO._System_.BusinessTypeDTO.OrderProcessStatus_ContextObjectType">
+  OrderProcessStatus_ContextObjectType
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/_System_/BusinessTypeDto.cs/#L317"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;ContextObjectTypeCollection&quot;)]
+[JsonIgnore]
+public virtual List&lt;OrderProcessStatusDTO&gt;? OrderProcessStatus_ContextObjectType { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<a class="xref" href="SLS.Common.DTO.Dispatch.OrderProcessStatusDTO.html">OrderProcessStatusDTO</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO__System__BusinessTypeDTO_OrderType_UsedForBusinessType_" data-uid="SLS.Common.DTO._System_.BusinessTypeDTO.OrderType_UsedForBusinessType*"></a>
+
+  <h3 id="SLS_Common_DTO__System__BusinessTypeDTO_OrderType_UsedForBusinessType" data-uid="SLS.Common.DTO._System_.BusinessTypeDTO.OrderType_UsedForBusinessType">
+  OrderType_UsedForBusinessType
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/_System_/BusinessTypeDto.cs/#L132"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;UsedForBusinessTypeCollection&quot;)]
+[JsonIgnore]
+public virtual List&lt;OrderTypeDTO&gt;? OrderType_UsedForBusinessType { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<a class="xref" href="SLS.Common.DTO.WareHouse.OrderTypeDTO.html">OrderTypeDTO</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO__System__BusinessTypeDTO_PLSQL_Expression_BusinessType_" data-uid="SLS.Common.DTO._System_.BusinessTypeDTO.PLSQL_Expression_BusinessType*"></a>
+
+  <h3 id="SLS_Common_DTO__System__BusinessTypeDTO_PLSQL_Expression_BusinessType" data-uid="SLS.Common.DTO._System_.BusinessTypeDTO.PLSQL_Expression_BusinessType">
+  PLSQL_Expression_BusinessType
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/_System_/BusinessTypeDto.cs/#L182"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;BusinessTypeCollection&quot;)]
+[JsonIgnore]
+public virtual List&lt;PLSQL_ExpressionDTO&gt;? PLSQL_Expression_BusinessType { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<a class="xref" href="SLS.Common.DTO.Automation.PLSQL_ExpressionDTO.html">PLSQL_ExpressionDTO</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO__System__BusinessTypeDTO_PLSQL_ProgramType_BusinessType_" data-uid="SLS.Common.DTO._System_.BusinessTypeDTO.PLSQL_ProgramType_BusinessType*"></a>
+
+  <h3 id="SLS_Common_DTO__System__BusinessTypeDTO_PLSQL_ProgramType_BusinessType" data-uid="SLS.Common.DTO._System_.BusinessTypeDTO.PLSQL_ProgramType_BusinessType">
+  PLSQL_ProgramType_BusinessType
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/_System_/BusinessTypeDto.cs/#L177"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;BusinessTypeCollection&quot;)]
+[JsonIgnore]
+public virtual List&lt;PLSQL_ProgramTypeDTO&gt;? PLSQL_ProgramType_BusinessType { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<a class="xref" href="SLS.Common.DTO.Automation.PLSQL_ProgramTypeDTO.html">PLSQL_ProgramTypeDTO</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO__System__BusinessTypeDTO_ProductKey_" data-uid="SLS.Common.DTO._System_.BusinessTypeDTO.ProductKey*"></a>
+
+  <h3 id="SLS_Common_DTO__System__BusinessTypeDTO_ProductKey" data-uid="SLS.Common.DTO._System_.BusinessTypeDTO.ProductKey">
+  ProductKey
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/_System_/BusinessTypeDto.cs/#L59"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;ProductKey&quot;)]
+public virtual string ProductKey { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO__System__BusinessTypeDTO_ProductionOrderProcStatus_ContextObjectType_" data-uid="SLS.Common.DTO._System_.BusinessTypeDTO.ProductionOrderProcStatus_ContextObjectType*"></a>
+
+  <h3 id="SLS_Common_DTO__System__BusinessTypeDTO_ProductionOrderProcStatus_ContextObjectType" data-uid="SLS.Common.DTO._System_.BusinessTypeDTO.ProductionOrderProcStatus_ContextObjectType">
+  ProductionOrderProcStatus_ContextObjectType
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/_System_/BusinessTypeDto.cs/#L157"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;ContextObjectTypeCollection&quot;)]
+[JsonIgnore]
+public virtual List&lt;ProductionOrderProcStatusDTO&gt;? ProductionOrderProcStatus_ContextObjectType { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<a class="xref" href="SLS.Common.DTO.Production.ProductionOrderProcStatusDTO.html">ProductionOrderProcStatusDTO</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO__System__BusinessTypeDTO_RealType_" data-uid="SLS.Common.DTO._System_.BusinessTypeDTO.RealType*"></a>
+
+  <h3 id="SLS_Common_DTO__System__BusinessTypeDTO_RealType" data-uid="SLS.Common.DTO._System_.BusinessTypeDTO.RealType">
+  RealType
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/_System_/BusinessTypeDto.cs/#L103"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[ForeignKey(&quot;RealTypeCollection&quot;)]
+[InverseProperty(&quot;BusinessTypes_RealType&quot;)]
+[JsonIgnore]
+public virtual BusinessTypeDTO? RealType { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="SLS.Common.DTO._System_.BusinessTypeDTO.html">BusinessTypeDTO</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO__System__BusinessTypeDTO_RealTypeID_" data-uid="SLS.Common.DTO._System_.BusinessTypeDTO.RealTypeID*"></a>
+
+  <h3 id="SLS_Common_DTO__System__BusinessTypeDTO_RealTypeID" data-uid="SLS.Common.DTO._System_.BusinessTypeDTO.RealTypeID">
+  RealTypeID
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/_System_/BusinessTypeDto.cs/#L46"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;RealTypeCollection&quot;)]
+[ForeignKey(&quot;RealTypeCollection&quot;)]
+public virtual long? RealTypeID { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO__System__BusinessTypeDTO_ReportGroup_BusinessType_" data-uid="SLS.Common.DTO._System_.BusinessTypeDTO.ReportGroup_BusinessType*"></a>
+
+  <h3 id="SLS_Common_DTO__System__BusinessTypeDTO_ReportGroup_BusinessType" data-uid="SLS.Common.DTO._System_.BusinessTypeDTO.ReportGroup_BusinessType">
+  ReportGroup_BusinessType
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/_System_/BusinessTypeDto.cs/#L212"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;BusinessTypeCollection&quot;)]
+[JsonIgnore]
+public virtual List&lt;ReportGroupDTO&gt;? ReportGroup_BusinessType { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<a class="xref" href="SLS.Common.DTO.Print.ReportGroupDTO.html">ReportGroupDTO</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO__System__BusinessTypeDTO_ResourceOccupationType_BusinessType_" data-uid="SLS.Common.DTO._System_.BusinessTypeDTO.ResourceOccupationType_BusinessType*"></a>
+
+  <h3 id="SLS_Common_DTO__System__BusinessTypeDTO_ResourceOccupationType_BusinessType" data-uid="SLS.Common.DTO._System_.BusinessTypeDTO.ResourceOccupationType_BusinessType">
+  ResourceOccupationType_BusinessType
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/_System_/BusinessTypeDto.cs/#L202"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;BusinessTypeCollection&quot;)]
+[JsonIgnore]
+public virtual List&lt;ResourceOccupationTypeDTO&gt;? ResourceOccupationType_BusinessType { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<a class="xref" href="SLS.Common.DTO.Resource.ResourceOccupationTypeDTO.html">ResourceOccupationTypeDTO</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO__System__BusinessTypeDTO_ResourceSubGroups_BusinessType_" data-uid="SLS.Common.DTO._System_.BusinessTypeDTO.ResourceSubGroups_BusinessType*"></a>
+
+  <h3 id="SLS_Common_DTO__System__BusinessTypeDTO_ResourceSubGroups_BusinessType" data-uid="SLS.Common.DTO._System_.BusinessTypeDTO.ResourceSubGroups_BusinessType">
+  ResourceSubGroups_BusinessType
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/_System_/BusinessTypeDto.cs/#L197"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;BusinessTypeCollection&quot;)]
+[JsonIgnore]
+public virtual List&lt;ResourceSubGroupDTO&gt;? ResourceSubGroups_BusinessType { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<a class="xref" href="SLS.Common.DTO.Resource.ResourceSubGroupDTO.html">ResourceSubGroupDTO</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO__System__BusinessTypeDTO_Resources_BusinessObjectType_" data-uid="SLS.Common.DTO._System_.BusinessTypeDTO.Resources_BusinessObjectType*"></a>
+
+  <h3 id="SLS_Common_DTO__System__BusinessTypeDTO_Resources_BusinessObjectType" data-uid="SLS.Common.DTO._System_.BusinessTypeDTO.Resources_BusinessObjectType">
+  Resources_BusinessObjectType
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/_System_/BusinessTypeDto.cs/#L207"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;BusinessObjectTypeCollection&quot;)]
+[JsonIgnore]
+public virtual List&lt;ResourceDTO&gt;? Resources_BusinessObjectType { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<a class="xref" href="SLS.Common.DTO.Resource.ResourceDTO.html">ResourceDTO</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO__System__BusinessTypeDTO_ServiceData_OrderReferenceTypeID_" data-uid="SLS.Common.DTO._System_.BusinessTypeDTO.ServiceData_OrderReferenceTypeID*"></a>
+
+  <h3 id="SLS_Common_DTO__System__BusinessTypeDTO_ServiceData_OrderReferenceTypeID" data-uid="SLS.Common.DTO._System_.BusinessTypeDTO.ServiceData_OrderReferenceTypeID">
+  ServiceData_OrderReferenceTypeID
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/_System_/BusinessTypeDto.cs/#L127"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;OrderReferenceTypeIDCollection&quot;)]
+[JsonIgnore]
+public virtual List&lt;ServiceDataDTO&gt;? ServiceData_OrderReferenceTypeID { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<a class="xref" href="SLS.Common.DTO.Services.ServiceDataDTO.html">ServiceDataDTO</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO__System__BusinessTypeDTO_ServiceOrderItems_ReferencedBusinessType_" data-uid="SLS.Common.DTO._System_.BusinessTypeDTO.ServiceOrderItems_ReferencedBusinessType*"></a>
+
+  <h3 id="SLS_Common_DTO__System__BusinessTypeDTO_ServiceOrderItems_ReferencedBusinessType" data-uid="SLS.Common.DTO._System_.BusinessTypeDTO.ServiceOrderItems_ReferencedBusinessType">
+  ServiceOrderItems_ReferencedBusinessType
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/_System_/BusinessTypeDto.cs/#L122"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;ReferencedBusinessTypeCollection&quot;)]
+[JsonIgnore]
+public virtual List&lt;ServiceOrderItemDTO&gt;? ServiceOrderItems_ReferencedBusinessType { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<a class="xref" href="SLS.Common.DTO.Services.ServiceOrderItemDTO.html">ServiceOrderItemDTO</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO__System__BusinessTypeDTO_ServiceOrderProcStatus_ContextObjectType_" data-uid="SLS.Common.DTO._System_.BusinessTypeDTO.ServiceOrderProcStatus_ContextObjectType*"></a>
+
+  <h3 id="SLS_Common_DTO__System__BusinessTypeDTO_ServiceOrderProcStatus_ContextObjectType" data-uid="SLS.Common.DTO._System_.BusinessTypeDTO.ServiceOrderProcStatus_ContextObjectType">
+  ServiceOrderProcStatus_ContextObjectType
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/_System_/BusinessTypeDto.cs/#L117"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;ContextObjectTypeCollection&quot;)]
+[JsonIgnore]
+public virtual List&lt;ServiceOrderProcStatusDTO&gt;? ServiceOrderProcStatus_ContextObjectType { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<a class="xref" href="SLS.Common.DTO.Services.ServiceOrderProcStatusDTO.html">ServiceOrderProcStatusDTO</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO__System__BusinessTypeDTO_SubsequentCalculationToDos_BusinessType_" data-uid="SLS.Common.DTO._System_.BusinessTypeDTO.SubsequentCalculationToDos_BusinessType*"></a>
+
+  <h3 id="SLS_Common_DTO__System__BusinessTypeDTO_SubsequentCalculationToDos_BusinessType" data-uid="SLS.Common.DTO._System_.BusinessTypeDTO.SubsequentCalculationToDos_BusinessType">
+  SubsequentCalculationToDos_BusinessType
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/_System_/BusinessTypeDto.cs/#L172"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;BusinessTypeCollection&quot;)]
+[JsonIgnore]
+public virtual List&lt;SubsequentCalculationToDoDTO&gt;? SubsequentCalculationToDos_BusinessType { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<a class="xref" href="SLS.Common.DTO.Automation.SubsequentCalculationToDoDTO.html">SubsequentCalculationToDoDTO</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO__System__BusinessTypeDTO_TripProcessStatus_ContextObjectType_" data-uid="SLS.Common.DTO._System_.BusinessTypeDTO.TripProcessStatus_ContextObjectType*"></a>
+
+  <h3 id="SLS_Common_DTO__System__BusinessTypeDTO_TripProcessStatus_ContextObjectType" data-uid="SLS.Common.DTO._System_.BusinessTypeDTO.TripProcessStatus_ContextObjectType">
+  TripProcessStatus_ContextObjectType
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/_System_/BusinessTypeDto.cs/#L312"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;ContextObjectTypeCollection&quot;)]
+[JsonIgnore]
+public virtual List&lt;TripProcessStatusDTO&gt;? TripProcessStatus_ContextObjectType { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<a class="xref" href="SLS.Common.DTO.Dispatch.TripProcessStatusDTO.html">TripProcessStatusDTO</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO__System__BusinessTypeDTO_TripResources_ResourceType_" data-uid="SLS.Common.DTO._System_.BusinessTypeDTO.TripResources_ResourceType*"></a>
+
+  <h3 id="SLS_Common_DTO__System__BusinessTypeDTO_TripResources_ResourceType" data-uid="SLS.Common.DTO._System_.BusinessTypeDTO.TripResources_ResourceType">
+  TripResources_ResourceType
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/_System_/BusinessTypeDto.cs/#L307"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;ResourceTypeCollection&quot;)]
+[JsonIgnore]
+public virtual List&lt;TripResourceDTO&gt;? TripResources_ResourceType { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<a class="xref" href="SLS.Common.DTO.Dispatch.TripResourceDTO.html">TripResourceDTO</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO__System__BusinessTypeDTO_TripServices_BusinessObjectEnum_" data-uid="SLS.Common.DTO._System_.BusinessTypeDTO.TripServices_BusinessObjectEnum*"></a>
+
+  <h3 id="SLS_Common_DTO__System__BusinessTypeDTO_TripServices_BusinessObjectEnum" data-uid="SLS.Common.DTO._System_.BusinessTypeDTO.TripServices_BusinessObjectEnum">
+  TripServices_BusinessObjectEnum
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/_System_/BusinessTypeDto.cs/#L302"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;BusinessObjectEnumCollection&quot;)]
+[JsonIgnore]
+public virtual List&lt;TripServiceDTO&gt;? TripServices_BusinessObjectEnum { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<a class="xref" href="SLS.Common.DTO.Dispatch.TripServiceDTO.html">TripServiceDTO</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO__System__BusinessTypeDTO_ValueAddedServiceBusTypeRel_BusinessType_" data-uid="SLS.Common.DTO._System_.BusinessTypeDTO.ValueAddedServiceBusTypeRel_BusinessType*"></a>
+
+  <h3 id="SLS_Common_DTO__System__BusinessTypeDTO_ValueAddedServiceBusTypeRel_BusinessType" data-uid="SLS.Common.DTO._System_.BusinessTypeDTO.ValueAddedServiceBusTypeRel_BusinessType">
+  ValueAddedServiceBusTypeRel_BusinessType
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/_System_/BusinessTypeDto.cs/#L232"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;BusinessTypeCollection&quot;)]
+[JsonIgnore]
+public virtual List&lt;ValueAddedServiceBusTypeRelDTO&gt;? ValueAddedServiceBusTypeRel_BusinessType { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<a class="xref" href="SLS.Common.DTO.MasterData.Service.ValueAddedServiceBusTypeRelDTO.html">ValueAddedServiceBusTypeRelDTO</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO__System__BusinessTypeDTO_ValueRestraint_BusinessType_" data-uid="SLS.Common.DTO._System_.BusinessTypeDTO.ValueRestraint_BusinessType*"></a>
+
+  <h3 id="SLS_Common_DTO__System__BusinessTypeDTO_ValueRestraint_BusinessType" data-uid="SLS.Common.DTO._System_.BusinessTypeDTO.ValueRestraint_BusinessType">
+  ValueRestraint_BusinessType
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/_System_/BusinessTypeDto.cs/#L352"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;BusinessTypeCollection&quot;)]
+public virtual List&lt;ValueRestraintDTO&gt;? ValueRestraint_BusinessType { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<a class="xref" href="SLS.Common.DTO._System_.ValueRestraintDTO.html">ValueRestraintDTO</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO__System__BusinessTypeDTO_Version_" data-uid="SLS.Common.DTO._System_.BusinessTypeDTO.Version*"></a>
+
+  <h3 id="SLS_Common_DTO__System__BusinessTypeDTO_Version" data-uid="SLS.Common.DTO._System_.BusinessTypeDTO.Version">
+  Version
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/_System_/BusinessTypeDto.cs/#L38"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;Version&quot;)]
+public long Version { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO__System__BusinessTypeDTO_VoucherHeadProcessStatus_ContextObjectType_" data-uid="SLS.Common.DTO._System_.BusinessTypeDTO.VoucherHeadProcessStatus_ContextObjectType*"></a>
+
+  <h3 id="SLS_Common_DTO__System__BusinessTypeDTO_VoucherHeadProcessStatus_ContextObjectType" data-uid="SLS.Common.DTO._System_.BusinessTypeDTO.VoucherHeadProcessStatus_ContextObjectType">
+  VoucherHeadProcessStatus_ContextObjectType
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/_System_/BusinessTypeDto.cs/#L282"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;ContextObjectTypeCollection&quot;)]
+[JsonIgnore]
+public virtual List&lt;VoucherHeadProcessStatusDTO&gt;? VoucherHeadProcessStatus_ContextObjectType { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<a class="xref" href="SLS.Common.DTO.Financial.VoucherHeadProcessStatusDTO.html">VoucherHeadProcessStatusDTO</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO__System__BusinessTypeDTO_VoucherItems_AggregatedObjectsBusinessType_" data-uid="SLS.Common.DTO._System_.BusinessTypeDTO.VoucherItems_AggregatedObjectsBusinessType*"></a>
+
+  <h3 id="SLS_Common_DTO__System__BusinessTypeDTO_VoucherItems_AggregatedObjectsBusinessType" data-uid="SLS.Common.DTO._System_.BusinessTypeDTO.VoucherItems_AggregatedObjectsBusinessType">
+  VoucherItems_AggregatedObjectsBusinessType
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/_System_/BusinessTypeDto.cs/#L277"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;AggregatedObjectsBusinessTypeCollection&quot;)]
+[JsonIgnore]
+public virtual List&lt;VoucherItemDTO&gt;? VoucherItems_AggregatedObjectsBusinessType { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<a class="xref" href="SLS.Common.DTO.Financial.VoucherItemDTO.html">VoucherItemDTO</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO__System__BusinessTypeDTO_XMLDetailsTemplatesConfig_BusinessType_" data-uid="SLS.Common.DTO._System_.BusinessTypeDTO.XMLDetailsTemplatesConfig_BusinessType*"></a>
+
+  <h3 id="SLS_Common_DTO__System__BusinessTypeDTO_XMLDetailsTemplatesConfig_BusinessType" data-uid="SLS.Common.DTO._System_.BusinessTypeDTO.XMLDetailsTemplatesConfig_BusinessType">
+  XMLDetailsTemplatesConfig_BusinessType
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/_System_/BusinessTypeDto.cs/#L217"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;BusinessTypeCollection&quot;)]
+[JsonIgnore]
+public virtual List&lt;XMLDetailsTemplatesConfigDTO&gt;? XMLDetailsTemplatesConfig_BusinessType { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<a class="xref" href="SLS.Common.DTO.MasterData.XMLDetailsTemplatesConfigDTO.html">XMLDetailsTemplatesConfigDTO</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO__System__BusinessTypeDTO_XMLDetailsTemplates_BusinessType_" data-uid="SLS.Common.DTO._System_.BusinessTypeDTO.XMLDetailsTemplates_BusinessType*"></a>
+
+  <h3 id="SLS_Common_DTO__System__BusinessTypeDTO_XMLDetailsTemplates_BusinessType" data-uid="SLS.Common.DTO._System_.BusinessTypeDTO.XMLDetailsTemplates_BusinessType">
+  XMLDetailsTemplates_BusinessType
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/_System_/BusinessTypeDto.cs/#L222"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;BusinessTypeCollection&quot;)]
+[JsonIgnore]
+public virtual List&lt;XMLDetailsTemplatesDTO&gt;? XMLDetailsTemplates_BusinessType { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<a class="xref" href="SLS.Common.DTO.MasterData.XMLDetailsTemplatesDTO.html">XMLDetailsTemplatesDTO</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+</article>
+
+        <div class="contribution d-print-none">
+          <a href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/_System_/BusinessTypeDto.cs/#L28" class="edit-link">Edit this page</a>
+        </div>
+
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

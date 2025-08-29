@@ -1,0 +1,2761 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Class TransportEquipmentDTO | SLS Documentation </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Class TransportEquipmentDTO | SLS Documentation ">
+      
+      
+      <link rel="icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="../">
+      
+      
+      <meta name="docfx:docurl" content="https://github.com/Dev-SLS/dev/new/Dev/apiSpec/new?filename=SLS_Common_DTO_MasterData_Equipment_TransportEquipmentDTO.md&amp;value=---%0Auid%3A%20SLS.Common.DTO.MasterData.Equipment.TransportEquipmentDTO%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../logo.svg" alt="SLS Documentation">
+            SLS Documentation
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="SLS.Common.DTO.MasterData.Equipment.TransportEquipmentDTO">
+
+
+
+  <h1 id="SLS_Common_DTO_MasterData_Equipment_TransportEquipmentDTO" data-uid="SLS.Common.DTO.MasterData.Equipment.TransportEquipmentDTO" class="text-break">
+Class TransportEquipmentDTO  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/MasterData/Equipment/TransportEquipmentDTO.cs/#L28"><i class="bi bi-code-slash"></i></a>
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="SLS.html">SLS</a>.<a class="xref" href="SLS.Common.html">Common</a>.<a class="xref" href="SLS.Common.DTO.html">DTO</a>.<a class="xref" href="SLS.Common.DTO.MasterData.html">MasterData</a>.<a class="xref" href="SLS.Common.DTO.MasterData.Equipment.html">Equipment</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>SLS.Common.DTO.dll</dd></dl>
+  </div>
+
+  <div class="markdown summary"></div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Serializable]
+[DataContract(IsReference = true)]
+public class TransportEquipmentDTO : IBusinessDTO, IDTO</code></pre>
+  </div>
+
+
+
+
+  <dl class="typelist inheritance">
+    <dt>Inheritance</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+      <div><span class="xref">TransportEquipmentDTO</span></div>
+    </dd>
+  </dl>
+
+  <dl class="typelist implements">
+    <dt>Implements</dt>
+    <dd>
+      <div><a class="xref" href="SLS.Common.Interfaces.IBusinessDTO.html">IBusinessDTO</a></div>
+      <div><a class="xref" href="SLS.Common.Interfaces.IDTO.html">IDTO</a></div>
+    </dd>
+  </dl>
+
+
+  <dl class="typelist inheritedMembers">
+    <dt>Inherited Members</dt>
+    <dd>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)">object.Equals(object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">object.Equals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gethashcode">object.GetHashCode()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gettype">object.GetType()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone">object.MemberwiseClone()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals">object.ReferenceEquals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.tostring">object.ToString()</a>
+    </div>
+  </dd></dl>
+
+
+
+
+
+
+  <h2 class="section" id="properties">Properties
+</h2>
+
+
+  <a id="SLS_Common_DTO_MasterData_Equipment_TransportEquipmentDTO_BasicWeight_" data-uid="SLS.Common.DTO.MasterData.Equipment.TransportEquipmentDTO.BasicWeight*"></a>
+
+  <h3 id="SLS_Common_DTO_MasterData_Equipment_TransportEquipmentDTO_BasicWeight" data-uid="SLS.Common.DTO.MasterData.Equipment.TransportEquipmentDTO.BasicWeight">
+  BasicWeight
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/MasterData/Equipment/TransportEquipmentDTO.cs/#L289"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;BasicWeight&quot;)]
+public virtual double? BasicWeight { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_MasterData_Equipment_TransportEquipmentDTO_CarryingCapacity_" data-uid="SLS.Common.DTO.MasterData.Equipment.TransportEquipmentDTO.CarryingCapacity*"></a>
+
+  <h3 id="SLS_Common_DTO_MasterData_Equipment_TransportEquipmentDTO_CarryingCapacity" data-uid="SLS.Common.DTO.MasterData.Equipment.TransportEquipmentDTO.CarryingCapacity">
+  CarryingCapacity
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/MasterData/Equipment/TransportEquipmentDTO.cs/#L273"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;CarryingCapacity&quot;)]
+public virtual double? CarryingCapacity { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_MasterData_Equipment_TransportEquipmentDTO_ChassisNumber_" data-uid="SLS.Common.DTO.MasterData.Equipment.TransportEquipmentDTO.ChassisNumber*"></a>
+
+  <h3 id="SLS_Common_DTO_MasterData_Equipment_TransportEquipmentDTO_ChassisNumber" data-uid="SLS.Common.DTO.MasterData.Equipment.TransportEquipmentDTO.ChassisNumber">
+  ChassisNumber
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/MasterData/Equipment/TransportEquipmentDTO.cs/#L97"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;ChassisNumber&quot;)]
+public virtual string? ChassisNumber { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_MasterData_Equipment_TransportEquipmentDTO_Company_ID_" data-uid="SLS.Common.DTO.MasterData.Equipment.TransportEquipmentDTO.Company_ID*"></a>
+
+  <h3 id="SLS_Common_DTO_MasterData_Equipment_TransportEquipmentDTO_Company_ID" data-uid="SLS.Common.DTO.MasterData.Equipment.TransportEquipmentDTO.Company_ID">
+  Company_ID
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/MasterData/Equipment/TransportEquipmentDTO.cs/#L41"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public long? Company_ID { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_MasterData_Equipment_TransportEquipmentDTO_Compartments_" data-uid="SLS.Common.DTO.MasterData.Equipment.TransportEquipmentDTO.Compartments*"></a>
+
+  <h3 id="SLS_Common_DTO_MasterData_Equipment_TransportEquipmentDTO_Compartments" data-uid="SLS.Common.DTO.MasterData.Equipment.TransportEquipmentDTO.Compartments">
+  Compartments
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/MasterData/Equipment/TransportEquipmentDTO.cs/#L173"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;Compartments&quot;)]
+public virtual int Compartments { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_MasterData_Equipment_TransportEquipmentDTO_ConstructionDay_" data-uid="SLS.Common.DTO.MasterData.Equipment.TransportEquipmentDTO.ConstructionDay*"></a>
+
+  <h3 id="SLS_Common_DTO_MasterData_Equipment_TransportEquipmentDTO_ConstructionDay" data-uid="SLS.Common.DTO.MasterData.Equipment.TransportEquipmentDTO.ConstructionDay">
+  ConstructionDay
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/MasterData/Equipment/TransportEquipmentDTO.cs/#L93"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;ConstructionDay&quot;)]
+public virtual DateTime? ConstructionDay { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.datetime">DateTime</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_MasterData_Equipment_TransportEquipmentDTO_CostCenter_" data-uid="SLS.Common.DTO.MasterData.Equipment.TransportEquipmentDTO.CostCenter*"></a>
+
+  <h3 id="SLS_Common_DTO_MasterData_Equipment_TransportEquipmentDTO_CostCenter" data-uid="SLS.Common.DTO.MasterData.Equipment.TransportEquipmentDTO.CostCenter">
+  CostCenter
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/MasterData/Equipment/TransportEquipmentDTO.cs/#L177"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;CostCenter&quot;)]
+public virtual string? CostCenter { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_MasterData_Equipment_TransportEquipmentDTO_CurrentLocation_" data-uid="SLS.Common.DTO.MasterData.Equipment.TransportEquipmentDTO.CurrentLocation*"></a>
+
+  <h3 id="SLS_Common_DTO_MasterData_Equipment_TransportEquipmentDTO_CurrentLocation" data-uid="SLS.Common.DTO.MasterData.Equipment.TransportEquipmentDTO.CurrentLocation">
+  CurrentLocation
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/MasterData/Equipment/TransportEquipmentDTO.cs/#L326"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[ForeignKey(&quot;CurrentLocationCollection&quot;)]
+[InverseProperty(&quot;TransportEquipment_CurrentLocation&quot;)]
+[JsonIgnore]
+public virtual LocationDTO? CurrentLocation { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="SLS.Common.DTO.MasterData.LocationDTO.html">LocationDTO</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_MasterData_Equipment_TransportEquipmentDTO_CurrentLocationID_" data-uid="SLS.Common.DTO.MasterData.Equipment.TransportEquipmentDTO.CurrentLocationID*"></a>
+
+  <h3 id="SLS_Common_DTO_MasterData_Equipment_TransportEquipmentDTO_CurrentLocationID" data-uid="SLS.Common.DTO.MasterData.Equipment.TransportEquipmentDTO.CurrentLocationID">
+  CurrentLocationID
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/MasterData/Equipment/TransportEquipmentDTO.cs/#L57"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;CurrentLocationCollection&quot;)]
+[ForeignKey(&quot;CurrentLocationCollection&quot;)]
+public virtual long? CurrentLocationID { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_MasterData_Equipment_TransportEquipmentDTO_CurrentPositionLatitude_" data-uid="SLS.Common.DTO.MasterData.Equipment.TransportEquipmentDTO.CurrentPositionLatitude*"></a>
+
+  <h3 id="SLS_Common_DTO_MasterData_Equipment_TransportEquipmentDTO_CurrentPositionLatitude" data-uid="SLS.Common.DTO.MasterData.Equipment.TransportEquipmentDTO.CurrentPositionLatitude">
+  CurrentPositionLatitude
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/MasterData/Equipment/TransportEquipmentDTO.cs/#L305"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;CurrentPositionLatitude&quot;)]
+public virtual int? CurrentPositionLatitude { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_MasterData_Equipment_TransportEquipmentDTO_CurrentPositionLongitude_" data-uid="SLS.Common.DTO.MasterData.Equipment.TransportEquipmentDTO.CurrentPositionLongitude*"></a>
+
+  <h3 id="SLS_Common_DTO_MasterData_Equipment_TransportEquipmentDTO_CurrentPositionLongitude" data-uid="SLS.Common.DTO.MasterData.Equipment.TransportEquipmentDTO.CurrentPositionLongitude">
+  CurrentPositionLongitude
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/MasterData/Equipment/TransportEquipmentDTO.cs/#L301"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;CurrentPositionLongitude&quot;)]
+public virtual int? CurrentPositionLongitude { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_MasterData_Equipment_TransportEquipmentDTO_CurrentPositionText_" data-uid="SLS.Common.DTO.MasterData.Equipment.TransportEquipmentDTO.CurrentPositionText*"></a>
+
+  <h3 id="SLS_Common_DTO_MasterData_Equipment_TransportEquipmentDTO_CurrentPositionText" data-uid="SLS.Common.DTO.MasterData.Equipment.TransportEquipmentDTO.CurrentPositionText">
+  CurrentPositionText
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/MasterData/Equipment/TransportEquipmentDTO.cs/#L313"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;CurrentPositionText&quot;)]
+public virtual string? CurrentPositionText { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_MasterData_Equipment_TransportEquipmentDTO_CurrentPositionTimeStamp_" data-uid="SLS.Common.DTO.MasterData.Equipment.TransportEquipmentDTO.CurrentPositionTimeStamp*"></a>
+
+  <h3 id="SLS_Common_DTO_MasterData_Equipment_TransportEquipmentDTO_CurrentPositionTimeStamp" data-uid="SLS.Common.DTO.MasterData.Equipment.TransportEquipmentDTO.CurrentPositionTimeStamp">
+  CurrentPositionTimeStamp
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/MasterData/Equipment/TransportEquipmentDTO.cs/#L309"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;CurrentPositionTimeStamp&quot;)]
+public virtual DateTime? CurrentPositionTimeStamp { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.datetime">DateTime</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_MasterData_Equipment_TransportEquipmentDTO_Department_ID_" data-uid="SLS.Common.DTO.MasterData.Equipment.TransportEquipmentDTO.Department_ID*"></a>
+
+  <h3 id="SLS_Common_DTO_MasterData_Equipment_TransportEquipmentDTO_Department_ID" data-uid="SLS.Common.DTO.MasterData.Equipment.TransportEquipmentDTO.Department_ID">
+  Department_ID
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/MasterData/Equipment/TransportEquipmentDTO.cs/#L43"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public long? Department_ID { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_MasterData_Equipment_TransportEquipmentDTO_Desciption_" data-uid="SLS.Common.DTO.MasterData.Equipment.TransportEquipmentDTO.Desciption*"></a>
+
+  <h3 id="SLS_Common_DTO_MasterData_Equipment_TransportEquipmentDTO_Desciption" data-uid="SLS.Common.DTO.MasterData.Equipment.TransportEquipmentDTO.Desciption">
+  Desciption
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/MasterData/Equipment/TransportEquipmentDTO.cs/#L85"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;Desciption&quot;)]
+public virtual string? Desciption { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_MasterData_Equipment_TransportEquipmentDTO_DispoStoringPlaces_" data-uid="SLS.Common.DTO.MasterData.Equipment.TransportEquipmentDTO.DispoStoringPlaces*"></a>
+
+  <h3 id="SLS_Common_DTO_MasterData_Equipment_TransportEquipmentDTO_DispoStoringPlaces" data-uid="SLS.Common.DTO.MasterData.Equipment.TransportEquipmentDTO.DispoStoringPlaces">
+  DispoStoringPlaces
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/MasterData/Equipment/TransportEquipmentDTO.cs/#L265"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;DispoStoringPlaces&quot;)]
+public virtual double? DispoStoringPlaces { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_MasterData_Equipment_TransportEquipmentDTO_Division_ID_" data-uid="SLS.Common.DTO.MasterData.Equipment.TransportEquipmentDTO.Division_ID*"></a>
+
+  <h3 id="SLS_Common_DTO_MasterData_Equipment_TransportEquipmentDTO_Division_ID" data-uid="SLS.Common.DTO.MasterData.Equipment.TransportEquipmentDTO.Division_ID">
+  Division_ID
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/MasterData/Equipment/TransportEquipmentDTO.cs/#L45"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public long? Division_ID { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_MasterData_Equipment_TransportEquipmentDTO_EquipmentManufactoringDate_" data-uid="SLS.Common.DTO.MasterData.Equipment.TransportEquipmentDTO.EquipmentManufactoringDate*"></a>
+
+  <h3 id="SLS_Common_DTO_MasterData_Equipment_TransportEquipmentDTO_EquipmentManufactoringDate" data-uid="SLS.Common.DTO.MasterData.Equipment.TransportEquipmentDTO.EquipmentManufactoringDate">
+  EquipmentManufactoringDate
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/MasterData/Equipment/TransportEquipmentDTO.cs/#L197"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;EquipmentManufactoringDate&quot;)]
+public virtual DateTime? EquipmentManufactoringDate { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.datetime">DateTime</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_MasterData_Equipment_TransportEquipmentDTO_EquipmentManufacturer_" data-uid="SLS.Common.DTO.MasterData.Equipment.TransportEquipmentDTO.EquipmentManufacturer*"></a>
+
+  <h3 id="SLS_Common_DTO_MasterData_Equipment_TransportEquipmentDTO_EquipmentManufacturer" data-uid="SLS.Common.DTO.MasterData.Equipment.TransportEquipmentDTO.EquipmentManufacturer">
+  EquipmentManufacturer
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/MasterData/Equipment/TransportEquipmentDTO.cs/#L201"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;EquipmentManufacturer&quot;)]
+public virtual string? EquipmentManufacturer { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_MasterData_Equipment_TransportEquipmentDTO_EquipmentSerialNumber_" data-uid="SLS.Common.DTO.MasterData.Equipment.TransportEquipmentDTO.EquipmentSerialNumber*"></a>
+
+  <h3 id="SLS_Common_DTO_MasterData_Equipment_TransportEquipmentDTO_EquipmentSerialNumber" data-uid="SLS.Common.DTO.MasterData.Equipment.TransportEquipmentDTO.EquipmentSerialNumber">
+  EquipmentSerialNumber
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/MasterData/Equipment/TransportEquipmentDTO.cs/#L193"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;EquipmentSerialNumber&quot;)]
+public virtual string? EquipmentSerialNumber { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_MasterData_Equipment_TransportEquipmentDTO_FiscalYear_ID_" data-uid="SLS.Common.DTO.MasterData.Equipment.TransportEquipmentDTO.FiscalYear_ID*"></a>
+
+  <h3 id="SLS_Common_DTO_MasterData_Equipment_TransportEquipmentDTO_FiscalYear_ID" data-uid="SLS.Common.DTO.MasterData.Equipment.TransportEquipmentDTO.FiscalYear_ID">
+  FiscalYear_ID
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/MasterData/Equipment/TransportEquipmentDTO.cs/#L44"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public long? FiscalYear_ID { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_MasterData_Equipment_TransportEquipmentDTO_GrossWeight_" data-uid="SLS.Common.DTO.MasterData.Equipment.TransportEquipmentDTO.GrossWeight*"></a>
+
+  <h3 id="SLS_Common_DTO_MasterData_Equipment_TransportEquipmentDTO_GrossWeight" data-uid="SLS.Common.DTO.MasterData.Equipment.TransportEquipmentDTO.GrossWeight">
+  GrossWeight
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/MasterData/Equipment/TransportEquipmentDTO.cs/#L129"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;GrossWeight&quot;)]
+public virtual double? GrossWeight { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_MasterData_Equipment_TransportEquipmentDTO_Group_" data-uid="SLS.Common.DTO.MasterData.Equipment.TransportEquipmentDTO.Group*"></a>
+
+  <h3 id="SLS_Common_DTO_MasterData_Equipment_TransportEquipmentDTO_Group" data-uid="SLS.Common.DTO.MasterData.Equipment.TransportEquipmentDTO.Group">
+  Group
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/MasterData/Equipment/TransportEquipmentDTO.cs/#L321"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[ForeignKey(&quot;GroupCollection&quot;)]
+[InverseProperty(&quot;TransportEquipment_Group&quot;)]
+[JsonIgnore]
+public virtual TransportEquipmentGroupDTO? Group { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="SLS.Common.DTO.MasterData.Equipment.TransportEquipmentGroupDTO.html">TransportEquipmentGroupDTO</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_MasterData_Equipment_TransportEquipmentDTO_GroupID_" data-uid="SLS.Common.DTO.MasterData.Equipment.TransportEquipmentDTO.GroupID*"></a>
+
+  <h3 id="SLS_Common_DTO_MasterData_Equipment_TransportEquipmentDTO_GroupID" data-uid="SLS.Common.DTO.MasterData.Equipment.TransportEquipmentDTO.GroupID">
+  GroupID
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/MasterData/Equipment/TransportEquipmentDTO.cs/#L52"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;GroupCollection&quot;)]
+[ForeignKey(&quot;GroupCollection&quot;)]
+public virtual long? GroupID { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_MasterData_Equipment_TransportEquipmentDTO_HasCoolingUnit_" data-uid="SLS.Common.DTO.MasterData.Equipment.TransportEquipmentDTO.HasCoolingUnit*"></a>
+
+  <h3 id="SLS_Common_DTO_MasterData_Equipment_TransportEquipmentDTO_HasCoolingUnit" data-uid="SLS.Common.DTO.MasterData.Equipment.TransportEquipmentDTO.HasCoolingUnit">
+  HasCoolingUnit
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/MasterData/Equipment/TransportEquipmentDTO.cs/#L161"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;HasCoolingUnit&quot;)]
+public virtual bool HasCoolingUnit { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_MasterData_Equipment_TransportEquipmentDTO_HasForkliftCarrier_" data-uid="SLS.Common.DTO.MasterData.Equipment.TransportEquipmentDTO.HasForkliftCarrier*"></a>
+
+  <h3 id="SLS_Common_DTO_MasterData_Equipment_TransportEquipmentDTO_HasForkliftCarrier" data-uid="SLS.Common.DTO.MasterData.Equipment.TransportEquipmentDTO.HasForkliftCarrier">
+  HasForkliftCarrier
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/MasterData/Equipment/TransportEquipmentDTO.cs/#L205"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;HasForkliftCarrier&quot;)]
+public virtual bool? HasForkliftCarrier { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_MasterData_Equipment_TransportEquipmentDTO_HasHeater_" data-uid="SLS.Common.DTO.MasterData.Equipment.TransportEquipmentDTO.HasHeater*"></a>
+
+  <h3 id="SLS_Common_DTO_MasterData_Equipment_TransportEquipmentDTO_HasHeater" data-uid="SLS.Common.DTO.MasterData.Equipment.TransportEquipmentDTO.HasHeater">
+  HasHeater
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/MasterData/Equipment/TransportEquipmentDTO.cs/#L157"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;HasHeater&quot;)]
+public virtual bool HasHeater { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_MasterData_Equipment_TransportEquipmentDTO_HasHose_" data-uid="SLS.Common.DTO.MasterData.Equipment.TransportEquipmentDTO.HasHose*"></a>
+
+  <h3 id="SLS_Common_DTO_MasterData_Equipment_TransportEquipmentDTO_HasHose" data-uid="SLS.Common.DTO.MasterData.Equipment.TransportEquipmentDTO.HasHose">
+  HasHose
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/MasterData/Equipment/TransportEquipmentDTO.cs/#L165"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;HasHose&quot;)]
+public virtual bool HasHose { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_MasterData_Equipment_TransportEquipmentDTO_HasLiftingPllatform_" data-uid="SLS.Common.DTO.MasterData.Equipment.TransportEquipmentDTO.HasLiftingPllatform*"></a>
+
+  <h3 id="SLS_Common_DTO_MasterData_Equipment_TransportEquipmentDTO_HasLiftingPllatform" data-uid="SLS.Common.DTO.MasterData.Equipment.TransportEquipmentDTO.HasLiftingPllatform">
+  HasLiftingPllatform
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/MasterData/Equipment/TransportEquipmentDTO.cs/#L277"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;HasLiftingPllatform&quot;)]
+public virtual bool HasLiftingPllatform { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_MasterData_Equipment_TransportEquipmentDTO_HasLoadingControl_" data-uid="SLS.Common.DTO.MasterData.Equipment.TransportEquipmentDTO.HasLoadingControl*"></a>
+
+  <h3 id="SLS_Common_DTO_MasterData_Equipment_TransportEquipmentDTO_HasLoadingControl" data-uid="SLS.Common.DTO.MasterData.Equipment.TransportEquipmentDTO.HasLoadingControl">
+  HasLoadingControl
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/MasterData/Equipment/TransportEquipmentDTO.cs/#L209"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;HasLoadingControl&quot;)]
+public virtual bool? HasLoadingControl { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_MasterData_Equipment_TransportEquipmentDTO_HasPressureTank_" data-uid="SLS.Common.DTO.MasterData.Equipment.TransportEquipmentDTO.HasPressureTank*"></a>
+
+  <h3 id="SLS_Common_DTO_MasterData_Equipment_TransportEquipmentDTO_HasPressureTank" data-uid="SLS.Common.DTO.MasterData.Equipment.TransportEquipmentDTO.HasPressureTank">
+  HasPressureTank
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/MasterData/Equipment/TransportEquipmentDTO.cs/#L149"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;HasPressureTank&quot;)]
+public virtual bool HasPressureTank { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_MasterData_Equipment_TransportEquipmentDTO_HasPump_" data-uid="SLS.Common.DTO.MasterData.Equipment.TransportEquipmentDTO.HasPump*"></a>
+
+  <h3 id="SLS_Common_DTO_MasterData_Equipment_TransportEquipmentDTO_HasPump" data-uid="SLS.Common.DTO.MasterData.Equipment.TransportEquipmentDTO.HasPump">
+  HasPump
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/MasterData/Equipment/TransportEquipmentDTO.cs/#L145"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;HasPump&quot;)]
+public virtual bool HasPump { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_MasterData_Equipment_TransportEquipmentDTO_HasSterileTank_" data-uid="SLS.Common.DTO.MasterData.Equipment.TransportEquipmentDTO.HasSterileTank*"></a>
+
+  <h3 id="SLS_Common_DTO_MasterData_Equipment_TransportEquipmentDTO_HasSterileTank" data-uid="SLS.Common.DTO.MasterData.Equipment.TransportEquipmentDTO.HasSterileTank">
+  HasSterileTank
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/MasterData/Equipment/TransportEquipmentDTO.cs/#L153"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;HasSterileTank&quot;)]
+public virtual bool HasSterileTank { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_MasterData_Equipment_TransportEquipmentDTO_HoseLength_" data-uid="SLS.Common.DTO.MasterData.Equipment.TransportEquipmentDTO.HoseLength*"></a>
+
+  <h3 id="SLS_Common_DTO_MasterData_Equipment_TransportEquipmentDTO_HoseLength" data-uid="SLS.Common.DTO.MasterData.Equipment.TransportEquipmentDTO.HoseLength">
+  HoseLength
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/MasterData/Equipment/TransportEquipmentDTO.cs/#L169"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;HoseLength&quot;)]
+public virtual double HoseLength { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_MasterData_Equipment_TransportEquipmentDTO_Id_" data-uid="SLS.Common.DTO.MasterData.Equipment.TransportEquipmentDTO.Id*"></a>
+
+  <h3 id="SLS_Common_DTO_MasterData_Equipment_TransportEquipmentDTO_Id" data-uid="SLS.Common.DTO.MasterData.Equipment.TransportEquipmentDTO.Id">
+  Id
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/MasterData/Equipment/TransportEquipmentDTO.cs/#L34"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;ID&quot;)]
+public long Id { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_MasterData_Equipment_TransportEquipmentDTO_InsideHeight_" data-uid="SLS.Common.DTO.MasterData.Equipment.TransportEquipmentDTO.InsideHeight*"></a>
+
+  <h3 id="SLS_Common_DTO_MasterData_Equipment_TransportEquipmentDTO_InsideHeight" data-uid="SLS.Common.DTO.MasterData.Equipment.TransportEquipmentDTO.InsideHeight">
+  InsideHeight
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/MasterData/Equipment/TransportEquipmentDTO.cs/#L105"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;InsideHeight&quot;)]
+public virtual double? InsideHeight { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_MasterData_Equipment_TransportEquipmentDTO_InsideLength_" data-uid="SLS.Common.DTO.MasterData.Equipment.TransportEquipmentDTO.InsideLength*"></a>
+
+  <h3 id="SLS_Common_DTO_MasterData_Equipment_TransportEquipmentDTO_InsideLength" data-uid="SLS.Common.DTO.MasterData.Equipment.TransportEquipmentDTO.InsideLength">
+  InsideLength
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/MasterData/Equipment/TransportEquipmentDTO.cs/#L121"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;InsideLength&quot;)]
+public virtual double? InsideLength { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_MasterData_Equipment_TransportEquipmentDTO_InsideWidth_" data-uid="SLS.Common.DTO.MasterData.Equipment.TransportEquipmentDTO.InsideWidth*"></a>
+
+  <h3 id="SLS_Common_DTO_MasterData_Equipment_TransportEquipmentDTO_InsideWidth" data-uid="SLS.Common.DTO.MasterData.Equipment.TransportEquipmentDTO.InsideWidth">
+  InsideWidth
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/MasterData/Equipment/TransportEquipmentDTO.cs/#L113"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;InsideWidth&quot;)]
+public virtual double? InsideWidth { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_MasterData_Equipment_TransportEquipmentDTO_IsLicenced_" data-uid="SLS.Common.DTO.MasterData.Equipment.TransportEquipmentDTO.IsLicenced*"></a>
+
+  <h3 id="SLS_Common_DTO_MasterData_Equipment_TransportEquipmentDTO_IsLicenced" data-uid="SLS.Common.DTO.MasterData.Equipment.TransportEquipmentDTO.IsLicenced">
+  IsLicenced
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/MasterData/Equipment/TransportEquipmentDTO.cs/#L257"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;IsLicenced&quot;)]
+public virtual bool IsLicenced { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_MasterData_Equipment_TransportEquipmentDTO_LiftingPllatformCarryingCapa_" data-uid="SLS.Common.DTO.MasterData.Equipment.TransportEquipmentDTO.LiftingPllatformCarryingCapa*"></a>
+
+  <h3 id="SLS_Common_DTO_MasterData_Equipment_TransportEquipmentDTO_LiftingPllatformCarryingCapa" data-uid="SLS.Common.DTO.MasterData.Equipment.TransportEquipmentDTO.LiftingPllatformCarryingCapa">
+  LiftingPllatformCarryingCapa
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/MasterData/Equipment/TransportEquipmentDTO.cs/#L281"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;LiftingPllatformCarryingCapa&quot;)]
+public virtual double? LiftingPllatformCarryingCapa { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_MasterData_Equipment_TransportEquipmentDTO_Loadingmeter_" data-uid="SLS.Common.DTO.MasterData.Equipment.TransportEquipmentDTO.Loadingmeter*"></a>
+
+  <h3 id="SLS_Common_DTO_MasterData_Equipment_TransportEquipmentDTO_Loadingmeter" data-uid="SLS.Common.DTO.MasterData.Equipment.TransportEquipmentDTO.Loadingmeter">
+  Loadingmeter
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/MasterData/Equipment/TransportEquipmentDTO.cs/#L261"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;Loadingmeter&quot;)]
+public virtual double? Loadingmeter { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_MasterData_Equipment_TransportEquipmentDTO_LocatingSystemID_" data-uid="SLS.Common.DTO.MasterData.Equipment.TransportEquipmentDTO.LocatingSystemID*"></a>
+
+  <h3 id="SLS_Common_DTO_MasterData_Equipment_TransportEquipmentDTO_LocatingSystemID" data-uid="SLS.Common.DTO.MasterData.Equipment.TransportEquipmentDTO.LocatingSystemID">
+  LocatingSystemID
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/MasterData/Equipment/TransportEquipmentDTO.cs/#L141"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;LocatingSystemID&quot;)]
+public virtual int? LocatingSystemID { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_MasterData_Equipment_TransportEquipmentDTO_Manufacturer_" data-uid="SLS.Common.DTO.MasterData.Equipment.TransportEquipmentDTO.Manufacturer*"></a>
+
+  <h3 id="SLS_Common_DTO_MasterData_Equipment_TransportEquipmentDTO_Manufacturer" data-uid="SLS.Common.DTO.MasterData.Equipment.TransportEquipmentDTO.Manufacturer">
+  Manufacturer
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/MasterData/Equipment/TransportEquipmentDTO.cs/#L89"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;Manufacturer&quot;)]
+public virtual string? Manufacturer { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_MasterData_Equipment_TransportEquipmentDTO_MatchCode_" data-uid="SLS.Common.DTO.MasterData.Equipment.TransportEquipmentDTO.MatchCode*"></a>
+
+  <h3 id="SLS_Common_DTO_MasterData_Equipment_TransportEquipmentDTO_MatchCode" data-uid="SLS.Common.DTO.MasterData.Equipment.TransportEquipmentDTO.MatchCode">
+  MatchCode
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/MasterData/Equipment/TransportEquipmentDTO.cs/#L81"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;MatchCode&quot;)]
+public virtual string MatchCode { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_MasterData_Equipment_TransportEquipmentDTO_NextCraneInspection_" data-uid="SLS.Common.DTO.MasterData.Equipment.TransportEquipmentDTO.NextCraneInspection*"></a>
+
+  <h3 id="SLS_Common_DTO_MasterData_Equipment_TransportEquipmentDTO_NextCraneInspection" data-uid="SLS.Common.DTO.MasterData.Equipment.TransportEquipmentDTO.NextCraneInspection">
+  NextCraneInspection
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/MasterData/Equipment/TransportEquipmentDTO.cs/#L189"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;NextCraneInspection&quot;)]
+public virtual DateTime? NextCraneInspection { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.datetime">DateTime</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_MasterData_Equipment_TransportEquipmentDTO_NextTechnicalInspection_" data-uid="SLS.Common.DTO.MasterData.Equipment.TransportEquipmentDTO.NextTechnicalInspection*"></a>
+
+  <h3 id="SLS_Common_DTO_MasterData_Equipment_TransportEquipmentDTO_NextTechnicalInspection" data-uid="SLS.Common.DTO.MasterData.Equipment.TransportEquipmentDTO.NextTechnicalInspection">
+  NextTechnicalInspection
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/MasterData/Equipment/TransportEquipmentDTO.cs/#L181"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;NextTechnicalInspection&quot;)]
+public virtual DateTime? NextTechnicalInspection { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.datetime">DateTime</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_MasterData_Equipment_TransportEquipmentDTO_NextVisualInspection_" data-uid="SLS.Common.DTO.MasterData.Equipment.TransportEquipmentDTO.NextVisualInspection*"></a>
+
+  <h3 id="SLS_Common_DTO_MasterData_Equipment_TransportEquipmentDTO_NextVisualInspection" data-uid="SLS.Common.DTO.MasterData.Equipment.TransportEquipmentDTO.NextVisualInspection">
+  NextVisualInspection
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/MasterData/Equipment/TransportEquipmentDTO.cs/#L185"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;NextVisualInspection&quot;)]
+public virtual DateTime? NextVisualInspection { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.datetime">DateTime</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_MasterData_Equipment_TransportEquipmentDTO_Notes_" data-uid="SLS.Common.DTO.MasterData.Equipment.TransportEquipmentDTO.Notes*"></a>
+
+  <h3 id="SLS_Common_DTO_MasterData_Equipment_TransportEquipmentDTO_Notes" data-uid="SLS.Common.DTO.MasterData.Equipment.TransportEquipmentDTO.Notes">
+  Notes
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/MasterData/Equipment/TransportEquipmentDTO.cs/#L253"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;Notes&quot;)]
+public virtual string? Notes { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_MasterData_Equipment_TransportEquipmentDTO_NumberOfAxles_" data-uid="SLS.Common.DTO.MasterData.Equipment.TransportEquipmentDTO.NumberOfAxles*"></a>
+
+  <h3 id="SLS_Common_DTO_MasterData_Equipment_TransportEquipmentDTO_NumberOfAxles" data-uid="SLS.Common.DTO.MasterData.Equipment.TransportEquipmentDTO.NumberOfAxles">
+  NumberOfAxles
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/MasterData/Equipment/TransportEquipmentDTO.cs/#L137"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;NumberOfAxles&quot;)]
+public virtual int? NumberOfAxles { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_MasterData_Equipment_TransportEquipmentDTO_OnBoardUnit_ID_" data-uid="SLS.Common.DTO.MasterData.Equipment.TransportEquipmentDTO.OnBoardUnit_ID*"></a>
+
+  <h3 id="SLS_Common_DTO_MasterData_Equipment_TransportEquipmentDTO_OnBoardUnit_ID" data-uid="SLS.Common.DTO.MasterData.Equipment.TransportEquipmentDTO.OnBoardUnit_ID">
+  OnBoardUnit_ID
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/MasterData/Equipment/TransportEquipmentDTO.cs/#L293"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;OnBoardUnit_ID&quot;)]
+public virtual string? OnBoardUnit_ID { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_MasterData_Equipment_TransportEquipmentDTO_Optional_Date_1_" data-uid="SLS.Common.DTO.MasterData.Equipment.TransportEquipmentDTO.Optional_Date_1*"></a>
+
+  <h3 id="SLS_Common_DTO_MasterData_Equipment_TransportEquipmentDTO_Optional_Date_1" data-uid="SLS.Common.DTO.MasterData.Equipment.TransportEquipmentDTO.Optional_Date_1">
+  Optional_Date_1
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/MasterData/Equipment/TransportEquipmentDTO.cs/#L233"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;Optional_Date_1&quot;)]
+public virtual DateTime? Optional_Date_1 { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.datetime">DateTime</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_MasterData_Equipment_TransportEquipmentDTO_Optional_Date_2_" data-uid="SLS.Common.DTO.MasterData.Equipment.TransportEquipmentDTO.Optional_Date_2*"></a>
+
+  <h3 id="SLS_Common_DTO_MasterData_Equipment_TransportEquipmentDTO_Optional_Date_2" data-uid="SLS.Common.DTO.MasterData.Equipment.TransportEquipmentDTO.Optional_Date_2">
+  Optional_Date_2
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/MasterData/Equipment/TransportEquipmentDTO.cs/#L237"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;Optional_Date_2&quot;)]
+public virtual DateTime? Optional_Date_2 { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.datetime">DateTime</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_MasterData_Equipment_TransportEquipmentDTO_Optional_Date_3_" data-uid="SLS.Common.DTO.MasterData.Equipment.TransportEquipmentDTO.Optional_Date_3*"></a>
+
+  <h3 id="SLS_Common_DTO_MasterData_Equipment_TransportEquipmentDTO_Optional_Date_3" data-uid="SLS.Common.DTO.MasterData.Equipment.TransportEquipmentDTO.Optional_Date_3">
+  Optional_Date_3
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/MasterData/Equipment/TransportEquipmentDTO.cs/#L241"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;Optional_Date_3&quot;)]
+public virtual DateTime? Optional_Date_3 { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.datetime">DateTime</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_MasterData_Equipment_TransportEquipmentDTO_Optional_Date_4_" data-uid="SLS.Common.DTO.MasterData.Equipment.TransportEquipmentDTO.Optional_Date_4*"></a>
+
+  <h3 id="SLS_Common_DTO_MasterData_Equipment_TransportEquipmentDTO_Optional_Date_4" data-uid="SLS.Common.DTO.MasterData.Equipment.TransportEquipmentDTO.Optional_Date_4">
+  Optional_Date_4
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/MasterData/Equipment/TransportEquipmentDTO.cs/#L245"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;Optional_Date_4&quot;)]
+public virtual DateTime? Optional_Date_4 { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.datetime">DateTime</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_MasterData_Equipment_TransportEquipmentDTO_Optional_Date_5_" data-uid="SLS.Common.DTO.MasterData.Equipment.TransportEquipmentDTO.Optional_Date_5*"></a>
+
+  <h3 id="SLS_Common_DTO_MasterData_Equipment_TransportEquipmentDTO_Optional_Date_5" data-uid="SLS.Common.DTO.MasterData.Equipment.TransportEquipmentDTO.Optional_Date_5">
+  Optional_Date_5
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/MasterData/Equipment/TransportEquipmentDTO.cs/#L249"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;Optional_Date_5&quot;)]
+public virtual DateTime? Optional_Date_5 { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.datetime">DateTime</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_MasterData_Equipment_TransportEquipmentDTO_Optional_String_1_" data-uid="SLS.Common.DTO.MasterData.Equipment.TransportEquipmentDTO.Optional_String_1*"></a>
+
+  <h3 id="SLS_Common_DTO_MasterData_Equipment_TransportEquipmentDTO_Optional_String_1" data-uid="SLS.Common.DTO.MasterData.Equipment.TransportEquipmentDTO.Optional_String_1">
+  Optional_String_1
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/MasterData/Equipment/TransportEquipmentDTO.cs/#L213"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;Optional_String_1&quot;)]
+public virtual string? Optional_String_1 { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_MasterData_Equipment_TransportEquipmentDTO_Optional_String_2_" data-uid="SLS.Common.DTO.MasterData.Equipment.TransportEquipmentDTO.Optional_String_2*"></a>
+
+  <h3 id="SLS_Common_DTO_MasterData_Equipment_TransportEquipmentDTO_Optional_String_2" data-uid="SLS.Common.DTO.MasterData.Equipment.TransportEquipmentDTO.Optional_String_2">
+  Optional_String_2
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/MasterData/Equipment/TransportEquipmentDTO.cs/#L217"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;Optional_String_2&quot;)]
+public virtual string? Optional_String_2 { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_MasterData_Equipment_TransportEquipmentDTO_Optional_String_3_" data-uid="SLS.Common.DTO.MasterData.Equipment.TransportEquipmentDTO.Optional_String_3*"></a>
+
+  <h3 id="SLS_Common_DTO_MasterData_Equipment_TransportEquipmentDTO_Optional_String_3" data-uid="SLS.Common.DTO.MasterData.Equipment.TransportEquipmentDTO.Optional_String_3">
+  Optional_String_3
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/MasterData/Equipment/TransportEquipmentDTO.cs/#L221"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;Optional_String_3&quot;)]
+public virtual string? Optional_String_3 { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_MasterData_Equipment_TransportEquipmentDTO_Optional_String_4_" data-uid="SLS.Common.DTO.MasterData.Equipment.TransportEquipmentDTO.Optional_String_4*"></a>
+
+  <h3 id="SLS_Common_DTO_MasterData_Equipment_TransportEquipmentDTO_Optional_String_4" data-uid="SLS.Common.DTO.MasterData.Equipment.TransportEquipmentDTO.Optional_String_4">
+  Optional_String_4
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/MasterData/Equipment/TransportEquipmentDTO.cs/#L225"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;Optional_String_4&quot;)]
+public virtual string? Optional_String_4 { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_MasterData_Equipment_TransportEquipmentDTO_Optional_String_5_" data-uid="SLS.Common.DTO.MasterData.Equipment.TransportEquipmentDTO.Optional_String_5*"></a>
+
+  <h3 id="SLS_Common_DTO_MasterData_Equipment_TransportEquipmentDTO_Optional_String_5" data-uid="SLS.Common.DTO.MasterData.Equipment.TransportEquipmentDTO.Optional_String_5">
+  Optional_String_5
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/MasterData/Equipment/TransportEquipmentDTO.cs/#L229"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;Optional_String_5&quot;)]
+public virtual string? Optional_String_5 { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_MasterData_Equipment_TransportEquipmentDTO_OutsideHeight_" data-uid="SLS.Common.DTO.MasterData.Equipment.TransportEquipmentDTO.OutsideHeight*"></a>
+
+  <h3 id="SLS_Common_DTO_MasterData_Equipment_TransportEquipmentDTO_OutsideHeight" data-uid="SLS.Common.DTO.MasterData.Equipment.TransportEquipmentDTO.OutsideHeight">
+  OutsideHeight
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/MasterData/Equipment/TransportEquipmentDTO.cs/#L101"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;OutsideHeight&quot;)]
+public virtual double? OutsideHeight { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_MasterData_Equipment_TransportEquipmentDTO_OutsideLength_" data-uid="SLS.Common.DTO.MasterData.Equipment.TransportEquipmentDTO.OutsideLength*"></a>
+
+  <h3 id="SLS_Common_DTO_MasterData_Equipment_TransportEquipmentDTO_OutsideLength" data-uid="SLS.Common.DTO.MasterData.Equipment.TransportEquipmentDTO.OutsideLength">
+  OutsideLength
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/MasterData/Equipment/TransportEquipmentDTO.cs/#L117"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;OutsideLength&quot;)]
+public virtual double? OutsideLength { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_MasterData_Equipment_TransportEquipmentDTO_OutsideWidth_" data-uid="SLS.Common.DTO.MasterData.Equipment.TransportEquipmentDTO.OutsideWidth*"></a>
+
+  <h3 id="SLS_Common_DTO_MasterData_Equipment_TransportEquipmentDTO_OutsideWidth" data-uid="SLS.Common.DTO.MasterData.Equipment.TransportEquipmentDTO.OutsideWidth">
+  OutsideWidth
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/MasterData/Equipment/TransportEquipmentDTO.cs/#L109"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;OutsideWidth&quot;)]
+public virtual double? OutsideWidth { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_MasterData_Equipment_TransportEquipmentDTO_Owner_" data-uid="SLS.Common.DTO.MasterData.Equipment.TransportEquipmentDTO.Owner*"></a>
+
+  <h3 id="SLS_Common_DTO_MasterData_Equipment_TransportEquipmentDTO_Owner" data-uid="SLS.Common.DTO.MasterData.Equipment.TransportEquipmentDTO.Owner">
+  Owner
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/MasterData/Equipment/TransportEquipmentDTO.cs/#L341"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[ForeignKey(&quot;OwnerCollection&quot;)]
+[InverseProperty(&quot;TransportEquipment_Owner&quot;)]
+[JsonIgnore]
+public virtual AddressCompanyDTO? Owner { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="SLS.Common.DTO.MasterData.AddressCompanyDTO.html">AddressCompanyDTO</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_MasterData_Equipment_TransportEquipmentDTO_OwnerID_" data-uid="SLS.Common.DTO.MasterData.Equipment.TransportEquipmentDTO.OwnerID*"></a>
+
+  <h3 id="SLS_Common_DTO_MasterData_Equipment_TransportEquipmentDTO_OwnerID" data-uid="SLS.Common.DTO.MasterData.Equipment.TransportEquipmentDTO.OwnerID">
+  OwnerID
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/MasterData/Equipment/TransportEquipmentDTO.cs/#L72"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;OwnerCollection&quot;)]
+[ForeignKey(&quot;OwnerCollection&quot;)]
+public virtual long? OwnerID { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_MasterData_Equipment_TransportEquipmentDTO_Payload_" data-uid="SLS.Common.DTO.MasterData.Equipment.TransportEquipmentDTO.Payload*"></a>
+
+  <h3 id="SLS_Common_DTO_MasterData_Equipment_TransportEquipmentDTO_Payload" data-uid="SLS.Common.DTO.MasterData.Equipment.TransportEquipmentDTO.Payload">
+  Payload
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/MasterData/Equipment/TransportEquipmentDTO.cs/#L125"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;Payload&quot;)]
+public virtual double? Payload { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_MasterData_Equipment_TransportEquipmentDTO_RegistationDay_" data-uid="SLS.Common.DTO.MasterData.Equipment.TransportEquipmentDTO.RegistationDay*"></a>
+
+  <h3 id="SLS_Common_DTO_MasterData_Equipment_TransportEquipmentDTO_RegistationDay" data-uid="SLS.Common.DTO.MasterData.Equipment.TransportEquipmentDTO.RegistationDay">
+  RegistationDay
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/MasterData/Equipment/TransportEquipmentDTO.cs/#L285"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;RegistationDay&quot;)]
+public virtual DateTime? RegistationDay { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.datetime">DateTime</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_MasterData_Equipment_TransportEquipmentDTO_RegistrationTag_" data-uid="SLS.Common.DTO.MasterData.Equipment.TransportEquipmentDTO.RegistrationTag*"></a>
+
+  <h3 id="SLS_Common_DTO_MasterData_Equipment_TransportEquipmentDTO_RegistrationTag" data-uid="SLS.Common.DTO.MasterData.Equipment.TransportEquipmentDTO.RegistrationTag">
+  RegistrationTag
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/MasterData/Equipment/TransportEquipmentDTO.cs/#L133"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;RegistrationTag&quot;)]
+public virtual string? RegistrationTag { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_MasterData_Equipment_TransportEquipmentDTO_Subsidiary_ID_" data-uid="SLS.Common.DTO.MasterData.Equipment.TransportEquipmentDTO.Subsidiary_ID*"></a>
+
+  <h3 id="SLS_Common_DTO_MasterData_Equipment_TransportEquipmentDTO_Subsidiary_ID" data-uid="SLS.Common.DTO.MasterData.Equipment.TransportEquipmentDTO.Subsidiary_ID">
+  Subsidiary_ID
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/MasterData/Equipment/TransportEquipmentDTO.cs/#L42"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public long? Subsidiary_ID { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_MasterData_Equipment_TransportEquipmentDTO_TelematicSystem_" data-uid="SLS.Common.DTO.MasterData.Equipment.TransportEquipmentDTO.TelematicSystem*"></a>
+
+  <h3 id="SLS_Common_DTO_MasterData_Equipment_TransportEquipmentDTO_TelematicSystem" data-uid="SLS.Common.DTO.MasterData.Equipment.TransportEquipmentDTO.TelematicSystem">
+  TelematicSystem
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/MasterData/Equipment/TransportEquipmentDTO.cs/#L331"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[ForeignKey(&quot;TelematicSystemCollection&quot;)]
+[InverseProperty(&quot;TransportEquipment_TelematicSystem&quot;)]
+[JsonIgnore]
+public virtual TelematicSystemDTO? TelematicSystem { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="SLS.Common.DTO.MasterData.TelematicSystemDTO.html">TelematicSystemDTO</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_MasterData_Equipment_TransportEquipmentDTO_TelematicSystemID_" data-uid="SLS.Common.DTO.MasterData.Equipment.TransportEquipmentDTO.TelematicSystemID*"></a>
+
+  <h3 id="SLS_Common_DTO_MasterData_Equipment_TransportEquipmentDTO_TelematicSystemID" data-uid="SLS.Common.DTO.MasterData.Equipment.TransportEquipmentDTO.TelematicSystemID">
+  TelematicSystemID
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/MasterData/Equipment/TransportEquipmentDTO.cs/#L62"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;TelematicSystemCollection&quot;)]
+[ForeignKey(&quot;TelematicSystemCollection&quot;)]
+public virtual long? TelematicSystemID { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_MasterData_Equipment_TransportEquipmentDTO_TelephoneNumber_" data-uid="SLS.Common.DTO.MasterData.Equipment.TransportEquipmentDTO.TelephoneNumber*"></a>
+
+  <h3 id="SLS_Common_DTO_MasterData_Equipment_TransportEquipmentDTO_TelephoneNumber" data-uid="SLS.Common.DTO.MasterData.Equipment.TransportEquipmentDTO.TelephoneNumber">
+  TelephoneNumber
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/MasterData/Equipment/TransportEquipmentDTO.cs/#L297"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;TelephoneNumber&quot;)]
+public virtual string? TelephoneNumber { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_MasterData_Equipment_TransportEquipmentDTO_Type_" data-uid="SLS.Common.DTO.MasterData.Equipment.TransportEquipmentDTO.Type*"></a>
+
+  <h3 id="SLS_Common_DTO_MasterData_Equipment_TransportEquipmentDTO_Type" data-uid="SLS.Common.DTO.MasterData.Equipment.TransportEquipmentDTO.Type">
+  Type
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/MasterData/Equipment/TransportEquipmentDTO.cs/#L336"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[ForeignKey(&quot;TypeCollection&quot;)]
+[InverseProperty(&quot;TransportEquipment_Type&quot;)]
+[JsonIgnore]
+public virtual TransportEquipmentTypeDTO? Type { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="SLS.Common.DTO.MasterData.Equipment.TransportEquipmentTypeDTO.html">TransportEquipmentTypeDTO</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_MasterData_Equipment_TransportEquipmentDTO_TypeID_" data-uid="SLS.Common.DTO.MasterData.Equipment.TransportEquipmentDTO.TypeID*"></a>
+
+  <h3 id="SLS_Common_DTO_MasterData_Equipment_TransportEquipmentDTO_TypeID" data-uid="SLS.Common.DTO.MasterData.Equipment.TransportEquipmentDTO.TypeID">
+  TypeID
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/MasterData/Equipment/TransportEquipmentDTO.cs/#L67"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;TypeCollection&quot;)]
+[ForeignKey(&quot;TypeCollection&quot;)]
+public virtual long TypeID { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_MasterData_Equipment_TransportEquipmentDTO_User_ID_" data-uid="SLS.Common.DTO.MasterData.Equipment.TransportEquipmentDTO.User_ID*"></a>
+
+  <h3 id="SLS_Common_DTO_MasterData_Equipment_TransportEquipmentDTO_User_ID" data-uid="SLS.Common.DTO.MasterData.Equipment.TransportEquipmentDTO.User_ID">
+  User_ID
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/MasterData/Equipment/TransportEquipmentDTO.cs/#L46"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public long? User_ID { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_MasterData_Equipment_TransportEquipmentDTO_VehiclePositions_Trailer_" data-uid="SLS.Common.DTO.MasterData.Equipment.TransportEquipmentDTO.VehiclePositions_Trailer*"></a>
+
+  <h3 id="SLS_Common_DTO_MasterData_Equipment_TransportEquipmentDTO_VehiclePositions_Trailer" data-uid="SLS.Common.DTO.MasterData.Equipment.TransportEquipmentDTO.VehiclePositions_Trailer">
+  VehiclePositions_Trailer
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/MasterData/Equipment/TransportEquipmentDTO.cs/#L350"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;TrailerCollection&quot;)]
+public virtual List&lt;VehiclePositionDTO&gt;? VehiclePositions_Trailer { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<a class="xref" href="SLS.Common.DTO.Telematics.VehiclePositionDTO.html">VehiclePositionDTO</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_MasterData_Equipment_TransportEquipmentDTO_Version_" data-uid="SLS.Common.DTO.MasterData.Equipment.TransportEquipmentDTO.Version*"></a>
+
+  <h3 id="SLS_Common_DTO_MasterData_Equipment_TransportEquipmentDTO_Version" data-uid="SLS.Common.DTO.MasterData.Equipment.TransportEquipmentDTO.Version">
+  Version
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/MasterData/Equipment/TransportEquipmentDTO.cs/#L38"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;Version&quot;)]
+public long Version { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_MasterData_Equipment_TransportEquipmentDTO_Volume_" data-uid="SLS.Common.DTO.MasterData.Equipment.TransportEquipmentDTO.Volume*"></a>
+
+  <h3 id="SLS_Common_DTO_MasterData_Equipment_TransportEquipmentDTO_Volume" data-uid="SLS.Common.DTO.MasterData.Equipment.TransportEquipmentDTO.Volume">
+  Volume
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/MasterData/Equipment/TransportEquipmentDTO.cs/#L269"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;Volume&quot;)]
+public virtual double? Volume { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+</article>
+
+        <div class="contribution d-print-none">
+          <a href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/MasterData/Equipment/TransportEquipmentDTO.cs/#L28" class="edit-link">Edit this page</a>
+        </div>
+
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

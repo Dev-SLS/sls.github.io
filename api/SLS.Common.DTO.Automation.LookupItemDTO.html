@@ -1,0 +1,2499 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Class LookupItemDTO | SLS Documentation </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Class LookupItemDTO | SLS Documentation ">
+      
+      
+      <link rel="icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="../">
+      
+      
+      <meta name="docfx:docurl" content="https://github.com/Dev-SLS/dev/new/Dev/apiSpec/new?filename=SLS_Common_DTO_Automation_LookupItemDTO.md&amp;value=---%0Auid%3A%20SLS.Common.DTO.Automation.LookupItemDTO%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../logo.svg" alt="SLS Documentation">
+            SLS Documentation
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="SLS.Common.DTO.Automation.LookupItemDTO">
+
+
+
+  <h1 id="SLS_Common_DTO_Automation_LookupItemDTO" data-uid="SLS.Common.DTO.Automation.LookupItemDTO" class="text-break">
+Class LookupItemDTO  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Automation/LookupItemDTO.cs/#L28"><i class="bi bi-code-slash"></i></a>
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="SLS.html">SLS</a>.<a class="xref" href="SLS.Common.html">Common</a>.<a class="xref" href="SLS.Common.DTO.html">DTO</a>.<a class="xref" href="SLS.Common.DTO.Automation.html">Automation</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>SLS.Common.DTO.dll</dd></dl>
+  </div>
+
+  <div class="markdown summary"></div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Serializable]
+[DataContract(IsReference = true)]
+public class LookupItemDTO : IDTO</code></pre>
+  </div>
+
+
+
+
+  <dl class="typelist inheritance">
+    <dt>Inheritance</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+      <div><span class="xref">LookupItemDTO</span></div>
+    </dd>
+  </dl>
+
+  <dl class="typelist implements">
+    <dt>Implements</dt>
+    <dd>
+      <div><a class="xref" href="SLS.Common.Interfaces.IDTO.html">IDTO</a></div>
+    </dd>
+  </dl>
+
+
+  <dl class="typelist inheritedMembers">
+    <dt>Inherited Members</dt>
+    <dd>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)">object.Equals(object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">object.Equals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gethashcode">object.GetHashCode()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gettype">object.GetType()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone">object.MemberwiseClone()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals">object.ReferenceEquals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.tostring">object.ToString()</a>
+    </div>
+  </dd></dl>
+
+
+
+
+
+
+  <h2 class="section" id="properties">Properties
+</h2>
+
+
+  <a id="SLS_Common_DTO_Automation_LookupItemDTO_Date_10_From_" data-uid="SLS.Common.DTO.Automation.LookupItemDTO.Date_10_From*"></a>
+
+  <h3 id="SLS_Common_DTO_Automation_LookupItemDTO_Date_10_From" data-uid="SLS.Common.DTO.Automation.LookupItemDTO.Date_10_From">
+  Date_10_From
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Automation/LookupItemDTO.cs/#L267"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;Date_10_From&quot;)]
+public virtual DateTime? Date_10_From { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.datetime">DateTime</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Automation_LookupItemDTO_Date_10_To_" data-uid="SLS.Common.DTO.Automation.LookupItemDTO.Date_10_To*"></a>
+
+  <h3 id="SLS_Common_DTO_Automation_LookupItemDTO_Date_10_To" data-uid="SLS.Common.DTO.Automation.LookupItemDTO.Date_10_To">
+  Date_10_To
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Automation/LookupItemDTO.cs/#L307"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;Date_10_To&quot;)]
+public virtual DateTime? Date_10_To { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.datetime">DateTime</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Automation_LookupItemDTO_Date_1_From_" data-uid="SLS.Common.DTO.Automation.LookupItemDTO.Date_1_From*"></a>
+
+  <h3 id="SLS_Common_DTO_Automation_LookupItemDTO_Date_1_From" data-uid="SLS.Common.DTO.Automation.LookupItemDTO.Date_1_From">
+  Date_1_From
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Automation/LookupItemDTO.cs/#L231"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;Date_1_From&quot;)]
+public virtual DateTime? Date_1_From { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.datetime">DateTime</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Automation_LookupItemDTO_Date_1_To_" data-uid="SLS.Common.DTO.Automation.LookupItemDTO.Date_1_To*"></a>
+
+  <h3 id="SLS_Common_DTO_Automation_LookupItemDTO_Date_1_To" data-uid="SLS.Common.DTO.Automation.LookupItemDTO.Date_1_To">
+  Date_1_To
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Automation/LookupItemDTO.cs/#L271"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;Date_1_To&quot;)]
+public virtual DateTime? Date_1_To { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.datetime">DateTime</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Automation_LookupItemDTO_Date_2_From_" data-uid="SLS.Common.DTO.Automation.LookupItemDTO.Date_2_From*"></a>
+
+  <h3 id="SLS_Common_DTO_Automation_LookupItemDTO_Date_2_From" data-uid="SLS.Common.DTO.Automation.LookupItemDTO.Date_2_From">
+  Date_2_From
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Automation/LookupItemDTO.cs/#L235"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;Date_2_From&quot;)]
+public virtual DateTime? Date_2_From { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.datetime">DateTime</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Automation_LookupItemDTO_Date_2_To_" data-uid="SLS.Common.DTO.Automation.LookupItemDTO.Date_2_To*"></a>
+
+  <h3 id="SLS_Common_DTO_Automation_LookupItemDTO_Date_2_To" data-uid="SLS.Common.DTO.Automation.LookupItemDTO.Date_2_To">
+  Date_2_To
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Automation/LookupItemDTO.cs/#L275"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;Date_2_To&quot;)]
+public virtual DateTime? Date_2_To { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.datetime">DateTime</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Automation_LookupItemDTO_Date_3_From_" data-uid="SLS.Common.DTO.Automation.LookupItemDTO.Date_3_From*"></a>
+
+  <h3 id="SLS_Common_DTO_Automation_LookupItemDTO_Date_3_From" data-uid="SLS.Common.DTO.Automation.LookupItemDTO.Date_3_From">
+  Date_3_From
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Automation/LookupItemDTO.cs/#L239"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;Date_3_From&quot;)]
+public virtual DateTime? Date_3_From { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.datetime">DateTime</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Automation_LookupItemDTO_Date_3_To_" data-uid="SLS.Common.DTO.Automation.LookupItemDTO.Date_3_To*"></a>
+
+  <h3 id="SLS_Common_DTO_Automation_LookupItemDTO_Date_3_To" data-uid="SLS.Common.DTO.Automation.LookupItemDTO.Date_3_To">
+  Date_3_To
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Automation/LookupItemDTO.cs/#L279"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;Date_3_To&quot;)]
+public virtual DateTime? Date_3_To { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.datetime">DateTime</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Automation_LookupItemDTO_Date_4_From_" data-uid="SLS.Common.DTO.Automation.LookupItemDTO.Date_4_From*"></a>
+
+  <h3 id="SLS_Common_DTO_Automation_LookupItemDTO_Date_4_From" data-uid="SLS.Common.DTO.Automation.LookupItemDTO.Date_4_From">
+  Date_4_From
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Automation/LookupItemDTO.cs/#L243"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;Date_4_From&quot;)]
+public virtual DateTime? Date_4_From { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.datetime">DateTime</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Automation_LookupItemDTO_Date_4_To_" data-uid="SLS.Common.DTO.Automation.LookupItemDTO.Date_4_To*"></a>
+
+  <h3 id="SLS_Common_DTO_Automation_LookupItemDTO_Date_4_To" data-uid="SLS.Common.DTO.Automation.LookupItemDTO.Date_4_To">
+  Date_4_To
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Automation/LookupItemDTO.cs/#L283"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;Date_4_To&quot;)]
+public virtual DateTime? Date_4_To { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.datetime">DateTime</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Automation_LookupItemDTO_Date_5_From_" data-uid="SLS.Common.DTO.Automation.LookupItemDTO.Date_5_From*"></a>
+
+  <h3 id="SLS_Common_DTO_Automation_LookupItemDTO_Date_5_From" data-uid="SLS.Common.DTO.Automation.LookupItemDTO.Date_5_From">
+  Date_5_From
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Automation/LookupItemDTO.cs/#L247"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;Date_5_From&quot;)]
+public virtual DateTime? Date_5_From { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.datetime">DateTime</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Automation_LookupItemDTO_Date_5_To_" data-uid="SLS.Common.DTO.Automation.LookupItemDTO.Date_5_To*"></a>
+
+  <h3 id="SLS_Common_DTO_Automation_LookupItemDTO_Date_5_To" data-uid="SLS.Common.DTO.Automation.LookupItemDTO.Date_5_To">
+  Date_5_To
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Automation/LookupItemDTO.cs/#L287"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;Date_5_To&quot;)]
+public virtual DateTime? Date_5_To { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.datetime">DateTime</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Automation_LookupItemDTO_Date_6_From_" data-uid="SLS.Common.DTO.Automation.LookupItemDTO.Date_6_From*"></a>
+
+  <h3 id="SLS_Common_DTO_Automation_LookupItemDTO_Date_6_From" data-uid="SLS.Common.DTO.Automation.LookupItemDTO.Date_6_From">
+  Date_6_From
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Automation/LookupItemDTO.cs/#L251"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;Date_6_From&quot;)]
+public virtual DateTime? Date_6_From { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.datetime">DateTime</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Automation_LookupItemDTO_Date_6_To_" data-uid="SLS.Common.DTO.Automation.LookupItemDTO.Date_6_To*"></a>
+
+  <h3 id="SLS_Common_DTO_Automation_LookupItemDTO_Date_6_To" data-uid="SLS.Common.DTO.Automation.LookupItemDTO.Date_6_To">
+  Date_6_To
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Automation/LookupItemDTO.cs/#L291"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;Date_6_To&quot;)]
+public virtual DateTime? Date_6_To { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.datetime">DateTime</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Automation_LookupItemDTO_Date_7_From_" data-uid="SLS.Common.DTO.Automation.LookupItemDTO.Date_7_From*"></a>
+
+  <h3 id="SLS_Common_DTO_Automation_LookupItemDTO_Date_7_From" data-uid="SLS.Common.DTO.Automation.LookupItemDTO.Date_7_From">
+  Date_7_From
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Automation/LookupItemDTO.cs/#L255"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;Date_7_From&quot;)]
+public virtual DateTime? Date_7_From { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.datetime">DateTime</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Automation_LookupItemDTO_Date_7_To_" data-uid="SLS.Common.DTO.Automation.LookupItemDTO.Date_7_To*"></a>
+
+  <h3 id="SLS_Common_DTO_Automation_LookupItemDTO_Date_7_To" data-uid="SLS.Common.DTO.Automation.LookupItemDTO.Date_7_To">
+  Date_7_To
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Automation/LookupItemDTO.cs/#L295"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;Date_7_To&quot;)]
+public virtual DateTime? Date_7_To { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.datetime">DateTime</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Automation_LookupItemDTO_Date_8_From_" data-uid="SLS.Common.DTO.Automation.LookupItemDTO.Date_8_From*"></a>
+
+  <h3 id="SLS_Common_DTO_Automation_LookupItemDTO_Date_8_From" data-uid="SLS.Common.DTO.Automation.LookupItemDTO.Date_8_From">
+  Date_8_From
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Automation/LookupItemDTO.cs/#L259"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;Date_8_From&quot;)]
+public virtual DateTime? Date_8_From { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.datetime">DateTime</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Automation_LookupItemDTO_Date_8_To_" data-uid="SLS.Common.DTO.Automation.LookupItemDTO.Date_8_To*"></a>
+
+  <h3 id="SLS_Common_DTO_Automation_LookupItemDTO_Date_8_To" data-uid="SLS.Common.DTO.Automation.LookupItemDTO.Date_8_To">
+  Date_8_To
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Automation/LookupItemDTO.cs/#L299"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;Date_8_To&quot;)]
+public virtual DateTime? Date_8_To { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.datetime">DateTime</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Automation_LookupItemDTO_Date_9_From_" data-uid="SLS.Common.DTO.Automation.LookupItemDTO.Date_9_From*"></a>
+
+  <h3 id="SLS_Common_DTO_Automation_LookupItemDTO_Date_9_From" data-uid="SLS.Common.DTO.Automation.LookupItemDTO.Date_9_From">
+  Date_9_From
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Automation/LookupItemDTO.cs/#L263"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;Date_9_From&quot;)]
+public virtual DateTime? Date_9_From { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.datetime">DateTime</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Automation_LookupItemDTO_Date_9_To_" data-uid="SLS.Common.DTO.Automation.LookupItemDTO.Date_9_To*"></a>
+
+  <h3 id="SLS_Common_DTO_Automation_LookupItemDTO_Date_9_To" data-uid="SLS.Common.DTO.Automation.LookupItemDTO.Date_9_To">
+  Date_9_To
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Automation/LookupItemDTO.cs/#L303"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;Date_9_To&quot;)]
+public virtual DateTime? Date_9_To { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.datetime">DateTime</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Automation_LookupItemDTO_Id_" data-uid="SLS.Common.DTO.Automation.LookupItemDTO.Id*"></a>
+
+  <h3 id="SLS_Common_DTO_Automation_LookupItemDTO_Id" data-uid="SLS.Common.DTO.Automation.LookupItemDTO.Id">
+  Id
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Automation/LookupItemDTO.cs/#L34"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;ID&quot;)]
+public long Id { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Automation_LookupItemDTO_LookupTable_" data-uid="SLS.Common.DTO.Automation.LookupItemDTO.LookupTable*"></a>
+
+  <h3 id="SLS_Common_DTO_Automation_LookupItemDTO_LookupTable" data-uid="SLS.Common.DTO.Automation.LookupItemDTO.LookupTable">
+  LookupTable
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Automation/LookupItemDTO.cs/#L323"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[ForeignKey(&quot;LookupTableCollection&quot;)]
+[InverseProperty(&quot;LookupItem_LookupTable&quot;)]
+public virtual LookupTableDTO? LookupTable { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="SLS.Common.DTO.Automation.LookupTableDTO.html">LookupTableDTO</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Automation_LookupItemDTO_LookupTableID_" data-uid="SLS.Common.DTO.Automation.LookupItemDTO.LookupTableID*"></a>
+
+  <h3 id="SLS_Common_DTO_Automation_LookupItemDTO_LookupTableID" data-uid="SLS.Common.DTO.Automation.LookupItemDTO.LookupTableID">
+  LookupTableID
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Automation/LookupItemDTO.cs/#L46"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;LookupTableCollection&quot;)]
+[ForeignKey(&quot;LookupTableCollection&quot;)]
+public virtual long LookupTableID { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Automation_LookupItemDTO_MaxResult_" data-uid="SLS.Common.DTO.Automation.LookupItemDTO.MaxResult*"></a>
+
+  <h3 id="SLS_Common_DTO_Automation_LookupItemDTO_MaxResult" data-uid="SLS.Common.DTO.Automation.LookupItemDTO.MaxResult">
+  MaxResult
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Automation/LookupItemDTO.cs/#L315"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;MaxResult&quot;)]
+public virtual double? MaxResult { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Automation_LookupItemDTO_MinResult_" data-uid="SLS.Common.DTO.Automation.LookupItemDTO.MinResult*"></a>
+
+  <h3 id="SLS_Common_DTO_Automation_LookupItemDTO_MinResult" data-uid="SLS.Common.DTO.Automation.LookupItemDTO.MinResult">
+  MinResult
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Automation/LookupItemDTO.cs/#L311"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;MinResult&quot;)]
+public virtual double? MinResult { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Automation_LookupItemDTO_Number_10_From_" data-uid="SLS.Common.DTO.Automation.LookupItemDTO.Number_10_From*"></a>
+
+  <h3 id="SLS_Common_DTO_Automation_LookupItemDTO_Number_10_From" data-uid="SLS.Common.DTO.Automation.LookupItemDTO.Number_10_From">
+  Number_10_From
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Automation/LookupItemDTO.cs/#L107"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;Number_10_From&quot;)]
+public virtual double? Number_10_From { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Automation_LookupItemDTO_Number_10_To_" data-uid="SLS.Common.DTO.Automation.LookupItemDTO.Number_10_To*"></a>
+
+  <h3 id="SLS_Common_DTO_Automation_LookupItemDTO_Number_10_To" data-uid="SLS.Common.DTO.Automation.LookupItemDTO.Number_10_To">
+  Number_10_To
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Automation/LookupItemDTO.cs/#L187"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;Number_10_To&quot;)]
+public virtual double? Number_10_To { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Automation_LookupItemDTO_Number_1_From_" data-uid="SLS.Common.DTO.Automation.LookupItemDTO.Number_1_From*"></a>
+
+  <h3 id="SLS_Common_DTO_Automation_LookupItemDTO_Number_1_From" data-uid="SLS.Common.DTO.Automation.LookupItemDTO.Number_1_From">
+  Number_1_From
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Automation/LookupItemDTO.cs/#L71"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;Number_1_From&quot;)]
+public virtual double? Number_1_From { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Automation_LookupItemDTO_Number_1_To_" data-uid="SLS.Common.DTO.Automation.LookupItemDTO.Number_1_To*"></a>
+
+  <h3 id="SLS_Common_DTO_Automation_LookupItemDTO_Number_1_To" data-uid="SLS.Common.DTO.Automation.LookupItemDTO.Number_1_To">
+  Number_1_To
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Automation/LookupItemDTO.cs/#L151"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;Number_1_To&quot;)]
+public virtual double? Number_1_To { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Automation_LookupItemDTO_Number_2_From_" data-uid="SLS.Common.DTO.Automation.LookupItemDTO.Number_2_From*"></a>
+
+  <h3 id="SLS_Common_DTO_Automation_LookupItemDTO_Number_2_From" data-uid="SLS.Common.DTO.Automation.LookupItemDTO.Number_2_From">
+  Number_2_From
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Automation/LookupItemDTO.cs/#L75"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;Number_2_From&quot;)]
+public virtual double? Number_2_From { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Automation_LookupItemDTO_Number_2_To_" data-uid="SLS.Common.DTO.Automation.LookupItemDTO.Number_2_To*"></a>
+
+  <h3 id="SLS_Common_DTO_Automation_LookupItemDTO_Number_2_To" data-uid="SLS.Common.DTO.Automation.LookupItemDTO.Number_2_To">
+  Number_2_To
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Automation/LookupItemDTO.cs/#L155"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;Number_2_To&quot;)]
+public virtual double? Number_2_To { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Automation_LookupItemDTO_Number_3_From_" data-uid="SLS.Common.DTO.Automation.LookupItemDTO.Number_3_From*"></a>
+
+  <h3 id="SLS_Common_DTO_Automation_LookupItemDTO_Number_3_From" data-uid="SLS.Common.DTO.Automation.LookupItemDTO.Number_3_From">
+  Number_3_From
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Automation/LookupItemDTO.cs/#L79"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;Number_3_From&quot;)]
+public virtual double? Number_3_From { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Automation_LookupItemDTO_Number_3_To_" data-uid="SLS.Common.DTO.Automation.LookupItemDTO.Number_3_To*"></a>
+
+  <h3 id="SLS_Common_DTO_Automation_LookupItemDTO_Number_3_To" data-uid="SLS.Common.DTO.Automation.LookupItemDTO.Number_3_To">
+  Number_3_To
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Automation/LookupItemDTO.cs/#L159"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;Number_3_To&quot;)]
+public virtual double? Number_3_To { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Automation_LookupItemDTO_Number_4_From_" data-uid="SLS.Common.DTO.Automation.LookupItemDTO.Number_4_From*"></a>
+
+  <h3 id="SLS_Common_DTO_Automation_LookupItemDTO_Number_4_From" data-uid="SLS.Common.DTO.Automation.LookupItemDTO.Number_4_From">
+  Number_4_From
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Automation/LookupItemDTO.cs/#L83"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;Number_4_From&quot;)]
+public virtual double? Number_4_From { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Automation_LookupItemDTO_Number_4_To_" data-uid="SLS.Common.DTO.Automation.LookupItemDTO.Number_4_To*"></a>
+
+  <h3 id="SLS_Common_DTO_Automation_LookupItemDTO_Number_4_To" data-uid="SLS.Common.DTO.Automation.LookupItemDTO.Number_4_To">
+  Number_4_To
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Automation/LookupItemDTO.cs/#L163"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;Number_4_To&quot;)]
+public virtual double? Number_4_To { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Automation_LookupItemDTO_Number_5_From_" data-uid="SLS.Common.DTO.Automation.LookupItemDTO.Number_5_From*"></a>
+
+  <h3 id="SLS_Common_DTO_Automation_LookupItemDTO_Number_5_From" data-uid="SLS.Common.DTO.Automation.LookupItemDTO.Number_5_From">
+  Number_5_From
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Automation/LookupItemDTO.cs/#L87"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;Number_5_From&quot;)]
+public virtual double? Number_5_From { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Automation_LookupItemDTO_Number_5_To_" data-uid="SLS.Common.DTO.Automation.LookupItemDTO.Number_5_To*"></a>
+
+  <h3 id="SLS_Common_DTO_Automation_LookupItemDTO_Number_5_To" data-uid="SLS.Common.DTO.Automation.LookupItemDTO.Number_5_To">
+  Number_5_To
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Automation/LookupItemDTO.cs/#L167"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;Number_5_To&quot;)]
+public virtual double? Number_5_To { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Automation_LookupItemDTO_Number_6_From_" data-uid="SLS.Common.DTO.Automation.LookupItemDTO.Number_6_From*"></a>
+
+  <h3 id="SLS_Common_DTO_Automation_LookupItemDTO_Number_6_From" data-uid="SLS.Common.DTO.Automation.LookupItemDTO.Number_6_From">
+  Number_6_From
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Automation/LookupItemDTO.cs/#L91"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;Number_6_From&quot;)]
+public virtual double? Number_6_From { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Automation_LookupItemDTO_Number_6_To_" data-uid="SLS.Common.DTO.Automation.LookupItemDTO.Number_6_To*"></a>
+
+  <h3 id="SLS_Common_DTO_Automation_LookupItemDTO_Number_6_To" data-uid="SLS.Common.DTO.Automation.LookupItemDTO.Number_6_To">
+  Number_6_To
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Automation/LookupItemDTO.cs/#L171"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;Number_6_To&quot;)]
+public virtual double? Number_6_To { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Automation_LookupItemDTO_Number_7_From_" data-uid="SLS.Common.DTO.Automation.LookupItemDTO.Number_7_From*"></a>
+
+  <h3 id="SLS_Common_DTO_Automation_LookupItemDTO_Number_7_From" data-uid="SLS.Common.DTO.Automation.LookupItemDTO.Number_7_From">
+  Number_7_From
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Automation/LookupItemDTO.cs/#L95"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;Number_7_From&quot;)]
+public virtual double? Number_7_From { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Automation_LookupItemDTO_Number_7_To_" data-uid="SLS.Common.DTO.Automation.LookupItemDTO.Number_7_To*"></a>
+
+  <h3 id="SLS_Common_DTO_Automation_LookupItemDTO_Number_7_To" data-uid="SLS.Common.DTO.Automation.LookupItemDTO.Number_7_To">
+  Number_7_To
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Automation/LookupItemDTO.cs/#L175"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;Number_7_To&quot;)]
+public virtual double? Number_7_To { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Automation_LookupItemDTO_Number_8_From_" data-uid="SLS.Common.DTO.Automation.LookupItemDTO.Number_8_From*"></a>
+
+  <h3 id="SLS_Common_DTO_Automation_LookupItemDTO_Number_8_From" data-uid="SLS.Common.DTO.Automation.LookupItemDTO.Number_8_From">
+  Number_8_From
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Automation/LookupItemDTO.cs/#L99"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;Number_8_From&quot;)]
+public virtual double? Number_8_From { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Automation_LookupItemDTO_Number_8_To_" data-uid="SLS.Common.DTO.Automation.LookupItemDTO.Number_8_To*"></a>
+
+  <h3 id="SLS_Common_DTO_Automation_LookupItemDTO_Number_8_To" data-uid="SLS.Common.DTO.Automation.LookupItemDTO.Number_8_To">
+  Number_8_To
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Automation/LookupItemDTO.cs/#L179"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;Number_8_To&quot;)]
+public virtual double? Number_8_To { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Automation_LookupItemDTO_Number_9_From_" data-uid="SLS.Common.DTO.Automation.LookupItemDTO.Number_9_From*"></a>
+
+  <h3 id="SLS_Common_DTO_Automation_LookupItemDTO_Number_9_From" data-uid="SLS.Common.DTO.Automation.LookupItemDTO.Number_9_From">
+  Number_9_From
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Automation/LookupItemDTO.cs/#L103"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;Number_9_From&quot;)]
+public virtual double? Number_9_From { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Automation_LookupItemDTO_Number_9_To_" data-uid="SLS.Common.DTO.Automation.LookupItemDTO.Number_9_To*"></a>
+
+  <h3 id="SLS_Common_DTO_Automation_LookupItemDTO_Number_9_To" data-uid="SLS.Common.DTO.Automation.LookupItemDTO.Number_9_To">
+  Number_9_To
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Automation/LookupItemDTO.cs/#L183"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;Number_9_To&quot;)]
+public virtual double? Number_9_To { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Automation_LookupItemDTO_PrecedingResult_" data-uid="SLS.Common.DTO.Automation.LookupItemDTO.PrecedingResult*"></a>
+
+  <h3 id="SLS_Common_DTO_Automation_LookupItemDTO_PrecedingResult" data-uid="SLS.Common.DTO.Automation.LookupItemDTO.PrecedingResult">
+  PrecedingResult
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Automation/LookupItemDTO.cs/#L63"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;PrecedingResult&quot;)]
+public virtual double PrecedingResult { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Automation_LookupItemDTO_PrecedingResultText_" data-uid="SLS.Common.DTO.Automation.LookupItemDTO.PrecedingResultText*"></a>
+
+  <h3 id="SLS_Common_DTO_Automation_LookupItemDTO_PrecedingResultText" data-uid="SLS.Common.DTO.Automation.LookupItemDTO.PrecedingResultText">
+  PrecedingResultText
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Automation/LookupItemDTO.cs/#L67"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;PrecedingResultText&quot;)]
+public virtual string? PrecedingResultText { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Automation_LookupItemDTO_Result_" data-uid="SLS.Common.DTO.Automation.LookupItemDTO.Result*"></a>
+
+  <h3 id="SLS_Common_DTO_Automation_LookupItemDTO_Result" data-uid="SLS.Common.DTO.Automation.LookupItemDTO.Result">
+  Result
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Automation/LookupItemDTO.cs/#L55"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;Result&quot;)]
+public virtual double Result { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Automation_LookupItemDTO_ResultText_" data-uid="SLS.Common.DTO.Automation.LookupItemDTO.ResultText*"></a>
+
+  <h3 id="SLS_Common_DTO_Automation_LookupItemDTO_ResultText" data-uid="SLS.Common.DTO.Automation.LookupItemDTO.ResultText">
+  ResultText
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Automation/LookupItemDTO.cs/#L59"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;ResultText&quot;)]
+public virtual string? ResultText { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Automation_LookupItemDTO_Text_10_From_" data-uid="SLS.Common.DTO.Automation.LookupItemDTO.Text_10_From*"></a>
+
+  <h3 id="SLS_Common_DTO_Automation_LookupItemDTO_Text_10_From" data-uid="SLS.Common.DTO.Automation.LookupItemDTO.Text_10_From">
+  Text_10_From
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Automation/LookupItemDTO.cs/#L147"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;Text_10_From&quot;)]
+public virtual string? Text_10_From { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Automation_LookupItemDTO_Text_10_To_" data-uid="SLS.Common.DTO.Automation.LookupItemDTO.Text_10_To*"></a>
+
+  <h3 id="SLS_Common_DTO_Automation_LookupItemDTO_Text_10_To" data-uid="SLS.Common.DTO.Automation.LookupItemDTO.Text_10_To">
+  Text_10_To
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Automation/LookupItemDTO.cs/#L227"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;Text_10_To&quot;)]
+public virtual string? Text_10_To { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Automation_LookupItemDTO_Text_1_From_" data-uid="SLS.Common.DTO.Automation.LookupItemDTO.Text_1_From*"></a>
+
+  <h3 id="SLS_Common_DTO_Automation_LookupItemDTO_Text_1_From" data-uid="SLS.Common.DTO.Automation.LookupItemDTO.Text_1_From">
+  Text_1_From
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Automation/LookupItemDTO.cs/#L111"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;Text_1_From&quot;)]
+public virtual string? Text_1_From { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Automation_LookupItemDTO_Text_1_To_" data-uid="SLS.Common.DTO.Automation.LookupItemDTO.Text_1_To*"></a>
+
+  <h3 id="SLS_Common_DTO_Automation_LookupItemDTO_Text_1_To" data-uid="SLS.Common.DTO.Automation.LookupItemDTO.Text_1_To">
+  Text_1_To
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Automation/LookupItemDTO.cs/#L191"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;Text_1_To&quot;)]
+public virtual string? Text_1_To { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Automation_LookupItemDTO_Text_2_From_" data-uid="SLS.Common.DTO.Automation.LookupItemDTO.Text_2_From*"></a>
+
+  <h3 id="SLS_Common_DTO_Automation_LookupItemDTO_Text_2_From" data-uid="SLS.Common.DTO.Automation.LookupItemDTO.Text_2_From">
+  Text_2_From
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Automation/LookupItemDTO.cs/#L115"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;Text_2_From&quot;)]
+public virtual string? Text_2_From { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Automation_LookupItemDTO_Text_2_To_" data-uid="SLS.Common.DTO.Automation.LookupItemDTO.Text_2_To*"></a>
+
+  <h3 id="SLS_Common_DTO_Automation_LookupItemDTO_Text_2_To" data-uid="SLS.Common.DTO.Automation.LookupItemDTO.Text_2_To">
+  Text_2_To
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Automation/LookupItemDTO.cs/#L195"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;Text_2_To&quot;)]
+public virtual string? Text_2_To { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Automation_LookupItemDTO_Text_3_From_" data-uid="SLS.Common.DTO.Automation.LookupItemDTO.Text_3_From*"></a>
+
+  <h3 id="SLS_Common_DTO_Automation_LookupItemDTO_Text_3_From" data-uid="SLS.Common.DTO.Automation.LookupItemDTO.Text_3_From">
+  Text_3_From
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Automation/LookupItemDTO.cs/#L119"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;Text_3_From&quot;)]
+public virtual string? Text_3_From { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Automation_LookupItemDTO_Text_3_To_" data-uid="SLS.Common.DTO.Automation.LookupItemDTO.Text_3_To*"></a>
+
+  <h3 id="SLS_Common_DTO_Automation_LookupItemDTO_Text_3_To" data-uid="SLS.Common.DTO.Automation.LookupItemDTO.Text_3_To">
+  Text_3_To
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Automation/LookupItemDTO.cs/#L199"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;Text_3_To&quot;)]
+public virtual string? Text_3_To { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Automation_LookupItemDTO_Text_4_From_" data-uid="SLS.Common.DTO.Automation.LookupItemDTO.Text_4_From*"></a>
+
+  <h3 id="SLS_Common_DTO_Automation_LookupItemDTO_Text_4_From" data-uid="SLS.Common.DTO.Automation.LookupItemDTO.Text_4_From">
+  Text_4_From
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Automation/LookupItemDTO.cs/#L123"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;Text_4_From&quot;)]
+public virtual string? Text_4_From { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Automation_LookupItemDTO_Text_4_To_" data-uid="SLS.Common.DTO.Automation.LookupItemDTO.Text_4_To*"></a>
+
+  <h3 id="SLS_Common_DTO_Automation_LookupItemDTO_Text_4_To" data-uid="SLS.Common.DTO.Automation.LookupItemDTO.Text_4_To">
+  Text_4_To
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Automation/LookupItemDTO.cs/#L203"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;Text_4_To&quot;)]
+public virtual string? Text_4_To { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Automation_LookupItemDTO_Text_5_From_" data-uid="SLS.Common.DTO.Automation.LookupItemDTO.Text_5_From*"></a>
+
+  <h3 id="SLS_Common_DTO_Automation_LookupItemDTO_Text_5_From" data-uid="SLS.Common.DTO.Automation.LookupItemDTO.Text_5_From">
+  Text_5_From
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Automation/LookupItemDTO.cs/#L127"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;Text_5_From&quot;)]
+public virtual string? Text_5_From { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Automation_LookupItemDTO_Text_5_To_" data-uid="SLS.Common.DTO.Automation.LookupItemDTO.Text_5_To*"></a>
+
+  <h3 id="SLS_Common_DTO_Automation_LookupItemDTO_Text_5_To" data-uid="SLS.Common.DTO.Automation.LookupItemDTO.Text_5_To">
+  Text_5_To
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Automation/LookupItemDTO.cs/#L207"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;Text_5_To&quot;)]
+public virtual string? Text_5_To { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Automation_LookupItemDTO_Text_6_From_" data-uid="SLS.Common.DTO.Automation.LookupItemDTO.Text_6_From*"></a>
+
+  <h3 id="SLS_Common_DTO_Automation_LookupItemDTO_Text_6_From" data-uid="SLS.Common.DTO.Automation.LookupItemDTO.Text_6_From">
+  Text_6_From
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Automation/LookupItemDTO.cs/#L131"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;Text_6_From&quot;)]
+public virtual string? Text_6_From { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Automation_LookupItemDTO_Text_6_To_" data-uid="SLS.Common.DTO.Automation.LookupItemDTO.Text_6_To*"></a>
+
+  <h3 id="SLS_Common_DTO_Automation_LookupItemDTO_Text_6_To" data-uid="SLS.Common.DTO.Automation.LookupItemDTO.Text_6_To">
+  Text_6_To
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Automation/LookupItemDTO.cs/#L211"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;Text_6_To&quot;)]
+public virtual string? Text_6_To { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Automation_LookupItemDTO_Text_7_From_" data-uid="SLS.Common.DTO.Automation.LookupItemDTO.Text_7_From*"></a>
+
+  <h3 id="SLS_Common_DTO_Automation_LookupItemDTO_Text_7_From" data-uid="SLS.Common.DTO.Automation.LookupItemDTO.Text_7_From">
+  Text_7_From
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Automation/LookupItemDTO.cs/#L135"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;Text_7_From&quot;)]
+public virtual string? Text_7_From { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Automation_LookupItemDTO_Text_7_To_" data-uid="SLS.Common.DTO.Automation.LookupItemDTO.Text_7_To*"></a>
+
+  <h3 id="SLS_Common_DTO_Automation_LookupItemDTO_Text_7_To" data-uid="SLS.Common.DTO.Automation.LookupItemDTO.Text_7_To">
+  Text_7_To
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Automation/LookupItemDTO.cs/#L215"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;Text_7_To&quot;)]
+public virtual string? Text_7_To { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Automation_LookupItemDTO_Text_8_From_" data-uid="SLS.Common.DTO.Automation.LookupItemDTO.Text_8_From*"></a>
+
+  <h3 id="SLS_Common_DTO_Automation_LookupItemDTO_Text_8_From" data-uid="SLS.Common.DTO.Automation.LookupItemDTO.Text_8_From">
+  Text_8_From
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Automation/LookupItemDTO.cs/#L139"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;Text_8_From&quot;)]
+public virtual string? Text_8_From { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Automation_LookupItemDTO_Text_8_To_" data-uid="SLS.Common.DTO.Automation.LookupItemDTO.Text_8_To*"></a>
+
+  <h3 id="SLS_Common_DTO_Automation_LookupItemDTO_Text_8_To" data-uid="SLS.Common.DTO.Automation.LookupItemDTO.Text_8_To">
+  Text_8_To
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Automation/LookupItemDTO.cs/#L219"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;Text_8_To&quot;)]
+public virtual string? Text_8_To { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Automation_LookupItemDTO_Text_9_From_" data-uid="SLS.Common.DTO.Automation.LookupItemDTO.Text_9_From*"></a>
+
+  <h3 id="SLS_Common_DTO_Automation_LookupItemDTO_Text_9_From" data-uid="SLS.Common.DTO.Automation.LookupItemDTO.Text_9_From">
+  Text_9_From
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Automation/LookupItemDTO.cs/#L143"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;Text_9_From&quot;)]
+public virtual string? Text_9_From { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Automation_LookupItemDTO_Text_9_To_" data-uid="SLS.Common.DTO.Automation.LookupItemDTO.Text_9_To*"></a>
+
+  <h3 id="SLS_Common_DTO_Automation_LookupItemDTO_Text_9_To" data-uid="SLS.Common.DTO.Automation.LookupItemDTO.Text_9_To">
+  Text_9_To
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Automation/LookupItemDTO.cs/#L223"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;Text_9_To&quot;)]
+public virtual string? Text_9_To { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Automation_LookupItemDTO_Version_" data-uid="SLS.Common.DTO.Automation.LookupItemDTO.Version*"></a>
+
+  <h3 id="SLS_Common_DTO_Automation_LookupItemDTO_Version" data-uid="SLS.Common.DTO.Automation.LookupItemDTO.Version">
+  Version
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Automation/LookupItemDTO.cs/#L38"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;Version&quot;)]
+public long Version { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+</article>
+
+        <div class="contribution d-print-none">
+          <a href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Automation/LookupItemDTO.cs/#L28" class="edit-link">Edit this page</a>
+        </div>
+
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

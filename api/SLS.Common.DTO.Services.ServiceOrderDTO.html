@@ -1,0 +1,2838 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Class ServiceOrderDTO | SLS Documentation </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Class ServiceOrderDTO | SLS Documentation ">
+      
+      
+      <link rel="icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="../">
+      
+      
+      <meta name="docfx:docurl" content="https://github.com/Dev-SLS/dev/new/Dev/apiSpec/new?filename=SLS_Common_DTO_Services_ServiceOrderDTO.md&amp;value=---%0Auid%3A%20SLS.Common.DTO.Services.ServiceOrderDTO%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../logo.svg" alt="SLS Documentation">
+            SLS Documentation
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="SLS.Common.DTO.Services.ServiceOrderDTO">
+
+
+
+  <h1 id="SLS_Common_DTO_Services_ServiceOrderDTO" data-uid="SLS.Common.DTO.Services.ServiceOrderDTO" class="text-break">
+Class ServiceOrderDTO  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Services/ServiceOrderDTO.cs/#L28"><i class="bi bi-code-slash"></i></a>
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="SLS.html">SLS</a>.<a class="xref" href="SLS.Common.html">Common</a>.<a class="xref" href="SLS.Common.DTO.html">DTO</a>.<a class="xref" href="SLS.Common.DTO.Services.html">Services</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>SLS.Common.DTO.dll</dd></dl>
+  </div>
+
+  <div class="markdown summary"></div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Serializable]
+[DataContract(IsReference = true)]
+public class ServiceOrderDTO : IBusinessDTO, IDTO</code></pre>
+  </div>
+
+
+
+
+  <dl class="typelist inheritance">
+    <dt>Inheritance</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+      <div><span class="xref">ServiceOrderDTO</span></div>
+    </dd>
+  </dl>
+
+  <dl class="typelist implements">
+    <dt>Implements</dt>
+    <dd>
+      <div><a class="xref" href="SLS.Common.Interfaces.IBusinessDTO.html">IBusinessDTO</a></div>
+      <div><a class="xref" href="SLS.Common.Interfaces.IDTO.html">IDTO</a></div>
+    </dd>
+  </dl>
+
+
+  <dl class="typelist inheritedMembers">
+    <dt>Inherited Members</dt>
+    <dd>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)">object.Equals(object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">object.Equals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gethashcode">object.GetHashCode()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gettype">object.GetType()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone">object.MemberwiseClone()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals">object.ReferenceEquals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.tostring">object.ToString()</a>
+    </div>
+  </dd></dl>
+
+
+
+
+
+
+  <h2 class="section" id="properties">Properties
+</h2>
+
+
+  <a id="SLS_Common_DTO_Services_ServiceOrderDTO_AccountingClearance_" data-uid="SLS.Common.DTO.Services.ServiceOrderDTO.AccountingClearance*"></a>
+
+  <h3 id="SLS_Common_DTO_Services_ServiceOrderDTO_AccountingClearance" data-uid="SLS.Common.DTO.Services.ServiceOrderDTO.AccountingClearance">
+  AccountingClearance
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Services/ServiceOrderDTO.cs/#L262"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;AccountingClearance&quot;)]
+public virtual bool AccountingClearance { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Services_ServiceOrderDTO_AccountingClearanceDate_" data-uid="SLS.Common.DTO.Services.ServiceOrderDTO.AccountingClearanceDate*"></a>
+
+  <h3 id="SLS_Common_DTO_Services_ServiceOrderDTO_AccountingClearanceDate" data-uid="SLS.Common.DTO.Services.ServiceOrderDTO.AccountingClearanceDate">
+  AccountingClearanceDate
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Services/ServiceOrderDTO.cs/#L266"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;AccountingClearanceDate&quot;)]
+public virtual DateTime? AccountingClearanceDate { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.datetime">DateTime</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Services_ServiceOrderDTO_AccountingClearanceUserName_" data-uid="SLS.Common.DTO.Services.ServiceOrderDTO.AccountingClearanceUserName*"></a>
+
+  <h3 id="SLS_Common_DTO_Services_ServiceOrderDTO_AccountingClearanceUserName" data-uid="SLS.Common.DTO.Services.ServiceOrderDTO.AccountingClearanceUserName">
+  AccountingClearanceUserName
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Services/ServiceOrderDTO.cs/#L270"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;AccountingClearanceUserName&quot;)]
+public virtual string? AccountingClearanceUserName { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Services_ServiceOrderDTO_AccountingCode_" data-uid="SLS.Common.DTO.Services.ServiceOrderDTO.AccountingCode*"></a>
+
+  <h3 id="SLS_Common_DTO_Services_ServiceOrderDTO_AccountingCode" data-uid="SLS.Common.DTO.Services.ServiceOrderDTO.AccountingCode">
+  AccountingCode
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Services/ServiceOrderDTO.cs/#L321"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[ForeignKey(&quot;AccountingCodeCollection&quot;)]
+[InverseProperty(&quot;ServiceOrders_AccountingCode&quot;)]
+[JsonIgnore]
+public virtual AccountingCodeDTO? AccountingCode { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="SLS.Common.DTO.Financial.AccountingCodeDTO.html">AccountingCodeDTO</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Services_ServiceOrderDTO_AccountingCodeID_" data-uid="SLS.Common.DTO.Services.ServiceOrderDTO.AccountingCodeID*"></a>
+
+  <h3 id="SLS_Common_DTO_Services_ServiceOrderDTO_AccountingCodeID" data-uid="SLS.Common.DTO.Services.ServiceOrderDTO.AccountingCodeID">
+  AccountingCodeID
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Services/ServiceOrderDTO.cs/#L67"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;AccountingCodeCollection&quot;)]
+[ForeignKey(&quot;AccountingCodeCollection&quot;)]
+public virtual long? AccountingCodeID { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Services_ServiceOrderDTO_AccountingDate_" data-uid="SLS.Common.DTO.Services.ServiceOrderDTO.AccountingDate*"></a>
+
+  <h3 id="SLS_Common_DTO_Services_ServiceOrderDTO_AccountingDate" data-uid="SLS.Common.DTO.Services.ServiceOrderDTO.AccountingDate">
+  AccountingDate
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Services/ServiceOrderDTO.cs/#L274"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;AccountingDate&quot;)]
+public virtual DateTime? AccountingDate { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.datetime">DateTime</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Services_ServiceOrderDTO_ActualDateTime_" data-uid="SLS.Common.DTO.Services.ServiceOrderDTO.ActualDateTime*"></a>
+
+  <h3 id="SLS_Common_DTO_Services_ServiceOrderDTO_ActualDateTime" data-uid="SLS.Common.DTO.Services.ServiceOrderDTO.ActualDateTime">
+  ActualDateTime
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Services/ServiceOrderDTO.cs/#L118"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;ActualDateTime&quot;)]
+public virtual DateTime? ActualDateTime { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.datetime">DateTime</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Services_ServiceOrderDTO_ActualDateTimeEnd_" data-uid="SLS.Common.DTO.Services.ServiceOrderDTO.ActualDateTimeEnd*"></a>
+
+  <h3 id="SLS_Common_DTO_Services_ServiceOrderDTO_ActualDateTimeEnd" data-uid="SLS.Common.DTO.Services.ServiceOrderDTO.ActualDateTimeEnd">
+  ActualDateTimeEnd
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Services/ServiceOrderDTO.cs/#L258"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;ActualDateTimeEnd&quot;)]
+public virtual DateTime? ActualDateTimeEnd { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.datetime">DateTime</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Services_ServiceOrderDTO_AllInclusivePrice_" data-uid="SLS.Common.DTO.Services.ServiceOrderDTO.AllInclusivePrice*"></a>
+
+  <h3 id="SLS_Common_DTO_Services_ServiceOrderDTO_AllInclusivePrice" data-uid="SLS.Common.DTO.Services.ServiceOrderDTO.AllInclusivePrice">
+  AllInclusivePrice
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Services/ServiceOrderDTO.cs/#L226"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;AllInclusivePrice&quot;)]
+public virtual double AllInclusivePrice { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Services_ServiceOrderDTO_Company_ID_" data-uid="SLS.Common.DTO.Services.ServiceOrderDTO.Company_ID*"></a>
+
+  <h3 id="SLS_Common_DTO_Services_ServiceOrderDTO_Company_ID" data-uid="SLS.Common.DTO.Services.ServiceOrderDTO.Company_ID">
+  Company_ID
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Services/ServiceOrderDTO.cs/#L41"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public long? Company_ID { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Services_ServiceOrderDTO_CreatedBy_" data-uid="SLS.Common.DTO.Services.ServiceOrderDTO.CreatedBy*"></a>
+
+  <h3 id="SLS_Common_DTO_Services_ServiceOrderDTO_CreatedBy" data-uid="SLS.Common.DTO.Services.ServiceOrderDTO.CreatedBy">
+  CreatedBy
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Services/ServiceOrderDTO.cs/#L238"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;CreatedBy&quot;)]
+public virtual string? CreatedBy { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Services_ServiceOrderDTO_CreatedDate_" data-uid="SLS.Common.DTO.Services.ServiceOrderDTO.CreatedDate*"></a>
+
+  <h3 id="SLS_Common_DTO_Services_ServiceOrderDTO_CreatedDate" data-uid="SLS.Common.DTO.Services.ServiceOrderDTO.CreatedDate">
+  CreatedDate
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Services/ServiceOrderDTO.cs/#L234"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;CreatedDate&quot;)]
+public virtual DateTime CreatedDate { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.datetime">DateTime</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Services_ServiceOrderDTO_Currency_" data-uid="SLS.Common.DTO.Services.ServiceOrderDTO.Currency*"></a>
+
+  <h3 id="SLS_Common_DTO_Services_ServiceOrderDTO_Currency" data-uid="SLS.Common.DTO.Services.ServiceOrderDTO.Currency">
+  Currency
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Services/ServiceOrderDTO.cs/#L326"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[ForeignKey(&quot;CurrencyCollection&quot;)]
+[InverseProperty(&quot;ServiceOrders_Currency&quot;)]
+[JsonIgnore]
+public virtual CurrencyDTO? Currency { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="SLS.Common.DTO.Financial.CurrencyDTO.html">CurrencyDTO</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Services_ServiceOrderDTO_CurrencyID_" data-uid="SLS.Common.DTO.Services.ServiceOrderDTO.CurrencyID*"></a>
+
+  <h3 id="SLS_Common_DTO_Services_ServiceOrderDTO_CurrencyID" data-uid="SLS.Common.DTO.Services.ServiceOrderDTO.CurrencyID">
+  CurrencyID
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Services/ServiceOrderDTO.cs/#L72"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;CurrencyCollection&quot;)]
+[ForeignKey(&quot;CurrencyCollection&quot;)]
+public virtual long CurrencyID { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Services_ServiceOrderDTO_CurrentEditByUser_" data-uid="SLS.Common.DTO.Services.ServiceOrderDTO.CurrentEditByUser*"></a>
+
+  <h3 id="SLS_Common_DTO_Services_ServiceOrderDTO_CurrentEditByUser" data-uid="SLS.Common.DTO.Services.ServiceOrderDTO.CurrentEditByUser">
+  CurrentEditByUser
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Services/ServiceOrderDTO.cs/#L278"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;CurrentEditByUser&quot;)]
+public virtual string? CurrentEditByUser { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Services_ServiceOrderDTO_CustomerCity_" data-uid="SLS.Common.DTO.Services.ServiceOrderDTO.CustomerCity*"></a>
+
+  <h3 id="SLS_Common_DTO_Services_ServiceOrderDTO_CustomerCity" data-uid="SLS.Common.DTO.Services.ServiceOrderDTO.CustomerCity">
+  CustomerCity
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Services/ServiceOrderDTO.cs/#L142"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;CustomerCity&quot;)]
+public virtual string? CustomerCity { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Services_ServiceOrderDTO_CustomerName_" data-uid="SLS.Common.DTO.Services.ServiceOrderDTO.CustomerName*"></a>
+
+  <h3 id="SLS_Common_DTO_Services_ServiceOrderDTO_CustomerName" data-uid="SLS.Common.DTO.Services.ServiceOrderDTO.CustomerName">
+  CustomerName
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Services/ServiceOrderDTO.cs/#L126"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;CustomerName&quot;)]
+public virtual string? CustomerName { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Services_ServiceOrderDTO_CustomerStreet_" data-uid="SLS.Common.DTO.Services.ServiceOrderDTO.CustomerStreet*"></a>
+
+  <h3 id="SLS_Common_DTO_Services_ServiceOrderDTO_CustomerStreet" data-uid="SLS.Common.DTO.Services.ServiceOrderDTO.CustomerStreet">
+  CustomerStreet
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Services/ServiceOrderDTO.cs/#L130"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;CustomerStreet&quot;)]
+public virtual string? CustomerStreet { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Services_ServiceOrderDTO_CustomerStreetNumber_" data-uid="SLS.Common.DTO.Services.ServiceOrderDTO.CustomerStreetNumber*"></a>
+
+  <h3 id="SLS_Common_DTO_Services_ServiceOrderDTO_CustomerStreetNumber" data-uid="SLS.Common.DTO.Services.ServiceOrderDTO.CustomerStreetNumber">
+  CustomerStreetNumber
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Services/ServiceOrderDTO.cs/#L134"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;CustomerStreetNumber&quot;)]
+public virtual string? CustomerStreetNumber { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Services_ServiceOrderDTO_CustomerZIPCode_" data-uid="SLS.Common.DTO.Services.ServiceOrderDTO.CustomerZIPCode*"></a>
+
+  <h3 id="SLS_Common_DTO_Services_ServiceOrderDTO_CustomerZIPCode" data-uid="SLS.Common.DTO.Services.ServiceOrderDTO.CustomerZIPCode">
+  CustomerZIPCode
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Services/ServiceOrderDTO.cs/#L138"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;CustomerZIPCode&quot;)]
+public virtual string? CustomerZIPCode { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Services_ServiceOrderDTO_Department_ID_" data-uid="SLS.Common.DTO.Services.ServiceOrderDTO.Department_ID*"></a>
+
+  <h3 id="SLS_Common_DTO_Services_ServiceOrderDTO_Department_ID" data-uid="SLS.Common.DTO.Services.ServiceOrderDTO.Department_ID">
+  Department_ID
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Services/ServiceOrderDTO.cs/#L43"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public long? Department_ID { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Services_ServiceOrderDTO_Division_ID_" data-uid="SLS.Common.DTO.Services.ServiceOrderDTO.Division_ID*"></a>
+
+  <h3 id="SLS_Common_DTO_Services_ServiceOrderDTO_Division_ID" data-uid="SLS.Common.DTO.Services.ServiceOrderDTO.Division_ID">
+  Division_ID
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Services/ServiceOrderDTO.cs/#L45"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public long? Division_ID { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Services_ServiceOrderDTO_DocumentID_" data-uid="SLS.Common.DTO.Services.ServiceOrderDTO.DocumentID*"></a>
+
+  <h3 id="SLS_Common_DTO_Services_ServiceOrderDTO_DocumentID" data-uid="SLS.Common.DTO.Services.ServiceOrderDTO.DocumentID">
+  DocumentID
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Services/ServiceOrderDTO.cs/#L106"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;DocumentID&quot;)]
+public virtual string DocumentID { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Services_ServiceOrderDTO_EDI_Data_" data-uid="SLS.Common.DTO.Services.ServiceOrderDTO.EDI_Data*"></a>
+
+  <h3 id="SLS_Common_DTO_Services_ServiceOrderDTO_EDI_Data" data-uid="SLS.Common.DTO.Services.ServiceOrderDTO.EDI_Data">
+  EDI_Data
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Services/ServiceOrderDTO.cs/#L286"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;EDI_Data&quot;)]
+public virtual string? EDI_Data { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Services_ServiceOrderDTO_EDI_Hash_" data-uid="SLS.Common.DTO.Services.ServiceOrderDTO.EDI_Hash*"></a>
+
+  <h3 id="SLS_Common_DTO_Services_ServiceOrderDTO_EDI_Hash" data-uid="SLS.Common.DTO.Services.ServiceOrderDTO.EDI_Hash">
+  EDI_Hash
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Services/ServiceOrderDTO.cs/#L282"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;EDI_Hash&quot;)]
+public virtual string? EDI_Hash { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Services_ServiceOrderDTO_ExternalOrderNumber_" data-uid="SLS.Common.DTO.Services.ServiceOrderDTO.ExternalOrderNumber*"></a>
+
+  <h3 id="SLS_Common_DTO_Services_ServiceOrderDTO_ExternalOrderNumber" data-uid="SLS.Common.DTO.Services.ServiceOrderDTO.ExternalOrderNumber">
+  ExternalOrderNumber
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Services/ServiceOrderDTO.cs/#L230"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;ExternalOrderNumber&quot;)]
+public virtual string? ExternalOrderNumber { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Services_ServiceOrderDTO_Fahrzeug_" data-uid="SLS.Common.DTO.Services.ServiceOrderDTO.Fahrzeug*"></a>
+
+  <h3 id="SLS_Common_DTO_Services_ServiceOrderDTO_Fahrzeug" data-uid="SLS.Common.DTO.Services.ServiceOrderDTO.Fahrzeug">
+  Fahrzeug
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Services/ServiceOrderDTO.cs/#L331"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[ForeignKey(&quot;FahrzeugCollection&quot;)]
+[InverseProperty(&quot;ServiceOrders_Fahrzeug&quot;)]
+[JsonIgnore]
+public virtual FahrzeugDTO? Fahrzeug { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="SLS.Common.DTO.Services.Fuhrpark.FahrzeugDTO.html">FahrzeugDTO</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Services_ServiceOrderDTO_FahrzeugID_" data-uid="SLS.Common.DTO.Services.ServiceOrderDTO.FahrzeugID*"></a>
+
+  <h3 id="SLS_Common_DTO_Services_ServiceOrderDTO_FahrzeugID" data-uid="SLS.Common.DTO.Services.ServiceOrderDTO.FahrzeugID">
+  FahrzeugID
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Services/ServiceOrderDTO.cs/#L77"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;FahrzeugCollection&quot;)]
+[ForeignKey(&quot;FahrzeugCollection&quot;)]
+public virtual long? FahrzeugID { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Services_ServiceOrderDTO_FiscalYear_ID_" data-uid="SLS.Common.DTO.Services.ServiceOrderDTO.FiscalYear_ID*"></a>
+
+  <h3 id="SLS_Common_DTO_Services_ServiceOrderDTO_FiscalYear_ID" data-uid="SLS.Common.DTO.Services.ServiceOrderDTO.FiscalYear_ID">
+  FiscalYear_ID
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Services/ServiceOrderDTO.cs/#L44"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public long? FiscalYear_ID { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Services_ServiceOrderDTO_GoodsOutOrderID_" data-uid="SLS.Common.DTO.Services.ServiceOrderDTO.GoodsOutOrderID*"></a>
+
+  <h3 id="SLS_Common_DTO_Services_ServiceOrderDTO_GoodsOutOrderID" data-uid="SLS.Common.DTO.Services.ServiceOrderDTO.GoodsOutOrderID">
+  GoodsOutOrderID
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Services/ServiceOrderDTO.cs/#L298"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;GoodsOutOrderID&quot;)]
+public virtual long? GoodsOutOrderID { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Services_ServiceOrderDTO_Id_" data-uid="SLS.Common.DTO.Services.ServiceOrderDTO.Id*"></a>
+
+  <h3 id="SLS_Common_DTO_Services_ServiceOrderDTO_Id" data-uid="SLS.Common.DTO.Services.ServiceOrderDTO.Id">
+  Id
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Services/ServiceOrderDTO.cs/#L34"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;ID&quot;)]
+public long Id { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Services_ServiceOrderDTO_InvoiceAddress_" data-uid="SLS.Common.DTO.Services.ServiceOrderDTO.InvoiceAddress*"></a>
+
+  <h3 id="SLS_Common_DTO_Services_ServiceOrderDTO_InvoiceAddress" data-uid="SLS.Common.DTO.Services.ServiceOrderDTO.InvoiceAddress">
+  InvoiceAddress
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Services/ServiceOrderDTO.cs/#L316"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[ForeignKey(&quot;InvoiceAddressCollection&quot;)]
+[InverseProperty(&quot;ServiceOrders_InvoiceAddress&quot;)]
+[JsonIgnore]
+public virtual AddressCompanyDTO? InvoiceAddress { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="SLS.Common.DTO.MasterData.AddressCompanyDTO.html">AddressCompanyDTO</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Services_ServiceOrderDTO_InvoiceAddressID_" data-uid="SLS.Common.DTO.Services.ServiceOrderDTO.InvoiceAddressID*"></a>
+
+  <h3 id="SLS_Common_DTO_Services_ServiceOrderDTO_InvoiceAddressID" data-uid="SLS.Common.DTO.Services.ServiceOrderDTO.InvoiceAddressID">
+  InvoiceAddressID
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Services/ServiceOrderDTO.cs/#L62"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;InvoiceAddressCollection&quot;)]
+[ForeignKey(&quot;InvoiceAddressCollection&quot;)]
+public virtual long? InvoiceAddressID { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Services_ServiceOrderDTO_InvoiceCostCenter_" data-uid="SLS.Common.DTO.Services.ServiceOrderDTO.InvoiceCostCenter*"></a>
+
+  <h3 id="SLS_Common_DTO_Services_ServiceOrderDTO_InvoiceCostCenter" data-uid="SLS.Common.DTO.Services.ServiceOrderDTO.InvoiceCostCenter">
+  InvoiceCostCenter
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Services/ServiceOrderDTO.cs/#L294"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;InvoiceCostCenter&quot;)]
+public virtual string? InvoiceCostCenter { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Services_ServiceOrderDTO_LastChanged_" data-uid="SLS.Common.DTO.Services.ServiceOrderDTO.LastChanged*"></a>
+
+  <h3 id="SLS_Common_DTO_Services_ServiceOrderDTO_LastChanged" data-uid="SLS.Common.DTO.Services.ServiceOrderDTO.LastChanged">
+  LastChanged
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Services/ServiceOrderDTO.cs/#L246"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;LastChanged&quot;)]
+public virtual DateTime? LastChanged { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.datetime">DateTime</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Services_ServiceOrderDTO_LastChangedBy_" data-uid="SLS.Common.DTO.Services.ServiceOrderDTO.LastChangedBy*"></a>
+
+  <h3 id="SLS_Common_DTO_Services_ServiceOrderDTO_LastChangedBy" data-uid="SLS.Common.DTO.Services.ServiceOrderDTO.LastChangedBy">
+  LastChangedBy
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Services/ServiceOrderDTO.cs/#L250"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;LastChangedBy&quot;)]
+public virtual string? LastChangedBy { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Services_ServiceOrderDTO_LastServicdeOrderProcessStatus_" data-uid="SLS.Common.DTO.Services.ServiceOrderDTO.LastServicdeOrderProcessStatus*"></a>
+
+  <h3 id="SLS_Common_DTO_Services_ServiceOrderDTO_LastServicdeOrderProcessStatus" data-uid="SLS.Common.DTO.Services.ServiceOrderDTO.LastServicdeOrderProcessStatus">
+  LastServicdeOrderProcessStatus
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Services/ServiceOrderDTO.cs/#L351"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[ForeignKey(&quot;LastServicdeOrderProcessStatusCollection&quot;)]
+[InverseProperty(&quot;ServiceOrders_LastServicdeOrderProcessStatus&quot;)]
+[JsonIgnore]
+public virtual ServiceOrderProcStatusDTO? LastServicdeOrderProcessStatus { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="SLS.Common.DTO.Services.ServiceOrderProcStatusDTO.html">ServiceOrderProcStatusDTO</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Services_ServiceOrderDTO_LastServicdeOrderProcessStatusID_" data-uid="SLS.Common.DTO.Services.ServiceOrderDTO.LastServicdeOrderProcessStatusID*"></a>
+
+  <h3 id="SLS_Common_DTO_Services_ServiceOrderDTO_LastServicdeOrderProcessStatusID" data-uid="SLS.Common.DTO.Services.ServiceOrderDTO.LastServicdeOrderProcessStatusID">
+  LastServicdeOrderProcessStatusID
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Services/ServiceOrderDTO.cs/#L97"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;LastServicdeOrderProcessStatusCollection&quot;)]
+[ForeignKey(&quot;LastServicdeOrderProcessStatusCollection&quot;)]
+public virtual long? LastServicdeOrderProcessStatusID { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Services_ServiceOrderDTO_Notes_" data-uid="SLS.Common.DTO.Services.ServiceOrderDTO.Notes*"></a>
+
+  <h3 id="SLS_Common_DTO_Services_ServiceOrderDTO_Notes" data-uid="SLS.Common.DTO.Services.ServiceOrderDTO.Notes">
+  Notes
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Services/ServiceOrderDTO.cs/#L242"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;Notes&quot;)]
+public virtual string? Notes { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Services_ServiceOrderDTO_NotesMobileDevice_" data-uid="SLS.Common.DTO.Services.ServiceOrderDTO.NotesMobileDevice*"></a>
+
+  <h3 id="SLS_Common_DTO_Services_ServiceOrderDTO_NotesMobileDevice" data-uid="SLS.Common.DTO.Services.ServiceOrderDTO.NotesMobileDevice">
+  NotesMobileDevice
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Services/ServiceOrderDTO.cs/#L290"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;NotesMobileDevice&quot;)]
+public virtual string? NotesMobileDevice { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Services_ServiceOrderDTO_OptionalDate1_" data-uid="SLS.Common.DTO.Services.ServiceOrderDTO.OptionalDate1*"></a>
+
+  <h3 id="SLS_Common_DTO_Services_ServiceOrderDTO_OptionalDate1" data-uid="SLS.Common.DTO.Services.ServiceOrderDTO.OptionalDate1">
+  OptionalDate1
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Services/ServiceOrderDTO.cs/#L186"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;OptionalDate1&quot;)]
+public virtual DateTime? OptionalDate1 { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.datetime">DateTime</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Services_ServiceOrderDTO_OptionalDate2_" data-uid="SLS.Common.DTO.Services.ServiceOrderDTO.OptionalDate2*"></a>
+
+  <h3 id="SLS_Common_DTO_Services_ServiceOrderDTO_OptionalDate2" data-uid="SLS.Common.DTO.Services.ServiceOrderDTO.OptionalDate2">
+  OptionalDate2
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Services/ServiceOrderDTO.cs/#L190"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;OptionalDate2&quot;)]
+public virtual DateTime? OptionalDate2 { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.datetime">DateTime</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Services_ServiceOrderDTO_OptionalDate3_" data-uid="SLS.Common.DTO.Services.ServiceOrderDTO.OptionalDate3*"></a>
+
+  <h3 id="SLS_Common_DTO_Services_ServiceOrderDTO_OptionalDate3" data-uid="SLS.Common.DTO.Services.ServiceOrderDTO.OptionalDate3">
+  OptionalDate3
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Services/ServiceOrderDTO.cs/#L194"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;OptionalDate3&quot;)]
+public virtual DateTime? OptionalDate3 { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.datetime">DateTime</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Services_ServiceOrderDTO_OptionalDate4_" data-uid="SLS.Common.DTO.Services.ServiceOrderDTO.OptionalDate4*"></a>
+
+  <h3 id="SLS_Common_DTO_Services_ServiceOrderDTO_OptionalDate4" data-uid="SLS.Common.DTO.Services.ServiceOrderDTO.OptionalDate4">
+  OptionalDate4
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Services/ServiceOrderDTO.cs/#L198"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;OptionalDate4&quot;)]
+public virtual DateTime? OptionalDate4 { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.datetime">DateTime</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Services_ServiceOrderDTO_OptionalDate5_" data-uid="SLS.Common.DTO.Services.ServiceOrderDTO.OptionalDate5*"></a>
+
+  <h3 id="SLS_Common_DTO_Services_ServiceOrderDTO_OptionalDate5" data-uid="SLS.Common.DTO.Services.ServiceOrderDTO.OptionalDate5">
+  OptionalDate5
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Services/ServiceOrderDTO.cs/#L202"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;OptionalDate5&quot;)]
+public virtual DateTime? OptionalDate5 { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.datetime">DateTime</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Services_ServiceOrderDTO_OptionalNumber1_" data-uid="SLS.Common.DTO.Services.ServiceOrderDTO.OptionalNumber1*"></a>
+
+  <h3 id="SLS_Common_DTO_Services_ServiceOrderDTO_OptionalNumber1" data-uid="SLS.Common.DTO.Services.ServiceOrderDTO.OptionalNumber1">
+  OptionalNumber1
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Services/ServiceOrderDTO.cs/#L206"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;OptionalNumber1&quot;)]
+public virtual long? OptionalNumber1 { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Services_ServiceOrderDTO_OptionalNumber2_" data-uid="SLS.Common.DTO.Services.ServiceOrderDTO.OptionalNumber2*"></a>
+
+  <h3 id="SLS_Common_DTO_Services_ServiceOrderDTO_OptionalNumber2" data-uid="SLS.Common.DTO.Services.ServiceOrderDTO.OptionalNumber2">
+  OptionalNumber2
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Services/ServiceOrderDTO.cs/#L210"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;OptionalNumber2&quot;)]
+public virtual long? OptionalNumber2 { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Services_ServiceOrderDTO_OptionalNumber3_" data-uid="SLS.Common.DTO.Services.ServiceOrderDTO.OptionalNumber3*"></a>
+
+  <h3 id="SLS_Common_DTO_Services_ServiceOrderDTO_OptionalNumber3" data-uid="SLS.Common.DTO.Services.ServiceOrderDTO.OptionalNumber3">
+  OptionalNumber3
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Services/ServiceOrderDTO.cs/#L214"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;OptionalNumber3&quot;)]
+public virtual long? OptionalNumber3 { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Services_ServiceOrderDTO_OptionalNumber4_" data-uid="SLS.Common.DTO.Services.ServiceOrderDTO.OptionalNumber4*"></a>
+
+  <h3 id="SLS_Common_DTO_Services_ServiceOrderDTO_OptionalNumber4" data-uid="SLS.Common.DTO.Services.ServiceOrderDTO.OptionalNumber4">
+  OptionalNumber4
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Services/ServiceOrderDTO.cs/#L218"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;OptionalNumber4&quot;)]
+public virtual double? OptionalNumber4 { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Services_ServiceOrderDTO_OptionalNumber5_" data-uid="SLS.Common.DTO.Services.ServiceOrderDTO.OptionalNumber5*"></a>
+
+  <h3 id="SLS_Common_DTO_Services_ServiceOrderDTO_OptionalNumber5" data-uid="SLS.Common.DTO.Services.ServiceOrderDTO.OptionalNumber5">
+  OptionalNumber5
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Services/ServiceOrderDTO.cs/#L222"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;OptionalNumber5&quot;)]
+public virtual double? OptionalNumber5 { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Services_ServiceOrderDTO_OptionalString1_" data-uid="SLS.Common.DTO.Services.ServiceOrderDTO.OptionalString1*"></a>
+
+  <h3 id="SLS_Common_DTO_Services_ServiceOrderDTO_OptionalString1" data-uid="SLS.Common.DTO.Services.ServiceOrderDTO.OptionalString1">
+  OptionalString1
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Services/ServiceOrderDTO.cs/#L146"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;OptionalString1&quot;)]
+public virtual string? OptionalString1 { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Services_ServiceOrderDTO_OptionalString10_" data-uid="SLS.Common.DTO.Services.ServiceOrderDTO.OptionalString10*"></a>
+
+  <h3 id="SLS_Common_DTO_Services_ServiceOrderDTO_OptionalString10" data-uid="SLS.Common.DTO.Services.ServiceOrderDTO.OptionalString10">
+  OptionalString10
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Services/ServiceOrderDTO.cs/#L182"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;OptionalString10&quot;)]
+public virtual string? OptionalString10 { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Services_ServiceOrderDTO_OptionalString2_" data-uid="SLS.Common.DTO.Services.ServiceOrderDTO.OptionalString2*"></a>
+
+  <h3 id="SLS_Common_DTO_Services_ServiceOrderDTO_OptionalString2" data-uid="SLS.Common.DTO.Services.ServiceOrderDTO.OptionalString2">
+  OptionalString2
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Services/ServiceOrderDTO.cs/#L150"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;OptionalString2&quot;)]
+public virtual string? OptionalString2 { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Services_ServiceOrderDTO_OptionalString3_" data-uid="SLS.Common.DTO.Services.ServiceOrderDTO.OptionalString3*"></a>
+
+  <h3 id="SLS_Common_DTO_Services_ServiceOrderDTO_OptionalString3" data-uid="SLS.Common.DTO.Services.ServiceOrderDTO.OptionalString3">
+  OptionalString3
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Services/ServiceOrderDTO.cs/#L154"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;OptionalString3&quot;)]
+public virtual string? OptionalString3 { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Services_ServiceOrderDTO_OptionalString4_" data-uid="SLS.Common.DTO.Services.ServiceOrderDTO.OptionalString4*"></a>
+
+  <h3 id="SLS_Common_DTO_Services_ServiceOrderDTO_OptionalString4" data-uid="SLS.Common.DTO.Services.ServiceOrderDTO.OptionalString4">
+  OptionalString4
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Services/ServiceOrderDTO.cs/#L158"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;OptionalString4&quot;)]
+public virtual string? OptionalString4 { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Services_ServiceOrderDTO_OptionalString5_" data-uid="SLS.Common.DTO.Services.ServiceOrderDTO.OptionalString5*"></a>
+
+  <h3 id="SLS_Common_DTO_Services_ServiceOrderDTO_OptionalString5" data-uid="SLS.Common.DTO.Services.ServiceOrderDTO.OptionalString5">
+  OptionalString5
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Services/ServiceOrderDTO.cs/#L162"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;OptionalString5&quot;)]
+public virtual string? OptionalString5 { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Services_ServiceOrderDTO_OptionalString6_" data-uid="SLS.Common.DTO.Services.ServiceOrderDTO.OptionalString6*"></a>
+
+  <h3 id="SLS_Common_DTO_Services_ServiceOrderDTO_OptionalString6" data-uid="SLS.Common.DTO.Services.ServiceOrderDTO.OptionalString6">
+  OptionalString6
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Services/ServiceOrderDTO.cs/#L166"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;OptionalString6&quot;)]
+public virtual string? OptionalString6 { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Services_ServiceOrderDTO_OptionalString7_" data-uid="SLS.Common.DTO.Services.ServiceOrderDTO.OptionalString7*"></a>
+
+  <h3 id="SLS_Common_DTO_Services_ServiceOrderDTO_OptionalString7" data-uid="SLS.Common.DTO.Services.ServiceOrderDTO.OptionalString7">
+  OptionalString7
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Services/ServiceOrderDTO.cs/#L170"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;OptionalString7&quot;)]
+public virtual string? OptionalString7 { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Services_ServiceOrderDTO_OptionalString8_" data-uid="SLS.Common.DTO.Services.ServiceOrderDTO.OptionalString8*"></a>
+
+  <h3 id="SLS_Common_DTO_Services_ServiceOrderDTO_OptionalString8" data-uid="SLS.Common.DTO.Services.ServiceOrderDTO.OptionalString8">
+  OptionalString8
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Services/ServiceOrderDTO.cs/#L174"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;OptionalString8&quot;)]
+public virtual string? OptionalString8 { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Services_ServiceOrderDTO_OptionalString9_" data-uid="SLS.Common.DTO.Services.ServiceOrderDTO.OptionalString9*"></a>
+
+  <h3 id="SLS_Common_DTO_Services_ServiceOrderDTO_OptionalString9" data-uid="SLS.Common.DTO.Services.ServiceOrderDTO.OptionalString9">
+  OptionalString9
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Services/ServiceOrderDTO.cs/#L178"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;OptionalString9&quot;)]
+public virtual string? OptionalString9 { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Services_ServiceOrderDTO_OrderDate_" data-uid="SLS.Common.DTO.Services.ServiceOrderDTO.OrderDate*"></a>
+
+  <h3 id="SLS_Common_DTO_Services_ServiceOrderDTO_OrderDate" data-uid="SLS.Common.DTO.Services.ServiceOrderDTO.OrderDate">
+  OrderDate
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Services/ServiceOrderDTO.cs/#L110"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;OrderDate&quot;)]
+public virtual DateTime OrderDate { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.datetime">DateTime</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Services_ServiceOrderDTO_OrderType_" data-uid="SLS.Common.DTO.Services.ServiceOrderDTO.OrderType*"></a>
+
+  <h3 id="SLS_Common_DTO_Services_ServiceOrderDTO_OrderType" data-uid="SLS.Common.DTO.Services.ServiceOrderDTO.OrderType">
+  OrderType
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Services/ServiceOrderDTO.cs/#L336"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[ForeignKey(&quot;OrderTypeCollection&quot;)]
+[InverseProperty(&quot;ServiceOrders_OrderType&quot;)]
+[JsonIgnore]
+public virtual OrderTypeDTO? OrderType { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="SLS.Common.DTO.WareHouse.OrderTypeDTO.html">OrderTypeDTO</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Services_ServiceOrderDTO_OrderTypeID_" data-uid="SLS.Common.DTO.Services.ServiceOrderDTO.OrderTypeID*"></a>
+
+  <h3 id="SLS_Common_DTO_Services_ServiceOrderDTO_OrderTypeID" data-uid="SLS.Common.DTO.Services.ServiceOrderDTO.OrderTypeID">
+  OrderTypeID
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Services/ServiceOrderDTO.cs/#L82"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;OrderTypeCollection&quot;)]
+[ForeignKey(&quot;OrderTypeCollection&quot;)]
+public virtual long? OrderTypeID { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Services_ServiceOrderDTO_Orderer_" data-uid="SLS.Common.DTO.Services.ServiceOrderDTO.Orderer*"></a>
+
+  <h3 id="SLS_Common_DTO_Services_ServiceOrderDTO_Orderer" data-uid="SLS.Common.DTO.Services.ServiceOrderDTO.Orderer">
+  Orderer
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Services/ServiceOrderDTO.cs/#L311"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[ForeignKey(&quot;OrdererCollection&quot;)]
+[InverseProperty(&quot;ServiceOrders_Orderer&quot;)]
+[JsonIgnore]
+public virtual AddressCompanyDTO? Orderer { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="SLS.Common.DTO.MasterData.AddressCompanyDTO.html">AddressCompanyDTO</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Services_ServiceOrderDTO_OrdererID_" data-uid="SLS.Common.DTO.Services.ServiceOrderDTO.OrdererID*"></a>
+
+  <h3 id="SLS_Common_DTO_Services_ServiceOrderDTO_OrdererID" data-uid="SLS.Common.DTO.Services.ServiceOrderDTO.OrdererID">
+  OrdererID
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Services/ServiceOrderDTO.cs/#L57"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;OrdererCollection&quot;)]
+[ForeignKey(&quot;OrdererCollection&quot;)]
+public virtual long? OrdererID { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Services_ServiceOrderDTO_PlannedDateTime_" data-uid="SLS.Common.DTO.Services.ServiceOrderDTO.PlannedDateTime*"></a>
+
+  <h3 id="SLS_Common_DTO_Services_ServiceOrderDTO_PlannedDateTime" data-uid="SLS.Common.DTO.Services.ServiceOrderDTO.PlannedDateTime">
+  PlannedDateTime
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Services/ServiceOrderDTO.cs/#L114"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;PlannedDateTime&quot;)]
+public virtual DateTime PlannedDateTime { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.datetime">DateTime</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Services_ServiceOrderDTO_PlannedDateTimeEnd_" data-uid="SLS.Common.DTO.Services.ServiceOrderDTO.PlannedDateTimeEnd*"></a>
+
+  <h3 id="SLS_Common_DTO_Services_ServiceOrderDTO_PlannedDateTimeEnd" data-uid="SLS.Common.DTO.Services.ServiceOrderDTO.PlannedDateTimeEnd">
+  PlannedDateTimeEnd
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Services/ServiceOrderDTO.cs/#L254"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;PlannedDateTimeEnd&quot;)]
+public virtual DateTime? PlannedDateTimeEnd { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.datetime">DateTime</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Services_ServiceOrderDTO_ProcessStatus_" data-uid="SLS.Common.DTO.Services.ServiceOrderDTO.ProcessStatus*"></a>
+
+  <h3 id="SLS_Common_DTO_Services_ServiceOrderDTO_ProcessStatus" data-uid="SLS.Common.DTO.Services.ServiceOrderDTO.ProcessStatus">
+  ProcessStatus
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Services/ServiceOrderDTO.cs/#L341"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[ForeignKey(&quot;ProcessStatusCollection&quot;)]
+[InverseProperty(&quot;ServiceOrders_ProcessStatus&quot;)]
+[JsonIgnore]
+public virtual ProcessStatusDTO? ProcessStatus { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="SLS.Common.DTO.MasterData.Dispo.ProcessStatusDTO.html">ProcessStatusDTO</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Services_ServiceOrderDTO_ProcessStatusID_" data-uid="SLS.Common.DTO.Services.ServiceOrderDTO.ProcessStatusID*"></a>
+
+  <h3 id="SLS_Common_DTO_Services_ServiceOrderDTO_ProcessStatusID" data-uid="SLS.Common.DTO.Services.ServiceOrderDTO.ProcessStatusID">
+  ProcessStatusID
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Services/ServiceOrderDTO.cs/#L87"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;ProcessStatusCollection&quot;)]
+[ForeignKey(&quot;ProcessStatusCollection&quot;)]
+public virtual long? ProcessStatusID { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Services_ServiceOrderDTO_ServiceDescription_" data-uid="SLS.Common.DTO.Services.ServiceOrderDTO.ServiceDescription*"></a>
+
+  <h3 id="SLS_Common_DTO_Services_ServiceOrderDTO_ServiceDescription" data-uid="SLS.Common.DTO.Services.ServiceOrderDTO.ServiceDescription">
+  ServiceDescription
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Services/ServiceOrderDTO.cs/#L122"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;ServiceDescription&quot;)]
+public virtual string ServiceDescription { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Services_ServiceOrderDTO_ServiceOrderItems_ServiceOrder_" data-uid="SLS.Common.DTO.Services.ServiceOrderDTO.ServiceOrderItems_ServiceOrder*"></a>
+
+  <h3 id="SLS_Common_DTO_Services_ServiceOrderDTO_ServiceOrderItems_ServiceOrder" data-uid="SLS.Common.DTO.Services.ServiceOrderDTO.ServiceOrderItems_ServiceOrder">
+  ServiceOrderItems_ServiceOrder
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Services/ServiceOrderDTO.cs/#L365"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;ServiceOrderCollection&quot;)]
+public virtual List&lt;ServiceOrderItemDTO&gt;? ServiceOrderItems_ServiceOrder { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<a class="xref" href="SLS.Common.DTO.Services.ServiceOrderItemDTO.html">ServiceOrderItemDTO</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Services_ServiceOrderDTO_ServiceOrderProcStatus_ServiceOrder_" data-uid="SLS.Common.DTO.Services.ServiceOrderDTO.ServiceOrderProcStatus_ServiceOrder*"></a>
+
+  <h3 id="SLS_Common_DTO_Services_ServiceOrderDTO_ServiceOrderProcStatus_ServiceOrder" data-uid="SLS.Common.DTO.Services.ServiceOrderDTO.ServiceOrderProcStatus_ServiceOrder">
+  ServiceOrderProcStatus_ServiceOrder
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Services/ServiceOrderDTO.cs/#L360"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;ServiceOrderCollection&quot;)]
+public virtual List&lt;ServiceOrderProcStatusDTO&gt;? ServiceOrderProcStatus_ServiceOrder { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<a class="xref" href="SLS.Common.DTO.Services.ServiceOrderProcStatusDTO.html">ServiceOrderProcStatusDTO</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Services_ServiceOrderDTO_Status_" data-uid="SLS.Common.DTO.Services.ServiceOrderDTO.Status*"></a>
+
+  <h3 id="SLS_Common_DTO_Services_ServiceOrderDTO_Status" data-uid="SLS.Common.DTO.Services.ServiceOrderDTO.Status">
+  Status
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Services/ServiceOrderDTO.cs/#L306"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[ForeignKey(&quot;StatusCollection&quot;)]
+[InverseProperty(&quot;ServiceOrders_Status&quot;)]
+[JsonIgnore]
+public virtual ServiceOrderStatusDTO? Status { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="SLS.Common.DTO.Services.ServiceOrderStatusDTO.html">ServiceOrderStatusDTO</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Services_ServiceOrderDTO_StatusID_" data-uid="SLS.Common.DTO.Services.ServiceOrderDTO.StatusID*"></a>
+
+  <h3 id="SLS_Common_DTO_Services_ServiceOrderDTO_StatusID" data-uid="SLS.Common.DTO.Services.ServiceOrderDTO.StatusID">
+  StatusID
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Services/ServiceOrderDTO.cs/#L52"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;StatusCollection&quot;)]
+[ForeignKey(&quot;StatusCollection&quot;)]
+public virtual long StatusID { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Services_ServiceOrderDTO_StatusReason_" data-uid="SLS.Common.DTO.Services.ServiceOrderDTO.StatusReason*"></a>
+
+  <h3 id="SLS_Common_DTO_Services_ServiceOrderDTO_StatusReason" data-uid="SLS.Common.DTO.Services.ServiceOrderDTO.StatusReason">
+  StatusReason
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Services/ServiceOrderDTO.cs/#L346"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[ForeignKey(&quot;StatusReasonCollection&quot;)]
+[InverseProperty(&quot;ServiceOrders_StatusReason&quot;)]
+[JsonIgnore]
+public virtual StatusReasonDTO? StatusReason { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="SLS.Common.DTO.MasterData.Dispo.StatusReasonDTO.html">StatusReasonDTO</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Services_ServiceOrderDTO_StatusReasonID_" data-uid="SLS.Common.DTO.Services.ServiceOrderDTO.StatusReasonID*"></a>
+
+  <h3 id="SLS_Common_DTO_Services_ServiceOrderDTO_StatusReasonID" data-uid="SLS.Common.DTO.Services.ServiceOrderDTO.StatusReasonID">
+  StatusReasonID
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Services/ServiceOrderDTO.cs/#L92"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;StatusReasonCollection&quot;)]
+[ForeignKey(&quot;StatusReasonCollection&quot;)]
+public virtual long? StatusReasonID { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Services_ServiceOrderDTO_Subsidiary_ID_" data-uid="SLS.Common.DTO.Services.ServiceOrderDTO.Subsidiary_ID*"></a>
+
+  <h3 id="SLS_Common_DTO_Services_ServiceOrderDTO_Subsidiary_ID" data-uid="SLS.Common.DTO.Services.ServiceOrderDTO.Subsidiary_ID">
+  Subsidiary_ID
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Services/ServiceOrderDTO.cs/#L42"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public long? Subsidiary_ID { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Services_ServiceOrderDTO_User_ID_" data-uid="SLS.Common.DTO.Services.ServiceOrderDTO.User_ID*"></a>
+
+  <h3 id="SLS_Common_DTO_Services_ServiceOrderDTO_User_ID" data-uid="SLS.Common.DTO.Services.ServiceOrderDTO.User_ID">
+  User_ID
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Services/ServiceOrderDTO.cs/#L46"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public long? User_ID { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Services_ServiceOrderDTO_Version_" data-uid="SLS.Common.DTO.Services.ServiceOrderDTO.Version*"></a>
+
+  <h3 id="SLS_Common_DTO_Services_ServiceOrderDTO_Version" data-uid="SLS.Common.DTO.Services.ServiceOrderDTO.Version">
+  Version
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Services/ServiceOrderDTO.cs/#L38"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;Version&quot;)]
+public long Version { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Services_ServiceOrderDTO_VoucherItems_ServiceOrder_" data-uid="SLS.Common.DTO.Services.ServiceOrderDTO.VoucherItems_ServiceOrder*"></a>
+
+  <h3 id="SLS_Common_DTO_Services_ServiceOrderDTO_VoucherItems_ServiceOrder" data-uid="SLS.Common.DTO.Services.ServiceOrderDTO.VoucherItems_ServiceOrder">
+  VoucherItems_ServiceOrder
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Services/ServiceOrderDTO.cs/#L370"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;ServiceOrderCollection&quot;)]
+[JsonIgnore]
+public virtual List&lt;VoucherItemDTO&gt;? VoucherItems_ServiceOrder { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<a class="xref" href="SLS.Common.DTO.Financial.VoucherItemDTO.html">VoucherItemDTO</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+</article>
+
+        <div class="contribution d-print-none">
+          <a href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Services/ServiceOrderDTO.cs/#L28" class="edit-link">Edit this page</a>
+        </div>
+
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,1799 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Class CooperationDTO | SLS Documentation </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Class CooperationDTO | SLS Documentation ">
+      
+      
+      <link rel="icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="../">
+      
+      
+      <meta name="docfx:docurl" content="https://github.com/Dev-SLS/dev/new/Dev/apiSpec/new?filename=SLS_Common_DTO_Dispatch_CooperationDTO.md&amp;value=---%0Auid%3A%20SLS.Common.DTO.Dispatch.CooperationDTO%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../logo.svg" alt="SLS Documentation">
+            SLS Documentation
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="SLS.Common.DTO.Dispatch.CooperationDTO">
+
+
+
+  <h1 id="SLS_Common_DTO_Dispatch_CooperationDTO" data-uid="SLS.Common.DTO.Dispatch.CooperationDTO" class="text-break">
+Class CooperationDTO  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Dispatch/CooperationDTO.cs/#L28"><i class="bi bi-code-slash"></i></a>
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="SLS.html">SLS</a>.<a class="xref" href="SLS.Common.html">Common</a>.<a class="xref" href="SLS.Common.DTO.html">DTO</a>.<a class="xref" href="SLS.Common.DTO.Dispatch.html">Dispatch</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>SLS.Common.DTO.dll</dd></dl>
+  </div>
+
+  <div class="markdown summary"></div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Serializable]
+[DataContract(IsReference = true)]
+public class CooperationDTO : IDTO</code></pre>
+  </div>
+
+
+
+
+  <dl class="typelist inheritance">
+    <dt>Inheritance</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+      <div><span class="xref">CooperationDTO</span></div>
+    </dd>
+  </dl>
+
+  <dl class="typelist implements">
+    <dt>Implements</dt>
+    <dd>
+      <div><a class="xref" href="SLS.Common.Interfaces.IDTO.html">IDTO</a></div>
+    </dd>
+  </dl>
+
+
+  <dl class="typelist inheritedMembers">
+    <dt>Inherited Members</dt>
+    <dd>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)">object.Equals(object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">object.Equals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gethashcode">object.GetHashCode()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gettype">object.GetType()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone">object.MemberwiseClone()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals">object.ReferenceEquals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.tostring">object.ToString()</a>
+    </div>
+  </dd></dl>
+
+
+
+
+
+
+  <h2 class="section" id="properties">Properties
+</h2>
+
+
+  <a id="SLS_Common_DTO_Dispatch_CooperationDTO_ADRVersion_" data-uid="SLS.Common.DTO.Dispatch.CooperationDTO.ADRVersion*"></a>
+
+  <h3 id="SLS_Common_DTO_Dispatch_CooperationDTO_ADRVersion" data-uid="SLS.Common.DTO.Dispatch.CooperationDTO.ADRVersion">
+  ADRVersion
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Dispatch/CooperationDTO.cs/#L118"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;ADRVersion&quot;)]
+public virtual string? ADRVersion { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Dispatch_CooperationDTO_Active_" data-uid="SLS.Common.DTO.Dispatch.CooperationDTO.Active*"></a>
+
+  <h3 id="SLS_Common_DTO_Dispatch_CooperationDTO_Active" data-uid="SLS.Common.DTO.Dispatch.CooperationDTO.Active">
+  Active
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Dispatch/CooperationDTO.cs/#L94"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;Active&quot;)]
+public virtual bool Active { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Dispatch_CooperationDTO_BillingCategoryMapping_" data-uid="SLS.Common.DTO.Dispatch.CooperationDTO.BillingCategoryMapping*"></a>
+
+  <h3 id="SLS_Common_DTO_Dispatch_CooperationDTO_BillingCategoryMapping" data-uid="SLS.Common.DTO.Dispatch.CooperationDTO.BillingCategoryMapping">
+  BillingCategoryMapping
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Dispatch/CooperationDTO.cs/#L179"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[ForeignKey(&quot;BillingCategoryMappingCollection&quot;)]
+[InverseProperty(&quot;Cooperation_BillingCategoryMapping&quot;)]
+[JsonIgnore]
+public virtual InterfaceValueMappingDTO? BillingCategoryMapping { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="SLS.Common.DTO.Interfaces.InterfaceValueMappingDTO.html">InterfaceValueMappingDTO</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Dispatch_CooperationDTO_BillingCategoryMappingID_" data-uid="SLS.Common.DTO.Dispatch.CooperationDTO.BillingCategoryMappingID*"></a>
+
+  <h3 id="SLS_Common_DTO_Dispatch_CooperationDTO_BillingCategoryMappingID" data-uid="SLS.Common.DTO.Dispatch.CooperationDTO.BillingCategoryMappingID">
+  BillingCategoryMappingID
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Dispatch/CooperationDTO.cs/#L71"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;BillingCategoryMappingCollection&quot;)]
+[ForeignKey(&quot;BillingCategoryMappingCollection&quot;)]
+public virtual long? BillingCategoryMappingID { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Dispatch_CooperationDTO_CheckPointCooperationDetail_Cooperation_" data-uid="SLS.Common.DTO.Dispatch.CooperationDTO.CheckPointCooperationDetail_Cooperation*"></a>
+
+  <h3 id="SLS_Common_DTO_Dispatch_CooperationDTO_CheckPointCooperationDetail_Cooperation" data-uid="SLS.Common.DTO.Dispatch.CooperationDTO.CheckPointCooperationDetail_Cooperation">
+  CheckPointCooperationDetail_Cooperation
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Dispatch/CooperationDTO.cs/#L218"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;CooperationCollection&quot;)]
+[JsonIgnore]
+public virtual List&lt;CheckPointCooperationDetailDTO&gt;? CheckPointCooperationDetail_Cooperation { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<a class="xref" href="SLS.Common.DTO.MasterData.Dispo.CheckPointCooperationDetailDTO.html">CheckPointCooperationDetailDTO</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Dispatch_CooperationDTO_CheckPointMapping_" data-uid="SLS.Common.DTO.Dispatch.CooperationDTO.CheckPointMapping*"></a>
+
+  <h3 id="SLS_Common_DTO_Dispatch_CooperationDTO_CheckPointMapping" data-uid="SLS.Common.DTO.Dispatch.CooperationDTO.CheckPointMapping">
+  CheckPointMapping
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Dispatch/CooperationDTO.cs/#L174"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[ForeignKey(&quot;CheckPointMappingCollection&quot;)]
+[InverseProperty(&quot;Cooperation_CheckPointMapping&quot;)]
+[JsonIgnore]
+public virtual InterfaceValueMappingDTO? CheckPointMapping { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="SLS.Common.DTO.Interfaces.InterfaceValueMappingDTO.html">InterfaceValueMappingDTO</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Dispatch_CooperationDTO_CheckPointMappingID_" data-uid="SLS.Common.DTO.Dispatch.CooperationDTO.CheckPointMappingID*"></a>
+
+  <h3 id="SLS_Common_DTO_Dispatch_CooperationDTO_CheckPointMappingID" data-uid="SLS.Common.DTO.Dispatch.CooperationDTO.CheckPointMappingID">
+  CheckPointMappingID
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Dispatch/CooperationDTO.cs/#L66"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;CheckPointMappingCollection&quot;)]
+[ForeignKey(&quot;CheckPointMappingCollection&quot;)]
+public virtual long? CheckPointMappingID { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Dispatch_CooperationDTO_ClearingFormatInformation_Cooperation_" data-uid="SLS.Common.DTO.Dispatch.CooperationDTO.ClearingFormatInformation_Cooperation*"></a>
+
+  <h3 id="SLS_Common_DTO_Dispatch_CooperationDTO_ClearingFormatInformation_Cooperation" data-uid="SLS.Common.DTO.Dispatch.CooperationDTO.ClearingFormatInformation_Cooperation">
+  ClearingFormatInformation_Cooperation
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Dispatch/CooperationDTO.cs/#L228"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;CooperationCollection&quot;)]
+[JsonIgnore]
+public virtual List&lt;ClearingFormatInformationDTO&gt;? ClearingFormatInformation_Cooperation { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<a class="xref" href="SLS.Common.DTO.Financial.Clearing.ClearingFormatInformationDTO.html">ClearingFormatInformationDTO</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Dispatch_CooperationDTO_Companies_Cooperation_" data-uid="SLS.Common.DTO.Dispatch.CooperationDTO.Companies_Cooperation*"></a>
+
+  <h3 id="SLS_Common_DTO_Dispatch_CooperationDTO_Companies_Cooperation" data-uid="SLS.Common.DTO.Dispatch.CooperationDTO.Companies_Cooperation">
+  Companies_Cooperation
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Dispatch/CooperationDTO.cs/#L223"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;CooperationCollection&quot;)]
+[JsonIgnore]
+public virtual List&lt;CompanyDTO&gt;? Companies_Cooperation { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<a class="xref" href="SLS.Common.DTO.MasterData.CompanyDTO.html">CompanyDTO</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Dispatch_CooperationDTO_CooperationAPISettings_Cooperation_" data-uid="SLS.Common.DTO.Dispatch.CooperationDTO.CooperationAPISettings_Cooperation*"></a>
+
+  <h3 id="SLS_Common_DTO_Dispatch_CooperationDTO_CooperationAPISettings_Cooperation" data-uid="SLS.Common.DTO.Dispatch.CooperationDTO.CooperationAPISettings_Cooperation">
+  CooperationAPISettings_Cooperation
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Dispatch/CooperationDTO.cs/#L263"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;CooperationCollection&quot;)]
+public virtual List&lt;CooperationAPISettingsDTO&gt;? CooperationAPISettings_Cooperation { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<a class="xref" href="SLS.Common.DTO.Dispatch.CooperationAPISettingsDTO.html">CooperationAPISettingsDTO</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Dispatch_CooperationDTO_CooperationAddresses_Cooperation_" data-uid="SLS.Common.DTO.Dispatch.CooperationDTO.CooperationAddresses_Cooperation*"></a>
+
+  <h3 id="SLS_Common_DTO_Dispatch_CooperationDTO_CooperationAddresses_Cooperation" data-uid="SLS.Common.DTO.Dispatch.CooperationDTO.CooperationAddresses_Cooperation">
+  CooperationAddresses_Cooperation
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Dispatch/CooperationDTO.cs/#L268"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;CooperationCollection&quot;)]
+public virtual List&lt;CooperationAddressDTO&gt;? CooperationAddresses_Cooperation { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<a class="xref" href="SLS.Common.DTO.Dispatch.CooperationAddressDTO.html">CooperationAddressDTO</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Dispatch_CooperationDTO_CooperationRoutings_Cooperation_" data-uid="SLS.Common.DTO.Dispatch.CooperationDTO.CooperationRoutings_Cooperation*"></a>
+
+  <h3 id="SLS_Common_DTO_Dispatch_CooperationDTO_CooperationRoutings_Cooperation" data-uid="SLS.Common.DTO.Dispatch.CooperationDTO.CooperationRoutings_Cooperation">
+  CooperationRoutings_Cooperation
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Dispatch/CooperationDTO.cs/#L258"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;CooperationCollection&quot;)]
+public virtual List&lt;CooperationRoutingDTO&gt;? CooperationRoutings_Cooperation { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<a class="xref" href="SLS.Common.DTO.Dispatch.CooperationRoutingDTO.html">CooperationRoutingDTO</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Dispatch_CooperationDTO_ExpressTypes_Cooperation_" data-uid="SLS.Common.DTO.Dispatch.CooperationDTO.ExpressTypes_Cooperation*"></a>
+
+  <h3 id="SLS_Common_DTO_Dispatch_CooperationDTO_ExpressTypes_Cooperation" data-uid="SLS.Common.DTO.Dispatch.CooperationDTO.ExpressTypes_Cooperation">
+  ExpressTypes_Cooperation
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Dispatch/CooperationDTO.cs/#L213"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;CooperationCollection&quot;)]
+[JsonIgnore]
+public virtual List&lt;ExpressTypeDTO&gt;? ExpressTypes_Cooperation { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<a class="xref" href="SLS.Common.DTO.MasterData.Dispo.ExpressTypeDTO.html">ExpressTypeDTO</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Dispatch_CooperationDTO_FreightTermMapping_" data-uid="SLS.Common.DTO.Dispatch.CooperationDTO.FreightTermMapping*"></a>
+
+  <h3 id="SLS_Common_DTO_Dispatch_CooperationDTO_FreightTermMapping" data-uid="SLS.Common.DTO.Dispatch.CooperationDTO.FreightTermMapping">
+  FreightTermMapping
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Dispatch/CooperationDTO.cs/#L159"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[ForeignKey(&quot;FreightTermMappingCollection&quot;)]
+[InverseProperty(&quot;Cooperation_FreightTermMapping&quot;)]
+[JsonIgnore]
+public virtual InterfaceValueMappingDTO? FreightTermMapping { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="SLS.Common.DTO.Interfaces.InterfaceValueMappingDTO.html">InterfaceValueMappingDTO</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Dispatch_CooperationDTO_FreightTermMappingID_" data-uid="SLS.Common.DTO.Dispatch.CooperationDTO.FreightTermMappingID*"></a>
+
+  <h3 id="SLS_Common_DTO_Dispatch_CooperationDTO_FreightTermMappingID" data-uid="SLS.Common.DTO.Dispatch.CooperationDTO.FreightTermMappingID">
+  FreightTermMappingID
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Dispatch/CooperationDTO.cs/#L51"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;FreightTermMappingCollection&quot;)]
+[ForeignKey(&quot;FreightTermMappingCollection&quot;)]
+public virtual long? FreightTermMappingID { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Dispatch_CooperationDTO_GoodsOutOrder_Cooperation_" data-uid="SLS.Common.DTO.Dispatch.CooperationDTO.GoodsOutOrder_Cooperation*"></a>
+
+  <h3 id="SLS_Common_DTO_Dispatch_CooperationDTO_GoodsOutOrder_Cooperation" data-uid="SLS.Common.DTO.Dispatch.CooperationDTO.GoodsOutOrder_Cooperation">
+  GoodsOutOrder_Cooperation
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Dispatch/CooperationDTO.cs/#L198"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;CooperationCollection&quot;)]
+[JsonIgnore]
+public virtual List&lt;GoodsOutOrderDTO&gt;? GoodsOutOrder_Cooperation { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<a class="xref" href="SLS.Common.DTO.WareHouse.GoodsOutOrderDTO.html">GoodsOutOrderDTO</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Dispatch_CooperationDTO_GroupageScheduleDetails_Cooperation_" data-uid="SLS.Common.DTO.Dispatch.CooperationDTO.GroupageScheduleDetails_Cooperation*"></a>
+
+  <h3 id="SLS_Common_DTO_Dispatch_CooperationDTO_GroupageScheduleDetails_Cooperation" data-uid="SLS.Common.DTO.Dispatch.CooperationDTO.GroupageScheduleDetails_Cooperation">
+  GroupageScheduleDetails_Cooperation
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Dispatch/CooperationDTO.cs/#L208"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;Cooperation Collection&quot;)]
+[JsonIgnore]
+public virtual List&lt;GroupageScheduleDetailDTO&gt;? GroupageScheduleDetails_Cooperation { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<a class="xref" href="SLS.Common.DTO.MasterData.Dispo.GroupageScheduleDetailDTO.html">GroupageScheduleDetailDTO</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Dispatch_CooperationDTO_HandlingUnits_Cooperation_" data-uid="SLS.Common.DTO.Dispatch.CooperationDTO.HandlingUnits_Cooperation*"></a>
+
+  <h3 id="SLS_Common_DTO_Dispatch_CooperationDTO_HandlingUnits_Cooperation" data-uid="SLS.Common.DTO.Dispatch.CooperationDTO.HandlingUnits_Cooperation">
+  HandlingUnits_Cooperation
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Dispatch/CooperationDTO.cs/#L253"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;CooperationCollection&quot;)]
+[JsonIgnore]
+public virtual List&lt;HandlingUnitDTO&gt;? HandlingUnits_Cooperation { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<a class="xref" href="SLS.Common.DTO.Dispatch.HandlingUnitDTO.html">HandlingUnitDTO</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Dispatch_CooperationDTO_Id_" data-uid="SLS.Common.DTO.Dispatch.CooperationDTO.Id*"></a>
+
+  <h3 id="SLS_Common_DTO_Dispatch_CooperationDTO_Id" data-uid="SLS.Common.DTO.Dispatch.CooperationDTO.Id">
+  Id
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Dispatch/CooperationDTO.cs/#L34"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;ID&quot;)]
+public long Id { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Dispatch_CooperationDTO_Info_" data-uid="SLS.Common.DTO.Dispatch.CooperationDTO.Info*"></a>
+
+  <h3 id="SLS_Common_DTO_Dispatch_CooperationDTO_Info" data-uid="SLS.Common.DTO.Dispatch.CooperationDTO.Info">
+  Info
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Dispatch/CooperationDTO.cs/#L98"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;Info&quot;)]
+public virtual string Info { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Dispatch_CooperationDTO_InterfaceQualifier_" data-uid="SLS.Common.DTO.Dispatch.CooperationDTO.InterfaceQualifier*"></a>
+
+  <h3 id="SLS_Common_DTO_Dispatch_CooperationDTO_InterfaceQualifier" data-uid="SLS.Common.DTO.Dispatch.CooperationDTO.InterfaceQualifier">
+  InterfaceQualifier
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Dispatch/CooperationDTO.cs/#L106"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;InterfaceQualifier&quot;)]
+public virtual string? InterfaceQualifier { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Dispatch_CooperationDTO_IsParcelService_" data-uid="SLS.Common.DTO.Dispatch.CooperationDTO.IsParcelService*"></a>
+
+  <h3 id="SLS_Common_DTO_Dispatch_CooperationDTO_IsParcelService" data-uid="SLS.Common.DTO.Dispatch.CooperationDTO.IsParcelService">
+  IsParcelService
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Dispatch/CooperationDTO.cs/#L146"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;IsParcelService&quot;)]
+public virtual bool IsParcelService { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Dispatch_CooperationDTO_LabelReport_" data-uid="SLS.Common.DTO.Dispatch.CooperationDTO.LabelReport*"></a>
+
+  <h3 id="SLS_Common_DTO_Dispatch_CooperationDTO_LabelReport" data-uid="SLS.Common.DTO.Dispatch.CooperationDTO.LabelReport">
+  LabelReport
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Dispatch/CooperationDTO.cs/#L138"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;LabelReport&quot;)]
+public virtual string? LabelReport { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Dispatch_CooperationDTO_LoadingEquipmentMapping_" data-uid="SLS.Common.DTO.Dispatch.CooperationDTO.LoadingEquipmentMapping*"></a>
+
+  <h3 id="SLS_Common_DTO_Dispatch_CooperationDTO_LoadingEquipmentMapping" data-uid="SLS.Common.DTO.Dispatch.CooperationDTO.LoadingEquipmentMapping">
+  LoadingEquipmentMapping
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Dispatch/CooperationDTO.cs/#L154"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[ForeignKey(&quot;LoadingEquipmentMappingCollection&quot;)]
+[InverseProperty(&quot;Cooperation_LoadingEquipmentMapping&quot;)]
+[JsonIgnore]
+public virtual InterfaceValueMappingDTO? LoadingEquipmentMapping { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="SLS.Common.DTO.Interfaces.InterfaceValueMappingDTO.html">InterfaceValueMappingDTO</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Dispatch_CooperationDTO_LoadingEquipmentMappingID_" data-uid="SLS.Common.DTO.Dispatch.CooperationDTO.LoadingEquipmentMappingID*"></a>
+
+  <h3 id="SLS_Common_DTO_Dispatch_CooperationDTO_LoadingEquipmentMappingID" data-uid="SLS.Common.DTO.Dispatch.CooperationDTO.LoadingEquipmentMappingID">
+  LoadingEquipmentMappingID
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Dispatch/CooperationDTO.cs/#L46"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;LoadingEquipmentMappingCollection&quot;)]
+[ForeignKey(&quot;LoadingEquipmentMappingCollection&quot;)]
+public virtual long? LoadingEquipmentMappingID { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Dispatch_CooperationDTO_MinimumFreightWeight_Cooperation_" data-uid="SLS.Common.DTO.Dispatch.CooperationDTO.MinimumFreightWeight_Cooperation*"></a>
+
+  <h3 id="SLS_Common_DTO_Dispatch_CooperationDTO_MinimumFreightWeight_Cooperation" data-uid="SLS.Common.DTO.Dispatch.CooperationDTO.MinimumFreightWeight_Cooperation">
+  MinimumFreightWeight_Cooperation
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Dispatch/CooperationDTO.cs/#L203"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;CooperationCollection&quot;)]
+[JsonIgnore]
+public virtual List&lt;MinimumFreightWeightDTO&gt;? MinimumFreightWeight_Cooperation { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<a class="xref" href="SLS.Common.DTO.MasterData.MinimumFreightWeightDTO.html">MinimumFreightWeightDTO</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Dispatch_CooperationDTO_NVE_Schema_" data-uid="SLS.Common.DTO.Dispatch.CooperationDTO.NVE_Schema*"></a>
+
+  <h3 id="SLS_Common_DTO_Dispatch_CooperationDTO_NVE_Schema" data-uid="SLS.Common.DTO.Dispatch.CooperationDTO.NVE_Schema">
+  NVE_Schema
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Dispatch/CooperationDTO.cs/#L102"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;NVE_Schema&quot;)]
+public virtual string? NVE_Schema { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Dispatch_CooperationDTO_Name_" data-uid="SLS.Common.DTO.Dispatch.CooperationDTO.Name*"></a>
+
+  <h3 id="SLS_Common_DTO_Dispatch_CooperationDTO_Name" data-uid="SLS.Common.DTO.Dispatch.CooperationDTO.Name">
+  Name
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Dispatch/CooperationDTO.cs/#L90"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;Name&quot;)]
+public virtual string Name { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Dispatch_CooperationDTO_NoteKeyMapping_" data-uid="SLS.Common.DTO.Dispatch.CooperationDTO.NoteKeyMapping*"></a>
+
+  <h3 id="SLS_Common_DTO_Dispatch_CooperationDTO_NoteKeyMapping" data-uid="SLS.Common.DTO.Dispatch.CooperationDTO.NoteKeyMapping">
+  NoteKeyMapping
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Dispatch/CooperationDTO.cs/#L164"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[ForeignKey(&quot;NoteKeyMappingCollection&quot;)]
+[InverseProperty(&quot;Cooperation_NoteKeyMapping&quot;)]
+[JsonIgnore]
+public virtual InterfaceValueMappingDTO? NoteKeyMapping { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="SLS.Common.DTO.Interfaces.InterfaceValueMappingDTO.html">InterfaceValueMappingDTO</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Dispatch_CooperationDTO_NoteKeyMappingID_" data-uid="SLS.Common.DTO.Dispatch.CooperationDTO.NoteKeyMappingID*"></a>
+
+  <h3 id="SLS_Common_DTO_Dispatch_CooperationDTO_NoteKeyMappingID" data-uid="SLS.Common.DTO.Dispatch.CooperationDTO.NoteKeyMappingID">
+  NoteKeyMappingID
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Dispatch/CooperationDTO.cs/#L56"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;NoteKeyMappingCollection&quot;)]
+[ForeignKey(&quot;NoteKeyMappingCollection&quot;)]
+public virtual long? NoteKeyMappingID { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Dispatch_CooperationDTO_OrderRouting_Cooperation_" data-uid="SLS.Common.DTO.Dispatch.CooperationDTO.OrderRouting_Cooperation*"></a>
+
+  <h3 id="SLS_Common_DTO_Dispatch_CooperationDTO_OrderRouting_Cooperation" data-uid="SLS.Common.DTO.Dispatch.CooperationDTO.OrderRouting_Cooperation">
+  OrderRouting_Cooperation
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Dispatch/CooperationDTO.cs/#L243"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;CooperationCollection&quot;)]
+[JsonIgnore]
+public virtual List&lt;OrderRoutingDTO&gt;? OrderRouting_Cooperation { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<a class="xref" href="SLS.Common.DTO.Dispatch.OrderRoutingDTO.html">OrderRoutingDTO</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Dispatch_CooperationDTO_Orders_Cooperation_" data-uid="SLS.Common.DTO.Dispatch.CooperationDTO.Orders_Cooperation*"></a>
+
+  <h3 id="SLS_Common_DTO_Dispatch_CooperationDTO_Orders_Cooperation" data-uid="SLS.Common.DTO.Dispatch.CooperationDTO.Orders_Cooperation">
+  Orders_Cooperation
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Dispatch/CooperationDTO.cs/#L248"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;CooperationCollection&quot;)]
+[JsonIgnore]
+public virtual List&lt;OrderDTO&gt;? Orders_Cooperation { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<a class="xref" href="SLS.Common.DTO.Dispatch.OrderDTO.html">OrderDTO</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Dispatch_CooperationDTO_PODReportname_" data-uid="SLS.Common.DTO.Dispatch.CooperationDTO.PODReportname*"></a>
+
+  <h3 id="SLS_Common_DTO_Dispatch_CooperationDTO_PODReportname" data-uid="SLS.Common.DTO.Dispatch.CooperationDTO.PODReportname">
+  PODReportname
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Dispatch/CooperationDTO.cs/#L110"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;PODReportname&quot;)]
+public virtual string? PODReportname { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Dispatch_CooperationDTO_PriceCalcCreateVoucherItemModus_" data-uid="SLS.Common.DTO.Dispatch.CooperationDTO.PriceCalcCreateVoucherItemModus*"></a>
+
+  <h3 id="SLS_Common_DTO_Dispatch_CooperationDTO_PriceCalcCreateVoucherItemModus" data-uid="SLS.Common.DTO.Dispatch.CooperationDTO.PriceCalcCreateVoucherItemModus">
+  PriceCalcCreateVoucherItemModus
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Dispatch/CooperationDTO.cs/#L142"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;PriceCalcCreateVoucherItemModus&quot;)]
+public virtual int? PriceCalcCreateVoucherItemModus { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Dispatch_CooperationDTO_PriceCalcLicKey_" data-uid="SLS.Common.DTO.Dispatch.CooperationDTO.PriceCalcLicKey*"></a>
+
+  <h3 id="SLS_Common_DTO_Dispatch_CooperationDTO_PriceCalcLicKey" data-uid="SLS.Common.DTO.Dispatch.CooperationDTO.PriceCalcLicKey">
+  PriceCalcLicKey
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Dispatch/CooperationDTO.cs/#L134"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;PriceCalcLicKey&quot;)]
+public virtual string? PriceCalcLicKey { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Dispatch_CooperationDTO_PriceCalcPassword_" data-uid="SLS.Common.DTO.Dispatch.CooperationDTO.PriceCalcPassword*"></a>
+
+  <h3 id="SLS_Common_DTO_Dispatch_CooperationDTO_PriceCalcPassword" data-uid="SLS.Common.DTO.Dispatch.CooperationDTO.PriceCalcPassword">
+  PriceCalcPassword
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Dispatch/CooperationDTO.cs/#L130"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;PriceCalcPassword&quot;)]
+public virtual string? PriceCalcPassword { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Dispatch_CooperationDTO_PriceCalcURL_" data-uid="SLS.Common.DTO.Dispatch.CooperationDTO.PriceCalcURL*"></a>
+
+  <h3 id="SLS_Common_DTO_Dispatch_CooperationDTO_PriceCalcURL" data-uid="SLS.Common.DTO.Dispatch.CooperationDTO.PriceCalcURL">
+  PriceCalcURL
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Dispatch/CooperationDTO.cs/#L122"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;PriceCalcURL&quot;)]
+public virtual string? PriceCalcURL { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Dispatch_CooperationDTO_PriceCalcUserName_" data-uid="SLS.Common.DTO.Dispatch.CooperationDTO.PriceCalcUserName*"></a>
+
+  <h3 id="SLS_Common_DTO_Dispatch_CooperationDTO_PriceCalcUserName" data-uid="SLS.Common.DTO.Dispatch.CooperationDTO.PriceCalcUserName">
+  PriceCalcUserName
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Dispatch/CooperationDTO.cs/#L126"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;PriceCalcUserName&quot;)]
+public virtual string? PriceCalcUserName { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Dispatch_CooperationDTO_RouteProhibition_Cooperation_" data-uid="SLS.Common.DTO.Dispatch.CooperationDTO.RouteProhibition_Cooperation*"></a>
+
+  <h3 id="SLS_Common_DTO_Dispatch_CooperationDTO_RouteProhibition_Cooperation" data-uid="SLS.Common.DTO.Dispatch.CooperationDTO.RouteProhibition_Cooperation">
+  RouteProhibition_Cooperation
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Dispatch/CooperationDTO.cs/#L238"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;CooperationCollection&quot;)]
+[JsonIgnore]
+public virtual List&lt;RouteProhibitionDTO&gt;? RouteProhibition_Cooperation { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<a class="xref" href="SLS.Common.DTO.Dispatch.RouteProhibitionDTO.html">RouteProhibitionDTO</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Dispatch_CooperationDTO_RoutingInfo_" data-uid="SLS.Common.DTO.Dispatch.CooperationDTO.RoutingInfo*"></a>
+
+  <h3 id="SLS_Common_DTO_Dispatch_CooperationDTO_RoutingInfo" data-uid="SLS.Common.DTO.Dispatch.CooperationDTO.RoutingInfo">
+  RoutingInfo
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Dispatch/CooperationDTO.cs/#L114"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;RoutingInfo&quot;)]
+public virtual string? RoutingInfo { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Dispatch_CooperationDTO_RoutingOrderPositionProgram_" data-uid="SLS.Common.DTO.Dispatch.CooperationDTO.RoutingOrderPositionProgram*"></a>
+
+  <h3 id="SLS_Common_DTO_Dispatch_CooperationDTO_RoutingOrderPositionProgram" data-uid="SLS.Common.DTO.Dispatch.CooperationDTO.RoutingOrderPositionProgram">
+  RoutingOrderPositionProgram
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Dispatch/CooperationDTO.cs/#L184"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[ForeignKey(&quot;RoutingOrderPositionProgramCollection&quot;)]
+[InverseProperty(&quot;Cooperation_RoutingOrderPositionProgram&quot;)]
+[JsonIgnore]
+public virtual PLSQL_ProgramDTO? RoutingOrderPositionProgram { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="SLS.Common.DTO.Automation.PLSQL_ProgramDTO.html">PLSQL_ProgramDTO</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Dispatch_CooperationDTO_RoutingOrderPositionProgramID_" data-uid="SLS.Common.DTO.Dispatch.CooperationDTO.RoutingOrderPositionProgramID*"></a>
+
+  <h3 id="SLS_Common_DTO_Dispatch_CooperationDTO_RoutingOrderPositionProgramID" data-uid="SLS.Common.DTO.Dispatch.CooperationDTO.RoutingOrderPositionProgramID">
+  RoutingOrderPositionProgramID
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Dispatch/CooperationDTO.cs/#L76"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;RoutingOrderPositionProgramCollection&quot;)]
+[ForeignKey(&quot;RoutingOrderPositionProgramCollection&quot;)]
+public virtual long? RoutingOrderPositionProgramID { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Dispatch_CooperationDTO_RoutingPriceProgram_" data-uid="SLS.Common.DTO.Dispatch.CooperationDTO.RoutingPriceProgram*"></a>
+
+  <h3 id="SLS_Common_DTO_Dispatch_CooperationDTO_RoutingPriceProgram" data-uid="SLS.Common.DTO.Dispatch.CooperationDTO.RoutingPriceProgram">
+  RoutingPriceProgram
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Dispatch/CooperationDTO.cs/#L189"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[ForeignKey(&quot;RoutingPriceProgramCollection&quot;)]
+[InverseProperty(&quot;Cooperation_RoutingPriceProgram&quot;)]
+[JsonIgnore]
+public virtual PLSQL_ProgramDTO? RoutingPriceProgram { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="SLS.Common.DTO.Automation.PLSQL_ProgramDTO.html">PLSQL_ProgramDTO</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Dispatch_CooperationDTO_RoutingPriceProgramID_" data-uid="SLS.Common.DTO.Dispatch.CooperationDTO.RoutingPriceProgramID*"></a>
+
+  <h3 id="SLS_Common_DTO_Dispatch_CooperationDTO_RoutingPriceProgramID" data-uid="SLS.Common.DTO.Dispatch.CooperationDTO.RoutingPriceProgramID">
+  RoutingPriceProgramID
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Dispatch/CooperationDTO.cs/#L81"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;RoutingPriceProgramCollection&quot;)]
+[ForeignKey(&quot;RoutingPriceProgramCollection&quot;)]
+public virtual long? RoutingPriceProgramID { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Dispatch_CooperationDTO_RoutingTypes_Cooperation_" data-uid="SLS.Common.DTO.Dispatch.CooperationDTO.RoutingTypes_Cooperation*"></a>
+
+  <h3 id="SLS_Common_DTO_Dispatch_CooperationDTO_RoutingTypes_Cooperation" data-uid="SLS.Common.DTO.Dispatch.CooperationDTO.RoutingTypes_Cooperation">
+  RoutingTypes_Cooperation
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Dispatch/CooperationDTO.cs/#L233"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;CooperationCollection&quot;)]
+public virtual List&lt;RoutingTypeDTO&gt;? RoutingTypes_Cooperation { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<a class="xref" href="SLS.Common.DTO.Dispatch.RoutingTypeDTO.html">RoutingTypeDTO</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Dispatch_CooperationDTO_StatusMapping_" data-uid="SLS.Common.DTO.Dispatch.CooperationDTO.StatusMapping*"></a>
+
+  <h3 id="SLS_Common_DTO_Dispatch_CooperationDTO_StatusMapping" data-uid="SLS.Common.DTO.Dispatch.CooperationDTO.StatusMapping">
+  StatusMapping
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Dispatch/CooperationDTO.cs/#L169"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[ForeignKey(&quot;StatusMappingCollection&quot;)]
+[InverseProperty(&quot;Cooperation_StatusMapping&quot;)]
+[JsonIgnore]
+public virtual InterfaceValueMappingDTO? StatusMapping { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="SLS.Common.DTO.Interfaces.InterfaceValueMappingDTO.html">InterfaceValueMappingDTO</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Dispatch_CooperationDTO_StatusMappingID_" data-uid="SLS.Common.DTO.Dispatch.CooperationDTO.StatusMappingID*"></a>
+
+  <h3 id="SLS_Common_DTO_Dispatch_CooperationDTO_StatusMappingID" data-uid="SLS.Common.DTO.Dispatch.CooperationDTO.StatusMappingID">
+  StatusMappingID
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Dispatch/CooperationDTO.cs/#L61"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;StatusMappingCollection&quot;)]
+[ForeignKey(&quot;StatusMappingCollection&quot;)]
+public virtual long? StatusMappingID { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Dispatch_CooperationDTO_Version_" data-uid="SLS.Common.DTO.Dispatch.CooperationDTO.Version*"></a>
+
+  <h3 id="SLS_Common_DTO_Dispatch_CooperationDTO_Version" data-uid="SLS.Common.DTO.Dispatch.CooperationDTO.Version">
+  Version
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Dispatch/CooperationDTO.cs/#L38"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;Version&quot;)]
+public long Version { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+</article>
+
+        <div class="contribution d-print-none">
+          <a href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Dispatch/CooperationDTO.cs/#L28" class="edit-link">Edit this page</a>
+        </div>
+
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

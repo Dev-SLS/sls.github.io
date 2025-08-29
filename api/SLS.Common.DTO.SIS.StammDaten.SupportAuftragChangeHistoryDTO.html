@@ -1,0 +1,1088 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Class SupportAuftragChangeHistoryDTO | SLS Documentation </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Class SupportAuftragChangeHistoryDTO | SLS Documentation ">
+      
+      
+      <link rel="icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="../">
+      
+      
+      <meta name="docfx:docurl" content="https://github.com/Dev-SLS/dev/new/Dev/apiSpec/new?filename=SLS_Common_DTO_SIS_StammDaten_SupportAuftragChangeHistoryDTO.md&amp;value=---%0Auid%3A%20SLS.Common.DTO.SIS.StammDaten.SupportAuftragChangeHistoryDTO%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../logo.svg" alt="SLS Documentation">
+            SLS Documentation
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="SLS.Common.DTO.SIS.StammDaten.SupportAuftragChangeHistoryDTO">
+
+
+
+  <h1 id="SLS_Common_DTO_SIS_StammDaten_SupportAuftragChangeHistoryDTO" data-uid="SLS.Common.DTO.SIS.StammDaten.SupportAuftragChangeHistoryDTO" class="text-break">
+Class SupportAuftragChangeHistoryDTO  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/SIS/StammDaten/SupportAuftragChangeHistoryDTO.cs/#L30"><i class="bi bi-code-slash"></i></a>
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="SLS.html">SLS</a>.<a class="xref" href="SLS.Common.html">Common</a>.<a class="xref" href="SLS.Common.DTO.html">DTO</a>.<a class="xref" href="SLS.Common.DTO.SIS.html">SIS</a>.<a class="xref" href="SLS.Common.DTO.SIS.StammDaten.html">StammDaten</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>SLS.Common.DTO.dll</dd></dl>
+  </div>
+
+  <div class="markdown summary"></div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Serializable]
+[DataContract(IsReference = true)]
+public class SupportAuftragChangeHistoryDTO : IDTO</code></pre>
+  </div>
+
+
+
+
+  <dl class="typelist inheritance">
+    <dt>Inheritance</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+      <div><span class="xref">SupportAuftragChangeHistoryDTO</span></div>
+    </dd>
+  </dl>
+
+  <dl class="typelist implements">
+    <dt>Implements</dt>
+    <dd>
+      <div><a class="xref" href="SLS.Common.Interfaces.IDTO.html">IDTO</a></div>
+    </dd>
+  </dl>
+
+
+  <dl class="typelist inheritedMembers">
+    <dt>Inherited Members</dt>
+    <dd>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)">object.Equals(object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">object.Equals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gethashcode">object.GetHashCode()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gettype">object.GetType()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone">object.MemberwiseClone()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals">object.ReferenceEquals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.tostring">object.ToString()</a>
+    </div>
+  </dd></dl>
+
+
+
+
+
+
+  <h2 class="section" id="properties">Properties
+</h2>
+
+
+  <a id="SLS_Common_DTO_SIS_StammDaten_SupportAuftragChangeHistoryDTO_Art_" data-uid="SLS.Common.DTO.SIS.StammDaten.SupportAuftragChangeHistoryDTO.Art*"></a>
+
+  <h3 id="SLS_Common_DTO_SIS_StammDaten_SupportAuftragChangeHistoryDTO_Art" data-uid="SLS.Common.DTO.SIS.StammDaten.SupportAuftragChangeHistoryDTO.Art">
+  Art
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/SIS/StammDaten/SupportAuftragChangeHistoryDTO.cs/#L130"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;Art&quot;)]
+public virtual string? Art { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_SIS_StammDaten_SupportAuftragChangeHistoryDTO_DateTimeFrom_" data-uid="SLS.Common.DTO.SIS.StammDaten.SupportAuftragChangeHistoryDTO.DateTimeFrom*"></a>
+
+  <h3 id="SLS_Common_DTO_SIS_StammDaten_SupportAuftragChangeHistoryDTO_DateTimeFrom" data-uid="SLS.Common.DTO.SIS.StammDaten.SupportAuftragChangeHistoryDTO.DateTimeFrom">
+  DateTimeFrom
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/SIS/StammDaten/SupportAuftragChangeHistoryDTO.cs/#L74"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;DateTimeFrom&quot;)]
+public virtual DateTime? DateTimeFrom { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.datetime">DateTime</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_SIS_StammDaten_SupportAuftragChangeHistoryDTO_DateTimeTill_" data-uid="SLS.Common.DTO.SIS.StammDaten.SupportAuftragChangeHistoryDTO.DateTimeTill*"></a>
+
+  <h3 id="SLS_Common_DTO_SIS_StammDaten_SupportAuftragChangeHistoryDTO_DateTimeTill" data-uid="SLS.Common.DTO.SIS.StammDaten.SupportAuftragChangeHistoryDTO.DateTimeTill">
+  DateTimeTill
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/SIS/StammDaten/SupportAuftragChangeHistoryDTO.cs/#L78"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;DateTimeTill&quot;)]
+public virtual DateTime? DateTimeTill { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.datetime">DateTime</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_SIS_StammDaten_SupportAuftragChangeHistoryDTO_FaelligkeitAlt_" data-uid="SLS.Common.DTO.SIS.StammDaten.SupportAuftragChangeHistoryDTO.FaelligkeitAlt*"></a>
+
+  <h3 id="SLS_Common_DTO_SIS_StammDaten_SupportAuftragChangeHistoryDTO_FaelligkeitAlt" data-uid="SLS.Common.DTO.SIS.StammDaten.SupportAuftragChangeHistoryDTO.FaelligkeitAlt">
+  FaelligkeitAlt
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/SIS/StammDaten/SupportAuftragChangeHistoryDTO.cs/#L114"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;FaelligkeitAlt&quot;)]
+public virtual DateTime? FaelligkeitAlt { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.datetime">DateTime</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_SIS_StammDaten_SupportAuftragChangeHistoryDTO_FaelligkeitNeu_" data-uid="SLS.Common.DTO.SIS.StammDaten.SupportAuftragChangeHistoryDTO.FaelligkeitNeu*"></a>
+
+  <h3 id="SLS_Common_DTO_SIS_StammDaten_SupportAuftragChangeHistoryDTO_FaelligkeitNeu" data-uid="SLS.Common.DTO.SIS.StammDaten.SupportAuftragChangeHistoryDTO.FaelligkeitNeu">
+  FaelligkeitNeu
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/SIS/StammDaten/SupportAuftragChangeHistoryDTO.cs/#L118"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;FaelligkeitNeu&quot;)]
+public virtual DateTime? FaelligkeitNeu { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.datetime">DateTime</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_SIS_StammDaten_SupportAuftragChangeHistoryDTO_GesamtFaelligkeitAlt_" data-uid="SLS.Common.DTO.SIS.StammDaten.SupportAuftragChangeHistoryDTO.GesamtFaelligkeitAlt*"></a>
+
+  <h3 id="SLS_Common_DTO_SIS_StammDaten_SupportAuftragChangeHistoryDTO_GesamtFaelligkeitAlt" data-uid="SLS.Common.DTO.SIS.StammDaten.SupportAuftragChangeHistoryDTO.GesamtFaelligkeitAlt">
+  GesamtFaelligkeitAlt
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/SIS/StammDaten/SupportAuftragChangeHistoryDTO.cs/#L122"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;GesamtFaelligkeitAlt&quot;)]
+public virtual DateTime? GesamtFaelligkeitAlt { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.datetime">DateTime</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_SIS_StammDaten_SupportAuftragChangeHistoryDTO_GesamtFaelligkeitNeu_" data-uid="SLS.Common.DTO.SIS.StammDaten.SupportAuftragChangeHistoryDTO.GesamtFaelligkeitNeu*"></a>
+
+  <h3 id="SLS_Common_DTO_SIS_StammDaten_SupportAuftragChangeHistoryDTO_GesamtFaelligkeitNeu" data-uid="SLS.Common.DTO.SIS.StammDaten.SupportAuftragChangeHistoryDTO.GesamtFaelligkeitNeu">
+  GesamtFaelligkeitNeu
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/SIS/StammDaten/SupportAuftragChangeHistoryDTO.cs/#L126"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;GesamtFaelligkeitNeu&quot;)]
+public virtual DateTime? GesamtFaelligkeitNeu { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.datetime">DateTime</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_SIS_StammDaten_SupportAuftragChangeHistoryDTO_Hinweis_" data-uid="SLS.Common.DTO.SIS.StammDaten.SupportAuftragChangeHistoryDTO.Hinweis*"></a>
+
+  <h3 id="SLS_Common_DTO_SIS_StammDaten_SupportAuftragChangeHistoryDTO_Hinweis" data-uid="SLS.Common.DTO.SIS.StammDaten.SupportAuftragChangeHistoryDTO.Hinweis">
+  Hinweis
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/SIS/StammDaten/SupportAuftragChangeHistoryDTO.cs/#L82"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;Hinweis&quot;)]
+public virtual string? Hinweis { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_SIS_StammDaten_SupportAuftragChangeHistoryDTO_Id_" data-uid="SLS.Common.DTO.SIS.StammDaten.SupportAuftragChangeHistoryDTO.Id*"></a>
+
+  <h3 id="SLS_Common_DTO_SIS_StammDaten_SupportAuftragChangeHistoryDTO_Id" data-uid="SLS.Common.DTO.SIS.StammDaten.SupportAuftragChangeHistoryDTO.Id">
+  Id
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/SIS/StammDaten/SupportAuftragChangeHistoryDTO.cs/#L35"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;ID&quot;)]
+public long Id { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_SIS_StammDaten_SupportAuftragChangeHistoryDTO_LaufZeitInfo_" data-uid="SLS.Common.DTO.SIS.StammDaten.SupportAuftragChangeHistoryDTO.LaufZeitInfo*"></a>
+
+  <h3 id="SLS_Common_DTO_SIS_StammDaten_SupportAuftragChangeHistoryDTO_LaufZeitInfo" data-uid="SLS.Common.DTO.SIS.StammDaten.SupportAuftragChangeHistoryDTO.LaufZeitInfo">
+  LaufZeitInfo
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/SIS/StammDaten/SupportAuftragChangeHistoryDTO.cs/#L86"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;LaufZeitInfo&quot;)]
+public virtual string? LaufZeitInfo { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_SIS_StammDaten_SupportAuftragChangeHistoryDTO_StatusAlt_" data-uid="SLS.Common.DTO.SIS.StammDaten.SupportAuftragChangeHistoryDTO.StatusAlt*"></a>
+
+  <h3 id="SLS_Common_DTO_SIS_StammDaten_SupportAuftragChangeHistoryDTO_StatusAlt" data-uid="SLS.Common.DTO.SIS.StammDaten.SupportAuftragChangeHistoryDTO.StatusAlt">
+  StatusAlt
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/SIS/StammDaten/SupportAuftragChangeHistoryDTO.cs/#L153"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[ForeignKey(&quot;StatusAltCollection&quot;)]
+[InverseProperty(&quot;SupportAuftragChangeHistory_StatusAlt&quot;)]
+[JsonIgnore]
+public virtual SupportAuftragStatusDTO? StatusAlt { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="SLS.Common.DTO.SIS.StammDaten.SupportAuftragStatusDTO.html">SupportAuftragStatusDTO</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_SIS_StammDaten_SupportAuftragChangeHistoryDTO_StatusAltID_" data-uid="SLS.Common.DTO.SIS.StammDaten.SupportAuftragChangeHistoryDTO.StatusAltID*"></a>
+
+  <h3 id="SLS_Common_DTO_SIS_StammDaten_SupportAuftragChangeHistoryDTO_StatusAltID" data-uid="SLS.Common.DTO.SIS.StammDaten.SupportAuftragChangeHistoryDTO.StatusAltID">
+  StatusAltID
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/SIS/StammDaten/SupportAuftragChangeHistoryDTO.cs/#L61"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;StatusAltCollection&quot;)]
+[ForeignKey(&quot;StatusAltCollection&quot;)]
+public virtual long? StatusAltID { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_SIS_StammDaten_SupportAuftragChangeHistoryDTO_StatusNeu_" data-uid="SLS.Common.DTO.SIS.StammDaten.SupportAuftragChangeHistoryDTO.StatusNeu*"></a>
+
+  <h3 id="SLS_Common_DTO_SIS_StammDaten_SupportAuftragChangeHistoryDTO_StatusNeu" data-uid="SLS.Common.DTO.SIS.StammDaten.SupportAuftragChangeHistoryDTO.StatusNeu">
+  StatusNeu
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/SIS/StammDaten/SupportAuftragChangeHistoryDTO.cs/#L158"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[ForeignKey(&quot;StatusNeuCollection&quot;)]
+[InverseProperty(&quot;SupportAuftragChangeHistory_StatusNeu&quot;)]
+[JsonIgnore]
+public virtual SupportAuftragStatusDTO? StatusNeu { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="SLS.Common.DTO.SIS.StammDaten.SupportAuftragStatusDTO.html">SupportAuftragStatusDTO</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_SIS_StammDaten_SupportAuftragChangeHistoryDTO_StatusNeuID_" data-uid="SLS.Common.DTO.SIS.StammDaten.SupportAuftragChangeHistoryDTO.StatusNeuID*"></a>
+
+  <h3 id="SLS_Common_DTO_SIS_StammDaten_SupportAuftragChangeHistoryDTO_StatusNeuID" data-uid="SLS.Common.DTO.SIS.StammDaten.SupportAuftragChangeHistoryDTO.StatusNeuID">
+  StatusNeuID
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/SIS/StammDaten/SupportAuftragChangeHistoryDTO.cs/#L66"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;StatusNeuCollection&quot;)]
+[ForeignKey(&quot;StatusNeuCollection&quot;)]
+public virtual long? StatusNeuID { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_SIS_StammDaten_SupportAuftragChangeHistoryDTO_SupportAuftrag_" data-uid="SLS.Common.DTO.SIS.StammDaten.SupportAuftragChangeHistoryDTO.SupportAuftrag*"></a>
+
+  <h3 id="SLS_Common_DTO_SIS_StammDaten_SupportAuftragChangeHistoryDTO_SupportAuftrag" data-uid="SLS.Common.DTO.SIS.StammDaten.SupportAuftragChangeHistoryDTO.SupportAuftrag">
+  SupportAuftrag
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/SIS/StammDaten/SupportAuftragChangeHistoryDTO.cs/#L138"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[ForeignKey(&quot;SupportAuftragCollection&quot;)]
+[InverseProperty(&quot;SupportAuftragChangeHistory_SupportAuftrag&quot;)]
+public virtual SupportAuftragDTO? SupportAuftrag { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="SLS.Common.DTO.SIS.StammDaten.SupportAuftragDTO.html">SupportAuftragDTO</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_SIS_StammDaten_SupportAuftragChangeHistoryDTO_SupportAuftragID_" data-uid="SLS.Common.DTO.SIS.StammDaten.SupportAuftragChangeHistoryDTO.SupportAuftragID*"></a>
+
+  <h3 id="SLS_Common_DTO_SIS_StammDaten_SupportAuftragChangeHistoryDTO_SupportAuftragID" data-uid="SLS.Common.DTO.SIS.StammDaten.SupportAuftragChangeHistoryDTO.SupportAuftragID">
+  SupportAuftragID
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/SIS/StammDaten/SupportAuftragChangeHistoryDTO.cs/#L46"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;SupportAuftragCollection&quot;)]
+[ForeignKey(&quot;SupportAuftragCollection&quot;)]
+public virtual long SupportAuftragID { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_SIS_StammDaten_SupportAuftragChangeHistoryDTO_UserIDFrom_" data-uid="SLS.Common.DTO.SIS.StammDaten.SupportAuftragChangeHistoryDTO.UserIDFrom*"></a>
+
+  <h3 id="SLS_Common_DTO_SIS_StammDaten_SupportAuftragChangeHistoryDTO_UserIDFrom" data-uid="SLS.Common.DTO.SIS.StammDaten.SupportAuftragChangeHistoryDTO.UserIDFrom">
+  UserIDFrom
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/SIS/StammDaten/SupportAuftragChangeHistoryDTO.cs/#L143"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[ForeignKey(&quot;UserIDFromCollection&quot;)]
+[InverseProperty(&quot;SupportAuftragChangeHistory_UserIDFrom&quot;)]
+[JsonIgnore]
+public virtual SLSUserDTO? UserIDFrom { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="SLS.Common.DTO.UserManagement.SLSUserDTO.html">SLSUserDTO</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_SIS_StammDaten_SupportAuftragChangeHistoryDTO_UserIDFromID_" data-uid="SLS.Common.DTO.SIS.StammDaten.SupportAuftragChangeHistoryDTO.UserIDFromID*"></a>
+
+  <h3 id="SLS_Common_DTO_SIS_StammDaten_SupportAuftragChangeHistoryDTO_UserIDFromID" data-uid="SLS.Common.DTO.SIS.StammDaten.SupportAuftragChangeHistoryDTO.UserIDFromID">
+  UserIDFromID
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/SIS/StammDaten/SupportAuftragChangeHistoryDTO.cs/#L51"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;UserIDFromCollection&quot;)]
+[ForeignKey(&quot;UserIDFromCollection&quot;)]
+public virtual long UserIDFromID { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_SIS_StammDaten_SupportAuftragChangeHistoryDTO_UserIDTo_" data-uid="SLS.Common.DTO.SIS.StammDaten.SupportAuftragChangeHistoryDTO.UserIDTo*"></a>
+
+  <h3 id="SLS_Common_DTO_SIS_StammDaten_SupportAuftragChangeHistoryDTO_UserIDTo" data-uid="SLS.Common.DTO.SIS.StammDaten.SupportAuftragChangeHistoryDTO.UserIDTo">
+  UserIDTo
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/SIS/StammDaten/SupportAuftragChangeHistoryDTO.cs/#L148"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[ForeignKey(&quot;UserIDToCollection&quot;)]
+[InverseProperty(&quot;SupportAuftragChangeHistory_UserIDTo&quot;)]
+[JsonIgnore]
+public virtual SLSUserDTO? UserIDTo { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="SLS.Common.DTO.UserManagement.SLSUserDTO.html">SLSUserDTO</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_SIS_StammDaten_SupportAuftragChangeHistoryDTO_UserIDToID_" data-uid="SLS.Common.DTO.SIS.StammDaten.SupportAuftragChangeHistoryDTO.UserIDToID*"></a>
+
+  <h3 id="SLS_Common_DTO_SIS_StammDaten_SupportAuftragChangeHistoryDTO_UserIDToID" data-uid="SLS.Common.DTO.SIS.StammDaten.SupportAuftragChangeHistoryDTO.UserIDToID">
+  UserIDToID
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/SIS/StammDaten/SupportAuftragChangeHistoryDTO.cs/#L56"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;UserIDToCollection&quot;)]
+[ForeignKey(&quot;UserIDToCollection&quot;)]
+public virtual long UserIDToID { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_SIS_StammDaten_SupportAuftragChangeHistoryDTO_Version_" data-uid="SLS.Common.DTO.SIS.StammDaten.SupportAuftragChangeHistoryDTO.Version*"></a>
+
+  <h3 id="SLS_Common_DTO_SIS_StammDaten_SupportAuftragChangeHistoryDTO_Version" data-uid="SLS.Common.DTO.SIS.StammDaten.SupportAuftragChangeHistoryDTO.Version">
+  Version
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/SIS/StammDaten/SupportAuftragChangeHistoryDTO.cs/#L39"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;Version&quot;)]
+public long Version { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_SIS_StammDaten_SupportAuftragChangeHistoryDTO_WahlfeldNum_1_" data-uid="SLS.Common.DTO.SIS.StammDaten.SupportAuftragChangeHistoryDTO.WahlfeldNum_1*"></a>
+
+  <h3 id="SLS_Common_DTO_SIS_StammDaten_SupportAuftragChangeHistoryDTO_WahlfeldNum_1" data-uid="SLS.Common.DTO.SIS.StammDaten.SupportAuftragChangeHistoryDTO.WahlfeldNum_1">
+  WahlfeldNum_1
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/SIS/StammDaten/SupportAuftragChangeHistoryDTO.cs/#L102"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;WahlfeldNum_1&quot;)]
+public virtual long? WahlfeldNum_1 { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_SIS_StammDaten_SupportAuftragChangeHistoryDTO_WahlfeldNum_2_" data-uid="SLS.Common.DTO.SIS.StammDaten.SupportAuftragChangeHistoryDTO.WahlfeldNum_2*"></a>
+
+  <h3 id="SLS_Common_DTO_SIS_StammDaten_SupportAuftragChangeHistoryDTO_WahlfeldNum_2" data-uid="SLS.Common.DTO.SIS.StammDaten.SupportAuftragChangeHistoryDTO.WahlfeldNum_2">
+  WahlfeldNum_2
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/SIS/StammDaten/SupportAuftragChangeHistoryDTO.cs/#L106"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;WahlfeldNum_2&quot;)]
+public virtual long? WahlfeldNum_2 { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_SIS_StammDaten_SupportAuftragChangeHistoryDTO_WahlfeldNum_3_" data-uid="SLS.Common.DTO.SIS.StammDaten.SupportAuftragChangeHistoryDTO.WahlfeldNum_3*"></a>
+
+  <h3 id="SLS_Common_DTO_SIS_StammDaten_SupportAuftragChangeHistoryDTO_WahlfeldNum_3" data-uid="SLS.Common.DTO.SIS.StammDaten.SupportAuftragChangeHistoryDTO.WahlfeldNum_3">
+  WahlfeldNum_3
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/SIS/StammDaten/SupportAuftragChangeHistoryDTO.cs/#L110"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;WahlfeldNum_3&quot;)]
+public virtual long? WahlfeldNum_3 { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_SIS_StammDaten_SupportAuftragChangeHistoryDTO_WahlfeldText_1_" data-uid="SLS.Common.DTO.SIS.StammDaten.SupportAuftragChangeHistoryDTO.WahlfeldText_1*"></a>
+
+  <h3 id="SLS_Common_DTO_SIS_StammDaten_SupportAuftragChangeHistoryDTO_WahlfeldText_1" data-uid="SLS.Common.DTO.SIS.StammDaten.SupportAuftragChangeHistoryDTO.WahlfeldText_1">
+  WahlfeldText_1
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/SIS/StammDaten/SupportAuftragChangeHistoryDTO.cs/#L90"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;WahlfeldText_1&quot;)]
+public virtual string? WahlfeldText_1 { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_SIS_StammDaten_SupportAuftragChangeHistoryDTO_WahlfeldText_2_" data-uid="SLS.Common.DTO.SIS.StammDaten.SupportAuftragChangeHistoryDTO.WahlfeldText_2*"></a>
+
+  <h3 id="SLS_Common_DTO_SIS_StammDaten_SupportAuftragChangeHistoryDTO_WahlfeldText_2" data-uid="SLS.Common.DTO.SIS.StammDaten.SupportAuftragChangeHistoryDTO.WahlfeldText_2">
+  WahlfeldText_2
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/SIS/StammDaten/SupportAuftragChangeHistoryDTO.cs/#L94"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;WahlfeldText_2&quot;)]
+public virtual string? WahlfeldText_2 { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_SIS_StammDaten_SupportAuftragChangeHistoryDTO_WahlfeldText_3_" data-uid="SLS.Common.DTO.SIS.StammDaten.SupportAuftragChangeHistoryDTO.WahlfeldText_3*"></a>
+
+  <h3 id="SLS_Common_DTO_SIS_StammDaten_SupportAuftragChangeHistoryDTO_WahlfeldText_3" data-uid="SLS.Common.DTO.SIS.StammDaten.SupportAuftragChangeHistoryDTO.WahlfeldText_3">
+  WahlfeldText_3
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/SIS/StammDaten/SupportAuftragChangeHistoryDTO.cs/#L98"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;WahlfeldText_3&quot;)]
+public virtual string? WahlfeldText_3 { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+</article>
+
+        <div class="contribution d-print-none">
+          <a href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/SIS/StammDaten/SupportAuftragChangeHistoryDTO.cs/#L30" class="edit-link">Edit this page</a>
+        </div>
+
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

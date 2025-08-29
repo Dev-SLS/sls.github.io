@@ -1,0 +1,966 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Interface IGenericRepository&lt;TEntity&gt; | SLS Documentation </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Interface IGenericRepository&lt;TEntity&gt; | SLS Documentation ">
+      
+      <meta name="description" content="Interface for interacting with generic repositories.">
+      <link rel="icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="../">
+      
+      
+      <meta name="docfx:docurl" content="https://github.com/Dev-SLS/dev/new/Dev/apiSpec/new?filename=SLS_Common_Interfaces_IGenericRepository_1.md&amp;value=---%0Auid%3A%20SLS.Common.Interfaces.IGenericRepository%601%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../logo.svg" alt="SLS Documentation">
+            SLS Documentation
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="SLS.Common.Interfaces.IGenericRepository`1">
+
+
+
+  <h1 id="SLS_Common_Interfaces_IGenericRepository_1" data-uid="SLS.Common.Interfaces.IGenericRepository`1" class="text-break">
+Interface IGenericRepository&lt;TEntity&gt;  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/Interfaces/IGenericRepository.cs/#L12"><i class="bi bi-code-slash"></i></a>
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="SLS.html">SLS</a>.<a class="xref" href="SLS.Common.html">Common</a>.<a class="xref" href="SLS.Common.Interfaces.html">Interfaces</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>SLS.Common.Interfaces.dll</dd></dl>
+  </div>
+
+  <div class="markdown summary"><p>Interface for interacting with generic repositories.</p>
+</div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public interface IGenericRepository&lt;TEntity&gt; where TEntity : IEntityObject</code></pre>
+  </div>
+
+
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>TEntity</code></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="methods">Methods
+</h2>
+
+
+  <a id="SLS_Common_Interfaces_IGenericRepository_1_Delete_" data-uid="SLS.Common.Interfaces.IGenericRepository`1.Delete*"></a>
+
+  <h3 id="SLS_Common_Interfaces_IGenericRepository_1_Delete_System_Object_" data-uid="SLS.Common.Interfaces.IGenericRepository`1.Delete(System.Object)">
+  Delete(object)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/Interfaces/IGenericRepository.cs/#L24"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Deletes an entity by its identifier.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void Delete(object id)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>id</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></dt>
+    <dd><p>The identifier of the entity to delete.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_Interfaces_IGenericRepository_1_Delete_" data-uid="SLS.Common.Interfaces.IGenericRepository`1.Delete*"></a>
+
+  <h3 id="SLS_Common_Interfaces_IGenericRepository_1_Delete__0_" data-uid="SLS.Common.Interfaces.IGenericRepository`1.Delete(`0)">
+  Delete(TEntity)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/Interfaces/IGenericRepository.cs/#L30"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Deletes a specified entity.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void Delete(TEntity entity)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>entity</code> <span class="xref">TEntity</span></dt>
+    <dd><p>The entity to delete.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_Interfaces_IGenericRepository_1_Get_" data-uid="SLS.Common.Interfaces.IGenericRepository`1.Get*"></a>
+
+  <h3 id="SLS_Common_Interfaces_IGenericRepository_1_Get_System_Linq_Expressions_Expression_System_Func__0_System_Boolean___System_Func_System_Linq_IQueryable__0__System_Linq_IOrderedQueryable__0___System_Boolean_System_Collections_Generic_IEnumerable_System_String__" data-uid="SLS.Common.Interfaces.IGenericRepository`1.Get(System.Linq.Expressions.Expression{System.Func{`0,System.Boolean}},System.Func{System.Linq.IQueryable{`0},System.Linq.IOrderedQueryable{`0}},System.Boolean,System.Collections.Generic.IEnumerable{System.String})">
+  Get(Expression&lt;Func&lt;TEntity, bool&gt;&gt;, Func&lt;IQueryable&lt;TEntity&gt;, IOrderedQueryable&lt;TEntity&gt;&gt;, bool, IEnumerable&lt;string&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/Interfaces/IGenericRepository.cs/#L39"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Retrieves a sequence of entities that match the given filter, ordered by a specified column or columns.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">IEnumerable&lt;TEntity&gt; Get(Expression&lt;Func&lt;TEntity, bool&gt;&gt; filter = null, Func&lt;IQueryable&lt;TEntity&gt;, IOrderedQueryable&lt;TEntity&gt;&gt; orderBy = null, bool asSplitQuery = false, IEnumerable&lt;string&gt; includes = null)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>filter</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.linq.expressions.expression-1">Expression</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.func-2">Func</a>&lt;TEntity, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a>&gt;&gt;</dt>
+    <dd><p>An optional filter expression.</p>
+</dd>
+    <dt><code>orderBy</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.func-2">Func</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.linq.iqueryable-1">IQueryable</a>&lt;TEntity&gt;, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.linq.iorderedqueryable-1">IOrderedQueryable</a>&lt;TEntity&gt;&gt;</dt>
+    <dd><p>An optional ordering expression.</p>
+</dd>
+    <dt><code>asSplitQuery</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd><p>A flag indicating whether to use a split query (true) or not (false).</p>
+</dd>
+    <dt><code>includes</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>&gt;</dt>
+    <dd><p>Optional expressions to include related entities in the result.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;TEntity&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_Interfaces_IGenericRepository_1_GetByID_" data-uid="SLS.Common.Interfaces.IGenericRepository`1.GetByID*"></a>
+
+  <h3 id="SLS_Common_Interfaces_IGenericRepository_1_GetByID_System_Object_" data-uid="SLS.Common.Interfaces.IGenericRepository`1.GetByID(System.Object)">
+  GetByID(object)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/Interfaces/IGenericRepository.cs/#L82"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Retrieves a single entity by its identifier.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">TEntity GetByID(object id)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>id</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></dt>
+    <dd><p>The identifier of the entity to retrieve.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">TEntity</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_Interfaces_IGenericRepository_1_GetByID_" data-uid="SLS.Common.Interfaces.IGenericRepository`1.GetByID*"></a>
+
+  <h3 id="SLS_Common_Interfaces_IGenericRepository_1_GetByID_System_Object_System_Boolean_System_Collections_Generic_IEnumerable_System_String__" data-uid="SLS.Common.Interfaces.IGenericRepository`1.GetByID(System.Object,System.Boolean,System.Collections.Generic.IEnumerable{System.String})">
+  GetByID(object, bool, IEnumerable&lt;string&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/Interfaces/IGenericRepository.cs/#L65"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Retrieves a single entity by its identifier.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">TEntity GetByID(object id, bool asSplitQuery = false, IEnumerable&lt;string&gt; includes = null)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>id</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></dt>
+    <dd><p>The identifier of the entity to retrieve.</p>
+</dd>
+    <dt><code>asSplitQuery</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd><p>A flag indicating whether to use a split query (true) or not (false).</p>
+</dd>
+    <dt><code>includes</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>&gt;</dt>
+    <dd><p>Optional expressions to include related entities in the result.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">TEntity</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_Interfaces_IGenericRepository_1_GetByIDFromView_" data-uid="SLS.Common.Interfaces.IGenericRepository`1.GetByIDFromView*"></a>
+
+  <h3 id="SLS_Common_Interfaces_IGenericRepository_1_GetByIDFromView_System_Object_System_String_System_Boolean_System_Collections_Generic_IEnumerable_System_String__" data-uid="SLS.Common.Interfaces.IGenericRepository`1.GetByIDFromView(System.Object,System.String,System.Boolean,System.Collections.Generic.IEnumerable{System.String})">
+  GetByIDFromView(object, string, bool, IEnumerable&lt;string&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/Interfaces/IGenericRepository.cs/#L75"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Retrieves a single entity by its identifier based on the securityContext set on the Connection.
+Data is retrieved from the view rather the table itself</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">TEntity GetByIDFromView(object id, string viewPrefix = &quot;SV&quot;, bool asSplitQuery = false, IEnumerable&lt;string&gt; includes = null)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>id</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></dt>
+    <dd></dd>
+    <dt><code>viewPrefix</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>asSplitQuery</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd><p>A flag indicating whether to use a split query (true) or not (false).</p>
+</dd>
+    <dt><code>includes</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>&gt;</dt>
+    <dd><p>Optional expressions to include related entities in the result.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">TEntity</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_Interfaces_IGenericRepository_1_GetByRowID_" data-uid="SLS.Common.Interfaces.IGenericRepository`1.GetByRowID*"></a>
+
+  <h3 id="SLS_Common_Interfaces_IGenericRepository_1_GetByRowID_System_String_" data-uid="SLS.Common.Interfaces.IGenericRepository`1.GetByRowID(System.String)">
+  GetByRowID(string)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/Interfaces/IGenericRepository.cs/#L88"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Retrieves an entity by its row ID.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">TEntity GetByRowID(string rowId)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>rowId</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>The row ID of the entity to retrieve.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">TEntity</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_Interfaces_IGenericRepository_1_GetDeletedFlashbackByRowID_" data-uid="SLS.Common.Interfaces.IGenericRepository`1.GetDeletedFlashbackByRowID*"></a>
+
+  <h3 id="SLS_Common_Interfaces_IGenericRepository_1_GetDeletedFlashbackByRowID_System_String_System_DateTime_" data-uid="SLS.Common.Interfaces.IGenericRepository`1.GetDeletedFlashbackByRowID(System.String,System.DateTime)">
+  GetDeletedFlashbackByRowID(string, DateTime)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/Interfaces/IGenericRepository.cs/#L106"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Retrieves a deleted entity of type <code class="typeparamref">TEntity</code> from the database using its Oracle <code>ROWID</code> and a specified timestamp.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">TEntity GetDeletedFlashbackByRowID(string rowID, DateTime since)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>rowID</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>The Oracle <code>ROWID</code> of the entity to retrieve.</p>
+</dd>
+    <dt><code>since</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.datetime">DateTime</a></dt>
+    <dd><p>The timestamp to use for the flashback query.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">TEntity</span></dt>
+    <dd><p>The deleted entity of type <code class="typeparamref">TEntity</code> if found; otherwise, <code>null</code>.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_Interfaces_IGenericRepository_1_GetFlashbackByRowID_" data-uid="SLS.Common.Interfaces.IGenericRepository`1.GetFlashbackByRowID*"></a>
+
+  <h3 id="SLS_Common_Interfaces_IGenericRepository_1_GetFlashbackByRowID_System_String_System_DateTime_" data-uid="SLS.Common.Interfaces.IGenericRepository`1.GetFlashbackByRowID(System.String,System.DateTime)">
+  GetFlashbackByRowID(string, DateTime)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/Interfaces/IGenericRepository.cs/#L113"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Retrieves a flashbacked entity by its row ID and since time.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">TEntity GetFlashbackByRowID(string rowID, DateTime since)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>rowID</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>The row ID of the entity to retrieve.</p>
+</dd>
+    <dt><code>since</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.datetime">DateTime</a></dt>
+    <dd><p>The since time for the flashback query.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">TEntity</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_Interfaces_IGenericRepository_1_GetFlashbackByRowID_" data-uid="SLS.Common.Interfaces.IGenericRepository`1.GetFlashbackByRowID*"></a>
+
+  <h3 id="SLS_Common_Interfaces_IGenericRepository_1_GetFlashbackByRowID_System_String_System_DateTime_System_DateTime_" data-uid="SLS.Common.Interfaces.IGenericRepository`1.GetFlashbackByRowID(System.String,System.DateTime,System.DateTime)">
+  GetFlashbackByRowID(string, DateTime, DateTime)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/Interfaces/IGenericRepository.cs/#L96"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Retrieves a flashbacked entity by its row ID and time range.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">TEntity GetFlashbackByRowID(string rowID, DateTime startQuery, DateTime endQuery)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>rowID</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>The row ID of the entity to retrieve.</p>
+</dd>
+    <dt><code>startQuery</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.datetime">DateTime</a></dt>
+    <dd><p>The start time for the flashback query.</p>
+</dd>
+    <dt><code>endQuery</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.datetime">DateTime</a></dt>
+    <dd><p>The end time for the flashback query.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">TEntity</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_Interfaces_IGenericRepository_1_GetNextID_" data-uid="SLS.Common.Interfaces.IGenericRepository`1.GetNextID*"></a>
+
+  <h3 id="SLS_Common_Interfaces_IGenericRepository_1_GetNextID" data-uid="SLS.Common.Interfaces.IGenericRepository`1.GetNextID">
+  GetNextID()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/Interfaces/IGenericRepository.cs/#L18"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Retrieves the next available identifier.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Task&lt;long&gt; GetNextID()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a>&gt;</dt>
+    <dd><p>The next available identifier.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_Interfaces_IGenericRepository_1_GetQueryable_" data-uid="SLS.Common.Interfaces.IGenericRepository`1.GetQueryable*"></a>
+
+  <h3 id="SLS_Common_Interfaces_IGenericRepository_1_GetQueryable_System_Linq_Expressions_Expression_System_Func__0_System_Boolean___System_Func_System_Linq_IQueryable__0__System_Linq_IOrderedQueryable__0___System_Boolean_System_Collections_Generic_IEnumerable_System_String__" data-uid="SLS.Common.Interfaces.IGenericRepository`1.GetQueryable(System.Linq.Expressions.Expression{System.Func{`0,System.Boolean}},System.Func{System.Linq.IQueryable{`0},System.Linq.IOrderedQueryable{`0}},System.Boolean,System.Collections.Generic.IEnumerable{System.String})">
+  GetQueryable(Expression&lt;Func&lt;TEntity, bool&gt;&gt;, Func&lt;IQueryable&lt;TEntity&gt;, IOrderedQueryable&lt;TEntity&gt;&gt;, bool, IEnumerable&lt;string&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/Interfaces/IGenericRepository.cs/#L48"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Retrieves a sequence of entities that match the given filter, ordered by a specified column or columns.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">IQueryable&lt;TEntity&gt; GetQueryable(Expression&lt;Func&lt;TEntity, bool&gt;&gt; filter = null, Func&lt;IQueryable&lt;TEntity&gt;, IOrderedQueryable&lt;TEntity&gt;&gt; orderBy = null, bool asSplitQuery = false, IEnumerable&lt;string&gt; includes = null)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>filter</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.linq.expressions.expression-1">Expression</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.func-2">Func</a>&lt;TEntity, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a>&gt;&gt;</dt>
+    <dd><p>An optional filter expression.</p>
+</dd>
+    <dt><code>orderBy</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.func-2">Func</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.linq.iqueryable-1">IQueryable</a>&lt;TEntity&gt;, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.linq.iorderedqueryable-1">IOrderedQueryable</a>&lt;TEntity&gt;&gt;</dt>
+    <dd><p>An optional ordering expression.</p>
+</dd>
+    <dt><code>asSplitQuery</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd><p>A flag indicating whether to use a split query (true) or not (false).</p>
+</dd>
+    <dt><code>includes</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>&gt;</dt>
+    <dd><p>Optional expressions to include related entities in the result.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.linq.iqueryable-1">IQueryable</a>&lt;TEntity&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_Interfaces_IGenericRepository_1_GetQueryableValues_" data-uid="SLS.Common.Interfaces.IGenericRepository`1.GetQueryableValues*"></a>
+
+  <h3 id="SLS_Common_Interfaces_IGenericRepository_1_GetQueryableValues__1_System_String_System_Object___" data-uid="SLS.Common.Interfaces.IGenericRepository`1.GetQueryableValues``1(System.String,System.Object[])">
+  GetQueryableValues&lt;T&gt;(string, params object[])
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/Interfaces/IGenericRepository.cs/#L158"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Get a <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.linq.iqueryable-1">IQueryable&lt;T&gt;</a> of <code class="typeparamref">T</code> based on the <code class="paramref">sql</code></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">IQueryable&lt;IValReturn&lt;T&gt;&gt; GetQueryableValues&lt;T&gt;(string sql, params object[] parameters)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>sql</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>parameters</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a>[]</dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.linq.iqueryable-1">IQueryable</a>&lt;<a class="xref" href="SLS.Common.Interfaces.IValReturn-1.html">IValReturn</a>&lt;T&gt;&gt;</dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>T</code></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_Interfaces_IGenericRepository_1_GetSingle_" data-uid="SLS.Common.Interfaces.IGenericRepository`1.GetSingle*"></a>
+
+  <h3 id="SLS_Common_Interfaces_IGenericRepository_1_GetSingle_System_Linq_Expressions_Expression_System_Func__0_System_Boolean___System_Func_System_Linq_IQueryable__0__System_Linq_IOrderedQueryable__0___System_Boolean_System_Collections_Generic_IEnumerable_System_String__" data-uid="SLS.Common.Interfaces.IGenericRepository`1.GetSingle(System.Linq.Expressions.Expression{System.Func{`0,System.Boolean}},System.Func{System.Linq.IQueryable{`0},System.Linq.IOrderedQueryable{`0}},System.Boolean,System.Collections.Generic.IEnumerable{System.String})">
+  GetSingle(Expression&lt;Func&lt;TEntity, bool&gt;&gt;, Func&lt;IQueryable&lt;TEntity&gt;, IOrderedQueryable&lt;TEntity&gt;&gt;, bool, IEnumerable&lt;string&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/Interfaces/IGenericRepository.cs/#L57"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Retrieves a single entity that matches the given filter.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">TEntity GetSingle(Expression&lt;Func&lt;TEntity, bool&gt;&gt; filter = null, Func&lt;IQueryable&lt;TEntity&gt;, IOrderedQueryable&lt;TEntity&gt;&gt; orderBy = null, bool asSplitQuery = false, IEnumerable&lt;string&gt; includes = null)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>filter</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.linq.expressions.expression-1">Expression</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.func-2">Func</a>&lt;TEntity, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a>&gt;&gt;</dt>
+    <dd><p>An optional filter expression.</p>
+</dd>
+    <dt><code>orderBy</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.func-2">Func</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.linq.iqueryable-1">IQueryable</a>&lt;TEntity&gt;, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.linq.iorderedqueryable-1">IOrderedQueryable</a>&lt;TEntity&gt;&gt;</dt>
+    <dd><p>An optional ordering expression.</p>
+</dd>
+    <dt><code>asSplitQuery</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd><p>A flag indicating whether to use a split query (true) or not (false).</p>
+</dd>
+    <dt><code>includes</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>&gt;</dt>
+    <dd><p>Optional expressions to include related entities in the result.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">TEntity</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_Interfaces_IGenericRepository_1_GetValue_" data-uid="SLS.Common.Interfaces.IGenericRepository`1.GetValue*"></a>
+
+  <h3 id="SLS_Common_Interfaces_IGenericRepository_1_GetValue__1_System_String_System_Object___" data-uid="SLS.Common.Interfaces.IGenericRepository`1.GetValue``1(System.String,System.Object[])">
+  GetValue&lt;T&gt;(string, params object[])
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/Interfaces/IGenericRepository.cs/#L140"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Get a single value of <code class="typeparamref">T</code> based on the <code class="paramref">sql</code></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">T? GetValue&lt;T&gt;(string sql, params object[] parameters)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>sql</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>parameters</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a>[]</dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">T</span></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>T</code></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_Interfaces_IGenericRepository_1_GetValues_" data-uid="SLS.Common.Interfaces.IGenericRepository`1.GetValues*"></a>
+
+  <h3 id="SLS_Common_Interfaces_IGenericRepository_1_GetValues__1_System_String_System_Object___" data-uid="SLS.Common.Interfaces.IGenericRepository`1.GetValues``1(System.String,System.Object[])">
+  GetValues&lt;T&gt;(string, params object[])
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/Interfaces/IGenericRepository.cs/#L149"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Get a <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable&lt;T&gt;</a> of <code class="typeparamref">T</code> based on the <code class="paramref">sql</code></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">IEnumerable&lt;T&gt; GetValues&lt;T&gt;(string sql, params object[] parameters)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>sql</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>parameters</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a>[]</dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;T&gt;</dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>T</code></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_Interfaces_IGenericRepository_1_GetWithKeysetPagination_" data-uid="SLS.Common.Interfaces.IGenericRepository`1.GetWithKeysetPagination*"></a>
+
+  <h3 id="SLS_Common_Interfaces_IGenericRepository_1_GetWithKeysetPagination_SLS_Common_Interfaces_IPagedKeysetRequest_" data-uid="SLS.Common.Interfaces.IGenericRepository`1.GetWithKeysetPagination(SLS.Common.Interfaces.IPagedKeysetRequest)">
+  GetWithKeysetPagination(IPagedKeysetRequest)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/Interfaces/IGenericRepository.cs/#L119"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Retrieves a paged set of entities that match the given filter and ordering.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Task&lt;IPagedKeysetResponse&lt;TEntity&gt;&gt; GetWithKeysetPagination(IPagedKeysetRequest request)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>request</code> <a class="xref" href="SLS.Common.Interfaces.IPagedKeysetRequest.html">IPagedKeysetRequest</a></dt>
+    <dd><p>A request object containing the pagination criteria.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="SLS.Common.Interfaces.IPagedKeysetResponse-1.html">IPagedKeysetResponse</a>&lt;TEntity&gt;&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_Interfaces_IGenericRepository_1_Insert_" data-uid="SLS.Common.Interfaces.IGenericRepository`1.Insert*"></a>
+
+  <h3 id="SLS_Common_Interfaces_IGenericRepository_1_Insert__0_" data-uid="SLS.Common.Interfaces.IGenericRepository`1.Insert(`0)">
+  Insert(TEntity)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/Interfaces/IGenericRepository.cs/#L125"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Inserts a new entity into the repository.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void Insert(TEntity entity)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>entity</code> <span class="xref">TEntity</span></dt>
+    <dd><p>The entity to insert.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_Interfaces_IGenericRepository_1_Update_" data-uid="SLS.Common.Interfaces.IGenericRepository`1.Update*"></a>
+
+  <h3 id="SLS_Common_Interfaces_IGenericRepository_1_Update__0_" data-uid="SLS.Common.Interfaces.IGenericRepository`1.Update(`0)">
+  Update(TEntity)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/Interfaces/IGenericRepository.cs/#L131"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Updates an existing entity in the repository.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void Update(TEntity entity)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>entity</code> <span class="xref">TEntity</span></dt>
+    <dd><p>The entity to update.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_Interfaces_IGenericRepository_1_UpdateIgnoreNP_" data-uid="SLS.Common.Interfaces.IGenericRepository`1.UpdateIgnoreNP*"></a>
+
+  <h3 id="SLS_Common_Interfaces_IGenericRepository_1_UpdateIgnoreNP__0_" data-uid="SLS.Common.Interfaces.IGenericRepository`1.UpdateIgnoreNP(`0)">
+  UpdateIgnoreNP(TEntity)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/Interfaces/IGenericRepository.cs/#L169"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Updates the specified entity in the database while ignoring navigation properties.
+This method attaches the entity to the context if it is not already tracked, marks it as modified,
+and ensures that navigation properties are not marked as modified to avoid relationship changes.
+If the entity is already tracked, scalar properties are updated using SetValues, and navigation properties
+are handled to maintain consistency.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void UpdateIgnoreNP(TEntity entity)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>entity</code> <span class="xref">TEntity</span></dt>
+    <dd><p>The entity to update.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+  <h4 class="section">Exceptions</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.argumentnullexception">ArgumentNullException</a></dt>
+    <dd><p>Thrown if the <code class="paramref">entity</code> is null.</p>
+</dd>
+  </dl>
+
+
+
+
+</article>
+
+        <div class="contribution d-print-none">
+          <a href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/Interfaces/IGenericRepository.cs/#L12" class="edit-link">Edit this page</a>
+        </div>
+
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

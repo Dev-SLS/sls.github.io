@@ -1,0 +1,3623 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Class GefahrgutDTO | SLS Documentation </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Class GefahrgutDTO | SLS Documentation ">
+      
+      
+      <link rel="icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="../">
+      
+      
+      <meta name="docfx:docurl" content="https://github.com/Dev-SLS/dev/new/Dev/apiSpec/new?filename=SLS_Common_DTO_ADR_GefahrgutDTO.md&amp;value=---%0Auid%3A%20SLS.Common.DTO.ADR.GefahrgutDTO%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../logo.svg" alt="SLS Documentation">
+            SLS Documentation
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="SLS.Common.DTO.ADR.GefahrgutDTO">
+
+
+
+  <h1 id="SLS_Common_DTO_ADR_GefahrgutDTO" data-uid="SLS.Common.DTO.ADR.GefahrgutDTO" class="text-break">
+Class GefahrgutDTO  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/ADR/GefahrgutDTO.cs/#L28"><i class="bi bi-code-slash"></i></a>
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="SLS.html">SLS</a>.<a class="xref" href="SLS.Common.html">Common</a>.<a class="xref" href="SLS.Common.DTO.html">DTO</a>.<a class="xref" href="SLS.Common.DTO.ADR.html">ADR</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>SLS.Common.DTO.dll</dd></dl>
+  </div>
+
+  <div class="markdown summary"></div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Serializable]
+[DataContract(IsReference = true)]
+public class GefahrgutDTO : IDTO</code></pre>
+  </div>
+
+
+
+
+  <dl class="typelist inheritance">
+    <dt>Inheritance</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+      <div><span class="xref">GefahrgutDTO</span></div>
+    </dd>
+  </dl>
+
+  <dl class="typelist implements">
+    <dt>Implements</dt>
+    <dd>
+      <div><a class="xref" href="SLS.Common.Interfaces.IDTO.html">IDTO</a></div>
+    </dd>
+  </dl>
+
+
+  <dl class="typelist inheritedMembers">
+    <dt>Inherited Members</dt>
+    <dd>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)">object.Equals(object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">object.Equals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gethashcode">object.GetHashCode()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gettype">object.GetType()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone">object.MemberwiseClone()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals">object.ReferenceEquals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.tostring">object.ToString()</a>
+    </div>
+  </dd></dl>
+
+
+
+
+
+
+  <h2 class="section" id="properties">Properties
+</h2>
+
+
+  <a id="SLS_Common_DTO_ADR_GefahrgutDTO_ArticleTypes_ADRData_" data-uid="SLS.Common.DTO.ADR.GefahrgutDTO.ArticleTypes_ADRData*"></a>
+
+  <h3 id="SLS_Common_DTO_ADR_GefahrgutDTO_ArticleTypes_ADRData" data-uid="SLS.Common.DTO.ADR.GefahrgutDTO.ArticleTypes_ADRData">
+  ArticleTypes_ADRData
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/ADR/GefahrgutDTO.cs/#L454"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;ADRDataCollection&quot;)]
+[JsonIgnore]
+public virtual List&lt;ArticleTypeDTO&gt;? ArticleTypes_ADRData { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<a class="xref" href="SLS.Common.DTO.MasterData.Article.ArticleTypeDTO.html">ArticleTypeDTO</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_ADR_GefahrgutDTO_BEFOERDERUNGSKATEGORIE_" data-uid="SLS.Common.DTO.ADR.GefahrgutDTO.BEFOERDERUNGSKATEGORIE*"></a>
+
+  <h3 id="SLS_Common_DTO_ADR_GefahrgutDTO_BEFOERDERUNGSKATEGORIE" data-uid="SLS.Common.DTO.ADR.GefahrgutDTO.BEFOERDERUNGSKATEGORIE">
+  BEFOERDERUNGSKATEGORIE
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/ADR/GefahrgutDTO.cs/#L250"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;BEFOERDERUNGSKATEGORIE&quot;)]
+public virtual string? BEFOERDERUNGSKATEGORIE { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_ADR_GefahrgutDTO_BEGRENZTE_MENGEN_" data-uid="SLS.Common.DTO.ADR.GefahrgutDTO.BEGRENZTE_MENGEN*"></a>
+
+  <h3 id="SLS_Common_DTO_ADR_GefahrgutDTO_BEGRENZTE_MENGEN" data-uid="SLS.Common.DTO.ADR.GefahrgutDTO.BEGRENZTE_MENGEN">
+  BEGRENZTE_MENGEN
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/ADR/GefahrgutDTO.cs/#L126"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;BEGRENZTE_MENGEN&quot;)]
+public virtual string? BEGRENZTE_MENGEN { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_ADR_GefahrgutDTO_BEMERKUNG_" data-uid="SLS.Common.DTO.ADR.GefahrgutDTO.BEMERKUNG*"></a>
+
+  <h3 id="SLS_Common_DTO_ADR_GefahrgutDTO_BEMERKUNG" data-uid="SLS.Common.DTO.ADR.GefahrgutDTO.BEMERKUNG">
+  BEMERKUNG
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/ADR/GefahrgutDTO.cs/#L354"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;BEMERKUNG&quot;)]
+public virtual string? BEMERKUNG { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_ADR_GefahrgutDTO_BETRIEB1_" data-uid="SLS.Common.DTO.ADR.GefahrgutDTO.BETRIEB1*"></a>
+
+  <h3 id="SLS_Common_DTO_ADR_GefahrgutDTO_BETRIEB1" data-uid="SLS.Common.DTO.ADR.GefahrgutDTO.BETRIEB1">
+  BETRIEB1
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/ADR/GefahrgutDTO.cs/#L310"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;BETRIEB1&quot;)]
+public virtual string? BETRIEB1 { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_ADR_GefahrgutDTO_BETRIEB2_" data-uid="SLS.Common.DTO.ADR.GefahrgutDTO.BETRIEB2*"></a>
+
+  <h3 id="SLS_Common_DTO_ADR_GefahrgutDTO_BETRIEB2" data-uid="SLS.Common.DTO.ADR.GefahrgutDTO.BETRIEB2">
+  BETRIEB2
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/ADR/GefahrgutDTO.cs/#L314"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;BETRIEB2&quot;)]
+public virtual string? BETRIEB2 { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_ADR_GefahrgutDTO_BETRIEB3_" data-uid="SLS.Common.DTO.ADR.GefahrgutDTO.BETRIEB3*"></a>
+
+  <h3 id="SLS_Common_DTO_ADR_GefahrgutDTO_BETRIEB3" data-uid="SLS.Common.DTO.ADR.GefahrgutDTO.BETRIEB3">
+  BETRIEB3
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/ADR/GefahrgutDTO.cs/#L318"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;BETRIEB3&quot;)]
+public virtual string? BETRIEB3 { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_ADR_GefahrgutDTO_BETRIEB4_" data-uid="SLS.Common.DTO.ADR.GefahrgutDTO.BETRIEB4*"></a>
+
+  <h3 id="SLS_Common_DTO_ADR_GefahrgutDTO_BETRIEB4" data-uid="SLS.Common.DTO.ADR.GefahrgutDTO.BETRIEB4">
+  BETRIEB4
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/ADR/GefahrgutDTO.cs/#L322"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;BETRIEB4&quot;)]
+public virtual string? BETRIEB4 { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_ADR_GefahrgutDTO_DataProvider_" data-uid="SLS.Common.DTO.ADR.GefahrgutDTO.DataProvider*"></a>
+
+  <h3 id="SLS_Common_DTO_ADR_GefahrgutDTO_DataProvider" data-uid="SLS.Common.DTO.ADR.GefahrgutDTO.DataProvider">
+  DataProvider
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/ADR/GefahrgutDTO.cs/#L406"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;DataProvider&quot;)]
+public virtual string? DataProvider { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_ADR_GefahrgutDTO_ERGAENZ_TECH_" data-uid="SLS.Common.DTO.ADR.GefahrgutDTO.ERGAENZ_TECH*"></a>
+
+  <h3 id="SLS_Common_DTO_ADR_GefahrgutDTO_ERGAENZ_TECH" data-uid="SLS.Common.DTO.ADR.GefahrgutDTO.ERGAENZ_TECH">
+  ERGAENZ_TECH
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/ADR/GefahrgutDTO.cs/#L362"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;ERGAENZ_TECH&quot;)]
+public virtual bool? ERGAENZ_TECH { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_ADR_GefahrgutDTO_FREIGEST_MENGEN_" data-uid="SLS.Common.DTO.ADR.GefahrgutDTO.FREIGEST_MENGEN*"></a>
+
+  <h3 id="SLS_Common_DTO_ADR_GefahrgutDTO_FREIGEST_MENGEN" data-uid="SLS.Common.DTO.ADR.GefahrgutDTO.FREIGEST_MENGEN">
+  FREIGEST_MENGEN
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/ADR/GefahrgutDTO.cs/#L130"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;FREIGEST_MENGEN&quot;)]
+public virtual string? FREIGEST_MENGEN { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_ADR_GefahrgutDTO_GEFAHRNR_" data-uid="SLS.Common.DTO.ADR.GefahrgutDTO.GEFAHRNR*"></a>
+
+  <h3 id="SLS_Common_DTO_ADR_GefahrgutDTO_GEFAHRNR" data-uid="SLS.Common.DTO.ADR.GefahrgutDTO.GEFAHRNR">
+  GEFAHRNR
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/ADR/GefahrgutDTO.cs/#L326"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;GEFAHRNR&quot;)]
+public virtual string? GEFAHRNR { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_ADR_GefahrgutDTO_Id_" data-uid="SLS.Common.DTO.ADR.GefahrgutDTO.Id*"></a>
+
+  <h3 id="SLS_Common_DTO_ADR_GefahrgutDTO_Id" data-uid="SLS.Common.DTO.ADR.GefahrgutDTO.Id">
+  Id
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/ADR/GefahrgutDTO.cs/#L34"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;ID&quot;)]
+public long Id { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_ADR_GefahrgutDTO_KENN1_" data-uid="SLS.Common.DTO.ADR.GefahrgutDTO.KENN1*"></a>
+
+  <h3 id="SLS_Common_DTO_ADR_GefahrgutDTO_KENN1" data-uid="SLS.Common.DTO.ADR.GefahrgutDTO.KENN1">
+  KENN1
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/ADR/GefahrgutDTO.cs/#L82"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;KENN1&quot;)]
+public virtual string? KENN1 { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_ADR_GefahrgutDTO_KENN2_" data-uid="SLS.Common.DTO.ADR.GefahrgutDTO.KENN2*"></a>
+
+  <h3 id="SLS_Common_DTO_ADR_GefahrgutDTO_KENN2" data-uid="SLS.Common.DTO.ADR.GefahrgutDTO.KENN2">
+  KENN2
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/ADR/GefahrgutDTO.cs/#L86"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;KENN2&quot;)]
+public virtual string? KENN2 { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_ADR_GefahrgutDTO_KENN3_" data-uid="SLS.Common.DTO.ADR.GefahrgutDTO.KENN3*"></a>
+
+  <h3 id="SLS_Common_DTO_ADR_GefahrgutDTO_KENN3" data-uid="SLS.Common.DTO.ADR.GefahrgutDTO.KENN3">
+  KENN3
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/ADR/GefahrgutDTO.cs/#L90"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;KENN3&quot;)]
+public virtual string? KENN3 { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_ADR_GefahrgutDTO_KENN4_" data-uid="SLS.Common.DTO.ADR.GefahrgutDTO.KENN4*"></a>
+
+  <h3 id="SLS_Common_DTO_ADR_GefahrgutDTO_KENN4" data-uid="SLS.Common.DTO.ADR.GefahrgutDTO.KENN4">
+  KENN4
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/ADR/GefahrgutDTO.cs/#L94"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;KENN4&quot;)]
+public virtual string? KENN4 { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_ADR_GefahrgutDTO_KENNZ_N_" data-uid="SLS.Common.DTO.ADR.GefahrgutDTO.KENNZ_N*"></a>
+
+  <h3 id="SLS_Common_DTO_ADR_GefahrgutDTO_KENNZ_N" data-uid="SLS.Common.DTO.ADR.GefahrgutDTO.KENNZ_N">
+  KENNZ_N
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/ADR/GefahrgutDTO.cs/#L402"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;KENNZ_N&quot;)]
+public virtual string? KENNZ_N { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_ADR_GefahrgutDTO_KLASSE_" data-uid="SLS.Common.DTO.ADR.GefahrgutDTO.KLASSE*"></a>
+
+  <h3 id="SLS_Common_DTO_ADR_GefahrgutDTO_KLASSE" data-uid="SLS.Common.DTO.ADR.GefahrgutDTO.KLASSE">
+  KLASSE
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/ADR/GefahrgutDTO.cs/#L70"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;KLASSE&quot;)]
+public virtual string KLASSE { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_ADR_GefahrgutDTO_KLASSIFIZIERUNGSCODE_" data-uid="SLS.Common.DTO.ADR.GefahrgutDTO.KLASSIFIZIERUNGSCODE*"></a>
+
+  <h3 id="SLS_Common_DTO_ADR_GefahrgutDTO_KLASSIFIZIERUNGSCODE" data-uid="SLS.Common.DTO.ADR.GefahrgutDTO.KLASSIFIZIERUNGSCODE">
+  KLASSIFIZIERUNGSCODE
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/ADR/GefahrgutDTO.cs/#L74"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;KLASSIFIZIERUNGSCODE&quot;)]
+public virtual string? KLASSIFIZIERUNGSCODE { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_ADR_GefahrgutDTO_LFDNR_" data-uid="SLS.Common.DTO.ADR.GefahrgutDTO.LFDNR*"></a>
+
+  <h3 id="SLS_Common_DTO_ADR_GefahrgutDTO_LFDNR" data-uid="SLS.Common.DTO.ADR.GefahrgutDTO.LFDNR">
+  LFDNR
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/ADR/GefahrgutDTO.cs/#L54"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;LFDNR&quot;)]
+public virtual int LFDNR { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_ADR_GefahrgutDTO_MENGE_SICHERUNG_LS_" data-uid="SLS.Common.DTO.ADR.GefahrgutDTO.MENGE_SICHERUNG_LS*"></a>
+
+  <h3 id="SLS_Common_DTO_ADR_GefahrgutDTO_MENGE_SICHERUNG_LS" data-uid="SLS.Common.DTO.ADR.GefahrgutDTO.MENGE_SICHERUNG_LS">
+  MENGE_SICHERUNG_LS
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/ADR/GefahrgutDTO.cs/#L382"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;MENGE_SICHERUNG_LS&quot;)]
+public virtual string? MENGE_SICHERUNG_LS { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_ADR_GefahrgutDTO_MENGE_SICHERUNG_TANK_" data-uid="SLS.Common.DTO.ADR.GefahrgutDTO.MENGE_SICHERUNG_TANK*"></a>
+
+  <h3 id="SLS_Common_DTO_ADR_GefahrgutDTO_MENGE_SICHERUNG_TANK" data-uid="SLS.Common.DTO.ADR.GefahrgutDTO.MENGE_SICHERUNG_TANK">
+  MENGE_SICHERUNG_TANK
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/ADR/GefahrgutDTO.cs/#L378"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;MENGE_SICHERUNG_TANK&quot;)]
+public virtual string? MENGE_SICHERUNG_TANK { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_ADR_GefahrgutDTO_MENGE_SICHERUNG_VP_" data-uid="SLS.Common.DTO.ADR.GefahrgutDTO.MENGE_SICHERUNG_VP*"></a>
+
+  <h3 id="SLS_Common_DTO_ADR_GefahrgutDTO_MENGE_SICHERUNG_VP" data-uid="SLS.Common.DTO.ADR.GefahrgutDTO.MENGE_SICHERUNG_VP">
+  MENGE_SICHERUNG_VP
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/ADR/GefahrgutDTO.cs/#L386"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;MENGE_SICHERUNG_VP&quot;)]
+public virtual string? MENGE_SICHERUNG_VP { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_ADR_GefahrgutDTO_MULTIPLIKATOR_" data-uid="SLS.Common.DTO.ADR.GefahrgutDTO.MULTIPLIKATOR*"></a>
+
+  <h3 id="SLS_Common_DTO_ADR_GefahrgutDTO_MULTIPLIKATOR" data-uid="SLS.Common.DTO.ADR.GefahrgutDTO.MULTIPLIKATOR">
+  MULTIPLIKATOR
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/ADR/GefahrgutDTO.cs/#L358"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;MULTIPLIKATOR&quot;)]
+public virtual int? MULTIPLIKATOR { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_ADR_GefahrgutDTO_Masseinheit_" data-uid="SLS.Common.DTO.ADR.GefahrgutDTO.Masseinheit*"></a>
+
+  <h3 id="SLS_Common_DTO_ADR_GefahrgutDTO_Masseinheit" data-uid="SLS.Common.DTO.ADR.GefahrgutDTO.Masseinheit">
+  Masseinheit
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/ADR/GefahrgutDTO.cs/#L438"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;Masseinheit&quot;)]
+public virtual string? Masseinheit { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_ADR_GefahrgutDTO_NAME_" data-uid="SLS.Common.DTO.ADR.GefahrgutDTO.NAME*"></a>
+
+  <h3 id="SLS_Common_DTO_ADR_GefahrgutDTO_NAME" data-uid="SLS.Common.DTO.ADR.GefahrgutDTO.NAME">
+  NAME
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/ADR/GefahrgutDTO.cs/#L62"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;NAME&quot;)]
+public virtual string? NAME { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_ADR_GefahrgutDTO_NAME_E_" data-uid="SLS.Common.DTO.ADR.GefahrgutDTO.NAME_E*"></a>
+
+  <h3 id="SLS_Common_DTO_ADR_GefahrgutDTO_NAME_E" data-uid="SLS.Common.DTO.ADR.GefahrgutDTO.NAME_E">
+  NAME_E
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/ADR/GefahrgutDTO.cs/#L334"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;NAME_E&quot;)]
+public virtual string? NAME_E { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_ADR_GefahrgutDTO_NAME_FR_" data-uid="SLS.Common.DTO.ADR.GefahrgutDTO.NAME_FR*"></a>
+
+  <h3 id="SLS_Common_DTO_ADR_GefahrgutDTO_NAME_FR" data-uid="SLS.Common.DTO.ADR.GefahrgutDTO.NAME_FR">
+  NAME_FR
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/ADR/GefahrgutDTO.cs/#L346"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;NAME_FR&quot;)]
+public virtual string? NAME_FR { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_ADR_GefahrgutDTO_OrderDangerousGoodInfo_DangerousGood_" data-uid="SLS.Common.DTO.ADR.GefahrgutDTO.OrderDangerousGoodInfo_DangerousGood*"></a>
+
+  <h3 id="SLS_Common_DTO_ADR_GefahrgutDTO_OrderDangerousGoodInfo_DangerousGood" data-uid="SLS.Common.DTO.ADR.GefahrgutDTO.OrderDangerousGoodInfo_DangerousGood">
+  OrderDangerousGoodInfo_DangerousGood
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/ADR/GefahrgutDTO.cs/#L464"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;DangerousGoodCollection&quot;)]
+[JsonIgnore]
+public virtual List&lt;OrderDangerousGoodInfoDTO&gt;? OrderDangerousGoodInfo_DangerousGood { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<a class="xref" href="SLS.Common.DTO.Dispatch.OrderDangerousGoodInfoDTO.html">OrderDangerousGoodInfoDTO</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_ADR_GefahrgutDTO_RouteProhibition_DangerousGoods_" data-uid="SLS.Common.DTO.ADR.GefahrgutDTO.RouteProhibition_DangerousGoods*"></a>
+
+  <h3 id="SLS_Common_DTO_ADR_GefahrgutDTO_RouteProhibition_DangerousGoods" data-uid="SLS.Common.DTO.ADR.GefahrgutDTO.RouteProhibition_DangerousGoods">
+  RouteProhibition_DangerousGoods
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/ADR/GefahrgutDTO.cs/#L459"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;DangerousGoodsCollection&quot;)]
+[JsonIgnore]
+public virtual List&lt;RouteProhibitionDTO&gt;? RouteProhibition_DangerousGoods { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<a class="xref" href="SLS.Common.DTO.Dispatch.RouteProhibitionDTO.html">RouteProhibitionDTO</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_ADR_GefahrgutDTO_SICHERUNG_" data-uid="SLS.Common.DTO.ADR.GefahrgutDTO.SICHERUNG*"></a>
+
+  <h3 id="SLS_Common_DTO_ADR_GefahrgutDTO_SICHERUNG" data-uid="SLS.Common.DTO.ADR.GefahrgutDTO.SICHERUNG">
+  SICHERUNG
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/ADR/GefahrgutDTO.cs/#L374"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;SICHERUNG&quot;)]
+public virtual int SICHERUNG { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_ADR_GefahrgutDTO_SPEZIFIKATION_" data-uid="SLS.Common.DTO.ADR.GefahrgutDTO.SPEZIFIKATION*"></a>
+
+  <h3 id="SLS_Common_DTO_ADR_GefahrgutDTO_SPEZIFIKATION" data-uid="SLS.Common.DTO.ADR.GefahrgutDTO.SPEZIFIKATION">
+  SPEZIFIKATION
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/ADR/GefahrgutDTO.cs/#L66"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;SPEZIFIKATION&quot;)]
+public virtual string? SPEZIFIKATION { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_ADR_GefahrgutDTO_SPEZIFIKATION_E_" data-uid="SLS.Common.DTO.ADR.GefahrgutDTO.SPEZIFIKATION_E*"></a>
+
+  <h3 id="SLS_Common_DTO_ADR_GefahrgutDTO_SPEZIFIKATION_E" data-uid="SLS.Common.DTO.ADR.GefahrgutDTO.SPEZIFIKATION_E">
+  SPEZIFIKATION_E
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/ADR/GefahrgutDTO.cs/#L338"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;SPEZIFIKATION_E&quot;)]
+public virtual string? SPEZIFIKATION_E { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_ADR_GefahrgutDTO_SPEZIFIKATION_FR_" data-uid="SLS.Common.DTO.ADR.GefahrgutDTO.SPEZIFIKATION_FR*"></a>
+
+  <h3 id="SLS_Common_DTO_ADR_GefahrgutDTO_SPEZIFIKATION_FR" data-uid="SLS.Common.DTO.ADR.GefahrgutDTO.SPEZIFIKATION_FR">
+  SPEZIFIKATION_FR
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/ADR/GefahrgutDTO.cs/#L350"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;SPEZIFIKATION_FR&quot;)]
+public virtual string? SPEZIFIKATION_FR { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_ADR_GefahrgutDTO_SV1_" data-uid="SLS.Common.DTO.ADR.GefahrgutDTO.SV1*"></a>
+
+  <h3 id="SLS_Common_DTO_ADR_GefahrgutDTO_SV1" data-uid="SLS.Common.DTO.ADR.GefahrgutDTO.SV1">
+  SV1
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/ADR/GefahrgutDTO.cs/#L98"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;SV1&quot;)]
+public virtual string? SV1 { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_ADR_GefahrgutDTO_SV10_" data-uid="SLS.Common.DTO.ADR.GefahrgutDTO.SV10*"></a>
+
+  <h3 id="SLS_Common_DTO_ADR_GefahrgutDTO_SV10" data-uid="SLS.Common.DTO.ADR.GefahrgutDTO.SV10">
+  SV10
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/ADR/GefahrgutDTO.cs/#L418"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;SV10&quot;)]
+public virtual string? SV10 { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_ADR_GefahrgutDTO_SV11_" data-uid="SLS.Common.DTO.ADR.GefahrgutDTO.SV11*"></a>
+
+  <h3 id="SLS_Common_DTO_ADR_GefahrgutDTO_SV11" data-uid="SLS.Common.DTO.ADR.GefahrgutDTO.SV11">
+  SV11
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/ADR/GefahrgutDTO.cs/#L442"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;SV11&quot;)]
+public virtual string? SV11 { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_ADR_GefahrgutDTO_SV2_" data-uid="SLS.Common.DTO.ADR.GefahrgutDTO.SV2*"></a>
+
+  <h3 id="SLS_Common_DTO_ADR_GefahrgutDTO_SV2" data-uid="SLS.Common.DTO.ADR.GefahrgutDTO.SV2">
+  SV2
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/ADR/GefahrgutDTO.cs/#L102"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;SV2&quot;)]
+public virtual string? SV2 { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_ADR_GefahrgutDTO_SV3_" data-uid="SLS.Common.DTO.ADR.GefahrgutDTO.SV3*"></a>
+
+  <h3 id="SLS_Common_DTO_ADR_GefahrgutDTO_SV3" data-uid="SLS.Common.DTO.ADR.GefahrgutDTO.SV3">
+  SV3
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/ADR/GefahrgutDTO.cs/#L106"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;SV3&quot;)]
+public virtual string? SV3 { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_ADR_GefahrgutDTO_SV4_" data-uid="SLS.Common.DTO.ADR.GefahrgutDTO.SV4*"></a>
+
+  <h3 id="SLS_Common_DTO_ADR_GefahrgutDTO_SV4" data-uid="SLS.Common.DTO.ADR.GefahrgutDTO.SV4">
+  SV4
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/ADR/GefahrgutDTO.cs/#L110"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;SV4&quot;)]
+public virtual string? SV4 { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_ADR_GefahrgutDTO_SV5_" data-uid="SLS.Common.DTO.ADR.GefahrgutDTO.SV5*"></a>
+
+  <h3 id="SLS_Common_DTO_ADR_GefahrgutDTO_SV5" data-uid="SLS.Common.DTO.ADR.GefahrgutDTO.SV5">
+  SV5
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/ADR/GefahrgutDTO.cs/#L114"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;SV5&quot;)]
+public virtual string? SV5 { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_ADR_GefahrgutDTO_SV6_" data-uid="SLS.Common.DTO.ADR.GefahrgutDTO.SV6*"></a>
+
+  <h3 id="SLS_Common_DTO_ADR_GefahrgutDTO_SV6" data-uid="SLS.Common.DTO.ADR.GefahrgutDTO.SV6">
+  SV6
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/ADR/GefahrgutDTO.cs/#L118"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;SV6&quot;)]
+public virtual string? SV6 { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_ADR_GefahrgutDTO_SV7_" data-uid="SLS.Common.DTO.ADR.GefahrgutDTO.SV7*"></a>
+
+  <h3 id="SLS_Common_DTO_ADR_GefahrgutDTO_SV7" data-uid="SLS.Common.DTO.ADR.GefahrgutDTO.SV7">
+  SV7
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/ADR/GefahrgutDTO.cs/#L122"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;SV7&quot;)]
+public virtual string? SV7 { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_ADR_GefahrgutDTO_SV8_" data-uid="SLS.Common.DTO.ADR.GefahrgutDTO.SV8*"></a>
+
+  <h3 id="SLS_Common_DTO_ADR_GefahrgutDTO_SV8" data-uid="SLS.Common.DTO.ADR.GefahrgutDTO.SV8">
+  SV8
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/ADR/GefahrgutDTO.cs/#L390"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;SV8&quot;)]
+public virtual string? SV8 { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_ADR_GefahrgutDTO_SV9_" data-uid="SLS.Common.DTO.ADR.GefahrgutDTO.SV9*"></a>
+
+  <h3 id="SLS_Common_DTO_ADR_GefahrgutDTO_SV9" data-uid="SLS.Common.DTO.ADR.GefahrgutDTO.SV9">
+  SV9
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/ADR/GefahrgutDTO.cs/#L414"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;SV9&quot;)]
+public virtual string? SV9 { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_ADR_GefahrgutDTO_SV_HANDHABUNG1_" data-uid="SLS.Common.DTO.ADR.GefahrgutDTO.SV_HANDHABUNG1*"></a>
+
+  <h3 id="SLS_Common_DTO_ADR_GefahrgutDTO_SV_HANDHABUNG1" data-uid="SLS.Common.DTO.ADR.GefahrgutDTO.SV_HANDHABUNG1">
+  SV_HANDHABUNG1
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/ADR/GefahrgutDTO.cs/#L290"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;SV_HANDHABUNG1&quot;)]
+public virtual string? SV_HANDHABUNG1 { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_ADR_GefahrgutDTO_SV_HANDHABUNG2_" data-uid="SLS.Common.DTO.ADR.GefahrgutDTO.SV_HANDHABUNG2*"></a>
+
+  <h3 id="SLS_Common_DTO_ADR_GefahrgutDTO_SV_HANDHABUNG2" data-uid="SLS.Common.DTO.ADR.GefahrgutDTO.SV_HANDHABUNG2">
+  SV_HANDHABUNG2
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/ADR/GefahrgutDTO.cs/#L294"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;SV_HANDHABUNG2&quot;)]
+public virtual string? SV_HANDHABUNG2 { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_ADR_GefahrgutDTO_SV_HANDHABUNG3_" data-uid="SLS.Common.DTO.ADR.GefahrgutDTO.SV_HANDHABUNG3*"></a>
+
+  <h3 id="SLS_Common_DTO_ADR_GefahrgutDTO_SV_HANDHABUNG3" data-uid="SLS.Common.DTO.ADR.GefahrgutDTO.SV_HANDHABUNG3">
+  SV_HANDHABUNG3
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/ADR/GefahrgutDTO.cs/#L298"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;SV_HANDHABUNG3&quot;)]
+public virtual string? SV_HANDHABUNG3 { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_ADR_GefahrgutDTO_SV_HANDHABUNG4_" data-uid="SLS.Common.DTO.ADR.GefahrgutDTO.SV_HANDHABUNG4*"></a>
+
+  <h3 id="SLS_Common_DTO_ADR_GefahrgutDTO_SV_HANDHABUNG4" data-uid="SLS.Common.DTO.ADR.GefahrgutDTO.SV_HANDHABUNG4">
+  SV_HANDHABUNG4
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/ADR/GefahrgutDTO.cs/#L302"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;SV_HANDHABUNG4&quot;)]
+public virtual string? SV_HANDHABUNG4 { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_ADR_GefahrgutDTO_SV_HANDHABUNG5_" data-uid="SLS.Common.DTO.ADR.GefahrgutDTO.SV_HANDHABUNG5*"></a>
+
+  <h3 id="SLS_Common_DTO_ADR_GefahrgutDTO_SV_HANDHABUNG5" data-uid="SLS.Common.DTO.ADR.GefahrgutDTO.SV_HANDHABUNG5">
+  SV_HANDHABUNG5
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/ADR/GefahrgutDTO.cs/#L306"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;SV_HANDHABUNG5&quot;)]
+public virtual string? SV_HANDHABUNG5 { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_ADR_GefahrgutDTO_SV_LOSE_SCHUETTUNG1_" data-uid="SLS.Common.DTO.ADR.GefahrgutDTO.SV_LOSE_SCHUETTUNG1*"></a>
+
+  <h3 id="SLS_Common_DTO_ADR_GefahrgutDTO_SV_LOSE_SCHUETTUNG1" data-uid="SLS.Common.DTO.ADR.GefahrgutDTO.SV_LOSE_SCHUETTUNG1">
+  SV_LOSE_SCHUETTUNG1
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/ADR/GefahrgutDTO.cs/#L270"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;SV_LOSE_SCHUETTUNG1&quot;)]
+public virtual string? SV_LOSE_SCHUETTUNG1 { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_ADR_GefahrgutDTO_SV_LOSE_SCHUETTUNG2_" data-uid="SLS.Common.DTO.ADR.GefahrgutDTO.SV_LOSE_SCHUETTUNG2*"></a>
+
+  <h3 id="SLS_Common_DTO_ADR_GefahrgutDTO_SV_LOSE_SCHUETTUNG2" data-uid="SLS.Common.DTO.ADR.GefahrgutDTO.SV_LOSE_SCHUETTUNG2">
+  SV_LOSE_SCHUETTUNG2
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/ADR/GefahrgutDTO.cs/#L274"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;SV_LOSE_SCHUETTUNG2&quot;)]
+public virtual string? SV_LOSE_SCHUETTUNG2 { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_ADR_GefahrgutDTO_SV_LOSE_SCHUETTUNG3_" data-uid="SLS.Common.DTO.ADR.GefahrgutDTO.SV_LOSE_SCHUETTUNG3*"></a>
+
+  <h3 id="SLS_Common_DTO_ADR_GefahrgutDTO_SV_LOSE_SCHUETTUNG3" data-uid="SLS.Common.DTO.ADR.GefahrgutDTO.SV_LOSE_SCHUETTUNG3">
+  SV_LOSE_SCHUETTUNG3
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/ADR/GefahrgutDTO.cs/#L278"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;SV_LOSE_SCHUETTUNG3&quot;)]
+public virtual string? SV_LOSE_SCHUETTUNG3 { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_ADR_GefahrgutDTO_SV_LOSE_SCHUETTUNG4_" data-uid="SLS.Common.DTO.ADR.GefahrgutDTO.SV_LOSE_SCHUETTUNG4*"></a>
+
+  <h3 id="SLS_Common_DTO_ADR_GefahrgutDTO_SV_LOSE_SCHUETTUNG4" data-uid="SLS.Common.DTO.ADR.GefahrgutDTO.SV_LOSE_SCHUETTUNG4">
+  SV_LOSE_SCHUETTUNG4
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/ADR/GefahrgutDTO.cs/#L282"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;SV_LOSE_SCHUETTUNG4&quot;)]
+public virtual string? SV_LOSE_SCHUETTUNG4 { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_ADR_GefahrgutDTO_SV_LOSE_SCHUETTUNG5_" data-uid="SLS.Common.DTO.ADR.GefahrgutDTO.SV_LOSE_SCHUETTUNG5*"></a>
+
+  <h3 id="SLS_Common_DTO_ADR_GefahrgutDTO_SV_LOSE_SCHUETTUNG5" data-uid="SLS.Common.DTO.ADR.GefahrgutDTO.SV_LOSE_SCHUETTUNG5">
+  SV_LOSE_SCHUETTUNG5
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/ADR/GefahrgutDTO.cs/#L286"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;SV_LOSE_SCHUETTUNG5&quot;)]
+public virtual string? SV_LOSE_SCHUETTUNG5 { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_ADR_GefahrgutDTO_SV_TANK1_" data-uid="SLS.Common.DTO.ADR.GefahrgutDTO.SV_TANK1*"></a>
+
+  <h3 id="SLS_Common_DTO_ADR_GefahrgutDTO_SV_TANK1" data-uid="SLS.Common.DTO.ADR.GefahrgutDTO.SV_TANK1">
+  SV_TANK1
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/ADR/GefahrgutDTO.cs/#L218"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;SV_TANK1&quot;)]
+public virtual string? SV_TANK1 { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_ADR_GefahrgutDTO_SV_TANK2_" data-uid="SLS.Common.DTO.ADR.GefahrgutDTO.SV_TANK2*"></a>
+
+  <h3 id="SLS_Common_DTO_ADR_GefahrgutDTO_SV_TANK2" data-uid="SLS.Common.DTO.ADR.GefahrgutDTO.SV_TANK2">
+  SV_TANK2
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/ADR/GefahrgutDTO.cs/#L222"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;SV_TANK2&quot;)]
+public virtual string? SV_TANK2 { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_ADR_GefahrgutDTO_SV_TANK3_" data-uid="SLS.Common.DTO.ADR.GefahrgutDTO.SV_TANK3*"></a>
+
+  <h3 id="SLS_Common_DTO_ADR_GefahrgutDTO_SV_TANK3" data-uid="SLS.Common.DTO.ADR.GefahrgutDTO.SV_TANK3">
+  SV_TANK3
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/ADR/GefahrgutDTO.cs/#L226"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;SV_TANK3&quot;)]
+public virtual string? SV_TANK3 { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_ADR_GefahrgutDTO_SV_TANK4_" data-uid="SLS.Common.DTO.ADR.GefahrgutDTO.SV_TANK4*"></a>
+
+  <h3 id="SLS_Common_DTO_ADR_GefahrgutDTO_SV_TANK4" data-uid="SLS.Common.DTO.ADR.GefahrgutDTO.SV_TANK4">
+  SV_TANK4
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/ADR/GefahrgutDTO.cs/#L230"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;SV_TANK4&quot;)]
+public virtual string? SV_TANK4 { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_ADR_GefahrgutDTO_SV_TANK5_" data-uid="SLS.Common.DTO.ADR.GefahrgutDTO.SV_TANK5*"></a>
+
+  <h3 id="SLS_Common_DTO_ADR_GefahrgutDTO_SV_TANK5" data-uid="SLS.Common.DTO.ADR.GefahrgutDTO.SV_TANK5">
+  SV_TANK5
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/ADR/GefahrgutDTO.cs/#L234"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;SV_TANK5&quot;)]
+public virtual string? SV_TANK5 { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_ADR_GefahrgutDTO_SV_TANK6_" data-uid="SLS.Common.DTO.ADR.GefahrgutDTO.SV_TANK6*"></a>
+
+  <h3 id="SLS_Common_DTO_ADR_GefahrgutDTO_SV_TANK6" data-uid="SLS.Common.DTO.ADR.GefahrgutDTO.SV_TANK6">
+  SV_TANK6
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/ADR/GefahrgutDTO.cs/#L238"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;SV_TANK6&quot;)]
+public virtual string? SV_TANK6 { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_ADR_GefahrgutDTO_SV_TANK7_" data-uid="SLS.Common.DTO.ADR.GefahrgutDTO.SV_TANK7*"></a>
+
+  <h3 id="SLS_Common_DTO_ADR_GefahrgutDTO_SV_TANK7" data-uid="SLS.Common.DTO.ADR.GefahrgutDTO.SV_TANK7">
+  SV_TANK7
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/ADR/GefahrgutDTO.cs/#L242"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;SV_TANK7&quot;)]
+public virtual string? SV_TANK7 { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_ADR_GefahrgutDTO_SV_TANK8_" data-uid="SLS.Common.DTO.ADR.GefahrgutDTO.SV_TANK8*"></a>
+
+  <h3 id="SLS_Common_DTO_ADR_GefahrgutDTO_SV_TANK8" data-uid="SLS.Common.DTO.ADR.GefahrgutDTO.SV_TANK8">
+  SV_TANK8
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/ADR/GefahrgutDTO.cs/#L434"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;SV_TANK8&quot;)]
+public virtual string? SV_TANK8 { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_ADR_GefahrgutDTO_SV_UNTANK1_" data-uid="SLS.Common.DTO.ADR.GefahrgutDTO.SV_UNTANK1*"></a>
+
+  <h3 id="SLS_Common_DTO_ADR_GefahrgutDTO_SV_UNTANK1" data-uid="SLS.Common.DTO.ADR.GefahrgutDTO.SV_UNTANK1">
+  SV_UNTANK1
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/ADR/GefahrgutDTO.cs/#L194"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;SV_UNTANK1&quot;)]
+public virtual string? SV_UNTANK1 { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_ADR_GefahrgutDTO_SV_UNTANK2_" data-uid="SLS.Common.DTO.ADR.GefahrgutDTO.SV_UNTANK2*"></a>
+
+  <h3 id="SLS_Common_DTO_ADR_GefahrgutDTO_SV_UNTANK2" data-uid="SLS.Common.DTO.ADR.GefahrgutDTO.SV_UNTANK2">
+  SV_UNTANK2
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/ADR/GefahrgutDTO.cs/#L198"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;SV_UNTANK2&quot;)]
+public virtual string? SV_UNTANK2 { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_ADR_GefahrgutDTO_SV_UNTANK3_" data-uid="SLS.Common.DTO.ADR.GefahrgutDTO.SV_UNTANK3*"></a>
+
+  <h3 id="SLS_Common_DTO_ADR_GefahrgutDTO_SV_UNTANK3" data-uid="SLS.Common.DTO.ADR.GefahrgutDTO.SV_UNTANK3">
+  SV_UNTANK3
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/ADR/GefahrgutDTO.cs/#L202"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;SV_UNTANK3&quot;)]
+public virtual string? SV_UNTANK3 { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_ADR_GefahrgutDTO_SV_UNTANK4_" data-uid="SLS.Common.DTO.ADR.GefahrgutDTO.SV_UNTANK4*"></a>
+
+  <h3 id="SLS_Common_DTO_ADR_GefahrgutDTO_SV_UNTANK4" data-uid="SLS.Common.DTO.ADR.GefahrgutDTO.SV_UNTANK4">
+  SV_UNTANK4
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/ADR/GefahrgutDTO.cs/#L206"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;SV_UNTANK4&quot;)]
+public virtual string? SV_UNTANK4 { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_ADR_GefahrgutDTO_SV_VERSANDSTUECKE1_" data-uid="SLS.Common.DTO.ADR.GefahrgutDTO.SV_VERSANDSTUECKE1*"></a>
+
+  <h3 id="SLS_Common_DTO_ADR_GefahrgutDTO_SV_VERSANDSTUECKE1" data-uid="SLS.Common.DTO.ADR.GefahrgutDTO.SV_VERSANDSTUECKE1">
+  SV_VERSANDSTUECKE1
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/ADR/GefahrgutDTO.cs/#L258"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;SV_VERSANDSTUECKE1&quot;)]
+public virtual string? SV_VERSANDSTUECKE1 { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_ADR_GefahrgutDTO_SV_VERSANDSTUECKE2_" data-uid="SLS.Common.DTO.ADR.GefahrgutDTO.SV_VERSANDSTUECKE2*"></a>
+
+  <h3 id="SLS_Common_DTO_ADR_GefahrgutDTO_SV_VERSANDSTUECKE2" data-uid="SLS.Common.DTO.ADR.GefahrgutDTO.SV_VERSANDSTUECKE2">
+  SV_VERSANDSTUECKE2
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/ADR/GefahrgutDTO.cs/#L262"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;SV_VERSANDSTUECKE2&quot;)]
+public virtual string? SV_VERSANDSTUECKE2 { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_ADR_GefahrgutDTO_SV_VERSANDSTUECKE3_" data-uid="SLS.Common.DTO.ADR.GefahrgutDTO.SV_VERSANDSTUECKE3*"></a>
+
+  <h3 id="SLS_Common_DTO_ADR_GefahrgutDTO_SV_VERSANDSTUECKE3" data-uid="SLS.Common.DTO.ADR.GefahrgutDTO.SV_VERSANDSTUECKE3">
+  SV_VERSANDSTUECKE3
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/ADR/GefahrgutDTO.cs/#L266"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;SV_VERSANDSTUECKE3&quot;)]
+public virtual string? SV_VERSANDSTUECKE3 { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_ADR_GefahrgutDTO_SV_VP1_" data-uid="SLS.Common.DTO.ADR.GefahrgutDTO.SV_VP1*"></a>
+
+  <h3 id="SLS_Common_DTO_ADR_GefahrgutDTO_SV_VP1" data-uid="SLS.Common.DTO.ADR.GefahrgutDTO.SV_VP1">
+  SV_VP1
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/ADR/GefahrgutDTO.cs/#L154"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;SV_VP1&quot;)]
+public virtual string? SV_VP1 { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_ADR_GefahrgutDTO_SV_VP2_" data-uid="SLS.Common.DTO.ADR.GefahrgutDTO.SV_VP2*"></a>
+
+  <h3 id="SLS_Common_DTO_ADR_GefahrgutDTO_SV_VP2" data-uid="SLS.Common.DTO.ADR.GefahrgutDTO.SV_VP2">
+  SV_VP2
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/ADR/GefahrgutDTO.cs/#L158"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;SV_VP2&quot;)]
+public virtual string? SV_VP2 { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_ADR_GefahrgutDTO_SV_VP3_" data-uid="SLS.Common.DTO.ADR.GefahrgutDTO.SV_VP3*"></a>
+
+  <h3 id="SLS_Common_DTO_ADR_GefahrgutDTO_SV_VP3" data-uid="SLS.Common.DTO.ADR.GefahrgutDTO.SV_VP3">
+  SV_VP3
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/ADR/GefahrgutDTO.cs/#L162"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;SV_VP3&quot;)]
+public virtual string? SV_VP3 { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_ADR_GefahrgutDTO_SV_VP4_" data-uid="SLS.Common.DTO.ADR.GefahrgutDTO.SV_VP4*"></a>
+
+  <h3 id="SLS_Common_DTO_ADR_GefahrgutDTO_SV_VP4" data-uid="SLS.Common.DTO.ADR.GefahrgutDTO.SV_VP4">
+  SV_VP4
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/ADR/GefahrgutDTO.cs/#L166"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;SV_VP4&quot;)]
+public virtual string? SV_VP4 { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_ADR_GefahrgutDTO_SV_VP5_" data-uid="SLS.Common.DTO.ADR.GefahrgutDTO.SV_VP5*"></a>
+
+  <h3 id="SLS_Common_DTO_ADR_GefahrgutDTO_SV_VP5" data-uid="SLS.Common.DTO.ADR.GefahrgutDTO.SV_VP5">
+  SV_VP5
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/ADR/GefahrgutDTO.cs/#L170"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;SV_VP5&quot;)]
+public virtual string? SV_VP5 { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_ADR_GefahrgutDTO_TANKFAHRZEUG_" data-uid="SLS.Common.DTO.ADR.GefahrgutDTO.TANKFAHRZEUG*"></a>
+
+  <h3 id="SLS_Common_DTO_ADR_GefahrgutDTO_TANKFAHRZEUG" data-uid="SLS.Common.DTO.ADR.GefahrgutDTO.TANKFAHRZEUG">
+  TANKFAHRZEUG
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/ADR/GefahrgutDTO.cs/#L246"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;TANKFAHRZEUG&quot;)]
+public virtual string? TANKFAHRZEUG { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_ADR_GefahrgutDTO_TANK_CODE1_" data-uid="SLS.Common.DTO.ADR.GefahrgutDTO.TANK_CODE1*"></a>
+
+  <h3 id="SLS_Common_DTO_ADR_GefahrgutDTO_TANK_CODE1" data-uid="SLS.Common.DTO.ADR.GefahrgutDTO.TANK_CODE1">
+  TANK_CODE1
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/ADR/GefahrgutDTO.cs/#L210"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;TANK_CODE1&quot;)]
+public virtual string? TANK_CODE1 { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_ADR_GefahrgutDTO_TANK_CODE2_" data-uid="SLS.Common.DTO.ADR.GefahrgutDTO.TANK_CODE2*"></a>
+
+  <h3 id="SLS_Common_DTO_ADR_GefahrgutDTO_TANK_CODE2" data-uid="SLS.Common.DTO.ADR.GefahrgutDTO.TANK_CODE2">
+  TANK_CODE2
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/ADR/GefahrgutDTO.cs/#L214"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;TANK_CODE2&quot;)]
+public virtual string? TANK_CODE2 { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_ADR_GefahrgutDTO_TUNNEL_CODE_" data-uid="SLS.Common.DTO.ADR.GefahrgutDTO.TUNNEL_CODE*"></a>
+
+  <h3 id="SLS_Common_DTO_ADR_GefahrgutDTO_TUNNEL_CODE" data-uid="SLS.Common.DTO.ADR.GefahrgutDTO.TUNNEL_CODE">
+  TUNNEL_CODE
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/ADR/GefahrgutDTO.cs/#L254"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;TUNNEL_CODE&quot;)]
+public virtual string? TUNNEL_CODE { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_ADR_GefahrgutDTO_UNNR_" data-uid="SLS.Common.DTO.ADR.GefahrgutDTO.UNNR*"></a>
+
+  <h3 id="SLS_Common_DTO_ADR_GefahrgutDTO_UNNR" data-uid="SLS.Common.DTO.ADR.GefahrgutDTO.UNNR">
+  UNNR
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/ADR/GefahrgutDTO.cs/#L50"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;UNNR&quot;)]
+public virtual string UNNR { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_ADR_GefahrgutDTO_UN_TANK1_" data-uid="SLS.Common.DTO.ADR.GefahrgutDTO.UN_TANK1*"></a>
+
+  <h3 id="SLS_Common_DTO_ADR_GefahrgutDTO_UN_TANK1" data-uid="SLS.Common.DTO.ADR.GefahrgutDTO.UN_TANK1">
+  UN_TANK1
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/ADR/GefahrgutDTO.cs/#L182"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;UN_TANK1&quot;)]
+public virtual string? UN_TANK1 { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_ADR_GefahrgutDTO_UN_TANK2_" data-uid="SLS.Common.DTO.ADR.GefahrgutDTO.UN_TANK2*"></a>
+
+  <h3 id="SLS_Common_DTO_ADR_GefahrgutDTO_UN_TANK2" data-uid="SLS.Common.DTO.ADR.GefahrgutDTO.UN_TANK2">
+  UN_TANK2
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/ADR/GefahrgutDTO.cs/#L186"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;UN_TANK2&quot;)]
+public virtual string? UN_TANK2 { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_ADR_GefahrgutDTO_UN_TANK3_" data-uid="SLS.Common.DTO.ADR.GefahrgutDTO.UN_TANK3*"></a>
+
+  <h3 id="SLS_Common_DTO_ADR_GefahrgutDTO_UN_TANK3" data-uid="SLS.Common.DTO.ADR.GefahrgutDTO.UN_TANK3">
+  UN_TANK3
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/ADR/GefahrgutDTO.cs/#L190"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;UN_TANK3&quot;)]
+public virtual string? UN_TANK3 { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_ADR_GefahrgutDTO_UN_TANK4_" data-uid="SLS.Common.DTO.ADR.GefahrgutDTO.UN_TANK4*"></a>
+
+  <h3 id="SLS_Common_DTO_ADR_GefahrgutDTO_UN_TANK4" data-uid="SLS.Common.DTO.ADR.GefahrgutDTO.UN_TANK4">
+  UN_TANK4
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/ADR/GefahrgutDTO.cs/#L398"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;UN_TANK4&quot;)]
+public virtual string? UN_TANK4 { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_ADR_GefahrgutDTO_VERBOT_" data-uid="SLS.Common.DTO.ADR.GefahrgutDTO.VERBOT*"></a>
+
+  <h3 id="SLS_Common_DTO_ADR_GefahrgutDTO_VERBOT" data-uid="SLS.Common.DTO.ADR.GefahrgutDTO.VERBOT">
+  VERBOT
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/ADR/GefahrgutDTO.cs/#L370"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;VERBOT&quot;)]
+public virtual int VERBOT { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_ADR_GefahrgutDTO_VERPACKUNGSANW1_" data-uid="SLS.Common.DTO.ADR.GefahrgutDTO.VERPACKUNGSANW1*"></a>
+
+  <h3 id="SLS_Common_DTO_ADR_GefahrgutDTO_VERPACKUNGSANW1" data-uid="SLS.Common.DTO.ADR.GefahrgutDTO.VERPACKUNGSANW1">
+  VERPACKUNGSANW1
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/ADR/GefahrgutDTO.cs/#L134"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;VERPACKUNGSANW1&quot;)]
+public virtual string? VERPACKUNGSANW1 { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_ADR_GefahrgutDTO_VERPACKUNGSANW2_" data-uid="SLS.Common.DTO.ADR.GefahrgutDTO.VERPACKUNGSANW2*"></a>
+
+  <h3 id="SLS_Common_DTO_ADR_GefahrgutDTO_VERPACKUNGSANW2" data-uid="SLS.Common.DTO.ADR.GefahrgutDTO.VERPACKUNGSANW2">
+  VERPACKUNGSANW2
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/ADR/GefahrgutDTO.cs/#L138"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;VERPACKUNGSANW2&quot;)]
+public virtual string? VERPACKUNGSANW2 { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_ADR_GefahrgutDTO_VERPACKUNGSANW3_" data-uid="SLS.Common.DTO.ADR.GefahrgutDTO.VERPACKUNGSANW3*"></a>
+
+  <h3 id="SLS_Common_DTO_ADR_GefahrgutDTO_VERPACKUNGSANW3" data-uid="SLS.Common.DTO.ADR.GefahrgutDTO.VERPACKUNGSANW3">
+  VERPACKUNGSANW3
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/ADR/GefahrgutDTO.cs/#L142"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;VERPACKUNGSANW3&quot;)]
+public virtual string? VERPACKUNGSANW3 { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_ADR_GefahrgutDTO_VERPACKUNGSANW4_" data-uid="SLS.Common.DTO.ADR.GefahrgutDTO.VERPACKUNGSANW4*"></a>
+
+  <h3 id="SLS_Common_DTO_ADR_GefahrgutDTO_VERPACKUNGSANW4" data-uid="SLS.Common.DTO.ADR.GefahrgutDTO.VERPACKUNGSANW4">
+  VERPACKUNGSANW4
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/ADR/GefahrgutDTO.cs/#L146"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;VERPACKUNGSANW4&quot;)]
+public virtual string? VERPACKUNGSANW4 { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_ADR_GefahrgutDTO_VERPACKUNGSANW5_" data-uid="SLS.Common.DTO.ADR.GefahrgutDTO.VERPACKUNGSANW5*"></a>
+
+  <h3 id="SLS_Common_DTO_ADR_GefahrgutDTO_VERPACKUNGSANW5" data-uid="SLS.Common.DTO.ADR.GefahrgutDTO.VERPACKUNGSANW5">
+  VERPACKUNGSANW5
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/ADR/GefahrgutDTO.cs/#L150"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;VERPACKUNGSANW5&quot;)]
+public virtual string? VERPACKUNGSANW5 { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_ADR_GefahrgutDTO_VERPACKUNGSANW6_" data-uid="SLS.Common.DTO.ADR.GefahrgutDTO.VERPACKUNGSANW6*"></a>
+
+  <h3 id="SLS_Common_DTO_ADR_GefahrgutDTO_VERPACKUNGSANW6" data-uid="SLS.Common.DTO.ADR.GefahrgutDTO.VERPACKUNGSANW6">
+  VERPACKUNGSANW6
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/ADR/GefahrgutDTO.cs/#L394"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;VERPACKUNGSANW6&quot;)]
+public virtual string? VERPACKUNGSANW6 { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_ADR_GefahrgutDTO_VERPACKUNGSANW7_" data-uid="SLS.Common.DTO.ADR.GefahrgutDTO.VERPACKUNGSANW7*"></a>
+
+  <h3 id="SLS_Common_DTO_ADR_GefahrgutDTO_VERPACKUNGSANW7" data-uid="SLS.Common.DTO.ADR.GefahrgutDTO.VERPACKUNGSANW7">
+  VERPACKUNGSANW7
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/ADR/GefahrgutDTO.cs/#L422"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;VERPACKUNGSANW7&quot;)]
+public virtual string? VERPACKUNGSANW7 { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_ADR_GefahrgutDTO_VERPACKUNGSANW8_" data-uid="SLS.Common.DTO.ADR.GefahrgutDTO.VERPACKUNGSANW8*"></a>
+
+  <h3 id="SLS_Common_DTO_ADR_GefahrgutDTO_VERPACKUNGSANW8" data-uid="SLS.Common.DTO.ADR.GefahrgutDTO.VERPACKUNGSANW8">
+  VERPACKUNGSANW8
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/ADR/GefahrgutDTO.cs/#L426"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;VERPACKUNGSANW8&quot;)]
+public virtual string? VERPACKUNGSANW8 { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_ADR_GefahrgutDTO_VERPACKUNGSANW9_" data-uid="SLS.Common.DTO.ADR.GefahrgutDTO.VERPACKUNGSANW9*"></a>
+
+  <h3 id="SLS_Common_DTO_ADR_GefahrgutDTO_VERPACKUNGSANW9" data-uid="SLS.Common.DTO.ADR.GefahrgutDTO.VERPACKUNGSANW9">
+  VERPACKUNGSANW9
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/ADR/GefahrgutDTO.cs/#L430"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;VERPACKUNGSANW9&quot;)]
+public virtual string? VERPACKUNGSANW9 { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_ADR_GefahrgutDTO_VERTRAEGL_GR_" data-uid="SLS.Common.DTO.ADR.GefahrgutDTO.VERTRAEGL_GR*"></a>
+
+  <h3 id="SLS_Common_DTO_ADR_GefahrgutDTO_VERTRAEGL_GR" data-uid="SLS.Common.DTO.ADR.GefahrgutDTO.VERTRAEGL_GR">
+  VERTRAEGL_GR
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/ADR/GefahrgutDTO.cs/#L366"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;VERTRAEGL_GR&quot;)]
+public virtual string? VERTRAEGL_GR { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_ADR_GefahrgutDTO_VORSILBE_" data-uid="SLS.Common.DTO.ADR.GefahrgutDTO.VORSILBE*"></a>
+
+  <h3 id="SLS_Common_DTO_ADR_GefahrgutDTO_VORSILBE" data-uid="SLS.Common.DTO.ADR.GefahrgutDTO.VORSILBE">
+  VORSILBE
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/ADR/GefahrgutDTO.cs/#L58"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;VORSILBE&quot;)]
+public virtual string? VORSILBE { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_ADR_GefahrgutDTO_VORSILBE_E_" data-uid="SLS.Common.DTO.ADR.GefahrgutDTO.VORSILBE_E*"></a>
+
+  <h3 id="SLS_Common_DTO_ADR_GefahrgutDTO_VORSILBE_E" data-uid="SLS.Common.DTO.ADR.GefahrgutDTO.VORSILBE_E">
+  VORSILBE_E
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/ADR/GefahrgutDTO.cs/#L330"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;VORSILBE_E&quot;)]
+public virtual string? VORSILBE_E { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_ADR_GefahrgutDTO_VORSILBE_FR_" data-uid="SLS.Common.DTO.ADR.GefahrgutDTO.VORSILBE_FR*"></a>
+
+  <h3 id="SLS_Common_DTO_ADR_GefahrgutDTO_VORSILBE_FR" data-uid="SLS.Common.DTO.ADR.GefahrgutDTO.VORSILBE_FR">
+  VORSILBE_FR
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/ADR/GefahrgutDTO.cs/#L342"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;VORSILBE_FR&quot;)]
+public virtual string? VORSILBE_FR { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_ADR_GefahrgutDTO_VP_GRUPPE_" data-uid="SLS.Common.DTO.ADR.GefahrgutDTO.VP_GRUPPE*"></a>
+
+  <h3 id="SLS_Common_DTO_ADR_GefahrgutDTO_VP_GRUPPE" data-uid="SLS.Common.DTO.ADR.GefahrgutDTO.VP_GRUPPE">
+  VP_GRUPPE
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/ADR/GefahrgutDTO.cs/#L78"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;VP_GRUPPE&quot;)]
+public virtual string? VP_GRUPPE { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_ADR_GefahrgutDTO_ValidUntil_" data-uid="SLS.Common.DTO.ADR.GefahrgutDTO.ValidUntil*"></a>
+
+  <h3 id="SLS_Common_DTO_ADR_GefahrgutDTO_ValidUntil" data-uid="SLS.Common.DTO.ADR.GefahrgutDTO.ValidUntil">
+  ValidUntil
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/ADR/GefahrgutDTO.cs/#L410"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;ValidUntil&quot;)]
+public virtual DateTime? ValidUntil { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.datetime">DateTime</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_ADR_GefahrgutDTO_Version_" data-uid="SLS.Common.DTO.ADR.GefahrgutDTO.Version*"></a>
+
+  <h3 id="SLS_Common_DTO_ADR_GefahrgutDTO_Version" data-uid="SLS.Common.DTO.ADR.GefahrgutDTO.Version">
+  Version
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/ADR/GefahrgutDTO.cs/#L38"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;Version&quot;)]
+public long Version { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_ADR_GefahrgutDTO_ZUSAMMENPACKUNG1_" data-uid="SLS.Common.DTO.ADR.GefahrgutDTO.ZUSAMMENPACKUNG1*"></a>
+
+  <h3 id="SLS_Common_DTO_ADR_GefahrgutDTO_ZUSAMMENPACKUNG1" data-uid="SLS.Common.DTO.ADR.GefahrgutDTO.ZUSAMMENPACKUNG1">
+  ZUSAMMENPACKUNG1
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/ADR/GefahrgutDTO.cs/#L174"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;ZUSAMMENPACKUNG1&quot;)]
+public virtual string? ZUSAMMENPACKUNG1 { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_ADR_GefahrgutDTO_ZUSAMMENPACKUNG2_" data-uid="SLS.Common.DTO.ADR.GefahrgutDTO.ZUSAMMENPACKUNG2*"></a>
+
+  <h3 id="SLS_Common_DTO_ADR_GefahrgutDTO_ZUSAMMENPACKUNG2" data-uid="SLS.Common.DTO.ADR.GefahrgutDTO.ZUSAMMENPACKUNG2">
+  ZUSAMMENPACKUNG2
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/ADR/GefahrgutDTO.cs/#L178"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;ZUSAMMENPACKUNG2&quot;)]
+public virtual string? ZUSAMMENPACKUNG2 { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+</article>
+
+        <div class="contribution d-print-none">
+          <a href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/ADR/GefahrgutDTO.cs/#L28" class="edit-link">Edit this page</a>
+        </div>
+
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

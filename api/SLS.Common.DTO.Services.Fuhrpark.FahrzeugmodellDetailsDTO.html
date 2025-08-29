@@ -1,0 +1,1471 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Class FahrzeugmodellDetailsDTO | SLS Documentation </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Class FahrzeugmodellDetailsDTO | SLS Documentation ">
+      
+      
+      <link rel="icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="../">
+      
+      
+      <meta name="docfx:docurl" content="https://github.com/Dev-SLS/dev/new/Dev/apiSpec/new?filename=SLS_Common_DTO_Services_Fuhrpark_FahrzeugmodellDetailsDTO.md&amp;value=---%0Auid%3A%20SLS.Common.DTO.Services.Fuhrpark.FahrzeugmodellDetailsDTO%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../logo.svg" alt="SLS Documentation">
+            SLS Documentation
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="SLS.Common.DTO.Services.Fuhrpark.FahrzeugmodellDetailsDTO">
+
+
+
+  <h1 id="SLS_Common_DTO_Services_Fuhrpark_FahrzeugmodellDetailsDTO" data-uid="SLS.Common.DTO.Services.Fuhrpark.FahrzeugmodellDetailsDTO" class="text-break">
+Class FahrzeugmodellDetailsDTO  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Services/Fuhrpark/FahrzeugmodellDetailsDTO.cs/#L28"><i class="bi bi-code-slash"></i></a>
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="SLS.html">SLS</a>.<a class="xref" href="SLS.Common.html">Common</a>.<a class="xref" href="SLS.Common.DTO.html">DTO</a>.<a class="xref" href="SLS.Common.DTO.Services.html">Services</a>.<a class="xref" href="SLS.Common.DTO.Services.Fuhrpark.html">Fuhrpark</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>SLS.Common.DTO.dll</dd></dl>
+  </div>
+
+  <div class="markdown summary"></div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Serializable]
+[DataContract(IsReference = true)]
+public class FahrzeugmodellDetailsDTO : IBusinessDTO, IDTO</code></pre>
+  </div>
+
+
+
+
+  <dl class="typelist inheritance">
+    <dt>Inheritance</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+      <div><span class="xref">FahrzeugmodellDetailsDTO</span></div>
+    </dd>
+  </dl>
+
+  <dl class="typelist implements">
+    <dt>Implements</dt>
+    <dd>
+      <div><a class="xref" href="SLS.Common.Interfaces.IBusinessDTO.html">IBusinessDTO</a></div>
+      <div><a class="xref" href="SLS.Common.Interfaces.IDTO.html">IDTO</a></div>
+    </dd>
+  </dl>
+
+
+  <dl class="typelist inheritedMembers">
+    <dt>Inherited Members</dt>
+    <dd>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)">object.Equals(object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">object.Equals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gethashcode">object.GetHashCode()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gettype">object.GetType()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone">object.MemberwiseClone()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals">object.ReferenceEquals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.tostring">object.ToString()</a>
+    </div>
+  </dd></dl>
+
+
+
+
+
+
+  <h2 class="section" id="properties">Properties
+</h2>
+
+
+  <a id="SLS_Common_DTO_Services_Fuhrpark_FahrzeugmodellDetailsDTO_Achse_" data-uid="SLS.Common.DTO.Services.Fuhrpark.FahrzeugmodellDetailsDTO.Achse*"></a>
+
+  <h3 id="SLS_Common_DTO_Services_Fuhrpark_FahrzeugmodellDetailsDTO_Achse" data-uid="SLS.Common.DTO.Services.Fuhrpark.FahrzeugmodellDetailsDTO.Achse">
+  Achse
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Services/Fuhrpark/FahrzeugmodellDetailsDTO.cs/#L76"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;Achse&quot;)]
+public virtual string Achse { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Services_Fuhrpark_FahrzeugmodellDetailsDTO_AusschlussCodes_" data-uid="SLS.Common.DTO.Services.Fuhrpark.FahrzeugmodellDetailsDTO.AusschlussCodes*"></a>
+
+  <h3 id="SLS_Common_DTO_Services_Fuhrpark_FahrzeugmodellDetailsDTO_AusschlussCodes" data-uid="SLS.Common.DTO.Services.Fuhrpark.FahrzeugmodellDetailsDTO.AusschlussCodes">
+  AusschlussCodes
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Services/Fuhrpark/FahrzeugmodellDetailsDTO.cs/#L100"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;AusschlussCodes&quot;)]
+public virtual string? AusschlussCodes { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Services_Fuhrpark_FahrzeugmodellDetailsDTO_BedingungsCodes_" data-uid="SLS.Common.DTO.Services.Fuhrpark.FahrzeugmodellDetailsDTO.BedingungsCodes*"></a>
+
+  <h3 id="SLS_Common_DTO_Services_Fuhrpark_FahrzeugmodellDetailsDTO_BedingungsCodes" data-uid="SLS.Common.DTO.Services.Fuhrpark.FahrzeugmodellDetailsDTO.BedingungsCodes">
+  BedingungsCodes
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Services/Fuhrpark/FahrzeugmodellDetailsDTO.cs/#L152"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;BedingungsCodes&quot;)]
+public virtual string? BedingungsCodes { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Services_Fuhrpark_FahrzeugmodellDetailsDTO_Company_ID_" data-uid="SLS.Common.DTO.Services.Fuhrpark.FahrzeugmodellDetailsDTO.Company_ID*"></a>
+
+  <h3 id="SLS_Common_DTO_Services_Fuhrpark_FahrzeugmodellDetailsDTO_Company_ID" data-uid="SLS.Common.DTO.Services.Fuhrpark.FahrzeugmodellDetailsDTO.Company_ID">
+  Company_ID
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Services/Fuhrpark/FahrzeugmodellDetailsDTO.cs/#L41"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public long? Company_ID { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Services_Fuhrpark_FahrzeugmodellDetailsDTO_Department_ID_" data-uid="SLS.Common.DTO.Services.Fuhrpark.FahrzeugmodellDetailsDTO.Department_ID*"></a>
+
+  <h3 id="SLS_Common_DTO_Services_Fuhrpark_FahrzeugmodellDetailsDTO_Department_ID" data-uid="SLS.Common.DTO.Services.Fuhrpark.FahrzeugmodellDetailsDTO.Department_ID">
+  Department_ID
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Services/Fuhrpark/FahrzeugmodellDetailsDTO.cs/#L43"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public long? Department_ID { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Services_Fuhrpark_FahrzeugmodellDetailsDTO_Division_ID_" data-uid="SLS.Common.DTO.Services.Fuhrpark.FahrzeugmodellDetailsDTO.Division_ID*"></a>
+
+  <h3 id="SLS_Common_DTO_Services_Fuhrpark_FahrzeugmodellDetailsDTO_Division_ID" data-uid="SLS.Common.DTO.Services.Fuhrpark.FahrzeugmodellDetailsDTO.Division_ID">
+  Division_ID
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Services/Fuhrpark/FahrzeugmodellDetailsDTO.cs/#L45"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public long? Division_ID { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Services_Fuhrpark_FahrzeugmodellDetailsDTO_Drehmoment_" data-uid="SLS.Common.DTO.Services.Fuhrpark.FahrzeugmodellDetailsDTO.Drehmoment*"></a>
+
+  <h3 id="SLS_Common_DTO_Services_Fuhrpark_FahrzeugmodellDetailsDTO_Drehmoment" data-uid="SLS.Common.DTO.Services.Fuhrpark.FahrzeugmodellDetailsDTO.Drehmoment">
+  Drehmoment
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Services/Fuhrpark/FahrzeugmodellDetailsDTO.cs/#L92"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;Drehmoment&quot;)]
+public virtual double Drehmoment { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Services_Fuhrpark_FahrzeugmodellDetailsDTO_Fahrzeugmodell_" data-uid="SLS.Common.DTO.Services.Fuhrpark.FahrzeugmodellDetailsDTO.Fahrzeugmodell*"></a>
+
+  <h3 id="SLS_Common_DTO_Services_Fuhrpark_FahrzeugmodellDetailsDTO_Fahrzeugmodell" data-uid="SLS.Common.DTO.Services.Fuhrpark.FahrzeugmodellDetailsDTO.Fahrzeugmodell">
+  Fahrzeugmodell
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Services/Fuhrpark/FahrzeugmodellDetailsDTO.cs/#L172"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[ForeignKey(&quot;FahrzeugmodellCollection&quot;)]
+[InverseProperty(&quot;FahrzeugmodellDetails_Fahrzeugmodell&quot;)]
+public virtual FahrzeugmodellDTO? Fahrzeugmodell { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="SLS.Common.DTO.Services.Fuhrpark.FahrzeugmodellDTO.html">FahrzeugmodellDTO</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Services_Fuhrpark_FahrzeugmodellDetailsDTO_FahrzeugmodellID_" data-uid="SLS.Common.DTO.Services.Fuhrpark.FahrzeugmodellDetailsDTO.FahrzeugmodellID*"></a>
+
+  <h3 id="SLS_Common_DTO_Services_Fuhrpark_FahrzeugmodellDetailsDTO_FahrzeugmodellID" data-uid="SLS.Common.DTO.Services.Fuhrpark.FahrzeugmodellDetailsDTO.FahrzeugmodellID">
+  FahrzeugmodellID
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Services/Fuhrpark/FahrzeugmodellDetailsDTO.cs/#L52"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;FahrzeugmodellCollection&quot;)]
+[ForeignKey(&quot;FahrzeugmodellCollection&quot;)]
+public virtual long FahrzeugmodellID { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Services_Fuhrpark_FahrzeugmodellDetailsDTO_Felge_" data-uid="SLS.Common.DTO.Services.Fuhrpark.FahrzeugmodellDetailsDTO.Felge*"></a>
+
+  <h3 id="SLS_Common_DTO_Services_Fuhrpark_FahrzeugmodellDetailsDTO_Felge" data-uid="SLS.Common.DTO.Services.Fuhrpark.FahrzeugmodellDetailsDTO.Felge">
+  Felge
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Services/Fuhrpark/FahrzeugmodellDetailsDTO.cs/#L182"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[ForeignKey(&quot;FelgeCollection&quot;)]
+[InverseProperty(&quot;FahrzeugmodellDetails_Felge&quot;)]
+[JsonIgnore]
+public virtual ArticleTypeDTO? Felge { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="SLS.Common.DTO.MasterData.Article.ArticleTypeDTO.html">ArticleTypeDTO</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Services_Fuhrpark_FahrzeugmodellDetailsDTO_FelgeID_" data-uid="SLS.Common.DTO.Services.Fuhrpark.FahrzeugmodellDetailsDTO.FelgeID*"></a>
+
+  <h3 id="SLS_Common_DTO_Services_Fuhrpark_FahrzeugmodellDetailsDTO_FelgeID" data-uid="SLS.Common.DTO.Services.Fuhrpark.FahrzeugmodellDetailsDTO.FelgeID">
+  FelgeID
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Services/Fuhrpark/FahrzeugmodellDetailsDTO.cs/#L62"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;FelgeCollection&quot;)]
+[ForeignKey(&quot;FelgeCollection&quot;)]
+public virtual long FelgeID { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Services_Fuhrpark_FahrzeugmodellDetailsDTO_FiscalYear_ID_" data-uid="SLS.Common.DTO.Services.Fuhrpark.FahrzeugmodellDetailsDTO.FiscalYear_ID*"></a>
+
+  <h3 id="SLS_Common_DTO_Services_Fuhrpark_FahrzeugmodellDetailsDTO_FiscalYear_ID" data-uid="SLS.Common.DTO.Services.Fuhrpark.FahrzeugmodellDetailsDTO.FiscalYear_ID">
+  FiscalYear_ID
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Services/Fuhrpark/FahrzeugmodellDetailsDTO.cs/#L44"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public long? FiscalYear_ID { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Services_Fuhrpark_FahrzeugmodellDetailsDTO_Id_" data-uid="SLS.Common.DTO.Services.Fuhrpark.FahrzeugmodellDetailsDTO.Id*"></a>
+
+  <h3 id="SLS_Common_DTO_Services_Fuhrpark_FahrzeugmodellDetailsDTO_Id" data-uid="SLS.Common.DTO.Services.Fuhrpark.FahrzeugmodellDetailsDTO.Id">
+  Id
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Services/Fuhrpark/FahrzeugmodellDetailsDTO.cs/#L34"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;ID&quot;)]
+public long Id { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Services_Fuhrpark_FahrzeugmodellDetailsDTO_LoadIndex_" data-uid="SLS.Common.DTO.Services.Fuhrpark.FahrzeugmodellDetailsDTO.LoadIndex*"></a>
+
+  <h3 id="SLS_Common_DTO_Services_Fuhrpark_FahrzeugmodellDetailsDTO_LoadIndex" data-uid="SLS.Common.DTO.Services.Fuhrpark.FahrzeugmodellDetailsDTO.LoadIndex">
+  LoadIndex
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Services/Fuhrpark/FahrzeugmodellDetailsDTO.cs/#L84"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;LoadIndex&quot;)]
+public virtual string LoadIndex { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Services_Fuhrpark_FahrzeugmodellDetailsDTO_LuftdruckHA_" data-uid="SLS.Common.DTO.Services.Fuhrpark.FahrzeugmodellDetailsDTO.LuftdruckHA*"></a>
+
+  <h3 id="SLS_Common_DTO_Services_Fuhrpark_FahrzeugmodellDetailsDTO_LuftdruckHA" data-uid="SLS.Common.DTO.Services.Fuhrpark.FahrzeugmodellDetailsDTO.LuftdruckHA">
+  LuftdruckHA
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Services/Fuhrpark/FahrzeugmodellDetailsDTO.cs/#L148"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;LuftdruckHA&quot;)]
+public virtual double? LuftdruckHA { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Services_Fuhrpark_FahrzeugmodellDetailsDTO_LuftdruckVA_" data-uid="SLS.Common.DTO.Services.Fuhrpark.FahrzeugmodellDetailsDTO.LuftdruckVA*"></a>
+
+  <h3 id="SLS_Common_DTO_Services_Fuhrpark_FahrzeugmodellDetailsDTO_LuftdruckVA" data-uid="SLS.Common.DTO.Services.Fuhrpark.FahrzeugmodellDetailsDTO.LuftdruckVA">
+  LuftdruckVA
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Services/Fuhrpark/FahrzeugmodellDetailsDTO.cs/#L88"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;LuftdruckVA&quot;)]
+public virtual double? LuftdruckVA { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Services_Fuhrpark_FahrzeugmodellDetailsDTO_MontageHinweise_" data-uid="SLS.Common.DTO.Services.Fuhrpark.FahrzeugmodellDetailsDTO.MontageHinweise*"></a>
+
+  <h3 id="SLS_Common_DTO_Services_Fuhrpark_FahrzeugmodellDetailsDTO_MontageHinweise" data-uid="SLS.Common.DTO.Services.Fuhrpark.FahrzeugmodellDetailsDTO.MontageHinweise">
+  MontageHinweise
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Services/Fuhrpark/FahrzeugmodellDetailsDTO.cs/#L144"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;MontageHinweise&quot;)]
+public virtual string? MontageHinweise { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Services_Fuhrpark_FahrzeugmodellDetailsDTO_Optional_Boolean1_" data-uid="SLS.Common.DTO.Services.Fuhrpark.FahrzeugmodellDetailsDTO.Optional_Boolean1*"></a>
+
+  <h3 id="SLS_Common_DTO_Services_Fuhrpark_FahrzeugmodellDetailsDTO_Optional_Boolean1" data-uid="SLS.Common.DTO.Services.Fuhrpark.FahrzeugmodellDetailsDTO.Optional_Boolean1">
+  Optional_Boolean1
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Services/Fuhrpark/FahrzeugmodellDetailsDTO.cs/#L156"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;Optional_Boolean1&quot;)]
+public virtual bool? Optional_Boolean1 { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Services_Fuhrpark_FahrzeugmodellDetailsDTO_Optional_Boolean2_" data-uid="SLS.Common.DTO.Services.Fuhrpark.FahrzeugmodellDetailsDTO.Optional_Boolean2*"></a>
+
+  <h3 id="SLS_Common_DTO_Services_Fuhrpark_FahrzeugmodellDetailsDTO_Optional_Boolean2" data-uid="SLS.Common.DTO.Services.Fuhrpark.FahrzeugmodellDetailsDTO.Optional_Boolean2">
+  Optional_Boolean2
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Services/Fuhrpark/FahrzeugmodellDetailsDTO.cs/#L160"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;Optional_Boolean2&quot;)]
+public virtual bool? Optional_Boolean2 { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Services_Fuhrpark_FahrzeugmodellDetailsDTO_Optional_Boolean3_" data-uid="SLS.Common.DTO.Services.Fuhrpark.FahrzeugmodellDetailsDTO.Optional_Boolean3*"></a>
+
+  <h3 id="SLS_Common_DTO_Services_Fuhrpark_FahrzeugmodellDetailsDTO_Optional_Boolean3" data-uid="SLS.Common.DTO.Services.Fuhrpark.FahrzeugmodellDetailsDTO.Optional_Boolean3">
+  Optional_Boolean3
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Services/Fuhrpark/FahrzeugmodellDetailsDTO.cs/#L164"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;Optional_Boolean3&quot;)]
+public virtual bool? Optional_Boolean3 { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Services_Fuhrpark_FahrzeugmodellDetailsDTO_Optional_Number_1_" data-uid="SLS.Common.DTO.Services.Fuhrpark.FahrzeugmodellDetailsDTO.Optional_Number_1*"></a>
+
+  <h3 id="SLS_Common_DTO_Services_Fuhrpark_FahrzeugmodellDetailsDTO_Optional_Number_1" data-uid="SLS.Common.DTO.Services.Fuhrpark.FahrzeugmodellDetailsDTO.Optional_Number_1">
+  Optional_Number_1
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Services/Fuhrpark/FahrzeugmodellDetailsDTO.cs/#L124"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;Optional_Number_1&quot;)]
+public virtual long? Optional_Number_1 { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Services_Fuhrpark_FahrzeugmodellDetailsDTO_Optional_Number_2_" data-uid="SLS.Common.DTO.Services.Fuhrpark.FahrzeugmodellDetailsDTO.Optional_Number_2*"></a>
+
+  <h3 id="SLS_Common_DTO_Services_Fuhrpark_FahrzeugmodellDetailsDTO_Optional_Number_2" data-uid="SLS.Common.DTO.Services.Fuhrpark.FahrzeugmodellDetailsDTO.Optional_Number_2">
+  Optional_Number_2
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Services/Fuhrpark/FahrzeugmodellDetailsDTO.cs/#L128"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;Optional_Number_2&quot;)]
+public virtual long? Optional_Number_2 { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Services_Fuhrpark_FahrzeugmodellDetailsDTO_Optional_Number_3_" data-uid="SLS.Common.DTO.Services.Fuhrpark.FahrzeugmodellDetailsDTO.Optional_Number_3*"></a>
+
+  <h3 id="SLS_Common_DTO_Services_Fuhrpark_FahrzeugmodellDetailsDTO_Optional_Number_3" data-uid="SLS.Common.DTO.Services.Fuhrpark.FahrzeugmodellDetailsDTO.Optional_Number_3">
+  Optional_Number_3
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Services/Fuhrpark/FahrzeugmodellDetailsDTO.cs/#L132"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;Optional_Number_3&quot;)]
+public virtual long? Optional_Number_3 { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Services_Fuhrpark_FahrzeugmodellDetailsDTO_Optional_Number_4_" data-uid="SLS.Common.DTO.Services.Fuhrpark.FahrzeugmodellDetailsDTO.Optional_Number_4*"></a>
+
+  <h3 id="SLS_Common_DTO_Services_Fuhrpark_FahrzeugmodellDetailsDTO_Optional_Number_4" data-uid="SLS.Common.DTO.Services.Fuhrpark.FahrzeugmodellDetailsDTO.Optional_Number_4">
+  Optional_Number_4
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Services/Fuhrpark/FahrzeugmodellDetailsDTO.cs/#L136"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;Optional_Number_4&quot;)]
+public virtual long? Optional_Number_4 { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Services_Fuhrpark_FahrzeugmodellDetailsDTO_Optional_Number_5_" data-uid="SLS.Common.DTO.Services.Fuhrpark.FahrzeugmodellDetailsDTO.Optional_Number_5*"></a>
+
+  <h3 id="SLS_Common_DTO_Services_Fuhrpark_FahrzeugmodellDetailsDTO_Optional_Number_5" data-uid="SLS.Common.DTO.Services.Fuhrpark.FahrzeugmodellDetailsDTO.Optional_Number_5">
+  Optional_Number_5
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Services/Fuhrpark/FahrzeugmodellDetailsDTO.cs/#L140"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;Optional_Number_5&quot;)]
+public virtual long? Optional_Number_5 { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Services_Fuhrpark_FahrzeugmodellDetailsDTO_Optional_String_1_" data-uid="SLS.Common.DTO.Services.Fuhrpark.FahrzeugmodellDetailsDTO.Optional_String_1*"></a>
+
+  <h3 id="SLS_Common_DTO_Services_Fuhrpark_FahrzeugmodellDetailsDTO_Optional_String_1" data-uid="SLS.Common.DTO.Services.Fuhrpark.FahrzeugmodellDetailsDTO.Optional_String_1">
+  Optional_String_1
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Services/Fuhrpark/FahrzeugmodellDetailsDTO.cs/#L104"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;Optional_String_1&quot;)]
+public virtual string? Optional_String_1 { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Services_Fuhrpark_FahrzeugmodellDetailsDTO_Optional_String_2_" data-uid="SLS.Common.DTO.Services.Fuhrpark.FahrzeugmodellDetailsDTO.Optional_String_2*"></a>
+
+  <h3 id="SLS_Common_DTO_Services_Fuhrpark_FahrzeugmodellDetailsDTO_Optional_String_2" data-uid="SLS.Common.DTO.Services.Fuhrpark.FahrzeugmodellDetailsDTO.Optional_String_2">
+  Optional_String_2
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Services/Fuhrpark/FahrzeugmodellDetailsDTO.cs/#L108"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;Optional_String_2&quot;)]
+public virtual string? Optional_String_2 { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Services_Fuhrpark_FahrzeugmodellDetailsDTO_Optional_String_3_" data-uid="SLS.Common.DTO.Services.Fuhrpark.FahrzeugmodellDetailsDTO.Optional_String_3*"></a>
+
+  <h3 id="SLS_Common_DTO_Services_Fuhrpark_FahrzeugmodellDetailsDTO_Optional_String_3" data-uid="SLS.Common.DTO.Services.Fuhrpark.FahrzeugmodellDetailsDTO.Optional_String_3">
+  Optional_String_3
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Services/Fuhrpark/FahrzeugmodellDetailsDTO.cs/#L112"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;Optional_String_3&quot;)]
+public virtual string? Optional_String_3 { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Services_Fuhrpark_FahrzeugmodellDetailsDTO_Optional_String_4_" data-uid="SLS.Common.DTO.Services.Fuhrpark.FahrzeugmodellDetailsDTO.Optional_String_4*"></a>
+
+  <h3 id="SLS_Common_DTO_Services_Fuhrpark_FahrzeugmodellDetailsDTO_Optional_String_4" data-uid="SLS.Common.DTO.Services.Fuhrpark.FahrzeugmodellDetailsDTO.Optional_String_4">
+  Optional_String_4
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Services/Fuhrpark/FahrzeugmodellDetailsDTO.cs/#L116"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;Optional_String_4&quot;)]
+public virtual string? Optional_String_4 { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Services_Fuhrpark_FahrzeugmodellDetailsDTO_Optional_String_5_" data-uid="SLS.Common.DTO.Services.Fuhrpark.FahrzeugmodellDetailsDTO.Optional_String_5*"></a>
+
+  <h3 id="SLS_Common_DTO_Services_Fuhrpark_FahrzeugmodellDetailsDTO_Optional_String_5" data-uid="SLS.Common.DTO.Services.Fuhrpark.FahrzeugmodellDetailsDTO.Optional_String_5">
+  Optional_String_5
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Services/Fuhrpark/FahrzeugmodellDetailsDTO.cs/#L120"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;Optional_String_5&quot;)]
+public virtual string? Optional_String_5 { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Services_Fuhrpark_FahrzeugmodellDetailsDTO_Prioritaet_" data-uid="SLS.Common.DTO.Services.Fuhrpark.FahrzeugmodellDetailsDTO.Prioritaet*"></a>
+
+  <h3 id="SLS_Common_DTO_Services_Fuhrpark_FahrzeugmodellDetailsDTO_Prioritaet" data-uid="SLS.Common.DTO.Services.Fuhrpark.FahrzeugmodellDetailsDTO.Prioritaet">
+  Prioritaet
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Services/Fuhrpark/FahrzeugmodellDetailsDTO.cs/#L96"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;Prioritaet&quot;)]
+public virtual int Prioritaet { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Services_Fuhrpark_FahrzeugmodellDetailsDTO_Rad_" data-uid="SLS.Common.DTO.Services.Fuhrpark.FahrzeugmodellDetailsDTO.Rad*"></a>
+
+  <h3 id="SLS_Common_DTO_Services_Fuhrpark_FahrzeugmodellDetailsDTO_Rad" data-uid="SLS.Common.DTO.Services.Fuhrpark.FahrzeugmodellDetailsDTO.Rad">
+  Rad
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Services/Fuhrpark/FahrzeugmodellDetailsDTO.cs/#L177"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[ForeignKey(&quot;RadCollection&quot;)]
+[InverseProperty(&quot;FahrzeugmodellDetails_Rad&quot;)]
+[JsonIgnore]
+public virtual ArticleSetDTO? Rad { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="SLS.Common.DTO.MasterData.Article.ArticleSetDTO.html">ArticleSetDTO</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Services_Fuhrpark_FahrzeugmodellDetailsDTO_RadID_" data-uid="SLS.Common.DTO.Services.Fuhrpark.FahrzeugmodellDetailsDTO.RadID*"></a>
+
+  <h3 id="SLS_Common_DTO_Services_Fuhrpark_FahrzeugmodellDetailsDTO_RadID" data-uid="SLS.Common.DTO.Services.Fuhrpark.FahrzeugmodellDetailsDTO.RadID">
+  RadID
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Services/Fuhrpark/FahrzeugmodellDetailsDTO.cs/#L57"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;RadCollection&quot;)]
+[ForeignKey(&quot;RadCollection&quot;)]
+public virtual long? RadID { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Services_Fuhrpark_FahrzeugmodellDetailsDTO_Reifen_" data-uid="SLS.Common.DTO.Services.Fuhrpark.FahrzeugmodellDetailsDTO.Reifen*"></a>
+
+  <h3 id="SLS_Common_DTO_Services_Fuhrpark_FahrzeugmodellDetailsDTO_Reifen" data-uid="SLS.Common.DTO.Services.Fuhrpark.FahrzeugmodellDetailsDTO.Reifen">
+  Reifen
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Services/Fuhrpark/FahrzeugmodellDetailsDTO.cs/#L187"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[ForeignKey(&quot;ReifenCollection&quot;)]
+[InverseProperty(&quot;FahrzeugmodellDetails_Reifen&quot;)]
+[JsonIgnore]
+public virtual ArticleTypeDTO? Reifen { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="SLS.Common.DTO.MasterData.Article.ArticleTypeDTO.html">ArticleTypeDTO</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Services_Fuhrpark_FahrzeugmodellDetailsDTO_ReifenID_" data-uid="SLS.Common.DTO.Services.Fuhrpark.FahrzeugmodellDetailsDTO.ReifenID*"></a>
+
+  <h3 id="SLS_Common_DTO_Services_Fuhrpark_FahrzeugmodellDetailsDTO_ReifenID" data-uid="SLS.Common.DTO.Services.Fuhrpark.FahrzeugmodellDetailsDTO.ReifenID">
+  ReifenID
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Services/Fuhrpark/FahrzeugmodellDetailsDTO.cs/#L67"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;ReifenCollection&quot;)]
+[ForeignKey(&quot;ReifenCollection&quot;)]
+public virtual long ReifenID { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Services_Fuhrpark_FahrzeugmodellDetailsDTO_SpeedIndex_" data-uid="SLS.Common.DTO.Services.Fuhrpark.FahrzeugmodellDetailsDTO.SpeedIndex*"></a>
+
+  <h3 id="SLS_Common_DTO_Services_Fuhrpark_FahrzeugmodellDetailsDTO_SpeedIndex" data-uid="SLS.Common.DTO.Services.Fuhrpark.FahrzeugmodellDetailsDTO.SpeedIndex">
+  SpeedIndex
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Services/Fuhrpark/FahrzeugmodellDetailsDTO.cs/#L80"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;SpeedIndex&quot;)]
+public virtual string SpeedIndex { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Services_Fuhrpark_FahrzeugmodellDetailsDTO_Subsidiary_ID_" data-uid="SLS.Common.DTO.Services.Fuhrpark.FahrzeugmodellDetailsDTO.Subsidiary_ID*"></a>
+
+  <h3 id="SLS_Common_DTO_Services_Fuhrpark_FahrzeugmodellDetailsDTO_Subsidiary_ID" data-uid="SLS.Common.DTO.Services.Fuhrpark.FahrzeugmodellDetailsDTO.Subsidiary_ID">
+  Subsidiary_ID
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Services/Fuhrpark/FahrzeugmodellDetailsDTO.cs/#L42"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public long? Subsidiary_ID { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Services_Fuhrpark_FahrzeugmodellDetailsDTO_User_ID_" data-uid="SLS.Common.DTO.Services.Fuhrpark.FahrzeugmodellDetailsDTO.User_ID*"></a>
+
+  <h3 id="SLS_Common_DTO_Services_Fuhrpark_FahrzeugmodellDetailsDTO_User_ID" data-uid="SLS.Common.DTO.Services.Fuhrpark.FahrzeugmodellDetailsDTO.User_ID">
+  User_ID
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Services/Fuhrpark/FahrzeugmodellDetailsDTO.cs/#L46"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public long? User_ID { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="SLS_Common_DTO_Services_Fuhrpark_FahrzeugmodellDetailsDTO_Version_" data-uid="SLS.Common.DTO.Services.Fuhrpark.FahrzeugmodellDetailsDTO.Version*"></a>
+
+  <h3 id="SLS_Common_DTO_Services_Fuhrpark_FahrzeugmodellDetailsDTO_Version" data-uid="SLS.Common.DTO.Services.Fuhrpark.FahrzeugmodellDetailsDTO.Version">
+  Version
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Services/Fuhrpark/FahrzeugmodellDetailsDTO.cs/#L38"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DataMember]
+[Column(&quot;Version&quot;)]
+public long Version { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+</article>
+
+        <div class="contribution d-print-none">
+          <a href="https://github.com/Dev-SLS/dev/blob/Dev/FrameWork/SLS.Common/DTO/Services/Fuhrpark/FahrzeugmodellDetailsDTO.cs/#L28" class="edit-link">Edit this page</a>
+        </div>
+
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
